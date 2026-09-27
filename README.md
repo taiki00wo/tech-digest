@@ -2,7 +2,7 @@
 
 毎朝、AI・フロントエンド・バックエンド・インフラ・プロダクトの技術情報を集めて、Claudeが要約したHTMLダイジェストを作るツール。
 
-- `.github/workflows/collect.yml` … 毎朝6:00 JSTに GitHub Actions で `collect.py` を実行して収集結果をコミット
+- `.github/workflows/collect.yml` … 毎朝5:17・6:17 JSTに GitHub Actions で `collect.py` を実行して収集結果をコミット
 - `oss.py` … GitHub APIで急上昇リポジトリ（スター増分）・リリース・READMEを取得
 - `collect.py` … Hacker News / Zenn / Qiita / はてブ / 公式ブログ・Speaker Deck（RSS）から収集 → `data/raw/`
 - `TASK.md` … Claudeが毎朝行う手順（要約・今日の3本の選定 → `data/picks/`）
