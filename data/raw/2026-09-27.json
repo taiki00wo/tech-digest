@@ -2,19 +2,33 @@
  "date": "2026-09-27",
  "weekday": "日",
  "deep_dive_day": false,
- "collected_at": "2026-09-27T13:45:55+09:00",
- "errors": {
-  "GitHub": "HTTP Error 403: Forbidden"
- },
+ "collected_at": "2026-09-27T13:52:14+09:00",
+ "errors": {},
  "items": [
+  {
+   "source": "Hacker News",
+   "title": "Go Concurrency Distilled",
+   "url": "https://antonz.org/go-concurrency-distilled/",
+   "summary": "",
+   "score": 101,
+   "meta": {
+    "comments": 31,
+    "discussion": "https://news.ycombinator.com/item?id=49856988",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
   {
    "source": "Hacker News",
    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
    "url": "https://github.com/InfinityLoop1308/PipePipe",
    "summary": "",
-   "score": 352,
+   "score": 354,
    "meta": {
-    "comments": 197,
+    "comments": 198,
     "discussion": "https://news.ycombinator.com/item?id=49842764",
     "score_label": "points"
    },
@@ -28,9 +42,9 @@
    "title": "DeepSeek Elastic Compute (DSec)",
    "url": "https://arxiv.org/abs/2609.22978",
    "summary": "",
-   "score": 199,
+   "score": 200,
    "meta": {
-    "comments": 59,
+    "comments": 61,
     "discussion": "https://news.ycombinator.com/item?id=49859112",
     "score_label": "points"
    },
@@ -44,9 +58,9 @@
    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
    "url": "https://github.com/reladraw/reladraw",
    "summary": "",
-   "score": 227,
+   "score": 229,
    "meta": {
-    "comments": 64,
+    "comments": 66,
     "discussion": "https://news.ycombinator.com/item?id=49858513",
     "score_label": "points"
    },
@@ -60,9 +74,9 @@
    "title": "Does Georgism work? Five years later",
    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
    "summary": "",
-   "score": 212,
+   "score": 215,
    "meta": {
-    "comments": 143,
+    "comments": 145,
     "discussion": "https://news.ycombinator.com/item?id=49844657",
     "score_label": "points"
    },
@@ -76,7 +90,7 @@
    "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
    "url": "https://www.movingimagearchive.com/",
    "summary": "",
-   "score": 138,
+   "score": 139,
    "meta": {
     "comments": 26,
     "discussion": "https://news.ycombinator.com/item?id=49832768",
@@ -124,9 +138,9 @@
    "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
    "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
    "summary": "",
-   "score": 199,
+   "score": 200,
    "meta": {
-    "comments": 511,
+    "comments": 512,
     "discussion": "https://news.ycombinator.com/item?id=49844663",
     "score_label": "points"
    },
@@ -174,7 +188,7 @@
    "summary": "",
    "score": 179,
    "meta": {
-    "comments": 232,
+    "comments": 233,
     "discussion": "https://news.ycombinator.com/item?id=49854875",
     "score_label": "points"
    },
@@ -281,13 +295,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "Plunging test scores are a slow-moving catastrophe",
-   "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+   "title": "16GB iPod Nano 3G Upgrade",
+   "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
    "summary": "",
-   "score": 180,
+   "score": 146,
    "meta": {
-    "comments": 342,
-    "discussion": "https://news.ycombinator.com/item?id=49857442",
+    "comments": 24,
+    "discussion": "https://news.ycombinator.com/item?id=49826087",
     "score_label": "points"
    },
    "categories": [
@@ -297,13 +311,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "16GB iPod Nano 3G Upgrade",
-   "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
+   "title": "Plunging test scores are a slow-moving catastrophe",
+   "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
    "summary": "",
-   "score": 146,
+   "score": 180,
    "meta": {
-    "comments": 24,
-    "discussion": "https://news.ycombinator.com/item?id=49826087",
+    "comments": 342,
+    "discussion": "https://news.ycombinator.com/item?id=49857442",
     "score_label": "points"
    },
    "categories": [
@@ -345,13 +359,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "OpenAI bots meddled with multiple US Government agency sites",
-   "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+   "title": "A single function Jev-like wrapper for LLMs, including vision models",
+   "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
    "summary": "",
-   "score": 110,
+   "score": 134,
    "meta": {
-    "comments": 171,
-    "discussion": "https://news.ycombinator.com/item?id=49856665",
+    "comments": 42,
+    "discussion": "https://news.ycombinator.com/item?id=49853175",
     "score_label": "points"
    },
    "categories": [
@@ -361,13 +375,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "A single function Jev-like wrapper for LLMs, including vision models",
-   "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+   "title": "OpenAI bots meddled with multiple US Government agency sites",
+   "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
    "summary": "",
-   "score": 134,
+   "score": 110,
    "meta": {
-    "comments": 42,
-    "discussion": "https://news.ycombinator.com/item?id=49853175",
+    "comments": 171,
+    "discussion": "https://news.ycombinator.com/item?id=49856665",
     "score_label": "points"
    },
    "categories": [
@@ -472,22 +486,6 @@
    "seen_before": false
   },
   {
-   "source": "Hacker News",
-   "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
-   "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
-   "summary": "",
-   "score": 397,
-   "meta": {
-    "comments": 102,
-    "discussion": "https://news.ycombinator.com/item?id=49852302",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
    "source": "Lobsters",
    "title": "Infecting the Steam Link with NixOS",
    "url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos/",
@@ -511,7 +509,7 @@
    "title": "If we do not stop to help each other, what do we become?",
    "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
    "summary": "",
-   "score": 128,
+   "score": 129,
    "meta": {
     "tags": [
      "culture"
@@ -558,24 +556,6 @@
    },
    "categories": [
     "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Lobsters",
-   "title": "Go concurrency distilled",
-   "url": "https://antonz.org/go-concurrency-distilled/",
-   "summary": "",
-   "score": 36,
-   "meta": {
-    "tags": [
-     "go"
-    ],
-    "discussion": "https://lobste.rs/s/rucvky",
-    "score_label": "points"
-   },
-   "categories": [
-    "バックエンド"
    ],
    "seen_before": false
   },
@@ -636,6 +616,24 @@
   },
   {
    "source": "Lobsters",
+   "title": "The state of SIMD in Rust in 2026",
+   "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+   "summary": "",
+   "score": 31,
+   "meta": {
+    "tags": [
+     "rust"
+    ],
+    "discussion": "https://lobste.rs/s/iotaty",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
    "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
    "url": "http://www.righto.com/2026/09/8087-tangent-cordic.html",
    "summary": "",
@@ -651,24 +649,6 @@
    },
    "categories": [
     "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Lobsters",
-   "title": "The state of SIMD in Rust in 2026",
-   "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
-   "summary": "",
-   "score": 30,
-   "meta": {
-    "tags": [
-     "rust"
-    ],
-    "discussion": "https://lobste.rs/s/iotaty",
-    "score_label": "points"
-   },
-   "categories": [
-    "バックエンド"
    ],
    "seen_before": false
   },
@@ -766,6 +746,21 @@
   },
   {
    "source": "Product Hunt",
+   "title": "Eclatira",
+   "url": "https://www.producthunt.com/products/eclatira",
+   "summary": "Conversational Video Agent That Plugs Into Any Stack Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-08-31T09:07:06-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
    "title": "Hemory",
    "url": "https://www.producthunt.com/products/hemory",
    "summary": "Keep listening. Searchable memory for your AI agents. Discussion | Link",
@@ -817,21 +812,6 @@
     "published": "2026-09-25T16:58:29-07:00"
    },
    "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "Eclatira",
-   "url": "https://www.producthunt.com/products/eclatira",
-   "summary": "Conversational Video Agent That Plugs Into Any Stack Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-08-31T09:07:06-07:00"
-   },
-   "categories": [
-    "AI",
     "プロダクト"
    ],
    "seen_before": false
@@ -940,12 +920,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Kaiku",
-   "url": "https://www.producthunt.com/products/kaiku",
-   "summary": "The task tracker your AI agents already know how to use Discussion | Link",
+   "title": "Token Forecaster",
+   "url": "https://www.producthunt.com/products/token-forecaster",
+   "summary": "Forecast how long an LLM reply will run, before Enter Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-22T18:58:30-07:00"
+    "published": "2026-09-24T21:40:57-07:00"
    },
    "categories": [
     "AI",
@@ -955,12 +935,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "TourKit",
-   "url": "https://www.producthunt.com/products/tourkit",
-   "summary": "Lightweight product tours with a hosted dashboard Discussion | Link",
+   "title": "Donna",
+   "url": "https://www.producthunt.com/products/donna-4",
+   "summary": "Schedule multiple meetings with one link Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-22T03:04:14-07:00"
+    "published": "2026-09-22T12:59:44-07:00"
    },
    "categories": [
     "プロダクト"
@@ -969,12 +949,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "NexusAXI",
-   "url": "https://www.producthunt.com/products/nexusaxi",
-   "summary": "Research, plan, create, and automate recurring work Discussion | Link",
+   "title": "Polyglot",
+   "url": "https://www.producthunt.com/products/polyglot-5",
+   "summary": "Create and translate subtitles entirely on your Mac Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-19T03:22:50-07:00"
+    "published": "2026-09-21T13:31:14-07:00"
    },
    "categories": [
     "プロダクト"
@@ -1061,7 +1041,7 @@
    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
    "summary": "",
-   "score": 26,
+   "score": 27,
    "meta": {
     "author": "mazrean",
     "score_label": "likes"
@@ -1076,7 +1056,7 @@
    "title": "Vercelの「インポートできます」メールは何を見て送られてくるのか 61リポジトリで確かめた",
    "url": "https://zenn.dev/devuloper/articles/vercel_import_candidates_email",
    "summary": "",
-   "score": 32,
+   "score": 33,
    "meta": {
     "author": "devuloper",
     "score_label": "likes"
@@ -1527,7 +1507,7 @@
    "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
    "url": "https://togetter.com/li/2750963",
    "summary": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。（最低でも）月額20ドルをChatGPTやClaudeに課金できる人だけが正しい検索結果にたどり着くことができ、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされる。Googleはグーテンベルク以前の世界へと時計の針を戻すつもりか…？ 2026-...",
-   "score": 124,
+   "score": 130,
    "meta": {
     "published": "2026-09-27T01:03:59Z",
     "score_label": "users"
@@ -1542,7 +1522,7 @@
    "title": "「テレワーク廃止で人が辞める」「争奪戦が激しいITエンジニア職」、変革期を生き抜く組織の選択",
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news010.html",
    "summary": "企業における出社回帰への方針転換とそれに伴う人材流出の懸念、生成AIが浸透してもなお解消されないエンジニア不足など、組織と人材に関するテーマに大きな関心が寄せられました。インフラ面ではVMware製品からの脱却策、データベースやネットワーク構築の最適化、ゼロトラストの本来の目的など、直面するコスト高や運...",
-   "score": 200,
+   "score": 201,
    "meta": {
     "published": "2026-09-26T15:26:34Z",
     "score_label": "users"
@@ -1558,7 +1538,7 @@
    "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜 - Qiita",
    "url": "https://qiita.com/ast-24/items/454fc975b095230565c7",
    "summary": "こんにちは！とある高校のSE志望の学生です。 今年の文化祭で、私のクラスは模擬店としてホットドッグを販売することになりました。 そこで、注文から受け渡しまでを担うPOSシステムを1から開発・運用してみました！ インフラには一番手軽に使えて自由度も高いCloudflareを採用しました。 予行を含めた3日間で568件・976...",
-   "score": 101,
+   "score": 105,
    "meta": {
     "published": "2026-09-25T23:27:08Z",
     "score_label": "users"
@@ -1573,7 +1553,7 @@
    "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した",
    "url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/",
    "summary": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した 2026/09/26 / whywaita / 0 Comments こんにちは、whywrite.it 自宅サーバ班のwhywaita です。 自宅の Kubernetes クラスタを作り直しました。このブログ（blog.whywrite.it）もいまは新しいクラスタの上で動いています。 これで数年ぐらいは戦えるかなという...",
-   "score": 33,
+   "score": 35,
    "meta": {
     "published": "2026-09-26T12:06:17Z",
     "score_label": "users"
@@ -1588,7 +1568,7 @@
    "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
    "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
    "summary": "旧題: 「Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”」 はじめに Go は「誰が書いても同じようになる」言語 Go には表現の選択肢が多くありません。三項演算子もなければ例外もなく，メタプログラミングで遊ぶ文化も薄い。 if err != nil を延々と書き，for を回し，構造体を素直...",
-   "score": 51,
+   "score": 52,
    "meta": {
     "published": "2026-09-26T10:09:00Z",
     "score_label": "users"
@@ -1604,7 +1584,7 @@
    "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
    "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
    "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
-   "score": 51,
+   "score": 53,
    "meta": {
     "published": "2026-09-26T14:30:51Z",
     "score_label": "users"
@@ -1619,7 +1599,7 @@
    "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
    "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
    "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
-   "score": 86,
+   "score": 87,
    "meta": {
     "published": "2026-09-26T11:10:42Z",
     "score_label": "users"
@@ -1649,7 +1629,7 @@
    "title": "AI搭載の監視カメラを混乱させる「デジタル迷彩シャツ」",
    "url": "https://gigazine.net/news/20260927-digital-camouflage-shirt/",
    "summary": "AI搭載のカメラで監視されることを嫌った人物が、着ている人をAIが人と認識できなくなる特製の迷彩柄シャツを作り上げました。 SIMON WECKERT — Digital Camouflage https://simonweckert.com/digitalcamouflage.html?ref=404media.co This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras https:...",
-   "score": 28,
+   "score": 29,
    "meta": {
     "published": "2026-09-26T23:05:15Z",
     "score_label": "users"
@@ -1677,6 +1657,21 @@
   },
   {
    "source": "はてブ テクノロジー",
+   "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
+   "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
+   "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
+   "score": 56,
+   "meta": {
+    "published": "2026-09-26T09:53:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
    "title": "個人開発はCloudflareにすべて賭けろ",
    "url": "https://speakerdeck.com/ashunar0/kojin-kaihatsu-ha-cloudflare-ni-subete-kakero",
    "summary": "Findyテックハッカソン2026",
@@ -1687,21 +1682,6 @@
    },
    "categories": [
     "インフラ"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
-   "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
-   "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
-   "score": 55,
-   "meta": {
-    "published": "2026-09-26T09:53:04Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
    ],
    "seen_before": false
   },
@@ -1764,6 +1744,21 @@
    },
    "categories": [
     "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "iPhoneのバックアップは必要？iCloud+200GBで61GB使う筆者の結論 - iPhone Mania",
+   "url": "https://iphone-mania.jp/tech-606623/",
+   "summary": "iCloud写真を使っていれば、iPhoneのデータは守られていると思っていませんか。写真の同期とiCloudバックアップは役割が異なり、どちらか一方だけでは保存されないデータがあります。 iCloud+ 200GBのうち61GBを使用しており、機種変更のたびにバックアップに助けられてきた経験から、「何が同期され、何がバックアップ...",
+   "score": 4,
+   "meta": {
+    "published": "2026-09-26T07:27:12Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
    ],
    "seen_before": false
   },
@@ -1832,7 +1827,7 @@
    "title": "ローカルLLMで使えるWeb検索まとめ｜npaka",
    "url": "https://note.com/npaka/n/n1d86b2196515",
    "summary": "ローカルLLMで使えるWeb検索をまとめました。 1. はじめに最近のローカルLLMは、Tool CallingやAIハーネスのWeb検索機能を使って、Webの最新情報を調べる能力も高くなっています。 LLM単体では学習後の最新情報を知ることはできませんが、 検索 → ページを読む → 情報を比較 → 必要なら再検索 → 回答 という仕組みを用意...",
-   "score": 276,
+   "score": 278,
    "meta": {
     "published": "2026-09-26T07:44:27Z",
     "score_label": "users"
@@ -1873,21 +1868,6 @@
    "seen_before": false
   },
   {
-   "source": "はてブ テクノロジー",
-   "title": "高負荷プロダクション環境におけるAWS Lambdaのリアル 〜スケールとコストを左右する実行ライフサイクルの技術仕様〜",
-   "url": "https://speakerdeck.com/maimyyym/the-reality-of-aws-lambda-in-high-load-production",
-   "summary": "JAWS-UG KYUSHU QUEST 2026 in Fukuoka https://jawsug-fukuoka.connpass.com/event/403616/",
-   "score": 39,
-   "meta": {
-    "published": "2026-09-26T08:34:54Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "インフラ"
-   ],
-   "seen_before": false
-  },
-  {
    "source": "OpenAI News",
    "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
    "url": "https://openai.com/index/proaction",
@@ -1895,21 +1875,6 @@
    "score": null,
    "meta": {
     "published": "Fri, 25 Sep 2026 19:00:00 GMT",
-    "score_label": null
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hugging Face Blog",
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "summary": "",
-   "score": null,
-   "meta": {
-    "published": "Thu, 24 Sep 2026 14:08:57 GMT",
     "score_label": null
    },
    "categories": [
@@ -2157,6 +2122,282 @@
    "seen_before": false
   }
  ],
- "oss": [],
- "releases": []
+ "oss": [
+  {
+   "repo": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+   "language": "Python",
+   "stars": 25977,
+   "topics": [
+    "calibration",
+    "classification",
+    "decision-model",
+    "huggingface",
+    "jev",
+    "modernbert"
+   ],
+   "created_at": "2026-09-18",
+   "pushed_at": "2026-09-26",
+   "found_in": "新着人気",
+   "stars_per_day": 2886,
+   "estimated": true,
+   "readme": "\n  \n    \n    \n  \n\n**Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.\n\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15d4Yv__KHeHjshVb-6PRTfqVllxih2S3?usp=sharing)\n[![PyPI version](https://img.shields.io/pypi/v/laya.svg)](https://pypi.org/project/laya/)\n[![Docs](https://img.shields.io/badge/docs-online-2ea44f)](https://nandhakishorm.github.io/laya/)\n[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-convaiinnovations%2Flaya-blue)](https://huggingface.co/convaiinnovations/laya)\n[![Multilingual](https://img.shields.io/badge/%F0%9F%A4%97%20Model-laya--multilingual-blue)](https://huggingface.co/convaiinnovations/laya-multilingual)\n[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-laya--demo-orange)](https://huggingface.co/spaces/convaiinnovations/laya-demo)\n[![Dev.to Article](https://img.shields.io/badge/dev.to-Read%20Article-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me)\n[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-nandakishorm-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/nandakishorm)\n[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)\n\n## Installation\n\n```bash\npython -m pip install laya\n```\n\nPython 3.10 or newer. Optional extras: `laya[serve]` (HTTP server), `laya[mcp]` (MCP server), `laya[langchain]` (LangChain and LangGraph), `laya[onnx]` (ONNX Runtime), `laya[fast]` (TileLang GPU fast path). Step-by-step setup for each platform, CPU-only or GPU PyTorch builds, and troubleshooting are in [Installation details](#installation-details).\n\n**Long documents.** `laya-multilingual` reads up to 8,192 tokens with `max_len=8192`. Measured accuracy and time by document length, reproducible with [`research/scripts/bench_long_context.py`](https://github.com/NandhaKishorM/laya/blob/main/research/scripts/bench_long_context.py):\n\n  \n\n## Quickstart\n\n> **Long documents: `laya-multilingual` reads up to 8,192 tokens.** It ships with a 1,024-token limit that cuts long documents off, so pass `max_len=8192` for them:\n>\n> ```python\n> result = router.predict(long_document, questions, model=\"multilingual\", max_len=8192)\n> ```\n>\n> In the table above, 16 to 18 of 20 requests were answered correctly with up to about 4,000 tokens of text before them; beyond that results vary (8 to 17 of 20), so check long-document accuracy on your own data. Short inputs give identical answers with `max_len=8192`, and speed follows the input's real length, not the limit: short inputs are unchanged, and a 4,000-token input takes about 1.7 s on an Apple GPU. Name the checkpoint with `model=\"multilingual\"`, since long mostly-English text would otherwise route to the English checkpoint.\n\n```python\nfrom laya import Router\n\nrouter = Router()  # downloads a checkpoint on first use; Router(preload=True) loads all three up front\n\nstate = \"Hi, we were billed twice for March. Please refund the duplicate today or we will cancel our plan.\"\nquestions = {\n    \"department\": {\"type\": \"choice\", \"instructions\": \"Which department should handle this?\",\n                   \"criteria\": {\"billing\": \"invoices, payments, refunds\",\n                                \"technical\": \"bugs, outages, system errors\",\n                                \"other\": \"everything else\"}},\n    \"urgency\": {\"type\": \"score\", \"instructions\": \"How urgent is this?\",\n                \"criteria\": [\"not urgent\", \"soon\", \"blocking\"]},\n    \"churn_risk\": {\"type\": \"noul\", \"instructions\": \"Does the user threaten to cancel or leave?\"},\n}\n\nresult = router.predict(state, questions)\nprint(result[\"answers\"][\"department\"][\"choice\"])  # billing\nprint(result[\"answers\"][\"churn_risk\"][\"noul\"])    # probability the answer is yes\nprint(result[\"routing\"][\"model\"])                 # english\n```\n\nThe same call works in any of 100+ languages. The `Router` detects the script and language and sends non-English text to `laya-multilingual`:\n\n```python\nfor text in [\"मुझसे मार्च में दो बार शुल्क लिया गया, कृपया डुप्लिकेट राशि वापस करें।\",\n             \"La aplicación se cierra cada vez que abro la configuración.\"]:\n    r = router.predict(text, {\"department\": questions[\"department\"]})\n    print(r[\"routing\"][\"model\"], r[\"answers\"][\"department\"][\"choice\"])\n# multilingual billing\n# multilingual technical\n```\n\nFrom the command line, `laya \"My payment failed twice\" --preset triage` answers a ready-made question set. More in the [full quickstart](#quickstart-route-mode-recommended) and the [docs](https://nandhakishorm.github.io/laya/).\n\n## Fine-tune for better accuracy\n\nThe shipped checkpoints work zero-shot, but fine-tuning on decisions from your own domain is where accuracy jumps. On the typed-decisions benchmark (2,000 decisions across four workflows), the fine-tuned `laya-typed-decisions` checkpoint scores **0.766** accuracy, against **0.362** for the base English checkpoint on the same decisions.\n\n**[Fine-tuning notebook](https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb)**: runs the whole loop on Kaggle's free 2x T4 GPUs (build the dataset, train, fit calibration temperatures, evaluate, and push the result to the Hub). Details in [Fine-Tuning](#fine-tuning).\n\n## Documentation\n\n**[nandhakishorm.github.io/laya](https://nandhakishorm.github.io/laya/)**: guides for [prediction hooks](https://nandhakishorm.github.io/laya/hooks/), [schema-driven decisions](https://nandhakishorm.github.io/laya/structured/), [Docker](https://nandhakishorm.github.io/laya/docker/) and [LangChain and LangGraph](https://",
+   "featured_before": false
+  },
+  {
+   "repo": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "description": "Fastest and cheapest web agent",
+   "language": "Python",
+   "stars": 20601,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-25",
+   "found_in": "新着人気",
+   "stars_per_day": 1873,
+   "estimated": true,
+   "readme": "\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n[Watch the MP4](docs/demo.mp4) · [Measurements](docs/performance.md) · [Read the loop](jev_ultrafast/agent.py)\n\n## The action space\n\nEvery observation produces a new element table:\n\n```text\n[1] button    Change ticket type · Round trip\n[2] combobox  Where from?        · San Francisco\n[3] combobox  Where to?          · empty\n[4] textbox   Departure          · empty\n...\n```\n\nThe operations are `CLICK`, `TYPE_TEXT`, `SELECT`, `SCROLL_UP`, `SCROLL_DOWN`, `WAIT`, `DONE`, and `BLOCKED`. Only supported operations and targets are offered.\n\n```text\n                      one TypeSafe request\n                     ┌───────────────────────────┐\npage → element table → operation                 │\n                     │ click_target              │\n                     │ type_text_target          │\n                     │ select_target, if present │\n                     └─────────────┬─────────────┘\n                         use the matching target\n                                   │\n                    CLICK [7] ─────┤──→ browser\n                TYPE_TEXT [3] ─────┘\n                          ↓\n                   small LLM → text → browser\n```\n\nTarget questions are speculative. If the operation is `CLICK`, only `click_target` can execute. Two decisions, **one network round trip**. Each target head contains only compatible elements. Native dropdown choices carry an observed element/option index.\n\nThere are no site-specific action scripts or prepared field strings in the policy. The Flights example supplies a goal and independently verifies the outcome. The screenshot renderer adds labels afterward; it does not drive the browser.\n\n## Try it\n\n```bash\ngit clone https://github.com/browser-use/jev-ultrafast.git\ncd jev-ultrafast\nuv sync\ncp .env.example .env\n# Add TYPESAFE_API_KEY and TEXT_MODEL_API_KEY.\nuv run jev\n```\n\nOpen **http://127.0.0.1:8766** and click **Start demo → Run automatically**. The inspector shows numbered elements, operation probabilities, target probabilities, and executed actions. **Choose next** pauses before execution.\n\nChrome connects through [Browser Harness](https://github.com/browser-use/browser-harness), installed by `uv sync`. Run `uv run browser-harness --doctor` if it needs connecting. Allow remote debugging in Chrome when prompted.\n\n`TEXT_MODEL_API_KEY` is an OpenRouter key in the example configuration. The current demo uses `inception/mercury-2.5` with reasoning disabled. Gemini, GLM, and DeepSeek can also use the OpenAI-compatible text helper; configure the appropriate model, endpoint, and reasoning setting.\n\n## Use the library\n\n```python\nfrom jev_ultrafast import Agent\n\nwith Agent(\n    \"https://www.google.com/travel/flights?hl=en\",\n    \"Find one-way flights from Zurich to London on September 20, 2026, \"\n    \"for one adult in economy. Stop when matching flight options are visible.\",\n) as agent:\n    for state in agent.run():\n        print(state[\"elapsed_ms\"], state[\"status\"])\n```\n\nRun with `uv run --env-file .env python your_script.py`. The same policy can run a different task:\n\n```bash\nuv run --env-file .env python examples/run.py \\\n  --url https://en.wikipedia.org/wiki/Main_Page \\\n  --goal 'Find and open the Wikipedia article about Gödel’s incompleteness theorems.'\n```\n\n`uv run --env-file .env python examples/flights.py --keep-open` performs the flight search, checks the actual route/date/results, and saves its trace. It does not select or book a flight.\n\n## Why it moves\n\n- **One request per decision cycle.** Operation and target heads share the same observed state.\n- **No screenshots in the default agent loop.** Jev consumes structured state. The inspector opts into screenshots; the video uses a separate continuous screencast.\n- **One browser call per snapshot.** Read visible controls, their names, values, and text atomically. Keep references to the actual DOM nodes.\n- **Validate the selected target.** Clicks check the document, form values, target, and nearby context. Animation alone does not force another prediction. Resolve current geometry and reject covered controls before input.\n- **Wait for useful state.** After typing into a combobox, wait for visible suggestions, capped at 200 ms. Other interactions get at most two animation frames or 50 ms. These reads happen after execution is logged.\n- **Keep hidden tabs rendering.** Focus emulation prevents background animation throttling without switching Chrome's visible tab.\n- **Send visible text.** Offscreen article bodies and footers do not fill the model context.\n- **Reuse an interrupted text request.** A generated value survives a stale-page retry only if the entire text-helper input is unchanged.\n\nEvery executed target is resolved from an observed node. The executor rechecks page freshness and click occlusion. Model output never becomes selectors, coordinates, shell commands, or executable JavaScript. Text-helper output must parse as a small JSON object before typing.\n\n## Small enough to read\n\n| File | Job |\n| --- | --- |\n| [agent.py](jev_ultrafast/agent.py) | The complete loop and text-helper handoff |\n| [snapshot.js](jev_ultrafast/snapshot.js) | Atomic DOM snapshot, indexed controls, freshness guards |\n| [browser.py](jev_ultrafast/browser.py) | Browser connection, current geometry, execution |\n| [model.py](jev_ultrafast/model.py) | Dynamic operation/target heads and text generation |\n| [questions.py",
+   "featured_before": false
+  },
+  {
+   "repo": "jev-chat/jev-chat-jarvis",
+   "url": "https://github.com/jev-chat/jev-chat-jarvis",
+   "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+   "language": "Kotlin",
+   "stars": 6691,
+   "topics": [
+    "accessibility-service",
+    "android",
+    "chat-assistant",
+    "llm",
+    "qq"
+   ],
+   "created_at": "2026-09-21",
+   "pushed_at": "2026-09-26",
+   "found_in": "新着人気",
+   "stars_per_day": 1115,
+   "estimated": true,
+   "readme": "\n\n# Jev 聊天助手\n\n**装在手机上的「对话副驾」：在支持的聊天 App 里读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。**\n\n[![Stars](https://img.shields.io/github/stars/jev-chat/jev-chat-jarvis?style=flat-square&logo=github&label=Stars)](https://github.com/jev-chat/jev-chat-jarvis/stargazers)\n[![Forks](https://img.shields.io/github/forks/jev-chat/jev-chat-jarvis?style=flat-square&logo=github&label=Forks)](https://github.com/jev-chat/jev-chat-jarvis/forks)\n[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.4-1f6feb?style=flat-square)](CHANGELOG.md)\n[![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](#快速开始)\n[![License](https://img.shields.io/github/license/jev-chat/jev-chat-jarvis?style=flat-square)](LICENSE)\n\n[官网](https://chatjevs.com) · [隐私政策](PRIVACY.md) · [下载 APK](apk/jev-assistant-v1.4-release.apk) · [历史版本](https://github.com/jev-chat/jev-chat-jarvis/releases) · [更新日志](CHANGELOG.md) · [macOS 版](https://github.com/jev-chat/jev-chat-jarvis-mac) · [Windows 版](https://github.com/jev-chat/jev-chat-windows)\n\n## ❤️赞助商\n\n> [想出现在这里？](#交流群--需求收集)\n\n点击折叠\n\n感谢 博查 赞助了本项目！博查是一个给 AI 用的搜索引擎，让你的 AI 应用连接世界知识，获得干净、准确、高质量的搜索结果。提供 Web Search API、Bocha Jev API 等多种联网搜索和模型服务。open.bocha.cn\n\n感谢 小优店铺 赞助了本项目！小优店铺是一家数字商品与账号服务店铺，为本项目的用户提供选购渠道。点此前往。\n\n感谢 速创猫 Vytal 赞助了本项目！速创猫 Vytal 是专业的 AI 视频工作流平台，提供可批量复用的视频工作流，降低内容制作门槛，服务内容创作者、培训机构及中小团队。点此前往。\n\n## 截图\n\n悬浮窗：危险等级、对方真实意图、排好序的 3 条候选回复\n设置页：判断 / 回复 / 视觉三路接口分别可配\n\n## 为什么用它\n\n- **它先判断，再写字。** 大多数工具直接让模型编一句回复。Jev 先用判断模型给出对方真实意图、危险等级、该不该马上回，再据此起草回复。\n- **不动你的聊天软件。** 不 hook、不改包、不走任何 App 的接口或账号、不读数据库，只用系统无障碍服务读「屏幕上正在显示的对话」。\n- **发送权永远在你手里。** 程序只把回复填进输入框，从不自动发送，不碰转账 / 红包 / 收款。\n- **一套内核，多平台。** QQ、X 真机跑通，飞书靠 OCR 补正文。新增一个 App 只需写一个几十行的适配器；微信 Android 版已全面下架，不再采集或处理微信内容。\n- **它认识你的人和事。** 本地知识库与联系人档案，分析时自动带上命中的笔记和这个人的历史，回复不会和你的设定打架。\n- **接口自己配。** 判断 / 回复 / 视觉三路分别可填。分析时，聊天文字和你启用的背景信息会发给你配置的模型服务商；作者不运营中转服务器。\n- **本机存储可控。** 密钥、知识库和可选历史存 App 私有空间；截图只在本机 OCR，不上传。第三方服务商如何处理收到的内容，以其隐私政策为准。\n\n## 平台支持\n\n| 平台 | 状态 | 采集方式 | 备注 |\n|---|---|---|---|\n| QQ Android | ✅ 全链路 | 无障碍读节点 | 9.3.50 实测（群聊）；1v1 按同结构推断 |\n| X / Twitter 私信 | ✅ 全链路 | 解析 Compose 节点的 content-desc | 12.25 实测，中文界面；英文界面未验 |\n| 飞书 / Lark | ✅ OCR 兜底（真机验证） | 无障碍读气泡矩形 + ML Kit 离线 OCR 识别正文 | 正文自绘不在无障碍树里，1.3 起对每个气泡矩形做 OCR；我/对方按已读状态判 |\n| 其它未适配 App（微信除外） | ✅ 手动 | 悬浮窗菜单「截屏识别一次」整屏 OCR | 不自动、不分我/对方（全部当作对方所说并在面板标注）；微信 Android 版已全面下架 |\n| macOS / Windows（独立项目） | ✅ 已提供 | 见各自仓库说明 | [macOS 版](https://github.com/jev-chat/jev-chat-jarvis-mac) · [Windows 版](https://github.com/jev-chat/jev-chat-windows) |\n| 网页 | ⏳ 规划 | — | 尚无网页版 |\n\n本项目只读你自己设备上、你自己有权查看且当前版本支持的聊天；微信 Android 版已全面下架，不提供微信采集与分析。\n\n## 快速开始\n\n**1. 装包。** 仓库里有签好名的 release 包：[`apk/jev-assistant-v1.4-release.apk`](apk/jev-assistant-v1.4-release.apk)（Android 11+，仅支持 ARM64 / `arm64-v8a`）。各版本安装包也在 [Releases](https://github.com/jev-chat/jev-chat-jarvis/releases)。\n\n```bash\nadb install -r apk/jev-assistant-v1.4-release.apk\n```\n\n**2. 填密钥。** 打开 App → 设置 →「接口」分三张卡：判断接口 / 回复接口 / 视觉接口。最简单只填「判断接口」一栏的 [OpenRouter](https://openrouter.ai/) API Key，其余两栏留空会自动继承这把密钥就能用。想换回复模型（默认 `deepseek/deepseek-chat-v3.1`，国内 Gemini / OpenAI 会被区域限制）就在「回复接口」选预设（OpenRouter / DeepSeek 官方 / 通义兼容）或自填地址，每张卡都有独立的一键连通测试。\n\n**3. 开权限。** 按主页向导开三项：\n\n- 无障碍（读取当前支持的聊天界面；升级到 1.3+ 后需要把无障碍关掉再打开一次，截屏能力才生效）\n- 悬浮窗 / 显示在其他应用上层（展示分析）\n- 自启动 + 省电无限制（小米 / HyperOS 必做，否则后台被冻结读不到消息）\n\n装过 debug 包的要先卸载再装 release（签名不同），卸载会清掉密钥和设置。小米 / HyperOS 重装后悬浮窗权限会被重置，装完按向导再开一次。\n\n## 功能\n\n### 判断与候选回复\n\n- 判断模型一次给出：对方真实意图、危险等级（1–9）、对方要什么、该不该马上回、最佳动作。约 1 秒，带把握度。\n- 生成模型起草 3 条口语化候选，判断模型按「最合适」排序并给出占比。\n- 悬浮窗里点一下复制或填入，填入用 `ACTION_SET_TEXT`，失败自动退到剪贴板粘贴，**任何情况下都不发送**。\n\n### 知识库与联系人\n\n在设置 → 分析 →「知识库与联系人」。\n\n- **笔记**：标题 / 内容 / 标签 / 常驻。常驻笔记每次都带；其它笔记要标签或标题出现在会话标题或最近 6 条消息里才带，最多 5 条。支持多行文本粘贴导入，空行分段，每段首行当标题。\n- **联系人**：姓名 / 别名（每行一个）/ 关系 / 备注。会话标题匹配姓名或任一别名时生效，自动忽略群名尾部人数、首尾空白和大小写差异。悬浮窗气泡长按可把当前会话一键存为联系人。\n- **历史**：「记录聊天历史（只存本机）」默认关闭；开启后每次分析带上最近 N 条（默认 30），并自动去掉屏幕上已经显示过的部分。\n- **清除**：知识库与历史都存在 App 私有目录，设置里「清空知识库与历史」一键删除，不进日志、不进 git。具体数据类别、用途、接收方和保留方式见[隐私政策](PRIVACY.md)。\n- 悬浮窗面板顶部会显示一行「知识库 N 条 · 历史 M 条」，方便确认到底带了什么。\n\n### 接口与模型\n\n- 判断 / 回复 / 视觉三路的地址、密钥、模型分别可填。\n- 判断接口新增内置预设「博查 Jev」，排在选项第二（OpenRouter / 博查 Jev / TypeSafe 直连 / Vercel / OpenCode Zen / 自定义），选中后自动填好服务地址 `https://jev.bocha.cn` 与模型 `bocha-jev-v1`（协议与 TypeSafe 一致），页面上会显示官方地址并支持一键复制，当前限时免费。全新安装默认使用 OpenRouter；已经配置过判断接口的老用户不受影响，provider 和密钥都不会被改动。\n- 判断接口另有「Vercel」预设：地址 `https://ai-gateway.vercel.sh/typesafe`，模型 `typesafe-ai/jev`，密钥用 [Vercel AI Gateway](https://vercel.com/ai-gateway/models/jev) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）。\n- 判断接口另有「OpenCode Zen」预设：地址 `https://opencode.ai/zen`，模型 `jev-1.13`（输出免费、输入 $0.042/M，一次判断约 1000 输入 token），密钥用 [OpenCode Zen](https://opencode.ai/zen) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）；想全免费可手动改成 `jev-1.13-free`（限时，功能受限）。\n- 内置 OpenRouter、博查 Jev、TypeSafe 直连、Vercel、OpenCode Zen、DeepSeek 官方、通义兼容预设，每张卡一键连通测试。\n- 只有一把密钥也能用：回复、视觉留空自动继承判断接口的配置。\n- 从旧版本升级时，原来那把密钥会一次性迁移到新的三卡结构。\n\n### 采集与 OCR\n\n- 一个 App 一个适配器，服务按前台包名分发，适配器只负责把当前窗口变成「标题 + 消息列表」。\n- 无障碍树里没有正文时，对支持的聊天 App 自动截屏并用 ML Kit 中文离线模型识别，不上传图片、不需要 Google 服务。\n- 截屏有限频和失败退避，不会每秒连拍；识别时会躲开自己的悬浮窗。\n- 未适配的 App（微信除外）可在悬浮窗菜单里手动触发「截屏识别一次」。\n\n## 常见问题\n\n它会替我发消息吗？\n\n不会。程序只把选中的回复填进输入框，发送键永远由你自己点。转账、红包、收款一律不碰。\n\n需要 root 或 Xposed 吗？会不会封号？\n\n不需要 root，也不用装任何模块。它不修改聊天软件的安装包、不注入进程、不调用对方 App 的接口或账号体系，只读系统无障碍服务暴露出来的界面内容，和读屏软件的工作方式一样。\n\n我的聊天记录会被上传吗？\n\n触发分析时，当前聊天文字以及你启用的联系人备注、知识库命中内容和历史记录会发送到你在设置里配置的模型接口。项目作者不运营中转服务器，也不会收到这些内容；截图在本机 OCR，不会上传。历史记录默认关闭，开启后仅保存在手机 App 私有目录。第三方模型服务商可能按自己的政策处理请求内容，请在使用前查看[隐私政策](PRIVACY.md)及所选服务商的政策。\n\n悬浮球不见了，或者读不到消息怎么办？\n\n多半是国产 ROM 把后台进程冻结了。先确认无障碍、悬浮窗、自启动、省电无限制四项都开着，小米 / HyperOS 尤其要开后两项。重装后悬浮窗权限会被重置，按主页向导再开一次。在聊天界面里随便点一下通常能自愈。\n\n飞书里读不到正文？其它 App 能用吗？\n\n飞书的消息正文是自绘控件，无障碍树里没有文字，1.3 起改为对每个气泡矩形做离线 OCR。其它未适配的 App（微信除外），可以在悬浮窗菜单里点「截屏识别一次」，整屏 OCR 后同样能分析，只是不区分我方和对方。\n\n要花钱吗？\n\n软件本身免费开源。模型调用走你自己的 API Key，按用量在对应服务商那边结算，项目不经手任何费用。\n\n升级之后没反应？\n\n把系统设置里的无障碍开关关掉再打开一次。1.3 起新增了截屏能力，服务需要重新绑定才会生效。\n\n## 它怎么工作\n\n![Jev Android 对话副驾关键流程：本机读取与 OCR、发送文字到用户配置的模型接口、展示候选并由用户决定是否发送](assets/android-core-flow-illustrations/01-chat-copilot-flow.png)\n\n图中展示数据边界：聊天界面读取与 OCR 在本机完成；触发分析后，文字和启用的背景信息发送到你配置的模型服务商；候选回复由你确认，应用不会",
+   "featured_before": false
+  },
+  {
+   "repo": "zai-org/ZCode",
+   "url": "https://github.com/zai-org/ZCode",
+   "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "language": "TypeScript",
+   "stars": 6845,
+   "topics": [],
+   "created_at": "2026-09-20",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 978,
+   "estimated": true,
+   "readme": "# ZCode\n\n  \n\n  飞书社群 ·\n  Discord\n\n  简体中文 | English\n\nZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。\n\n## 更新\n\n- 2026-9-23：更新至 ZCode v3.14.3 版本。\n\n## 初始化\n\n准备 Git、Node.js **24.14.0** 和 pnpm **10.33.2**，版本以 [mise.toml](mise.toml) 为准。以下开发和打包命令均在仓库根目录执行。\n\n```bash\npnpm bootstrap\n```\n\n`pnpm bootstrap` 安装 workspace 依赖、准备桌面本地运行资源，再执行 `build:bootstrap`。\n\nAgent CLI 与运行时源码位于 [apps/zcode-cli/](apps/zcode-cli/)，作为普通目录随本仓库一起克隆，无需单独拉取或初始化 Git submodule。\n\n根据需要选择其他初始化或构建入口：\n\n| 命令                           | 用途                                                              |\n| ------------------------------ | ----------------------------------------------------------------- |\n| `pnpm install`                 | 安装依赖                                                          |\n| `pnpm prepare:desktop-runtime` | 准备桌面运行资源，默认包含远程资源准备                            |\n| `pnpm prepare:remote-assets`   | 单独准备远程运行资源                                              |\n| `pnpm bootstrap:with-remote`   | 初始化依赖、本地与远程资源，并串行构建相关包；跳过桌面应用 bundle |\n| `pnpm build`                   | 递归执行各 workspace 包的构建脚本，包括包内的资源准备步骤         |\n\n默认 `bootstrap` 跳过远程资源准备，适合本地桌面开发。使用远程工作区或验证远程发行资源时，再运行对应准备命令。\n\n## 开发与运行\n\n### 桌面版\n\n```bash\npnpm dev:desktop\n\n# 使用测试环境\npnpm dev:desktop:test\n```\n\n`pnpm dev:desktop` 默认等同于 `pnpm dev:desktop:prod`，使用生产服务配置。启动脚本会准备本地运行资源、构建桌面 Agent，再启动 Electron 和源码监听。\n\n需要独立开发数据目录时，可设置 `ZCODE_DATA_BASE_DIR`。例如在 macOS / Linux 中：\n\n```bash\nZCODE_DATA_BASE_DIR=\"$HOME/.zcode-dev-home\" pnpm dev:desktop:test\n```\n\n### 远程功能（SSH/WSL）\n\n先执行 `pnpm bootstrap:with-remote` 准备远程资源（mock-cdn），再 `pnpm dev:desktop`；连接远程项目时资源选择「本地下载后上传」。开发态资源取自本地 `packages/desktop/mock-cdn` 和本地构建产物，经 SFTP 上传到远程，不访问 CDN。\n\n### Web 开发\n\n修改 Web 或后端源码时，使用开发模式：\n\n```bash\npnpm dev:web\n\n# 指定后端工作区（macOS / Linux）\nZCODE_SERVER_WORKSPACE=/path/to/project pnpm dev:web\n```\n\n该命令同时启动 Web 开发服务器（默认 `http://localhost:5173`）和后端（默认 `http://localhost:3030`）；浏览器访问前者。`/ws` 和一般 `/api` 请求代理到本地后端，`/api/v1/oauth/token` 单独代理到当前配置的产品服务。\n\nAgent 源码修改后，执行 `pnpm --filter @zcode/cli... build` 并重启服务。需要验证完整发行包时，按下方“ZCode 命令行版”打包章节解压运行。\n\n### ZCode 命令行版\n\n命令行发行包包含 TUI、Web 和 Agent，统一使用 `zcode` 启动：无参数进入 TUI；第一个参数为 `--web` 时启动 Web；其他参数交给现有 Agent CLI 处理。两种模式都在本机运行，无需 Electron。\n\n```bash\n# 默认进入终端交互界面\nzcode\n\n# 启动 Web 界面\nzcode --web\n\n# 指定项目和端口，不自动打开浏览器\nzcode --web --workspace /path/to/project --port 3030 --no-open\n\n# 查看 CLI 或 Web 参数\nzcode --help\nzcode --web --help\n```\n\nWeb 模式默认工作目录为当前目录，监听 `127.0.0.1`，默认不启用访问令牌，自动选择空闲端口并打开浏览器。访问终端输出的地址，按 `Ctrl+C` 停止服务。局域网访问可使用 `--host 0.0.0.0`；监听非本机地址时默认生成访问令牌，使用终端输出的带令牌链接。可通过 `--token` 指定令牌或 `--no-token` 关闭令牌认证。\n\n直接启动通用 Web 服务的 HTTP 入口时，通过 `ZCODE_SERVER_AUTH_TOKEN` 配置 API／WebSocket 认证；通过程序接口创建服务时，使用 `authToken` 选项。\n\n构建方式见下方打包章节。`pnpm build:zcode` 只生成发行包，不会替换 `PATH` 中已有的 `zcode`。如果命令仍指向旧安装或其他源码目录，macOS / Linux 可用 `command -v zcode` 检查，Windows 可用 `where.exe zcode` 检查。\n\n### CLI 源码开发\n\n直接开发 TUI 或 Agent 时，运行源码入口：\n\n```bash\npnpm --filter @zcode/cli dev --help\npnpm --filter @zcode/cli dev\n\n# 构建 CLI 及其 workspace 依赖\npnpm --filter @zcode/cli... build\nnode apps/zcode-cli/packages/cli/dist/zcode.cjs --help\n```\n\n这个入口直接运行 Agent CLI，不经过发行包的 `--web` 分流。开发 Web 用 `pnpm dev:web`；验证统一的 `zcode` 命令，用下方解压后的 `bin/zcode.mjs`。\n\n## 配置\n\n根目录 [.env.example](.env.example) 提供服务地址与构建配置示例，可按需复制到 `.env`，本地覆盖放入 `.env.local`。Desktop 的开发环境通过 `dev:desktop:test` / `dev:desktop:prod` 选择。\n\n| 配置                                 | 用途                                             |\n| ------------------------------------ | ------------------------------------------------ |\n| `ZCODE_DATA_BASE_DIR`                | 应用数据基目录，数据写入其下的 `.zcode/`         |\n| `ZCODE_SERVER_WORKSPACE`             | Web 后端的工作区路径                             |\n| `ZCODE_BUILTIN_PROVIDER_CONFIG_FILE` | 本地 Provider 配置文件路径；未设置时使用内置配置 |\n| `ZCODE_DIST_BASE_URL`                | 命令行安装脚本使用的下载根地址                   |\n\n运行时变量可在启动命令的环境中显式设置。随客户端发布的默认配置见 [config/README.md](config/README.md)。\n\n## 打包\n\n第三方声明生成、发行校验流程及声明在发行物中的位置见 [third-party/README.md](third-party/README.md)。\n\n### 桌面版\n\n```bash\npnpm bundle:desktop\n\n# 指定目标平台与 CPU 架构\npnpm bundle:desktop -- --os win --arch x64\n\npnpm bundle:desktop -- --help\n```\n\n默认目标为 macOS arm64，默认输出目录为 `packages/desktop/dist/`。`--os` 支持 `mac`、`win`、`linux`，`--arch` 支持 `x64`、`arm64`；实际打包与签名需要目标平台对应的工具和配置。\n\n安装：双击打开产物 DMG，将 ZCode 拖入\"应用程序\"。本地构建未签名，首次打开若被 macOS 拦截，执行：\n\n```bash\nsudo xattr -rd com.apple.quarantine /Applications/ZCode.app\n```\n\n### ZCode 命令行版\n\n构建入口为 `pnpm build:zcode`。脚本会依次构建 CLI/TUI、后端和 Web，收集 TUI 的原生库、worker 与运行时依赖，再组装发行包；运行发行包仍需要 Node.js，版本以 `mise.toml` 为准。\n\n打包前必须设置下载根地址 `ZCODE_DIST_BASE_URL`（可放在 `.env`、`.env.local` 或环境变量中），也可以通过 `--base-url` 传入。以下地址是占位示例，发布时替换为实际托管地址：\n\n```bash\npnpm build:zcode --base-url https://downloads.example.com/zcode/\n\n# 已配置 ZCODE_DIST_BASE_URL 时\npnpm build:zcode\n\n# 仅重新组包，复用已有的 Agent、后端和 Web 构建产物\npnpm build:zcode --skip-build\n\n# 查看版本、输出目录等可选参数\npnpm build:zcode --help\n```\n\n默认版本取根目录 `package.json`，输出目录为 `dist/zcode/`：\n\n- `releases//zcode-.tar.gz`：运行包。\n- `releases//sha256.txt`：校验摘要。\n- `latest.json`、`install.sh`：版本索引和安装脚本。\n\n完整目录可上传到配置的下载根地址。安装脚本从该地址下载运行包，默认安装到 `~/.zcode/runtime`，并在 `~/.local/bin` 创建 `zcode` 命令。安装目录可通过 `ZCODE_DIST_HOME` 修改，命令目录可通过 `ZCODE_DIST_BIN_DIR` 修改。\n\n旧 Lite 用户需要改用上述构建命令、环境变量和新的安装脚本。新安装不会删除旧 Lite 目录，也不会迁移或删除已有会话数据。\n\n本地调试打包产物时，可直接解压运行，无需上传或安装：\n\n```bash\nzcode_version=$(node -p \"require('./dist/zcode/latest.json').version\")\nmkdir -p dist/zcode/debug\ntar -xzf \"dist/zcode/releases/$zcode_version/zcode-$zcode_version.tar.gz\" \\\n  -C dist/zcode/debug\n# 默认启动 TUI\nnode dist/zcode/debug/zcode/bin/zcode.mjs\n\n# 启动 Web\nnode dist/zcode/debug/zcode/bin/zcode.mjs --web \\\n  --workspace \"$PWD\" --port 3030 --no-open\n```\n\n浏览器打开 `http://127.0.0.1:3030`，即可验证同一后端服务托管 Web 页面和 Agent 的完整链路。该端口需要空闲；如正在运行 `pnpm dev:web`，可改用其他 `--port`。\n\n## 仓库结构\n\n| 目录                                                 | 职责                                       |\n| ---------------------------------------------------- | ------------------------------------------ |\n| `packages/desktop`                                   | Electro",
+   "featured_before": false
+  },
+  {
+   "repo": "eternity4719/HowToLiveBetter",
+   "url": "https://github.com/eternity4719/HowToLiveBetter",
+   "description": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+   "language": "HTML",
+   "stars": 18617,
+   "topics": [],
+   "created_at": "2026-09-07",
+   "pushed_at": "2026-09-25",
+   "found_in": "新着人気",
+   "stars_per_day": 931,
+   "estimated": true,
+   "readme": "\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。\n608 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-608%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20410%20%C2%B7%20B%20149%20%C2%B7%20C%2049-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1281%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)\n[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-Unlicense-565a5f?style=flat-square)](LICENSE)\n\n**[打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/)** · [下载 PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [下载 EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [下载离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) · [目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/) · [结婚划不划算（长文）](docs/结婚划不划算.md) · [家庭应急装备清单（长文）](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停（长文）](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证（长文）](docs/做平台要办哪些证.md) · [生物钟和夜班（长文）](docs/生物钟和夜班.md)\n\n其他语言：[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/) —— 由 [dlgrv](https://github.com/dlgrv) 维护的非官方翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)），译文按翻译当时的中文正文做，之后新增和改动的条目不一定跟上，一切以本仓库的中文原文为准。\n\n---\n\n## 这本书想回答的问题\n\n| 问题 | 去哪看 |\n| --- | --- |\n| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |\n| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |\n| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |\n| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |\n| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |\n| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |\n| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |\n| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |\n| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |\n| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |\n| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |\n| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |\n| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |\n| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |\n| 押金被扣、房东赶人、长租公寓暴雷怎么办？ | [15. 租房与买房](book/15-租房与买房.md) |\n| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |\n| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |\n| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |\n| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |\n| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |\n| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |\n| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |\n| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |\n| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |\n| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |\n| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |\n| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |\n| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |\n| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |\n| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |\n| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |\n| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |\n| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |\n\n## 怎么读\n\n- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。\n- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。\n- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。\n- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。\n- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。\n- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。\n- **只想看结论最硬的**：在检索页里勾选证据等级 A，只留下有具体数字、来自荟萃分析或大型试验的 410 条。\n- **只想看最值得做的**：勾选性价比「极高」，得到 104 条既不花钱、不花时间、不需要毅力，收益又落在最大一档的条目。再叠加一个「换回什么」，就是该口径下的优先清单。\n- **看到「不要」开头的节标题不用紧张**：节标题说的是这一节想防住的事（不要早死、不要浪费时间），不是说底下每条都在让你别干什么。真正要做的动作写在条目标题里，一律动词开头，自己就写清了是「做什么」还是「别做什么」。同一节里两种都有：第 4 节既有「把『打算做』写成『几点、在哪、遇到什么就做什么』」，也有「不看电视和滚动新闻」。按条目标题读，不用往节标题的语气上套。\n\n每条建议长这样：\n\n```markdown\n### 5. 把家里的食盐换成低钠盐（钾盐）\n- 成本：一袋比普通盐贵几元。买的时候顺手换，不额外",
+   "featured_before": false
+  },
+  {
+   "repo": "mizorewww/laya-mlx",
+   "url": "https://github.com/mizorewww/laya-mlx",
+   "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+   "language": "Python",
+   "stars": 6430,
+   "topics": [
+    "apple-silicon",
+    "decision-model",
+    "inference",
+    "laya",
+    "local-ai",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-19",
+   "pushed_at": "2026-09-22",
+   "found_in": "新着人気",
+   "stars_per_day": 804,
+   "estimated": true,
+   "readme": "# Laya-MLX\n\n![Laya MLX playing Snake — actual decisions, original speed](https://raw.githubusercontent.com/mizorewww/laya-mlx/main/docs/assets/snake-demo.gif)\n\n**Open-weight typed decisions, running natively on Apple Silicon.**\n\n**13.4 ms** median end-to-end for a short English typed decision. **7.4 ms** with the multilingual checkpoint. **0 output tokens.** Local MLX inference, with no PyTorch, Transformers runtime, or cloud API.\n\n[中文](https://github.com/mizorewww/laya-mlx/blob/main/README.zh-CN.md) · [Benchmarks](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [Snake demo](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_DEMO.md) · [Hugging Face weights](https://huggingface.co/aac6fef/laya-mlx)\n\nThe GIF is an original-speed render of a real local Snake run. Every move calls Laya; the visible cycle safety layer can correct unsafe proposals. The latency figures above are the separate **one-question API benchmark**, not the frame time of the three-question Snake loop. [Watch the 30-second MP4](https://github.com/mizorewww/laya-mlx/blob/main/docs/assets/snake-demo.mp4) · [Snake speed and stability](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_BENCHMARKS.md).\n\n## Quick start\n\n```bash\npip install laya-mlx\n```\n\n```python\nimport laya_mlx as laya\n\nagent = laya.load(\"aac6fef/laya-mlx\")\nresult = agent.predict(\n    \"I was billed twice. Please refund the duplicate.\",\n    {\n        \"department\": {\n            \"type\": \"choice\",\n            \"instructions\": \"Who should handle this?\",\n            \"criteria\": [\"billing\", \"technical\", \"sales\"],\n        }\n    },\n)\nprint(result[\"answers\"][\"department\"])\n```\n\nApple Silicon, Python 3.11+, macOS 14+. First load downloads the checkpoint; later inference is fully local. The measured environment is macOS 27.2, Python 3.12.13 and MLX 0.32.2. That MLX release supplies macOS 14, 15 and 26 wheels; the local installer selected the 26 wheel. Older supported macOS versions were not tested on this machine.\n\nRun the terminal demo:\n\n```bash\npip install 'laya-mlx[demo]'\nhf download aac6fef/laya-multilingual-mlx\nlaya-snake\n```\n\nDownload once before the offline demo. Use a terminal at least 104 × 35 cells. Space pauses, ↑/↓ changes speed, R resets and Q quits. `laya-snake --max-speed` makes a fresh decision for every move without pacing. [Recording, controls and exact metric meanings](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_DEMO.md).\n\n`laya-snake --optimize --max-speed` enables the tested compilation and prefix-reuse path: **75.40 moves/s across 2,400 moves**, zero deaths and 2 visible safety interventions in the paired M3 Max test. This was about **6.5% faster** than its same-run eager control. [Gameplay, performance and correctness evidence](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_OPTIMIZATION.md).\n\n## Performance on M3 Max\n\n| FP16, end-to-end | Laya 421M | Multilingual 322M |\n|---|---:|---:|\n| One short question, P50 | **13.42 ms** | **7.39 ms** |\n| One short question, P95 | **13.92 ms** | **7.79 ms** |\n| 50-question throughput | **146.8 q/s** | **395.0 q/s** |\n| Peak MLX allocation, one short question | **943.6 MiB** | **687.6 MiB** |\n\nM3 Max, 40 GPU cores, 128 GiB memory. Timing includes prompt preparation, tokenization, tensors, synchronized inference, calibration and result formatting; model loading is excluded. The 50-question measurement uses `batch_size=64`; the API defaults to 16. Different lengths, question counts and runtime conditions change latency. [Full method and every timing sample](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md).\n\n**Port fidelity:** all three checkpoints matched the upstream selected answer on **63/63 validation questions in both FP32 and FP16** — 378/378 comparisons. Each configuration also passed 100 repeated finite, deterministic calls with zero measured active-memory growth. This measures fidelity on those fixtures, not accuracy on every possible question. [Probability errors and validation](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md#numerical-parity-and-stability).\n\n## Why typed decisions?\n\nSoftware often needs a choice, a rubric score or a probability. Laya answers those constrained questions in a bidirectional forward pass, without token-by-token decoding or generated JSON.\n\n```text\nstate + typed question → bidirectional encoder → decision heads → probabilities\n```\n\n- `choice`: probabilities over named options.\n- `score`: probabilities over ordered rubric levels and their expected score.\n- `noul`: P(true) for a proposition.\n\nQuestion rows are batched independently. Their bidirectional encoder representations depend on both state and question; this runtime does not claim to encode the state once and reuse its hidden states across arbitrary questions.\n\nThe encoder, decision Transformer, scoring head and action head all run in MLX. Tokenization uses Hugging Face's Rust tokenizer. The original pretrained weights, question formatting, calibration and output schema are retained. This is an independent MLX port, not an official Convai Innovations release.\n\n## Supported checkpoints\n\n| Model | Encoder | Parameters | Context limit | Purpose |\n|---|---|---:|---:|---|\n| `convaiinnovations/laya` | ModernBERT-large | 421M | 512 | English |\n| `convaiinnovations/laya-multilingual` | mmBERT-base | 322M | 1,024 | Multilingual input |\n| `convaiinnovations/laya-typed-decisions` | ModernBERT-large | 421M | 1,024 | Upstream typed-decisions workflows |\n\nContext includes instructions, options and state. All three use the original weights, prompt formatting, temperature calibration, and output schema. This repository provides inference and conversion; RLCD training and fine-tuning remain in the upstream project. It is an independent port, not an official Convai Innovations release.\n\nPre-converted FP16 checkpoints are published on Hugging Face:\n\n- [aac6fef/laya-mlx](https://huggingface.co/aac6fef/laya-mlx)\n- [aac6fef/laya-multilingual-mlx](https:/",
+   "featured_before": false
+  },
+  {
+   "repo": "jaredpalmer/kev",
+   "url": "https://github.com/jaredpalmer/kev",
+   "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
+   "language": "Python",
+   "stars": 7257,
+   "topics": [
+    "decision-model",
+    "jev",
+    "qwen3"
+   ],
+   "created_at": "2026-09-17",
+   "pushed_at": "2026-09-26",
+   "found_in": "新着人気",
+   "stars_per_day": 726,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "tamaratran/fast-jev-compaction",
+   "url": "https://github.com/tamaratran/fast-jev-compaction",
+   "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+   "language": "TypeScript",
+   "stars": 6977,
+   "topics": [],
+   "created_at": "2026-09-17",
+   "pushed_at": "2026-09-18",
+   "found_in": "新着人気",
+   "stars_per_day": 698,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "robbietilton/Compositor",
+   "url": "https://github.com/robbietilton/Compositor",
+   "description": "The Photoshop alternative for Mac",
+   "language": "Swift",
+   "stars": 5776,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-27",
+   "found_in": "新着人気",
+   "stars_per_day": 525,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "Contrastive-LM/CLM",
+   "url": "https://github.com/Contrastive-LM/CLM",
+   "description": "",
+   "language": "Python",
+   "stars": 1634,
+   "topics": [],
+   "created_at": "2026-09-23",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 408,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "Mak5er/AirCard",
+   "url": "https://github.com/Mak5er/AirCard",
+   "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+   "language": "Swift",
+   "stars": 4421,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-22",
+   "found_in": "新着人気",
+   "stars_per_day": 402,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "TheoLeeCJ/SemIf-OpenJev",
+   "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+   "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+   "language": "Python",
+   "stars": 4403,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-23",
+   "found_in": "新着人気",
+   "stars_per_day": 400,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "lnkiai/m3e-canvas",
+   "url": "https://github.com/lnkiai/m3e-canvas",
+   "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+   "language": "TypeScript",
+   "stars": 8300,
+   "topics": [
+    "design-tool",
+    "material-3-expressive",
+    "material-design",
+    "material3",
+    "nextjs",
+    "prompt"
+   ],
+   "created_at": "2026-09-02",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 332,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "unreallabsai/unreal-agent",
+   "url": "https://github.com/unreallabsai/unreal-agent",
+   "description": "Async-first agent harness",
+   "language": "Go",
+   "stars": 1971,
+   "topics": [],
+   "created_at": "2026-09-21",
+   "pushed_at": "2026-09-23",
+   "found_in": "新着人気",
+   "stars_per_day": 328,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "driceroland/Search",
+   "url": "https://github.com/driceroland/Search",
+   "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+   "language": "Swift",
+   "stars": 2122,
+   "topics": [],
+   "created_at": "2026-09-20",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 303,
+   "estimated": true,
+   "featured_before": false
+  }
+ ],
+ "releases": [
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.283",
+   "name": "v2.1.283",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+   "published_at": "2026-09-25T21:50:12Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block specific models, even when `availableModels` allows them\n- Added MCP tool, WebFetch and WebSearch outputs to the `tool.output` OpenTelemetry span event when `OTEL_LOG_TOOL_CONTENT=1`\n- Added `/doctor prompt-audit` (also `/checkup prompt-audit`) to audit your CLAUDE.md files, skills, agents and commands for prompting patterns written for older models\n- Added click-to-expand for truncated messages from your other sessions in fullscreen mode\n- Added `path` to `--plugin-dir` load-failure entries in the stream-json `system/init` `plugin_errors`, naming the directory that did not load\n- Added an opt-in `load_test_mode` block to the Claude apps gateway config: requests are built and signed but not sent upstream, and clients get a canned reply, so a deployment can be load tested\n- Added a `mantle` upstream provider to the Claude apps gateway for Amazon Bedrock's Mantle endpoint\n- Fixed SDK sessions losing a deferred tool call or finished tool result when a turn ended early, a held approval prompt after a worker restart, and a non-streaming fallback's `result.usage`\n- Fixed MCP progress notifications being discarded once a long-running tool call moved to the background; the background task now shows the latest progress\n- Fixed stdio MCP servers being left running when the session ended while they were still starting\n- Fixed a brief HTTP 404 from a stateless remote MCP server (for example a proxy mid-redeploy) leaving that server unusable for the rest of the session while still shown as connected\n- Fixed MCP sign-in for a server with no valid URL failing with an opaque SDK error; `/mcp` no longer offers Authenticate for such servers\n- Fixed the weekly Fable limit not appearing in `/usage` and the VS Code usage meters when telemetry is disabled\n- Fixed `/model` accepting Sonnet 4.6 or Sonnet 5 with `[1m]` when the id carried a date or `-v1:0` suffix, in the cases where the plain id was refused\n- Fixed `/model` picker showing a hardcoded Haiku version and price when `ANTHROPIC_DEFAULT_HAIKU_MODEL` pins a different model\n- Fixed dynamic workflows started during a model fallback running every agent on the fallback model instead of retrying the configured model\n- Fixed `DISABLE_PROMPT_CACHING_HAIKU` having no effect when Haiku is the session's main model\n- Fixed `claude plugin validate` saying Claude Code accepts a plugin or marketplace name it cannot install; such names in `marketplace.json` now fail validation\n- Fixed `claude plugin validate` passing plugins whose `outputStyles`, `themes`, `monitors`, or `lspServers` paths are missing or point outsi"
+  },
+  {
+   "repo": "cloudflare/workers-sdk",
+   "version": "wrangler@4.141.0",
+   "name": "wrangler@4.141.0",
+   "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.141.0",
+   "published_at": "2026-09-25T19:33:53Z",
+   "prerelease": false,
+   "body": "### Minor Changes\n\n- [#15658](https://github.com/cloudflare/workers-sdk/pull/15658) [`8280086`](https://github.com/cloudflare/workers-sdk/commit/8280086df5571607ab614fa09684c2d78fcdd58b) Thanks [@jqmmes](https://github.com/jqmmes)! - Add Durable Objects code update strategies to Worker deployments\n\n  Use `--durable-objects-code-update-mode immediate` with `wrangler deploy`, `wrangler versions deploy`, and `wrangler rollback` to update code without waiting for active instances to hibernate. Use `--durable-objects-code-update-mode deferred 30s` to set a maximum delay, or configure `durable_objects.code_update_strategy` with `mode` and `max_delay`. When unset, the strategy defaults to deferred with a 5-minute maximum delay; delays cannot exceed 24 hours and must use millisecond precision.\n\n- [#15800](https://github.com/cloudflare/workers-sdk/pull/15800) [`bd56b98`](https://github.com/cloudflare/workers-sdk/commit/bd56b98716d9306a3464fc04c66090d2846a37f9) Thanks [@Refaerds](https://github.com/Refaerds)! - Add Browser Run as an event source for Queue subscriptions\n\n  You can now create Queue subscriptions with `--source browserRun`.\n\n### Patch Changes\n\n- [#15864](https://github.com/cloudflare/workers-sdk/pull/15864) [`ee2b200`](https://github.com/cloudflare/workers-sdk/commit/ee2b200ff1e8edb5d5f2acb2bf45ffbdcb59f7c1) Thanks [@dependabot](https://github.com/apps/dependabot)! - Update dependencies of \"miniflare\", \"wrangler\"\n\n  The following dependency versions have been updated:\n\n  | Dependency                | From          | To            |\n  | ------------------------- | ------------- | ------------- |\n  | @cloudflare/workers-types | ^5.20260923.1 | ^5.20260925.1 |\n  | workerd                   | 1.20260923.1  | 1.20260925.1  |\n\n- [#15207](https://github.com/cloudflare/workers-sdk/pull/15207) [`805af2f`](https://github.com/cloudflare/workers-sdk/commit/805af2f0a5567c58f8259bc580883f1919039c60) Thanks [@exKAZUu](https://github.com/exKAZUu)! - Show the stack and cause of failed proxied requests in `wrangler dev` debug logs\n\n  When a request proxied to the local Worker fails, running with `--log-level debug` now shows the underlying error's stack and cause chain.\n\n- Updated dependencies [[`ee2b200`](https://github.com/cloudflare/workers-sdk/commit/ee2b200ff1e8edb5d5f2acb2bf45ffbdcb59f7c1), [`c91279b`](https://github.com/cloudflare/workers-sdk/commit/c91279b497ae6195f911b17ee3da3b7af28c2f17)]:\n  - miniflare@5.20260925.0-alpha"
+  },
+  {
+   "repo": "cloudflare/workers-sdk",
+   "version": "wrangler@4.140.0",
+   "name": "wrangler@4.140.0",
+   "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.140.0",
+   "published_at": "2026-09-25T06:02:09Z",
+   "prerelease": false,
+   "body": "### Minor Changes\n\n- [#15822](https://github.com/cloudflare/workers-sdk/pull/15822) [`8f7916c`](https://github.com/cloudflare/workers-sdk/commit/8f7916cd72cd0f6a3bcef80abc8ad4509b13026a) Thanks [@GregBrimble](https://github.com/GregBrimble)! - Support Containers in Worker Preview deployments with the Build Output.\n\n### Patch Changes\n\n- Updated dependencies []:\n  - miniflare@5.20260923.0-alpha"
+  }
+ ]
 }
