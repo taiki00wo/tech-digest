@@ -1,6 +1,8 @@
 {
  "date": "2026-09-27",
- "collected_at": "2026-09-27T13:22:16+09:00",
+ "weekday": "日",
+ "deep_dive_day": false,
+ "collected_at": "2026-09-27T13:45:55+09:00",
  "errors": {
   "GitHub": "HTTP Error 403: Forbidden"
  },
@@ -10,9 +12,9 @@
    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
    "url": "https://github.com/InfinityLoop1308/PipePipe",
    "summary": "",
-   "score": 345,
+   "score": 352,
    "meta": {
-    "comments": 194,
+    "comments": 197,
     "discussion": "https://news.ycombinator.com/item?id=49842764",
     "score_label": "points"
    },
@@ -26,9 +28,9 @@
    "title": "DeepSeek Elastic Compute (DSec)",
    "url": "https://arxiv.org/abs/2609.22978",
    "summary": "",
-   "score": 193,
+   "score": 199,
    "meta": {
-    "comments": 58,
+    "comments": 59,
     "discussion": "https://news.ycombinator.com/item?id=49859112",
     "score_label": "points"
    },
@@ -42,9 +44,9 @@
    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
    "url": "https://github.com/reladraw/reladraw",
    "summary": "",
-   "score": 217,
+   "score": 227,
    "meta": {
-    "comments": 63,
+    "comments": 64,
     "discussion": "https://news.ycombinator.com/item?id=49858513",
     "score_label": "points"
    },
@@ -58,9 +60,9 @@
    "title": "Does Georgism work? Five years later",
    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
    "summary": "",
-   "score": 202,
+   "score": 212,
    "meta": {
-    "comments": 134,
+    "comments": 143,
     "discussion": "https://news.ycombinator.com/item?id=49844657",
     "score_label": "points"
    },
@@ -74,7 +76,7 @@
    "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
    "url": "https://www.movingimagearchive.com/",
    "summary": "",
-   "score": 135,
+   "score": 138,
    "meta": {
     "comments": 26,
     "discussion": "https://news.ycombinator.com/item?id=49832768",
@@ -90,9 +92,9 @@
    "title": "Drawgent: Coding agent on a live Excalidraw canvas",
    "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
    "summary": "",
-   "score": 126,
+   "score": 131,
    "meta": {
-    "comments": 34,
+    "comments": 35,
     "discussion": "https://news.ycombinator.com/item?id=49857729",
     "score_label": "points"
    },
@@ -106,9 +108,9 @@
    "title": "Fifteen years later, the Apple Cards origin story",
    "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
    "summary": "",
-   "score": 364,
+   "score": 369,
    "meta": {
-    "comments": 92,
+    "comments": 93,
     "discussion": "https://news.ycombinator.com/item?id=49854693",
     "score_label": "points"
    },
@@ -122,9 +124,9 @@
    "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
    "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
    "summary": "",
-   "score": 192,
+   "score": 199,
    "meta": {
-    "comments": 506,
+    "comments": 511,
     "discussion": "https://news.ycombinator.com/item?id=49844663",
     "score_label": "points"
    },
@@ -138,9 +140,9 @@
    "title": "How I changed teaching after AI managed to do all my homework assignments",
    "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
    "summary": "",
-   "score": 160,
+   "score": 162,
    "meta": {
-    "comments": 152,
+    "comments": 153,
     "discussion": "https://news.ycombinator.com/item?id=49836579",
     "score_label": "points"
    },
@@ -170,9 +172,9 @@
    "title": "How to keep enjoying programming in a world of LLMs",
    "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
    "summary": "",
-   "score": 177,
+   "score": 179,
    "meta": {
-    "comments": 233,
+    "comments": 232,
     "discussion": "https://news.ycombinator.com/item?id=49854875",
     "score_label": "points"
    },
@@ -186,7 +188,7 @@
    "title": "The Lost Atomic Update on Loongson CPU",
    "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
    "summary": "",
-   "score": 116,
+   "score": 117,
    "meta": {
     "comments": 6,
     "discussion": "https://news.ycombinator.com/item?id=49827900",
@@ -202,9 +204,9 @@
    "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
    "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
    "summary": "",
-   "score": 652,
+   "score": 653,
    "meta": {
-    "comments": 261,
+    "comments": 262,
     "discussion": "https://news.ycombinator.com/item?id=49855315",
     "score_label": "points"
    },
@@ -234,9 +236,9 @@
    "title": "Floci: Locally emulating any cloud service",
    "url": "https://floci.io",
    "summary": "",
-   "score": 168,
+   "score": 171,
    "meta": {
-    "comments": 38,
+    "comments": 39,
     "discussion": "https://news.ycombinator.com/item?id=49854416",
     "score_label": "points"
    },
@@ -263,33 +265,33 @@
   },
   {
    "source": "Hacker News",
-   "title": "Plunging test scores are a slow-moving catastrophe",
-   "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
-   "summary": "",
-   "score": 179,
-   "meta": {
-    "comments": 341,
-    "discussion": "https://news.ycombinator.com/item?id=49857442",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
    "url": "https://swarmtraces.org/",
    "summary": "",
    "score": 707,
    "meta": {
-    "comments": 447,
+    "comments": 449,
     "discussion": "https://news.ycombinator.com/item?id=49849985",
     "score_label": "points"
    },
    "categories": [
     "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Plunging test scores are a slow-moving catastrophe",
+   "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+   "summary": "",
+   "score": 180,
+   "meta": {
+    "comments": 342,
+    "discussion": "https://news.ycombinator.com/item?id=49857442",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
    ],
    "seen_before": false
   },
@@ -314,9 +316,9 @@
    "title": "Japan moves to tighten rules for foreigners",
    "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
    "summary": "",
-   "score": 144,
+   "score": 146,
    "meta": {
-    "comments": 424,
+    "comments": 428,
     "discussion": "https://news.ycombinator.com/item?id=49858810",
     "score_label": "points"
    },
@@ -330,7 +332,7 @@
    "title": "Is your Postgres migration safe or not safe?",
    "url": "https://safenotsafe.dev/",
    "summary": "",
-   "score": 121,
+   "score": 122,
    "meta": {
     "comments": 43,
     "discussion": "https://news.ycombinator.com/item?id=49854161",
@@ -348,7 +350,7 @@
    "summary": "",
    "score": 110,
    "meta": {
-    "comments": 168,
+    "comments": 171,
     "discussion": "https://news.ycombinator.com/item?id=49856665",
     "score_label": "points"
    },
@@ -378,10 +380,26 @@
    "title": "We're gonna need a lot more mathematicians",
    "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
    "summary": "",
-   "score": 367,
+   "score": 370,
    "meta": {
-    "comments": 469,
+    "comments": 470,
     "discussion": "https://news.ycombinator.com/item?id=49852717",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Automattic has a new board after failed attempt to put CEO on leave",
+   "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+   "summary": "",
+   "score": 130,
+   "meta": {
+    "comments": 166,
+    "discussion": "https://news.ycombinator.com/item?id=49857572",
     "score_label": "points"
    },
    "categories": [
@@ -410,7 +428,7 @@
    "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
    "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
    "summary": "",
-   "score": 476,
+   "score": 477,
    "meta": {
     "comments": 190,
     "discussion": "https://news.ycombinator.com/item?id=49857899",
@@ -423,28 +441,12 @@
   },
   {
    "source": "Hacker News",
-   "title": "Automattic has a new board after failed attempt to put CEO on leave",
-   "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-   "summary": "",
-   "score": 127,
-   "meta": {
-    "comments": 166,
-    "discussion": "https://news.ycombinator.com/item?id=49857572",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
    "title": "Plan mode is dead",
    "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
    "summary": "",
-   "score": 554,
+   "score": 555,
    "meta": {
-    "comments": 478,
+    "comments": 479,
     "discussion": "https://news.ycombinator.com/item?id=49840054",
     "score_label": "points"
    },
@@ -458,9 +460,9 @@
    "title": "Ollaya – Ollama for open-source, Jev-style decision models",
    "url": "https://ollaya.dev/",
    "summary": "",
-   "score": 586,
+   "score": 587,
    "meta": {
-    "comments": 144,
+    "comments": 145,
     "discussion": "https://news.ycombinator.com/item?id=49848269",
     "score_label": "points"
    },
@@ -509,7 +511,7 @@
    "title": "If we do not stop to help each other, what do we become?",
    "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
    "summary": "",
-   "score": 127,
+   "score": 128,
    "meta": {
     "tags": [
      "culture"
@@ -538,6 +540,24 @@
    },
    "categories": [
     "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "AI Agents Push Humans Out of the Loop",
+   "url": "https://arxiv.org/abs/2608.23642",
+   "summary": "",
+   "score": 14,
+   "meta": {
+    "tags": [
+     "vibecoding"
+    ],
+    "discussion": "https://lobste.rs/s/iqqqbg",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
    ],
    "seen_before": false
   },
@@ -574,24 +594,6 @@
    },
    "categories": [
     "フロントエンド"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Lobsters",
-   "title": "AI Agents Push Humans Out of the Loop",
-   "url": "https://arxiv.org/abs/2608.23642",
-   "summary": "",
-   "score": 14,
-   "meta": {
-    "tags": [
-     "vibecoding"
-    ],
-    "discussion": "https://lobste.rs/s/iqqqbg",
-    "score_label": "points"
-   },
-   "categories": [
-    "AI"
    ],
    "seen_before": false
   },
@@ -764,20 +766,6 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Paragraph Notes",
-   "url": "https://www.producthunt.com/products/paragraph-notes",
-   "summary": "A private Markdown notes app for Mac Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-07T09:31:09-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
    "title": "Hemory",
    "url": "https://www.producthunt.com/products/hemory",
    "summary": "Keep listening. Searchable memory for your AI agents. Discussion | Link",
@@ -793,12 +781,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Psst",
-   "url": "https://www.producthunt.com/products/psst-3",
-   "summary": "A shared shopping list that remembers what things cost Discussion | Link",
+   "title": "Kleanly",
+   "url": "https://www.producthunt.com/products/kleanly",
+   "summary": "One tap in the notch locks your keyboard and trackpad Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-03T11:48:30-07:00"
+    "published": "2026-09-18T18:42:25-07:00"
    },
    "categories": [
     "プロダクト"
@@ -807,12 +795,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Kleanly",
-   "url": "https://www.producthunt.com/products/kleanly",
-   "summary": "One tap in the notch locks your keyboard and trackpad Discussion | Link",
+   "title": "Psst",
+   "url": "https://www.producthunt.com/products/psst-3",
+   "summary": "A shared shopping list that remembers what things cost Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-18T18:42:25-07:00"
+    "published": "2026-09-03T11:48:30-07:00"
    },
    "categories": [
     "プロダクト"
@@ -835,6 +823,21 @@
   },
   {
    "source": "Product Hunt",
+   "title": "Eclatira",
+   "url": "https://www.producthunt.com/products/eclatira",
+   "summary": "Conversational Video Agent That Plugs Into Any Stack Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-08-31T09:07:06-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
    "title": "Chit",
    "url": "https://www.producthunt.com/products/chit-2",
    "summary": "A printed receipt of your day in Claude Code Discussion | Link",
@@ -850,15 +853,14 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Eclatira",
-   "url": "https://www.producthunt.com/products/eclatira",
-   "summary": "Conversational Video Agent That Plugs Into Any Stack Discussion | Link",
+   "title": "Paragraph Notes",
+   "url": "https://www.producthunt.com/products/paragraph-notes",
+   "summary": "A private Markdown notes app for Mac Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-08-31T09:07:06-07:00"
+    "published": "2026-09-07T09:31:09-07:00"
    },
    "categories": [
-    "AI",
     "プロダクト"
    ],
    "seen_before": false
@@ -922,12 +924,43 @@
   },
   {
    "source": "Product Hunt",
-   "title": "10xJoy",
-   "url": "https://www.producthunt.com/products/10xjoy",
-   "summary": "Discover desired outcomes + connect w/ builders who can help Discussion | Link",
+   "title": "Bleetz Network",
+   "url": "https://www.producthunt.com/products/bleetz-network",
+   "summary": "AI agent-to-agent VC fundraising & scouting network Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-24T23:47:02-07:00"
+    "published": "2026-09-23T11:37:04-07:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Kaiku",
+   "url": "https://www.producthunt.com/products/kaiku",
+   "summary": "The task tracker your AI agents already know how to use Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-22T18:58:30-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "TourKit",
+   "url": "https://www.producthunt.com/products/tourkit",
+   "summary": "Lightweight product tours with a hosted dashboard Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-22T03:04:14-07:00"
    },
    "categories": [
     "プロダクト"
@@ -936,40 +969,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Wand",
-   "url": "https://www.producthunt.com/products/wand-6",
-   "summary": "Build software at the speed of thought Discussion | Link",
+   "title": "NexusAXI",
+   "url": "https://www.producthunt.com/products/nexusaxi",
+   "summary": "Research, plan, create, and automate recurring work Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-24T19:17:21-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "Split",
-   "url": "https://www.producthunt.com/products/split-9",
-   "summary": "Resize connected Mac windows together, with live content Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-20T08:59:37-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "Quiver GTM",
-   "url": "https://www.producthunt.com/products/quiver-gtm",
-   "summary": "Run developer marketing like an engineering system Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-23T18:50:08-07:00"
+    "published": "2026-09-19T03:22:50-07:00"
    },
    "categories": [
     "プロダクト"
@@ -1011,7 +1016,7 @@
    "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
    "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
    "summary": "",
-   "score": 52,
+   "score": 53,
    "meta": {
     "author": "nwn",
     "score_label": "likes"
@@ -1056,7 +1061,7 @@
    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
    "summary": "",
-   "score": 21,
+   "score": 26,
    "meta": {
     "author": "mazrean",
     "score_label": "likes"
@@ -1086,7 +1091,7 @@
    "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた",
    "url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55",
    "summary": "",
-   "score": 27,
+   "score": 28,
    "meta": {
     "author": "nanora",
     "score_label": "likes"
@@ -1522,7 +1527,7 @@
    "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
    "url": "https://togetter.com/li/2750963",
    "summary": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。（最低でも）月額20ドルをChatGPTやClaudeに課金できる人だけが正しい検索結果にたどり着くことができ、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされる。Googleはグーテンベルク以前の世界へと時計の針を戻すつもりか…？ 2026-...",
-   "score": 108,
+   "score": 124,
    "meta": {
     "published": "2026-09-27T01:03:59Z",
     "score_label": "users"
@@ -1537,7 +1542,7 @@
    "title": "「テレワーク廃止で人が辞める」「争奪戦が激しいITエンジニア職」、変革期を生き抜く組織の選択",
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news010.html",
    "summary": "企業における出社回帰への方針転換とそれに伴う人材流出の懸念、生成AIが浸透してもなお解消されないエンジニア不足など、組織と人材に関するテーマに大きな関心が寄せられました。インフラ面ではVMware製品からの脱却策、データベースやネットワーク構築の最適化、ゼロトラストの本来の目的など、直面するコスト高や運...",
-   "score": 192,
+   "score": 200,
    "meta": {
     "published": "2026-09-26T15:26:34Z",
     "score_label": "users"
@@ -1553,7 +1558,7 @@
    "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜 - Qiita",
    "url": "https://qiita.com/ast-24/items/454fc975b095230565c7",
    "summary": "こんにちは！とある高校のSE志望の学生です。 今年の文化祭で、私のクラスは模擬店としてホットドッグを販売することになりました。 そこで、注文から受け渡しまでを担うPOSシステムを1から開発・運用してみました！ インフラには一番手軽に使えて自由度も高いCloudflareを採用しました。 予行を含めた3日間で568件・976...",
-   "score": 93,
+   "score": 101,
    "meta": {
     "published": "2026-09-25T23:27:08Z",
     "score_label": "users"
@@ -1568,7 +1573,7 @@
    "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した",
    "url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/",
    "summary": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した 2026/09/26 / whywaita / 0 Comments こんにちは、whywrite.it 自宅サーバ班のwhywaita です。 自宅の Kubernetes クラスタを作り直しました。このブログ（blog.whywrite.it）もいまは新しいクラスタの上で動いています。 これで数年ぐらいは戦えるかなという...",
-   "score": 30,
+   "score": 33,
    "meta": {
     "published": "2026-09-26T12:06:17Z",
     "score_label": "users"
@@ -1583,7 +1588,7 @@
    "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
    "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
    "summary": "旧題: 「Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”」 はじめに Go は「誰が書いても同じようになる」言語 Go には表現の選択肢が多くありません。三項演算子もなければ例外もなく，メタプログラミングで遊ぶ文化も薄い。 if err != nil を延々と書き，for を回し，構造体を素直...",
-   "score": 46,
+   "score": 51,
    "meta": {
     "published": "2026-09-26T10:09:00Z",
     "score_label": "users"
@@ -1596,12 +1601,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
-   "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
-   "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
-   "score": 82,
+   "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
+   "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
+   "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
+   "score": 51,
    "meta": {
-    "published": "2026-09-26T11:10:42Z",
+    "published": "2026-09-26T14:30:51Z",
     "score_label": "users"
    },
    "categories": [
@@ -1611,12 +1616,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
-   "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
-   "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
-   "score": 47,
+   "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
+   "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
+   "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
+   "score": 86,
    "meta": {
-    "published": "2026-09-26T14:30:51Z",
+    "published": "2026-09-26T11:10:42Z",
     "score_label": "users"
    },
    "categories": [
@@ -1629,7 +1634,7 @@
    "title": "s17arのブックマーク - はてなブックマーク",
    "url": "https://b.hatena.ne.jp/s17ar/",
    "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? アラートが鳴った、あるいは「不正アクセスかもしれない」という一報が入った。その瞬間、自分が何を確認し、誰に連絡し、どこまでを自分の判断で動いていいのかが分からない。その...",
-   "score": 45,
+   "score": 46,
    "meta": {
     "published": "2026-09-26T16:18:33Z",
     "score_label": "users"
@@ -1641,25 +1646,10 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "AIと小説を書くということ (2026/09/26版）｜erukiti",
-   "url": "https://note.com/erukiti/n/nbedfd9bcbae1",
-   "summary": "AIに小説を書かせることが当たり前の時代になりましたが、AIにポン出しで小説を書かせると品質の低い小説が生成されることも珍しくありません。 昨今、AI slop（スロップ）という、AIの吐き出した低品質な生成物を会社や学校や取引先などに提出してしまうという問題が、社会問題となりつつあります。これは小説を書かせ...",
-   "score": 40,
-   "meta": {
-    "published": "2026-09-26T02:06:10Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
    "title": "AI搭載の監視カメラを混乱させる「デジタル迷彩シャツ」",
    "url": "https://gigazine.net/news/20260927-digital-camouflage-shirt/",
    "summary": "AI搭載のカメラで監視されることを嫌った人物が、着ている人をAIが人と認識できなくなる特製の迷彩柄シャツを作り上げました。 SIMON WECKERT — Digital Camouflage https://simonweckert.com/digitalcamouflage.html?ref=404media.co This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras https:...",
-   "score": 25,
+   "score": 28,
    "meta": {
     "published": "2026-09-26T23:05:15Z",
     "score_label": "users"
@@ -1672,12 +1662,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
-   "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
-   "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
-   "score": 53,
+   "title": "AIと小説を書くということ (2026/09/26版）｜erukiti",
+   "url": "https://note.com/erukiti/n/nbedfd9bcbae1",
+   "summary": "AIに小説を書かせることが当たり前の時代になりましたが、AIにポン出しで小説を書かせると品質の低い小説が生成されることも珍しくありません。 昨今、AI slop（スロップ）という、AIの吐き出した低品質な生成物を会社や学校や取引先などに提出してしまうという問題が、社会問題となりつつあります。これは小説を書かせ...",
+   "score": 41,
    "meta": {
-    "published": "2026-09-26T09:53:04Z",
+    "published": "2026-09-26T02:06:10Z",
     "score_label": "users"
    },
    "categories": [
@@ -1690,7 +1680,7 @@
    "title": "個人開発はCloudflareにすべて賭けろ",
    "url": "https://speakerdeck.com/ashunar0/kojin-kaihatsu-ha-cloudflare-ni-subete-kakero",
    "summary": "Findyテックハッカソン2026",
-   "score": 139,
+   "score": 146,
    "meta": {
     "published": "2026-09-26T09:36:17Z",
     "score_label": "users"
@@ -1702,10 +1692,25 @@
   },
   {
    "source": "はてブ テクノロジー",
+   "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
+   "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
+   "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
+   "score": 55,
+   "meta": {
+    "published": "2026-09-26T09:53:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
    "title": "オントロジー定義から AI エージェントのツールを機械的に生成する",
    "url": "https://zenn.dev/mk0bayashi/articles/2a6ee4123e671f",
    "summary": "本記事のコード片は実プロダクト（Postgres + TypeScript + Claude Agent SDK）の本番実装から引用しています。紙面の都合で省略した箇所は都度注記しています。 少し前に、Palantir Foundry を「リバースドメインモデリング」という見立てで分解した投稿（@gura105 さんの X 投稿）を読みました。ドメインモデリングと...",
-   "score": 6,
+   "score": 7,
    "meta": {
     "published": "2026-09-27T01:22:27Z",
     "score_label": "users"
@@ -1719,12 +1724,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "【検証】Google AI Pro 限界まで使い倒したらめちゃくちゃお得 説｜ぶるぺん/blue.pen5805",
-   "url": "https://note.com/blue_pen5805/n/nb124b104c28b",
-   "summary": "みなさん ChatGPT とか Claude とか使ってますか？ はい、そうですね Gemini は使ってないですね 今回はそんな Gemini の有料サブスクの中で 最も一般的なプランである Google AI Pro （月額 2,900円）について 全特典の価値をすべて計算したら実はめちゃくちゃお得なのでは？ という説について検証していきます なお、...",
-   "score": 233,
+   "title": "UNIXパイプにAIを組み込む - sagepipe | おそらくはそれさえも平凡な日々",
+   "url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html",
+   "summary": "https://github.com/Songmu/sagepipe AI AgentとCLIを連携させるために、標準入出力にjsonlを使うようにCLIを作り、そのJSON SchemaをAgentにヒントとして渡すやり方を最近取ることが多い。「Aというツールがこういうスキーマの出力を出すから、それをBというツールが受け取るこういうスキーマに変換して」、という具合...",
+   "score": 8,
    "meta": {
-    "published": "2026-09-26T06:52:37Z",
+    "published": "2026-09-26T16:58:01Z",
     "score_label": "users"
    },
    "categories": [
@@ -1737,7 +1742,7 @@
    "title": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？",
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news028.html",
    "summary": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？：管理職かどうかでテレワークへの意識が異なる テレワークから出社へ――。企業の間で出社回帰の動きが広がる一方、テレワークの制限や廃止を受けて、退職や転職を検討する人もいる。それでも企業が出社回帰を進めるのはなぜなのか。 学研ホールデ...",
-   "score": 33,
+   "score": 34,
    "meta": {
     "published": "2026-09-07T12:16:54Z",
     "score_label": "users"
@@ -1749,27 +1754,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "UNIXパイプにAIを組み込む - sagepipe | おそらくはそれさえも平凡な日々",
-   "url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html",
-   "summary": "https://github.com/Songmu/sagepipe AI AgentとCLIを連携させるために、標準入出力にjsonlを使うようにCLIを作り、そのJSON SchemaをAgentにヒントとして渡すやり方を最近取ることが多い。「Aというツールがこういうスキーマの出力を出すから、それをBというツールが受け取るこういうスキーマに変換して」、という具合...",
-   "score": 5,
+   "title": "【検証】Google AI Pro 限界まで使い倒したらめちゃくちゃお得 説｜ぶるぺん/blue.pen5805",
+   "url": "https://note.com/blue_pen5805/n/nb124b104c28b",
+   "summary": "みなさん ChatGPT とか Claude とか使ってますか？ はい、そうですね Gemini は使ってないですね 今回はそんな Gemini の有料サブスクの中で 最も一般的なプランである Google AI Pro （月額 2,900円）について 全特典の価値をすべて計算したら実はめちゃくちゃお得なのでは？ という説について検証していきます なお、...",
+   "score": 235,
    "meta": {
-    "published": "2026-09-26T16:58:01Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "AIの内部に「痛み」特有の活動パターンを発見――強めると人間を傷つけてでも痛みから逃れる選択がほぼゼロから最大7割に - ナゾロジー",
-   "url": "https://nazology.kusuguru.co.jp/archives/200119",
-   "summary": "ドイツのルール大学ボーフム（RUB）などで行われた研究によって、AIの内部に、恐怖や怒りとは別の「痛み」の概念に特有の活動パターンがあることが示されました。 また研究でこの概念を強めたAIは、痛みから逃れるために、人間に害が及ぶ選択肢まで選ぶようになりました。 また研究では、このパターンは調べた25種類のAI...",
-   "score": 49,
-   "meta": {
-    "published": "2026-09-26T09:05:52Z",
+    "published": "2026-09-26T06:52:37Z",
     "score_label": "users"
    },
    "categories": [
@@ -1782,7 +1772,7 @@
    "title": "20万円超のXperiaを「買い」に変えた3週間　ソニーが「モニタープログラム」を実施した理由",
    "url": "https://www.itmedia.co.jp/mobile/articles/2609/26/news001.html",
    "summary": "発売前の最新スマートフォン「Xperia 1 VIII」を日常生活の中で約3週間試用し、開発陣へ直接意見を届ける「Xperia新製品 モニタープログラム」が実施された。公式アプリ「Xperia Lounge」内でマイルをためた最上位のプラチナランク会員を対象に募集し、約300人の応募から倍率約7倍の選考を経て43人が参加した。単なる先...",
-   "score": 6,
+   "score": 7,
    "meta": {
     "published": "2026-09-26T02:25:26Z",
     "score_label": "users"
@@ -1794,10 +1784,25 @@
   },
   {
    "source": "はてブ テクノロジー",
+   "title": "AIの内部に「痛み」特有の活動パターンを発見――強めると人間を傷つけてでも痛みから逃れる選択がほぼゼロから最大7割に - ナゾロジー",
+   "url": "https://nazology.kusuguru.co.jp/archives/200119",
+   "summary": "ドイツのルール大学ボーフム（RUB）などで行われた研究によって、AIの内部に、恐怖や怒りとは別の「痛み」の概念に特有の活動パターンがあることが示されました。 また研究でこの概念を強めたAIは、痛みから逃れるために、人間に害が及ぶ選択肢まで選ぶようになりました。 また研究では、このパターンは調べた25種類のAI...",
+   "score": 51,
+   "meta": {
+    "published": "2026-09-26T09:05:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
    "title": "darktableをフォークして余分な機能を排除しデザイン面の使い勝手を洗練させた「Ansel」",
    "url": "https://gigazine.net/news/20260926-ansel/",
    "summary": "RAW画像を編集するソフトには写真の明るさや色の調整・ノイズ除去・レンズの補正などさまざまな機能が搭載されていますが、機能が増えるほど目的の設定項目を探す手間も増えてしまいます。そこで無料でオープンソースのRAW現像ソフト「Ansel」は、「darktable」をベースに機能の整理や操作画面の再設計により、写真編集...",
-   "score": 6,
+   "score": 7,
    "meta": {
     "published": "2026-09-26T07:17:26Z",
     "score_label": "users"
@@ -1869,16 +1874,16 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した：時事ドットコム",
-   "url": "https://www.jiji.com/jc/article?k=2026092600302&g=flash",
-   "summary": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した 2026年09月26日15時19分配信 米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した（ワシントン時事） ＡＩ、米中は「ＳＩ（超知能）」と呼称 危機管理へ連絡経路―首脳会談 ニュース速報 最終更...",
-   "score": 52,
+   "title": "高負荷プロダクション環境におけるAWS Lambdaのリアル 〜スケールとコストを左右する実行ライフサイクルの技術仕様〜",
+   "url": "https://speakerdeck.com/maimyyym/the-reality-of-aws-lambda-in-high-load-production",
+   "summary": "JAWS-UG KYUSHU QUEST 2026 in Fukuoka https://jawsug-fukuoka.connpass.com/event/403616/",
+   "score": 39,
    "meta": {
-    "published": "2026-09-26T09:04:32Z",
+    "published": "2026-09-26T08:34:54Z",
     "score_label": "users"
    },
    "categories": [
-    "その他"
+    "インフラ"
    ],
    "seen_before": false
   },
@@ -2151,5 +2156,7 @@
    ],
    "seen_before": false
   }
- ]
+ ],
+ "oss": [],
+ "releases": []
 }
