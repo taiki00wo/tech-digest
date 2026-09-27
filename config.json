@@ -3,7 +3,6 @@
   "timezone_offset_hours": 9,
   "seen_retention_days": 14,
   "limits": {
-    "github_trending": 25,
     "hackernews": 30,
     "lobsters": 15,
     "producthunt": 15,
@@ -146,5 +145,36 @@
       "vercel",
       "nix"
     ]
+  },
+  "oss": {
+    "candidates": 15,
+    "readme_top": 6,
+    "deep_dive_weekdays": [
+      1,
+      4
+    ]
+  },
+  "watch_repos": [
+    "vercel/next.js",
+    "facebook/react",
+    "microsoft/TypeScript",
+    "vitejs/vite",
+    "honojs/hono",
+    "anthropics/claude-code",
+    "anthropics/anthropic-sdk-typescript",
+    "cloudflare/workers-sdk:wrangler@",
+    "astral-sh/uv",
+    "golang/go"
+  ],
+  "reader_profile": {
+    "stack": [
+      "TypeScript / React / Next.js",
+      "AIアプリ開発（LLM API・エージェント・MCP・Claude Code）",
+      "クラウド / サーバーレス（AWS・Cloudflare・GCP）",
+      "Go / Python などのバックエンド"
+    ],
+    "minutes_per_day": 15,
+    "reading_list_size": 5,
+    "headlines_size": 10
   }
 }

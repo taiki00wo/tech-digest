@@ -15,9 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 RAW, PICKS = ROOT / "data" / "raw", ROOT / "data" / "picks"
-CATEGORY_ORDER = ["AI", "フロントエンド", "バックエンド", "インフラ", "プロダクト", "その他"]
-COLORS = {"AI": 0x8B5CF6, "フロントエンド": 0x0EA5E9, "バックエンド": 0x10B981, "インフラ": 0xF59E0B,
-          "プロダクト": 0xEC4899, "その他": 0x9CA3AF, "_head": 0x2F6FED}
+COLORS = {"_head": 0x2F6FED}
 # Discord の制限: 1メッセージの embed は10個・合計6000文字、description は4096文字
 MAX_EMBEDS, MAX_TOTAL, MAX_DESC = 10, 5800, 4000
 
@@ -31,46 +29,16 @@ def link(title, url):
 
 
 def build_embeds(date):
-    raw = json.loads((RAW / f"{date}.json").read_text())
+    """site_url が無いときの予備: 読む順の5本と今日のOSSを1つの embed にまとめる。"""
     picks_path = PICKS / f"{date}.json"
     picks = json.loads(picks_path.read_text()) if picks_path.exists() else {}
-    notes = picks.get("items", {})
-    by_url = {i["url"]: i for i in raw["items"]}
-    embeds = []
-
-    head = []
-    if picks.get("headline"):
-        head.append(f"**{picks['headline']}**")
-    if picks.get("trends"):
-        head.append("\n".join(f"• {t}" for t in picks["trends"]))
-    if picks.get("must_read"):
-        lines = [f"**{n}. {link(m.get('title') or by_url.get(m['url'], {}).get('title', m['url']), m['url'])}**\n{m.get('why', '')}"
-                 for n, m in enumerate(picks["must_read"], 1)]
-        head.append("📌 **今日読むべき3本**\n" + "\n\n".join(lines))
-    new = sum(not i["seen_before"] for i in raw["items"])
-    embeds.append({"title": f"📰 Tech Digest {date}", "description": clip("\n\n".join(head) or "（要約なし・収集結果のみ）", MAX_DESC),
-                   "color": COLORS["_head"], "footer": {"text": f"収集 {len(raw['items'])}件 / 新着 {new}件"}})
-
-    groups = {c: [] for c in CATEGORY_ORDER}
-    for it in raw["items"]:
-        n = notes.get(it["url"])
-        if picks and not n:
-            continue
-        cat = (n or {}).get("category") or it["categories"][0]
-        groups.setdefault(cat, []).append(it)
-    for cat, items in groups.items():
-        if not items:
-            continue
-        items.sort(key=lambda x: (-notes.get(x["url"], {}).get("importance", 0), x["seen_before"], -(x.get("score") or 0)))
-        lines = []
-        for it in items[:10]:
-            n = notes.get(it["url"], {})
-            mark = "🔥 " if n.get("importance") == 3 else ""
-            summary = n.get("summary") or it["summary"]
-            lines.append(f"{mark}{link(it['title'], it['url'])}" + (f"\n{clip(summary, 160)}" if summary else ""))
-        embeds.append({"title": f"{cat}（{len(items)}）", "description": clip("\n\n".join(lines), MAX_DESC),
-                       "color": COLORS.get(cat, COLORS["その他"])})
-    return embeds
+    lines = [f"**{picks['headline']}**"] if picks.get("headline") else []
+    for n, r in enumerate(picks.get("reading_list", []), 1):
+        lines.append(f"{n}. {link(r['title'], r['url'])}（{r.get('minutes', '?')}分）\n{r.get('why', '')}")
+    for o in picks.get("oss", []):
+        lines.append(f"🧩 {link(o['repo'], o['url'])} — {o.get('what', '')}")
+    return [{"title": f"📰 Tech Digest {date}", "description": clip("\n\n".join(lines) or "（要約なし）", MAX_DESC),
+             "color": COLORS["_head"]}]
 
 
 def batches(embeds):

@@ -11,6 +11,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import oss
+
 ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / "config.json").read_text())
 JST = timezone(timedelta(hours=CONFIG["timezone_offset_hours"]))
@@ -34,48 +36,6 @@ def item(source, title, url, summary="", score=None, meta=None):
 
 
 # ---------- 各ソース ----------
-
-def github_trending():
-    page = fetch("https://github.com/trending?since=daily")
-    out = []
-    for block in re.findall(r'<article class="Box-row">(.*?)</article>', page, re.S)[:LIMITS["github_trending"]]:
-        m = re.search(r'<h2[^>]*>\s*<a[^>]*href="/([^"]+)"', block, re.S)
-        if not m:
-            continue
-        repo = m.group(1)
-        desc = re.search(r'<p class="col-9[^"]*">(.*?)</p>', block, re.S)
-        lang = re.search(r'itemprop="programmingLanguage">([^<]+)<', block)
-        stars = re.search(r'href="/[^"]+/stargazers"[^>]*>.*?</svg>\s*([\d,]+)', block, re.S)
-        today = re.search(r'([\d,]+) stars today', block)
-        out.append(item("GitHub Trending", repo, f"https://github.com/{repo}",
-                        strip_tags(desc.group(1)) if desc else "",
-                        int(today.group(1).replace(",", "")) if today else None,
-                        {"language": lang.group(1).strip() if lang else None,
-                         "stars": stars.group(1) if stars else None,
-                         "score_label": "stars today"}))
-    return out
-
-
-def github_rising():
-    """Trending ページが取れない環境向けの代替: 直近7日に作られたリポジトリをスター順で取る。"""
-    since = (datetime.now(JST) - timedelta(days=7)).strftime("%Y-%m-%d")
-    # クラウド環境は共有IPで未認証だとレート制限（403）になりやすいので、トークンがあれば使う
-    token = os.environ.get("GITHUB_TOKEN")
-    data = json.loads(fetch(f"https://api.github.com/search/repositories?q=created:%3E{since}"
-                            f"&sort=stars&order=desc&per_page={LIMITS['github_trending']}",
-                            headers={"Authorization": f"Bearer {token}"} if token else None))
-    return [item("GitHub 新着人気", r["full_name"], r["html_url"], r.get("description") or "",
-                 r["stargazers_count"], {"language": r.get("language"), "score_label": "stars"})
-            for r in data["items"]]
-
-
-def github():
-    try:
-        return github_trending()
-    except Exception as e:
-        print(f"  ! GitHub Trending: {e} → 検索APIで代替", file=sys.stderr)
-        return github_rising()
-
 
 def hackernews():
     ids = json.loads(fetch("https://hacker-news.firebaseio.com/v0/topstories.json"))[:60]
@@ -210,9 +170,22 @@ def categorize(it):
     return cats or ["その他"]
 
 
+def recently_featured(today, days=30):
+    """過去のダイジェストで紹介済みのリポジトリ（同じOSSを繰り返し出さないため）。"""
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    names = set()
+    for p in (ROOT / "data" / "picks").glob("*.json"):
+        if cutoff <= p.stem < today:
+            picks = json.loads(p.read_text())
+            names |= {o.get("repo") for o in picks.get("oss", [])}
+            names.add((picks.get("deep_dive") or {}).get("repo"))
+    return names - {None}
+
+
 def main():
-    today = datetime.now(JST).strftime("%Y-%m-%d")
-    sources = {"GitHub": github, "Hacker News": hackernews, "Lobsters": lobsters,
+    now = datetime.now(JST)
+    today = now.strftime("%Y-%m-%d")
+    sources = {"Hacker News": hackernews, "Lobsters": lobsters,
                "Product Hunt": producthunt, "Zenn": zenn, "Qiita": qiita, "はてブ": hatena,
                "公式ブログ": rss_feeds}
     items, errors = [], {}
@@ -242,15 +215,29 @@ def main():
         seen.setdefault(it["url"], today)
         uniq[it["url"]] = it
 
-    out = {"date": today, "collected_at": datetime.now(JST).isoformat(timespec="seconds"),
-           "errors": errors, "items": list(uniq.values())}
+    # OSS（急上昇・リリース・README）
+    oss_repos, releases = [], []
+    try:
+        oss_repos, releases = oss.collect(CONFIG, items, now, ROOT / "data" / "stars.json")
+        featured = recently_featured(today)
+        for r in oss_repos:
+            r["featured_before"] = r["repo"] in featured
+        print(f"  OSS候補: {len(oss_repos)}件 / リリース: {len(releases)}件")
+    except Exception as e:
+        errors["GitHub"] = str(e)
+        print(f"  ! GitHub: {e}", file=sys.stderr)
+
+    out = {"date": today, "weekday": "月火水木金土日"[now.weekday()],
+           "deep_dive_day": now.weekday() in CONFIG["oss"]["deep_dive_weekdays"],
+           "collected_at": now.isoformat(timespec="seconds"),
+           "errors": errors, "items": list(uniq.values()), "oss": oss_repos, "releases": releases}
     raw_dir = ROOT / "data" / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     path = raw_dir / f"{today}.json"
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     seen_path.write_text(json.dumps(seen, ensure_ascii=False))
     new = sum(not i["seen_before"] for i in out["items"])
-    print(f"保存: {path.relative_to(ROOT)}  ({len(out['items'])}件, うち新着{new}件)")
+    print(f"保存: {path.relative_to(ROOT)}  (記事{len(out['items'])}件・新着{new}件 / OSS{len(oss_repos)}件 / リリース{len(releases)}件)")
 
 
 if __name__ == "__main__":
