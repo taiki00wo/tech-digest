@@ -1,9 +1,9 @@
 {
-  "headline": "AIエージェントの「スキル」化とMCP経由での業務システム連携が実務レベルで具体化し、クラウド側ではAIエージェントによる脆弱性対応・ファジングの自動化も進んだ一日。",
+  "headline": "エージェント向け「スキル」が驚異的な速度で普及する一方、業務システムへの権限設計やクロステナント脆弱性対応など、AIをどう安全に組み込むかが実務レベルで具体化した一日。",
   "trends": [
-    "エージェント向けの再利用可能な「スキル」がGitHubやApp Storeを超える速度で普及し、公開スキルの上に自社固有の知識を積むことが次の差別化点になりつつある。",
-    "ClaudeやMCPを業務システムに組み込む際の権限設計（読み取り専用DB接続・用途別ツール）や、AIが書くコードの設計境界を守る静的解析ツールなど、実務の「安全に使う工夫」が国内外で具体化してきた。",
-    "セキュリティ領域でもAIエージェントの実戦投入が進み、継続的ファジングの監視作業をLLMエージェントに委ねる事例や、コンテナ基盤側のクロステナント脆弱性対応が公開された。"
+    "Agent Skillsが7ヶ月で100万件・2.8億インストールに達し、汎用スキルは差別化にならず自社固有の知識をどう積むかが次の競争軸になり始めている。",
+    "業務DBへの読み取り専用MCPやAIが書くGoコードの越境を検知するLinterなど、AIをシステム側の構造で安全に制御する工夫が国内の実務記事から続々出てきた。",
+    "Cloudflare Containersのクロステナントデータ漏えいやGitHub Security LabのAIファジングなど、クラウド・セキュリティ領域でもAIエージェントの実戦投入と対応が同時に進んでいる。"
   ],
   "reading_list": [
     {
@@ -11,40 +11,40 @@
       "title": "State of agent skills",
       "category": "AI",
       "minutes": 5,
-      "why": "エージェント向け「スキル」がわずか7ヶ月で100万件・2.8億インストールに達したという、Claude Codeのようなツールの拡張がどこに向かうかを一次データで示しているから。",
-      "takeaway": "用途別の普及割合（エンジニアリング18%、エージェントワークフロー15%など）や業界横断スキルが全体の87.5%を占める現状、そして今後は自社固有の知識を書くことが競争優位になるという展望がわかる。"
+      "why": "Claude Codeのようなツールを支えるAgent Skillsが、GitHubやApp Storeを超える速度で普及している実態を、Vercel自身の一次データで示しているから。",
+      "takeaway": "スキルは7ヶ月で100万件・2.8億インストールに達し、業界横断スキルが業界特定スキルの3.6倍のインストールを得ている一方、今後は自社固有の判断知識が差別化点になるとわかる。"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "title": "When chat is the wrong UI",
+      "category": "フロントエンド",
+      "minutes": 3,
+      "why": "チャットUIに閉じないAIプロダクトの作り方を、GitHub Copilotの実例（Canvas）で示す公式記事だから。",
+      "takeaway": "タスクが具体化した局面ではチャットより、AIと双方向通信できるフルスタックUI「Canvas」（ゲーム、パッケージ管理、DB管理画面など）の方が向いているとわかる。"
     },
     {
       "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
       "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
       "category": "インフラ",
-      "minutes": 5,
-      "why": "コンテナ/サーバーレス基盤を使う開発者にとって、マルチテナント環境のディスク再利用が招く実際のデータ漏えい経路を、当事者であるCloudflare自身が公開している一次情報だから。",
-      "takeaway": "小さな書き込みでブロック全体を割り当てさせ前の顧客の残存データを読み出す手口の仕組みと、該当設定の修正・既存ディスクの全再初期化というCloudflareの対応がわかる。"
+      "minutes": 7,
+      "why": "マルチテナントのコンテナ/サーバーレス基盤を使う開発者にとって、ディスク再利用が招く実際のデータ漏えい経路を当事者自身が公開している一次情報だから。",
+      "takeaway": "dm-thinのskip_block_zeroing設定によりディスク領域がゼロクリアされず、4KiBの小さい書き込みで64KiBブロック全体を確保し前の顧客データを読み出せた仕組みと、設定修正・全ディスク再作成という対応がわかる。"
     },
     {
       "url": "https://qiita.com/TechStudioLab/items/906d86684fbcb92eedbd",
       "title": "業務DBを読み取り専用MCPにしてClaudeから参照する",
       "category": "AI",
-      "minutes": 5,
-      "why": "業務DBをClaudeに安全に触らせたい人向けに、読み取り専用MCPの権限設計を実例で示している実践的な記事だから。",
-      "takeaway": "SQLiteのmode=ro接続と、get_customerのような用途別ツールだけを公開する構成にすれば、プロンプト任せにせずシステム側で閲覧範囲を絞れることがわかる。"
-    },
-    {
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "category": "インフラ",
-      "minutes": 6,
-      "why": "継続的ファジングにつきものの監視作業（カバレッジ確認・ハーネス作成・クラッシュ分類）をLLMエージェントに任せる設計を、GitHub自身のセキュリティラボが公開しているから。",
-      "takeaway": "エントリーポイント認識からハーネス作成・AFL++実行・カバレッジ分析・クラッシュ分類までを人手なしで回すパイプラインの構成と、その成果がわかる。"
+      "minutes": 4,
+      "why": "業務DBをClaudeに安全に触らせたい人向けに、読み取り専用MCPの権限設計を具体的なコードで示す実践的な記事だから。",
+      "takeaway": "SQLiteのmode=ro接続と、get_customerのような用途別ツールだけを公開しSELECT列や件数を絞る構成にすれば、プロンプト任せにせずシステム側で閲覧範囲を絞れるとわかる。"
     },
     {
       "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
-      "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
+      "title": "AI が書く Go コードの品質を劇的に向上させる Linter: \"declscope\"",
       "category": "バックエンド",
-      "minutes": 4,
-      "why": "AIエージェントが「見えているAPIは素直に使う」ためにGoのフラットなパッケージ構成で設計境界が壊れやすいという問題を、規約でなく静的解析で機械的に防ぐ具体策だから。",
-      "takeaway": "`declscope ./...`で越境アクセスを検出し`-fix`で修正する使い方と、既存コードベースには`declscope baseline`で導入する手順がわかる。"
+      "minutes": 5,
+      "why": "AIエージェントが人間の暗黙のパッケージ内規約を守らず越境してコードを呼び出す問題を、決定論的に検査するLinterで解決している技術的な記事だから。",
+      "takeaway": "ファイル単位のprivateスコープを越境した呼び出しを検出し、共有ファイルへの移動か//declscope:packageでの意図的共有かをAIエージェント自身が診断結果から判断できる設計になっているとわかる。"
     }
   ],
   "oss": [
@@ -52,21 +52,21 @@
       "repo": "NandhaKishorM/laya",
       "url": "https://github.com/NandhaKishorM/laya",
       "language": "Python",
-      "stars": 25977,
-      "stars_per_day": 2886,
-      "what": "100以上の言語に対応する非自己回帰型の判定エンジンで、1回のフォワードパス（33ms）でtyped choice・score・yes/no判定を返し、リクエストごとに適切なチェックポイントをルーターが選ぶ。",
-      "why": "strictly proper scoring ruleに基づく強化学習（RLCD）で訓練したモデルという設計が支持され、今日のOSS候補の中で伸びが最も速い。",
-      "try": "`pip install laya` の後、MCPサーバーとして使いたい場合は `pip install laya[mcp]` を追加する。"
+      "stars": 26180,
+      "stars_per_day": 2909,
+      "what": "テキストに対する型付き選択・スコア・Yes/No判定を100言語以上・単一フォワードパスで33msで返す、生成しない「System 1」判定エンジン。",
+      "why": "生成せず判定だけを高速に返す専用モデルとして、分類・ルーティング用途でLLM代替になりうる設計が注目され、開発者自身のdev.to記事も話題になり急上昇している。",
+      "try": "python -m pip install laya してRouter().predict(text, questions)でdepartment/urgencyのような型付き質問を投げてみる。"
     },
     {
       "repo": "browser-use/jev-ultrafast",
       "url": "https://github.com/browser-use/jev-ultrafast",
       "language": "Python",
-      "stars": 20601,
-      "stars_per_day": 1873,
-      "what": "ブラウザ操作エージェントで、ページ内の要素表からCLICK/TYPE_TEXTなどの操作とターゲットを1回のネットワークラウンドトリップで決め、テキスト入力が必要な場合だけ小さいLLMを呼ぶ。",
-      "why": "サイト固有のスクリプトを持たずにGoogle Flightsの往復検索を7.1秒で完了させる速さが話題になり、急速に伸びている。",
-      "try": "`git clone https://github.com/browser-use/jev-ultrafast.git && cd jev-ultrafast && uv sync && uv run jev` で起動し、http://127.0.0.1:8766 のインスペクタで確認する。"
+      "stars": 20663,
+      "stars_per_day": 1878,
+      "what": "画面の要素テーブルから操作(CLICK/TYPE_TEXTなど)と対象を1リクエストで決め、テキスト入力だけ小型LLMに書かせる高速ブラウザ操作エージェント。",
+      "why": "Google Flightsでのチューリッヒ→ロンドン検索を7.1秒で完了するデモが、ブラウザエージェントの速度の実例として注目を集めている。",
+      "try": "git clone後 uv sync && cp .env.example .env でAPIキーを設定し、uv run jev してhttp://127.0.0.1:8766のデモを動かす。"
     }
   ],
   "releases": [
@@ -74,26 +74,96 @@
       "repo": "anthropics/claude-code",
       "version": "v2.1.283",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "summary": "LLMゲートウェイ向けに1プロンプト内のリクエストをまとめて追跡できるヘッダーと、モデルを名指しで許可・拒否する`availableModelsMatch`/`deniedModels`設定を追加。\nCLAUDE.mdやスキル・エージェント・コマンドの記述が古いモデル向けの書き方になっていないか調べる`/doctor prompt-audit`を追加。\nMCPサーバーの一時的な404やstdioサーバーの後始末忘れ、バックグラウンド化したツール呼び出しの進捗表示など複数の不具合を修正。"
+      "summary": "availableModelsのexact指定やdeniedModelsでモデル利用を厳密に制御できるようになった。\nCLAUDE.mdやスキル定義の古い記法を洗い出す/doctor prompt-auditを追加。\nMCPのバックグラウンド進捗表示や404での接続断など、安定性に関する修正が多数入った。"
     },
     {
       "repo": "cloudflare/workers-sdk",
       "version": "wrangler@4.141.0",
       "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.141.0",
-      "summary": "Durable Objectsのコード更新を待たずに即時反映する`immediate`モードと、最大待ち時間を指定できる`deferred`モードを`wrangler deploy`等に追加。\nQueueサブスクリプションのイベントソースにBrowser Runを追加。\nworkers-typesとworkerdを2026-09-25版に更新するなど依存関係も更新。"
+      "summary": "Durable Objectsのコード更新を待たずに即時反映する--durable-objects-code-update-mode immediateを追加。\nQueue SubscriptionのイベントソースにBrowser Runを追加。\nwrangler dev --log-level debugでプロキシ失敗時のスタック/causeを表示するよう改善。"
     }
   ],
   "deep_dive": null,
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/masasuzu/drawing-the-infra-and-app-line",
+      "title": "インフラとアプリの境界線と委譲の設計 / Drawing the Infra and App Line",
+      "event": "Platform Engineering Kaigi 2026",
+      "why": "インフラチームとアプリチームの境界線をどこに引くべきかという多くの現場が悩む問いに、プロビジョニングとデプロイという2つの境界線を分けて考える整理を示しているから。"
+    },
+    {
+      "url": "https://speakerdeck.com/ymotongpoo/observability-platform-with-otel",
+      "title": "セルフサービスのオブザーバビリティ基盤をOpenTelemetryで作る / Building a Self-Service Observability Platform with OpenTelemetry",
+      "event": "Platform Engineering Kaigi 2026",
+      "why": "OpenTelemetryでセルフサービス型のオブザーバビリティ基盤を作る設計を、公開されているブループリント実装と合わせて学べるから。"
+    },
+    {
+      "url": "https://speakerdeck.com/takahiromatsui/ai-kudou-kaihatsu-de-shiyou-ha-doko-made-kakubeki-ka-hito-to-ai-no-sekimu-kyoukai-kara-kangaeru-kaihatsu-purosesu-no-jissen",
+      "title": "AI駆動開発で仕様はどこまで書くべきか？ ― 人とAIの責務境界から考える開発プロセスの実践",
+      "event": "",
+      "why": "AIエージェントに実装を委譲する際、人が管理すべき範囲を「境界仕様」として定義し20件の実案件に適用した結果を共有しているから。"
+    }
+  ],
   "headlines": [
-    {"url": "https://antonz.org/go-concurrency-distilled/", "title": "Go Concurrency Distilled", "category": "バックエンド", "note": "Goの並行処理パターンを整理した解説"},
-    {"url": "https://safenotsafe.dev/", "title": "Is your Postgres migration safe or not safe?", "category": "バックエンド", "note": "DBマイグレーションの安全性チェック"},
-    {"url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions", "title": "Claude Code クラウドセッション、使ってみて！", "category": "AI", "note": "Claude Codeクラウド版を試した感想"},
-    {"url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55", "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた", "category": "AI", "note": "モデル更新で陳腐化した設定の点検"},
-    {"url": "https://zenn.dev/loglass/articles/f69996279763ab", "title": "Claude Codeで定期的にやっておきたい MEMORY.md の大掃除", "category": "AI", "note": "Claude Codeのメモリ整理術"},
-    {"url": "https://qiita.com/pentaCoxian/items/d09c4e84f5b87a59f7e7", "title": "2×V100 で Qwen3.8-Flash-Next を 256K コンテキストで動かす", "category": "AI", "note": "llama.cppの推論最適化事例"},
-    {"url": "https://zenn.dev/mk0bayashi/articles/2a6ee4123e671f", "title": "オントロジー定義から AI エージェントのツールを機械的に生成する", "category": "AI", "note": "定義からエージェントツールを自動生成"},
-    {"url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html", "title": "UNIXパイプにAIを組み込む - sagepipe", "category": "AI", "note": "パイプにAIを差し込む実験"},
-    {"url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/", "title": "When chat is the wrong UI", "category": "フロントエンド", "note": "チャットUIが不適な場面を考察"},
-    {"url": "https://blog.cloudflare.com/turnstile-spin/", "title": "Agents can now set up your website's security with Turnstile Spin", "category": "インフラ", "note": "AIがサイトのセキュリティを自動設定"}
+    {
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "category": "AI",
+      "note": "AI企業幹部が海賊版認識を把握と提訴"
+    },
+    {
+      "url": "https://zenn.dev/peoplex_blog/articles/1bc5c181ad19f0",
+      "title": "Claude Opus 5.5によるピクセルアニメーション生成の検証",
+      "category": "AI",
+      "note": "Opus 5.5でピクセルアニメ生成を検証"
+    },
+    {
+      "url": "https://qiita.com/Takashi_Masumori/items/6f65c23e580dd454d4c7",
+      "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる",
+      "category": "AI",
+      "note": "新Copilot群と料金体系・展開課題を整理"
+    },
+    {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260927de52694",
+      "title": "東京メトロ 不正アクセスでメールアドレス 約5万9000件流出か",
+      "category": "インフラ",
+      "note": "東京メトロで約5.9万件のメール漏えいか"
+    },
+    {
+      "url": "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+      "title": "ランサムウェア攻撃によるシステム障害に関するお知らせとお詫び",
+      "category": "インフラ",
+      "note": "京王電鉄がランサムウェア被害を報告"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/aws-wa-agent-preview/",
+      "title": "[プレビュー] AWS Well-Architected Agent が登場したので触ってみた",
+      "category": "AI",
+      "note": "AWS Well-Architected Agentを先行レビュー"
+    },
+    {
+      "url": "https://zenn.dev/tanakh/articles/c-code-in-rust",
+      "title": "C言語のコードをRustの中に書けるライブラリを作った",
+      "category": "バックエンド",
+      "note": "RustにC言語コードを書けるライブラリ"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "title": "Improving site performance by shipping more CSS",
+      "category": "フロントエンド",
+      "note": "CSSを増やしてサイト性能を改善した話"
+    },
+    {
+      "url": "https://vercel.com/changelog/vcr-login-github-action",
+      "title": "Push images to Vercel Container Registry from GitHub Actions",
+      "category": "インフラ",
+      "note": "GitHub ActionsからVercelレジストリへpush"
+    },
+    {
+      "url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html",
+      "title": "UNIXパイプにAIを組み込む - sagepipe",
+      "category": "AI",
+      "note": "UNIXパイプにAIを組み込むsagepipe"
+    }
   ]
 }
