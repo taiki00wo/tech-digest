@@ -1,14 +1,2157 @@
 {
  "date": "2026-09-27",
- "collected_at": "2026-09-27T12:53:21+09:00",
+ "collected_at": "2026-09-27T13:00:43+09:00",
  "errors": {
-  "GitHub Trending": "HTTP Error 403: Forbidden",
-  "Hacker News": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-  "Lobsters": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-  "Product Hunt": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-  "Zenn": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-  "Qiita": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-  "はてブ": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  "GitHub Trending": "HTTP Error 403: Forbidden"
  },
- "items": []
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+   "url": "https://github.com/InfinityLoop1308/PipePipe",
+   "summary": "",
+   "score": 341,
+   "meta": {
+    "comments": 192,
+    "discussion": "https://news.ycombinator.com/item?id=49842764",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "DeepSeek Elastic Compute (DSec)",
+   "url": "https://arxiv.org/abs/2609.22978",
+   "summary": "",
+   "score": 185,
+   "meta": {
+    "comments": 57,
+    "discussion": "https://news.ycombinator.com/item?id=49859112",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+   "url": "https://github.com/reladraw/reladraw",
+   "summary": "",
+   "score": 216,
+   "meta": {
+    "comments": 61,
+    "discussion": "https://news.ycombinator.com/item?id=49858513",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Does Georgism work? Five years later",
+   "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+   "summary": "",
+   "score": 195,
+   "meta": {
+    "comments": 127,
+    "discussion": "https://news.ycombinator.com/item?id=49844657",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+   "url": "https://www.movingimagearchive.com/",
+   "summary": "",
+   "score": 132,
+   "meta": {
+    "comments": 26,
+    "discussion": "https://news.ycombinator.com/item?id=49832768",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+   "summary": "",
+   "score": 122,
+   "meta": {
+    "comments": 33,
+    "discussion": "https://news.ycombinator.com/item?id=49857729",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Fifteen years later, the Apple Cards origin story",
+   "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+   "summary": "",
+   "score": 361,
+   "meta": {
+    "comments": 92,
+    "discussion": "https://news.ycombinator.com/item?id=49854693",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+   "summary": "",
+   "score": 182,
+   "meta": {
+    "comments": 503,
+    "discussion": "https://news.ycombinator.com/item?id=49844663",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Modern Object Pascal Introduction for Programmers",
+   "url": "https://castle-engine.io/modern_pascal",
+   "summary": "",
+   "score": 156,
+   "meta": {
+    "comments": 63,
+    "discussion": "https://news.ycombinator.com/item?id=49829202",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "How I changed teaching after AI managed to do all my homework assignments",
+   "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+   "summary": "",
+   "score": 157,
+   "meta": {
+    "comments": 151,
+    "discussion": "https://news.ycombinator.com/item?id=49836579",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "How to keep enjoying programming in a world of LLMs",
+   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+   "summary": "",
+   "score": 176,
+   "meta": {
+    "comments": 229,
+    "discussion": "https://news.ycombinator.com/item?id=49854875",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Lost Atomic Update on Loongson CPU",
+   "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+   "summary": "",
+   "score": 115,
+   "meta": {
+    "comments": 6,
+    "discussion": "https://news.ycombinator.com/item?id=49827900",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+   "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+   "summary": "",
+   "score": 651,
+   "meta": {
+    "comments": 260,
+    "discussion": "https://news.ycombinator.com/item?id=49855315",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Show HN: Jev Plays Pokémon Red",
+   "url": "https://jev-pokemon.vercel.app/",
+   "summary": "",
+   "score": 262,
+   "meta": {
+    "comments": 110,
+    "discussion": "https://news.ycombinator.com/item?id=49845172",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Floci: Locally emulating any cloud service",
+   "url": "https://floci.io",
+   "summary": "",
+   "score": 166,
+   "meta": {
+    "comments": 38,
+    "discussion": "https://news.ycombinator.com/item?id=49854416",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+   "url": "https://news.ycombinator.com/item?id=49848955",
+   "summary": "",
+   "score": 247,
+   "meta": {
+    "comments": 267,
+    "discussion": "https://news.ycombinator.com/item?id=49848955",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Plunging test scores are a slow-moving catastrophe",
+   "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+   "summary": "",
+   "score": 178,
+   "meta": {
+    "comments": 341,
+    "discussion": "https://news.ycombinator.com/item?id=49857442",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Japan moves to tighten rules for foreigners",
+   "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+   "summary": "",
+   "score": 142,
+   "meta": {
+    "comments": 420,
+    "discussion": "https://news.ycombinator.com/item?id=49858810",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+   "url": "https://swarmtraces.org/",
+   "summary": "",
+   "score": 705,
+   "meta": {
+    "comments": 447,
+    "discussion": "https://news.ycombinator.com/item?id=49849985",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "16GB iPod Nano 3G Upgrade",
+   "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
+   "summary": "",
+   "score": 146,
+   "meta": {
+    "comments": 24,
+    "discussion": "https://news.ycombinator.com/item?id=49826087",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "OpenAI bots meddled with multiple US Government agency sites",
+   "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+   "summary": "",
+   "score": 109,
+   "meta": {
+    "comments": 167,
+    "discussion": "https://news.ycombinator.com/item?id=49856665",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Is your Postgres migration safe or not safe?",
+   "url": "https://safenotsafe.dev/",
+   "summary": "",
+   "score": 119,
+   "meta": {
+    "comments": 43,
+    "discussion": "https://news.ycombinator.com/item?id=49854161",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "A single function Jev-like wrapper for LLMs, including vision models",
+   "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+   "summary": "",
+   "score": 134,
+   "meta": {
+    "comments": 42,
+    "discussion": "https://news.ycombinator.com/item?id=49853175",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
+   "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+   "summary": "",
+   "score": 473,
+   "meta": {
+    "comments": 190,
+    "discussion": "https://news.ycombinator.com/item?id=49857899",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Automattic has a new board after failed attempt to put CEO on leave",
+   "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+   "summary": "",
+   "score": 126,
+   "meta": {
+    "comments": 166,
+    "discussion": "https://news.ycombinator.com/item?id=49857572",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "We're gonna need a lot more mathematicians",
+   "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+   "summary": "",
+   "score": 365,
+   "meta": {
+    "comments": 467,
+    "discussion": "https://news.ycombinator.com/item?id=49852717",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Parsing Expression Grammar vs. Regexes: Building Org Parser in Lisp, Export HTML",
+   "url": "https://jointhefreeworld.org/blog/articles/lisps/parsing-expression-grammar-lisp-org-convert-to-html/index.html",
+   "summary": "",
+   "score": 118,
+   "meta": {
+    "comments": 19,
+    "discussion": "https://news.ycombinator.com/item?id=49829528",
+    "score_label": "points"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Plan mode is dead",
+   "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+   "summary": "",
+   "score": 554,
+   "meta": {
+    "comments": 477,
+    "discussion": "https://news.ycombinator.com/item?id=49840054",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+   "url": "https://ollaya.dev/",
+   "summary": "",
+   "score": 586,
+   "meta": {
+    "comments": 144,
+    "discussion": "https://news.ycombinator.com/item?id=49848269",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+   "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+   "summary": "",
+   "score": 396,
+   "meta": {
+    "comments": 102,
+    "discussion": "https://news.ycombinator.com/item?id=49852302",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Infecting the Steam Link with NixOS",
+   "url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos/",
+   "summary": "",
+   "score": 34,
+   "meta": {
+    "tags": [
+     "hardware",
+     "nix"
+    ],
+    "discussion": "https://lobste.rs/s/wpv5ed",
+    "score_label": "points"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "If we do not stop to help each other, what do we become?",
+   "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+   "summary": "",
+   "score": 127,
+   "meta": {
+    "tags": [
+     "culture"
+    ],
+    "discussion": "https://lobste.rs/s/p3iq7v",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Go concurrency distilled",
+   "url": "https://antonz.org/go-concurrency-distilled/",
+   "summary": "",
+   "score": 36,
+   "meta": {
+    "tags": [
+     "go"
+    ],
+    "discussion": "https://lobste.rs/s/rucvky",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "The JavaScript Pun: tagged template literal",
+   "url": "https://shukla.io/blog/2026-09/pun.html",
+   "summary": "",
+   "score": 12,
+   "meta": {
+    "tags": [
+     "javascript"
+    ],
+    "discussion": "https://lobste.rs/s/rtcnc8",
+    "score_label": "points"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Rusty thoughts on \"Parse, don't validate\"",
+   "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+   "summary": "",
+   "score": 11,
+   "meta": {
+    "tags": [
+     "programming",
+     "rust"
+    ],
+    "discussion": "https://lobste.rs/s/uvmajz",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "AI Agents Push Humans Out of the Loop",
+   "url": "https://arxiv.org/abs/2608.23642",
+   "summary": "",
+   "score": 12,
+   "meta": {
+    "tags": [
+     "vibecoding"
+    ],
+    "discussion": "https://lobste.rs/s/iqqqbg",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Commodified Intelligence",
+   "url": "https://herecomesthemoon.net/2026/09/commodified-intelligence/",
+   "summary": "",
+   "score": 57,
+   "meta": {
+    "tags": [
+     "vibecoding"
+    ],
+    "discussion": "https://lobste.rs/s/nidcls",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "This is a modern motherfucking website",
+   "url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "tags": [
+     "satire",
+     "web"
+    ],
+    "discussion": "https://lobste.rs/s/zoproh",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
+   "url": "http://www.righto.com/2026/09/8087-tangent-cordic.html",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "tags": [
+     "hardware",
+     "historical",
+     "reversing"
+    ],
+    "discussion": "https://lobste.rs/s/5soxba",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "The state of SIMD in Rust in 2026",
+   "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+   "summary": "",
+   "score": 30,
+   "meta": {
+    "tags": [
+     "rust"
+    ],
+    "discussion": "https://lobste.rs/s/iotaty",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Teaching GPU programming in p5.js: now with compute shaders",
+   "url": "https://www.davepagurek.com/blog/p5-compute-shaders/",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "tags": [
+     "graphics"
+    ],
+    "discussion": "https://lobste.rs/s/zsdlcz",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Suggestion to replace LibreOffice with Collabora as default on Fedora",
+   "url": "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office",
+   "summary": "",
+   "score": 12,
+   "meta": {
+    "tags": [
+     "linux"
+    ],
+    "discussion": "https://lobste.rs/s/mitm2h",
+    "score_label": "points"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Keep if clauses side-effect free",
+   "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
+   "summary": "",
+   "score": 20,
+   "meta": {
+    "tags": [
+     "practices",
+     "programming"
+    ],
+    "discussion": "https://lobste.rs/s/buroqq",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Wrong, not broken",
+   "url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken/",
+   "summary": "",
+   "score": 4,
+   "meta": {
+    "tags": [
+     "testing",
+     "vibecoding"
+    ],
+    "discussion": "https://lobste.rs/s/aokbai",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Deploying Guix images on Linode",
+   "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+   "summary": "",
+   "score": 3,
+   "meta": {
+    "tags": [
+     "networking",
+     "nix"
+    ],
+    "discussion": "https://lobste.rs/s/mf2lic",
+    "score_label": "points"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Lisen",
+   "url": "https://www.producthunt.com/products/lisen",
+   "summary": "Free Read Aloud with Cartesia Voices Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-22T23:59:19-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Hemory",
+   "url": "https://www.producthunt.com/products/hemory",
+   "summary": "Keep listening. Searchable memory for your AI agents. Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-22T08:16:05-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "SOUND",
+   "url": "https://www.producthunt.com/products/sound",
+   "summary": "Give every Mac app its own EQ, volume, and speaker. Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-18T04:40:22-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "GoodSocials",
+   "url": "https://www.producthunt.com/products/goodsocials",
+   "summary": "AI social media manager for LinkedIn. Only authentic content Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T03:43:48-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Psst",
+   "url": "https://www.producthunt.com/products/psst-3",
+   "summary": "A shared shopping list that remembers what things cost Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-03T11:48:30-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Kleanly",
+   "url": "https://www.producthunt.com/products/kleanly",
+   "summary": "One tap in the notch locks your keyboard and trackpad Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-18T18:42:25-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Fewer",
+   "url": "https://www.producthunt.com/products/fewer",
+   "summary": "The launcher that counts how often you pick up your phone Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-21T08:37:50-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Paragraph Notes",
+   "url": "https://www.producthunt.com/products/paragraph-notes",
+   "summary": "A private Markdown notes app for Mac Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-07T09:31:09-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "MakerMap",
+   "url": "https://www.producthunt.com/products/makermap",
+   "summary": "A living map of makers and what they’re building Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T16:58:29-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Chit",
+   "url": "https://www.producthunt.com/products/chit-2",
+   "summary": "A printed receipt of your day in Claude Code Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-17T23:58:09-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Eclatira",
+   "url": "https://www.producthunt.com/products/eclatira",
+   "summary": "Conversational Video Agent That Plugs Into Any Stack Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-08-31T09:07:06-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "PixVerse R2",
+   "url": "https://www.producthunt.com/products/pixverse-r2",
+   "summary": "A real-time world model you can explore and change Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-23T02:26:05-07:00"
+   },
+   "categories": [
+    "AI",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "layernote",
+   "url": "https://www.producthunt.com/products/layernote",
+   "summary": "Visual feedback on websites, Figma files, PDFs and images Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T03:00:44-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Tellwe",
+   "url": "https://www.producthunt.com/products/tellwe",
+   "summary": "Your coffee cup tells its story. Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T22:54:02-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Bleetz Network",
+   "url": "https://www.producthunt.com/products/bleetz-network",
+   "summary": "AI agent-to-agent VC fundraising & scouting network Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-23T11:37:04-07:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "みんなJevの話してる。やってないの俺だけ",
+   "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
+   "summary": "",
+   "score": 134,
+   "meta": {
+    "author": "unsoluble_sugar",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "C言語のコードをRustの中に書けるライブラリを作った",
+   "url": "https://zenn.dev/tanakh/articles/c-code-in-rust",
+   "summary": "",
+   "score": 155,
+   "meta": {
+    "author": "tanakh",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+   "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+   "summary": "",
+   "score": 52,
+   "meta": {
+    "author": "nwn",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "11年生本番データ飛ばす",
+   "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+   "summary": "",
+   "score": 41,
+   "meta": {
+    "author": "kgryo",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Code クラウドセッション、使ってみて！",
+   "url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions",
+   "summary": "",
+   "score": 37,
+   "meta": {
+    "author": "goat_eat_any",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
+   "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+   "summary": "",
+   "score": 20,
+   "meta": {
+    "author": "mazrean",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Vercelの「インポートできます」メールは何を見て送られてくるのか 61リポジトリで確かめた",
+   "url": "https://zenn.dev/devuloper/articles/vercel_import_candidates_email",
+   "summary": "",
+   "score": 32,
+   "meta": {
+    "author": "devuloper",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた",
+   "url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55",
+   "summary": "",
+   "score": 27,
+   "meta": {
+    "author": "nanora",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Opus 5.5によるピクセルアニメーション生成の検証",
+   "url": "https://zenn.dev/peoplex_blog/articles/1bc5c181ad19f0",
+   "summary": "",
+   "score": 60,
+   "meta": {
+    "author": "aki1990",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "人工知能と小説新人賞審査",
+   "url": "https://zenn.dev/enjoetoh/articles/ai-as-literary-judge",
+   "summary": "",
+   "score": 11,
+   "meta": {
+    "author": "enjoetoh",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "競馬の論文 100 本を Jev で仕分けて、LLM と速度とコストを比べた",
+   "url": "https://zenn.dev/toshipon/articles/jev-paper-screening-vs-llm",
+   "summary": "",
+   "score": 24,
+   "meta": {
+    "author": "toshipon",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Re: Vercel に Go サーバーを無料でデプロイできるんです！",
+   "url": "https://zenn.dev/otakakot/articles/14d162ea65f67d",
+   "summary": "",
+   "score": 60,
+   "meta": {
+    "author": "otakakot",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "爆速になった Expo Modules 2.0 を全部試してみた",
+   "url": "https://zenn.dev/gemcook/articles/expo-modules-2-swift-macros-sdk57",
+   "summary": "",
+   "score": 14,
+   "meta": {
+    "author": "y_azuma",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "文章を返さないAI「Jev」を試してみた ── 社内問い合わせのエスカレーション先は判定できるか",
+   "url": "https://zenn.dev/yesodco/articles/yesod-jev-typesafe-inquiry-triage",
+   "summary": "",
+   "score": 12,
+   "meta": {
+    "author": "ik11235",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Codeで定期的にやっておきたい MEMORY.md の大掃除",
+   "url": "https://zenn.dev/loglass/articles/f69996279763ab",
+   "summary": "",
+   "score": 37,
+   "meta": {
+    "author": "nekolas",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AIに書かせても速くならないのは、AIを「手足」として使っているから。人が押さえるべき5つの判断ポイントと半自動ループの作り方",
+   "url": "https://zenn.dev/dotdtech_blog/articles/65d51bc72d7ee9",
+   "summary": "",
+   "score": 10,
+   "meta": {
+    "author": "compile425",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "HTTP/3 を知ったので Docker で動かして仕組みを確かめた",
+   "url": "https://zenn.dev/sonicmoov/articles/http3-hands-on",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "author": "03104",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI生成そのままのスライドを使った登壇が多すぎてちょっと食傷気味なんだよォーーーッ！！！",
+   "url": "https://qiita.com/shimagaji/items/8acd9b94dfe56fefc0dc",
+   "summary": "ちいかわは未履修です。 本記事は「カンファレンスなどでAI生成のスライドをそのまま使った登壇が多すぎてしんどい」という主張を、「それってあなたの感想ですよね」となるべく言われないように可能な限り補強したものです。裏付けが正直弱いのでポエムとしてお読みください。 ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T23:40:45+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI感のないAWS構成図をAIエージェントに描かせたい！",
+   "url": "https://qiita.com/sagochiko/items/ef77b084ff2dee1f859c",
+   "summary": "みなさんが過去にClaudeやCodex（今後はまとめて「AIエージェント」と呼びます）に作成してもらった構成図ってこんな感じの構成図じゃなかったですか？ アイコンやサブネットの角が丸っぽくてAI感ありますよね。「これじゃ自分で書いたほうがいいや」となっちゃいます。 コー...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T21:57:18+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる",
+   "url": "https://qiita.com/Takashi_Masumori/items/6f65c23e580dd454d4c7",
+   "summary": "はじめに 2026年9月25日、Microsoft から「新しい Copilot」が発表されました。Copilot アプリそのものの形が変わる大きな発表で、あわせて料金体系も「ユーザー単位のライセンス」と「利用量に応じた課金」の2本立てに整理されています。 発表の内容自体...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T16:36:58+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "FlutterからFoundation Modelsを呼ぶ最小構成",
+   "url": "https://qiita.com/TechStudioLab/items/1d08c21fd53cecaff4c4",
+   "summary": "はじめに FlutterでiOSアプリを作っていると、Apple固有の新しいAPIを使いたい場面があります。 Foundation Modelsもその一つです。Apple Intelligenceを支えるオンデバイスモデルへ、SwiftのFoundationModelsフ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T13:15:52+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "その仕事、本当に「Skills」で再現できるのか考えてみる",
+   "url": "https://qiita.com/Takashi_Masumori/items/4fbf6144f4cab3f00123",
+   "summary": "はじめに AI エージェントに知見や手順を渡すことで、これまで一部の人にしかできなかった仕事を、より多くの人ができるようにする。自分ができることを、ほかの人にもできるようにしていく。 この方向性には、私も賛同しています。 成功した取り組みだけでなく、失敗した経験も共有する...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T08:24:54+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "生成AI送信前にPythonで個人情報をマスキングする",
+   "url": "https://qiita.com/TechStudioLab/items/83349e8b4cdf07b97cd1",
+   "summary": "はじめに 社内システムとLLMをつなごうとすると、モデルへの問い合わせそのものより先に考えたいことがあります。 その文字列を、そのまま外へ渡してよいのか。 たとえば問い合わせ履歴を要約したいとします。本文には相談内容だけでなく、氏名、メールアドレス、電話番号、住所、顧客番...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T14:30:52+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "古いReact NativeアプリをNew Architectureへ上げ直す",
+   "url": "https://qiita.com/TechStudioLab/items/c173c20c9abb1b8cf88b",
+   "summary": "はじめに 数年前に作ったReact Nativeアプリを久しぶりに開くと、JavaScriptのコードそのものより、周辺環境の変化に戸惑うことがあります。 React Nativeでは0.76からNew Architectureがデフォルトになり、0.82からはNew A...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T12:14:21+09:00"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "業務DBを読み取り専用MCPにしてClaudeから参照する",
+   "url": "https://qiita.com/TechStudioLab/items/906d86684fbcb92eedbd",
+   "summary": "はじめに AIから社内データを参照できるようにすると、「未対応のタスクを確認して」「この顧客の状態を調べて」といった自然文から業務データを扱えるようになります。 一方、業務DBへAIをつなぐときに気になるのが権限です。便利だからといって、SQLを自由に実行できる接続をその...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T11:33:48+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Lambda 関数 URL で Condition 句による IP アドレス制限が可能になったか検証する",
+   "url": "https://qiita.com/hayao_k/items/e6518a0d494006fac712",
+   "summary": "はじめに 2026/8/25 のアップデートで AWS Lambda 関数が IAM のリソースベースポリシーの全機能をサポートするようになりました。 Lambda function URLs (関数 URL) では、リクエストの認証タイプに AWS_IAM を選択...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T14:14:33+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "VRChatワールド「すんごいカメレオン」同期技術解説",
+   "url": "https://qiita.com/Yodokoro/items/1eaaa4260efe413fee50",
+   "summary": "はじめに めっちゃ流行った某塗り絵かくれんぼゲームをVRでも遊びたいと思い、VRChatで再現してみることにした。 完成品はこちら。 テクスチャを自由にペイントし、それを他のプレイヤーに同期するというのはVRChatのUdon帯域制限下ではなかなか野心的なプロ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T19:04:48+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "自分の頭で考えることって重要だよなと改めて思わされた話",
+   "url": "https://qiita.com/ike_s_muramatsu/items/44664e57e2738614fccf",
+   "summary": "Who am I? 都内のSIerに勤務する社会人6年目になったインフラエンジニアです。 今年からOJTを担当するようになりました。 人材育成を専門にしているわけでも、これまで何人もの新人を育ててきたわけでもありません。 本記事はあくまで、初めてOJTを担当したり、複数名...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T12:37:47+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 19",
+   "url": "https://qiita.com/maskot1977/items/fbb0fc27643aee08e97c",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ご提示いただいたソース動画のタイトルおよびその詳細な内容について解説します。 動画のタイトル 「財政破綻国家との比較でわかった日本の真実 : Pythonで学ぶマ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-27T01:23:15+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "インシデントが起きた瞬間、自分が何をすべきか分からない人へ。CSIRTの動き方まで見渡せる教科書",
+   "url": "https://qiita.com/yasu1109/items/53b294aa9c288ace8c59",
+   "summary": "アラートが鳴った、あるいは「不正アクセスかもしれない」という一報が入った。その瞬間、自分が何を確認し、誰に連絡し、どこまでを自分の判断で動いていいのかが分からない。そのまま指示待ちで動けずにいると、初動が遅れて被害が広がる。『改訂新版 セキュリティエンジニアの教科書』は、そ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T09:18:17+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "情シス全員がグローバル管理者になっていませんか？ ～ Microsoft Entra PIM で始める特権管理",
+   "url": "https://qiita.com/carol0226/items/5b42b547f102fa8a17a4",
+   "summary": "はじめに あなたの組織では、情報システム部のメンバーへ、全員 グローバル管理者 のロールが永続的に付与されている状況になっているということは無いですか？ 管理操作を行うんだから当たり前じゃないか...と思われるかもしれませんが、これには大きなセキュリティリスクが潜んでいる...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T11:36:22+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI時代真っ只中に、ほぼ未経験で自社開発エンジニアとして新卒入社した僕が思うこと",
+   "url": "https://qiita.com/1nori_/items/bd8052e938a343c82555",
+   "summary": "はじめに はじめまして。 2026年4月に、社員数150名規模で自社開発とSESの両軸でビジネスを展開している会社へ、自社開発エンジニアとして新卒入社しました。 入社してまだ半年ですが、業務の中でAIの存在があまりにも大きく、日々いろいろなことを考えるようになりました。そ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T12:20:05+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "2×V100 で Qwen3.8-Flash-Next を 256K コンテキスト・約 88 tok/s で動かす：llama.cpp v0.5.0 に加えた最適化",
+   "url": "https://qiita.com/pentaCoxian/items/d09c4e84f5b87a59f7e7",
+   "summary": "はじめに Tesla V100 は 2017 年の GPU です。CUDA 13 ではサポート対象から外れ、Tensor Core は FP16 のみで、FP8 も FP4 も BF16 もありません。 この記事では、V100 32 GB を 2 枚使って MoE モデル...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T06:45:06+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Kubernetes入門：Podが動くまでに中で何が起きているのか、クラスタの構成要素を整理する",
+   "url": "https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b",
+   "summary": "はじめに Kubernetesは、コンテナの配置や運用を自動化するソフトウェアですが、中でどんな部品が動いていて、どうやって自動化しているのかを説明できますか？ この記事は、Kubernetesを構成する部品を、kubectl apply というコマンドを実行してからコン...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T22:27:04+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Code の完了通知がサブエージェントのせいで何度も鳴るので、全部終わったときだけ鳴らす",
+   "url": "https://qiita.com/satoshi_061/items/0ea5b53974504fc5f1c4",
+   "summary": "はじめに Claude Code の hooks で「作業が完了したら macOS の通知＋音声で知らせる」設定をしていました。 ところが、サブエージェントをよく使うようになってから、作業の途中で何度も「作業が完了したよ」と鳴るようになりました。どれが本当の完了なのか分か...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T20:32:49+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Jev は LLM ジャッジに使えるか、紛らわしい誤答72件で確かめた",
+   "url": "https://qiita.com/taka_yayoi/items/3cc901e872209835491a",
+   "summary": "はじめに 2026年9月22日、MLflow の公式ブログで、TypeSafe 社の Jev を LLM ジャッジとして使う検証が紹介されました。書いたのは Databricks の同僚の Yuki Watanabe さんです。人手ラベルとの一致率は GPT 系の上位モデ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T10:33:44+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI はダンスバトルのジャッジができるか？",
+   "url": "https://qiita.com/kentodelic/items/c1fb2d23cea8ee033a4f",
+   "summary": "結論：正しいジャッジは難しいが、大まかなムーブの理解やそれっぽい評価は可能。 はじめに 対象読者は、AI x ストリートダンスで何か面白いことをしたいと考えている人。（いる？？） 筆者自身も 2008 年の学生時代から Popping を始め、今現在も社会人PO...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T10:38:26+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
+   "url": "https://togetter.com/li/2750963",
+   "summary": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。（最低でも）月額20ドルをChatGPTやClaudeに課金できる人だけが正しい検索結果にたどり着くことができ、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされる。Googleはグーテンベルク以前の世界へと時計の針を戻すつもりか…？ 2026-...",
+   "score": 102,
+   "meta": {
+    "published": "2026-09-27T01:03:59Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「テレワーク廃止で人が辞める」「争奪戦が激しいITエンジニア職」、変革期を生き抜く組織の選択",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news010.html",
+   "summary": "企業における出社回帰への方針転換とそれに伴う人材流出の懸念、生成AIが浸透してもなお解消されないエンジニア不足など、組織と人材に関するテーマに大きな関心が寄せられました。インフラ面ではVMware製品からの脱却策、データベースやネットワーク構築の最適化、ゼロトラストの本来の目的など、直面するコスト高や運...",
+   "score": 186,
+   "meta": {
+    "published": "2026-09-26T15:26:34Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜 - Qiita",
+   "url": "https://qiita.com/ast-24/items/454fc975b095230565c7",
+   "summary": "こんにちは！とある高校のSE志望の学生です。 今年の文化祭で、私のクラスは模擬店としてホットドッグを販売することになりました。 そこで、注文から受け渡しまでを担うPOSシステムを1から開発・運用してみました！ インフラには一番手軽に使えて自由度も高いCloudflareを採用しました。 予行を含めた3日間で568件・976...",
+   "score": 88,
+   "meta": {
+    "published": "2026-09-25T23:27:08Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
+   "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
+   "summary": "旧題: 「Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”」 はじめに Go は「誰が書いても同じようになる」言語 Go には表現の選択肢が多くありません。三項演算子もなければ例外もなく，メタプログラミングで遊ぶ文化も薄い。 if err != nil を延々と書き，for を回し，構造体を素直...",
+   "score": 44,
+   "meta": {
+    "published": "2026-09-26T10:09:00Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
+   "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
+   "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
+   "score": 46,
+   "meta": {
+    "published": "2026-09-26T14:30:51Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した",
+   "url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/",
+   "summary": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した 2026/09/26 / whywaita / 0 Comments こんにちは、whywrite.it 自宅サーバ班のwhywaita です。 自宅の Kubernetes クラスタを作り直しました。このブログ（blog.whywrite.it）もいまは新しいクラスタの上で動いています。 これで数年ぐらいは戦えるかなという...",
+   "score": 25,
+   "meta": {
+    "published": "2026-09-26T12:06:17Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
+   "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
+   "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
+   "score": 78,
+   "meta": {
+    "published": "2026-09-26T11:10:42Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "s17arのブックマーク - はてなブックマーク",
+   "url": "https://b.hatena.ne.jp/s17ar/",
+   "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? アラートが鳴った、あるいは「不正アクセスかもしれない」という一報が入った。その瞬間、自分が何を確認し、誰に連絡し、どこまでを自分の判断で動いていいのかが分からない。その...",
+   "score": 45,
+   "meta": {
+    "published": "2026-09-26T16:18:33Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIと小説を書くということ (2026/09/26版）｜erukiti",
+   "url": "https://note.com/erukiti/n/nbedfd9bcbae1",
+   "summary": "AIに小説を書かせることが当たり前の時代になりましたが、AIにポン出しで小説を書かせると品質の低い小説が生成されることも珍しくありません。 昨今、AI slop（スロップ）という、AIの吐き出した低品質な生成物を会社や学校や取引先などに提出してしまうという問題が、社会問題となりつつあります。これは小説を書かせ...",
+   "score": 40,
+   "meta": {
+    "published": "2026-09-26T02:06:10Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI搭載の監視カメラを混乱させる「デジタル迷彩シャツ」",
+   "url": "https://gigazine.net/news/20260927-digital-camouflage-shirt/",
+   "summary": "AI搭載のカメラで監視されることを嫌った人物が、着ている人をAIが人と認識できなくなる特製の迷彩柄シャツを作り上げました。 SIMON WECKERT — Digital Camouflage https://simonweckert.com/digitalcamouflage.html?ref=404media.co This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras https:...",
+   "score": 23,
+   "meta": {
+    "published": "2026-09-26T23:05:15Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
+   "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
+   "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
+   "score": 52,
+   "meta": {
+    "published": "2026-09-26T09:53:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "個人開発はCloudflareにすべて賭けろ",
+   "url": "https://speakerdeck.com/ashunar0/kojin-kaihatsu-ha-cloudflare-ni-subete-kakero",
+   "summary": "Findyテックハッカソン2026",
+   "score": 132,
+   "meta": {
+    "published": "2026-09-26T09:36:17Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "【検証】Google AI Pro 限界まで使い倒したらめちゃくちゃお得 説｜ぶるぺん/blue.pen5805",
+   "url": "https://note.com/blue_pen5805/n/nb124b104c28b",
+   "summary": "みなさん ChatGPT とか Claude とか使ってますか？ はい、そうですね Gemini は使ってないですね 今回はそんな Gemini の有料サブスクの中で 最も一般的なプランである Google AI Pro （月額 2,900円）について 全特典の価値をすべて計算したら実はめちゃくちゃお得なのでは？ という説について検証していきます なお、...",
+   "score": 229,
+   "meta": {
+    "published": "2026-09-26T06:52:37Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news028.html",
+   "summary": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？：管理職かどうかでテレワークへの意識が異なる テレワークから出社へ――。企業の間で出社回帰の動きが広がる一方、テレワークの制限や廃止を受けて、退職や転職を検討する人もいる。それでも企業が出社回帰を進めるのはなぜなのか。 学研ホールデ...",
+   "score": 31,
+   "meta": {
+    "published": "2026-09-07T12:16:54Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "UNIXパイプにAIを組み込む - sagepipe | おそらくはそれさえも平凡な日々",
+   "url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html",
+   "summary": "https://github.com/Songmu/sagepipe AI AgentとCLIを連携させるために、標準入出力にjsonlを使うようにCLIを作り、そのJSON SchemaをAgentにヒントとして渡すやり方を最近取ることが多い。「Aというツールがこういうスキーマの出力を出すから、それをBというツールが受け取るこういうスキーマに変換して」、という具合...",
+   "score": 4,
+   "meta": {
+    "published": "2026-09-26T16:58:01Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIの内部に「痛み」特有の活動パターンを発見――強めると人間を傷つけてでも痛みから逃れる選択がほぼゼロから最大7割に - ナゾロジー",
+   "url": "https://nazology.kusuguru.co.jp/archives/200119",
+   "summary": "ドイツのルール大学ボーフム（RUB）などで行われた研究によって、AIの内部に、恐怖や怒りとは別の「痛み」の概念に特有の活動パターンがあることが示されました。 また研究でこの概念を強めたAIは、痛みから逃れるために、人間に害が及ぶ選択肢まで選ぶようになりました。 また研究では、このパターンは調べた25種類のAI...",
+   "score": 49,
+   "meta": {
+    "published": "2026-09-26T09:05:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "darktableをフォークして余分な機能を排除しデザイン面の使い勝手を洗練させた「Ansel」",
+   "url": "https://gigazine.net/news/20260926-ansel/",
+   "summary": "RAW画像を編集するソフトには写真の明るさや色の調整・ノイズ除去・レンズの補正などさまざまな機能が搭載されていますが、機能が増えるほど目的の設定項目を探す手間も増えてしまいます。そこで無料でオープンソースのRAW現像ソフト「Ansel」は、「darktable」をベースに機能の整理や操作画面の再設計により、写真編集...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-26T07:17:26Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "行方不明のF35部品、誤って香港に送られていた　中国に機密情報が渡る可能性に懸念",
+   "url": "https://www.cnn.co.jp/world/35253002.html",
+   "summary": "（CNN） オーストラリアのマールズ国防相はこのほど、F35戦闘機の部品が誤って香港に送られていたことを明らかにした。機密性の高い米国の軍事技術が中国に渡る可能性が懸念されており、これより前、米国の議員が調査に乗り出していると報じられていた。 マールズ氏は22日、南部アデレードで記者団に「この件については...",
+   "score": 10,
+   "meta": {
+    "published": "2026-09-26T10:50:38Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ローカルLLMで使えるWeb検索まとめ｜npaka",
+   "url": "https://note.com/npaka/n/n1d86b2196515",
+   "summary": "ローカルLLMで使えるWeb検索をまとめました。 1. はじめに最近のローカルLLMは、Tool CallingやAIハーネスのWeb検索機能を使って、Webの最新情報を調べる能力も高くなっています。 LLM単体では学習後の最新情報を知ることはできませんが、 検索 → ページを読む → 情報を比較 → 必要なら再検索 → 回答 という仕組みを用意...",
+   "score": 275,
+   "meta": {
+    "published": "2026-09-26T07:44:27Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "人にやさしく、AIにやさしく、書き手を選ばないIaCのガードレール再考 / Rethinking IaC Guardrails for Humans and AI Alike",
+   "url": "https://speakerdeck.com/kohbis/rethinking-iac-guardrails-for-humans-and-ai-alike",
+   "summary": "Platform Engineering Kaigi 2026 https://www.cnia.io/pek2026/sessions/f5c5abcb-19e9-4983-8521-c863d26f802c/",
+   "score": 21,
+   "meta": {
+    "published": "2026-09-26T07:25:41Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "米中、AIインシデント用の「連絡窓口」設置で合意",
+   "url": "https://www.afpbb.com/articles/-/3654607",
+   "summary": "米首都ワシントンのホワイトハウス内を歩く中国の習近平国家主席（左）とドナルド・トランプ米大統領（2026年9月24日撮影）。(c)SAUL LOEB / AFP 【9月26日 AFP】米ホワイトハウスは25日、大きな進展のなかった米中首脳会談後、人工知能（AI）に関する不測の事態に対応するための「連絡窓口」を設置することで両国が合意...",
+   "score": 14,
+   "meta": {
+    "published": "2026-09-26T12:47:38Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "高負荷プロダクション環境におけるAWS Lambdaのリアル 〜スケールとコストを左右する実行ライフサイクルの技術仕様〜",
+   "url": "https://speakerdeck.com/maimyyym/the-reality-of-aws-lambda-in-high-load-production",
+   "summary": "JAWS-UG KYUSHU QUEST 2026 in Fukuoka https://jawsug-fukuoka.connpass.com/event/403616/",
+   "score": 36,
+   "meta": {
+    "published": "2026-09-26T08:34:54Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した：時事ドットコム",
+   "url": "https://www.jiji.com/jc/article?k=2026092600302&g=flash",
+   "summary": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した 2026年09月26日15時19分配信 米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した（ワシントン時事） ＡＩ、米中は「ＳＩ（超知能）」と呼称 危機管理へ連絡経路―首脳会談 ニュース速報 最終更...",
+   "score": 52,
+   "meta": {
+    "published": "2026-09-26T09:04:32Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ナッツを多く食べる人、認知テストで高成績の傾向　豪州チームが1700人以上を分析",
+   "url": "https://www.itmedia.co.jp/news/article/2609/26/2000001711/",
+   "summary": "研究チームは、アメリカの健康調査「フラミンガム心臓研究」（FHS）のデータを用い、参加者を脳卒中の経験がないグループと脳卒中生存者のグループに分け、過去の食事データに基づくナッツの平均摂取量と、認知機能のテスト結果、MRIで測定した脳の体積、血液中に含まれる脳神経を保護する成分「BDNF」「VEGF」との関係...",
+   "score": 127,
+   "meta": {
+    "published": "2026-09-26T03:35:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+   "url": "https://openai.com/index/proaction",
+   "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 19:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Thu, 24 Sep 2026 14:08:57 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Push images to Vercel Container Registry from GitHub Actions",
+   "url": "https://vercel.com/changelog/vcr-login-github-action",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T09:15:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "State of agent skills",
+   "url": "https://vercel.com/blog/state-of-agent-skills",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T06:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Pixel Canary is now available in stealth for free on AI Gateway",
+   "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel Sandbox now supports memory observability",
+   "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T00:00:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "The Vercel Bug Bounty Program is now publicly available",
+   "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-24T07:00:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Agents can now set up your website’s security with Turnstile Spin",
+   "url": "https://blog.cloudflare.com/turnstile-spin/",
+   "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+   "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+   "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 24 Sep 2026 15:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS What's New",
+   "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+   "summary": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own sym",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 19:19:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS What's New",
+   "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+   "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel p",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 18:40:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS What's New",
+   "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+   "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwid",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 18:37:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS What's New",
+   "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+   "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwid",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 18:09:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS What's New",
+   "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+   "summary": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC usi",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 17:54:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+   "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 18:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "Improving site performance by shipping more CSS",
+   "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+   "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Fri, 25 Sep 2026 15:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "When chat is the wrong UI",
+   "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+   "summary": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Thu, 24 Sep 2026 20:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+   "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+   "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Thu, 24 Sep 2026 18:26:12 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  }
+ ]
 }
