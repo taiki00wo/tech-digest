@@ -1,0 +1,9 @@
+// Cloudflare Workers（静的アセット）で digest/ を公開するための設定
+{
+  "name": "tech-digest",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./digest",
+    "not_found_handling": "404-page"
+  }
+}

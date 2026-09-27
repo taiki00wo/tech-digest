@@ -44,9 +44,13 @@ c.addEventListener('change',()=>{c.checked?read[u]=Date.now():delete read[u];c.c
 """
 
 
-def page(title, body):
+def page(title, body, description=""):
+    # og:* は Discord などでリンクを貼ったときのプレビューに使われる
+    og = (f'<meta property="og:title" content="{escape(title)}"><meta property="og:type" content="article">'
+          f'<meta property="og:description" content="{escape(description)}"><meta name="description" content="{escape(description)}">'
+          '<meta name="theme-color" content="#2f6fed">')
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)}</title><style>{CSS}</style></head><body><main>{body}</main><script>{JS}</script></body></html>"""
+<title>{escape(title)}</title>{og}<style>{CSS}</style></head><body><main>{body}</main><script>{JS}</script></body></html>"""
 
 
 def meta_html(it):
@@ -124,7 +128,7 @@ def render_day(date):
         body.append(f'<h2 id="c-{i}">{escape(cat)} <small>{len(items)}件</small></h2>{html}')
 
     OUT.mkdir(exist_ok=True)
-    (OUT / f"{date}.html").write_text(page(f"Tech Digest {date}", "".join(body)))
+    (OUT / f"{date}.html").write_text(page(f"Tech Digest {date}", "".join(body), picks.get("headline", "")))
 
 
 def render_index():

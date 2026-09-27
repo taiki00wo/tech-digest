@@ -55,6 +55,24 @@ def github_trending():
     return out
 
 
+def github_rising():
+    """Trending ページが取れない環境向けの代替: 直近7日に作られたリポジトリをスター順で取る。"""
+    since = (datetime.now(JST) - timedelta(days=7)).strftime("%Y-%m-%d")
+    data = json.loads(fetch(f"https://api.github.com/search/repositories?q=created:%3E{since}"
+                            f"&sort=stars&order=desc&per_page={LIMITS['github_trending']}"))
+    return [item("GitHub 新着人気", r["full_name"], r["html_url"], r.get("description") or "",
+                 r["stargazers_count"], {"language": r.get("language"), "score_label": "stars"})
+            for r in data["items"]]
+
+
+def github():
+    try:
+        return github_trending()
+    except Exception as e:
+        print(f"  ! GitHub Trending: {e} → 検索APIで代替", file=sys.stderr)
+        return github_rising()
+
+
 def hackernews():
     ids = json.loads(fetch("https://hacker-news.firebaseio.com/v0/topstories.json"))[:60]
 
@@ -190,7 +208,7 @@ def categorize(it):
 
 def main():
     today = datetime.now(JST).strftime("%Y-%m-%d")
-    sources = {"GitHub Trending": github_trending, "Hacker News": hackernews, "Lobsters": lobsters,
+    sources = {"GitHub": github, "Hacker News": hackernews, "Lobsters": lobsters,
                "Product Hunt": producthunt, "Zenn": zenn, "Qiita": qiita, "はてブ": hatena,
                "公式ブログ": rss_feeds}
     items, errors = [], {}
