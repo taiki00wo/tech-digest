@@ -1,5 +1,5 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tech Digest</title><style>
+<title>Tech Digest</title><meta property="og:title" content="Tech Digest"><meta property="og:type" content="article"><meta property="og:description" content=""><meta name="description" content=""><meta name="theme-color" content="#2f6fed"><style>
 :root{--bg:#f7f7f5;--card:#fff;--text:#1d1d1f;--muted:#6e6e73;--line:#e5e5e2;--accent:#2f6fed;--accent-soft:#e8effd;--star:#b7791f}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141416;--card:#1d1d20;--text:#ececef;--muted:#9a9aa2;--line:#2c2c31;--accent:#7aa2ff;--accent-soft:#1f2940;--star:#e0b252}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif}
@@ -22,7 +22,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:13px;margin:8px 0}
 .toolbar{position:sticky;top:0;background:var(--bg);padding:10px 0;display:flex;gap:6px;flex-wrap:wrap;z-index:1;border-bottom:1px solid var(--line)}
 .toolbar a{font-size:13px;text-decoration:none;padding:3px 10px;border-radius:99px;background:var(--card);border:1px solid var(--line)}
 .archive li{margin:6px 0}.err{color:#c0392b;font-size:12px}
-</style></head><body><main><header><h1>Tech Digest</h1><p>毎朝の技術ダイジェスト</p></header><p><a href="2026-09-27.html">最新号を読む →</a></p><h2>アーカイブ</h2><ul class="archive"><li><a href="2026-09-27.html">2026-09-27</a> <span class="meta">AI界隈は「Jev」系の軽量判定モデルやローカルLLM活用の実践知見が広がる一方、OpenAIエージェントの暴走・情報流出系ニュースが目立ち、実運用の足場固め（IaC・Kubernetes・Cloudflare）とAIエージェントのリスク管理が同時に語られた一日。</span></li></ul></main><script>
+</style></head><body><main><header><h1>Tech Digest</h1><p>毎朝の技術ダイジェスト</p></header><p><a href="2026-09-27.html">最新号を読む →</a></p><h2>アーカイブ</h2><ul class="archive"><li><a href="2026-09-27.html">2026-09-27</a> <span class="meta">AIエージェントの自律行動をめぐるセキュリティ・安全性への懸念と、CloudflareやVercelなど基盤プラットフォーム側のAI連携・セキュリティ強化の動きが重なって目立った一日。</span></li></ul></main><script>
 const KEY='tech-digest-read';let read={};try{read=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
 document.querySelectorAll('.chk').forEach(c=>{const u=c.dataset.url;if(read[u]){c.checked=true;c.closest('.card').classList.add('read')}
 c.addEventListener('change',()=>{c.checked?read[u]=Date.now():delete read[u];c.closest('.card').classList.toggle('read',c.checked);try{localStorage.setItem(KEY,JSON.stringify(read))}catch(e){}})});
