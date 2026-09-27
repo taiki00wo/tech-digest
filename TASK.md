@@ -43,6 +43,9 @@ git pull --rebase origin main
     {"repo": "owner/name", "version": "v1.2.3", "url": "...", "summary": "主な変更点を3行以内で"}
   ],
   "deep_dive": null,
+  "talks": [
+    {"url": "...", "title": "スライドのタイトル", "event": "発表されたイベント名（タイトルから分かれば。無ければ空文字）", "why": "何の話で、なぜ見る価値があるか（1文）"}
+  ],
   "headlines": [
     {"url": "...", "title": "記事タイトル", "category": "AI", "note": "何の話か（20字程度）"}
   ]
@@ -78,6 +81,10 @@ git pull --rebase origin main
  "compare": "似たツールとの違い（READMEに書かれていれば。無ければ空文字）"}
 ```
 コードの clone や追加取得はしない（README だけで書く）。
+
+### talks（登壇スライド、最大 `talks_size` 本 = 3本）
+- `source` が `Speaker Deck` の記事から、読者のスタックに関係する技術的な発表を選ぶ（会社紹介・採用・技術と関係ない発表は除く）。`seen_before: true` は外す。該当が無ければ空配列でよい。
+- reading_list や headlines とは重複させない。
 
 ### headlines（ちょうど `headlines_size` 本 = 10本）
 reading_list に入らなかった中から、見出しだけ知っておくと良いものを選ぶ。

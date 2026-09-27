@@ -3,9 +3,7 @@
   "timezone_offset_hours": 9,
   "seen_retention_days": 14,
   "limits": {
-    "hackernews": 30,
-    "lobsters": 15,
-    "producthunt": 15,
+    "hackernews": 20,
     "zenn": 20,
     "qiita": 20,
     "hatena": 25,
@@ -30,16 +28,17 @@
       "url": "https://blog.cloudflare.com/rss/"
     },
     {
-      "name": "AWS What's New",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
-    },
-    {
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/"
     },
     {
       "name": "web.dev",
       "url": "https://web.dev/feed.xml"
+    },
+    {
+      "name": "Speaker Deck",
+      "url": "https://speakerdeck.com/c/technology.atom",
+      "limit": 20
     }
   ],
   "categories": {
@@ -175,6 +174,7 @@
     ],
     "minutes_per_day": 15,
     "reading_list_size": 5,
-    "headlines_size": 10
+    "headlines_size": 10,
+    "talks_size": 3
   }
 }

@@ -4,7 +4,7 @@
 
 - `.github/workflows/collect.yml` … 毎朝6:00 JSTに GitHub Actions で `collect.py` を実行して収集結果をコミット
 - `oss.py` … GitHub APIで急上昇リポジトリ（スター増分）・リリース・READMEを取得
-- `collect.py` … GitHub Trending / Hacker News / Lobsters / Product Hunt / Zenn / Qiita / はてブ / 公式ブログ（RSS）から収集 → `data/raw/`
+- `collect.py` … Hacker News / Zenn / Qiita / はてブ / 公式ブログ・Speaker Deck（RSS）から収集 → `data/raw/`
 - `TASK.md` … Claudeが毎朝行う手順（要約・今日の3本の選定 → `data/picks/`）
 - `notify.py` … Discord Webhook（環境変数 `DISCORD_WEBHOOK_URL`）にダイジェストを送信
 - `render.py` … `digest/YYYY-MM-DD.html` と `digest/index.html` を生成

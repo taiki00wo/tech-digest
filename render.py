@@ -2,7 +2,7 @@
 """data/raw と data/picks から digest/YYYY-MM-DD.html と digest/index.html を生成する。
 
 使い方: python3 render.py [YYYY-MM-DD]   （省略時は最新の raw）
-構成: 今日の流れ → 読む順の5本 → 今日のOSS → リリース → 深掘り（火・金）→ 見出しだけ
+構成: 今日の流れ → 読む順の5本 → 今日のOSS → リリース → 深掘り（火・金）→ 登壇スライド → 見出しだけ
 """
 import json
 import sys
@@ -144,6 +144,11 @@ def render_day(date):
         body.append('<h2>リリース <small>ウォッチ中のリポジトリ</small></h2>' + "".join(release_card(r) for r in picks["releases"]))
     if picks.get("deep_dive"):
         body.append('<h2>OSS深掘り <small>READMEから</small></h2>' + deep_dive(picks["deep_dive"]))
+    if picks.get("talks"):
+        body.append('<h2>登壇スライド <small>Speaker Deck</small></h2>' + "".join(
+            f'<div class="card">{chk(t["url"])}<h3>{a(t["url"], t["title"])}</h3>'
+            + (f'<div class="meta">{escape(t["event"])}</div>' if t.get("event") else "")
+            + f'<p>{escape(t.get("why", ""))}</p></div>' for t in picks["talks"]))
     if picks.get("headlines"):
         body.append('<h2>見出しだけ</h2><ul class="heads">' + "".join(
             f'<li><span class="chip">{escape(h.get("category", ""))}</span> {a(h["url"], h["title"])}'

@@ -58,13 +58,6 @@ def hackernews():
     return out[:LIMITS["hackernews"]]
 
 
-def lobsters():
-    data = json.loads(fetch("https://lobste.rs/hottest.json"))
-    return [item("Lobsters", d["title"], d.get("url") or d["short_id_url"], "", d.get("score"),
-                 {"tags": d.get("tags", []), "discussion": d["short_id_url"], "score_label": "points"})
-            for d in data[:LIMITS["lobsters"]]]
-
-
 def zenn():
     data = json.loads(fetch("https://zenn.dev/api/articles?order=daily"))
     return [item("Zenn", a["title"], "https://zenn.dev" + a["path"], "", a.get("liked_count"),
@@ -107,10 +100,6 @@ def parse_feed(xml_text, source, limit, score_ns=None):
     return out
 
 
-def producthunt():
-    return parse_feed(fetch("https://www.producthunt.com/feed"), "Product Hunt", LIMITS["producthunt"])
-
-
 def qiita():
     out = parse_feed(fetch("https://qiita.com/popular-items/feed"), "Qiita", LIMITS["qiita"])
     for i in out:
@@ -128,7 +117,7 @@ def rss_feeds():
 
     def one(feed):
         try:
-            items = parse_feed(fetch(feed["url"]), feed["name"], LIMITS["rss_per_feed"])
+            items = parse_feed(fetch(feed["url"]), feed["name"], feed.get("limit", LIMITS["rss_per_feed"]))
         except Exception as e:
             print(f"  ! {feed['name']}: {e}", file=sys.stderr)
             return []
@@ -165,8 +154,6 @@ CATEGORY_PATTERNS = {c: [keyword_pattern(k) for k in kws] for c, kws in CONFIG["
 def categorize(it):
     text = f" {it['title']} {it['summary']} {it['meta'].get('language') or ''} {' '.join(it['meta'].get('tags', []))} ".lower()
     cats = [c for c, pats in CATEGORY_PATTERNS.items() if any(p.search(text) for p in pats)]
-    if it["source"] == "Product Hunt":
-        cats.append("プロダクト")
     return cats or ["その他"]
 
 
@@ -185,8 +172,7 @@ def recently_featured(today, days=30):
 def main():
     now = datetime.now(JST)
     today = now.strftime("%Y-%m-%d")
-    sources = {"Hacker News": hackernews, "Lobsters": lobsters,
-               "Product Hunt": producthunt, "Zenn": zenn, "Qiita": qiita, "はてブ": hatena,
+    sources = {"Hacker News": hackernews, "Zenn": zenn, "Qiita": qiita, "はてブ": hatena,
                "公式ブログ": rss_feeds}
     items, errors = [], {}
     with ThreadPoolExecutor(len(sources)) as ex:
