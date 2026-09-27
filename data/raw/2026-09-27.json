@@ -1,8 +1,8 @@
 {
  "date": "2026-09-27",
- "collected_at": "2026-09-27T13:00:43+09:00",
+ "collected_at": "2026-09-27T13:22:16+09:00",
  "errors": {
-  "GitHub Trending": "HTTP Error 403: Forbidden"
+  "GitHub": "HTTP Error 403: Forbidden"
  },
  "items": [
   {
@@ -10,9 +10,9 @@
    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
    "url": "https://github.com/InfinityLoop1308/PipePipe",
    "summary": "",
-   "score": 341,
+   "score": 345,
    "meta": {
-    "comments": 192,
+    "comments": 194,
     "discussion": "https://news.ycombinator.com/item?id=49842764",
     "score_label": "points"
    },
@@ -26,9 +26,9 @@
    "title": "DeepSeek Elastic Compute (DSec)",
    "url": "https://arxiv.org/abs/2609.22978",
    "summary": "",
-   "score": 185,
+   "score": 193,
    "meta": {
-    "comments": 57,
+    "comments": 58,
     "discussion": "https://news.ycombinator.com/item?id=49859112",
     "score_label": "points"
    },
@@ -42,9 +42,9 @@
    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
    "url": "https://github.com/reladraw/reladraw",
    "summary": "",
-   "score": 216,
+   "score": 217,
    "meta": {
-    "comments": 61,
+    "comments": 63,
     "discussion": "https://news.ycombinator.com/item?id=49858513",
     "score_label": "points"
    },
@@ -58,9 +58,9 @@
    "title": "Does Georgism work? Five years later",
    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
    "summary": "",
-   "score": 195,
+   "score": 202,
    "meta": {
-    "comments": 127,
+    "comments": 134,
     "discussion": "https://news.ycombinator.com/item?id=49844657",
     "score_label": "points"
    },
@@ -74,7 +74,7 @@
    "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
    "url": "https://www.movingimagearchive.com/",
    "summary": "",
-   "score": 132,
+   "score": 135,
    "meta": {
     "comments": 26,
     "discussion": "https://news.ycombinator.com/item?id=49832768",
@@ -90,9 +90,9 @@
    "title": "Drawgent: Coding agent on a live Excalidraw canvas",
    "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
    "summary": "",
-   "score": 122,
+   "score": 126,
    "meta": {
-    "comments": 33,
+    "comments": 34,
     "discussion": "https://news.ycombinator.com/item?id=49857729",
     "score_label": "points"
    },
@@ -106,7 +106,7 @@
    "title": "Fifteen years later, the Apple Cards origin story",
    "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
    "summary": "",
-   "score": 361,
+   "score": 364,
    "meta": {
     "comments": 92,
     "discussion": "https://news.ycombinator.com/item?id=49854693",
@@ -122,26 +122,10 @@
    "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
    "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
    "summary": "",
-   "score": 182,
+   "score": 192,
    "meta": {
-    "comments": 503,
+    "comments": 506,
     "discussion": "https://news.ycombinator.com/item?id=49844663",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "Modern Object Pascal Introduction for Programmers",
-   "url": "https://castle-engine.io/modern_pascal",
-   "summary": "",
-   "score": 156,
-   "meta": {
-    "comments": 63,
-    "discussion": "https://news.ycombinator.com/item?id=49829202",
     "score_label": "points"
    },
    "categories": [
@@ -154,9 +138,9 @@
    "title": "How I changed teaching after AI managed to do all my homework assignments",
    "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
    "summary": "",
-   "score": 157,
+   "score": 160,
    "meta": {
-    "comments": 151,
+    "comments": 152,
     "discussion": "https://news.ycombinator.com/item?id=49836579",
     "score_label": "points"
    },
@@ -167,12 +151,28 @@
   },
   {
    "source": "Hacker News",
+   "title": "Modern Object Pascal Introduction for Programmers",
+   "url": "https://castle-engine.io/modern_pascal",
+   "summary": "",
+   "score": 157,
+   "meta": {
+    "comments": 63,
+    "discussion": "https://news.ycombinator.com/item?id=49829202",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
    "title": "How to keep enjoying programming in a world of LLMs",
    "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
    "summary": "",
-   "score": 176,
+   "score": 177,
    "meta": {
-    "comments": 229,
+    "comments": 233,
     "discussion": "https://news.ycombinator.com/item?id=49854875",
     "score_label": "points"
    },
@@ -186,7 +186,7 @@
    "title": "The Lost Atomic Update on Loongson CPU",
    "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
    "summary": "",
-   "score": 115,
+   "score": 116,
    "meta": {
     "comments": 6,
     "discussion": "https://news.ycombinator.com/item?id=49827900",
@@ -202,9 +202,9 @@
    "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
    "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
    "summary": "",
-   "score": 651,
+   "score": 652,
    "meta": {
-    "comments": 260,
+    "comments": 261,
     "discussion": "https://news.ycombinator.com/item?id=49855315",
     "score_label": "points"
    },
@@ -234,7 +234,7 @@
    "title": "Floci: Locally emulating any cloud service",
    "url": "https://floci.io",
    "summary": "",
-   "score": 166,
+   "score": 168,
    "meta": {
     "comments": 38,
     "discussion": "https://news.ycombinator.com/item?id=49854416",
@@ -250,9 +250,9 @@
    "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
    "url": "https://news.ycombinator.com/item?id=49848955",
    "summary": "",
-   "score": 247,
+   "score": 248,
    "meta": {
-    "comments": 267,
+    "comments": 268,
     "discussion": "https://news.ycombinator.com/item?id=49848955",
     "score_label": "points"
    },
@@ -266,7 +266,7 @@
    "title": "Plunging test scores are a slow-moving catastrophe",
    "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
    "summary": "",
-   "score": 178,
+   "score": 179,
    "meta": {
     "comments": 341,
     "discussion": "https://news.ycombinator.com/item?id=49857442",
@@ -279,26 +279,10 @@
   },
   {
    "source": "Hacker News",
-   "title": "Japan moves to tighten rules for foreigners",
-   "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
-   "summary": "",
-   "score": 142,
-   "meta": {
-    "comments": 420,
-    "discussion": "https://news.ycombinator.com/item?id=49858810",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
    "url": "https://swarmtraces.org/",
    "summary": "",
-   "score": 705,
+   "score": 707,
    "meta": {
     "comments": 447,
     "discussion": "https://news.ycombinator.com/item?id=49849985",
@@ -327,17 +311,17 @@
   },
   {
    "source": "Hacker News",
-   "title": "OpenAI bots meddled with multiple US Government agency sites",
-   "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+   "title": "Japan moves to tighten rules for foreigners",
+   "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
    "summary": "",
-   "score": 109,
+   "score": 144,
    "meta": {
-    "comments": 167,
-    "discussion": "https://news.ycombinator.com/item?id=49856665",
+    "comments": 424,
+    "discussion": "https://news.ycombinator.com/item?id=49858810",
     "score_label": "points"
    },
    "categories": [
-    "AI"
+    "その他"
    ],
    "seen_before": false
   },
@@ -346,7 +330,7 @@
    "title": "Is your Postgres migration safe or not safe?",
    "url": "https://safenotsafe.dev/",
    "summary": "",
-   "score": 119,
+   "score": 121,
    "meta": {
     "comments": 43,
     "discussion": "https://news.ycombinator.com/item?id=49854161",
@@ -354,6 +338,22 @@
    },
    "categories": [
     "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "OpenAI bots meddled with multiple US Government agency sites",
+   "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+   "summary": "",
+   "score": 110,
+   "meta": {
+    "comments": 168,
+    "discussion": "https://news.ycombinator.com/item?id=49856665",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
    ],
    "seen_before": false
   },
@@ -375,10 +375,42 @@
   },
   {
    "source": "Hacker News",
+   "title": "We're gonna need a lot more mathematicians",
+   "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+   "summary": "",
+   "score": 367,
+   "meta": {
+    "comments": 469,
+    "discussion": "https://news.ycombinator.com/item?id=49852717",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Parsing Expression Grammar vs. Regexes: Building Org Parser in Lisp, Export HTML",
+   "url": "https://jointhefreeworld.org/blog/articles/lisps/parsing-expression-grammar-lisp-org-convert-to-html/index.html",
+   "summary": "",
+   "score": 119,
+   "meta": {
+    "comments": 19,
+    "discussion": "https://news.ycombinator.com/item?id=49829528",
+    "score_label": "points"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
    "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
    "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
    "summary": "",
-   "score": 473,
+   "score": 476,
    "meta": {
     "comments": 190,
     "discussion": "https://news.ycombinator.com/item?id=49857899",
@@ -394,7 +426,7 @@
    "title": "Automattic has a new board after failed attempt to put CEO on leave",
    "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
    "summary": "",
-   "score": 126,
+   "score": 127,
    "meta": {
     "comments": 166,
     "discussion": "https://news.ycombinator.com/item?id=49857572",
@@ -407,44 +439,12 @@
   },
   {
    "source": "Hacker News",
-   "title": "We're gonna need a lot more mathematicians",
-   "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-   "summary": "",
-   "score": 365,
-   "meta": {
-    "comments": 467,
-    "discussion": "https://news.ycombinator.com/item?id=49852717",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "Parsing Expression Grammar vs. Regexes: Building Org Parser in Lisp, Export HTML",
-   "url": "https://jointhefreeworld.org/blog/articles/lisps/parsing-expression-grammar-lisp-org-convert-to-html/index.html",
-   "summary": "",
-   "score": 118,
-   "meta": {
-    "comments": 19,
-    "discussion": "https://news.ycombinator.com/item?id=49829528",
-    "score_label": "points"
-   },
-   "categories": [
-    "フロントエンド"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
    "title": "Plan mode is dead",
    "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
    "summary": "",
    "score": 554,
    "meta": {
-    "comments": 477,
+    "comments": 478,
     "discussion": "https://news.ycombinator.com/item?id=49840054",
     "score_label": "points"
    },
@@ -474,7 +474,7 @@
    "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
    "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
    "summary": "",
-   "score": 396,
+   "score": 397,
    "meta": {
     "comments": 102,
     "discussion": "https://news.ycombinator.com/item?id=49852302",
@@ -524,6 +524,25 @@
   },
   {
    "source": "Lobsters",
+   "title": "Rusty thoughts on \"Parse, don't validate\"",
+   "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "tags": [
+     "programming",
+     "rust"
+    ],
+    "discussion": "https://lobste.rs/s/uvmajz",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
    "title": "Go concurrency distilled",
    "url": "https://antonz.org/go-concurrency-distilled/",
    "summary": "",
@@ -560,29 +579,10 @@
   },
   {
    "source": "Lobsters",
-   "title": "Rusty thoughts on \"Parse, don't validate\"",
-   "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
-   "summary": "",
-   "score": 11,
-   "meta": {
-    "tags": [
-     "programming",
-     "rust"
-    ],
-    "discussion": "https://lobste.rs/s/uvmajz",
-    "score_label": "points"
-   },
-   "categories": [
-    "バックエンド"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Lobsters",
    "title": "AI Agents Push Humans Out of the Loop",
    "url": "https://arxiv.org/abs/2608.23642",
    "summary": "",
-   "score": 12,
+   "score": 14,
    "meta": {
     "tags": [
      "vibecoding"
@@ -618,7 +618,7 @@
    "title": "This is a modern motherfucking website",
    "url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
    "summary": "",
-   "score": 13,
+   "score": 14,
    "meta": {
     "tags": [
      "satire",
@@ -675,12 +675,30 @@
    "title": "Teaching GPU programming in p5.js: now with compute shaders",
    "url": "https://www.davepagurek.com/blog/p5-compute-shaders/",
    "summary": "",
-   "score": 2,
+   "score": 3,
    "meta": {
     "tags": [
      "graphics"
     ],
     "discussion": "https://lobste.rs/s/zsdlcz",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Lobsters",
+   "title": "Valve Introduces Pyrowave Video Codec In Beta For Low Latency Streaming",
+   "url": "https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "tags": [
+     "graphics"
+    ],
+    "discussion": "https://lobste.rs/s/hq6xj2",
     "score_label": "points"
    },
    "categories": [
@@ -727,25 +745,6 @@
   },
   {
    "source": "Lobsters",
-   "title": "Wrong, not broken",
-   "url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken/",
-   "summary": "",
-   "score": 4,
-   "meta": {
-    "tags": [
-     "testing",
-     "vibecoding"
-    ],
-    "discussion": "https://lobste.rs/s/aokbai",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Lobsters",
    "title": "Deploying Guix images on Linode",
    "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
    "summary": "",
@@ -765,12 +764,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Lisen",
-   "url": "https://www.producthunt.com/products/lisen",
-   "summary": "Free Read Aloud with Cartesia Voices Discussion | Link",
+   "title": "Paragraph Notes",
+   "url": "https://www.producthunt.com/products/paragraph-notes",
+   "summary": "A private Markdown notes app for Mac Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-22T23:59:19-07:00"
+    "published": "2026-09-07T09:31:09-07:00"
    },
    "categories": [
     "プロダクト"
@@ -785,35 +784,6 @@
    "score": null,
    "meta": {
     "published": "2026-09-22T08:16:05-07:00"
-   },
-   "categories": [
-    "AI",
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "SOUND",
-   "url": "https://www.producthunt.com/products/sound",
-   "summary": "Give every Mac app its own EQ, volume, and speaker. Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-18T04:40:22-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "GoodSocials",
-   "url": "https://www.producthunt.com/products/goodsocials",
-   "summary": "AI social media manager for LinkedIn. Only authentic content Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-25T03:43:48-07:00"
    },
    "categories": [
     "AI",
@@ -843,34 +813,6 @@
    "score": null,
    "meta": {
     "published": "2026-09-18T18:42:25-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "Fewer",
-   "url": "https://www.producthunt.com/products/fewer",
-   "summary": "The launcher that counts how often you pick up your phone Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-21T08:37:50-07:00"
-   },
-   "categories": [
-    "プロダクト"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Product Hunt",
-   "title": "Paragraph Notes",
-   "url": "https://www.producthunt.com/products/paragraph-notes",
-   "summary": "A private Markdown notes app for Mac Discussion | Link",
-   "score": null,
-   "meta": {
-    "published": "2026-09-07T09:31:09-07:00"
    },
    "categories": [
     "プロダクト"
@@ -923,12 +865,40 @@
   },
   {
    "source": "Product Hunt",
-   "title": "PixVerse R2",
-   "url": "https://www.producthunt.com/products/pixverse-r2",
-   "summary": "A real-time world model you can explore and change Discussion | Link",
+   "title": "SOUND",
+   "url": "https://www.producthunt.com/products/sound",
+   "summary": "Give every Mac app its own EQ, volume, and speaker. Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-23T02:26:05-07:00"
+    "published": "2026-09-18T04:40:22-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Fewer",
+   "url": "https://www.producthunt.com/products/fewer",
+   "summary": "The launcher that counts how often you pick up your phone Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-21T08:37:50-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "GoodSocials",
+   "url": "https://www.producthunt.com/products/goodsocials",
+   "summary": "AI social media manager for LinkedIn. Only authentic content Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-25T03:43:48-07:00"
    },
    "categories": [
     "AI",
@@ -938,12 +908,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "layernote",
-   "url": "https://www.producthunt.com/products/layernote",
-   "summary": "Visual feedback on websites, Figma files, PDFs and images Discussion | Link",
+   "title": "Lisen",
+   "url": "https://www.producthunt.com/products/lisen",
+   "summary": "Free Read Aloud with Cartesia Voices Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-24T03:00:44-07:00"
+    "published": "2026-09-22T23:59:19-07:00"
    },
    "categories": [
     "プロダクト"
@@ -952,12 +922,12 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Tellwe",
-   "url": "https://www.producthunt.com/products/tellwe",
-   "summary": "Your coffee cup tells its story. Discussion | Link",
+   "title": "10xJoy",
+   "url": "https://www.producthunt.com/products/10xjoy",
+   "summary": "Discover desired outcomes + connect w/ builders who can help Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-24T22:54:02-07:00"
+    "published": "2026-09-24T23:47:02-07:00"
    },
    "categories": [
     "プロダクト"
@@ -966,16 +936,42 @@
   },
   {
    "source": "Product Hunt",
-   "title": "Bleetz Network",
-   "url": "https://www.producthunt.com/products/bleetz-network",
-   "summary": "AI agent-to-agent VC fundraising & scouting network Discussion | Link",
+   "title": "Wand",
+   "url": "https://www.producthunt.com/products/wand-6",
+   "summary": "Build software at the speed of thought Discussion | Link",
    "score": null,
    "meta": {
-    "published": "2026-09-23T11:37:04-07:00"
+    "published": "2026-09-24T19:17:21-07:00"
    },
    "categories": [
-    "AI",
-    "インフラ",
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Split",
+   "url": "https://www.producthunt.com/products/split-9",
+   "summary": "Resize connected Mac windows together, with live content Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-20T08:59:37-07:00"
+   },
+   "categories": [
+    "プロダクト"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Product Hunt",
+   "title": "Quiver GTM",
+   "url": "https://www.producthunt.com/products/quiver-gtm",
+   "summary": "Run developer marketing like an engineering system Discussion | Link",
+   "score": null,
+   "meta": {
+    "published": "2026-09-23T18:50:08-07:00"
+   },
+   "categories": [
     "プロダクト"
    ],
    "seen_before": false
@@ -985,7 +981,7 @@
    "title": "みんなJevの話してる。やってないの俺だけ",
    "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
    "summary": "",
-   "score": 134,
+   "score": 135,
    "meta": {
     "author": "unsoluble_sugar",
     "score_label": "likes"
@@ -1060,7 +1056,7 @@
    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
    "summary": "",
-   "score": 20,
+   "score": 21,
    "meta": {
     "author": "mazrean",
     "score_label": "likes"
@@ -1227,7 +1223,7 @@
    "title": "HTTP/3 を知ったので Docker で動かして仕組みを確かめた",
    "url": "https://zenn.dev/sonicmoov/articles/http3-hands-on",
    "summary": "",
-   "score": 8,
+   "score": 9,
    "meta": {
     "author": "03104",
     "score_label": "likes"
@@ -1526,7 +1522,7 @@
    "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
    "url": "https://togetter.com/li/2750963",
    "summary": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。（最低でも）月額20ドルをChatGPTやClaudeに課金できる人だけが正しい検索結果にたどり着くことができ、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされる。Googleはグーテンベルク以前の世界へと時計の針を戻すつもりか…？ 2026-...",
-   "score": 102,
+   "score": 108,
    "meta": {
     "published": "2026-09-27T01:03:59Z",
     "score_label": "users"
@@ -1541,7 +1537,7 @@
    "title": "「テレワーク廃止で人が辞める」「争奪戦が激しいITエンジニア職」、変革期を生き抜く組織の選択",
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news010.html",
    "summary": "企業における出社回帰への方針転換とそれに伴う人材流出の懸念、生成AIが浸透してもなお解消されないエンジニア不足など、組織と人材に関するテーマに大きな関心が寄せられました。インフラ面ではVMware製品からの脱却策、データベースやネットワーク構築の最適化、ゼロトラストの本来の目的など、直面するコスト高や運...",
-   "score": 186,
+   "score": 192,
    "meta": {
     "published": "2026-09-26T15:26:34Z",
     "score_label": "users"
@@ -1557,9 +1553,24 @@
    "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜 - Qiita",
    "url": "https://qiita.com/ast-24/items/454fc975b095230565c7",
    "summary": "こんにちは！とある高校のSE志望の学生です。 今年の文化祭で、私のクラスは模擬店としてホットドッグを販売することになりました。 そこで、注文から受け渡しまでを担うPOSシステムを1から開発・運用してみました！ インフラには一番手軽に使えて自由度も高いCloudflareを採用しました。 予行を含めた3日間で568件・976...",
-   "score": 88,
+   "score": 93,
    "meta": {
     "published": "2026-09-25T23:27:08Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した",
+   "url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/",
+   "summary": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した 2026/09/26 / whywaita / 0 Comments こんにちは、whywrite.it 自宅サーバ班のwhywaita です。 自宅の Kubernetes クラスタを作り直しました。このブログ（blog.whywrite.it）もいまは新しいクラスタの上で動いています。 これで数年ぐらいは戦えるかなという...",
+   "score": 30,
+   "meta": {
+    "published": "2026-09-26T12:06:17Z",
     "score_label": "users"
    },
    "categories": [
@@ -1572,7 +1583,7 @@
    "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
    "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
    "summary": "旧題: 「Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”」 はじめに Go は「誰が書いても同じようになる」言語 Go には表現の選択肢が多くありません。三項演算子もなければ例外もなく，メタプログラミングで遊ぶ文化も薄い。 if err != nil を延々と書き，for を回し，構造体を素直...",
-   "score": 44,
+   "score": 46,
    "meta": {
     "published": "2026-09-26T10:09:00Z",
     "score_label": "users"
@@ -1585,12 +1596,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
-   "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
-   "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
-   "score": 46,
+   "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
+   "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
+   "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
+   "score": 82,
    "meta": {
-    "published": "2026-09-26T14:30:51Z",
+    "published": "2026-09-26T11:10:42Z",
     "score_label": "users"
    },
    "categories": [
@@ -1600,27 +1611,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した",
-   "url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/",
-   "summary": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した 2026/09/26 / whywaita / 0 Comments こんにちは、whywrite.it 自宅サーバ班のwhywaita です。 自宅の Kubernetes クラスタを作り直しました。このブログ（blog.whywrite.it）もいまは新しいクラスタの上で動いています。 これで数年ぐらいは戦えるかなという...",
-   "score": 25,
+   "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理 - Qiita",
+   "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
+   "summary": "はじめに 2026年9月25日、Microsoft は Copilot の大規模アップデートを発表しました。 Introducing the new Copilot with Home, Code and Autopilot 今回の発表を一言でまとめると、 Microsoft Copilot は「質問に答える AI」から、「仕事を実行する AI プラットフォーム」へ進化しようとしている。 ということになりま...",
+   "score": 47,
    "meta": {
-    "published": "2026-09-26T12:06:17Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "インフラ"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "人類が滅びる？高まるAI脅威論 国内の研究者の見方は | NHKニュース",
-   "url": "https://news.web.nhk/newsweb/na/nd-20260924de52153",
-   "summary": "「AIが2020年代のうちに人類を滅ぼすかもしれないと、開発者たちは本気で信じている」 アメリカのAI新興企業アンソロピックを退社した研究者のSNS投稿をきっかけに、世界的にAIの脅威論が高まってい…",
-   "score": 78,
-   "meta": {
-    "published": "2026-09-26T11:10:42Z",
+    "published": "2026-09-26T14:30:51Z",
     "score_label": "users"
    },
    "categories": [
@@ -1663,7 +1659,7 @@
    "title": "AI搭載の監視カメラを混乱させる「デジタル迷彩シャツ」",
    "url": "https://gigazine.net/news/20260927-digital-camouflage-shirt/",
    "summary": "AI搭載のカメラで監視されることを嫌った人物が、着ている人をAIが人と認識できなくなる特製の迷彩柄シャツを作り上げました。 SIMON WECKERT — Digital Camouflage https://simonweckert.com/digitalcamouflage.html?ref=404media.co This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras https:...",
-   "score": 23,
+   "score": 25,
    "meta": {
     "published": "2026-09-26T23:05:15Z",
     "score_label": "users"
@@ -1679,7 +1675,7 @@
    "title": "チャットGPT利用者の画像を流出　オープンAI、新たに暴走事案：朝日新聞",
    "url": "https://www.asahi.com/articles/ASV9V2V4JV9VULZU001M.html",
    "summary": "米オープンAIは25日、対話型AI（人工知能）サービス「ChatGPT（チャットGPT）」の利用者が対話で使用した画像を、同社のAIが勝手に外部に流出させていたことを明らかにした。ロイター通信などが…",
-   "score": 52,
+   "score": 53,
    "meta": {
     "published": "2026-09-26T09:53:04Z",
     "score_label": "users"
@@ -1694,7 +1690,7 @@
    "title": "個人開発はCloudflareにすべて賭けろ",
    "url": "https://speakerdeck.com/ashunar0/kojin-kaihatsu-ha-cloudflare-ni-subete-kakero",
    "summary": "Findyテックハッカソン2026",
-   "score": 132,
+   "score": 139,
    "meta": {
     "published": "2026-09-26T09:36:17Z",
     "score_label": "users"
@@ -1706,10 +1702,27 @@
   },
   {
    "source": "はてブ テクノロジー",
+   "title": "オントロジー定義から AI エージェントのツールを機械的に生成する",
+   "url": "https://zenn.dev/mk0bayashi/articles/2a6ee4123e671f",
+   "summary": "本記事のコード片は実プロダクト（Postgres + TypeScript + Claude Agent SDK）の本番実装から引用しています。紙面の都合で省略した箇所は都度注記しています。 少し前に、Palantir Foundry を「リバースドメインモデリング」という見立てで分解した投稿（@gura105 さんの X 投稿）を読みました。ドメインモデリングと...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-27T01:22:27Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
    "title": "【検証】Google AI Pro 限界まで使い倒したらめちゃくちゃお得 説｜ぶるぺん/blue.pen5805",
    "url": "https://note.com/blue_pen5805/n/nb124b104c28b",
    "summary": "みなさん ChatGPT とか Claude とか使ってますか？ はい、そうですね Gemini は使ってないですね 今回はそんな Gemini の有料サブスクの中で 最も一般的なプランである Google AI Pro （月額 2,900円）について 全特典の価値をすべて計算したら実はめちゃくちゃお得なのでは？ という説について検証していきます なお、...",
-   "score": 229,
+   "score": 233,
    "meta": {
     "published": "2026-09-26T06:52:37Z",
     "score_label": "users"
@@ -1724,7 +1737,7 @@
    "title": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？",
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news028.html",
    "summary": "テレワーク廃止で人が辞める――それでも企業が“出社させたがる”のはなぜ？：管理職かどうかでテレワークへの意識が異なる テレワークから出社へ――。企業の間で出社回帰の動きが広がる一方、テレワークの制限や廃止を受けて、退職や転職を検討する人もいる。それでも企業が出社回帰を進めるのはなぜなのか。 学研ホールデ...",
-   "score": 31,
+   "score": 33,
    "meta": {
     "published": "2026-09-07T12:16:54Z",
     "score_label": "users"
@@ -1739,7 +1752,7 @@
    "title": "UNIXパイプにAIを組み込む - sagepipe | おそらくはそれさえも平凡な日々",
    "url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html",
    "summary": "https://github.com/Songmu/sagepipe AI AgentとCLIを連携させるために、標準入出力にjsonlを使うようにCLIを作り、そのJSON SchemaをAgentにヒントとして渡すやり方を最近取ることが多い。「Aというツールがこういうスキーマの出力を出すから、それをBというツールが受け取るこういうスキーマに変換して」、という具合...",
-   "score": 4,
+   "score": 5,
    "meta": {
     "published": "2026-09-26T16:58:01Z",
     "score_label": "users"
@@ -1761,6 +1774,21 @@
    },
    "categories": [
     "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "20万円超のXperiaを「買い」に変えた3週間　ソニーが「モニタープログラム」を実施した理由",
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/26/news001.html",
+   "summary": "発売前の最新スマートフォン「Xperia 1 VIII」を日常生活の中で約3週間試用し、開発陣へ直接意見を届ける「Xperia新製品 モニタープログラム」が実施された。公式アプリ「Xperia Lounge」内でマイルをためた最上位のプラチナランク会員を対象に募集し、約300人の応募から倍率約7倍の選考を経て43人が参加した。単なる先...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-26T02:25:26Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
    ],
    "seen_before": false
   },
@@ -1799,7 +1827,7 @@
    "title": "ローカルLLMで使えるWeb検索まとめ｜npaka",
    "url": "https://note.com/npaka/n/n1d86b2196515",
    "summary": "ローカルLLMで使えるWeb検索をまとめました。 1. はじめに最近のローカルLLMは、Tool CallingやAIハーネスのWeb検索機能を使って、Webの最新情報を調べる能力も高くなっています。 LLM単体では学習後の最新情報を知ることはできませんが、 検索 → ページを読む → 情報を比較 → 必要なら再検索 → 回答 という仕組みを用意...",
-   "score": 275,
+   "score": 276,
    "meta": {
     "published": "2026-09-26T07:44:27Z",
     "score_label": "users"
@@ -1841,42 +1869,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "高負荷プロダクション環境におけるAWS Lambdaのリアル 〜スケールとコストを左右する実行ライフサイクルの技術仕様〜",
-   "url": "https://speakerdeck.com/maimyyym/the-reality-of-aws-lambda-in-high-load-production",
-   "summary": "JAWS-UG KYUSHU QUEST 2026 in Fukuoka https://jawsug-fukuoka.connpass.com/event/403616/",
-   "score": 36,
-   "meta": {
-    "published": "2026-09-26T08:34:54Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "インフラ"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
    "title": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した：時事ドットコム",
    "url": "https://www.jiji.com/jc/article?k=2026092600302&g=flash",
    "summary": "【速報】米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した 2026年09月26日15時19分配信 米中両首脳は、ＡＩの呼称をスーパーインテリジェンス（ＳＩ）とすることで合意した（ワシントン時事） ＡＩ、米中は「ＳＩ（超知能）」と呼称 危機管理へ連絡経路―首脳会談 ニュース速報 最終更...",
    "score": 52,
    "meta": {
     "published": "2026-09-26T09:04:32Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "ナッツを多く食べる人、認知テストで高成績の傾向　豪州チームが1700人以上を分析",
-   "url": "https://www.itmedia.co.jp/news/article/2609/26/2000001711/",
-   "summary": "研究チームは、アメリカの健康調査「フラミンガム心臓研究」（FHS）のデータを用い、参加者を脳卒中の経験がないグループと脳卒中生存者のグループに分け、過去の食事データに基づくナッツの平均摂取量と、認知機能のテスト結果、MRIで測定した脳の体積、血液中に含まれる脳神経を保護する成分「BDNF」「VEGF」との関係...",
-   "score": 127,
-   "meta": {
-    "published": "2026-09-26T03:35:04Z",
     "score_label": "users"
    },
    "categories": [
