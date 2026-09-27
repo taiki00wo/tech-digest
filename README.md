@@ -10,4 +10,4 @@
 
 手動で実行する場合: `python3 collect.py && python3 render.py`（AI要約なしでも表示可能）
 
-毎朝のデータ（収集結果・要約・HTML）は `claude/digest-data` ブランチに保存されます。
+毎朝のデータ（収集結果・要約・HTML）は main ブランチの `data/` と `digest/` に保存され、`digest/` は Cloudflare（wrangler.jsonc）で公開されます。

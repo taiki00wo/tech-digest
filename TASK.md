@@ -2,14 +2,13 @@
 
 このリポジトリで以下を順に実行する。途中で失敗しても、できたところまでで必ず 6 の送信を行う。
 
-## 1. データ用ブランチに切り替える
+## 1. 最新の main にする
 
-収集履歴（NEW判定用の `data/seen.json`）とダイジェストは `claude/digest-data` ブランチに溜める。
+収集履歴（NEW判定用の `data/seen.json`）とダイジェストは main ブランチに溜める。
 
 ```bash
-git fetch origin
-git checkout claude/digest-data 2>/dev/null || git checkout -b claude/digest-data origin/claude/digest-data 2>/dev/null || git checkout -b claude/digest-data
-git merge --no-edit origin/main   # コードの更新を取り込む
+git checkout main
+git pull --rebase origin main
 ```
 
 ## 2. 収集
@@ -49,7 +48,8 @@ git merge --no-edit origin/main   # コードの更新を取り込む
 ```bash
 git add data digest
 git commit -m "digest: YYYY-MM-DD"
-git push origin claude/digest-data
+git pull --rebase origin main
+git push origin main
 ```
 
 ## 6. Discordに送る
