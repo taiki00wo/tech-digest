@@ -2,6 +2,7 @@
 """技術情報を各ソースから収集して data/raw/YYYY-MM-DD.json に保存する（標準ライブラリのみ）。"""
 import html
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -17,8 +18,8 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) tech-digest/1.0"
 LIMITS = CONFIG["limits"]
 
 
-def fetch(url, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+def fetch(url, timeout=20, headers=None):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
 
@@ -58,8 +59,11 @@ def github_trending():
 def github_rising():
     """Trending ページが取れない環境向けの代替: 直近7日に作られたリポジトリをスター順で取る。"""
     since = (datetime.now(JST) - timedelta(days=7)).strftime("%Y-%m-%d")
+    # クラウド環境は共有IPで未認証だとレート制限（403）になりやすいので、トークンがあれば使う
+    token = os.environ.get("GITHUB_TOKEN")
     data = json.loads(fetch(f"https://api.github.com/search/repositories?q=created:%3E{since}"
-                            f"&sort=stars&order=desc&per_page={LIMITS['github_trending']}"))
+                            f"&sort=stars&order=desc&per_page={LIMITS['github_trending']}",
+                            headers={"Authorization": f"Bearer {token}"} if token else None))
     return [item("GitHub 新着人気", r["full_name"], r["html_url"], r.get("description") or "",
                  r["stargazers_count"], {"language": r.get("language"), "score_label": "stars"})
             for r in data["items"]]
