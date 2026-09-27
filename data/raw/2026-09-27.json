@@ -2,7 +2,7 @@
  "date": "2026-09-27",
  "weekday": "日",
  "deep_dive_day": false,
- "collected_at": "2026-09-27T18:54:11+09:00",
+ "collected_at": "2026-09-27T19:00:26+09:00",
  "errors": {},
  "items": [
   {
@@ -10,9 +10,9 @@
    "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
    "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
    "summary": "",
-   "score": 157,
+   "score": 168,
    "meta": {
-    "comments": 113,
+    "comments": 119,
     "discussion": "https://news.ycombinator.com/item?id=49863864",
     "score_label": "points"
    },
@@ -26,9 +26,9 @@
    "title": "Does Georgism work? Five years later",
    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
    "summary": "",
-   "score": 336,
+   "score": 337,
    "meta": {
-    "comments": 246,
+    "comments": 249,
     "discussion": "https://news.ycombinator.com/item?id=49844657",
     "score_label": "points"
    },
@@ -44,7 +44,7 @@
    "summary": "",
    "score": 220,
    "meta": {
-    "comments": 80,
+    "comments": 83,
     "discussion": "https://news.ycombinator.com/item?id=49856988",
     "score_label": "points"
    },
@@ -58,9 +58,9 @@
    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
    "url": "https://github.com/InfinityLoop1308/PipePipe",
    "summary": "",
-   "score": 418,
+   "score": 419,
    "meta": {
-    "comments": 226,
+    "comments": 227,
     "discussion": "https://news.ycombinator.com/item?id=49842764",
     "score_label": "points"
    },
@@ -74,9 +74,9 @@
    "title": "DeepSeek Elastic Compute (DSec)",
    "url": "https://arxiv.org/abs/2609.22978",
    "summary": "",
-   "score": 243,
+   "score": 244,
    "meta": {
-    "comments": 81,
+    "comments": 82,
     "discussion": "https://news.ycombinator.com/item?id=49859112",
     "score_label": "points"
    },
@@ -90,9 +90,9 @@
    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
    "url": "https://github.com/reladraw/reladraw",
    "summary": "",
-   "score": 303,
+   "score": 305,
    "meta": {
-    "comments": 82,
+    "comments": 83,
     "discussion": "https://news.ycombinator.com/item?id=49858513",
     "score_label": "points"
    },
@@ -119,13 +119,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "What is the size of Yemen? (2024)",
-   "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+   "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
    "summary": "",
-   "score": 166,
+   "score": 281,
    "meta": {
-    "comments": 50,
-    "discussion": "https://news.ycombinator.com/item?id=49862809",
+    "comments": 637,
+    "discussion": "https://news.ycombinator.com/item?id=49844663",
     "score_label": "points"
    },
    "categories": [
@@ -135,13 +135,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
-   "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+   "title": "What is the size of Yemen? (2024)",
+   "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
    "summary": "",
-   "score": 280,
+   "score": 167,
    "meta": {
-    "comments": 635,
-    "discussion": "https://news.ycombinator.com/item?id=49844663",
+    "comments": 55,
+    "discussion": "https://news.ycombinator.com/item?id=49862809",
     "score_label": "points"
    },
    "categories": [
@@ -154,7 +154,7 @@
    "title": "Fifteen years later, the Apple Cards origin story",
    "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
    "summary": "",
-   "score": 395,
+   "score": 396,
    "meta": {
     "comments": 102,
     "discussion": "https://news.ycombinator.com/item?id=49854693",
@@ -186,9 +186,9 @@
    "title": "How I changed teaching after AI managed to do all my homework assignments",
    "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
    "summary": "",
-   "score": 207,
+   "score": 208,
    "meta": {
-    "comments": 181,
+    "comments": 182,
     "discussion": "https://news.ycombinator.com/item?id=49836579",
     "score_label": "points"
    },
@@ -202,7 +202,7 @@
    "title": "How to keep enjoying programming in a world of LLMs",
    "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
    "summary": "",
-   "score": 225,
+   "score": 226,
    "meta": {
     "comments": 270,
     "discussion": "https://news.ycombinator.com/item?id=49854875",
@@ -222,6 +222,22 @@
    "meta": {
     "comments": 75,
     "discussion": "https://news.ycombinator.com/item?id=49829202",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Lost Atomic Update on Loongson CPU",
+   "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+   "summary": "",
+   "score": 123,
+   "meta": {
+    "comments": 6,
+    "discussion": "https://news.ycombinator.com/item?id=49827900",
     "score_label": "points"
    },
    "categories": [
@@ -254,22 +270,6 @@
    "meta": {
     "comments": 84,
     "discussion": "https://news.ycombinator.com/item?id=49833444",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "The Lost Atomic Update on Loongson CPU",
-   "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
-   "summary": "",
-   "score": 122,
-   "meta": {
-    "comments": 6,
-    "discussion": "https://news.ycombinator.com/item?id=49827900",
     "score_label": "points"
    },
    "categories": [
@@ -360,7 +360,7 @@
    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
    "summary": "",
-   "score": 55,
+   "score": 56,
    "meta": {
     "author": "mazrean",
     "score_label": "likes"
@@ -840,7 +840,7 @@
    "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
    "url": "https://togetter.com/li/2750963",
    "summary": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。（最低でも）月額20ドルをChatGPTやClaudeに課金できる人だけが正しい検索結果にたどり着くことができ、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされる。Googleはグーテンベルク以前の世界へと時計の針を戻すつもりか…？ 2026-...",
-   "score": 278,
+   "score": 281,
    "meta": {
     "published": "2026-09-27T01:03:59Z",
     "score_label": "users"
@@ -886,7 +886,7 @@
    "title": "成長できない職場にはフィードバックが存在しない｜Saki@AI駆動人生",
    "url": "https://note.com/saki_reset/n/nd6d383ce0c75",
    "summary": "はじめに同じ職場に3年以上いて、仕事は回せるようになった。それなのに、他社に出た瞬間に値段がつく何かが増えた実感がない。この記事は、そういう人に向けて書く。 この状態を努力量の不足に帰着させている限り、問題は解けない。足りていないのは負荷ではなく、負荷に対して返ってくるフィードバックのほうだからだ...",
-   "score": 32,
+   "score": 33,
    "meta": {
     "published": "2026-09-26T14:33:16Z",
     "score_label": "users"
@@ -931,13 +931,28 @@
    "title": "ローカルLLMのためのメモリ基礎知識｜npaka",
    "url": "https://note.com/npaka/n/n0ee92a316be3",
    "summary": "ローカルLLMのためのメモリ基礎知識をまとめました。 1. CPU・GPU とメモリ1-1. CPU・GPU・RAM・VRAMの役割PCのスペックでは、 CPU / GPU / RAM / VRAM という4つの言葉がよく出てきます。 まず押さえておきたいのは、これらは同じ種類の部品ではないということです。 ・CPU・GPU → 計算を行う装置 ・RAM・VRAM → 計算に...",
-   "score": 11,
+   "score": 12,
    "meta": {
     "published": "2026-09-27T04:00:05Z",
     "score_label": "users"
    },
    "categories": [
     "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ITなんて何も分からない父親に「寺の業務システムを作りたい」と言われたので概念図を書いてもらったら、一発でこれが出てきてすごい",
+   "url": "https://togetter.com/li/2751108",
+   "summary": "okodoon @miburo_data ITなんて何もわからない父親に「寺の業務システム作りたい」って言われて「とりあえずやりたいことの概念図書いてみ？」って言ったらこれが一発で出てきてまあまあ才能あるやんってなってる pic.x.com/B2EHXGBufy 2026-09-26 21:30:07",
+   "score": 16,
+   "meta": {
+    "published": "2026-09-27T07:54:06Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
    ],
    "seen_before": false
   },
@@ -953,21 +968,6 @@
    },
    "categories": [
     "インフラ"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "ITなんて何も分からない父親に「寺の業務システムを作りたい」と言われたので概念図を書いてもらったら、一発でこれが出てきてすごい",
-   "url": "https://togetter.com/li/2751108",
-   "summary": "okodoon @miburo_data ITなんて何もわからない父親に「寺の業務システム作りたい」って言われて「とりあえずやりたいことの概念図書いてみ？」って言ったらこれが一発で出てきてまあまあ才能あるやんってなってる pic.x.com/B2EHXGBufy 2026-09-26 21:30:07",
-   "score": 15,
-   "meta": {
-    "published": "2026-09-27T07:54:06Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "その他"
    ],
    "seen_before": false
   },
@@ -1591,6 +1591,21 @@
     "その他"
    ],
    "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "OpenClawでAzure DevOpsのWiki更新を自動化する - クラウドAIだけでは届かない場所へ",
+   "url": "https://speakerdeck.com/yutakaosada/openclaw-de-azure-devops-no-wiki-koushin-o-jidouka-suru-kura-udo-ai-dakede-ha-todokanai-basho-he",
+   "summary": "セルフホステッドAIエージェント OpenClaw を、単なるチャットAIとしてではなく、開発環境に近い場所で動く実務支援エージェントとして使えるかを検証したPoCの記録です。最初は「技術情報を収集してWikiにまとめ、Teamsに通知する」という仕組みをOpenClawで作ろうとしましたが、それだけならクラウドのPaaSで十分実現できてしまい、セルフホスト型を持ち出す理由が薄いことに気づきました。 そこで立ち返ったのが、「クラウドAIと同じことをローカルで再現するためではなく、クラウドAIだけでは直接触りにくい場所（ローカルのGitリポジトリ、CI/CIログ、閉域ネットワーク上の情報など）の",
+   "score": null,
+   "meta": {
+    "published": "2026-09-26T01:15:07-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
   }
  ],
  "oss": [
@@ -1599,7 +1614,7 @@
    "url": "https://github.com/NandhaKishorM/laya",
    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
    "language": "Python",
-   "stars": 26180,
+   "stars": 26184,
    "topics": [
     "calibration",
     "classification",
@@ -1621,12 +1636,12 @@
    "url": "https://github.com/browser-use/jev-ultrafast",
    "description": "Fastest and cheapest web agent",
    "language": "Python",
-   "stars": 20663,
+   "stars": 20665,
    "topics": [],
    "created_at": "2026-09-16",
    "pushed_at": "2026-09-25",
    "found_in": "新着人気",
-   "stars_per_day": 1878,
+   "stars_per_day": 1879,
    "estimated": true,
    "readme": "\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n[Watch the MP4](docs/demo.mp4) · [Measurements](docs/performance.md) · [Read the loop](jev_ultrafast/agent.py)\n\n## The action space\n\nEvery observation produces a new element table:\n\n```text\n[1] button    Change ticket type · Round trip\n[2] combobox  Where from?        · San Francisco\n[3] combobox  Where to?          · empty\n[4] textbox   Departure          · empty\n...\n```\n\nThe operations are `CLICK`, `TYPE_TEXT`, `SELECT`, `SCROLL_UP`, `SCROLL_DOWN`, `WAIT`, `DONE`, and `BLOCKED`. Only supported operations and targets are offered.\n\n```text\n                      one TypeSafe request\n                     ┌───────────────────────────┐\npage → element table → operation                 │\n                     │ click_target              │\n                     │ type_text_target          │\n                     │ select_target, if present │\n                     └─────────────┬─────────────┘\n                         use the matching target\n                                   │\n                    CLICK [7] ─────┤──→ browser\n                TYPE_TEXT [3] ─────┘\n                          ↓\n                   small LLM → text → browser\n```\n\nTarget questions are speculative. If the operation is `CLICK`, only `click_target` can execute. Two decisions, **one network round trip**. Each target head contains only compatible elements. Native dropdown choices carry an observed element/option index.\n\nThere are no site-specific action scripts or prepared field strings in the policy. The Flights example supplies a goal and independently verifies the outcome. The screenshot renderer adds labels afterward; it does not drive the browser.\n\n## Try it\n\n```bash\ngit clone https://github.com/browser-use/jev-ultrafast.git\ncd jev-ultrafast\nuv sync\ncp .env.example .env\n# Add TYPESAFE_API_KEY and TEXT_MODEL_API_KEY.\nuv run jev\n```\n\nOpen **http://127.0.0.1:8766** and click **Start demo → Run automatically**. The inspector shows numbered elements, operation probabilities, target probabilities, and executed actions. **Choose next** pauses before execution.\n\nChrome connects through [Browser Harness](https://github.com/browser-use/browser-harness), installed by `uv sync`. Run `uv run browser-harness --doctor` if it needs connecting. Allow remote debugging in Chrome when prompted.\n\n`TEXT_MODEL_API_KEY` is an OpenRouter key in the example configuration. The current demo uses `inception/mercury-2.5` with reasoning disabled. Gemini, GLM, and DeepSeek can also use the OpenAI-compatible text helper; configure the appropriate model, endpoint, and reasoning setting.\n\n## Use the library\n\n```python\nfrom jev_ultrafast import Agent\n\nwith Agent(\n    \"https://www.google.com/travel/flights?hl=en\",\n    \"Find one-way flights from Zurich to London on September 20, 2026, \"\n    \"for one adult in economy. Stop when matching flight options are visible.\",\n) as agent:\n    for state in agent.run():\n        print(state[\"elapsed_ms\"], state[\"status\"])\n```\n\nRun with `uv run --env-file .env python your_script.py`. The same policy can run a different task:\n\n```bash\nuv run --env-file .env python examples/run.py \\\n  --url https://en.wikipedia.org/wiki/Main_Page \\\n  --goal 'Find and open the Wikipedia article about Gödel’s incompleteness theorems.'\n```\n\n`uv run --env-file .env python examples/flights.py --keep-open` performs the flight search, checks the actual route/date/results, and saves its trace. It does not select or book a flight.\n\n## Why it moves\n\n- **One request per decision cycle.** Operation and target heads share the same observed state.\n- **No screenshots in the default agent loop.** Jev consumes structured state. The inspector opts into screenshots; the video uses a separate continuous screencast.\n- **One browser call per snapshot.** Read visible controls, their names, values, and text atomically. Keep references to the actual DOM nodes.\n- **Validate the selected target.** Clicks check the document, form values, target, and nearby context. Animation alone does not force another prediction. Resolve current geometry and reject covered controls before input.\n- **Wait for useful state.** After typing into a combobox, wait for visible suggestions, capped at 200 ms. Other interactions get at most two animation frames or 50 ms. These reads happen after execution is logged.\n- **Keep hidden tabs rendering.** Focus emulation prevents background animation throttling without switching Chrome's visible tab.\n- **Send visible text.** Offscreen article bodies and footers do not fill the model context.\n- **Reuse an interrupted text request.** A generated value survives a stale-page retry only if the entire text-helper input is unchanged.\n\nEvery executed target is resolved from an observed node. The executor rechecks page freshness and click occlusion. Model output never becomes selectors, coordinates, shell commands, or executable JavaScript. Text-helper output must parse as a small JSON object before typing.\n\n## Small enough to read\n\n| File | Job |\n| --- | --- |\n| [agent.py](jev_ultrafast/agent.py) | The complete loop and text-helper handoff |\n| [snapshot.js](jev_ultrafast/snapshot.js) | Atomic DOM snapshot, indexed controls, freshness guards |\n| [browser.py](jev_ultrafast/browser.py) | Browser connection, current geometry, execution |\n| [model.py](jev_ultrafast/model.py) | Dynamic operation/target heads and text generation |\n| [questions.py",
    "featured_before": false
@@ -1636,7 +1651,7 @@
    "url": "https://github.com/jev-chat/jev-chat-jarvis",
    "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
    "language": "Kotlin",
-   "stars": 6729,
+   "stars": 6730,
    "topics": [
     "accessibility-service",
     "android",
@@ -1672,12 +1687,12 @@
    "url": "https://github.com/eternity4719/HowToLiveBetter",
    "description": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
    "language": "HTML",
-   "stars": 19238,
+   "stars": 19253,
    "topics": [],
    "created_at": "2026-09-07",
    "pushed_at": "2026-09-25",
    "found_in": "新着人気",
-   "stars_per_day": 962,
+   "stars_per_day": 963,
    "estimated": true,
    "readme": "\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。\n608 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-608%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20410%20%C2%B7%20B%20149%20%C2%B7%20C%2049-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1281%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)\n[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-Unlicense-565a5f?style=flat-square)](LICENSE)\n\n**[打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/)** · [下载 PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [下载 EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [下载离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html) · [目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/) · [结婚划不划算（长文）](docs/结婚划不划算.md) · [家庭应急装备清单（长文）](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停（长文）](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证（长文）](docs/做平台要办哪些证.md) · [生物钟和夜班（长文）](docs/生物钟和夜班.md)\n\n其他语言：[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/) —— 由 [dlgrv](https://github.com/dlgrv) 维护的非官方翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)），译文按翻译当时的中文正文做，之后新增和改动的条目不一定跟上，一切以本仓库的中文原文为准。\n\n---\n\n## 这本书想回答的问题\n\n| 问题 | 去哪看 |\n| --- | --- |\n| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |\n| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |\n| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |\n| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |\n| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |\n| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |\n| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |\n| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |\n| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |\n| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |\n| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |\n| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |\n| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |\n| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |\n| 押金被扣、房东赶人、长租公寓暴雷怎么办？ | [15. 租房与买房](book/15-租房与买房.md) |\n| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |\n| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |\n| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |\n| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |\n| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |\n| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |\n| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |\n| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |\n| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |\n| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |\n| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |\n| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |\n| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |\n| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |\n| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |\n| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |\n| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |\n| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |\n\n## 怎么读\n\n- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。\n- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。\n- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。\n- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。\n- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。\n- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。\n- **只想看结论最硬的**：在检索页里勾选证据等级 A，只留下有具体数字、来自荟萃分析或大型试验的 410 条。\n- **只想看最值得做的**：勾选性价比「极高」，得到 104 条既不花钱、不花时间、不需要毅力，收益又落在最大一档的条目。再叠加一个「换回什么」，就是该口径下的优先清单。\n- **看到「不要」开头的节标题不用紧张**：节标题说的是这一节想防住的事（不要早死、不要浪费时间），不是说底下每条都在让你别干什么。真正要做的动作写在条目标题里，一律动词开头，自己就写清了是「做什么」还是「别做什么」。同一节里两种都有：第 4 节既有「把『打算做』写成『几点、在哪、遇到什么就做什么』」，也有「不看电视和滚动新闻」。按条目标题读，不用往节标题的语气上套。\n\n每条建议长这样：\n\n```markdown\n### 5. 把家里的食盐换成低钠盐（钾盐）\n- 成本：一袋比普通盐贵几元。买的时候顺手换，不额外",
    "featured_before": false
@@ -1755,7 +1770,7 @@
    "url": "https://github.com/Contrastive-LM/CLM",
    "description": "",
    "language": "Python",
-   "stars": 1718,
+   "stars": 1719,
    "topics": [],
    "created_at": "2026-09-23",
    "pushed_at": "2026-09-24",
@@ -1769,7 +1784,7 @@
    "url": "https://github.com/Mak5er/AirCard",
    "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
    "language": "Swift",
-   "stars": 4465,
+   "stars": 4466,
    "topics": [],
    "created_at": "2026-09-16",
    "pushed_at": "2026-09-22",
