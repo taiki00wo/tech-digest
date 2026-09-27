@@ -1,0 +1,14 @@
+{
+ "date": "2026-09-27",
+ "collected_at": "2026-09-27T12:53:21+09:00",
+ "errors": {
+  "GitHub Trending": "HTTP Error 403: Forbidden",
+  "Hacker News": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "Lobsters": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "Product Hunt": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "Zenn": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "Qiita": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "はてブ": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+ },
+ "items": []
+}
