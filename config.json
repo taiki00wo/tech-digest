@@ -1,0 +1,149 @@
+{
+  "timezone_offset_hours": 9,
+  "seen_retention_days": 14,
+  "limits": {
+    "github_trending": 25,
+    "hackernews": 30,
+    "lobsters": 15,
+    "producthunt": 15,
+    "zenn": 20,
+    "qiita": 20,
+    "hatena": 25,
+    "rss_per_feed": 5
+  },
+  "hackernews_min_score": 100,
+  "rss_feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "Vercel Blog",
+      "url": "https://vercel.com/atom"
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "name": "AWS What's New",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/"
+    },
+    {
+      "name": "web.dev",
+      "url": "https://web.dev/feed.xml"
+    }
+  ],
+  "categories": {
+    "AI": [
+      "ai",
+      "llm",
+      "gpt",
+      "claude",
+      "gemini",
+      "agent",
+      "rag",
+      "mcp",
+      "model",
+      "inference",
+      "transformer",
+      "diffusion",
+      "embedding",
+      "prompt",
+      "機械学習",
+      "生成ai",
+      "エージェント",
+      "推論",
+      "ml",
+      "openai",
+      "anthropic",
+      "hugging",
+      "llms",
+      "agents",
+      "models",
+      "ai-powered",
+      "vlm",
+      "fine-tuning",
+      "ollama"
+    ],
+    "フロントエンド": [
+      "react",
+      "vue",
+      "svelte",
+      "next.js",
+      "nextjs",
+      "nuxt",
+      "css",
+      "html",
+      "browser",
+      "frontend",
+      "typescript",
+      "javascript",
+      "vite",
+      "tailwind",
+      "ui",
+      "web component",
+      "フロント",
+      "astro",
+      "remix",
+      "solid"
+    ],
+    "バックエンド": [
+      "api",
+      "backend",
+      "database",
+      "postgres",
+      "mysql",
+      "sqlite",
+      "redis",
+      "go",
+      "golang",
+      "rust",
+      "python",
+      "java",
+      "kotlin",
+      "node",
+      "deno",
+      "bun",
+      "graphql",
+      "grpc",
+      "orm",
+      "バックエンド",
+      "rails",
+      "django",
+      "fastapi",
+      "elixir"
+    ],
+    "インフラ": [
+      "kubernetes",
+      "k8s",
+      "docker",
+      "aws",
+      "gcp",
+      "azure",
+      "cloudflare",
+      "terraform",
+      "infra",
+      "devops",
+      "linux",
+      "observability",
+      "sre",
+      "ci/cd",
+      "serverless",
+      "network",
+      "security",
+      "インフラ",
+      "セキュリティ",
+      "vercel",
+      "nix"
+    ]
+  }
+}
