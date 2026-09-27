@@ -15,7 +15,11 @@ git pull --rebase origin main
 
 ## 2. 収集
 
-`python3 collect.py` を実行し、今日の `data/raw/YYYY-MM-DD.json` を作る（日付はJST）。
+収集は GitHub Actions（`.github/workflows/collect.yml`）が毎朝 6:00 JST に済ませ、`data/raw/YYYY-MM-DD.json`（日付はJST）を main にコミットしている。
+
+- 今日の `data/raw/YYYY-MM-DD.json` が**ある**: `collect.py` は実行しない（実行すると OSS・リリースが空で上書きされる）。そのまま 3 へ。
+- **無い**（Actions が失敗・遅延した場合）: `python3 collect.py` を実行する。この環境では GitHub API が使えないので `oss` と `releases` は空になるが、そのまま続ける。
+
 中身は `items`（記事）・`oss`（急上昇候補、上位には `readme` 付き）・`releases`（ウォッチ対象の正式リリース）・`deep_dive_day`（今日が深掘りの日か）。
 
 ## 3. 選んで書く

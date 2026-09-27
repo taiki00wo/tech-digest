@@ -1,0 +1,38 @@
+# 毎朝の収集（記事・OSS・リリース）を GitHub Actions で行い、main にコミットする。
+# クラウドのルーチンは GitHub API を tech-digest 以外に使えないため、収集だけここで先に済ませる。
+name: collect
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 06:00 JST（ルーチンは 07:00 JST）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 collect.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "collect: $(TZ=Asia/Tokyo date +%F)"
+          git pull --rebase origin main
+          git push origin main
