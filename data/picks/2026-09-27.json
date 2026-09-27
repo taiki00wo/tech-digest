@@ -1,65 +1,99 @@
 {
-  "headline": "AIエージェントの自律行動がセキュリティ・信頼性の問題として各所で表面化した一日で、それを安全に運用するための実務的な工夫（通知制御・読み取り専用DB接続・設計境界の明示）も国内エンジニアから多数共有された。",
+  "headline": "AIエージェントの「スキル」化とMCP経由での業務システム連携が実務レベルで具体化し、クラウド側ではAIエージェントによる脆弱性対応・ファジングの自動化も進んだ一日。",
   "trends": [
-    "AIエージェントの自律行動がリスクとして表面化した日（Hugging Faceに関するインシデント報告、Cloudflare Containersのクロステナント脆弱性、GitHub/CloudflareのAIエージェント活用のセキュリティ機能強化）。",
-    "Claude CodeやMCPなど、AIエージェントを実務で安全に回すための細かい工夫（完了通知の制御、業務DBへの読み取り専用接続、AI生成コードの設計境界を守るリンター）が国内ブログで多数共有された。",
-    "Cloudflareを軸にした個人開発・自宅インフラの記事が引き続き人気で、サーバーレス基盤を自分の手で構築・運用する事例が目立った。"
+    "エージェント向けの再利用可能な「スキル」がGitHubやApp Storeを超える速度で普及し、公開スキルの上に自社固有の知識を積むことが次の差別化点になりつつある。",
+    "ClaudeやMCPを業務システムに組み込む際の権限設計（読み取り専用DB接続・用途別ツール）や、AIが書くコードの設計境界を守る静的解析ツールなど、実務の「安全に使う工夫」が国内外で具体化してきた。",
+    "セキュリティ領域でもAIエージェントの実戦投入が進み、継続的ファジングの監視作業をLLMエージェントに委ねる事例や、コンテナ基盤側のクロステナント脆弱性対応が公開された。"
   ],
   "reading_list": [
     {
-      "url": "https://swarmtraces.org/",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://vercel.com/blog/state-of-agent-skills",
+      "title": "State of agent skills",
       "category": "AI",
-      "minutes": 8,
-      "why": "AIエージェントの自律的な行動をめぐるセキュリティ事案を報告しているとみられる記事で、Hacker Newsで706ポイント・449コメントと今日いちばん話題になっている（本文は取得できず未確認のため、詳細はリンク先で要確認）。",
-      "takeaway": "AIエージェントが引き起こしたとされる具体的な事案の内容と、それに対するコミュニティの反応の大きさを把握できる。"
-    },
-    {
-      "url": "https://qiita.com/satoshi_061/items/0ea5b53974504fc5f1c4",
-      "title": "Claude Code の完了通知がサブエージェントのせいで何度も鳴るので、全部終わったときだけ鳴らす",
-      "category": "AI",
-      "minutes": 3,
-      "why": "Claude Codeでサブエージェントを多用すると『完了通知が何度も鳴る』という、複数エージェント運用者なら誰もがぶつかる悩みを実際に解決している。",
-      "takeaway": "起動中のtool_use_idを記録し、未完了のタスクが0件になったときだけ通知するhookスクリプトの作り方がわかる。"
+      "minutes": 5,
+      "why": "エージェント向け「スキル」がわずか7ヶ月で100万件・2.8億インストールに達したという、Claude Codeのようなツールの拡張がどこに向かうかを一次データで示しているから。",
+      "takeaway": "用途別の普及割合（エンジニアリング18%、エージェントワークフロー15%など）や業界横断スキルが全体の87.5%を占める現状、そして今後は自社固有の知識を書くことが競争優位になるという展望がわかる。"
     },
     {
       "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
       "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
       "category": "インフラ",
-      "minutes": 6,
-      "why": "Cloudflareが自社のContainers基盤で発生したクロステナント脆弱性を公式に説明している一次情報で、マルチテナントのコンテナ基盤を使う開発者に実務的な示唆がある。",
-      "takeaway": "dm-thinのブロック未初期化設定（skip_block_zeroing）が原因で他テナントの残存データが読み出せた仕組みと、該当設定の削除・既存ディスクの全廃棄というCloudflareの対応がわかる。"
+      "minutes": 5,
+      "why": "コンテナ/サーバーレス基盤を使う開発者にとって、マルチテナント環境のディスク再利用が招く実際のデータ漏えい経路を、当事者であるCloudflare自身が公開している一次情報だから。",
+      "takeaway": "小さな書き込みでブロック全体を割り当てさせ前の顧客の残存データを読み出す手口の仕組みと、該当設定の修正・既存ディスクの全再初期化というCloudflareの対応がわかる。"
     },
     {
       "url": "https://qiita.com/TechStudioLab/items/906d86684fbcb92eedbd",
       "title": "業務DBを読み取り専用MCPにしてClaudeから参照する",
-      "category": "バックエンド",
-      "minutes": 3,
-      "why": "AIエージェントに業務DBを触らせる際に誰もが気にする『権限』の問題を、読み取り専用MCPという具体的な設計方針で扱っている（本文は未確認のため概要ベース）。",
-      "takeaway": "SQLを自由に実行させる接続ではなく、読み取り専用に絞ってClaudeに業務データを参照させるという設計の考え方がわかる。"
+      "category": "AI",
+      "minutes": 5,
+      "why": "業務DBをClaudeに安全に触らせたい人向けに、読み取り専用MCPの権限設計を実例で示している実践的な記事だから。",
+      "takeaway": "SQLiteのmode=ro接続と、get_customerのような用途別ツールだけを公開する構成にすれば、プロンプト任せにせずシステム側で閲覧範囲を絞れることがわかる。"
+    },
+    {
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "継続的ファジングにつきものの監視作業（カバレッジ確認・ハーネス作成・クラッシュ分類）をLLMエージェントに任せる設計を、GitHub自身のセキュリティラボが公開しているから。",
+      "takeaway": "エントリーポイント認識からハーネス作成・AFL++実行・カバレッジ分析・クラッシュ分類までを人手なしで回すパイプラインの構成と、その成果がわかる。"
     },
     {
       "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
       "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
       "category": "バックエンド",
-      "minutes": 5,
-      "why": "AIエージェントがコードを書く時代に、Goのフラットなパッケージ構成では暗黙の設計境界が壊れやすいという具体的な課題と対策を扱っている。",
-      "takeaway": "declscopeというリンターが、ファイル単位のプライベートスコープをディレクティブとしてソースに明示し、越境アクセスを機械的に検出・自動修正できる仕組みがわかる。"
+      "minutes": 4,
+      "why": "AIエージェントが「見えているAPIは素直に使う」ためにGoのフラットなパッケージ構成で設計境界が壊れやすいという問題を、規約でなく静的解析で機械的に防ぐ具体策だから。",
+      "takeaway": "`declscope ./...`で越境アクセスを検出し`-fix`で修正する使い方と、既存コードベースには`declscope baseline`で導入する手順がわかる。"
     }
   ],
-  "oss": [],
-  "releases": [],
+  "oss": [
+    {
+      "repo": "NandhaKishorM/laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "language": "Python",
+      "stars": 25977,
+      "stars_per_day": 2886,
+      "what": "100以上の言語に対応する非自己回帰型の判定エンジンで、1回のフォワードパス（33ms）でtyped choice・score・yes/no判定を返し、リクエストごとに適切なチェックポイントをルーターが選ぶ。",
+      "why": "strictly proper scoring ruleに基づく強化学習（RLCD）で訓練したモデルという設計が支持され、今日のOSS候補の中で伸びが最も速い。",
+      "try": "`pip install laya` の後、MCPサーバーとして使いたい場合は `pip install laya[mcp]` を追加する。"
+    },
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "language": "Python",
+      "stars": 20601,
+      "stars_per_day": 1873,
+      "what": "ブラウザ操作エージェントで、ページ内の要素表からCLICK/TYPE_TEXTなどの操作とターゲットを1回のネットワークラウンドトリップで決め、テキスト入力が必要な場合だけ小さいLLMを呼ぶ。",
+      "why": "サイト固有のスクリプトを持たずにGoogle Flightsの往復検索を7.1秒で完了させる速さが話題になり、急速に伸びている。",
+      "try": "`git clone https://github.com/browser-use/jev-ultrafast.git && cd jev-ultrafast && uv sync && uv run jev` で起動し、http://127.0.0.1:8766 のインスペクタで確認する。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.283",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "summary": "LLMゲートウェイ向けに1プロンプト内のリクエストをまとめて追跡できるヘッダーと、モデルを名指しで許可・拒否する`availableModelsMatch`/`deniedModels`設定を追加。\nCLAUDE.mdやスキル・エージェント・コマンドの記述が古いモデル向けの書き方になっていないか調べる`/doctor prompt-audit`を追加。\nMCPサーバーの一時的な404やstdioサーバーの後始末忘れ、バックグラウンド化したツール呼び出しの進捗表示など複数の不具合を修正。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.141.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.141.0",
+      "summary": "Durable Objectsのコード更新を待たずに即時反映する`immediate`モードと、最大待ち時間を指定できる`deferred`モードを`wrangler deploy`等に追加。\nQueueサブスクリプションのイベントソースにBrowser Runを追加。\nworkers-typesとworkerdを2026-09-25版に更新するなど依存関係も更新。"
+    }
+  ],
   "deep_dive": null,
   "headlines": [
-    {"url": "https://www.bbc.com/news/articles/cw62jje658dlo", "title": "OpenAI bots meddled with multiple US Government agency sites", "category": "AI", "note": "OpenAI関連ボットが米政府サイトに介入"},
-    {"url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html", "title": "Plan mode is dead", "category": "AI", "note": "コーディングエージェントのplan mode論争"},
-    {"url": "https://blog.cloudflare.com/turnstile-spin/", "title": "Agents can now set up your website's security with Turnstile Spin", "category": "AI", "note": "AIエージェントがTurnstile設定を自動修正"},
-    {"url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/", "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent", "category": "AI", "note": "AIエージェントによる自動ファジング"},
-    {"url": "https://vercel.com/blog/state-of-agent-skills", "title": "State of agent skills", "category": "AI", "note": "エージェントSkillsの現状レポート"},
-    {"url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55", "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた", "category": "AI", "note": "Opus5.5移行で外れたプロンプト設定"},
-    {"url": "https://qiita.com/pentaCoxian/items/d09c4e84f5b87a59f7e7", "title": "2×V100 で Qwen3.8-Flash-Next を 256K コンテキスト・約 88 tok/s で動かす", "category": "AI", "note": "旧世代GPUでMoEモデルを高速推論"},
-    {"url": "https://speakerdeck.com/ashunar0/kojin-kaihatsu-ha-cloudflare-ni-subete-kakero", "title": "個人開発はCloudflareにすべて賭けろ", "category": "インフラ", "note": "個人開発者向けCloudflare活用論"},
-    {"url": "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/", "title": "自宅KubernetesをTalos Linux + Cloudflareベースに刷新した", "category": "インフラ", "note": "自宅k8sをTalos+Cloudflareへ移行"},
-    {"url": "https://safenotsafe.dev/", "title": "Is your Postgres migration safe or not safe?", "category": "バックエンド", "note": "Postgresマイグレーション安全性チェッカー"}
+    {"url": "https://antonz.org/go-concurrency-distilled/", "title": "Go Concurrency Distilled", "category": "バックエンド", "note": "Goの並行処理パターンを整理した解説"},
+    {"url": "https://safenotsafe.dev/", "title": "Is your Postgres migration safe or not safe?", "category": "バックエンド", "note": "DBマイグレーションの安全性チェック"},
+    {"url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions", "title": "Claude Code クラウドセッション、使ってみて！", "category": "AI", "note": "Claude Codeクラウド版を試した感想"},
+    {"url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55", "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた", "category": "AI", "note": "モデル更新で陳腐化した設定の点検"},
+    {"url": "https://zenn.dev/loglass/articles/f69996279763ab", "title": "Claude Codeで定期的にやっておきたい MEMORY.md の大掃除", "category": "AI", "note": "Claude Codeのメモリ整理術"},
+    {"url": "https://qiita.com/pentaCoxian/items/d09c4e84f5b87a59f7e7", "title": "2×V100 で Qwen3.8-Flash-Next を 256K コンテキストで動かす", "category": "AI", "note": "llama.cppの推論最適化事例"},
+    {"url": "https://zenn.dev/mk0bayashi/articles/2a6ee4123e671f", "title": "オントロジー定義から AI エージェントのツールを機械的に生成する", "category": "AI", "note": "定義からエージェントツールを自動生成"},
+    {"url": "https://songmu.jp/riji/entry/2026-09-27-sagepipe.html", "title": "UNIXパイプにAIを組み込む - sagepipe", "category": "AI", "note": "パイプにAIを差し込む実験"},
+    {"url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/", "title": "When chat is the wrong UI", "category": "フロントエンド", "note": "チャットUIが不適な場面を考察"},
+    {"url": "https://blog.cloudflare.com/turnstile-spin/", "title": "Agents can now set up your website's security with Turnstile Spin", "category": "インフラ", "note": "AIがサイトのセキュリティを自動設定"}
   ]
 }
