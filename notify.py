@@ -121,7 +121,7 @@ def main():
     date = args[0] if args else max(p.stem for p in RAW.glob("*.json"))
     site = json.loads((ROOT / "config.json").read_text()).get("site_url", "").rstrip("/")
     if site:
-        page_url = f"{site}/{date}.html"
+        page_url = f"{site}/{date}"  # Cloudflare の静的アセットは .html なしのURLで配信される
         msgs = [{"content": f"📰 Tech Digest {date}\n{page_url}"}]
     else:
         msgs = [{"embeds": b} for b in batches(build_embeds(date))]
