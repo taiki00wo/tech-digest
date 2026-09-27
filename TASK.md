@@ -20,11 +20,12 @@ git pull --rebase origin main
 - 今日の `data/raw/YYYY-MM-DD.json` が**ある**: `collect.py` は実行しない（実行すると OSS・リリースが空で上書きされる）。そのまま 3 へ。
 - **無い**（Actions が失敗・遅延した場合）: `python3 collect.py` を実行する。この環境では GitHub API が使えないので `oss` と `releases` は空になるが、そのまま続ける。
 
-中身は `items`（記事）・`oss`（急上昇候補、上位には `readme` 付き）・`releases`（ウォッチ対象の正式リリース）・`deep_dive_day`（今日が深掘りの日か）。
+`collect.py` は同時に `data/brief/YYYY-MM-DD.md`（選定用の圧縮版。紹介済みの記事・OSSは除外済み）も作る。
+**3 では `data/brief/YYYY-MM-DD.md` だけを読むこと。** `data/raw/*.json` は大きいので読まない・表示しない（render.py が使う）。記事本文やREADMEの追加取得（WebFetch・curl）もしない。
 
 ## 3. 選んで書く
 
-読者は `config.json` の `reader_profile` の人（毎朝15分で読み切りたい）。
+読者は次の技術を使う人で、毎朝15分で読み切りたい: TypeScript / React / Next.js、AIアプリ開発（LLM API・エージェント・MCP・Claude Code）、クラウド / サーバーレス（AWS・Cloudflare・GCP）、Go / Python などのバックエンド。
 `data/picks/YYYY-MM-DD.json` を次の形式で書く（すべて日本語）。**量を増やさないこと。** 全体で15分に収まるのが最優先。
 
 ```json
@@ -52,26 +53,26 @@ git pull --rebase origin main
 }
 ```
 
-### reading_list（ちょうど `reading_list_size` 本 = 5本、**読む順に並べる**）
+### reading_list（ちょうど5本、**読む順に並べる**）
 次の基準で選び、配列の順番がそのまま「読む順」になる。
-1. **読者の技術に近いか**: `reader_profile.stack` に関係するものを優先する。
+1. **読者の技術に近いか**: 上に書いた読者の技術に関係するものを優先する。
 2. **一次情報か**: 公式ブログ・作者本人の記事・論文を、まとめ記事や感想記事より上にする。
-3. **新しさ**: `seen_before: true` は原則外す。すでに知られた話の焼き直しは下げる。
+3. **新しさ**: すでに知られた話の焼き直しは下げる（紹介済みの記事は brief から除外済み）。
 4. **偏らない**: 同じ category からは最大2本まで。
 5. **並び順**: 1本目は「今日これだけは読む」1本。以降は重い記事と軽い記事を交互にする。
 - `minutes` は読了目安（短い記事3分、普通5〜8分、長文・論文10分以上）。合計は25分以内に収める。
-- `why` と `takeaway` は、本文を読めた場合は本文から、読めない場合はタイトル・概要から控えめに書く（推測で断定しない）。本文の確認は reading_list の候補だけ、最大5件まで。
+- `why` と `takeaway` はタイトル・概要・スコアから控えめに書く（推測で断定しない）。本文は取得しない。
 - 技術と関係ない記事（政治・雑談・健康など）は選ばない。
 
 ### oss（1〜2個）
-- `raw.oss` から選ぶ。`stars_per_day` が大きいものを優先するが、技術的に学びがあるもの・読者のスタックに関係するものを選ぶ（ネタ系や技術と無関係なリポジトリは除く）。`featured_before: true` は外す。
-- `what` / `why` / `try` は README（`readme`）と description から書く。README に無いことは推測で断定しない。
+- brief の「OSS候補」から選ぶ。`stars_per_day` が大きいものを優先するが、技術的に学びがあるもの・読者のスタックに関係するものを選ぶ（ネタ系や技術と無関係なリポジトリは除く）。
+- `what` / `why` / `try` は README と description から書く。README に無いことは推測で断定しない。`stars_per_day` の `~` は外して数値だけ入れる。
 
 ### releases
-- `raw.releases` があるときだけ入れる（無ければ空配列）。同じリポジトリが複数あれば最新だけ。リリースノート（`body`）から、読者に関係する主な変更を3行以内でまとめる。
+- brief の「リリース」にあるときだけ入れる（無ければ空配列）。リリースノートから、読者に関係する主な変更を3行以内でまとめる。
 
 ### deep_dive（`deep_dive_day` が true の日だけ。それ以外は null）
-`raw.oss` の README 付き候補から、設計や使い方を学ぶ価値が一番高い1つを選び（`oss` で紹介したものと別でもよい、`featured_before: true` は除く）、README をもとに書く:
+brief の README 付き OSS 候補から、設計や使い方を学ぶ価値が一番高い1つを選び（`oss` で紹介したものと別でもよい）、README をもとに書く:
 
 ```json
 {"repo": "owner/name", "url": "...", "overview": "何を解決するツールか（2〜3文）",
@@ -82,11 +83,11 @@ git pull --rebase origin main
 ```
 コードの clone や追加取得はしない（README だけで書く）。
 
-### talks（登壇スライド、最大 `talks_size` 本 = 3本）
-- `source` が `Speaker Deck` の記事から、読者のスタックに関係する技術的な発表を選ぶ（会社紹介・採用・技術と関係ない発表は除く）。`seen_before: true` は外す。該当が無ければ空配列でよい。
+### talks（登壇スライド、最大3本）
+- source が `Speaker Deck` の記事から、読者のスタックに関係する技術的な発表を選ぶ（会社紹介・採用・技術と関係ない発表は除く）。該当が無ければ空配列でよい。
 - reading_list や headlines とは重複させない。
 
-### headlines（ちょうど `headlines_size` 本 = 10本）
+### headlines（ちょうど10本）
 reading_list に入らなかった中から、見出しだけ知っておくと良いものを選ぶ。
 
 ## 4. HTML生成

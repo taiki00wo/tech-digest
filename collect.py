@@ -157,6 +157,47 @@ def categorize(it):
     return cats or ["その他"]
 
 
+def clean_markdown(text, limit):
+    """README をAIに読ませる用に圧縮する（画像・バッジ・リンクURL・HTML・コードブロックを除く）。"""
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"[ \t]+", " ", re.sub(r"\n\s*\n+", "\n", text)).strip()
+    return text[:limit]
+
+
+def write_brief(out, path):
+    """Claude が読む用の圧縮版（raw の JSON は大きいので、選定に必要な項目だけ Markdown にする）。
+    紹介済みの記事・OSS は載せない。"""
+    lines = [f"# {out['date']}（{out['weekday']}） deep_dive_day={str(out['deep_dive_day']).lower()}",
+             f"取得失敗: {', '.join(out['errors']) or 'なし'}", "", "## 記事（source | score | 自動分類 | タイトル | 概要 | url）"]
+    for it in out["items"]:
+        if it["seen_before"]:
+            continue
+        score = it["score"] if it["score"] is not None else "-"
+        summary = re.sub(r"\s+", " ", it["summary"])[:80]
+        lines.append(f"- {it['source']} | {score} | {'/'.join(it['categories'])} | {it['title']} | {summary} | {it['url']}")
+    lines += ["", "## OSS候補（stars_per_day順。~ は作成からの平均で代用）"]
+    for r in out["oss"]:
+        if r.get("featured_before"):
+            continue
+        spd = f"{'~' if r.get('estimated') else ''}{r.get('stars_per_day')}"
+        lines.append(f"### {r['repo']} | {r['language']} | ★{r['stars']} | +{spd}/日 | {r['found_in']} | {r['url']}")
+        lines.append(r["description"])
+        if r.get("readme"):
+            lines.append("README: " + clean_markdown(r["readme"], 900))
+    lines += ["", "## リリース"]
+    latest = {}
+    for r in out["releases"]:
+        latest.setdefault(r["repo"], r)   # API は新しい順なので最初の1件が最新
+    for r in latest.values():
+        lines.append(f"### {r['repo']} {r['version']} | {r['url']}")
+        lines.append(clean_markdown(r["body"], 700))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n")
+
+
 def recently_featured(today, days=30):
     """過去のダイジェストで紹介済みのリポジトリ（同じOSSを繰り返し出さないため）。"""
     cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
@@ -222,6 +263,7 @@ def main():
     path = raw_dir / f"{today}.json"
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     seen_path.write_text(json.dumps(seen, ensure_ascii=False))
+    write_brief(out, ROOT / "data" / "brief" / f"{today}.md")
     new = sum(not i["seen_before"] for i in out["items"])
     print(f"保存: {path.relative_to(ROOT)}  (記事{len(out['items'])}件・新着{new}件 / OSS{len(oss_repos)}件 / リリース{len(releases)}件)")
 
