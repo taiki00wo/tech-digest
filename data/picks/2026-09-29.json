@@ -1,0 +1,146 @@
+{
+  "headline": "Cloudflareが一日でNext.js/Vite・エージェントCLI・JSツールチェーンなど複数の発表を出し、Claude Sonnet 5.5の波及も各所に広がった一日。",
+  "trends": [
+    "Cloudflareがフロントエンド（Vinext）からインフラ（BEACON、Forge）、エージェントツール（cf CLI）まで同時多発的に発表し、存在感を広げている。",
+    "Claude Sonnet 5.5のリリースに伴い、Vercel AI GatewayやAnthropic公式SDKなど周辺エコシステムが即座に追随している。",
+    "SREやセキュリティ調査などの現場業務にAIエージェントを組み込む実践例（HolmesGPT、GitHubのAndroid脆弱性調査エージェント）が具体化してきている。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+      "category": "フロントエンド",
+      "minutes": 5,
+      "why": "Next.jsをVite上で動かす新フレームワークがAI実験から本番運用レベルへ卒業した発表で、Next.js/Viteユーザーへの影響が大きいから",
+      "takeaway": "VinextでNext.jsアプリをVite上で動かす選択肢が実用段階に入ったことがわかる"
+    },
+    {
+      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "category": "バックエンド",
+      "minutes": 4,
+      "why": "Postgresの`at time zone 'UTC'`が直感と違う挙動をするという、バックエンド開発者が踏みがちな落とし穴を扱っているから",
+      "takeaway": "`at time zone 'UTC'`の実際の変換ロジックを理解し、日時まわりのバグを未然に防げるようになる"
+    },
+    {
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "category": "AI",
+      "minutes": 6,
+      "why": "OSS化されたAIセキュリティエージェントが実際に24件のAndroid脆弱性を見つけた事例で、AIエージェントを実務のセキュリティ調査に組み込む具体像がわかるから",
+      "takeaway": "AIエージェントにどんなタスクフローを与えると実際の脆弱性発見につながるのか、その設計の勘所がわかる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "Cloudflareの全APIを対象にした公式のエージェント型CLIの登場で、Cloudflareを運用する開発者に直結するニュースだから",
+      "takeaway": "cf CLIでCloudflareのAPI操作をエージェント経由で行える新しい選択肢を知る"
+    },
+    {
+      "url": "https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25",
+      "title": "Claude Code の新しい監査コマンドは、そのままでは自分のスキル49本を見なかった",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Claude Codeの新しい/doctor prompt-auditコマンドが、著者自身が用意した49個のスキルをそのままでは検出しなかったという実体験に基づく検証記事だから",
+      "takeaway": "/doctor prompt-auditの挙動の限界と、スキルを正しく監査させるための注意点がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Human-Agent-Society/reef",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "language": "Python",
+      "stars": 6876,
+      "stars_per_day": 306,
+      "what": "エージェントの推論・フィードバック・学習・バージョン配信をつなぐ、継続的に自己改善するエージェントのためのOSS基盤",
+      "why": "SlimeやSGLangでのモデル重み学習と、プロンプト・ルール・スキルを含むハーネス自体の最適化の両方に対応しており、エージェント運用を育てたいというニーズに応える内容だから",
+      "try": "READMEの「Get started」ガイドに沿ってセットアップし、まず自分とのやり取りからエージェントを学習させてみる"
+    },
+    {
+      "repo": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "language": "Go",
+      "stars": 1584,
+      "stars_per_day": 264,
+      "what": "メニューバーから使うモデルを切り替えられる、エージェント用のモデルスイッチャー（例: CodexにDeepSeek、Claude CodeにKimiを割り当てるなど）",
+      "why": "エージェントごとに使うモデルをコストや得意分野で使い分けたいというニーズに応える内容で、新着人気の伸びも大きいから",
+      "try": "GitHubのREADMEに沿ってインストールし、メニューバーから各エージェントに割り当てるモデルを設定する"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.10",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.10",
+      "summary": "ランタイムアダプター（bun/deno/cloudflare-workers/aws-lambda等）が`@hono/*`として別パッケージに分離。`hono/`配下は引き続き動くがv4では非推奨でv5で削除予定。`hono/cloudflare-pages`は後継パッケージなしで非推奨（Cloudflareは静的アセット付きWorkersを推奨）。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.284",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "summary": "Claude Sonnet 5.5がAnthropic APIのデフォルトSonnetモデルに（1Mコンテキスト、$2/$10 per Mtok、キャッシュ読込$0.20/Mtok）。auto modeで作業ディレクトリ外の読み取り確認に「次回から聞かない」旨の回答を追加。/usageとステータスラインにゲートウェイ利用額のドル表示を追加。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "vertex-sdk-v0.20.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.20.0",
+      "summary": "Vertex AI向けTypeScript SDKにclaude-sonnet-5-5を追加。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.143.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.143.0",
+      "summary": "実験的な`cloudflare.config.ts`の記法が変更され、defineConfigやbindings等を`cf/config`からimportする方式に統一。Viteプラグインは`@cloudflare/vite-plugin/experimental-config`のエクスポートを廃止（`wrangler/experimental-config`は`defineWranglerConfig`用に残存）。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "mexicat/pdoom-video",
+    "url": "https://github.com/mexicat/pdoom-video",
+    "overview": "曲に合わせたカラオケ字幕付きの音楽ビデオを、動画編集ソフトを使わずコードだけで生成するプロジェクト。コンセプト立案から歌詞と音声のアライメント、レンダラー実装、各シーンの制作までのすべてを、Claude Code上でClaude（Opus 5.5）との対話だけで作り上げたと説明されている。",
+    "how_it_works": "各フレームは曲の再生時刻から決定的に計算される関数として実装されており、ブラウザ上のライブプレビューとオフラインの1080p60/4K60書き出しが同じロジックで完全に一致する結果になる。モーションブラー用のサブフレームサンプリング数は固定ではなく、動きが激しい箇所ほど多くのサブフレーム（最大324枚）を割り当てる可変方式になっている。初期にYouTubeへアップロードした版は1フレームあたり平均4サブフレームしか使っていなかったため、速い動きがカクついて見えると説明されている。",
+    "use_cases": [
+      "動画編集ソフトを使わず、コードだけで音楽同期のビジュアル表現を作りたいとき",
+      "ブラウザでのプレビューと最終書き出し映像を完全に一致させたい生成系ビジュアル制作",
+      "Claude Codeを使ったクリエイティブコーディングのワークフロー事例を知りたいとき"
+    ],
+    "try": [
+      "リポジトリをcloneしてREADMEの手順で依存関係をセットアップする",
+      "READMEの「Render the video」の手順に従い、ローカルで実際にレンダリングを試す（具体的なコマンドはリポジトリのREADMEを参照）"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/leveragestech/holmesgpt-de-hajimeru-sre-ejento-nyuumon-purattofomu-no-shougai-chousa-ha-ai-ni-omakase",
+      "title": "HolmesGPTで始めるSREエージェント入門！プラットフォームの障害調査はAIにお任せ 〜",
+      "event": "Platform Engineering Kaigi 2026",
+      "why": "AIエージェント（HolmesGPT）に障害調査を任せるSRE運用の実践例で、AI×インフラ運用の具体像がわかるから"
+    },
+    {
+      "url": "https://speakerdeck.com/ennael/damos-the-smart-cruise-control-for-ram",
+      "title": "DAMOS - The Smart Cruise Control for RAM",
+      "event": "",
+      "why": "Linuxカーネルのメモリ回収機構DAMONを使い、物理メモリの使い方を賢く制御する仕組みを扱っており、インフラ・パフォーマンスに関心がある読者に学びがあるから"
+    },
+    {
+      "url": "https://speakerdeck.com/ennael/the-maintainer-container-remaining-a-saner-maintainer",
+      "title": "The Maintainer Container - remaining a saner maintainer",
+      "event": "",
+      "why": "gitとメールでの開発運用が続くOSSメンテナ業務の雑務をどう軽くするかという話で、OSSを保守する開発者に実用的な視点を与えるから"
+    }
+  ],
+  "headlines": [
+    {"url": "https://www.anthropic.com/claude-sonnet-5-5", "title": "Sonnet 5.5", "category": "AI", "note": "Anthropicが新モデル発表"},
+    {"url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway", "title": "Claude Sonnet 5.5 now available on AI Gateway", "category": "AI", "note": "AI GatewayにSonnet5.5追加"},
+    {"url": "https://huggingface.co/blog/Hcompany/holo4", "title": "Holo4: powering generalist computer-use agents", "category": "AI", "note": "汎用コンピュータ操作エージェント公開"},
+    {"url": "https://blog.cloudflare.com/voidzero-update/", "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents", "category": "フロントエンド", "note": "JSツールチェーン高速化の近況"},
+    {"url": "https://blog.cloudflare.com/how-fast-is-the-web/", "title": "How fast is the web? Explore billions of real-user measurements with BEACON", "category": "インフラ", "note": "実ユーザー計測データを一般公開"},
+    {"url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/", "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more", "category": "バックエンド", "note": "SDK/CLI自動生成の新OSSを公開"},
+    {"url": "https://github.blog/open-source/git/highlights-from-git-2-56/", "title": "Highlights from Git 2.56", "category": "バックエンド", "note": "Git 2.56の主な変更点まとめ"},
+    {"url": "https://qiita.com/jqit-yukiono/items/efc0e2b10bb1aa0a3792", "title": "GitHub Actionsの自動マージが、次のworkflowを起動しない", "category": "インフラ", "note": "自動マージが次を起動しない謎"},
+    {"url": "https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained", "title": "そもそもClaude Codeのエフォートってなに？", "category": "AI", "note": "Claude Codeのeffort機能を解説"},
+    {"url": "https://zenn.dev/sun_asterisk/articles/e9b50f09839def", "title": "Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化", "category": "フロントエンド", "note": "E2Eテスト生成・修復を自動化"}
+  ]
+}
