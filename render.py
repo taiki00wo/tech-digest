@@ -3,6 +3,7 @@
 
 使い方: python3 render.py [YYYY-MM-DD]   （省略時は最新の raw）
 構成: 今日の流れ → 読む順の5本 → 今日のOSS → リリース → 深掘り（火・金）→ 登壇スライド → 見出しだけ
+各記事の ☆ で「あとで読む」に保存でき（ブラウザの localStorage）、bookmarks.html で一覧できる。
 """
 import json
 import sys
@@ -26,7 +27,7 @@ h2{font-size:17px;margin:36px 0 12px;display:flex;align-items:baseline;gap:8px}h
 .card.read{opacity:.45}
 .rank{display:flex;gap:14px}.num{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:700;font-size:15px}
 .body{flex:1;min-width:0}
-.card h3{font-size:16px;margin:0 0 6px;padding-right:26px;line-height:1.5;overflow-wrap:anywhere}.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card h3{font-size:16px;margin:0 0 6px;padding-right:60px;line-height:1.5;overflow-wrap:anywhere}.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}
 .card p{margin:6px 0 0;font-size:14.5px}.label{color:var(--muted);font-size:12px;margin-right:6px}
 .meta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px;color:var(--muted);align-items:center}.meta a{color:var(--muted)}
 .chip{border-radius:99px;padding:0 8px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:12px}
@@ -38,9 +39,28 @@ pre{padding:10px 12px;margin:8px 0 0;overflow-x:auto;white-space:pre-wrap;word-b
 .heads{list-style:none;padding:0;margin:0}.heads li{padding:8px 2px;border-bottom:1px solid var(--line);font-size:14.5px}
 .heads a{text-decoration:none}.heads a:hover{text-decoration:underline}.heads .note{color:var(--muted);font-size:13px}
 .archive li{margin:6px 0}.err{color:#c0392b;font-size:12px;margin-top:6px}
+.bm{background:none;border:0;cursor:pointer;font-size:19px;line-height:1;color:var(--muted);padding:0 2px}
+.bm[aria-pressed=true]{color:var(--star)}.card>.bm{position:absolute;top:13px;right:44px}
+.heads li{display:flex;gap:6px;align-items:baseline}.heads li .t{flex:1}
+.bmrow{display:flex;gap:10px;align-items:baseline;padding:10px 2px;border-bottom:1px solid var(--line)}.bmrow .t{flex:1}
+.bmrow button,.tools button{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;cursor:pointer;color:var(--text);font-size:13px}
+.tools{display:flex;gap:8px;margin:12px 0}.empty{color:var(--muted)}
 """
 
 JS = """
+const BKEY='tech-digest-bookmarks';let bms={};try{bms=JSON.parse(localStorage.getItem(BKEY)||'{}')}catch(e){}
+function saveBms(){try{localStorage.setItem(BKEY,JSON.stringify(bms))}catch(e){}document.querySelectorAll('.bm-count').forEach(e=>e.textContent=Object.keys(bms).length||'')}
+document.querySelectorAll('.bm').forEach(b=>{const u=b.dataset.url;const on=()=>{b.setAttribute('aria-pressed',!!bms[u]);b.textContent=bms[u]?'★':'☆';b.title=bms[u]?'あとで読むから外す':'あとで読む'};on();
+b.addEventListener('click',()=>{bms[u]?delete bms[u]:bms[u]={title:b.dataset.title,date:b.dataset.date,added:Date.now()};saveBms();on()})});
+saveBms();
+const list=document.getElementById('bm-list');
+function drawList(){if(!list)return;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added);
+list.innerHTML=rows.length?'':'<p class="empty">まだありません。各記事の ☆ を押すとここに溜まります。</p>';
+rows.forEach(([u,v])=>{const r=document.createElement('div');r.className='bmrow';const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.className='t';a.textContent=v.title||u;
+const m=document.createElement('span');m.className='meta';m.textContent=v.date||'';const x=document.createElement('button');x.textContent='読んだ・外す';x.onclick=()=>{delete bms[u];saveBms();drawList()};r.append(a,m,x);list.append(r)})}
+drawList();
+const ex=document.getElementById('bm-export');if(ex)ex.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(bms,null,1)],{type:'application/json'}));a.download='tech-digest-bookmarks.json';a.click()};
+const im=document.getElementById('bm-import');if(im)im.onchange=async()=>{try{Object.assign(bms,JSON.parse(await im.files[0].text()));saveBms();drawList()}catch(e){alert('読み込めませんでした')}};
 const KEY='tech-digest-read';let read={};try{read=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
 document.querySelectorAll('.chk').forEach(c=>{const u=c.dataset.url;if(read[u]){c.checked=true;c.closest('.card').classList.add('read')}
 c.addEventListener('change',()=>{c.checked?read[u]=Date.now():delete read[u];c.closest('.card').classList.toggle('read',c.checked);try{localStorage.setItem(KEY,JSON.stringify(read))}catch(e){}})});
@@ -64,6 +84,14 @@ def chk(url):
     return f'<input type="checkbox" class="chk" data-url="{escape(url)}" title="読んだ">'
 
 
+def bm(url, title, date):
+    return (f'<button type="button" class="bm" data-url="{escape(url)}" data-title="{escape(title)}" '
+            f'data-date="{escape(date)}" aria-pressed="false" title="あとで読む">☆</button>')
+
+
+NAV = '<div class="nav"><a href="./">アーカイブ</a> ・ <a href="bookmarks">☆ あとで読む <span class="bm-count"></span></a></div>'
+
+
 def source_meta(raw_item):
     if not raw_item:
         return ""
@@ -75,33 +103,33 @@ def source_meta(raw_item):
     return " · ".join(parts)
 
 
-def reading_card(n, r, raw_item):
+def reading_card(n, r, raw_item, date):
     meta = f'<span class="chip">{escape(r.get("category", ""))}</span><span>⏱ {r.get("minutes", "?")}分</span>'
     src = source_meta(raw_item)
-    return (f'<div class="card">{chk(r["url"])}<div class="rank"><div class="num">{n}</div><div class="body">'
+    return (f'<div class="card">{chk(r["url"])}{bm(r["url"], r["title"], date)}<div class="rank"><div class="num">{n}</div><div class="body">'
             f'<h3>{a(r["url"], r["title"])}</h3><div class="meta">{meta}{" · " + src if src else ""}</div>'
             f'<p><span class="label">なぜ</span>{escape(r.get("why", ""))}</p>'
             f'<p><span class="label">わかること</span>{escape(r.get("takeaway", ""))}</p></div></div></div>')
 
 
-def oss_card(o):
+def oss_card(o, date):
     spd = o.get("stars_per_day")
     meta = [escape(o.get("language") or ""), f'<span class="score">★ {o.get("stars", 0):,}</span>']
     if spd:
         meta.append(f'<span class="chip">+{spd:,}/日</span>')
     try_html = f'<pre>{escape(o["try"])}</pre>' if o.get("try") else ""
-    return (f'<div class="card">{chk(o["url"])}<h3>{a(o["url"], o["repo"])}</h3>'
+    return (f'<div class="card">{chk(o["url"])}{bm(o["url"], o["repo"], date)}<h3>{a(o["url"], o["repo"])}</h3>'
             f'<div class="meta">{" · ".join(m for m in meta if m)}</div>'
             f'<p><span class="label">何ができる</span>{escape(o.get("what", ""))}</p>'
             f'<p><span class="label">なぜ伸びてる</span>{escape(o.get("why", ""))}</p>{try_html}</div>')
 
 
-def release_card(r):
-    return (f'<div class="card"><h3>{a(r["url"], r["repo"] + " " + r["version"])}</h3>'
+def release_card(r, date):
+    return (f'<div class="card">{bm(r["url"], r["repo"] + " " + r["version"], date)}<h3>{a(r["url"], r["repo"] + " " + r["version"])}</h3>'
             f'<p style="white-space:pre-line">{escape(r.get("summary", ""))}</p></div>')
 
 
-def deep_dive(d):
+def deep_dive(d, date):
     def ul(xs):
         return "<ul>" + "".join(f"<li>{escape(x)}</li>" for x in xs) + "</ul>"
     tries = "".join(f"<pre>{escape(t)}</pre>" for t in d.get("try", []))
@@ -110,7 +138,7 @@ def deep_dive(d):
              f'<h4>使いどころ</h4>{ul(d["use_cases"])}' if d.get("use_cases") else "",
              f'<h4>試してみる</h4>{tries}' if tries else "",
              f'<h4>似たツールとの違い</h4><p>{escape(d["compare"])}</p>' if d.get("compare") else ""]
-    return f'<div class="card dive">{chk(d["url"])}{"".join(parts)}</div>'
+    return f'<div class="card dive">{chk(d["url"])}{bm(d["url"], d["repo"], date)}{"".join(parts)}</div>'
 
 
 def render_day(date):
@@ -122,7 +150,7 @@ def render_day(date):
     total = sum(r.get("minutes") or 0 for r in reading)
 
     sub = (f'{raw["weekday"]}曜日' if raw.get("weekday") else "") + (f" ・ 読む時間の目安 {total}分" if total else "")
-    body = [f'<header><h1>Tech Digest {date}</h1><p>{sub}</p><div class="nav"><a href="./">アーカイブ</a></div></header>']
+    body = [f'<header><h1>Tech Digest {date}</h1><p>{sub}</p>{NAV}</header>']
     if raw.get("errors"):
         body.append('<p class="err">取得できなかった情報源: ' + escape(", ".join(raw["errors"])) + "</p>")
 
@@ -132,27 +160,27 @@ def render_day(date):
 
     if reading:
         body.append(f'<h2>読む順に{len(reading)}本 <small>上から順に</small></h2>')
-        body += [reading_card(n, r, by_url.get(r["url"])) for n, r in enumerate(reading, 1)]
+        body += [reading_card(n, r, by_url.get(r["url"]), date) for n, r in enumerate(reading, 1)]
     else:  # 要約が無い日（AI処理が失敗した日など）はスコア上位だけ出す
         top = sorted(raw["items"], key=lambda x: -(x.get("score") or 0))[:10]
         body.append('<h2>スコア上位 <small>要約なし</small></h2><ul class="heads">'
-                    + "".join(f'<li>{a(i["url"], i["title"])} <span class="note">{escape(i["source"])}</span></li>' for i in top) + "</ul>")
+                    + "".join(f'<li>{bm(i["url"], i["title"], date)}<span class="t">{a(i["url"], i["title"])} <span class="note">{escape(i["source"])}</span></span></li>' for i in top) + "</ul>")
 
     if picks.get("oss"):
-        body.append('<h2>今日のOSS</h2>' + "".join(oss_card(o) for o in picks["oss"]))
+        body.append('<h2>今日のOSS</h2>' + "".join(oss_card(o, date) for o in picks["oss"]))
     if picks.get("releases"):
-        body.append('<h2>リリース <small>ウォッチ中のリポジトリ</small></h2>' + "".join(release_card(r) for r in picks["releases"]))
+        body.append('<h2>リリース <small>ウォッチ中のリポジトリ</small></h2>' + "".join(release_card(r, date) for r in picks["releases"]))
     if picks.get("deep_dive"):
-        body.append('<h2>OSS深掘り <small>READMEから</small></h2>' + deep_dive(picks["deep_dive"]))
+        body.append('<h2>OSS深掘り <small>READMEから</small></h2>' + deep_dive(picks["deep_dive"], date))
     if picks.get("talks"):
         body.append('<h2>登壇スライド <small>Speaker Deck</small></h2>' + "".join(
-            f'<div class="card">{chk(t["url"])}<h3>{a(t["url"], t["title"])}</h3>'
+            f'<div class="card">{chk(t["url"])}{bm(t["url"], t["title"], date)}<h3>{a(t["url"], t["title"])}</h3>'
             + (f'<div class="meta">{escape(t["event"])}</div>' if t.get("event") else "")
             + f'<p>{escape(t.get("why", ""))}</p></div>' for t in picks["talks"]))
     if picks.get("headlines"):
         body.append('<h2>見出しだけ</h2><ul class="heads">' + "".join(
-            f'<li><span class="chip">{escape(h.get("category", ""))}</span> {a(h["url"], h["title"])}'
-            + (f' <span class="note">— {escape(h["note"])}</span>' if h.get("note") else "") + "</li>"
+            f'<li>{bm(h["url"], h["title"], date)}<span class="t"><span class="chip">{escape(h.get("category", ""))}</span> {a(h["url"], h["title"])}'
+            + (f' <span class="note">— {escape(h["note"])}</span>' if h.get("note") else "") + "</span></li>"
             for h in picks["headlines"]) + "</ul>")
 
     OUT.mkdir(exist_ok=True)
@@ -167,11 +195,24 @@ def render_index():
         head = json.loads(p.read_text()).get("headline", "") if p.exists() else ""
         rows.append(f'<li><a href="{d}">{d}</a> <span class="meta">{escape(head)}</span></li>')
     latest = f'<p><a href="{days[0]}">最新号を読む →</a></p>' if days else ""
-    (OUT / "index.html").write_text(page("Tech Digest", f'<header><h1>Tech Digest</h1><p>毎朝の技術ダイジェスト</p></header>'
+    (OUT / "index.html").write_text(page("Tech Digest", f'<header><h1>Tech Digest</h1><p>毎朝の技術ダイジェスト</p>{NAV}</header>'
                                                         f'{latest}<h2>アーカイブ</h2><ul class="archive">{"".join(rows)}</ul>'))
+    # あとで読む（中身はブラウザの localStorage から JS で描画する）
+    (OUT / "bookmarks.html").write_text(page("あとで読む - Tech Digest",
+        f'<header><h1>☆ あとで読む</h1><p>このブラウザに保存されています</p>{NAV}</header>'
+        '<div class="tools"><button type="button" id="bm-export">書き出し</button>'
+        '<label><button type="button" onclick="this.nextElementSibling.click()">読み込み</button>'
+        '<input type="file" id="bm-import" accept="application/json" hidden></label></div>'
+        '<div id="bm-list"></div>'))
 
 
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--all"]:  # テンプレートを変えたときに過去分も作り直す
+        for p in sorted(RAW.glob("*.json")):
+            render_day(p.stem)
+        render_index()
+        print("生成: 全日分")
+        sys.exit()
     date = sys.argv[1] if len(sys.argv) > 1 else max(p.stem for p in RAW.glob("*.json"))
     render_day(date)
     render_index()

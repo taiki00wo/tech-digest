@@ -15,19 +15,18 @@ git pull --rebase origin main
 
 ## 2. 収集
 
-収集は GitHub Actions（`.github/workflows/collect.yml`）が毎朝 5:17 / 6:17 JST に済ませ、`data/raw/YYYY-MM-DD.json`（日付はJST）を main にコミットしている。
+収集は GitHub Actions（`.github/workflows/collect.yml`）で行う（この環境では GitHub API が他のリポジトリに使えないため）。次の順で行う。
 
-- 今日の `data/raw/YYYY-MM-DD.json` が**ある**: `collect.py` は実行しない（実行すると OSS・リリースが空で上書きされる）。そのまま 3 へ。
-- **無い**（Actions の定時実行が遅延・欠落した場合）: 次の順で対応する。
-  1. 収集ワークフローを起動して、最大5分待つ（このリポジトリの API はこの環境からでも使える）:
-     ```bash
-     code=$(curl -sS -o /dev/null -w '%{http_code}' -X POST -H "Accept: application/vnd.github+json" \
-       https://api.github.com/repos/taiki00wo/tech-digest/actions/workflows/collect.yml/dispatches -d '{"ref":"main"}')
-     echo "dispatch: $code"   # 204 以外なら待たずに 2 へ
-     [ "$code" = "204" ] && for i in $(seq 1 20); do sleep 15; git pull -q --rebase origin main; [ -f data/raw/$(TZ=Asia/Tokyo date +%F).json ] && break; done
-     ```
-  2. それでも無ければ `python3 collect.py` を実行する。この環境では GitHub API が他のリポジトリに使えないので `oss` と `releases` は空になるが、そのまま続ける。
-  - どちらの方法で収集したかを 7 の報告に書く。
+1. 今日の `data/raw/YYYY-MM-DD.json`（日付はJST）が既にあれば、3 へ進む（`collect.py` は実行しない。実行すると OSS・リリースが空で上書きされる）。
+2. 無ければ収集ワークフローを起動して、最大5分待つ（このリポジトリの API はこの環境からでも使える）:
+   ```bash
+   code=$(curl -sS -o /dev/null -w '%{http_code}' -X POST -H "Accept: application/vnd.github+json" \
+     https://api.github.com/repos/taiki00wo/tech-digest/actions/workflows/collect.yml/dispatches -d '{"ref":"main"}')
+   echo "dispatch: $code"   # 204 以外なら待たずに 3 へ
+   [ "$code" = "204" ] && for i in $(seq 1 20); do sleep 15; git pull -q --rebase origin main; [ -f data/raw/$(TZ=Asia/Tokyo date +%F).json ] && break; done
+   ```
+3. それでも無ければ `python3 collect.py` を実行する。`oss` と `releases` は空になるが、そのまま続ける。
+- どの方法で収集したかを 7 の報告に書く。
 
 `collect.py` は同時に `data/brief/YYYY-MM-DD.md`（選定用の圧縮版。紹介済みの記事・OSSは除外済み）も作る。
 **3 では `data/brief/YYYY-MM-DD.md` だけを読むこと。** `data/raw/*.json` は大きいので読まない・表示しない（render.py が使う）。記事本文やREADMEの追加取得（WebFetch・curl）もしない。

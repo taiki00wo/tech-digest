@@ -1,12 +1,10 @@
 # 毎朝の収集（記事・OSS・リリース）を GitHub Actions で行い、main にコミットする。
-# クラウドのルーチンは GitHub API を tech-digest 以外に使えないため、収集だけここで先に済ませる。
+# クラウドのルーチンは GitHub API を tech-digest 以外に使えないため、収集だけここで行う。
+# 起動は 7:00 のルーチンが API（workflow_dispatch）で行う。GitHub の定時実行は数時間遅れることがあり、
+# 遅れて動くとダイジェスト作成後のデータを上書きしてしまうので使わない。
 name: collect
 
 on:
-  # GitHub の定時実行は毎時0分付近だと遅延・欠落しやすいので、半端な分に2回（どちらかが動けばよい）
-  schedule:
-    - cron: "17 20 * * *"   # 05:17 JST
-    - cron: "17 21 * * *"   # 06:17 JST（ルーチンは 07:00 JST）
   workflow_dispatch:
 
 permissions:
