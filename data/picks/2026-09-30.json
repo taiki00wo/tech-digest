@@ -1,10 +1,6 @@
 {
-  "headline": "OpenAIがGPT-6.1 Solと常時稼働エージェント「dots」を発表し、MCPエージェントの信頼性やAI時代のセキュリティ対応など、実装寄りの論点も充実した一日。",
-  "trends": [
-    "OpenAIがGPT-6.1 Solと常時稼働アシスタント「dots」を立て続けに発表し、AIエージェント競争がさらに加速している。",
-    "MCPエージェントの出典検証やBedrock上のClaudeのキャッシュ活用など、エージェント開発の実務的な論点が目立ってきた。",
-    "Cloudflareが認証局事業やAI時代のアプリケーションセキュリティ基盤の整備を進め、インフラ側のAI対応も本格化している。"
-  ],
+  "edition": "daily",
+  "headline": "OpenAIの新モデルGPT-6.1 SolとMCPエージェントの信頼性論点に加え、JavaScriptのPromise落とし穴も学べる一日。",
   "reading_list": [
     {
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -13,14 +9,6 @@
       "minutes": 4,
       "why": "新フラグシップモデルの発表で、コーディングやエージェント用途への影響が大きいため今日まず押さえておきたい。",
       "takeaway": "GPT-6.1 Solの位置づけと、コーディング・コンピュータ操作・業務利用における特徴の要点がわかる。"
-    },
-    {
-      "url": "https://zenn.dev/aqyuki/articles/go-proposal-3939",
-      "title": "Go 1.28でstring(int)周りの挙動が変わりそう",
-      "category": "バックエンド",
-      "minutes": 3,
-      "why": "Goの言語仕様に関わる変更提案で、Goを書く人は挙動の変化を早めに把握しておきたい。",
-      "takeaway": "string(int)変換の現在の挙動と、Go 1.28で提案されている変更点の概要がわかる。"
     },
     {
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
@@ -36,15 +24,7 @@
       "category": "フロントエンド",
       "minutes": 4,
       "why": "thenインジェクションというJavaScript/TypeScriptの意外な落とし穴を扱っており、フロントエンド開発者に実害がある。",
-      "takeaway": "Promise.resolveの挙動に起因する脆弱性のパターンと、注意すべきポイントがわかる。"
-    },
-    {
-      "url": "https://blog.cloudflare.com/ai-era-framework/",
-      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-      "category": "インフラ",
-      "minutes": 7,
-      "why": "CloudflareがAI時代のアプリケーションセキュリティをどう設計しているか、公式ブログでまとまって書かれている。",
-      "takeaway": "リスク検出・トラフィック・インテリジェンスをつなげてAI時代の攻撃に対応する、Cloudflareのアプローチの全体像がわかる。"
+      "takeaway": "Object.prototype.thenの上書きなどでPromise.resolveが意図しない値を解決してしまう脆弱性パターンと、注意すべきポイントがわかる。"
     }
   ],
   "oss": [
@@ -52,21 +32,11 @@
       "repo": "KKKKhazix/AIHOT",
       "url": "https://github.com/KKKKhazix/AIHOT",
       "language": "TypeScript",
-      "stars": 3015,
-      "stars_per_day": 1508,
-      "what": "情報源と選定基準を差し替えるだけで、自分の業界向けの「AIホットニュースサイト」を作れるフレームワーク。",
-      "why": "収集・重複判定・2段階スコアリング・イベント単位のクラスタリング・日本語要約という一連のパイプラインをプロンプトごとそのまま公開しており、実装が見える点が支持されている。",
+      "stars": 3113,
+      "stars_per_day": 1556,
+      "what": "情報源と選定基準を差し替えるだけで、自分の業界向けの「AIホットニュース日報サイト」を作れるTypeScript製フレームワーク。",
+      "why": "収集・重複判定・2段階LLMスコアリング・イベント単位のクラスタリング・日本語要約という日報生成パイプラインと、使われているプロンプトの原文をまるごと公開している点が支持されている。",
       "try": "リポジトリをクローンし、READMEの「跑起来」の手順に従って自分の情報源リストと選定プロンプトに差し替えて起動する。"
-    },
-    {
-      "repo": "firelex/jeff",
-      "url": "https://github.com/firelex/jeff",
-      "language": "Python",
-      "stars": 992,
-      "stars_per_day": 711,
-      "what": "Qwen3.5とGemma 4をファインチューニングした、ゼロショット分類向けの小型決定モデル。",
-      "why": "v1.1でJeff-Qwen3.5モデルが最大254択に対応し校正精度も改善、RTX PRO 6000で約22ms・Apple M4 Max(MLX)で約28msという速さで、Jevと同じリクエスト形式で使える手軽さが評価されている。",
-      "try": "Hugging Faceからモデル（v1.0はrevision `v1.0`で利用可能）を取得し、状況の説明と選択肢を渡して各選択肢の確率を得る。"
     }
   ],
   "releases": [
@@ -74,58 +44,25 @@
       "repo": "honojs/hono",
       "version": "v4.13.11",
       "url": "https://github.com/honojs/hono/releases/tag/v4.13.11",
-      "summary": "serveStaticがリクエストパスを二重デコードしてしまう脆弱性(GHSA-5r4p-p66f-jhc7)を修正。細工されたパスでミドルウェアがバイパスされる恐れがあった。\nhono/bun・deno・cloudflare-workers等のアダプタと@hono/node-server v2.1にも同様の修正が入っている。"
+      "summary": "serveStaticがリクエストパスを二重デコードしてしまう脆弱性(GHSA-5r4p-p66f-jhc7)を修正。細工されたパスでミドルウェアがバイパスされる恐れがあった。hono/bun・deno・cloudflare-workers等のアダプタと@hono/node-server v2.1にも同様の修正が入っている。"
     },
     {
       "repo": "anthropics/claude-code",
       "version": "v2.1.285",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
-      "summary": "CLAUDE_CODE_DISABLE_WEB_FETCH環境変数でWebFetchツールを無効化できるようになった。\nclaude --desktopでデスクトップアプリを直接開けるほか、claude plugin configureなどプラグイン設定周りの機能が強化された。"
+      "summary": "CLAUDE_CODE_DISABLE_WEB_FETCH環境変数でWebFetchツールを無効化できるようになった。claude --desktopでデスクトップアプリを直接開けるほか、claude plugin configureなどプラグイン設定周りの機能が強化された。"
     },
     {
       "repo": "anthropics/anthropic-sdk-typescript",
-      "version": "vertex-sdk-v0.20.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.20.0",
-      "summary": "Vertex AI向けTypeScript SDKにclaude-sonnet-5-5が追加された。"
+      "version": "sdk-v0.129.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.129.0",
+      "summary": "claude-sonnet-5-5の追加やbetween_tools思考タイプ、クライアント側実行ツール用のClientToolUnion型などが追加された。"
     },
     {
       "repo": "cloudflare/workers-sdk",
       "version": "wrangler@4.144.0",
       "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.144.0",
-      "summary": "wrangler containers sshに--tty/-tフラグが追加され、対話的なコマンド実行時にプロンプトや行編集が効くようになった。\nDurable Object管理のContainerでもssh・authorizedKeysの設定がconfig APIでサポートされた。"
+      "summary": "wrangler containers sshに--tty/-tフラグが追加され、対話的なコマンド実行時にプロンプトや行編集が効くようになった。Durable Object管理のContainerでもssh・authorizedKeysの設定がconfig APIでサポートされた。"
     }
-  ],
-  "deep_dive": null,
-  "talks": [
-    {
-      "url": "https://speakerdeck.com/shichijoyuhi/in-basuketto-shiken-taisaku-o-tsuku-te-mieta-ai-ejento-kouchiku-2-sen",
-      "title": "インバスケット試験対策アプリを 作って見えたAIエージェント構築 ナレッジ2選",
-      "event": "JAWS-UG AI/ML #43",
-      "why": "資格対策アプリの開発を通じて得た、AIエージェント構築に関する実践的な知見2つがまとまっている。"
-    },
-    {
-      "url": "https://speakerdeck.com/shisyu_gaku/deta-yokochou-shusai-ai-agent-ga-kontekisuto-o-tsuka-te-shigoto-o-shita-nochi-nani-ga-nokoru-no-ka-soshiki-no-keiken-o-tsugi-no-handan-ni-hikitsugu-agent-memory",
-      "title": "AI Agentがコンテキストを使って仕事をした後、何が残るのか― 組織の経験を次の判断に引き継ぐ「Agent Memory」",
-      "event": "データ横丁主催 データの世界観チャンネル#1",
-      "why": "AIエージェントが仕事をした後に何を組織の経験として残すか、Agent Memoryという切り口で語られている。"
-    },
-    {
-      "url": "https://speakerdeck.com/dtunkelang/ir-today-theory-practice-and-agents",
-      "title": "IR Today: Theory, Practice, and Agents",
-      "event": "Doug Turnbull's Retrieval Augmented Gathering",
-      "why": "情報検索(IR)の理論とエージェントの実践を結びつけて解説しており、AI検索・RAG周りを扱う人に参考になる。"
-    }
-  ],
-  "headlines": [
-    {"url": "https://openai.com/index/introducing-dots", "title": "Introducing dots", "category": "AI", "note": "常時稼働の新AIアシスタント発表"},
-    {"url": "https://qiita.com/suwa_nobu/items/5749949156f8df6f728b", "title": "Claude Code で選べる12モデルに同じ仕事をさせた。1年で速度は2.7倍、値段は1%しか変わらなかった", "category": "AI", "note": "全12モデルを比較実測"},
-    {"url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66", "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある", "category": "AI", "note": "Bedrock版Claudeにキャッシュ機能"},
-    {"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities", "title": "GLM-5.3 and the spread of advanced cyber capabilities", "category": "AI", "note": "AIのサイバー能力拡散を分析"},
-    {"url": "https://blog.cloudflare.com/cloudflare-certificate-authority/", "title": "Building a certificate authority for the whole Internet", "category": "インフラ", "note": "Cloudflareが認証局事業に参入"},
-    {"url": "https://share.timescar.jp/news/2026/0929/1816.html", "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報）", "category": "その他", "note": "タイムズカーで最大660万件漏えい"},
-    {"url": "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway", "title": "GPT-6.1 Sol now available on AI Gateway", "category": "AI", "note": "AI GatewayでGPT-6.1 Sol利用可能に"},
-    {"url": "https://gigazine.net/news/20260929-microsoft-copilot-human-reading/", "title": "Microsoft Copilotにアップロードした画像は人間が確認している", "category": "AI", "note": "Copilotの画像を人間が確認"},
-    {"url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu", "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由", "category": "その他", "note": "Jujutsuに乗り換えGitを卒業"},
-    {"url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/", "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超", "category": "AI", "note": "IIJが新人研修資料を無料公開"}
   ]
 }
