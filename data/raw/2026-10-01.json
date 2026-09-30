@@ -1,0 +1,2060 @@
+{
+ "date": "2026-10-01",
+ "weekday": "木",
+ "edition": "daily",
+ "collected_at": "2026-10-01T07:07:33+09:00",
+ "errors": {},
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "summary": "",
+   "score": 676,
+   "meta": {
+    "comments": 414,
+    "discussion": "https://news.ycombinator.com/item?id=49913571",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+   "url": "https://github.com/magnitudedev/magnitude",
+   "summary": "",
+   "score": 103,
+   "meta": {
+    "comments": 43,
+    "discussion": "https://news.ycombinator.com/item?id=49911995",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "A brief history of the Bloomberg terminal",
+   "url": "https://spectrum.ieee.org/bloomberg-terminal",
+   "summary": "",
+   "score": 195,
+   "meta": {
+    "comments": 78,
+    "discussion": "https://news.ycombinator.com/item?id=49909583",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "You said no MCP",
+   "url": "https://earendil.com/posts/you-said-no-mcp/",
+   "summary": "",
+   "score": 569,
+   "meta": {
+    "comments": 325,
+    "discussion": "https://news.ycombinator.com/item?id=49906637",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "I could've accessed 17T Microsoft records",
+   "url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
+   "summary": "",
+   "score": 227,
+   "meta": {
+    "comments": 98,
+    "discussion": "https://news.ycombinator.com/item?id=49883970",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The last time my family was replaced by technology",
+   "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+   "summary": "",
+   "score": 154,
+   "meta": {
+    "comments": 363,
+    "discussion": "https://news.ycombinator.com/item?id=49908394",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "What TLA+ can and can't check",
+   "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+   "summary": "",
+   "score": 115,
+   "meta": {
+    "comments": 27,
+    "discussion": "https://news.ycombinator.com/item?id=49909056",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+   "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+   "summary": "",
+   "score": 117,
+   "meta": {
+    "comments": 48,
+    "discussion": "https://news.ycombinator.com/item?id=49908962",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Commit description as a thinking tool",
+   "url": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+   "summary": "",
+   "score": 102,
+   "meta": {
+    "comments": 58,
+    "discussion": "https://news.ycombinator.com/item?id=49911757",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "LinkedIn Larpmaxxing",
+   "url": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+   "summary": "",
+   "score": 127,
+   "meta": {
+    "comments": 140,
+    "discussion": "https://news.ycombinator.com/item?id=49904314",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Show HN: JBR-001 – An open-source 3D printable desktop robot",
+   "url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+   "summary": "",
+   "score": 120,
+   "meta": {
+    "comments": 28,
+    "discussion": "https://news.ycombinator.com/item?id=49890707",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Solving Factorio Quality",
+   "url": "https://exyr.org/2026/solving-factorio-quality/",
+   "summary": "",
+   "score": 246,
+   "meta": {
+    "comments": 94,
+    "discussion": "https://news.ycombinator.com/item?id=49887343",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Mathematical Origami",
+   "url": "https://mathigon.org/origami",
+   "summary": "",
+   "score": 111,
+   "meta": {
+    "comments": 22,
+    "discussion": "https://news.ycombinator.com/item?id=49889140",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "NRC issues first U.S. construction permit for a BWRX-300 small modular reactor",
+   "url": "https://www.gevernova.com/news/press-releases/nrc-issues-first-us-construction-permit-bwrx-300-small-modular-reactor-tva-clinch-river",
+   "summary": "",
+   "score": 112,
+   "meta": {
+    "comments": 110,
+    "discussion": "https://news.ycombinator.com/item?id=49902019",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Show HN: Dental Scope – Interactive 3D dental anatomy",
+   "url": "https://dental-scope.com/",
+   "summary": "",
+   "score": 112,
+   "meta": {
+    "comments": 60,
+    "discussion": "https://news.ycombinator.com/item?id=49886535",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "summary": "",
+   "score": 868,
+   "meta": {
+    "comments": 372,
+    "discussion": "https://news.ycombinator.com/item?id=49901736",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hacker News",
+   "title": "Phyllotaxis: An audio-reactive LED display",
+   "url": "https://jagi.studio/posts/phyllotaxis/",
+   "summary": "",
+   "score": 338,
+   "meta": {
+    "comments": 50,
+    "discussion": "https://news.ycombinator.com/item?id=49880411",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
+   "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
+   "summary": "",
+   "score": 146,
+   "meta": {
+    "author": "ababup1192",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
+   "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
+   "summary": "",
+   "score": 99,
+   "meta": {
+    "author": "oukayuka",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "３分で読めるトランザクション設計のコツ",
+   "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
+   "summary": "",
+   "score": 74,
+   "meta": {
+    "author": "mconfjp",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
+   "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+   "summary": "",
+   "score": 192,
+   "meta": {
+    "author": "mazrean",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
+   "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
+   "summary": "",
+   "score": 71,
+   "meta": {
+    "author": "o8vm",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "11年生本番データ飛ばす",
+   "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+   "summary": "",
+   "score": 137,
+   "meta": {
+    "author": "kgryo",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Code / Codexで「私のlimit、減りすぎ…？」と思ったときに見る記事",
+   "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
+   "summary": "",
+   "score": 16,
+   "meta": {
+    "author": "fusasnnn",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "新規プロダクトのバックエンド自動テスト戦略 ─UT 中心から API テスト中心へ─",
+   "url": "https://zenn.dev/canary_techblog/articles/348d976da70857",
+   "summary": "",
+   "score": 20,
+   "meta": {
+    "author": "tom_uchida",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AI 駆動開発で「設計」はどこに書くのか ― 振る舞いをテストで検証できる「仕様」にしてみる",
+   "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
+   "summary": "",
+   "score": 20,
+   "meta": {
+    "author": "tanabe_yudai",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Cloudflare の CLI を wrangler から cf に移行する",
+   "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+   "summary": "",
+   "score": 77,
+   "meta": {
+    "author": "sora_kumo",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
+   "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
+   "summary": "",
+   "score": 21,
+   "meta": {
+    "author": "yueda",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "別会社の開発チームに AWS 環境を共有するのって大変だ",
+   "url": "https://zenn.dev/dress_code/articles/f89590d105ba5f",
+   "summary": "",
+   "score": 35,
+   "meta": {
+    "author": "shirayukihime",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話",
+   "url": "https://zenn.dev/knowledgework/articles/2691721311c2e4",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "author": "sappho192",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "ヘキサゴナルアーキテクチャを実装レベルで確かめてみた（その1）ポート・アダプター・アプリケーションはコードではどうなるのか",
+   "url": "https://zenn.dev/aws_japan/articles/hexagonal-architecture-lambda-1",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "author": "okyuta",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "0から学ぶセキュリティの基礎　〜CSRF編〜",
+   "url": "https://qiita.com/Pigeon_gate/items/b33b4e337c15dddae20a",
+   "summary": "はじめに 未経験から実務に飛び込んだ私にとって、開発に携わる工程のうち、全く想像だにしていなかった領域がある。それがWebシステムのセキュリティだ。 オリジナルアプリを作る上では微塵も考慮していなかったセキュリティ面がいざ自身の関わるプロダクトで問題として立ち上がってきた...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T09:50:37+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Twitter（現X）に貼ったURLのサムネイル画像、キャッシュクリアできるの知ってた？",
+   "url": "https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af",
+   "summary": "こんにちは、Claude Codeです。著者のみのるんが忙しそうだったので、代わりにこの記事を書いています。 ブログの画像を差し替えたのに、Xに貼ると古い画像のまま。投稿した直後から、カードが灰色の枠になっている。TwitterがXになってから、こういうことがよく起きます。...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T16:16:02+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "荒れたテストケースをコード管理で立て直してみた",
+   "url": "https://qiita.com/hamham999/items/ebee7540a82db6933854",
+   "summary": "はじめに 今いるチームでは、モバイルアプリのリリース前の確認を手動テストで行っています。 テストケースの管理はずっとGoogleのスプレッドシート（以下スプシ）を使っていましたが、運用が破綻しかけていました。 そこで、ケースの管理はコードベースで行い、実施だけをスプシで行...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T08:10:50+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "【被害者は語る】タイムズカー660万件情報漏えいはなぜ起きたのかの矮小な考察",
+   "url": "https://qiita.com/miruky/items/6577a57b9b62c8f97e11",
+   "summary": "はじめに ※本メールは、タイムズカー会員様のうち、本人確認書類情報の漏えいが確認された方へお送りしております。 メール史上トップクラスに恐ろしい冒頭文の通り、はい、個人情報いかれました。 しかも免許証画像、いかれました（アウトー！）。 ということで今回は、偶然にも...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T01:00:06+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？）",
+   "url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66",
+   "summary": "Claude Sonnet 5.5が出ましたね！当たり前のようにAWSのAmazon Bedrockでも使えます。 ドキュメントもすでに更新されています。（仕事が早い！） 「RuntimeエンドポイントとMantleエンドポイントに対応、おすすめはRuntime...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T21:34:51+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "oracle-ai-ready-data Skill 第3回：ANNOTATIONSとDomainの意味情報を可視化し、Select AIで確認してみてみた",
+   "url": "https://qiita.com/shirok/items/d794f229ba4e97b541fc",
+   "summary": "第2回では、BAD_AI_READYのコメント、主キー・外部キー、鮮度・出所などを整備し、AI Readyスコアを0.22から0.97へ改善しました。最後に、Select AIがそのメタデータを利用してSQLを生成できるかも確認しました。 今回は、データの意味を説明するメ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T09:10:09+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AWS Certified AI Business Strategist (ベータ試験)を受験してきました",
+   "url": "https://qiita.com/Seria_GovCloud/items/d65af248f67b85784ed2",
+   "summary": "AWS Certified AI Business Strategist とは？ 既にご存じの方も多いと思いますが、2026年9月に公表されたAWSの新しいAI系認定試験です。 従来の Foundational, Associate, Professional, Spec...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T02:27:59+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【新資格】AWS Certified AI Business Strategist（AIB-C01）ベータ試験を受けてきた(コツコツ勉強できない人の感想)",
+   "url": "https://qiita.com/riz3f7/items/fe5704cc76755bb8700f",
+   "summary": "はじめに 2026年9月29日から AWS Certified AI Business Strategist（AIB-C01） のベータ試験が受けられるようになったので受けてきました。 お祭り気分で受けてきた、コツコツお勉強できない属性の人の体験記です。 （世の中にコツコ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T20:35:18+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "XPSビューアーの導入（備忘録）",
+   "url": "https://qiita.com/wst_0205/items/331efe364931083f59f0",
+   "summary": "背景 対象の仮想環境にXPSビューアーの導入することなったため、導入方法を色々と調べたので備忘録と残そうと思い記事にすることにした。 XPSビューアーとは Microsoftが開発し、XPSドキュメントに対して、読み取り、コピー、印刷、署名などが行えるます。（機能を表示...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T11:21:31+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Sonnet 5.5 の「最大30%安い」は、手順のある仕事でだけ再現した",
+   "url": "https://qiita.com/suwa_nobu/items/7067a7a0868676d350e9",
+   "summary": "Claude Sonnet 5.5 が 2026-09-28 に出ました。単価は Sonnet 5 と同じ $2 / $10 です。 公式はこう書いています。 In our testing, it costs up to 30% less per task than it...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T16:54:22+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI時代のエンジニアが鍛えるべき「具体と抽象」という思考力",
+   "url": "https://qiita.com/jota9613/items/b5c5412dcf9c6ff10c54",
+   "summary": "はじめに いつもお世話になっている@Sicut_studyさんのコミュニティJISSENの 「具体と抽象」をテーマにしたイベントに参加してきました！ このイベントの中で学んだことをアウトプットしていこうと思います✨ イベントの流れ AIとエンジニアについて〜 ワーク①...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-28T20:49:56+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "RevenueCat導入しても自社DB権限管理を守り切りたいときの設計",
+   "url": "https://qiita.com/manrikitada/items/3e7ccd0334cd8e7ba886",
+   "summary": "目次 はじめに この記事で伝えたいこと（結論） 扱う範囲 想定読者 用語 前提：我々のサービスは何が特殊なのか 守りたいこと（設計原則） 全体像 工夫1：決済「前」に購入インテントを記録する 工夫2：Webhookを待たずに同期パスで権限を付与する 工夫3：We...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T09:55:53+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "施行が決まった政策をどうデバッグする？ ― 育成就労制度から考える「修正できる国家」のつくり方 : システム設計視点の行動経済学 (35)",
+   "url": "https://qiita.com/maskot1977/items/bbd724102b7094831825",
+   "summary": "user: 「システム設計視点の行動経済学」、第35回を始めましょう。その前に、まず前回の復習として、 国家は自分自身をデバッグできるのか？ ― 司法・立法・行政・安全保障から考える国家レジリエンス : システム設計視点の行動経済学 (34) https://qiita....",
+   "score": null,
+   "meta": {
+    "published": "2026-10-01T00:30:16+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 21",
+   "url": "https://qiita.com/maskot1977/items/9723ab7b6c6dd571be9c",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ご提示いただいたソース動画のタイトルと、その詳細な内容について解説します。 1. 動画のタイトル 『借金を完済すると大恐慌が起きる理由 : Pythonで学ぶマクロ...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T00:12:23+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Github Actionsのワークフローで`pnpm`を使ってみる",
+   "url": "https://qiita.com/taki-umi/items/a1dafca1a9b66c1914db",
+   "summary": "はじめに TypeScript × Reactで環境構築する際に、パッケージマネージャーとしてnpmではなくより速さ、セキュリティで優れている（らしい）pnpmpnpmを使ってみました。 今回は、pnpmをローカルで使うところから、GitHub Actionsでpnpmを...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T09:03:38+09:00"
+   },
+   "categories": [
+    "フロントエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "バッチ監視で学んだ4つの確認観点 ― 起動/生存/終了/復旧を確認しよう",
+   "url": "https://qiita.com/sewiihidekikudo/items/71d588760efd8224cd1f",
+   "summary": "はじめに こんにちは。ソーイ株式会社の工藤です。 今回、当社が担当した受託開発案件でバッチの監視・テストを担当する中で、バッチが「実行されたか」だけでなく、「正常に動き続けているか」「正常終了したか」「異常から復旧したか」まで確認する必要があることを学びました。 本記事で...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T11:46:30+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "ハニーポット観測：長年悪用されている脆弱性のご紹介",
+   "url": "https://qiita.com/melymmt/items/a0cc12d76a75c38d913c",
+   "summary": "はじめに 三菱電機の山元です。 当社のハニーポットでは、公開から時間が経過した脆弱性を標的としたとみられるリクエストを観測しています。 今回は、NVDでの公開から8年以上が経過した脆弱性に加え、NVDでの公開より前から実環境で悪用されていたとされる脆弱性を含む、ルーターな...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T11:32:06+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "新しいことを学ぶとき、最初にマインドマップで「散らかす」と理解しやすくなる話",
+   "url": "https://qiita.com/tajima_kaien/items/695b3cf198a99991e15a",
+   "summary": "新しいツール、新しい業務、新しい技術。自分にとって未知だったり、ちょっと知っているけれど深掘りして学びたかったりすること。 「よし、理解しよう」と思って資料や本、セミナー動画を見始めたのに、1時間後にはこうなります。 用語は増えた。 メモも増えた。 でも、全体像が見えない。...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T14:45:22+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "「仕様駆動開発(SDD)」って何ですかい？おじさんでも分かるように調べてみた",
+   "url": "https://qiita.com/OnuuuumaX/items/65da696f33c1aa19e697",
+   "summary": "はじめに 前回、AIに仕事を安定して任せるための仕組みとして「ハーネス」について取り上げました。今回は、最近よく見かける「仕様駆動開発(Spec-Driven Development、以下SDD)」を。Claudeに教えてもらいつつまとめ上げました。 名前は難しそうですが...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T18:56:20+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【自社開発1年目】「チーム経験ゼロ」の27歳元営業が、ダイレクト出版でAIを使い倒し本番コードを書くエンジニアになるまで",
+   "url": "https://qiita.com/kanzawa_kentaro/items/f69db1682fdc5ddb3ea8",
+   "summary": "TL;DR 誰： 27歳元営業。エンジニア未経験でダイレクト出版のプロダクト企画部に入社して1年経過 やったこと： 大阪で2ヶ月研修 ➔ FE（TypeScript, React）➔ BE（Go）➔ FE（現在） 感想： 結論、入社してよかった。やらかしもしたが、...",
+   "score": null,
+   "meta": {
+    "published": "2026-09-28T23:51:38+09:00"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "タイムズカー情報漏洩 集団訴訟｜参加希望者受付中",
+   "url": "https://timescar-lawsuit.com/",
+   "summary": "タイムズカー 情報漏洩 集団訴訟 会員の方、退会済みの方は、まずご登録ください。 2026年9月に公表された不正アクセスによる会員情報の漏えいについて、被害を受けた会員が共同で運営会社等に損害賠償を求める訴訟です。",
+   "score": 199,
+   "meta": {
+    "published": "2026-09-30T00:05:51Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "はてな匿名ダイアリーがChatGPTから使えるようになりました - はてラボ 開発者ブログ",
+   "url": "https://labo.hatenastaff.com/entry/2026/09/30/151500",
+   "summary": "先日、はてな匿名ダイアリーの20周年をお知らせした際に、今後も新しい取り組みを進めていくことをご案内しました。 そのひとつとして、このたび実験的に、はてな匿名ダイアリーがChatGPTから使えるようになりましたことをお知らせします。 ChatGPTとの会話の中から、はてな匿名ダイアリーの投稿を探したり、読んだり、...",
+   "score": 406,
+   "meta": {
+    "published": "2026-09-30T06:22:41Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "芝浦工業大学・尾崎教授の計算アルゴリズムをNVIDIAが新たに採用〜 AI時代のGPUから、科学シミュレーションに不可欠な高精度計算を引き出す 〜｜芝浦工業大学",
+   "url": "https://www.shibaura-it.ac.jp/headline/detail/20260930_7070_51_1.html",
+   "summary": "",
+   "score": 62,
+   "meta": {
+    "published": "2026-09-30T11:44:54Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "設計次第でAIコードの読む量は減らせる / designing-for-code-reading",
+   "url": "https://speakerdeck.com/minodriven/designing-for-code-reading",
+   "summary": "このイベントの登壇資料です。 今こそ聞きたいソフトウェア設計 #2 設計次第で、AIコードの読む量は減らせる https://findy.connpass.com/event/405803/",
+   "score": 95,
+   "meta": {
+    "published": "2026-09-30T10:31:41Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "一休もお漏らしかよ",
+   "url": "https://anond.hatelabo.jp/20260930121339",
+   "summary": "平素より 一休.com をご愛顧賜りまして、誠にありがとうございます。 弊社にて発生した掲題の事象について重要なご連絡があり、本メールをお送りしております。 このたび、弊社の開発用データベース（一休.comサービスの開発に使用するデータのみを格納したデータベース）に対し、 第三者による不正アクセスが発生いたし...",
+   "score": 97,
+   "meta": {
+    "published": "2026-09-30T03:14:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI時代のコードレビューは人に向けるな、仕組みに向けろ",
+   "url": "https://speakerdeck.com/texmeijin/ai-jidai-no-kodo-rebyu-ha-hito-ni-mukeru-na-shikumi-ni-mukero",
+   "summary": "Technical Decisions and Reflections on \"Test Maker\" After Two Years of Development",
+   "score": 19,
+   "meta": {
+    "published": "2026-09-30T10:03:59Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "アンケート結果をダウンロードしたら他社の従業員情報が……　ベネフィット・ワン、1万3460人分漏えい",
+   "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001908/",
+   "summary": "福利厚生サービスを手掛けるベネフィット・ワンは9月30日、企業・団体の担当者向けサービス「ベネワン・プラットフォーム」で個人情報が漏えいしたと発表した。対象は2322企業・団体の1万3460人。担当者がアンケート結果をダウンロードする際、本来アクセスできない他社などの従業員情報が表示される状態になっていたと...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-30T13:38:46Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+   "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+   "summary": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に簡単...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-30T15:51:50Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "フロントエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "凸凹育児とエンジニアを両方やるということ - yprestoの非技術ブログ",
+   "url": "https://ypresto.hatenablog.jp/entry/2026/09/30/233500",
+   "summary": "tech-blog-v2-opal.vercel.app これを見て、非常にわかるとなった。わたしは27の時に子どもが生まれてるので、かれこれ10年ぐらい子ども中心の生活をしていて、もどかしさも感じている。 (ただしわたしの場合、子どもが幼児のころコロナ禍のころに10人未満のスタートアップに参画したり、 孤独に耐えかねて友とClubhouse...",
+   "score": 8,
+   "meta": {
+    "published": "2026-09-30T15:08:58Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "集英社のブロガー管理システムに不正アクセス　2835人分の個人情報漏えい、結婚状況や子の有無も",
+   "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001898/",
+   "summary": "集英社は9月28日、同社のファッション誌メディアで活動するブロガーの情報管理・連絡用システム「HAPPY PLUS COMMUNITY」に不正アクセスがあったと発表した。ブロガー2835人分の個人情報のほか、同システムから送信したメールの情報や取引先情報も漏えいしたという。 漏えいした個人情報には、氏名、メールアドレス、住...",
+   "score": 5,
+   "meta": {
+    "published": "2026-09-30T08:56:26Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "GitHub - nanaism/yomiyasu: AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+   "url": "https://github.com/nanaism/yomiyasu",
+   "summary": "yomiyasuは、AIが生成した日本語の不自然さを解消し、人間が読みやすく情報密度の高い文章へ推敲するためのスキルです。 Codex、Claude Code、CursorをはじめとするAIコーディング環境に読み込ませて使用してください。 Built with curiosity at ALGO ARTIS ALGO ARTISについて 株式会社 ALGO ARTIS は、私たちが社会基...",
+   "score": 4,
+   "meta": {
+    "published": "2026-09-30T18:28:31Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "情報セキュリティ白書2026 | 書籍・刊行物 | IPA 独立行政法人 情報処理推進機構",
+   "url": "https://www.ipa.go.jp/publish/wp-security/2026.html",
+   "summary": "編集・発行元 独立行政法人情報処理推進機構（IPA） 発行日 2026年10月19日（先行公開PDF：2026年9月30日） サイズ ソフトカバーA4判 ページ数 208ページ ISBN ISBN 978-4-905318-82-8 定価 定価：2,200円（本体価格2,000 円＋税10％） 書籍概要 概要 情報セキュリティ白書2026（サブタイトル：\"サイバー防御新時代：諸...",
+   "score": 66,
+   "meta": {
+    "published": "2026-09-30T10:11:27Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "タイムズカー免許証画像流出、勝手にクレジットカード開設の恐れ　とるべき対策は - 日本経済新聞",
+   "url": "https://www.nikkei.com/article/DGXZQOUC303V60Q6A930C2000000/",
+   "summary": "パーク24のカーシェアサービス「タイムズカー」のシステムへの不正アクセスで運転免許証画像などが約160万件分流出した。本人確認書類画像の流出では国内最大規模だ。なりすましに悪用され、勝手にクレジットカードを発行される危険性がある。パーク24が不正アクセスを検知したのは25日午前9時10分ごろだ。「タイムズカ...",
+   "score": 8,
+   "meta": {
+    "published": "2026-09-30T14:16:30Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「WSL 3.0」がリリース、3カ月のテストを経て「WSL containers」が正式版に／「Docker」なしでLinuxコンテナーを構築・実行、「wslc compose」の開発にも着手",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
+   "summary": "",
+   "score": 180,
+   "meta": {
+    "published": "2026-09-30T06:40:13Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "高崎市が約3800台の端末から「Google Workspace」へ直接接続　ネットワークをどう変えた？",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news046.html",
+   "summary": "クラウドサービスや生成AIの業務利用が広がる一方、特に自治体などセキュリティを重視してインターネット接続を制限してきた組織では、既存のネットワーク構成とクラウド活用をどう両立するかが課題になる。 群馬県高崎市は、職員が利用する端末やオンプレミス型グループウェア、庁内ネットワークが更新時期を迎えたこと...",
+   "score": 5,
+   "meta": {
+    "published": "2026-09-30T01:59:02Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ギャンブルが下手で中毒になりやすく負け続ける人を狙うターゲティング広告をオンラインスポーツ賭博会社DraftKingsが出し続けているとの報道",
+   "url": "https://gigazine.net/news/20260930-draftkings-sport-bet-target/",
+   "summary": "スポーツ賭博を提供するDraftKingsが、負ける可能性の高い人々に無料の賭けやボーナスを提供するような広告を配信していることが分かりました。独自の機械学習モデルを構築し、ギャンブルが下手な人をターゲットにしていたと伝えられています。 At DraftKings, AI Targets the Gamblers Likeliest to Lose - The New Yor...",
+   "score": 31,
+   "meta": {
+    "published": "2026-09-30T12:22:42Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "タイムズカー、退会者の免許証画像も「7年」保存していた理由　パーク24に聞いた",
+   "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001877/",
+   "summary": "カーシェア「タイムズカー」で、退会者を含む約660万アカウントの情報が漏えいした問題。パーク24はITmediaNEWSの取材に対して、退会者の個人情報を退会後7年間保存していた理由を「法人税法に基づく取引記録の保管義務のため」と説明した。 ただ免許証画像の保存は法人税法に根拠はなく、「なりすまし対策、問い合わせ...",
+   "score": 232,
+   "meta": {
+    "published": "2026-09-30T04:55:05Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "[石川温の「スマホ業界 Watch」] 楽天へのauローミングがいよいよ終了、都市部は約4割減か。マップで探る通信品質への影響",
+   "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2144589.html",
+   "summary": "",
+   "score": 12,
+   "meta": {
+    "published": "2026-09-30T11:17:36Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「Claude Code」の真価は併用にあり　4つのインターフェース使い分けとハイブリッド運用",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news006.html",
+   "summary": "「Claude Code」の真価は併用にあり 4つのインターフェース使い分けとハイブリッド運用：「AIはただのコード補完」はもう古い 速習・実践「Claude Code」（3）（1/3 ページ） Claude CodeをローカルPCで使う場合、4つの利用形態（CLI、VS Code拡張機能版、Desktopアプリ、Web版）があります。マークダウンプレビューツ...",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-29T23:46:01Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "The 10 Minute Test Plan Generate. Claudeと社内ナレッジでテスト計画の叩き台を10分で生成する仕組み - LayerX エンジニアブログ",
+   "url": "https://tech.layerx.co.jp/entry/10minute_test_plan_gen",
+   "summary": "こんにちは、LayerXバクラク事業部QA部のコヤマンです。 以前投稿したこちらの記事でご紹介した品質基準活用の取り組みの続きです。 品質の言語化のススメー早期テストの原則をClaude Code Agent Skillsで実現する試み - LayerX エンジニアブログ 「常に最新の仕様と品質基準＋QAのノウハウを踏まえてリスクベースドなテ...",
+   "score": 11,
+   "meta": {
+    "published": "2026-09-30T09:30:19Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "【ミニレビュー】 Technics“磁性流体ヘッドフォン”「EAH-A1000」聴いた。設計者が語る、磁性流体最適化やエッジのこだわり",
+   "url": "https://av.watch.impress.co.jp/docs/review/minireview/2143987.html",
+   "summary": "",
+   "score": 6,
+   "meta": {
+    "published": "2026-09-30T09:16:29Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "待望のエネループ用USB-C充電器が登場 - 家電 Watch",
+   "url": "https://kaden.watch.impress.co.jp/docs/news/2144373.html",
+   "summary": "",
+   "score": 81,
+   "meta": {
+    "published": "2026-09-30T05:50:30Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "タイムズカーの不正アクセスで免許証画像が流出した人へ：考えられる被害と今日からできる対策",
+   "url": "https://zenn.dev/gzer0/articles/timescar-leak-countermeasures",
+   "summary": "クレジットカード情報は、流出していないと発表されています。本人確認書類が流出した会員には、9月29日からメールで個別の案内が届いています。 分かっていないこと 不正アクセスの原因と経路（調査中） 一人ひとりについて、どの書類の画像が流出したか（2週間程度で個別に報告予定） 流出した情報が、すでに悪用され...",
+   "score": 266,
+   "meta": {
+    "published": "2026-09-30T01:43:13Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIと風通しの悪い日々 - Lambdaカクテル",
+   "url": "https://blog.3qe.us/entry/2026/09/30/174024",
+   "summary": "最近まったくブログを書けていなかった。なんだか最近は風通しの悪い日々を過ごしていて、筆が乗らなかったというか、なんというか興醒めな毎日だったので、自分を奮い立たせることに失敗していたのだ。 雨 まず雨だ。梅雨ですらこんなに降らなかったぞという勢いで恵みの雨が降り続いており、どうにも体調が優れない。...",
+   "score": 53,
+   "meta": {
+    "published": "2026-09-30T08:44:33Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 10:30:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Helping small businesses put AI to work",
+   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Introducing GPT-6.1 Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "DevDay 2026 Recap",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Introducing dots",
+   "url": "https://openai.com/index/introducing-dots",
+   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+   "url": "https://huggingface.co/blog/open-tts-leaderboard",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+   "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 15:30:38 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 13:07:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Holo4: powering generalist computer-use agents",
+   "url": "https://huggingface.co/blog/Hcompany/holo4",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Mon, 28 Sep 2026 09:44:05 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Edge Requests are now called CDN Requests",
+   "url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T20:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel Sandbox now supports Secure Compute",
+   "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T00:00:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Ling 3.1 Flash is now available on AI Gateway",
+   "url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel CDN no longer caches responses with Vary: Cookie",
+   "url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T00:00:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel Connect now accepts service submissions",
+   "url": "https://vercel.com/changelog/vercel-connect-service-submissions",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T22:00:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Cloudflare Impact reaches $100 million in donations",
+   "url": "https://blog.cloudflare.com/100-million-donations/",
+   "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 13:01:55 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Cut your AI spend with AI Gateway's Auto Router",
+   "url": "https://blog.cloudflare.com/auto-router/",
+   "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Detect and send production issues straight to your agent",
+   "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+   "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Simplifying domains for people and agents",
+   "url": "https://blog.cloudflare.com/simplifying-domains/",
+   "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domains.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+   "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+   "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
+   "score": null,
+   "meta": {
+    "published": "Wed, 30 Sep 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+   "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+   "summary": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Tue, 29 Sep 2026 15:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+   "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+   "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Mon, 28 Sep 2026 19:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "Highlights from Git 2.56",
+   "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+   "summary": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Mon, 28 Sep 2026 17:23:33 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "生成AIを使って「人が」考える技術 ― AI時代の人機共想と実践ノウハウ｜UNITT AC2026",
+   "url": "https://speakerdeck.com/ishiirikie/seisei-ai-o-tsuka-te-hito-ga-kangaeru-gijutsu-ai-jidai-no-hitokidomo-sou-to-jissen-nouhau-unitt-ac2026",
+   "summary": "UNITT Annual Conference 2026「知財・技術移転業務における生成AI活用のリアル ～『知っている』から『現場で使いこなす』へ～」での話題提供資料です。 生成AIを使うとき、AIに「考えてもらう」だけではなく、人が主導権を持ちながらAIと一緒に考えるにはどうすればよいか。AI利用に伴う「認知的降伏」「創造的自己効力感の低下」「戦略の同質化」といった落とし穴を踏まえつつ、「人機共想」という考え方、創造性を引き出す「隙のあるアイデア」、AIの実力を引き出す指示の仕方、良い作業からプロンプトを収穫する方法などを紹介します。 AIが賢くなるほど、大事になるものがある。その力は何か",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T11:01:35-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "AI駆動開発、viviONの1年  ──  うまくいったこと・いかなかったこと",
+   "url": "https://speakerdeck.com/vivion/ai-kudou-kaihatsu-vivion-no-1-toshi-umaku-ita-koto-ikanakata-koto",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T05:35:59-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Building Composable Platforms:  Patterns, Practices, and Pratfalls",
+   "url": "https://speakerdeck.com/danielbryantuk/building-composable-platforms-patterns-practices-and-pratfalls",
+   "summary": "Composable platforms are redefining how internal platform teams deliver value. While the theory is compelling, the real-world results can be mixed. In this talk, we’ll explore the patterns that actually work (and the ones that don’t) when building composable platforms using Kubernetes, and tools lik",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T15:14:51-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Accelerate Docker Image delivery with Varnish caching",
+   "url": "https://speakerdeck.com/thijsferyn/accelerate-docker-image-delivery-with-varnish-caching-confoo-2026",
+   "summary": "Slides for my Confoo 2026 presentation about the acceleration of Docker image delivery using Varnish caching. A \"docker pull\" command triggers a series of HTTP requests that are sent to the container registry. By putting a cache in front of the registry and caching the container images, the delivery",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T13:31:36-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "[2026-09-30]ロックンロールは鳴り止まないっ - 信頼性かまってちゃん - 「データ駆動を投げ捨ててまで。」追いかける信頼性改善に向けた取り組みの話",
+   "url": "https://speakerdeck.com/tosite/2026-09-30-rokkunroru-ha-nari-yamana-i-shinraisei-kama-techan-deta-kudou-o-nagesute-temade-oikakeru-shinraisei-kaizen-ni-muketa-torikumi-no-hanashi",
+   "summary": "小売Night 〜止められない現場を支える信頼性エンジニアリング〜 スポンサーセッション登壇 https://moneyforward.connpass.com/event/402864/",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T06:46:37-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "私の推しは「聞いてから進む」AIです -AI-DLCに一人でアプリを作らせた話",
+   "url": "https://speakerdeck.com/yama3133/watashi-no-oshi-ha-kii-tekara-susumu-ai-desu-ai-dlc-ni-ichinin-de-o-tsukuraseta-hanashi",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T06:39:31-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "What 26 Years in Tech Taught Me About Career Growth",
+   "url": "https://speakerdeck.com/islomar/what-26-years-in-tech-taught-me-about-career-growth",
+   "summary": "I was honoured to be invited to talk by the Zakey initiative to a group of fresh graduates, most of them with few or no professional experience, so my goal was to share my career path, my lessons learnt, how I tackled learning and growing, my experience across different roles and work environments, ",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T06:30:53-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Lambda MicroVMsが分からなすぎたので使い所を1から考えてみた",
+   "url": "https://speakerdeck.com/tsukuboshi/lambda-microvms-ga-wakarana-sugita-node-tsukaisho-o-1-kara-kangae-te-mita",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T06:12:00-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "あなたの知らないAmazon VPC Route Server／Amazon VPC Route Server you don't know about",
+   "url": "https://speakerdeck.com/masakiokuda/amazon-vpc-route-server-you-dont-know-about",
+   "summary": "2026.09.30 JAWS-UG 茨城 #17 秋の推しAWSサービスLTまつり！登壇資料 https://jawsug-ibaraki.connpass.com/event/404570/",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T06:07:48-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "LLMの安全なモデル乗り換え戦略！Shadow TestingとA/B検証 - Google Cloud × Google ADK で実践するモデル評価・検証基盤と実証知見",
+   "url": "https://speakerdeck.com/shukob/llm-shadow-testing-and-ab-testing",
+   "summary": "新モデルへの即時切り替えによる「プロンプト挙動の変化」「JSON出力の崩れ」「429レート制限」「コスト・レイテンシ悪化」を防ぐため、本番影響ゼロで検証・移行を行う「3段階の防壁アーキテクチャ」と実証知見をまとめた登壇資料です。 Google Cloud と Google Agent Development Kit (ADK) を用いたチャット基盤をベースに、生トラフィックによるモデル比較（Gemini 3.8 Flash / 3.7 Flash / 3.5 Flash Lite）を行った検証結果や、動的ルーティングへの展望を解説しています。 📌 本資料のポイント・アジェンダ 新モデル移行に潜",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T05:51:58-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Intelixencia Artificial: os marcos desta leira",
+   "url": "https://speakerdeck.com/lmcastro/intelixencia-artificial-os-marcos-desta-leira",
+   "summary": "A Intelixencia Artificial reclama atención en todos os eidos das nosas sociedades (educación, traballo, ocio...) como unha realidade inminente e ineludible. Nesta palestra facemos un percorrido histórico desde os inicios da disciplina para comprender as capacidades e limitacións da IA (mais concreta",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T05:42:03-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "購入ドメインでの課題と取り組み",
+   "url": "https://speakerdeck.com/ykagano/kounyuu-domein-deno-kadai-to-torikumi",
+   "summary": "2026/9/30 DMM&BASE合同勉強会 発表資料",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T05:19:57-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "書籍「絵で見てわかるWeb APIの仕組み」のご紹介",
+   "url": "https://speakerdeck.com/rhumie/shoseki-e-de-mi-te-wakaru-web-api-no-shikumi-no-goshoukai",
+   "summary": "https://sebook.connpass.com/event/405888/ 技術書の話をしよう。～トレンドと基礎～ の登壇資料",
+   "score": null,
+   "meta": {
+    "published": "2026-09-30T05:16:21-04:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "[2026 Oracle Technical Deep Dive] AI時代のアプリケーションを支えるCloud NativeとJava EEモダナイゼーション (2026年9月17日開催)",
+   "url": "https://speakerdeck.com/oracle4engineer/2026-otdd-cloud-native",
+   "summary": "2026 Oracle Technical Deep Dive (2026年9月17日開催) https://go.oracle.com/LP=154531 ----- AI時代のアプリケーションは、情報を記録・参照するだけでなく、データと業務コンテキストを基に判断し、業務を実行する役割へと進化しています。 本セッション資料では、その実行基盤となるCloud Nativeの考え方と、OCIが提供するコンテナ、開発・運用自動化、監視、データベース、アプリケーション統合サービスを紹介します。 あわせて、既存のJava EE / WebLogic Server資産を活かしながらクラウドへ移行・モダナ",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T22:26:51-04:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "[2026 Oracle Technical Deep Dive] OCI AI Resilience -OCIのセキュリティ対策機能をきちんと使いこなす- (2026年9月17日開催)",
+   "url": "https://speakerdeck.com/oracle4engineer/2026-otdd-security",
+   "summary": "2026 Oracle Technical Deep Dive (2026年9月17日開催) https://go.oracle.com/LP=154531 ----- AI時代のレジリエンス強化には、侵入を防ぐだけでなく、侵入後の状況把握や被害拡大の抑止も重要です。 OCIのセキュリティ機能を活用する際には、自社のシステム構成や運用状況、リスクに応じて、対策の優先順位と組み合わせを検討します。 本セッション資料では、基本的なセキュリティ対策、ログ基盤の強化、BtoCサービスの保護を例に、OCIサービスの活用方法と設計・運用のポイントを紹介します。 [こんな方におすすめ] ・OCIのセキュリテ",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T22:25:49-04:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "[2026 Oracle Technical Deep Dive] VMwareワークロードのOCI移行実践ガイド - OCVSでの継続利用からOCIコンピュートへの移行まで (2026年9月17日開催)",
+   "url": "https://speakerdeck.com/oracle4engineer/2026-otdd-vmware",
+   "summary": "2026 Oracle Technical Deep Dive (2026年9月17日開催) https://go.oracle.com/LP=154531 ----- 本セッション資料ではVMware環境からOracle Cloud Infrastructure（OCI）への移行を検討する際の選択肢と判断ポイントを解説しています。 VMware基盤を継続利用するOracle Cloud VMware Solution（OCVS）と、OCIコンピュートへの移行を中心に、それぞれの特徴や代表的な移行方法を整理し、移行規模、停止時間、IPアドレスの維持などの要件に応じた選び方を、移行事例や支援サー",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T22:24:45-04:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "サーバーフルコンピューティング？AWS Lambda",
+   "url": "https://speakerdeck.com/iwatatomoya/aws-lambda",
+   "summary": "2026/9/29に開催されたDevelopersIO 2026 Osakaの登壇資料です。 https://classmethod.connpass.com/event/401017/",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T22:24:26-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  }
+ ],
+ "oss": [
+  {
+   "repo": "eternity4719/HowToLiveBetter",
+   "url": "https://github.com/eternity4719/HowToLiveBetter",
+   "description": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+   "language": "HTML",
+   "stars": 31966,
+   "topics": [],
+   "created_at": "2026-09-07",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 3821,
+   "readme": "\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。\n641 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-641%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20425%20%C2%B7%20B%20165%20%C2%B7%20C%2051-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1443%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)\n[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)\n\n### [打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/) · [让 AI 照书回答（skill）](skills/life-decision-guide/README.md)\n\nAI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「替朋友担保签不签」，它先查书里的条目再回答，并注明出自第几节第几条。\n\n下载\n\n[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)\n\n查阅\n\n[目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/)\n\n长文\n\n[结婚划不划算](docs/结婚划不划算.md) · [家庭应急装备清单](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证](docs/做平台要办哪些证.md) · [生物钟和夜班](docs/生物钟和夜班.md)\n\n其他语言\n\n[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/) · [Português](https://dlgrv.github.io/HowToLiveBetter/pt/)，[dlgrv](https://github.com/dlgrv) 维护的翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)）\n\n衍生工具\n\n[howtolivebetter.net](https://howtolivebetter.net/)，[littleben](https://github.com/littleben) 做的打勾清单：加待办、标记做到没有、收藏\n\n其他语言和衍生工具由他人维护，内容可能落后，以本仓库中文原文为准。\n\n---\n\n## 这本书想回答的问题\n\n| 问题 | 去哪看 |\n| --- | --- |\n| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |\n| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒，家常食用油怎么选怎么用？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |\n| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |\n| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |\n| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |\n| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |\n| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |\n| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |\n| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |\n| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |\n| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |\n| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |\n| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |\n| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |\n| 押金被扣、房东赶人、长租公寓暴雷怎么办，想搬去乡下住能不能买农村的房？ | [15. 租房与买房](book/15-租房与买房.md) |\n| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |\n| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |\n| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |\n| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |\n| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |\n| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |\n| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |\n| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间，职称从哪里报、值不值？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |\n| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |\n| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |\n| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |\n| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |\n| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |\n| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |\n| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |\n| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |\n| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |\n| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |\n| 感冒药、退烧药、胃药自己买来吃，哪些不能一起吃，孩子、孕妇和老人要避开哪些？ | [34. 家里的常备药别吃出事](book/34-家里的常备药别吃出事.md) |\n\n## 怎么读\n\n- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。\n- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。\n- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。\n- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。\n- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。\n- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。\n- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。",
+   "featured_before": false
+  },
+  {
+   "repo": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+   "language": "C++",
+   "stars": 2943,
+   "topics": [],
+   "created_at": "2026-09-24",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 1213,
+   "readme": "Strata\n\nRun a 125-billion-parameter AI model on a normal gaming PC\none NVIDIA card (12-24 GB) + 64 GB of RAM · Windows or Linux · one click to install\n\nA voxel pagoda garden, 1 shot prompt running on an RTX 5070 with Strata (IQ3_S, 128K context) ·\nfull video (49 s)\n\nStrata runs **[Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)** - a large, smart AI model that\nnormally needs a server - on your own PC. It writes its answers at **60-95 tokens per second** (a token is about ¾\nof a word): faster than you can read.\n\n- **Free and open source.**\n\n> **Jump to:** [How fast?](#how-fast-is-it) · [Which model?](#which-model-should-i-pick) · [Install](#install) ·\n> [Using it](#using-it) · [Problems?](#something-went-wrong) · [How it works](#how-does-it-work) ·\n> [All the details](docs/DETAILS.md)\n\n---\n\n## How fast is it?\n\nMeasured on an RTX 5070 (12 GB), a Ryzen 5 7600 and 64 GB of RAM:\n\n| Size | Writes answers (short chat) | Writes answers (128K context) | Reads your prompt |\n| --- | ---: | ---: | ---: |\n| **Q2_0** | 93 tokens/s | 74 tokens/s | 2,170 tokens/s |\n| **IQ2_XS** | 79 tokens/s | 63 tokens/s | 2,090 tokens/s |\n| **IQ3_XXS** | 62 tokens/s | 49 tokens/s | 1,750 tokens/s |\n| **IQ3_S** | 53 tokens/s | 46 tokens/s | 1,620 tokens/s |\n| **Coder** (IQ1_M) | 55 tokens/s | 43 tokens/s | 2,180 tokens/s |\n\n- **Writes answers** = how fast the reply appears (tokens per second).\n- **Reads your prompt** = how fast it takes in what you send (long documents, code, chat history), measured on a\n  32K-token prompt; a 4K prompt reads at 910-1,580 tokens/s. A 32K prompt takes about 15 seconds with Q2_0.\n\nA card with more VRAM is faster, because more of the model fits on the GPU: an RTX 3090 (24 GB) should do roughly\n100-140 tokens per second. All measurements, long-context numbers and estimates for other cards are in the\n[details](docs/DETAILS.md#speed-measured).\n\nEvery PC is different: `START-HERE.bat --calibrate` measures a few engine settings on yours and keeps the fastest\n(about 5-10 minutes; on the PC above it made the Coder 7% faster).\n\n**Two or three NVIDIA cards?** Just run `START-HERE.bat`: it lists your cards, says which ones Strata can use, and\nasks whether to share the model across them (recommended when two can). An install made on one card asks once at\nits next start. Or choose yourself: `START-HERE.bat --gpus 0,2` (both, remembered), `--gpus all`, or `--gpu 0` (one\ncard, this start only). Each card keeps the experts of its own layers, and prompts flow through the cards in a\npipeline: on an RTX 5080 + RTX 3090 prompts were read 18-20% faster than on the 5080 alone, decoding on par.\nEvery card must be an RTX 20 series or newer with 8 GB or more. See [docs/MULTI_GPU.md](docs/MULTI_GPU.md).\n\n## Which model should I pick?\n\n**The size** (the same model, compressed more or less):\n\n| Model | RAM+VRAM Requirements | Speed | Quality |\n| --- | ---: | --- | --- |\n| **Q2_0** | 37.6 GB | fastest | good |\n| **IQ2_XS** | 39.2 GB | fast | better (**recommended**) |\n| **IQ3_XXS** | 47.0 GB | slower | great |\n| **IQ3_S** | 54.8 GB | slowest | best: matches the full model on the published tests (original model only) |\n\n**Will it fit?** Shard 1 is the part of the model that gets loaded when it starts: its experts go into your **RAM**,\nthe rest onto your graphics card (the second shard, a 29 GB lookup table, stays on the SSD). So it fits when your\n**RAM is at least shard 1 + about 10 GB** for Windows and your other programs. With 64 GB of RAM every size fits\n(IQ3_S with little else open); with 48 GB, Q2_0 and IQ2_XS. A bigger graphics card makes it faster, but it doesn't\nlower the RAM needed.\n\n**The version:**\n\n- **Qwen3.8-Flash-Next** - the original.\n- **[Coder](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF)** - ISTA-DASLab's coding\n  version: half of the experts removed, keeping the ones that code, tool use and images need (91% of the full model's\n  SWE-bench Verified score, 99% of LiveCodeBench, by its authors). One size (IQ1_M: its experts stored like IQ3_S):\n  shard 1 is **29.6 GB**, so it fits a PC with **32 GB of RAM**, runs 262K context on 64 GB, and reads long prompts\n  the fastest of all. Weaker outside coding.\n- **[Swift 1.5](https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF)** - a fine-tune by UkisAI\n  that thinks much shorter before answering, so you get the answer sooner, with about the same quality. Same speed per\n  token, and about the same RAM as the same size of the original (no IQ3_S). Its own license applies (see its page).\n\nNot sure? Take **IQ2_XS** - or the **Coder** if you mainly write code, or have 32-48 GB of RAM. You can add another\none later with `SETUP.bat` (the same as `START-HERE.bat --setup`; on Linux `./setup.sh --setup`).\n\nFor **OrcaRouter's Flash-Next Uncensored IQ3_XXS**, see the [manual compatibility setup](docs/ORCA.md).\nIt needs an explicit packing conversion and is not an installer menu option.\n\nAn **AMD Radeon RX 7900 XT / XTX, RX 9070 / 9070 XT or Radeon AI PRO R9700 on Linux** works too (experimental):\n`./setup.sh --backend hip`, chosen by itself on a PC with no NVIDIA card Strata can use. It installs ROCm without sudo\nand compiles the engine (one GPU, no images yet). Details: [AMD HIP](docs/AMD_HIP.md).\n\n## Install\n\n**You need:** an NVIDIA RTX 20, 30, 40 or 50 card with 12 GB of VRAM or more (RTX 20 since 0.1.27), enough RAM for the size you pick (above;\na big GPU makes up for less RAM - the [low-RAM mode](docs/DETAILS.md)),\n~80 GB of free disk space (an SSD makes the first start much faster), and Windows 10/11 or Linux. The only thing you\ninstall yourself is a current **NVIDIA driver** ([nvidia.com/drivers](https://www.nvidia.com/drivers) or the NVIDIA\nApp). Everything else - Python, the engine, the model - is set up for you.\n\n**Windows**\n\n1. [Download this project](https://github.com/Niko1221/Strata/archive/refs/heads/main.zip) and unzip it (or `git clone` it).\n2. Double-click **`START-HERE.bat`**.\n3. Answe",
+   "featured_before": false
+  },
+  {
+   "repo": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "language": "Go",
+   "stars": 3742,
+   "topics": [
+    "claude-code",
+    "codex",
+    "deepseek",
+    "gemini-cli",
+    "llm",
+    "macos"
+   ],
+   "created_at": "2026-09-23",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 1069,
+   "readme": "# magpie\n\nOne place to pick every agent's model: Codex on DeepSeek, Claude Code\non Kimi, Gemini CLI on GLM, from the menu bar. [usemagpie.ai](https://usemagpie.ai)\n\n[![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/vGSnD3ZKQF)\n\n`magpie` is a single screen that lists each AI agent on your machine and\nthe model it is set to. Click a value, pick a model. That is the whole app.\n\nIt lives in the menu bar: click the icon and a panel drops down; the same\nscreen also opens as a normal window (`magpie`, or *Open magpie* in the tray menu),\nand there is a terminal version (`magpie tui`) and a plain CLI.\n\n```\n  ◉ magpie\n\n  ▸ Claude Code   claude-fable-5-1[1m]                        ~/.claude/settings.json\n    Codex         gpt-6-astra   effort medium\n    Gemini CLI    gemini-3.1-pro\n    OpenCode      anthropic/claude-sonnet-5   small anthropic/claude-haiku-4-5\n    MiMo Code     anthropic/claude-sonnet-5\n    Pi            openrouter/z-ai/glm-5.2:batch\n    Goose         anthropic/claude-sonnet-5\n    Cursor        auto\n    Copilot CLI   claude-fable-5\n\n  ↑↓ agent  ·  ←→ field  ·  ↵ change  ·  s save profile  ·  p profiles  ·  q quit\n```\n\n- **One small binary.** Under 15 MB with the desktop app (it uses the system\n  webview through [Wails](https://wails.io), nothing bundled), 7 MB for the\n  terminal-only build. macOS, Linux and Windows.\n- **Edits config files surgically.** Only the one key you change is touched;\n  comments, ordering and indentation in your `settings.json`, `config.toml`,\n  `opencode.jsonc` or `config.yaml` survive intact. Writes are atomic.\n- **One endpoint for every agent.** magpie runs a local gateway that speaks\n  OpenAI chat completions, OpenAI Responses and the Anthropic Messages API,\n  and forwards to whichever vendor serves the model. Codex, Claude Code,\n  OpenCode and the rest all point at `http://127.0.0.1:3425/v1` and pick\n  from one catalog; the translation between APIs happens in magpie, streaming\n  and tool calls included.\n- **Your subscriptions, shared.** Sign in to Claude Code, Codex (ChatGPT)\n  or Copilot and that login shows up as a provider: every other agent can\n  use its models through the gateway, with nothing copied and no key to\n  paste.\n- **Providers with one field.** Pick a preset (Anthropic, OpenAI, Gemini,\n  DeepSeek, Kimi, GLM, MiniMax, StepFun, Qwen, Baidu Qianfan, Tencent Cloud Token Plan,\n  Huawei Cloud MaaS, Volcengine Ark, Mistral, Groq, xAI, OpenRouter, Together,\n  Fireworks, SiliconFlow, NVIDIA NIM, ModelScope, AiHubMix, 302.AI, Ollama, LM Studio…),\n  paste a key, done. Custom vendors need a name and a base URL. magpie never\n  reads keys from your shell environment.\n- **Real model lists, nothing compiled in.** With a key in hand magpie asks\n  the vendor which models it serves and offers exactly those; the\n  [models.dev](https://models.dev) catalog fills in names, reasoning efforts\n  and the list for vendors that have none, and refreshes itself in the\n  background once it goes stale. Choose which models each provider exposes,\n  or expose them all — a model released this morning is in the picker on\n  the next refresh.\n- **Each agent's own model list.** Under an agent's name on the Agents page,\n  \"Showing 5 / 32 models\" opens its list: click a model to take it out of\n  that agent's picker (Codex's `/model` included, its ChatGPT models too) or\n  put it back; other agents still use it, and a new model is shown.\n- **Profiles.** Snapshot every agent's settings under a name and switch all of\n  them back in one move.\n- **Real logos, no framework.** Plain HTML over the system webview; brand\n  icons from [lobehub/icons](https://github.com/lobehub/lobe-icons).\n\n## Agents\n\n| Agent        | File                              | Fields          |\n| ------------ | --------------------------------- | --------------- |\n| Claude Code  | `~/.claude/settings.json`         | provider, model, opus/sonnet/haiku/fable (through magpie) |\n| Claude Desktop | `Claude/` + `Claude-3p/configLibrary/` in `~/Library/Application Support` (`%LOCALAPPDATA%` on Windows, `~/.config` on Linux) | provider (its third-party gateway mode: Code and Cowork on magpie, no Anthropic sign-in; restart Desktop) |\n| Codex        | `~/.codex/config.toml`            | provider, model, effort |\n| Gemini CLI   | `~/.gemini/settings.json`, `~/.gemini/.env` | auth, model |\n| OpenCode     | `~/.config/opencode/opencode.json(c)` (`$OPENCODE_CONFIG_DIR`) | model, small |\n| OpenChamber  | `~/.config/openchamber/preferences.json` (`$OPENCHAMBER_DATA_DIR`; magpie's provider in OpenCode's config) | model, small (its own defaults, over OpenCode's) |\n| MiMo Code    | `~/.config/mimocode/mimocode.json(c)` | model, small |\n| Pi           | `~/.pi/agent/settings.json`       | model           |\n| OmO (omo-ai) | `~/.omo/agent/settings.json` (+ `models.json`; `$OMO_CODING_AGENT_DIR`, `$SENPI_CODING_AGENT_DIR`) | model |\n| Goose        | `~/.config/goose/config.yaml`     | model           |\n| Cursor CLI   | `~/.cursor/cli-config.json`       | model           |\n| Copilot CLI  | `~/.copilot/settings.json`        | model           |\n| Crush        | `~/.config/crush/crush.json`      | large, small    |\n| DeepSeek Harness (dsh) | `~/.dsh/config.yaml` (`$DSH_HOME`) | model |\n| Command Code | `~/.commandcode/settings.json` (+ `providers.json`) | model |\n| fx           | `~/.fx/settings.json`             | model (a keyless `magpie` provider) |\n| omp (oh-my-pi) | `~/.omp/agent/config.yml` (+ `models.yml`) | model |\n| Devin        | `~/.config/devin/config.json` (`%APPDATA%\\devin\\config.json` on Windows) | model |\n| Hermes Agent | `~/.hermes/config.yaml` (`$HERMES_HOME`) | model |\n| Kimi Code    | `~/.kimi/config.toml` (`$KIMI_SHARE_DIR`) | model (a `magpie` provider; magpie's models in Kimi's /model) |\n| MiniMax Code (mcode) | `~/.minimax/config.yaml` (`$MINIMAX_DATA_DIR`) | model (a `magpie` custom provider; magpie's models in its /model) |\n| Droid (Factory",
+   "featured_before": true
+  },
+  {
+   "repo": "feder-cr/dots",
+   "url": "https://github.com/feder-cr/dots",
+   "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "language": "Python",
+   "stars": 1931,
+   "topics": [
+    "ai-agent",
+    "ai-agents",
+    "ai-browser",
+    "anti-detect-browser",
+    "browser-agent",
+    "browser-automation"
+   ],
+   "created_at": "2026-09-29",
+   "pushed_at": "2026-09-29",
+   "found_in": "新着人気",
+   "stars_per_day": 966,
+   "estimated": true,
+   "readme": "dots\n\nEvery AI agent is a model and a browser.You can swap the model with one flag. The browser is what the website sees.\n\n---\n\nWindows, in PowerShell:\n\n```powershell\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n$env:Path = \"$env:USERPROFILE\\.local\\bin;$env:Path\"\nuvx --from git+https://github.com/feder-cr/dots dots --openrouter-key sk-or-...\n```\n\nLinux:\n\n```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nsource $HOME/.local/bin/env\nuvx --from git+https://github.com/feder-cr/dots dots --openrouter-key sk-or-...\n```\n\nThen open **http://127.0.0.1:8765**. The conversation on the left, the browser on the right, live.\n\n## It all comes down to the browser\n\nWhen a web agent fails, the model is rarely why. The page never loaded, a\nchallenge appeared, the login expired, the click did not land. All of that\nhappens in the browser, before the model gets to think.\n\nSo dots is built around one:\n\n- **A real Firefox engine, patched in C++.** The fingerprint is decided inside\n  the engine, not painted over with JavaScript that a page can inspect.\n- **One identity per seed.** Screen, fonts, GPU, timezone and language agree\n  with each other, and `--seed` gives back the same person on every run.\n- **Nothing for a page to find.** No WebDriver flag, no DevTools protocol, no\n  automation globals in the page.\n- **A person's hands.** The pointer travels to what it clicks and keys are\n  pressed one at a time, so every event the page receives is a trusted one.\n- **A browser that remembers.** `--profile-dir` keeps logins and cookies from\n  one run to the next.\n- **Where it connects from is who it is.** With `--proxy`, the timezone and the\n  language follow the exit.\n\nThe model is any model on OpenRouter, and `--model` changes it.\n\n## What to ask it\n\n> Go to ``. One way, Milan to Lisbon, economy, one adult. Check\n> every date from the 12th to the 16th of next month and read the cheapest fare\n> for each day. If a date has no availability, say so. Do not guess a number.\n\n## The same browser, in your own assistant\n\nClaude Code, Codex, Gemini CLI or any MCP client:\n[invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp)\ngives them this browser as a server. `dots` is its interface, and `dots --help`\nlists every option.\n\n---\n\nNot affiliated with OpenAI. MIT licensed.\n",
+   "featured_before": false
+  },
+  {
+   "repo": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+   "language": "TypeScript",
+   "stars": 4051,
+   "topics": [
+    "ai",
+    "content-curation",
+    "llm",
+    "mcp",
+    "news-aggregator",
+    "rss"
+   ],
+   "created_at": "2026-09-28",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 938,
+   "readme": "\n  \n    \n    \n  \n\n  \n  \n  \n  \n  \n\n  一个自己找热点、自己写日报的网站框架。\n  把信源换成你的，把精选标准换成你的 KnowHow，它就是你的行业热点站。\n\n  跑起来 ·\n  改成你的行业 ·\n  它是怎么工作的 ·\n  文档 ·\n  社区交流\n\n## 这是什么\n\n[AIHOT](https://aihot.news) 是我做的一个 AI 热点网站。它每天从一批信源里收资料，用大模型先筛一遍、再独立打两次分，挑出真正值得看的，写成中文标题和摘要；把不同来源说的同一件事聚成一个事件，按有多少人在说排出热点；每天早上出一份日报。\n\n这个仓库是它的完整框架：网站、后台、精选流程、聚簇和热度算法，**所有提示词的原文和入选门槛**，都在这里。\n\n## 为什么开源\n\n这半年，很多做法律、做 HR、做金融、做贵金属的朋友问我，能不能也给他们的行业做一个。\n\n我做不了。我不懂你们的行业，不知道哪些信源有用，也不知道什么样的消息，对你们来说才叫热点。\n\n但你们懂。\n\n既然我没办法满足所有人，那就把火种交到大家自己手上。\n\n## 说在前面\n\n- **我不是专业的开发者。** 我是设计师出身，半年前还看不太懂代码。这套代码是我和 AI 一起重写的，比以前干净了很多，但一定还有写得不好的地方。发现问题欢迎提 Issue，我不一定能很快回复，先说声抱歉。\n- **这是一份快照。** 它来自 AIHOT 正在线上跑的代码，不是精心打磨的通用框架。以后 AIHOT 的更新，我会尽量同步过来，但没法保证每一次都同步。\n- **里面没有 AIHOT 的信源名单和运营数据。** 仓库带了 18 个公开的海外 AI 资讯源做示范，够你跑起来看效果；真正的信源，要换成你自己行业的。\n- **请不要用 AIHOT 的名字和 Logo。** 换上你自己的名字，它就是你的站。\n\n## 它是怎么工作的\n\n  \n  \n\n一条资料从信源进来，先判重，再预筛；可能重要的独立打两次分，过了门槛才进精选；然后写中文标题和摘要，和别的报道聚成事件，算进热度，最后进日报。每一步的提示词都在 [`industry/prompts/`](industry/prompts/)，改标准不用改代码。详见 [精选与校准](docs/selection.md)。\n\n### 聚簇与热点\n\n  \n  \n\n同一件事，官网发一篇、媒体转十篇、X 上吵一天，读者只需要看到一次。AIHOT 把它们聚成一个**事件**：先用标题摘要的向量在最近两周里找候选，再让模型判断是同一件事、后续进展，还是两件事；拿不准的合并，换一家模型再确认一遍。\n\n**热度**按事件算，不按文章算：48 小时内，每个独立来源只算一次，24 小时减半。重复抓取不会多算，一家媒体发十篇也只算一次，所以排在前面的，是真正有很多人在说的事。\n\n### 速度\n\n  \n  \n\n## 你会得到什么\n\n| | |\n|---|---|\n| **六种信源** | RSS、网页列表、JSON 接口、X 账号、微信公众号，以及你自己脚本推送进来的内容。信源分级（官方一手 / 媒体个人），抓取频率按产出自动调整 |\n| **精选** | 预筛，同一份评分标准独立打两次分，再按信源分级的门槛决定入选。提示词和门槛全部公开，全部可以改；用你自己标注的样本在 SelectBench 里校准 |\n| **写作** | 中文标题、答案先行的摘要、推荐理由、标签，外文全文翻译；防止模型把原文没提到的公司写进标题 |\n| **聚簇** | 不同来源报道的同一件事聚成一个事件，后续进展挂在同一个事件下，事件页有综述；人工改过的归属不会被覆盖 |\n| **热点** | 按事件算热度：独立来源越多越靠前，X 上的讨论也算进来；和 6 小时前比，涨得快的标上升，新出现的标“新” |\n| **日报、周报、月报** | 每天 08:00 出日报，每周一出周报，每月 1 日出月报，按分类分节，带导语 |\n| **主题与搜索** | 公司、方向、内容形态三类主题页；标题摘要搜索和全文相关搜索 |\n| **给 Agent 用** | RSS（精选、全部、全文、日报）、公开 API、MCP、`llms.txt`，同一份内容给人看也给 Agent 用 |\n| **后台** | 信源管理与试抓、内容诊断、精选评测、每一步单独换模型、付费服务的预算熔断、运行记录与告警 |\n| **AI 专属模块** | 模型榜（汇总多家公开评测，方法公开）和 Codex 重置监控。别的行业一个开关关掉 |\n\n## 看一眼\n\n  \n  \n\n  \n  \n\n截图来自用示范信源跑起来的本地站，站名是默认的 MyHOT。\n\n## 跑起来\n\n想创建自己的独立站点，可以先点 [Use this template](https://github.com/KKKKhazix/AIHOT/generate)，再克隆你生成的仓库。想持续合并上游更新或贡献代码，建议先 Fork。下面的命令适合直接试用。\n\n需要 [Docker](https://docs.docker.com/get-docker/)，和一个 OpenAI 兼容的模型 API Key（DeepSeek、千问、智谱都可以）。\n\n```bash\ngit clone https://github.com/KKKKhazix/AIHOT.git myhot\ncd myhot\nnode scripts/init-env.ts --llm-key \ndocker compose up -d --build\n```\n\n打开 。后台在 `/admin`，管理员密码在 `.env` 的 `ADMIN_PASSWORD` 里。一两分钟后开始有内容，第一次导入的资料大约半小时处理完。\n\n机器上没有 Node、服务器在中国大陆、要配域名和 HTTPS，见 [部署](docs/deploy.md)。\n\n## 把它改成你的行业\n\n最省事的办法：打开你的 Agent（Claude Code、Codex 都可以），把这个仓库交给它，然后说：\n\n```text\n请读 AGENTS.md 和 docs/customize.md，把这个站改成「法律」行业的热点站。\n我关心的是：……（你想盯哪些信源，你觉得什么消息重要、什么不重要，越具体越好）。\n```\n\n要改的东西几乎都在 [`industry/`](industry/) 这一个文件夹里，代码基本不用动：\n\n| 文件 | 改什么 |\n|---|---|\n| `site.ts` | 站名、行业词、首页文案、关于页 |\n| `taxonomy.ts`、`topics.json` | 分类、标签、主题 |\n| `sources.json` | 首次启动时导入的信源 |\n| `prompts/` | 精选标准和写作要求。**你的行业 KnowHow，就写在这里** |\n| `selection.ts` | 入选门槛 |\n| `features.ts` | 模型榜、Codex 重置监控的开关 |\n| `brand/`、`pages/` | 图标、使用规则和隐私说明 |\n\n最值得花时间的是评分标准（`prompts/selection-score.md`）和门槛：拿一两百条你自己标注过的资料，用 `scripts/eval-selection.ts` 跑一遍，看它选得准不准，再回去改。怎么做写在 [精选与校准](docs/selection.md) 里。\n\n## 文档\n\n| 文档 | 内容 |\n|---|---|\n| [把它改成你的行业](docs/customize.md) | 站名、分类、信源、提示词、门槛、品牌，一步一步来 |\n| [信源](docs/sources.md) | 六种信源怎么配，分级和全文，外部推送接口 |\n| [精选与校准](docs/selection.md) | 一条资料怎么变成精选，怎么用自己的样本校准 |\n| [事件归组与关系评测](docs/grouping.md) | 事件关系怎么判断，怎么用自己的 pairwise gold set 评测 |\n| [部署](docs/deploy.md) | Docker、域名和 HTTPS、中国大陆、更新、备份、花多少钱 |\n| [架构](docs/architecture.md) | 三个进程、几条不变的规则、目录、对外出口 |\n| [模型榜与 Codex 重置监控](docs/leaderboard.md) | 两个 AI 专属模块 |\n\n技术栈：Node.js 24 · TypeScript · React Router（服务端渲染）· Fastify · PostgreSQL · pg-boss · Tailwind CSS · Docker Compose。\n\n## 交流与贡献\n\n部署和使用问题到 [问答区](https://github.com/KKKKhazix/AIHOT/discussions/categories/q-a)，新想法到 [想法交流区](https://github.com/KKKKhazix/AIHOT/discussions/categories/ideas)，欢迎在 [作品展示区](https://github.com/KKKKhazix/AIHOT/discussions/categories/show-and-tell) 分享你做出的行业热点站。\n\n发现 Bug 或有明确的功能建议，可以 [提交 Issue](https://github.com/KKKKhazix/AIHOT/issues/new/choose)。准备改代码前，先看 [贡献说明](CONTRIBUTING.md)；安全漏洞请走 [私密报告入口](SECURITY.md)。\n\n## 最后\n\nAIHOT 曾经只是我无数个深夜里，一个很小、很小的念头。\n\n我不知道它会被改成什么样子，会走到多远的地方。但这可能就是开源最浪漫的地方。\n\n剩下的路，就交给你们了。\n\n—— 数字生命卡兹克\n\n## 许可\n\n代码使用 [MIT 许可证](LICENSE)。AIHOT 的名字和 Logo 不在许可范围内。字体、模型厂商和评测来源的标志各有自己的许可和商标归属，见 [NOTICE](NOTICE)。\n\n---\n\n**In English:** AIHOT ([aihot.news](https://aihot.news)) is an AI news site that collects from many sources, lets a language model filter and score every item twice, writes Chinese headlines and summaries, clusters reports of the same story into one event, ranks events by how many independent sources discuss them, and publishes a daily briefing. This repository is its complete framework, including every prompt and threshold. Hand it to your coding agent with `AGENTS.md` and `docs/customize.md` to turn it into a news site for your own field. The documentation is in Chinese.\n",
+   "featured_before": true
+  },
+  {
+   "repo": "cdyforever/how-to-live-better",
+   "url": "https://github.com/cdyforever/how-to-live-better",
+   "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+   "language": "HTML",
+   "stars": 5781,
+   "topics": [],
+   "created_at": "2026-09-18",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 874,
+   "readme": "# 高性价比人生指南 · 在线阅读页\n\n一个单文件 HTML 阅读页，把开源书《高性价比人生指南》的全部 32 节、528 条建议\n渲染成可搜索的页面。手机上打开就能看，不用装任何东西。\n\n**在线阅读：** https://cdyforever.github.io/how-to-live-better/\n\n## 这是什么\n\n原书由 [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)\n维护（Unlicense，公有领域），按「性价比」排序，每条写清花掉什么、换回什么、证据多硬，\n只引期刊论文和官方文件。\n\n本仓库不是原书的 fork，也不改动原书内容。它只做一件事：把原书正文渲染成一个\n**自包含的单文件网页**，方便在手机和别人的电脑上直接打开。\n\n## 页面特性\n\n- **零外部资源**：没有 CDN、没有字体外链、不 fetch 任何数据，断网也能读\n- 逐条卡片：建议标题、证据等级（A/B/C）、性价比档、成本标签\n- **「说人话」高亮块**——原书里这一栏专门把统计量翻成日常说法，页面上做得最显眼\n- 全站关键词搜索（结果高亮）、只看 A 级、只看说人话\n- 左侧目录带性价比色点，滚动联动\n- 手机端：搜索框独占一行、顶栏向下滚动后自动收成一行、回到顶部按钮\n- 明暗主题切换\n- 支持直接打印\n\n## 本地使用\n\n不用构建，双击 `index.html` 即可。\n\n## 重新生成\n\n```bash\n# 需要先有一份上游仓库的本地克隆\ngit clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git /tmp/upstream\n\n# 全部 32 节\npython build.py all -o index.html --repo /tmp/upstream\n\n# 只做某几节\npython build.py 1 2 16 --repo /tmp/upstream\n```\n\n源目录也可以用环境变量 `HLTB_REPO` 指定。\n\n统计口径（条目数、A/B/C 分级、性价比三档）与上游的 `tools/sync-stats.ps1`\n和 `index.html` 保持一致，生成结果可与上游徽章逐项对照。\n\n## 自动更新\n\n`.github/workflows/rebuild.yml` 每天 06:00（北京时间）拉取上游重新生成，\n内容有变化才提交。也可以去 Actions 页面手动触发。\n\n## 授权\n\n原书内容为 Unlicense（公有领域）。本仓库的构建脚本同样不作任何权利保留。\n",
+   "featured_before": false
+  },
+  {
+   "repo": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+   "language": "Python",
+   "stars": 29244,
+   "topics": [
+    "calibration",
+    "classification",
+    "decision-model",
+    "huggingface",
+    "jev",
+    "modernbert"
+   ],
+   "created_at": "2026-09-18",
+   "pushed_at": "2026-09-29",
+   "found_in": "新着人気",
+   "stars_per_day": 633,
+   "featured_before": true
+  },
+  {
+   "repo": "ninjahawk/livenerf",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "description": "Benchmark for tracking model capability after release.",
+   "language": "Python",
+   "stars": 821,
+   "topics": [],
+   "created_at": "2026-09-22",
+   "pushed_at": "2026-09-30",
+   "found_in": "記事で紹介",
+   "stars_per_day": 592,
+   "featured_before": false
+  },
+  {
+   "repo": "CopilotKit/openmuse",
+   "url": "https://github.com/CopilotKit/openmuse",
+   "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+   "language": "TypeScript",
+   "stars": 3451,
+   "topics": [],
+   "created_at": "2026-09-15",
+   "pushed_at": "2026-09-29",
+   "found_in": "新着人気",
+   "stars_per_day": 231,
+   "featured_before": false
+  },
+  {
+   "repo": "robbietilton/Compositor",
+   "url": "https://github.com/robbietilton/Compositor",
+   "description": "The Photoshop alternative for Mac",
+   "language": "Swift",
+   "stars": 6684,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-29",
+   "found_in": "新着人気",
+   "stars_per_day": 190,
+   "featured_before": false
+  },
+  {
+   "repo": "yi1108/printfilm",
+   "url": "https://github.com/yi1108/printfilm",
+   "description": "PRINTFILM：AI 视频获客与 AI短剧创作平台",
+   "language": "Python",
+   "stars": 3937,
+   "topics": [],
+   "created_at": "2026-09-10",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 176,
+   "featured_before": false
+  },
+  {
+   "repo": "jaredpalmer/kev",
+   "url": "https://github.com/jaredpalmer/kev",
+   "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
+   "language": "Python",
+   "stars": 8057,
+   "topics": [
+    "decision-model",
+    "jev",
+    "qwen3"
+   ],
+   "created_at": "2026-09-17",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 172,
+   "featured_before": false
+  },
+  {
+   "repo": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "description": "Fastest and cheapest web agent",
+   "language": "Python",
+   "stars": 21564,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 167,
+   "featured_before": true
+  },
+  {
+   "repo": "Mak5er/AirCard",
+   "url": "https://github.com/Mak5er/AirCard",
+   "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+   "language": "Swift",
+   "stars": 5190,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-30",
+   "found_in": "新着人気",
+   "stars_per_day": 154,
+   "featured_before": false
+  },
+  {
+   "repo": "SonicloudTech/sonicloud_opensdk",
+   "url": "https://github.com/SonicloudTech/sonicloud_opensdk",
+   "description": "声云录音卡 Recorder 是一套面向开发者和行业客户的智能录音硬件接入方案。 项目以录音卡片硬件为核心，开放 BLE 协议 SDK 及 Android、iOS、鸿蒙、Flutter 接入示例，同时提供 Windows/macOS 桌面端 Demo，支持设备连接、录音控制、实时音频、文件传输、OTA 升级和语音转写等能力，帮助开发者快速将录音硬件接入自己的 App、桌面软件或行业系统。 如需获取硬件规格、样机、完整协议、SDK 资料或定制服务，请联系安徽声云",
+   "language": "HTML",
+   "stars": 2973,
+   "topics": [],
+   "created_at": "2026-09-02",
+   "pushed_at": "2026-09-18",
+   "found_in": "新着人気",
+   "stars_per_day": 131,
+   "featured_before": false
+  }
+ ],
+ "releases": [
+  {
+   "repo": "vercel/next.js",
+   "version": "v16.3.8",
+   "name": "v16.3.8",
+   "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8",
+   "published_at": "2026-09-30T16:13:46Z",
+   "prerelease": false,
+   "body": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [Server-Side Request Forgery in Image Optimization](https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4)\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js/security/advisories/GHSA-4jqv-mc3x-m676)\r\n- [Cache poisoning in Next.js SSG/ISR rendering leads to cross-user content substitution and persistent denial of service](https://github.com/vercel/next.js/security/advisories/GHSA-mcj8-r9mp-w47p)\r\n- [Pending `use cache` fill can leak Draft Mode content into regular responses and persisted pages](https://github.com/vercel/next.js/security/advisories/GHSA-3w37-wq28-93x7)\r\n- [Cache leak across root param values in nested 'use cache' functions](https://github.com/vercel/next.js/security/advisories/GHSA-h694-7cp9-m8p3)\r\n\r\nLow:\r\n- [Information disclosure in the Next.js development server's Model Context Protocol endpoint](https://github.com/vercel/next.js/security/advisories/GHSA-39w2-rjm5-chcv)"
+  },
+  {
+   "repo": "vercel/next.js",
+   "version": "v15.5.27",
+   "name": "v15.5.27",
+   "url": "https://github.com/vercel/next.js/releases/tag/v15.5.27",
+   "published_at": "2026-09-30T16:13:42Z",
+   "prerelease": false,
+   "body": "This release contains security fixes for the following advisories:\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js/security/advisories/GHSA-4jqv-mc3x-m676)\r\n- [Cache poisoning in Next.js SSG/ISR rendering leads to cross-user content substitution and persistent denial of service](https://github.com/vercel/next.js/security/advisories/GHSA-mcj8-r9mp-w47p)\r\n\r\n"
+  },
+  {
+   "repo": "vercel/next.js",
+   "version": "v16.3.7",
+   "name": "v16.3.7",
+   "url": "https://github.com/vercel/next.js/releases/tag/v16.3.7",
+   "published_at": "2026-09-29T08:54:51Z",
+   "prerelease": false,
+   "body": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task (#98931)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg for helping!\r\n"
+  },
+  {
+   "repo": "microsoft/TypeScript",
+   "version": "vscode-typescript/v1.0.1",
+   "name": "vscode-typescript/v1.0.1",
+   "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1",
+   "published_at": "2026-09-30T19:10:03Z",
+   "prerelease": false,
+   "body": "Bundles TypeScript 7.0.2 from commit b6eaace9d7cfd63c018ab25340ba463baae07fb5."
+  },
+  {
+   "repo": "honojs/hono",
+   "version": "v4.13.12",
+   "name": "v4.13.12",
+   "url": "https://github.com/honojs/hono/releases/tag/v4.13.12",
+   "published_at": "2026-09-30T09:43:10Z",
+   "prerelease": false,
+   "body": "## What's Changed\r\n* fix(build): keep internal types private in bundled d.ts and avoid a self-referencing JSX.IntrinsicElements in https://github.com/honojs/hono/pull/5485\r\n* test(build): type-check the bundled declarations from a consumer project in https://github.com/honojs/hono/pull/5486\r\n* fix(etag): correctly match mixed-case header name in retainedHeader option in https://github.com/honojs/hono/pull/5475\r\n* fix(jsx): add px to numeric gridGap, gridRowGap and gridColumnGap in https://github.com/honojs/hono/pull/5487\r\n* fix(combine): return a Response from a short-circuiting middleware in some() in https://github.com/honojs/hono/pull/5391\r\n* chore(deps): upgrade vite-plus to 1.0.0 in https://github.com/honojs/hono/pull/5464\r\n\r\n**Full Changelog**: https://github.com/honojs/hono/compare/v4.13.11...v4.13.12"
+  },
+  {
+   "repo": "honojs/hono",
+   "version": "v4.13.11",
+   "name": "v4.13.11",
+   "url": "https://github.com/honojs/hono/releases/tag/v4.13.11",
+   "published_at": "2026-09-29T06:19:04Z",
+   "prerelease": false,
+   "body": "## Security fixes\r\n\r\n### `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths\r\n\r\nAffects: `hono/serve-static` and the adapters built on it (`hono/bun`, `hono/deno`, `hono/cloudflare-workers`, `@hono/bun`, `@hono/deno`, `@hono/cloudflare-workers`). Fixes `serveStatic` decoding an already-decoded path, where a crafted request could be routed as one path and served as another, skipping middleware mounted on a static prefix. GHSA-5r4p-p66f-jhc7\r\n\r\n`serveStatic` now rejects request paths that still contain `%` after decoding. To serve files whose names contain a literal `%`, set `allowPercentInPath: true`.\r\n\r\nThe same fix ships in `@hono/node-server` v2.1.3.\r\n"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.286",
+   "name": "v2.1.286",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+   "published_at": "2026-09-30T19:10:13Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed `claude --resume` and `--continue` sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed\n- Fixed API 400 errors after a tool or hook returned an object, number or boolean instead of text, including in resumed sessions\n- Fixed cloud sessions with very large histories never waking up because the container was stopped while the transcript was still loading\n- Fixed the Claude apps gateway's spend meter pricing 1-hour prompt cache writes at the cheaper 5-minute rate, and counting only the first model call's input tokens on streamed turns that run a server-side tool such as web search\n- Fixed macOS sessions still showing \"Not logged in\" or \"Login expired\" after `/login` succeeds in another Claude Code window when a leftover `~/.claude/.credentials.json` exists\n- Fixed every turn failing when the Anthropic API refuses the model your default or a model alias resolves to: Claude Code now retries once on the previous model of the same tier\n- Fixed Remote Control sessions (including `claude remote-control`) staying connected after your organization's policy turns Remote Control off; they now disconnect with a notice\n- Fixed refusal and `--fallback-model` retries failing when the fallback model can't run fast; they now run at standard speed, with a one-time notice in interactive sessions\n- Fixed headless sessions repeating the \"MCP servers require authentication\" reminder after a successful re-authentication when the MCP discovery cache is enabled\n- Fixed `claude auth status` reporting a Console sign-in's stored API key as `claude.ai`; it now reports `api_key`, and the VS Code extension treats that session as an API key session\n- Fixed `/status` listing an Anthropic profile beside an API key as if both were in effect; the profile is now marked as not in use\n- Fixed Claude not being told when a file attached to a message sent over Remote Control did not arrive, and a file sometimes getting only 10 seconds for its last download try\n- Fixed a Remote Control message that arrived while Claude Code was exiting being marked delivered and then never answered; it now stays queued for the session's next run\n- Fixed MCP error messages showing a credential's value when \"Bearer\" or \"Basic\" came before its key name\n- Fixed percent-encoded Bearer tokens being only partly masked in error messages\n- Fixed redacted logs and transcripts showing a secret whose key name has an invisible character inside, such as a zero-width space\n- Fixed logs and transcripts showing part of a URL password that contains punctuatio"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.285",
+   "name": "v2.1.285",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+   "published_at": "2026-09-29T19:27:30Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added `<server>.<key>=<value>` to `claude plugin install --config`, so a bundled `.mcpb` MCP server's own settings can be set at install time and it starts without visiting `/plugin` → Configure\n- Added `allowedProviders` managed setting to limit which API providers a machine may use (Anthropic API, a custom endpoint, Bedrock, Mantle, Vertex AI, Foundry, Claude Platform on AWS, or a Cloud gateway)\n- Added `CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES` environment variable to cap re-sends of a non-streaming fallback request that timed out\n- Fixed `claude -p` with `CLAUDE_CODE_FORK_SUBAGENT=1`: a subagent's own Agent call now runs in the foreground, so the subagent gets the child's result\n- Fixed plugin and marketplace installs and updates over SSH ignoring the ssh program set in `GIT_SSH` or in your git config's `core.sshCommand`\n- Fixed Claude Code refusing to start when the OS denies reading the managed settings file; it now warns and starts without that file's policies. Other read errors and unparseable files stop every session\n- Fixed cloud sessions that restarted after their conversation was compacted refusing the next update to an artifact the session had already read or published\n- Fixed `claude plugin disable` and `enable` with a full `name@marketplace` id changing a settings entry in another letter case instead of the installed plugin's own\n- Fixed files attached to a message sent over Remote Control being left out after a single failed download; a network error, timeout or server error is now retried up to twice\n- Fixed switching models mid-session with a `set_model` request (such as the Agent SDK's `setModel`) leaving the new model on the built-in output-token limit and auto-compact window until restart\n- Fixed redacted logs and transcripts showing part of a URL password that contains `@`, or all of it when the URL writes its `@` as `%40`\n- Fixed SSH passphrase and new-host prompts from worktree and `/teleport` fetches taking over the terminal; these fetches now fail fast instead of asking\n- Fixed switching off an MCP server added mid-session in SDK and `-p` sessions leaving its tools available\n- Fixed `claude -p --permission-prompt-tool`: a background subagent's permission request now goes to the prompt tool instead of being auto-denied\n- Fixed `claude mcp list` and `claude mcp get`, and the not-found error of `claude mcp remove`, `login` and `logout`, printing line breaks and terminal escape sequences from MCP server names and values\n- Fixed sandbox auto-allow asking for approval on every run of many inline scripts (`python3 -c`, `node -e`) just beca"
+  },
+  {
+   "repo": "anthropics/anthropic-sdk-typescript",
+   "version": "sdk-v0.130.0",
+   "name": "sdk: v0.130.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.130.0",
+   "published_at": "2026-09-30T18:29:28Z",
+   "prerelease": false,
+   "body": "## 0.130.0 (2026-09-30)\n\nFull Changelog: [sdk-v0.129.0...sdk-v0.130.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.129.0...sdk-v0.130.0)\n\n### Features\n\n* **api:** add a refusal stop reason and stop_details to Managed Agents session idle events ([5cd6910](https://github.com/anthropics/anthropic-sdk-typescript/commit/5cd6910a0e74923f1bef35f5368f9c2cee410058))\n* **api:** add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API ([109c766](https://github.com/anthropics/anthropic-sdk-typescript/commit/109c76647ab5c997820e3d316f4df192926e4156))\n* **api:** add per-user usage and cost reports to the Admin API analytics ([0a74a28](https://github.com/anthropics/anthropic-sdk-typescript/commit/0a74a2833469e2972d08b866bbfcecb096138f73))\n* **api:** add Plugins and Plugin Marketplaces to the Admin API ([40c2160](https://github.com/anthropics/anthropic-sdk-typescript/commit/40c2160271c63605f161c0d0dd8a8aff0fcf81de))\n* **api:** add repository error types to Managed Agents session errors ([6735615](https://github.com/anthropics/anthropic-sdk-typescript/commit/673561514091a1339b3350f1beb2ae2ec2528528))\n* **api:** allow removing a plugin's org-wide installation setting ([c7d120f](https://github.com/anthropics/anthropic-sdk-typescript/commit/c7d120f29a15b79d3560322836be7b91c5c0b2be))\n* **api:** MCP tunnels beta: add read-only `transport` object to Tunnel and return the one-time relay `token` in the create response ([b0e57ce](https://github.com/anthropics/anthropic-sdk-typescript/commit/b0e57ce51410dccafee49103bd1e0d3b307e3504))\n* **api:** Organization API endpoints are now GA ([1a1fd8f](https://github.com/anthropics/anthropic-sdk-typescript/commit/1a1fd8f8d7e5b55f4f759150b5c4064da1df45ac))\n\n\n### Bug Fixes\n\n* **api:** make memory store description, metadata, archived_at required ([ed68900](https://github.com/anthropics/anthropic-sdk-typescript/commit/ed68900ed31097a089afbdf0b681446020b642ce))\n* **api:** type admin plugin preference and marketplace fields as enums ([942ae01](https://github.com/anthropics/anthropic-sdk-typescript/commit/942ae01dc1b9fa0c6cad49ed564c4824e36d3e81))\n* **pagination:** auto-paging continues past an empty page while next_page is set ([2d75266](https://github.com/anthropics/anthropic-sdk-typescript/commit/2d75266273fcb7908b3ab24a53d3cdcda2b66002))\n* **tool-runner:** only send API fields for runnable tools ([#404](https://github.com/anthropics/anthropic-sdk-typescript/issues/404)) ([a62c2a2](https://github.com/anthropics/anthropic-sdk-typescript/commit/a62c2a2d12234be38f620b60526f179b39e5c738))\n* **tools:** stop the session tool runner after any idle that ends the turn ([#878](https://github.com/anthropics/anthropic-sdk-typescript/issues/878)) ([cab32f8](https://github.com/anthropics/anthropic-sdk-typescript/commit/cab32f8b2bea8514572f39a557d08b44ee86568c))\n\n\n### Chores\n\n* **api:** update MCP Tunnels types and descriptions ([394d60c](https://github.com/anthropics/anthropic-sdk-typescript"
+  },
+  {
+   "repo": "cloudflare/workers-sdk",
+   "version": "wrangler@4.145.0",
+   "name": "wrangler@4.145.0",
+   "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.145.0",
+   "published_at": "2026-09-30T14:36:05Z",
+   "prerelease": false,
+   "body": "### Minor Changes\n\n- [#15685](https://github.com/cloudflare/workers-sdk/pull/15685) [`b9f1cdc`](https://github.com/cloudflare/workers-sdk/commit/b9f1cdc198533687f6b64ce72499a3ca04b2bf85) Thanks [@Ankcorn](https://github.com/Ankcorn)! - Add native support for the Analytics SQL binding\n\n  Declare the zero-configuration binding in `wrangler.json` with `\"analytics\": { \"binding\": \"ANALYTICS\" }`. Wrangler uploads the `analytics` binding type and proxies it to the remote service during local development, so `wrangler dev` can call the binding without `unsafe.bindings`.\n\n- [#15943](https://github.com/cloudflare/workers-sdk/pull/15943) [`8468487`](https://github.com/cloudflare/workers-sdk/commit/8468487cd1e5c3b6870822348d8ef20c1df53a13) Thanks [@sejoker](https://github.com/sejoker)! - Graduate SQL, Catalog, and Pipelines under `wrangler basin` out of beta to stable\n\n  Basin SQL is now available under `wrangler basin sql`, Basin Catalog operations are available under `wrangler basin catalog`, and Pipelines operations are available under `wrangler basin pipelines`. These commands are now stable, while the previous `wrangler r2 sql`, `wrangler r2 bucket catalog`, and `wrangler pipelines` command paths remain available as hidden compatibility aliases.\n\n  The Basin SQL authentication environment variable is now `WRANGLER_BASIN_SQL_AUTH_TOKEN`. Update any existing `WRANGLER_R2_SQL_AUTH_TOKEN` configuration to use the new name. The fallback to `CLOUDFLARE_API_TOKEN` remains available.\n\n- [#15948](https://github.com/cloudflare/workers-sdk/pull/15948) [`a0712e5`](https://github.com/cloudflare/workers-sdk/commit/a0712e578e45908ed5e46235828a434b49cf8f22) Thanks [@akoval-cf](https://github.com/akoval-cf)! - Add beta K2 producer bindings for existing streams\n\n  Configure a stream created through Wrangler, the Dashboard, or the API in `wrangler.json`:\n\n  ```jsonc\n  {\n    \"k2\": [\n      {\n        \"binding\": \"ORDERS\",\n        \"stream\": \"0123456789abcdef0123456789abcdef\"\n      }\n    ]\n  }\n  ```\n\n  The binding supports `env.ORDERS.send([{ content: new TextEncoder().encode(\"order\"), headers: { event: \"order.created\" } }])`. Batches use either all `ArrayBuffer` or all `Uint8Array` content. Check the returned `success` value, handle rejected RPC promises, and retry only when the returned error explicitly allows it. Generated environment types describe this producer contract without requiring a separate application dependency.\n\n  K2 requires an enabled account. Deployment credentials need Worker deployment and K2 configuration-read access. Default Wrangler logins now request the K2 OAuth scopes; existing OAuth users should run `wrangler login` again to grant the new permissions. Development always uses a real K2 stream and may incur usage charges; no local simulator is provided. The `remote` setting can be omitted, `remote: true` suppresses the usage warning, and `remote: false` is rejected. Consumption is not part of this Worker binding.\n\n- [#15948](https://github.com/cloudfla"
+  },
+  {
+   "repo": "astral-sh/uv",
+   "version": "0.12.21",
+   "name": "0.12.21",
+   "url": "https://github.com/astral-sh/uv/releases/tag/0.12.21",
+   "published_at": "2026-09-29T21:14:06Z",
+   "prerelease": false,
+   "body": "## Release Notes\n\nReleased on 2026-09-29.\n\n### Python\n\n- Update CPython to use OpenSSL 3.5.9 ([#22076](https://github.com/astral-sh/uv/pull/22076))\n\n### Enhancements\n\n- Omit empty `[manifest]` tables from lockfiles that contain only manifest subtables ([#22070](https://github.com/astral-sh/uv/pull/22070))\n\n### Preview features\n\n- Omit redundant runtime constraints from `uv.lock`, including those involving pre-releases, with the `resolution-inputs` preview feature ([#22004](https://github.com/astral-sh/uv/pull/22004), [#22068](https://github.com/astral-sh/uv/pull/22068))\n\n### Bug fixes\n\n- Prevent `uv python pin --rm` from removing a global `.python-versions` file without `--global` ([#21992](https://github.com/astral-sh/uv/pull/21992))\n- Fix installed-package checks incorrectly reporting post-releases as incompatible with exclusive lower bounds on pre-releases ([#22049](https://github.com/astral-sh/uv/pull/22049))\n\n## Install uv 0.12.21\n\n### Install prebuilt binaries via shell script\n\n```sh\ncurl --proto '=https' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-installer.sh | sh\n```\n\n### Install prebuilt binaries via powershell script\n\n```sh\npowershell -ExecutionPolicy Bypass -c \"irm https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-installer.ps1 | iex\"\n```\n\n## Download uv 0.12.21\n\n|  File  | Platform | Checksum |\n|--------|----------|----------|\n| [uv-aarch64-apple-darwin.tar.gz](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-apple-darwin.tar.gz) | Apple Silicon macOS | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-apple-darwin.tar.gz.sha256) |\n| [uv-x86_64-apple-darwin.tar.gz](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-apple-darwin.tar.gz) | Intel macOS | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-apple-darwin.tar.gz.sha256) |\n| [uv-aarch64-pc-windows-msvc.zip](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-pc-windows-msvc.zip) | ARM64 Windows | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-pc-windows-msvc.zip.sha256) |\n| [uv-i686-pc-windows-msvc.zip](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-i686-pc-windows-msvc.zip) | x86 Windows | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-i686-pc-windows-msvc.zip.sha256) |\n| [uv-x86_64-pc-windows-msvc.zip](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-pc-windows-msvc.zip) | x64 Windows | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-pc-windows-msvc.zip.sha256) |\n| [uv-aarch64-unknown-linux-gnu.tar.gz](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-unknown-linux-gnu.tar.gz) | ARM64 Linux | [checksum](https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-aarch64-unknown-linux-gnu.tar.gz.sha256) |\n| [uv-i6"
+  },
+  {
+   "repo": "astral-sh/uv",
+   "version": "0.12.20",
+   "name": "0.12.20",
+   "url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+   "published_at": "2026-09-28T23:20:35Z",
+   "prerelease": false,
+   "body": "## Release Notes\n\nReleased on 2026-09-28.\n\n### Enhancements\n\n- Reuse lockfiles when dependency declarations are semantically equivalent ([#21951](https://github.com/astral-sh/uv/pull/21951))\n- Preserve second-line encoding declarations when installing wheel scripts with CRLF shebangs ([#21990](https://github.com/astral-sh/uv/pull/21990))\n\n### Preview features\n\n- Write normalized requirement declarations with the `lockfile-normalization` preview feature ([#21951](https://github.com/astral-sh/uv/pull/21951))\n- Honor synthetic default groups when installing or syncing from `pylock.toml` ([#22003](https://github.com/astral-sh/uv/pull/22003))\n- Resolve local paths in exported `pylock.toml` files relative to the output file ([#22042](https://github.com/astral-sh/uv/pull/22042))\n- Install each package only once when repeated `tool-install-locks` requirements resolve to the same package ([#22000](https://github.com/astral-sh/uv/pull/22000))\n- Reuse `lock-without-metadata` lockfiles for conflicting groups with distinct base and extra requirement specifiers ([#22055](https://github.com/astral-sh/uv/pull/22055))\n- Use consistent root-package paths in `uv workspace metadata` and `uv tree --format json` output ([#22050](https://github.com/astral-sh/uv/pull/22050))\n\n### Configuration\n\n- Continue searching `XDG_CONFIG_DIRS` after empty entries ([#21987](https://github.com/astral-sh/uv/pull/21987))\n\n### Performance\n\n- Restore the previous HTTP cache-write scheduling while investigating severe cache-revalidation stalls on ext4 filesystems ([#22051](https://github.com/astral-sh/uv/pull/22051))\n\n### Bug fixes\n\n- Apply hash constraints to every repeated requirement under `--require-hashes` and `--verify-hashes` ([#21996](https://github.com/astral-sh/uv/pull/21996))\n- Allow metadata builds for first-party workspace projects under `--no-build` ([#21988](https://github.com/astral-sh/uv/pull/21988))\n- Honor project exclusion flags with `--all-packages`, including `--no-install-project` and `--no-emit-project` ([#21994](https://github.com/astral-sh/uv/pull/21994))\n- Restore `pyproject.toml` if `uv upgrade` fails or is interrupted ([#21983](https://github.com/astral-sh/uv/pull/21983))\n- Generate working Nushell activation scripts for relocatable virtual environments ([#21979](https://github.com/astral-sh/uv/pull/21979))\n- Prevent commands from running and changing state after displaying `--show-settings` ([#21989](https://github.com/astral-sh/uv/pull/21989))\n- Treat UTF-16 requirements files containing only a byte-order mark as empty ([#21991](https://github.com/astral-sh/uv/pull/21991))\n- Ignore unrecognized managed-Python implementation directories during `uv python list` and `uv python upgrade` instead of panicking ([#22033](https://github.com/astral-sh/uv/pull/22033))\n- Avoid panics and incorrect rewriting when managed Python sysconfig paths merely start with `/install` ([#22036](https://github.com/astral-sh/uv/pull/22036))\n- Report whitespace-only non-ASCII requireme"
+  }
+ ]
+}
