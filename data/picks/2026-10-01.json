@@ -1,0 +1,74 @@
+{
+  "edition": "daily",
+  "headline": "Gemini 4 ArgonとMCP不要論が並び、Next.jsをVercel以外へ展開するVinext 1.0も話題になった一日。",
+  "reading_list": [
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "Gemini 4 Argon",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Googleの新フラグシップモデルの公式発表で、LLM選定やエージェント開発の前提が変わりうるため今日まず押さえておきたい。",
+      "takeaway": "Gemini 4 Argonの位置づけと主な性能・機能面のポイントがわかる。"
+    },
+    {
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "title": "You said no MCP",
+      "category": "AI",
+      "minutes": 6,
+      "why": "MCPをあえて採用しないという判断とその理由を扱っており、MCP導入を検討している読者に判断材料を与える。",
+      "takeaway": "MCPを避けるべきケースと、その代わりに取りうるアプローチの考え方がわかる。"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "category": "フロントエンド",
+      "minutes": 4,
+      "why": "Next.jsをVercel以外のサーバーレス基盤へデプロイする選択肢が増え、インフラ選定の幅が広がる。",
+      "takeaway": "Vinext 1.0を使ってNext.jsアプリをCloudflare WorkersやAWS Lambdaへデプロイする方法の概要がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "language": "C++",
+      "stars": 2943,
+      "stars_per_day": 1213,
+      "what": "普通のゲーミングPC1台でQwen3.8-Flash-Next（125B）をワンクリックで動かせる推論エンジン。",
+      "why": "OpenAI/Anthropic互換APIをlocalhostで公開でき、ローカルでLLMを検証したい開発者から急速に支持を集めている。",
+      "try": "READMEのワンクリックインストーラーでWindows/Linuxにセットアップし、localhostのOpenAI/Anthropic互換エンドポイントを呼び出す。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.3.8",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8",
+      "summary": "Image最適化でのSSRFやApp Routerメタデータ画像ルートの情報漏洩、SSG/ISRのキャッシュポイズニングなど複数のセキュリティ修正を含み、早めの更新が推奨される。"
+    },
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.12",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.12",
+      "summary": "etagヘッダー名の大文字小文字不一致やsome()がResponseを返さない不具合など、複数のバグ修正が入った安定版。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.286",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "summary": "gcpAuthRefresh/awsAuthRefreshの期限切れ時に複数プロセスがログインブラウザを多重起動してしまう不具合など、CLI/IDE拡張の細かな修正が入った。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v0.130.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.130.0",
+      "summary": "Admin APIにClaude Enterpriseの分析・使用量レポート・Plugins管理などが追加された。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.145.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.145.0",
+      "summary": "Analytics SQLバインディングがゼロコンフィグで追加され、Basin SQL/Catalog/Pipelinesがベータを抜けて正式版になった。"
+    }
+  ]
+}
