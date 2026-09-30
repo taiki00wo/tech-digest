@@ -2,7 +2,9 @@
 """data/raw と data/picks から digest/YYYY-MM-DD.html と digest/index.html を生成する。
 
 使い方: python3 render.py [YYYY-MM-DD]   （省略時は最新の raw）
-構成: 今日の流れ → 読む順の5本 → 今日のOSS → リリース → 深掘り（火・金）→ 登壇スライド → 見出しだけ
+構成（picks.edition で切り替え）:
+  日刊: 今日の流れ → 今日の3本 → 今日のOSS → リリース（畳む）
+  週刊: 今週の流れ → 今週のベスト5 → 今週のOSS → 深掘り → 登壇スライド → リリース → 見出し → 未読の「あとで読む」
 各記事の ☆ で「あとで読む」に保存でき（ブラウザの localStorage）、bookmarks.html で一覧できる。
 """
 import json
@@ -45,6 +47,8 @@ pre{padding:10px 12px;margin:8px 0 0;overflow-x:auto;white-space:pre-wrap;word-b
 .bmrow{display:flex;gap:10px;align-items:baseline;padding:10px 2px;border-bottom:1px solid var(--line)}.bmrow .t{flex:1}
 .bmrow button,.tools button{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;cursor:pointer;color:var(--text);font-size:13px}
 .tools{display:flex;gap:8px;margin:12px 0}.empty{color:var(--muted)}
+details>summary{cursor:pointer;list-style:none;margin:36px 0 12px}details>summary::-webkit-details-marker{display:none}
+details>summary h2{margin:0}details>summary::after{content:" ▸";color:var(--muted)}details[open]>summary::after{content:" ▾"}
 """
 
 JS = """
@@ -54,7 +58,7 @@ document.querySelectorAll('.bm').forEach(b=>{const u=b.dataset.url;const on=()=>
 b.addEventListener('click',()=>{bms[u]?delete bms[u]:bms[u]={title:b.dataset.title,date:b.dataset.date,added:Date.now()};saveBms();on()})});
 saveBms();
 const list=document.getElementById('bm-list');
-function drawList(){if(!list)return;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added);
+function drawList(){if(!list)return;const lim=+list.dataset.limit||1e9;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added).slice(0,lim);
 list.innerHTML=rows.length?'':'<p class="empty">まだありません。各記事の ☆ を押すとここに溜まります。</p>';
 rows.forEach(([u,v])=>{const r=document.createElement('div');r.className='bmrow';const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.className='t';a.textContent=v.title||u;
 const m=document.createElement('span');m.className='meta';m.textContent=v.date||'';const x=document.createElement('button');x.textContent='読んだ・外す';x.onclick=()=>{delete bms[u];saveBms();drawList()};r.append(a,m,x);list.append(r)})}
@@ -113,9 +117,11 @@ def reading_card(n, r, raw_item, date):
 
 
 def oss_card(o, date):
-    spd = o.get("stars_per_day")
+    spd, week = o.get("stars_per_day"), o.get("stars_week")
     meta = [escape(o.get("language") or ""), f'<span class="score">★ {o.get("stars", 0):,}</span>']
-    if spd:
+    if week:
+        meta.append(f'<span class="chip">今週 +{week:,}</span>')
+    elif spd:
         meta.append(f'<span class="chip">+{spd:,}/日</span>')
     try_html = f'<pre>{escape(o["try"])}</pre>' if o.get("try") else ""
     return (f'<div class="card">{chk(o["url"])}{bm(o["url"], o["repo"], date)}<h3>{a(o["url"], o["repo"])}</h3>'
@@ -124,9 +130,12 @@ def oss_card(o, date):
             f'<p><span class="label">なぜ伸びてる</span>{escape(o.get("why", ""))}</p>{try_html}</div>')
 
 
-def release_card(r, date):
-    return (f'<div class="card">{bm(r["url"], r["repo"] + " " + r["version"], date)}<h3>{a(r["url"], r["repo"] + " " + r["version"])}</h3>'
-            f'<p style="white-space:pre-line">{escape(r.get("summary", ""))}</p></div>')
+def releases_block(rels, date, open_=False):
+    """リリースは1行ずつ。日刊では畳んでおく。"""
+    rows = "".join(f'<li>{bm(r["url"], r["repo"] + " " + r["version"], date)}<span class="t">{a(r["url"], r["repo"] + " " + r["version"])}'
+                   f' <span class="note">— {escape(" ".join(r.get("summary", "").split()))}</span></span></li>' for r in rels)
+    return (f'<details{" open" if open_ else ""}><summary><h2 style="display:inline">リリース <small>{len(rels)}件</small></h2></summary>'
+            f'<ul class="heads">{rows}</ul></details>')
 
 
 def deep_dive(d, date):
@@ -146,11 +155,13 @@ def render_day(date):
     picks_path = PICKS / f"{date}.json"
     picks = json.loads(picks_path.read_text()) if picks_path.exists() else {}
     by_url = {i["url"]: i for i in raw["items"]}
+    weekly = picks.get("edition") == "weekly"
     reading = picks.get("reading_list", [])
     total = sum(r.get("minutes") or 0 for r in reading)
 
-    sub = (f'{raw["weekday"]}曜日' if raw.get("weekday") else "") + (f" ・ 読む時間の目安 {total}分" if total else "")
-    body = [f'<header><h1>Tech Digest {date}</h1><p>{sub}</p>{NAV}</header>']
+    title = f"今週のまとめ {date}" if weekly else f"Tech Digest {date}"
+    sub = ("土曜日・今週のまとめ" if weekly else (f'{raw["weekday"]}曜日' if raw.get("weekday") else "")) + (f" ・ 読む時間の目安 {total}分" if total else "")
+    body = [f'<header><h1>{"🗞 " if weekly else ""}{title}</h1><p>{sub}</p>{NAV}</header>']
     if raw.get("errors"):
         body.append('<p class="err">取得できなかった情報源: ' + escape(", ".join(raw["errors"])) + "</p>")
 
@@ -159,7 +170,7 @@ def render_day(date):
         body.append(f'<section class="flow"><strong>{escape(picks["headline"])}</strong>{f"<ul>{trends}</ul>" if trends else ""}</section>')
 
     if reading:
-        body.append(f'<h2>読む順に{len(reading)}本 <small>上から順に</small></h2>')
+        body.append(f'<h2>{"今週のベスト" if weekly else "今日の"}{len(reading)}{"" if weekly else "本"} <small>上から順に</small></h2>')
         body += [reading_card(n, r, by_url.get(r["url"]), date) for n, r in enumerate(reading, 1)]
     else:  # 要約が無い日（AI処理が失敗した日など）はスコア上位だけ出す
         top = sorted(raw["items"], key=lambda x: -(x.get("score") or 0))[:10]
@@ -167,9 +178,9 @@ def render_day(date):
                     + "".join(f'<li>{bm(i["url"], i["title"], date)}<span class="t">{a(i["url"], i["title"])} <span class="note">{escape(i["source"])}</span></span></li>' for i in top) + "</ul>")
 
     if picks.get("oss"):
-        body.append('<h2>今日のOSS</h2>' + "".join(oss_card(o, date) for o in picks["oss"]))
-    if picks.get("releases"):
-        body.append('<h2>リリース <small>ウォッチ中のリポジトリ</small></h2>' + "".join(release_card(r, date) for r in picks["releases"]))
+        body.append(f'<h2>{"今週" if weekly else "今日"}のOSS</h2>' + "".join(oss_card(o, date) for o in picks["oss"]))
+    if picks.get("releases") and not weekly:
+        body.append(releases_block(picks["releases"], date))
     if picks.get("deep_dive"):
         body.append('<h2>OSS深掘り <small>READMEから</small></h2>' + deep_dive(picks["deep_dive"], date))
     if picks.get("talks"):
@@ -177,14 +188,20 @@ def render_day(date):
             f'<div class="card">{chk(t["url"])}{bm(t["url"], t["title"], date)}<h3>{a(t["url"], t["title"])}</h3>'
             + (f'<div class="meta">{escape(t["event"])}</div>' if t.get("event") else "")
             + f'<p>{escape(t.get("why", ""))}</p></div>' for t in picks["talks"]))
+    if picks.get("releases") and weekly:
+        body.append(releases_block(picks["releases"], date, open_=True))
     if picks.get("headlines"):
         body.append('<h2>見出しだけ</h2><ul class="heads">' + "".join(
             f'<li>{bm(h["url"], h["title"], date)}<span class="t"><span class="chip">{escape(h.get("category", ""))}</span> {a(h["url"], h["title"])}'
             + (f' <span class="note">— {escape(h["note"])}</span>' if h.get("note") else "") + "</span></li>"
             for h in picks["headlines"]) + "</ul>")
 
+    if weekly:  # 中身はブラウザの localStorage から JS で描画する
+        body.append('<h2>未読の「あとで読む」</h2><div id="bm-list" data-limit="5"></div>'
+                    '<p class="nav"><a href="bookmarks">すべて見る →</a></p>')
+
     OUT.mkdir(exist_ok=True)
-    (OUT / f"{date}.html").write_text(page(f"Tech Digest {date}", "".join(body), picks.get("headline", "")))
+    (OUT / f"{date}.html").write_text(page(title, "".join(body), picks.get("headline", "")))
 
 
 def render_index():
@@ -192,8 +209,9 @@ def render_index():
     rows = []
     for d in days:
         p = PICKS / f"{d}.json"
-        head = json.loads(p.read_text()).get("headline", "") if p.exists() else ""
-        rows.append(f'<li><a href="{d}">{d}</a> <span class="meta">{escape(head)}</span></li>')
+        picks = json.loads(p.read_text()) if p.exists() else {}
+        mark = "🗞 今週のまとめ " if picks.get("edition") == "weekly" else ""
+        rows.append(f'<li><a href="{d}">{mark}{d}</a> <span class="meta">{escape(picks.get("headline", ""))}</span></li>')
     latest = f'<p><a href="{days[0]}">最新号を読む →</a></p>' if days else ""
     (OUT / "index.html").write_text(page("Tech Digest", f'<header><h1>Tech Digest</h1><p>毎朝の技術ダイジェスト</p>{NAV}</header>'
                                                         f'{latest}<h2>アーカイブ</h2><ul class="archive">{"".join(rows)}</ul>'))

@@ -147,20 +147,16 @@
   },
   "oss": {
     "candidates": 15,
-    "readme_top": 6,
-    "deep_dive_weekdays": [
-      1,
-      4
-    ]
+    "readme_top": 6
   },
   "watch_repos": [
     "vercel/next.js",
     "facebook/react",
     "microsoft/TypeScript",
     "vitejs/vite",
-    "honojs/hono",
+    "honojs/hono:v",
     "anthropics/claude-code",
-    "anthropics/anthropic-sdk-typescript",
+    "anthropics/anthropic-sdk-typescript:sdk-v",
     "cloudflare/workers-sdk:wrangler@",
     "astral-sh/uv",
     "golang/go"
@@ -172,9 +168,16 @@
       "クラウド / サーバーレス（AWS・Cloudflare・GCP）",
       "Go / Python などのバックエンド"
     ],
-    "minutes_per_day": 15,
-    "reading_list_size": 5,
-    "headlines_size": 10,
-    "talks_size": 3
+    "daily": {
+      "reading": 3,
+      "oss": 1
+    },
+    "weekly": {
+      "reading": 5,
+      "oss": 3,
+      "talks": 3,
+      "headlines": 10,
+      "weekday": 5
+    }
   }
 }

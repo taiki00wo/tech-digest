@@ -102,9 +102,9 @@ def readme(name, limit=6000):
 PRERELEASE_RE = re.compile(r"canary|alpha|beta|rc\.?\d|nightly|next|preview|experimental", re.I)
 
 
-def releases(watch, today):
-    """ウォッチ対象の正式リリース（直近2日）。"owner/repo:prefix" と書くとタグの接頭辞で絞る（モノレポ用）。"""
-    cutoff = (today - timedelta(days=2)).isoformat()
+def releases(watch, today, days=2):
+    """ウォッチ対象の正式リリース（直近 days 日）。"owner/repo:prefix" と書くとタグの接頭辞で絞る（モノレポ用）。"""
+    cutoff = (today - timedelta(days=days)).isoformat()
 
     def one(entry):
         name, _, prefix = entry.partition(":")
@@ -124,7 +124,7 @@ def releases(watch, today):
         return [r for rs in ex.map(one, watch) for r in rs]
 
 
-def collect(config, items, today_dt, stars_path):
+def collect(config, items, today_dt, stars_path, release_days=2):
     today_str = today_dt.strftime("%Y-%m-%d")
     repos = candidates(config, items, today_dt)
     update_stars(repos, stars_path, today_str)
@@ -133,5 +133,5 @@ def collect(config, items, today_dt, stars_path):
     with ThreadPoolExecutor(6) as ex:
         for r, text in zip(ranked[:config["oss"]["readme_top"]], ex.map(readme, [r["repo"] for r in ranked[:config["oss"]["readme_top"]]])):
             r["readme"] = text
-    rels = releases(config["watch_repos"], today_dt.astimezone(timezone.utc))
+    rels = releases(config["watch_repos"], today_dt.astimezone(timezone.utc), release_days)
     return ranked, rels

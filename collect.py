@@ -163,6 +163,7 @@ def clean_markdown(text, limit):
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"^\s*#+\s*", "", text, flags=re.M)   # 見出し記号は brief の区切りと紛らわしいので外す
     text = re.sub(r"[ \t]+", " ", re.sub(r"\n\s*\n+", "\n", text)).strip()
     return text[:limit]
 
@@ -170,10 +171,10 @@ def clean_markdown(text, limit):
 def write_brief(out, path):
     """Claude が読む用の圧縮版（raw の JSON は大きいので、選定に必要な項目だけ Markdown にする）。
     紹介済みの記事・OSS は載せない。"""
-    lines = [f"# {out['date']}（{out['weekday']}） deep_dive_day={str(out['deep_dive_day']).lower()}",
+    lines = [f"# {out['date']}（{out['weekday']}） edition=daily",
              f"取得失敗: {', '.join(out['errors']) or 'なし'}", "", "## 記事（source | score | 自動分類 | タイトル | 概要 | url）"]
     for it in out["items"]:
-        if it["seen_before"]:
+        if it["seen_before"] or it["source"] == "Speaker Deck":  # 登壇スライドは週刊で扱う
             continue
         score = it["score"] if it["score"] is not None else "-"
         summary = re.sub(r"\s+", " ", it["summary"])[:80]
@@ -198,6 +199,91 @@ def write_brief(out, path):
     path.write_text("\n".join(lines) + "\n")
 
 
+WEEKLY_PER_SOURCE = {"Hacker News": 15, "はてブ テクノロジー": 15, "Zenn": 10, "Qiita": 10, "Speaker Deck": 20}  # 他（公式ブログ）は全部
+
+
+def featured_urls(today, days=7):
+    """直近のダイジェストで紹介済みの URL（週刊で同じ記事を出さないため）。"""
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    urls = set()
+    for p in (ROOT / "data" / "picks").glob("*.json"):
+        if cutoff <= p.stem < today:
+            picks = json.loads(p.read_text())
+            for key in ("reading_list", "headlines", "talks", "oss"):
+                urls |= {x.get("url") for x in picks.get(key, [])}
+    return urls - {None}
+
+
+def weekly_star_growth(repo, stars_history, start):
+    """stars.json の履歴から、週の間に増えたスター数を返す（記録が1点しか無ければ None）。"""
+    h = {d: s for d, s in stars_history.get(repo, {}).items() if d >= start}
+    if len(h) < 2:
+        return None
+    return h[max(h)] - h[min(h)]
+
+
+def write_weekly_brief(out, path):
+    """週刊用の brief: 直近7日分の raw をまとめ、紹介済みを除き、ソースごとに上位だけ残す。"""
+    today = out["date"]
+    start = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=6)).strftime("%Y-%m-%d")
+    raws = [json.loads(p.read_text()) for p in sorted((ROOT / "data" / "raw").glob("*.json")) if start <= p.stem <= today]
+
+    items = {}
+    for raw in raws:
+        for it in raw["items"]:
+            prev = items.get(it["url"])
+            if prev is None or (it.get("score") or 0) > (prev.get("score") or 0):
+                items[it["url"]] = it
+    done = featured_urls(today)
+    by_source = {}
+    for it in items.values():
+        if it["url"] not in done:
+            by_source.setdefault(it["source"], []).append(it)
+
+    lines = [f"# {start} 〜 {today}（{out['weekday']}） edition=weekly",
+             f"取得失敗（今日の収集）: {', '.join(out['errors']) or 'なし'}", "",
+             "## 今週の記事（日刊で紹介済みのものは除外。source | score | 自動分類 | タイトル | 概要 | url）"]
+    for source, its in by_source.items():
+        its.sort(key=lambda x: -(x.get("score") or 0))  # score が無いソースは収集順（＝人気順）のまま
+        for it in its[:WEEKLY_PER_SOURCE.get(source)]:
+            score = it["score"] if it["score"] is not None else "-"
+            summary = re.sub(r"\s+", " ", it["summary"])[:80]
+            lines.append(f"- {source} | {score} | {'/'.join(it['categories'])} | {it['title']} | {summary} | {it['url']}")
+
+    # OSS: 週内の候補を集め、7日間のスター増分で並べる
+    stars_path = ROOT / "data" / "stars.json"
+    history = json.loads(stars_path.read_text()) if stars_path.exists() else {}
+    pool = {}
+    for raw in raws:
+        for r in raw.get("oss", []):
+            if r.get("readme") or r["repo"] not in pool:
+                pool[r["repo"]] = r
+    featured = recently_featured(today)
+    ranked = []
+    for r in pool.values():
+        if r["repo"] in featured or r["repo"] in done:
+            continue
+        growth = weekly_star_growth(r["repo"], history, start)
+        ranked.append((growth if growth is not None else (r.get("stars_per_day") or 0) * 7, growth is None, r))
+    ranked.sort(key=lambda x: -x[0])
+    lines += ["", "## 今週のOSS候補（週間スター増分順。~ は1日あたりの平均から推定）"]
+    for growth, estimated, r in ranked[:10]:
+        lines.append(f"### {r['repo']} | {r['language']} | ★{r['stars']} | 今週 +{'~' if estimated else ''}{growth} | {r['url']}")
+        lines.append(r["description"])
+        if r.get("readme"):
+            lines.append("README: " + clean_markdown(r["readme"], 900))
+
+    lines += ["", "## 今週のリリース"]
+    latest = {}
+    for r in out["releases"]:
+        latest.setdefault(r["repo"], r)
+    for r in latest.values():
+        lines.append(f"### {r['repo']} {r['version']} | {r['url']}")
+        lines.append(clean_markdown(r["body"], 500))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n")
+
+
 def recently_featured(today, days=30):
     """過去のダイジェストで紹介済みのリポジトリ（同じOSSを繰り返し出さないため）。"""
     cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
@@ -212,7 +298,10 @@ def recently_featured(today, days=30):
 
 def main():
     now = datetime.now(JST)
+    if os.environ.get("DIGEST_DATE"):  # 動作確認用: 日付を上書きする（例: 土曜にして週刊を試す）
+        now = datetime.strptime(os.environ["DIGEST_DATE"], "%Y-%m-%d").replace(hour=6, tzinfo=JST)
     today = now.strftime("%Y-%m-%d")
+    edition = "weekly" if now.weekday() == CONFIG["reader_profile"]["weekly"]["weekday"] else "daily"
     sources = {"Hacker News": hackernews, "Zenn": zenn, "Qiita": qiita, "はてブ": hatena,
                "公式ブログ": rss_feeds}
     items, errors = [], {}
@@ -229,7 +318,7 @@ def main():
 
     seen_path = ROOT / "data" / "seen.json"
     seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
-    cutoff = (datetime.now(JST) - timedelta(days=CONFIG["seen_retention_days"])).strftime("%Y-%m-%d")
+    cutoff = (now - timedelta(days=CONFIG["seen_retention_days"])).strftime("%Y-%m-%d")
     seen = {u: d for u, d in seen.items() if d >= cutoff}
 
     uniq = {}
@@ -245,7 +334,8 @@ def main():
     # OSS（急上昇・リリース・README）
     oss_repos, releases = [], []
     try:
-        oss_repos, releases = oss.collect(CONFIG, items, now, ROOT / "data" / "stars.json")
+        oss_repos, releases = oss.collect(CONFIG, items, now, ROOT / "data" / "stars.json",
+                                         release_days=7 if edition == "weekly" else 2)
         featured = recently_featured(today)
         for r in oss_repos:
             r["featured_before"] = r["repo"] in featured
@@ -254,8 +344,7 @@ def main():
         errors["GitHub"] = str(e)
         print(f"  ! GitHub: {e}", file=sys.stderr)
 
-    out = {"date": today, "weekday": "月火水木金土日"[now.weekday()],
-           "deep_dive_day": now.weekday() in CONFIG["oss"]["deep_dive_weekdays"],
+    out = {"date": today, "weekday": "月火水木金土日"[now.weekday()], "edition": edition,
            "collected_at": now.isoformat(timespec="seconds"),
            "errors": errors, "items": list(uniq.values()), "oss": oss_repos, "releases": releases}
     raw_dir = ROOT / "data" / "raw"
@@ -263,9 +352,10 @@ def main():
     path = raw_dir / f"{today}.json"
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     seen_path.write_text(json.dumps(seen, ensure_ascii=False))
-    write_brief(out, ROOT / "data" / "brief" / f"{today}.md")
+    brief = ROOT / "data" / "brief" / f"{today}.md"
+    write_weekly_brief(out, brief) if edition == "weekly" else write_brief(out, brief)
     new = sum(not i["seen_before"] for i in out["items"])
-    print(f"保存: {path.relative_to(ROOT)}  (記事{len(out['items'])}件・新着{new}件 / OSS{len(oss_repos)}件 / リリース{len(releases)}件)")
+    print(f"保存: {path.relative_to(ROOT)}  [{edition}] (記事{len(out['items'])}件・新着{new}件 / OSS{len(oss_repos)}件 / リリース{len(releases)}件)")
 
 
 if __name__ == "__main__":

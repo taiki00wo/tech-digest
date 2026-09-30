@@ -31,6 +31,8 @@ pre{padding:10px 12px;margin:8px 0 0;overflow-x:auto;white-space:pre-wrap;word-b
 .bmrow{display:flex;gap:10px;align-items:baseline;padding:10px 2px;border-bottom:1px solid var(--line)}.bmrow .t{flex:1}
 .bmrow button,.tools button{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;cursor:pointer;color:var(--text);font-size:13px}
 .tools{display:flex;gap:8px;margin:12px 0}.empty{color:var(--muted)}
+details>summary{cursor:pointer;list-style:none;margin:36px 0 12px}details>summary::-webkit-details-marker{display:none}
+details>summary h2{margin:0}details>summary::after{content:" ▸";color:var(--muted)}details[open]>summary::after{content:" ▾"}
 </style></head><body><main><header><h1>☆ あとで読む</h1><p>このブラウザに保存されています</p><div class="nav"><a href="./">アーカイブ</a> ・ <a href="bookmarks">☆ あとで読む <span class="bm-count"></span></a></div></header><div class="tools"><button type="button" id="bm-export">書き出し</button><label><button type="button" onclick="this.nextElementSibling.click()">読み込み</button><input type="file" id="bm-import" accept="application/json" hidden></label></div><div id="bm-list"></div></main><script>
 const BKEY='tech-digest-bookmarks';let bms={};try{bms=JSON.parse(localStorage.getItem(BKEY)||'{}')}catch(e){}
 function saveBms(){try{localStorage.setItem(BKEY,JSON.stringify(bms))}catch(e){}document.querySelectorAll('.bm-count').forEach(e=>e.textContent=Object.keys(bms).length||'')}
@@ -38,7 +40,7 @@ document.querySelectorAll('.bm').forEach(b=>{const u=b.dataset.url;const on=()=>
 b.addEventListener('click',()=>{bms[u]?delete bms[u]:bms[u]={title:b.dataset.title,date:b.dataset.date,added:Date.now()};saveBms();on()})});
 saveBms();
 const list=document.getElementById('bm-list');
-function drawList(){if(!list)return;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added);
+function drawList(){if(!list)return;const lim=+list.dataset.limit||1e9;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added).slice(0,lim);
 list.innerHTML=rows.length?'':'<p class="empty">まだありません。各記事の ☆ を押すとここに溜まります。</p>';
 rows.forEach(([u,v])=>{const r=document.createElement('div');r.className='bmrow';const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.className='t';a.textContent=v.title||u;
 const m=document.createElement('span');m.className='meta';m.textContent=v.date||'';const x=document.createElement('button');x.textContent='読んだ・外す';x.onclick=()=>{delete bms[u];saveBms();drawList()};r.append(a,m,x);list.append(r)})}

@@ -90,7 +90,9 @@ def main():
     site = json.loads((ROOT / "config.json").read_text()).get("site_url", "").rstrip("/")
     if site:
         page_url = f"{site}/{date}"  # Cloudflare の静的アセットは .html なしのURLで配信される
-        msgs = [{"content": f"📰 Tech Digest {date}\n{page_url}"}]
+        picks_path = PICKS / f"{date}.json"
+        weekly = picks_path.exists() and json.loads(picks_path.read_text()).get("edition") == "weekly"
+        msgs = [{"content": f"{'🗞 今週のまとめ' if weekly else '📰 Tech Digest'} {date}\n{page_url}"}]
     else:
         msgs = [{"embeds": b} for b in batches(build_embeds(date))]
     if dry:
