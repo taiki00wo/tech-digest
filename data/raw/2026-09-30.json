@@ -1,18 +1,50 @@
 {
  "date": "2026-09-30",
  "weekday": "水",
- "deep_dive_day": false,
- "collected_at": "2026-09-30T07:08:20+09:00",
+ "edition": "daily",
+ "collected_at": "2026-09-30T09:35:19+09:00",
  "errors": {},
  "items": [
+  {
+   "source": "Hacker News",
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "summary": "",
+   "score": 138,
+   "meta": {
+    "comments": 75,
+    "discussion": "https://news.ycombinator.com/item?id=49901736",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+   "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+   "summary": "",
+   "score": 158,
+   "meta": {
+    "comments": 85,
+    "discussion": "https://news.ycombinator.com/item?id=49899090",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
   {
    "source": "Hacker News",
    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
    "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
    "summary": "",
-   "score": 676,
+   "score": 757,
    "meta": {
-    "comments": 609,
+    "comments": 706,
     "discussion": "https://news.ycombinator.com/item?id=49896586",
     "score_label": "points"
    },
@@ -26,10 +58,42 @@
    "title": "How Delhi cut electricity loss from 50 to 5 percent",
    "url": "https://spectrum.ieee.org/delhi-electricity-loss",
    "summary": "",
-   "score": 399,
+   "score": 428,
    "meta": {
-    "comments": 229,
+    "comments": 249,
     "discussion": "https://news.ycombinator.com/item?id=49892245",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "America.gov",
+   "url": "https://america.gov/",
+   "summary": "",
+   "score": 313,
+   "meta": {
+    "comments": 255,
+    "discussion": "https://news.ycombinator.com/item?id=49893509",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "NAND-16: a computer built from 277,248 NAND gates",
+   "url": "https://somethingbig.ai/computer",
+   "summary": "",
+   "score": 106,
+   "meta": {
+    "comments": 55,
+    "discussion": "https://news.ycombinator.com/item?id=49871018",
     "score_label": "points"
    },
    "categories": [
@@ -42,26 +106,10 @@
    "title": "PS5 Relapse Exploit",
    "url": "https://github.com/ntfargo/Relapse-Exploit",
    "summary": "",
-   "score": 178,
+   "score": 224,
    "meta": {
-    "comments": 99,
+    "comments": 122,
     "discussion": "https://news.ycombinator.com/item?id=49895304",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "Tcl/Tk 9.1",
-   "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
-   "summary": "",
-   "score": 214,
-   "meta": {
-    "comments": 65,
-    "discussion": "https://news.ycombinator.com/item?id=49896712",
     "score_label": "points"
    },
    "categories": [
@@ -74,9 +122,9 @@
    "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
    "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
    "summary": "",
-   "score": 398,
+   "score": 407,
    "meta": {
-    "comments": 126,
+    "comments": 129,
     "discussion": "https://news.ycombinator.com/item?id=49890226",
     "score_label": "points"
    },
@@ -87,28 +135,12 @@
   },
   {
    "source": "Hacker News",
-   "title": "America.gov",
-   "url": "https://america.gov/",
-   "summary": "",
-   "score": 181,
-   "meta": {
-    "comments": 141,
-    "discussion": "https://news.ycombinator.com/item?id=49893509",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
    "title": "Phyllotaxis: An audio-reactive LED display",
    "url": "https://jagi.studio/posts/phyllotaxis/",
    "summary": "",
-   "score": 248,
+   "score": 257,
    "meta": {
-    "comments": 41,
+    "comments": 43,
     "discussion": "https://news.ycombinator.com/item?id=49880411",
     "score_label": "points"
    },
@@ -119,29 +151,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "Dots: Always-on agents",
-   "url": "https://openai.com/index/introducing-dots/",
+   "title": "Tcl/Tk 9.1",
+   "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
    "summary": "",
-   "score": 409,
+   "score": 232,
    "meta": {
-    "comments": 318,
-    "discussion": "https://news.ycombinator.com/item?id=49896604",
-    "score_label": "points"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-   "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-   "summary": "",
-   "score": 142,
-   "meta": {
-    "comments": 99,
-    "discussion": "https://news.ycombinator.com/item?id=49897075",
+    "comments": 79,
+    "discussion": "https://news.ycombinator.com/item?id=49896712",
     "score_label": "points"
    },
    "categories": [
@@ -151,13 +167,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "Sustainable energy without the hot air (2008)",
-   "url": "https://www.withouthotair.com/",
+   "title": "Ask HN: What are you reading?",
+   "url": "https://news.ycombinator.com/item?id=49893157",
    "summary": "",
-   "score": 127,
+   "score": 121,
    "meta": {
-    "comments": 68,
-    "discussion": "https://news.ycombinator.com/item?id=49892175",
+    "comments": 328,
+    "discussion": "https://news.ycombinator.com/item?id=49893157",
     "score_label": "points"
    },
    "categories": [
@@ -170,9 +186,9 @@
    "title": "A Staff Engineer's Guide to Inventing Work",
    "url": "https://sujithjay.com/inventing-work",
    "summary": "",
-   "score": 142,
+   "score": 178,
    "meta": {
-    "comments": 32,
+    "comments": 36,
     "discussion": "https://news.ycombinator.com/item?id=49878857",
     "score_label": "points"
    },
@@ -183,10 +199,26 @@
   },
   {
    "source": "Hacker News",
+   "title": "Dots: Always-on agents",
+   "url": "https://openai.com/index/introducing-dots/",
+   "summary": "",
+   "score": 454,
+   "meta": {
+    "comments": 341,
+    "discussion": "https://news.ycombinator.com/item?id=49896604",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
    "title": "Jeeves. Reasoning improves Jev-like decision models",
    "url": "https://github.com/PostHog/jeeves",
    "summary": "",
-   "score": 214,
+   "score": 221,
    "meta": {
     "comments": 85,
     "discussion": "https://news.ycombinator.com/item?id=49891290",
@@ -202,9 +234,9 @@
    "title": "Everybody’s home. No one’s coming over",
    "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
    "summary": "",
-   "score": 684,
+   "score": 713,
    "meta": {
-    "comments": 625,
+    "comments": 657,
     "discussion": "https://news.ycombinator.com/item?id=49891295",
     "score_label": "points"
    },
@@ -215,13 +247,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "ChatGPT Pro 500",
-   "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+   "title": "Sustainable energy without the hot air (2008)",
+   "url": "https://www.withouthotair.com/",
    "summary": "",
-   "score": 165,
+   "score": 135,
    "meta": {
-    "comments": 172,
-    "discussion": "https://news.ycombinator.com/item?id=49896975",
+    "comments": 79,
+    "discussion": "https://news.ycombinator.com/item?id=49892175",
     "score_label": "points"
    },
    "categories": [
@@ -234,9 +266,9 @@
    "title": "Using any C++ library in Godot",
    "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
    "summary": "",
-   "score": 153,
+   "score": 155,
    "meta": {
-    "comments": 53,
+    "comments": 54,
     "discussion": "https://news.ycombinator.com/item?id=49890051",
     "score_label": "points"
    },
@@ -247,13 +279,13 @@
   },
   {
    "source": "Hacker News",
-   "title": "Nicholas Polson has authored 258 academic papers in 2026 so far",
-   "url": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
+   "title": "ChatGPT Pro 500",
+   "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
    "summary": "",
-   "score": 115,
+   "score": 187,
    "meta": {
-    "comments": 83,
-    "discussion": "https://news.ycombinator.com/item?id=49898877",
+    "comments": 213,
+    "discussion": "https://news.ycombinator.com/item?id=49896975",
     "score_label": "points"
    },
    "categories": [
@@ -266,9 +298,9 @@
    "title": "1 in 8 cancer cases worldwide are caused by infections, study finds",
    "url": "https://www.cbc.ca/lite/story/9.7361622",
    "summary": "",
-   "score": 221,
+   "score": 231,
    "meta": {
-    "comments": 125,
+    "comments": 127,
     "discussion": "https://news.ycombinator.com/item?id=49892120",
     "score_label": "points"
    },
@@ -282,9 +314,9 @@
    "title": "Google ending ChromeOS support two years early",
    "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
    "summary": "",
-   "score": 171,
+   "score": 184,
    "meta": {
-    "comments": 124,
+    "comments": 125,
     "discussion": "https://news.ycombinator.com/item?id=49893653",
     "score_label": "points"
    },
@@ -294,43 +326,11 @@
    "seen_before": false
   },
   {
-   "source": "Hacker News",
-   "title": "Booted up in 1993, this server still runs – but not for much longer (2017)",
-   "url": "https://www.computerworld.com/article/1673071/booted-up-in-1993-this-server-still-runs-but-not-for-much-longer-2.html",
-   "summary": "",
-   "score": 178,
-   "meta": {
-    "comments": 96,
-    "discussion": "https://news.ycombinator.com/item?id=49870376",
-    "score_label": "points"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "Hacker News",
-   "title": "DraftKings is using AI to behaviorally target chronic gamblers",
-   "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-   "summary": "",
-   "score": 508,
-   "meta": {
-    "comments": 353,
-    "discussion": "https://news.ycombinator.com/item?id=49896050",
-    "score_label": "points"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
    "source": "Zenn",
    "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
    "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
    "summary": "",
-   "score": 64,
+   "score": 73,
    "meta": {
     "author": "ababup1192",
     "score_label": "likes"
@@ -345,7 +345,7 @@
    "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
    "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
    "summary": "",
-   "score": 53,
+   "score": 68,
    "meta": {
     "author": "oukayuka",
     "score_label": "likes"
@@ -360,7 +360,7 @@
    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
    "summary": "",
-   "score": 154,
+   "score": 156,
    "meta": {
     "author": "mazrean",
     "score_label": "likes"
@@ -375,7 +375,7 @@
    "title": "３分で読めるトランザクション設計のコツ",
    "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
    "summary": "",
-   "score": 39,
+   "score": 40,
    "meta": {
     "author": "mconfjp",
     "score_label": "likes"
@@ -390,7 +390,7 @@
    "title": "11年生本番データ飛ばす",
    "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
    "summary": "",
-   "score": 133,
+   "score": 134,
    "meta": {
     "author": "kgryo",
     "score_label": "likes"
@@ -420,7 +420,7 @@
    "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
    "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
    "summary": "",
-   "score": 19,
+   "score": 31,
    "meta": {
     "author": "o8vm",
     "score_label": "likes"
@@ -450,7 +450,7 @@
    "title": "続・データサイエンティストのためのSkills:分析手法×診断可視化セット",
    "url": "https://zenn.dev/green_tea/articles/55d2761106ee74",
    "summary": "",
-   "score": 38,
+   "score": 42,
    "meta": {
     "author": "green_tea",
     "score_label": "likes"
@@ -465,7 +465,7 @@
    "title": "Cloudflare の CLI を wrangler から cf に移行する",
    "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
    "summary": "",
-   "score": 49,
+   "score": 56,
    "meta": {
     "author": "sora_kumo",
     "score_label": "likes"
@@ -480,7 +480,7 @@
    "title": "Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化",
    "url": "https://zenn.dev/sun_asterisk/articles/e9b50f09839def",
    "summary": "",
-   "score": 8,
+   "score": 12,
    "meta": {
     "author": "alam_shafiul",
     "score_label": "likes"
@@ -495,7 +495,7 @@
    "title": "Claude Code / Codexで「私のlimit、減りすぎ…？」と思ったときに見る記事",
    "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
    "summary": "",
-   "score": 3,
+   "score": 10,
    "meta": {
     "author": "fusasnnn",
     "score_label": "likes"
@@ -525,7 +525,7 @@
    "title": "AI 駆動開発で「設計」はどこに書くのか ― 振る舞いをテストで検証できる「仕様」にしてみる",
    "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
    "summary": "",
-   "score": 6,
+   "score": 9,
    "meta": {
     "author": "tanabe_yudai",
     "score_label": "likes"
@@ -540,7 +540,7 @@
    "title": "録音音声を扱うプロダクトでAIとテストするために初手で行った工夫と改善点",
    "url": "https://zenn.dev/knowledgework/articles/96d88ab25da83f",
    "summary": "",
-   "score": 6,
+   "score": 7,
    "meta": {
     "author": "bun913",
     "score_label": "likes"
@@ -842,9 +842,39 @@
    "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
    "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
    "summary": "インターネットイニシアティブ（IIJ）は9月28日、新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。資料は社内限定の一部を除いて専用サイトで無料公開している。 IIJ Bootcampは、同社の有志が講師となって19年度から毎年開いている研修。IT系のどの分野でも必要に...",
-   "score": 293,
+   "score": 462,
    "meta": {
     "published": "2026-09-29T11:47:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
+   "url": "https://tech-lab.sios.jp/archives/54936",
+   "summary": "手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。 ボタンを押せば、そのターミナルに一発で飛べる。 作業が終わったら、ずんだもんが「何をやって、次に何をすればいいか」を声で教えてくれる。 そんな作業環境をStream Deckとherdr、ローカルLLM、そして...",
+   "score": 40,
+   "meta": {
+    "published": "2026-09-29T23:26:36Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
+   "summary": "米OpenAIは9月29日（現地時間）、常時稼働エージェント機能「dots」を発表した。同社のAIモデル「GPT-6 Astra」を搭載し、ユーザーが設定した目標に応じて、クラウド上のコンピュータで24時間自律的に稼働するとうたう。",
+   "score": 39,
+   "meta": {
+    "published": "2026-09-29T18:51:02Z",
     "score_label": "users"
    },
    "categories": [
@@ -857,9 +887,54 @@
    "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー",
    "url": "https://share.timescar.jp/news/2026/0929/1816.html",
    "summary": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 第2報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしております...",
-   "score": 195,
+   "score": 262,
    "meta": {
     "published": "2026-09-29T11:48:26Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "GitHub - mizchi/explainer",
+   "url": "https://github.com/mizchi/explainer",
+   "summary": "English | 日本語 Skills and tools for explaining concepts from an AI to a human. Coding agents now write faster than people can understand what they wrote (Geoffrey Litt, Understanding is the new bottleneck). This repository is for writing, for one reader, only what that reader does not already k...",
+   "score": 38,
+   "meta": {
+    "published": "2026-09-29T19:12:08Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "OpenAI DevDay 2026 発表まとめ",
+   "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+   "summary": "tl;dr OpenAI DevDay 2026 がサンフランシスコで開催されたよ サンフランシスコ現地から情報をお送りするよ ひと通りのリソースをまとめたけど、まずは Recap ページを見るといいよ 24 時間常時稼働のエージェント dots が発表されたよ GPT-6 Astra に近い性能を低コストで使える GPT-6.1 Sol が公開されたよ 高速にトー...",
+   "score": 28,
+   "meta": {
+    "published": "2026-09-29T21:28:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始／「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2144293.html",
+   "summary": "",
+   "score": 19,
+   "meta": {
+    "published": "2026-09-29T21:36:55Z",
     "score_label": "users"
    },
    "categories": [
@@ -872,7 +947,7 @@
    "title": "免許証画像が漏れると何が“ヤバい”のか　タイムズカーで最大約660万件の個人情報漏えいで考えられる「3つのリスク」",
    "url": "https://www.itmedia.co.jp/mobile/articles/2609/29/news085.html",
    "summary": "パーク24グループが運営するカーシェアリングサービス「タイムズカー」で、最大約660万件に上るとされる大規模な個人情報流出が発生した。流出したデータの中には、氏名や住所といった基本情報だけでなく、「運転免許証の画像」などの本人確認書類が含まれている可能性があり、影響の大きさが懸念されている。 本記事で...",
-   "score": 340,
+   "score": 398,
    "meta": {
     "published": "2026-09-29T07:41:33Z",
     "score_label": "users"
@@ -884,27 +959,74 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "箱はよくできているのに羊がいないはてなパークスの現状について - 関内関外日記",
-   "url": "https://goldhead.hatenablog.com/entry/2026/09/29/125355",
-   "summary": "p.hatena.ne.jp みんなはてなパークス使っているか？ 759ブクマもされているじゃないか。はてなの、満を持しての新サービスだぞ。たくさんのはてなーたちがこぞって書き込み、大盛況、新しいウェブの居場所だ、ってなってなきゃいけないんじゃいのか。 それなのに、今のはてなパークスときたらジャングリアより羊がいな...",
-   "score": 86,
+   "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
+   "url": "https://gigazine.net/news/20260930-bend-lang/",
+   "summary": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 Bend https://bend-lang.com/ BendはポストAGIの経済社会において人間がコードの記述や読解から解放される未来を見据え、AIに対して意図を明確に伝えるための手段として開発されました。Bendは「法律(Laws...",
+   "score": 18,
    "meta": {
-    "published": "2026-09-29T04:00:21Z",
+    "published": "2026-09-29T21:04:47Z",
     "score_label": "users"
    },
    "categories": [
-    "その他"
+    "AI",
+    "バックエンド"
    ],
    "seen_before": false
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "ChromeOSの後継Googlebook OSはウンコ💩やで",
-   "url": "https://anond.hatelabo.jp/20260925135223",
-   "summary": "先日こんな記事を書いていたんだけど、最近話題になってるChromeOSとAndroidの基盤統合（いわゆるGooglebook OS構想）と、ChromeOS 147からデフォルトになった新アーキテクチャ「Baguette」 の話をLinuxギーク目線でするわ。 世間やガジェットメディアは「新GooglebookでAndroidアプリがもっとサクサク動くようになるね...",
-   "score": 116,
+   "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
+   "url": "https://gigazine.net/news/20260929-jeff/",
+   "summary": "ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 AppleのM4 Maxの場合は1回の意思決定当たり約2...",
+   "score": 83,
    "meta": {
-    "published": "2026-09-29T07:57:49Z",
+    "published": "2026-09-29T13:04:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "IIJ Bootcamp 2026 – AI時代にハンズオン研修で学んでほしいこと | IIJ Engineers Blog",
+   "url": "https://eng-blog.iij.ad.jp/archives/37642",
+   "summary": "IIJ ネットワークサービス事業本部 ネットワーク本部 基盤プロダクト開発部 所属。2015年に新卒入社。Webアプリケーションの実装・運用を主務としつつ色々やってる人です。 はじめに IIJでは毎年7月から8月にかけて、初心者向けの研修として「IIJ Bootcamp」を有志で開催しており、今年でなんと8年目になります。 もちろ...",
+   "score": 16,
+   "meta": {
+    "published": "2026-09-28T05:07:01Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "WSL containers is now generally available",
+   "url": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/",
+   "summary": "WSL is central to our commitment to making Windows the best place to build, run and manage Linux workloads. As AI, cloud-native development, containers, and open-source ecosystems continue to converge on Linux, more developers are choosing to perform these workloads directly on Windows devices. W...",
+   "score": 10,
+   "meta": {
+    "published": "2026-09-29T19:31:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
+   "url": "https://www.docswell.com/s/cybozu-tech/K4NM4D-github-tips-2026?utm_source=twitter&utm_medium=social&utm_campaign=singlepage",
+   "summary": "GitHub 知っておくと便利かも Tips 2026 セキュリティ向上 Tips 特集号 開運研修 2026 社外公開版 2026.05.08 社内公開 2026.07.21 更新 サイボウズ株式会社 開発本部 開発支援副本部 技術支援部 生産性向上副部 平木場 風太 自己紹介: 平木場 風太（ひらこば ふうた） 社内でのニックネームは「きばちゃん」 所属 開発...",
+   "score": 15,
+   "meta": {
+    "published": "2026-09-29T10:53:52Z",
     "score_label": "users"
    },
    "categories": [
@@ -917,7 +1039,7 @@
    "title": "「Microsoft Learn」の公開ドキュメントリポジトリ、多くが年内に終了へ／廃止対象では「GitHub」経由の修正提案ができなくなる",
    "url": "https://forest.watch.impress.co.jp/docs/news/2143945.html",
    "summary": "",
-   "score": 11,
+   "score": 25,
    "meta": {
     "published": "2026-09-29T10:57:35Z",
     "score_label": "users"
@@ -929,12 +1051,27 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
-   "url": "https://gigazine.net/news/20260929-jeff/",
-   "summary": "ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 AppleのM4 Maxの場合は1回の意思決定当たり約2...",
-   "score": 40,
+   "title": "約108万円で320B LLM をオフライン実行できる「EVO-X5 Pro」",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2144148.html",
+   "summary": "",
+   "score": 8,
    "meta": {
-    "published": "2026-09-29T13:04:44Z",
+    "published": "2026-09-29T15:14:20Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "タイムズカーの会員情報漏えいのニュース→TOPPAN「タイムズがデカいのやらかしたぞ！！今のうちにリリースしろ！！」企業が続々「俺も！！！」",
+   "url": "https://togetter.com/li/2752131",
+   "summary": "AIと人事に苦しむマーモット @Duetousandyou トッパン「タイムズがデカいのやらかしたぞ！！ 今のうちにリリースしろ！！」 レゴランド「俺も！」 日本郵便「俺も！」 京王グループ「俺も！」 東京メトロ「俺も！」 イープラス「俺も！」 ニッポンレンタカー「俺も！」 スターツ出版「俺も！」 セコマ「俺も！」 集英社...",
+   "score": 8,
+   "meta": {
+    "published": "2026-09-29T23:47:03Z",
     "score_label": "users"
    },
    "categories": [
@@ -947,7 +1084,7 @@
    "title": "Git 2.56.0の新機能とGit 3.0リリース計画の概要",
    "url": "https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/",
    "summary": "Gitプロジェクトから先日、Git 2.56.0がリリースされました。GitLabのGitチームによる貢献も含め、今回のリリースの注目点を紹介します。 本記事で取り上げる内容: Git Merge 2026とGit 3.0のリリース計画git-history(1)に加わったdropgit-branch(1)でマージ済みブランチを削除するgit-refs(1)で参照を変更するGoogle Su...",
-   "score": 10,
+   "score": 21,
    "meta": {
     "published": "2026-09-29T02:04:47Z",
     "score_label": "users"
@@ -959,27 +1096,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "AI臭い文章とは何なのか",
-   "url": "https://speakerdeck.com/nasuvitz/ai-kusai-bunshou-toha-nanina-no-ka",
-   "summary": "2026/9/28 豊洲会 教育用途にご利用ください",
-   "score": 22,
+   "title": "箱はよくできているのに羊がいないはてなパークスの現状について - 関内関外日記",
+   "url": "https://goldhead.hatenablog.com/entry/2026/09/29/125355",
+   "summary": "p.hatena.ne.jp みんなはてなパークス使っているか？ 759ブクマもされているじゃないか。はてなの、満を持しての新サービスだぞ。たくさんのはてなーたちがこぞって書き込み、大盛況、新しいウェブの居場所だ、ってなってなきゃいけないんじゃいのか。 それなのに、今のはてなパークスときたらジャングリアより羊がいな...",
+   "score": 110,
    "meta": {
-    "published": "2026-09-29T12:36:51Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "[石川温の「スマホ業界 Watch」] 揺れる「フラグシップスマホ」の定義――多様化するニーズと最上位モデルの現在地",
-   "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2143720.html",
-   "summary": "",
-   "score": 6,
-   "meta": {
-    "published": "2026-09-28T15:01:33Z",
+    "published": "2026-09-29T04:00:21Z",
     "score_label": "users"
    },
    "categories": [
@@ -989,12 +1111,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "GoogleBookが話題なので前身ChromeOSのLinux環境のこと書いておく",
-   "url": "https://anond.hatelabo.jp/20260922175414",
-   "summary": "ChromeOS上で本格的なローカルLinux開発環境（Vimとかtmuxとか）を作ろうとすると、いろいろと特有の落とし穴にハマる。フォントが豆腐になったり、クリップボードが死んだり、パッケージ競合で環境が壊れたりするわけだ。 色々といじり倒して、自律型マルチエージェントAIの運用まで快適にこなせる環境ができたので、現...",
-   "score": 30,
+   "title": "OpenAIの中で何が起きているのかをセキュリティ担当者が説明、AIラボには「合理的なパラノイアの文化」が必要",
+   "url": "https://gigazine.net/news/20260929-openai-security-surprise/",
+   "summary": "OpenAIのAIエージェントが、オーストラリア政府機関のシステムをハッキングしたり、国連のウェブサイトにブルートフォース攻撃(総当たり攻撃)を試みたり、アメリカの教育省・商務省・証券取引委員会のサイトに干渉していたりと、複数のインシデントが繰り返し報告されています。OpenAIでセキュリティ担当を務める人物が...",
+   "score": 7,
    "meta": {
-    "published": "2026-09-22T09:27:27Z",
+    "published": "2026-09-29T06:13:22Z",
     "score_label": "users"
    },
    "categories": [
@@ -1005,12 +1127,28 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "パーク24、運転免許証画像など情報流出数は160万件 - 日本経済新聞",
-   "url": "https://www.nikkei.com/article/DGXZQOUC29ALR0Z20C26A9000000/",
-   "summary": "パーク24は29日、カーシェアサービス「タイムズカー」の不正アクセスで運転免許証画像などの本人確認書類情報が漏洩したアカウントが約160万件あったと発表した。運転免許証画像のほか公共料金の請求書などの現住所確認書類の漏洩が確認された。このほか、学生プランに加入している場合に提出する学生証、家族プランの場...",
-   "score": 22,
+   "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
+   "url": "https://gigazine.net/news/20260929-gpt-6-astra-aisi-report/",
+   "summary": "OpenAIはAIの開発中に「国連の統計サイト」「オーストラリアの公的医療サービス」「アメリカの教育省・商務省・証券取引委員会」といった重要サービスに対する攻撃を実行してしまったことが明らかになっています。新たに、イギリスの政府機関であるAI Security Institute(AISI)が「GPT-6 Astraで攻撃シミュレーションを...",
+   "score": 6,
    "meta": {
-    "published": "2026-09-29T13:12:57Z",
+    "published": "2026-09-29T10:12:10Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "｢折り畳みiPhoneを持つ価値は？｣｢iPad miniと競合する？｣…アップル幹部に聞いた\"最新iPhoneの気になるコト\"",
+   "url": "https://toyokeizai.net/articles/-/959017",
+   "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+   "score": 4,
+   "meta": {
+    "published": "2026-09-29T13:37:16Z",
     "score_label": "users"
    },
    "categories": [
@@ -1020,117 +1158,12 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "MetaのAI「Muse」にFacebook Marketplaceの対応を任せたら勝手に値下げ＆住所公開、購入者が自宅に来る事態に",
-   "url": "https://gigazine.net/news/20260929-meta-muse-give-home-address/",
-   "summary": "Metaが2026年9月に公開したパーソナルAIエージェント「Muse」にFacebook Marketplaceでの販売対応を任せたところユーザーの承認を得ずに値下げに応じた上、自宅の住所まで購入希望者に伝え、実際に購入希望者が自宅を訪れる事態が発生しました。 Threadsで見る Man Says Meta's Muse AI Gave His Home Address Out to St...",
-   "score": 22,
-   "meta": {
-    "published": "2026-09-29T09:47:30Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "AIで地図アプリをたくさん作ったので話を聞いてほしい　地図好きが作る自分が本当に使いたかったアプリの数々",
-   "url": "https://dailyportalz.jp/kiji/ai-chizu-app-tsukutta",
-   "summary": "こんにちは。ライターの西村です。 最近、僕がAIで作ったwebアプリについて、プログラマーでライターの三土さん、デイリーポータルZ編集長の林さん、編集の石川さんに話を聞いてもらいました。 それではどうぞ。 まったく何もわからなくてもなんか作れるのすげえな 左から、筆者の西村、石川さん、三土さん、林さんです...",
-   "score": 246,
-   "meta": {
-    "published": "2026-09-29T02:40:12Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "このイラスト、何に見える？とLINEで母に聞いてみたら…全美大生の地雷を踏み抜いてておもろい「そういうことじゃないんだよっ！」「母親はAI使いがち」",
-   "url": "https://togetter.com/li/2751892",
-   "summary": "深野(イラレ練習中) @yesdeep_MA 自分でも理解してる問題点を指摘されるの、友達とかに教えてもらう分には全く地雷じゃ無いんだけど親にはイラッとしてしまう 母親は美術系の出身じゃないからだろうか チャッピーは論外。殺傷モノ。 2026-09-28 23:36:43",
-   "score": 51,
-   "meta": {
-    "published": "2026-09-29T07:52:04Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "タイムズカーで660万件の会員情報が流出した件、運転免許証画像の流出が悪用される危険性について指摘…CICの本人申告制度を活用すれば、信用情報の審査で注意してくれる",
-   "url": "https://togetter.com/li/2751879",
-   "summary": "タイムズカー、660万件の会員情報流出 免許証画像も - CNET Japan タイムズモビリティは9月28日、カーシェアリングサービス「タイムズカー」のWebサイトへの不正アクセスについて、約660万件の会員情報が第三者に取得されたことを確認したと発表した。氏名や住所、運転免… CNET Japan アンテナ @aquadive うぎゃ…。 さ...",
-   "score": 20,
-   "meta": {
-    "published": "2026-09-29T10:35:27Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "Nothingが「Headphone (1) Pro」を発表、3種のドライバー内蔵＆ノイキャン対応＆無線有線両対応などなど高機能で6万4800円",
-   "url": "https://gigazine.net/news/20260929-nothing-headphone-1-pro/",
-   "summary": "NothingはLEDによる通知が特徴敵なスマートフォン「Phoneシリーズ」や、内部構造が透けて見える完全ワイヤレスイヤホン「Earシリーズ」など個性的な見た目のデバイスを開発している企業です。新たに、ノイズキャンセリングに対応したヘッドホン「Headphone (1) Pro」が登場しました。 Headphone (1) Pro | Nothing | JP ...",
-   "score": 7,
-   "meta": {
-    "published": "2026-09-29T04:43:53Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "オープンAI、最新AI「アストラ6.1」の公開取りやめ 安全面で問題",
-   "url": "https://www.afpbb.com/articles/-/3654970",
-   "summary": "【9月29日 AFP】米オープンAIは28日、人工知能（AI）の最新モデル「アストラ6.1」の公開を取りやめると発表した。安全基準を満たしていないことが社内テストで判明したためとしている。 年次開発者会議「OpenAI DevDay」開催前日の発表となった。同会議では複数の発表が行われるとみられているが、アストラの改修版が含...",
-   "score": 13,
-   "meta": {
-    "published": "2026-09-29T04:55:55Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "GitHub - firelex/jeff: Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
-   "url": "https://github.com/firelex/jeff",
-   "summary": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification: small, fast decision models you slot into your code, with the same request format as Jev. You describe a situation and list the options in plain words; Jeff returns a calibrated probability for each option from a single forward pass....",
+   "title": "バッファロー「WSR-300HP」「WEX-G300」に複数の深刻な脆弱性、ファームウェア更新が提供中",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2143894.html",
+   "summary": "",
    "score": 5,
    "meta": {
-    "published": "2026-09-29T02:43:27Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": true
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "タイムズカー 免許画像など漏えいは160万件“悪用に警戒を” | NHKニュース",
-   "url": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
-   "summary": "カーシェアリングサービス「タイムズカー」のシステムに不正なアクセスがあり、およそ660万件の会員の個人情報が漏えいした問題で、会社は、このうち160万件は、運転免許証の画像など本人確認書類だったと確認…",
-   "score": 12,
-   "meta": {
-    "published": "2026-09-29T10:21:51Z",
+    "published": "2026-09-28T23:55:01Z",
     "score_label": "users"
    },
    "categories": [
@@ -1140,42 +1173,27 @@
   },
   {
    "source": "はてブ テクノロジー",
-   "title": "アンソロピック、ＡＩの「人類存亡リスク」警告　ＩＰＯ目論見書（ロイター） - Yahoo!ニュース",
-   "url": "https://news.yahoo.co.jp/articles/c1b036a7740fe476a5bceb997de3641de9ee9e9a",
-   "summary": "アンソロピックのロゴ。サンフランシスコで開催されたサミットで9月17日撮影。 REUTERS/Carlos Barria（ロイター）Echo Wang Aditya Soni [２８日 ロイター] - 人工知能（ＡＩ）開発企業アンソロピックは新規株式公‌開（ＩＰＯ）に際し、ＡＩが「人類に壊滅的な被⁠害や存亡に関わるリスク」をもたらす可能性があると投資...",
-   "score": 28,
-   "meta": {
-    "published": "2026-09-29T03:33:32Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "その他"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に",
-   "url": "https://gigazine.net/news/20260929-microsoft-copilot-human-reading/",
-   "summary": "MicrosoftのAIアシスタント「Microsoft Copilot」でユーザーが入力したプロンプトやアップロードした画像の一部を人間の契約スタッフが確認していると404 Mediaが報じました。契約スタッフはユーザーが画像編集を依頼した際のプロンプトや元画像、Copilotが生成した画像を見比べて品質を評価しているとのことです。 Huma...",
-   "score": 12,
-   "meta": {
-    "published": "2026-09-29T09:28:57Z",
-    "score_label": "users"
-   },
-   "categories": [
-    "AI"
-   ],
-   "seen_before": false
-  },
-  {
-   "source": "はてブ テクノロジー",
-   "title": "レノボ、4K液晶&ジェスチャーAI搭載の「Lenovo Yoga Tab」2モデルを発表",
-   "url": "https://pc.watch.impress.co.jp/docs/news/2144226.html",
+   "title": "[三井公一の「スマホカメラでブラブラ」] 「iPhone 18 Pro」のカメラをチェック　念願の「可変絞り」とAIがもたらす新たな表現力とは",
+   "url": "https://k-tai.watch.impress.co.jp/docs/column/mitsui/2144194.html",
    "summary": "",
-   "score": 7,
+   "score": 4,
    "meta": {
-    "published": "2026-09-29T12:43:57Z",
+    "published": "2026-09-29T15:06:14Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI臭い文章とは何なのか",
+   "url": "https://speakerdeck.com/nasuvitz/ai-kusai-bunshou-toha-nanina-no-ka",
+   "summary": "2026/9/28 豊洲会 教育用途にご利用ください",
+   "score": 41,
+   "meta": {
+    "published": "2026-09-29T12:36:51Z",
     "score_label": "users"
    },
    "categories": [
@@ -1499,6 +1517,20 @@
   },
   {
    "source": "Speaker Deck",
+   "title": "「とりあえず動く」の先へ。 AI時代のチーム開発と内部設計/2026-slsdays",
+   "url": "https://speakerdeck.com/slsops/2026-slsdays",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-09-29T20:29:51-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
    "title": "IR Today: Theory, Practice, and Agents",
    "url": "https://speakerdeck.com/dtunkelang/ir-today-theory-practice-and-agents",
    "summary": "This is a talk I gave as part of Doug Turnbull's \"Retrieval Augmented Gathering\" series. https://maven.com/p/1f1f46/ir-today-theory-practice-and-agents",
@@ -1743,13 +1775,13 @@
    "url": "https://github.com/eternity4719/HowToLiveBetter",
    "description": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
    "language": "HTML",
-   "stars": 27952,
+   "stars": 28145,
    "topics": [],
    "created_at": "2026-09-07",
-   "pushed_at": "2026-09-29",
+   "pushed_at": "2026-09-30",
    "found_in": "新着人気",
-   "stars_per_day": 3365,
-   "readme": "\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。\n630 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-630%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20420%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1341%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)\n[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)\n\n### [打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/) · [让 AI 照书回答（skill）](skills/life-decision-guide/README.md)\n\nAI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「替朋友担保签不签」，它先查书里的条目再回答，并注明出自第几节第几条。\n\n下载\n\n[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)\n\n查阅\n\n[目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/)\n\n长文\n\n[结婚划不划算](docs/结婚划不划算.md) · [家庭应急装备清单](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证](docs/做平台要办哪些证.md) · [生物钟和夜班](docs/生物钟和夜班.md)\n\n其他语言\n\n[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/)，[dlgrv](https://github.com/dlgrv) 维护的翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)）\n\n衍生工具\n\n[howtolivebetter.net](https://howtolivebetter.net/)，[littleben](https://github.com/littleben) 做的打勾清单：加待办、标记做到没有、收藏\n\n其他语言和衍生工具由他人维护，内容可能落后，以本仓库中文原文为准。\n\n---\n\n## 这本书想回答的问题\n\n| 问题 | 去哪看 |\n| --- | --- |\n| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |\n| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒，家常食用油怎么选怎么用？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |\n| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |\n| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |\n| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |\n| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |\n| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |\n| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |\n| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |\n| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |\n| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |\n| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |\n| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |\n| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |\n| 押金被扣、房东赶人、长租公寓暴雷怎么办？ | [15. 租房与买房](book/15-租房与买房.md) |\n| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |\n| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |\n| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |\n| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |\n| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |\n| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |\n| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |\n| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间，职称从哪里报、值不值？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |\n| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |\n| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |\n| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |\n| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |\n| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |\n| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |\n| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |\n| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |\n| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |\n| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |\n| 感冒药、退烧药、胃药自己买来吃，哪些不能一起吃，孩子、孕妇和老人要避开哪些？ | [34. 家里的常备药别吃出事](book/34-家里的常备药别吃出事.md) |\n\n## 怎么读\n\n- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。\n- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。\n- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。\n- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。\n- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。\n- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。\n- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。\n- **只想看结论最硬的**：在检索页里勾选证据等级 A，只留下有具体数字、来自荟萃分析或大型试验的 420 条。\n- **只想看最值得做的**：",
+   "stars_per_day": 3558,
+   "readme": "\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。\n631 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-631%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20421%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1344%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)\n[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)\n\n### [打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/) · [让 AI 照书回答（skill）](skills/life-decision-guide/README.md)\n\nAI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「替朋友担保签不签」，它先查书里的条目再回答，并注明出自第几节第几条。\n\n下载\n\n[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)\n\n查阅\n\n[目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/)\n\n长文\n\n[结婚划不划算](docs/结婚划不划算.md) · [家庭应急装备清单](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证](docs/做平台要办哪些证.md) · [生物钟和夜班](docs/生物钟和夜班.md)\n\n其他语言\n\n[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/)，[dlgrv](https://github.com/dlgrv) 维护的翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)）\n\n衍生工具\n\n[howtolivebetter.net](https://howtolivebetter.net/)，[littleben](https://github.com/littleben) 做的打勾清单：加待办、标记做到没有、收藏\n\n其他语言和衍生工具由他人维护，内容可能落后，以本仓库中文原文为准。\n\n---\n\n## 这本书想回答的问题\n\n| 问题 | 去哪看 |\n| --- | --- |\n| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |\n| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒，家常食用油怎么选怎么用？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |\n| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |\n| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |\n| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |\n| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |\n| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |\n| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |\n| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |\n| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |\n| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |\n| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |\n| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |\n| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |\n| 押金被扣、房东赶人、长租公寓暴雷怎么办，想搬去乡下住能不能买农村的房？ | [15. 租房与买房](book/15-租房与买房.md) |\n| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |\n| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |\n| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |\n| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |\n| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |\n| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |\n| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |\n| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间，职称从哪里报、值不值？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |\n| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |\n| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |\n| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |\n| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |\n| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |\n| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |\n| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |\n| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |\n| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |\n| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |\n| 感冒药、退烧药、胃药自己买来吃，哪些不能一起吃，孩子、孕妇和老人要避开哪些？ | [34. 家里的常备药别吃出事](book/34-家里的常备药别吃出事.md) |\n\n## 怎么读\n\n- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。\n- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。\n- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。\n- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。\n- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。\n- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。\n- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。\n- **只想看结论最硬的**：在检索页里勾选证据等级 A，只留下有具体数字、来自荟萃分析或大型试验的 421 条。\n",
    "featured_before": false
   },
   {
@@ -1757,7 +1789,7 @@
    "url": "https://github.com/KKKKhazix/AIHOT",
    "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "language": "TypeScript",
-   "stars": 3015,
+   "stars": 3113,
    "topics": [
     "ai",
     "llm",
@@ -1769,7 +1801,7 @@
    "created_at": "2026-09-28",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 1508,
+   "stars_per_day": 1556,
    "estimated": true,
    "readme": "\n  \n    \n    \n  \n\n  \n  \n  \n  \n  \n\n  一个自己找热点、自己写日报的网站框架。\n  把信源换成你的，把精选标准换成你的 KnowHow，它就是你的行业热点站。\n\n  跑起来 ·\n  改成你的行业 ·\n  它是怎么工作的 ·\n  文档\n\n## 这是什么\n\n[AIHOT](https://aihot.news) 是我做的一个 AI 热点网站。它每天从一批信源里收资料，用大模型先筛一遍、再独立打两次分，挑出真正值得看的，写成中文标题和摘要；把不同来源说的同一件事聚成一个事件，按有多少人在说排出热点；每天早上出一份日报。\n\n这个仓库是它的完整框架：网站、后台、精选流程、聚簇和热度算法，**所有提示词的原文和入选门槛**，都在这里。\n\n## 为什么开源\n\n这半年，很多做法律、做 HR、做金融、做贵金属的朋友问我，能不能也给他们的行业做一个。\n\n我做不了。我不懂你们的行业，不知道哪些信源有用，也不知道什么样的消息，对你们来说才叫热点。\n\n但你们懂。\n\n既然我没办法满足所有人，那就把火种交到大家自己手上。\n\n## 说在前面\n\n- **我不是专业的开发者。** 我是设计师出身，半年前还看不太懂代码。这套代码是我和 AI 一起重写的，比以前干净了很多，但一定还有写得不好的地方。发现问题欢迎提 Issue，我不一定能很快回复，先说声抱歉。\n- **这是一份快照。** 它来自 AIHOT 正在线上跑的代码，不是精心打磨的通用框架。以后 AIHOT 的更新，我会尽量同步过来，但没法保证每一次都同步。\n- **里面没有 AIHOT 的信源名单和运营数据。** 仓库带了 18 个公开的海外 AI 资讯源做示范，够你跑起来看效果；真正的信源，要换成你自己行业的。\n- **请不要用 AIHOT 的名字和 Logo。** 换上你自己的名字，它就是你的站。\n\n## 它是怎么工作的\n\n  \n  \n\n一条资料从信源进来，先判重，再预筛；可能重要的独立打两次分，过了门槛才进精选；然后写中文标题和摘要，和别的报道聚成事件，算进热度，最后进日报。每一步的提示词都在 [`industry/prompts/`](industry/prompts/)，改标准不用改代码。详见 [精选与校准](docs/selection.md)。\n\n### 聚簇与热点\n\n  \n  \n\n同一件事，官网发一篇、媒体转十篇、X 上吵一天，读者只需要看到一次。AIHOT 把它们聚成一个**事件**：先用标题摘要的向量在最近两周里找候选，再让模型判断是同一件事、后续进展，还是两件事；拿不准的合并，换一家模型再确认一遍。\n\n**热度**按事件算，不按文章算：48 小时内，每个独立来源只算一次，24 小时减半。重复抓取不会多算，一家媒体发十篇也只算一次，所以排在前面的，是真正有很多人在说的事。\n\n### 速度\n\n  \n  \n\n## 你会得到什么\n\n| | |\n|---|---|\n| **六种信源** | RSS、网页列表、JSON 接口、X 账号、微信公众号，以及你自己脚本推送进来的内容。信源分级（官方一手 / 媒体个人），抓取频率按产出自动调整 |\n| **精选** | 预筛，同一份评分标准独立打两次分，再按信源分级的门槛决定入选。提示词和门槛全部公开，全部可以改；用你自己标注的样本在 SelectBench 里校准 |\n| **写作** | 中文标题、答案先行的摘要、推荐理由、标签，外文全文翻译；防止模型把原文没提到的公司写进标题 |\n| **聚簇** | 不同来源报道的同一件事聚成一个事件，后续进展挂在同一个事件下，事件页有综述；人工改过的归属不会被覆盖 |\n| **热点** | 按事件算热度：独立来源越多越靠前，X 上的讨论也算进来；和 6 小时前比，涨得快的标上升，新出现的标“新” |\n| **日报、周报、月报** | 每天 08:00 出日报，每周一出周报，每月 1 日出月报，按分类分节，带导语 |\n| **主题与搜索** | 公司、方向、内容形态三类主题页；标题摘要搜索和全文相关搜索 |\n| **给 Agent 用** | RSS（精选、全部、全文、日报）、公开 API、MCP、`llms.txt`，同一份内容给人看也给 Agent 用 |\n| **后台** | 信源管理与试抓、内容诊断、精选评测、每一步单独换模型、付费服务的预算熔断、运行记录与告警 |\n| **AI 专属模块** | 模型榜（汇总多家公开评测，方法公开）和 Codex 重置监控。别的行业一个开关关掉 |\n\n## 看一眼\n\n  \n  \n\n  \n  \n\n截图来自用示范信源跑起来的本地站，站名是默认的 MyHOT。\n\n## 跑起来\n\n需要 [Docker](https://docs.docker.com/get-docker/)，和一个 OpenAI 兼容的模型 API Key（DeepSeek、千问、智谱都可以）。\n\n```bash\ngit clone https://github.com/KKKKhazix/AIHOT.git myhot\ncd myhot\nnode scripts/init-env.ts --llm-key \ndocker compose up -d --build\n```\n\n打开 。后台在 `/admin`，管理员密码在 `.env` 的 `ADMIN_PASSWORD` 里。一两分钟后开始有内容，第一次导入的资料大约半小时处理完。\n\n机器上没有 Node、服务器在中国大陆、要配域名和 HTTPS，见 [部署](docs/deploy.md)。\n\n## 把它改成你的行业\n\n最省事的办法：打开你的 Agent（Claude Code、Codex 都可以），把这个仓库交给它，然后说：\n\n```text\n请读 AGENTS.md 和 docs/customize.md，把这个站改成「法律」行业的热点站。\n我关心的是：……（你想盯哪些信源，你觉得什么消息重要、什么不重要，越具体越好）。\n```\n\n要改的东西几乎都在 [`industry/`](industry/) 这一个文件夹里，代码基本不用动：\n\n| 文件 | 改什么 |\n|---|---|\n| `site.ts` | 站名、行业词、首页文案、关于页 |\n| `taxonomy.ts`、`topics.json` | 分类、标签、主题 |\n| `sources.json` | 首次启动时导入的信源 |\n| `prompts/` | 精选标准和写作要求。**你的行业 KnowHow，就写在这里** |\n| `selection.ts` | 入选门槛 |\n| `features.ts` | 模型榜、Codex 重置监控的开关 |\n| `brand/`、`pages/` | 图标、使用规则和隐私说明 |\n\n最值得花时间的是评分标准（`prompts/selection-score.md`）和门槛：拿一两百条你自己标注过的资料，用 `scripts/eval-selection.ts` 跑一遍，看它选得准不准，再回去改。怎么做写在 [精选与校准](docs/selection.md) 里。\n\n## 文档\n\n| 文档 | 内容 |\n|---|---|\n| [把它改成你的行业](docs/customize.md) | 站名、分类、信源、提示词、门槛、品牌，一步一步来 |\n| [信源](docs/sources.md) | 六种信源怎么配，分级和全文，外部推送接口 |\n| [精选与校准](docs/selection.md) | 一条资料怎么变成精选，怎么用自己的样本校准 |\n| [事件归组与关系评测](docs/grouping.md) | 事件关系怎么判断，怎么用自己的 pairwise gold set 评测 |\n| [部署](docs/deploy.md) | Docker、域名和 HTTPS、中国大陆、更新、备份、花多少钱 |\n| [架构](docs/architecture.md) | 三个进程、几条不变的规则、目录、对外出口 |\n| [模型榜与 Codex 重置监控](docs/leaderboard.md) | 两个 AI 专属模块 |\n\n技术栈：Node.js 24 · TypeScript · React Router（服务端渲染）· Fastify · PostgreSQL · pg-boss · Tailwind CSS · Docker Compose。\n\n## 最后\n\nAIHOT 曾经只是我无数个深夜里，一个很小、很小的念头。\n\n我不知道它会被改成什么样子，会走到多远的地方。但这可能就是开源最浪漫的地方。\n\n剩下的路，就交给你们了。\n\n—— 数字生命卡兹克\n\n## 许可\n\n代码使用 [MIT 许可证](LICENSE)。AIHOT 的名字和 Logo 不在许可范围内。字体、模型厂商和评测来源的标志各有自己的许可和商标归属，见 [NOTICE](NOTICE)。\n\n---\n\n**In English:** AIHOT ([aihot.news](https://aihot.news)) is an AI news site that collects from many sources, lets a language model filter and score every item twice, writes Chinese headlines and summaries, clusters reports of the same story into one event, ranks events by how many independent sources discuss them, and publishes a daily briefing. This repository is its complete framework, including every prompt and threshold. Hand it to your coding agent with `AGENTS.md` and `docs/customize.md` to turn it into a news site for your own field. The documentation is in Chinese.\n",
    "featured_before": false
@@ -1779,7 +1811,7 @@
    "url": "https://github.com/yetone/magpie",
    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
    "language": "Go",
-   "stars": 2590,
+   "stars": 2673,
    "topics": [
     "claude-code",
     "codex",
@@ -1791,7 +1823,7 @@
    "created_at": "2026-09-23",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 996,
+   "stars_per_day": 1079,
    "readme": "# magpie\n\nOne place to pick every agent's model: Codex on DeepSeek, Claude Code\non Kimi, Gemini CLI on GLM, from the menu bar. [usemagpie.ai](https://usemagpie.ai)\n\n[![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/vGSnD3ZKQF)\n\n`magpie` is a single screen that lists each AI agent on your machine and\nthe model it is set to. Click a value, pick a model. That is the whole app.\n\nIt lives in the menu bar: click the icon and a panel drops down; the same\nscreen also opens as a normal window (`magpie`, or *Open magpie* in the tray menu),\nand there is a terminal version (`magpie tui`) and a plain CLI.\n\n```\n  ◉ magpie\n\n  ▸ Claude Code   claude-fable-5-1[1m]                        ~/.claude/settings.json\n    Codex         gpt-6-astra   effort medium\n    Gemini CLI    gemini-3.1-pro\n    OpenCode      anthropic/claude-sonnet-5   small anthropic/claude-haiku-4-5\n    MiMo Code     anthropic/claude-sonnet-5\n    Pi            openrouter/z-ai/glm-5.2:batch\n    Goose         anthropic/claude-sonnet-5\n    Cursor        auto\n    Copilot CLI   claude-fable-5\n\n  ↑↓ agent  ·  ←→ field  ·  ↵ change  ·  s save profile  ·  p profiles  ·  q quit\n```\n\n- **One small binary.** Under 15 MB with the desktop app (it uses the system\n  webview through [Wails](https://wails.io), nothing bundled), 7 MB for the\n  terminal-only build. macOS, Linux and Windows.\n- **Edits config files surgically.** Only the one key you change is touched;\n  comments, ordering and indentation in your `settings.json`, `config.toml`,\n  `opencode.jsonc` or `config.yaml` survive intact. Writes are atomic.\n- **One endpoint for every agent.** magpie runs a local gateway that speaks\n  OpenAI chat completions, OpenAI Responses and the Anthropic Messages API,\n  and forwards to whichever vendor serves the model. Codex, Claude Code,\n  OpenCode and the rest all point at `http://127.0.0.1:3425/v1` and pick\n  from one catalog; the translation between APIs happens in magpie, streaming\n  and tool calls included.\n- **Your subscriptions, shared.** Sign in to Claude Code, Codex (ChatGPT)\n  or Copilot and that login shows up as a provider: every other agent can\n  use its models through the gateway, with nothing copied and no key to\n  paste.\n- **Providers with one field.** Pick a preset (Anthropic, OpenAI, Gemini,\n  DeepSeek, Kimi, GLM, MiniMax, StepFun, Qwen, Baidu Qianfan, Tencent Cloud Token Plan,\n  Huawei Cloud MaaS, Volcengine Ark, Mistral, Groq, xAI, OpenRouter, Together,\n  Fireworks, SiliconFlow, NVIDIA NIM, ModelScope, AiHubMix, 302.AI, Ollama, LM Studio…),\n  paste a key, done. Custom vendors need a name and a base URL. magpie never\n  reads keys from your shell environment.\n- **Real model lists, nothing compiled in.** With a key in hand magpie asks\n  the vendor which models it serves and offers exactly those; the\n  [models.dev](https://models.dev) catalog fills in names, reasoning efforts\n  and the list for vendors that have none, and refreshes itself in the\n  background once it goes stale. Choose which models each provider exposes,\n  or expose them all — a model released this morning is in the picker on\n  the next refresh.\n- **Profiles.** Snapshot every agent's settings under a name and switch all of\n  them back in one move.\n- **Real logos, no framework.** Plain HTML over the system webview; brand\n  icons from [lobehub/icons](https://github.com/lobehub/lobe-icons).\n\n## Agents\n\n| Agent        | File                              | Fields          |\n| ------------ | --------------------------------- | --------------- |\n| Claude Code  | `~/.claude/settings.json`         | provider, model, opus/sonnet/haiku/fable (through magpie) |\n| Claude Desktop | `Claude/` + `Claude-3p/configLibrary/` in `~/Library/Application Support` (`%LOCALAPPDATA%` on Windows, `~/.config` on Linux) | provider (its third-party gateway mode: Code and Cowork on magpie, no Anthropic sign-in; restart Desktop) |\n| Codex        | `~/.codex/config.toml`            | provider, model, effort |\n| Gemini CLI   | `~/.gemini/settings.json`, `~/.gemini/.env` | auth, model |\n| OpenCode     | `~/.config/opencode/opencode.json(c)` | model, small |\n| MiMo Code    | `~/.config/mimocode/mimocode.json(c)` | model, small |\n| Pi           | `~/.pi/agent/settings.json`       | model           |\n| Goose        | `~/.config/goose/config.yaml`     | model           |\n| Cursor CLI   | `~/.cursor/cli-config.json`       | model           |\n| Copilot CLI  | `~/.copilot/settings.json`        | model           |\n| Crush        | `~/.config/crush/crush.json`      | large, small    |\n| DeepSeek Harness (dsh) | `~/.dsh/config.yaml` (`$DSH_HOME`) | model |\n| Command Code | `~/.commandcode/settings.json` (+ `providers.json`) | model |\n| fx           | `~/.fx/settings.json`             | model (a keyless `magpie` provider) |\n| omp (oh-my-pi) | `~/.omp/agent/config.yml` (+ `models.yml`) | model |\n| Devin        | `~/.config/devin/config.json` (`%APPDATA%\\devin\\config.json` on Windows) | model |\n| Hermes Agent | `~/.hermes/config.yaml` (`$HERMES_HOME`) | model |\n| Kimi Code    | `~/.kimi/config.toml` (`$KIMI_SHARE_DIR`) | model (a `magpie` provider; magpie's models in Kimi's /model) |\n| Droid (Factory) | `~/.factory/settings.json` (`$FACTORY_HOME_OVERRIDE`) | model (magpie's models as BYOK `customModels`, in Droid's /model) |\n| Cline (CLI)  | `~/.cline/data/settings/providers.json` (`$CLINE_DIR`) | model, effort (magpie takes its openai-compatible provider) |\n| Qoder (CLI)  | `~/.qoder/settings.json` (`$QODER_CONFIG_DIR`) | model, effort (a `magpie` custom provider; needs a Qoder plan with BYOK) |\n| Qoder CN (CLI) | `~/.qoder-cn/settings.json` (`$QODERCN_CONFIG_DIR`) | model, effort (as Qoder; its own accounts, a Qoder CN plan with BYOK) |\n| Grok Build   | `~/.grok/config.toml` (`$GROK_HOME`) | model, effort |\n| ZCode        | `~/.zcode/v2/config.json`         | provider (magpie's models in ZCode's picker) |\n| WorkBuddy    | `~/.workbuddy/models.json` ",
    "featured_before": true
   },
@@ -1800,12 +1832,12 @@
    "url": "https://github.com/cdyforever/how-to-live-better",
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "language": "HTML",
-   "stars": 4871,
+   "stars": 4907,
    "topics": [],
    "created_at": "2026-09-18",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 971,
+   "stars_per_day": 1007,
    "readme": "# 高性价比人生指南 · 在线阅读页\n\n一个单文件 HTML 阅读页，把开源书《高性价比人生指南》的全部 32 节、528 条建议\n渲染成可搜索的页面。手机上打开就能看，不用装任何东西。\n\n**在线阅读：** https://cdyforever.github.io/how-to-live-better/\n\n## 这是什么\n\n原书由 [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)\n维护（Unlicense，公有领域），按「性价比」排序，每条写清花掉什么、换回什么、证据多硬，\n只引期刊论文和官方文件。\n\n本仓库不是原书的 fork，也不改动原书内容。它只做一件事：把原书正文渲染成一个\n**自包含的单文件网页**，方便在手机和别人的电脑上直接打开。\n\n## 页面特性\n\n- **零外部资源**：没有 CDN、没有字体外链、不 fetch 任何数据，断网也能读\n- 逐条卡片：建议标题、证据等级（A/B/C）、性价比档、成本标签\n- **「说人话」高亮块**——原书里这一栏专门把统计量翻成日常说法，页面上做得最显眼\n- 全站关键词搜索（结果高亮）、只看 A 级、只看说人话\n- 左侧目录带性价比色点，滚动联动\n- 手机端：搜索框独占一行、顶栏向下滚动后自动收成一行、回到顶部按钮\n- 明暗主题切换\n- 支持直接打印\n\n## 本地使用\n\n不用构建，双击 `index.html` 即可。\n\n## 重新生成\n\n```bash\n# 需要先有一份上游仓库的本地克隆\ngit clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git /tmp/upstream\n\n# 全部 32 节\npython build.py all -o index.html --repo /tmp/upstream\n\n# 只做某几节\npython build.py 1 2 16 --repo /tmp/upstream\n```\n\n源目录也可以用环境变量 `HLTB_REPO` 指定。\n\n统计口径（条目数、A/B/C 分级、性价比三档）与上游的 `tools/sync-stats.ps1`\n和 `index.html` 保持一致，生成结果可与上游徽章逐项对照。\n\n## 自动更新\n\n`.github/workflows/rebuild.yml` 每天 06:00（北京时间）拉取上游重新生成，\n内容有变化才提交。也可以去 Actions 页面手动触发。\n\n## 授权\n\n原书内容为 Unlicense（公有领域）。本仓库的构建脚本同样不作任何权利保留。\n",
    "featured_before": false
   },
@@ -1814,7 +1846,7 @@
    "url": "https://github.com/NandhaKishorM/laya",
    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
    "language": "Python",
-   "stars": 28554,
+   "stars": 28611,
    "topics": [
     "calibration",
     "classification",
@@ -1826,35 +1858,22 @@
    "created_at": "2026-09-18",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 844,
+   "stars_per_day": 901,
    "readme": "\n  \n    \n    \n  \n\n**Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.\n\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15d4Yv__KHeHjshVb-6PRTfqVllxih2S3?usp=sharing)\n[![PyPI version](https://img.shields.io/pypi/v/laya.svg)](https://pypi.org/project/laya/)\n[![Docs](https://img.shields.io/badge/docs-online-2ea44f)](https://nandhakishorm.github.io/laya/)\n[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-convaiinnovations%2Flaya-blue)](https://huggingface.co/convaiinnovations/laya)\n[![Multilingual](https://img.shields.io/badge/%F0%9F%A4%97%20Model-laya--multilingual-blue)](https://huggingface.co/convaiinnovations/laya-multilingual)\n[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-laya--demo-orange)](https://huggingface.co/spaces/convaiinnovations/laya-demo)\n[![Dev.to Article](https://img.shields.io/badge/dev.to-Read%20Article-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me)\n[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-nandakishorm-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/nandakishorm)\n[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)\n\n## Installation\n\n```bash\npython -m pip install laya\n```\n\nWith [uv](https://docs.astral.sh/uv/), run `uv add laya` in a uv project or `uv pip install laya` in a virtual environment.\n\nPython 3.10 or newer. Optional extras: `laya[serve]` (HTTP server), `laya[mcp]` (MCP server), `laya[langchain]` (LangChain and LangGraph), `laya[llamaindex]` (LlamaIndex selectors), `laya[crewai]` (CrewAI routing), `laya[onnx]` (ONNX Runtime), `laya[fast]` (TileLang GPU fast path). Step-by-step setup for each platform, CPU-only or GPU PyTorch builds, and troubleshooting are in [Installation details](#installation-details).\n\nFor TypeScript / Node.js / browser, see [`laya-ts/`](laya-ts/). npm releases (`npm install laya-ts`) are published from this repository's `laya-ts-v*` release tags.\n\n**Long documents.** `laya-multilingual` reads up to 8,192 tokens with `max_len=8192`. Measured accuracy and time by document length, reproducible with [`research/scripts/bench_long_context.py`](https://github.com/NandhaKishorM/laya/blob/main/research/scripts/bench_long_context.py):\n\n  \n\n## Quickstart\n\n> **Long documents: `laya-multilingual` reads up to 8,192 tokens.** It ships with a 1,024-token limit that cuts long documents off, so pass `max_len=8192` for them:\n>\n> ```python\n> result = router.predict(long_document, questions, model=\"multilingual\", max_len=8192)\n> ```\n>\n> In the table above, 16 to 18 of 20 requests were answered correctly with up to about 4,000 tokens of text before them; beyond that results vary (8 to 17 of 20), so check long-document accuracy on your own data. Short inputs give identical answers with `max_len=8192`, and speed follows the input's real length, not the limit: short inputs are unchanged, and a 4,000-token input takes about 1.7 s on an Apple GPU. Name the checkpoint with `model=\"multilingual\"`, since long mostly-English text would otherwise route to the English checkpoint.\n\n```python\nfrom laya import Router\n\nrouter = Router()  # downloads a checkpoint on first use; Router(preload=True) loads all three up front\n\nstate = \"Hi, we were billed twice for March. Please refund the duplicate today or we will cancel our plan.\"\nquestions = {\n    \"department\": {\"type\": \"choice\", \"instructions\": \"Which department should handle this?\",\n                   \"criteria\": {\"billing\": \"invoices, payments, refunds\",\n                                \"technical\": \"bugs, outages, system errors\",\n                                \"other\": \"everything else\"}},\n    \"urgency\": {\"type\": \"score\", \"instructions\": \"How urgent is this?\",\n                \"criteria\": [\"not urgent\", \"soon\", \"blocking\"]},\n    \"churn_risk\": {\"type\": \"noul\", \"instructions\": \"Does the user threaten to cancel or leave?\"},\n}\n\nresult = router.predict(state, questions)\nprint(result[\"answers\"][\"department\"][\"choice\"])  # billing\nprint(result[\"answers\"][\"churn_risk\"][\"noul\"])    # probability the answer is yes\nprint(result[\"routing\"][\"model\"])                 # english\n```\n\nThe same call works in any of 100+ languages. The `Router` detects the script and language and sends non-English text to `laya-multilingual`:\n\n```python\nfor text in [\"मुझसे मार्च में दो बार शुल्क लिया गया, कृपया डुप्लिकेट राशि वापस करें।\",\n             \"La aplicación se cierra cada vez que abro la configuración.\"]:\n    r = router.predict(text, {\"department\": questions[\"department\"]})\n    print(r[\"routing\"][\"model\"], r[\"answers\"][\"department\"][\"choice\"])\n# multilingual billing\n# multilingual technical\n```\n\nFrom the command line, `laya \"My payment failed twice\" --preset triage` answers a ready-made question set. More in the [full quickstart](#quickstart-route-mode-recommended) and the [docs](https://nandhakishorm.github.io/laya/).\n\n## Fine-tune for better accuracy\n\nThe shipped checkpoints work zero-shot, but fine-tuning on decisions from your own domain is where accuracy jumps. On the typed-decisions benchmark (2,000 decisions across four workflows), the fine-tuned `laya-typed-decisions` checkpoint scores **0.766** accuracy, against **0.362** for the base English checkpoint on the same decisions.\n\n**[Fine-tuning notebook](https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb)**: runs the whole loop on Kaggle's free 2x T4 GPUs (build the dataset, train, fit calibration temperatures, evaluate, and push the result to the Hub). Details in [F",
    "featured_before": true
-  },
-  {
-   "repo": "firelex/jeff",
-   "url": "https://github.com/firelex/jeff",
-   "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
-   "language": "Python",
-   "stars": 992,
-   "topics": [],
-   "created_at": "2026-09-28",
-   "pushed_at": "2026-09-29",
-   "found_in": "記事で紹介",
-   "stars_per_day": 711,
-   "readme": "# Jeff\n\n> **New: v1.1 (29 September 2026).** Jeff-Qwen3.5-0.8B and Jeff-Qwen3.5-2B now choose among up to **254 options**\n> (v1.0: 26), with better calibration. On our long-list test the 0.8B goes from 40% to 95%. The 2B's benchmark score\n> dips from 83.1% to 82.0%. Details in the [changelog](#changelog); v1.0 stays available on Hugging Face as\n> revision `v1.0`.\n\n**Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification: small, fast decision models you slot into your\ncode, with the same request format as Jev.** You describe a situation and list the options in plain words; Jeff returns a\ncalibrated probability for each option from a single forward pass. No generated text, no parsing: about **22 ms** per\ndecision on an RTX PRO 6000 and **28 ms** on an Apple M4 Max (MLX).\n\nZero-shot means the options can be anything: support queues, user intents, moderation labels, voice commands, game\nmoves. Your categories don't need to appear in the training data; you describe them, and Jeff picks.\n\n**What it is, and what it isn't.** These are very small models. They make extremely fast, well-calibrated judgement\ncalls between options, and they slot easily into your local code. On benchmarks they approach, and sometimes beat, Jev;\nbut at this size their reasoning won't match Jev's, which runs on a much larger model. If zero-shot accuracy isn't\ngood enough for your purposes, a short fine-tune on your own examples takes you much further: our\nvoice-navigation fine-tune moved held-out accuracy from 31.7% to 95.8% in under half an hour on one GPU.\n\n**Built entirely on local hardware.** Training on one RTX PRO 6000 workstation GPU (the 0.8B trains in about 2 hours,\nthe 2B in about 3.5), all synthetic training data written by an open model (Qwen3.8-Flash-Next) on two DGX Sparks,\ntesting on a MacBook. No cloud GPUs, and no closed-model output in the training data; a closed model was used only to\nspot-check the quality of a sample of the synthetic data.\n\n**Independent project.** Jeff uses the same request format as Jev, but it is not affiliated with or endorsed by TypeSafe, the\nmakers of Jev. Our training code starts from the open-source [AutoJev](https://github.com/denis-pplx/autojev) recipe.\n\n**Models on Hugging Face:** [Jeff-Qwen3.5-0.8B](https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B) · [Jeff-Qwen3.5-2B](https://huggingface.co/mstrasser/Jeff-Qwen3.5-2B) · [Jeff-Gemma4-E2B](https://huggingface.co/mstrasser/Jeff-Gemma4-E2B) · chess fine-tune: [Jeff-Qwen3.5-0.8B-Chess](https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B-Chess)\n\n## Quick start\n\nTo serve a model you only need the serving install (`--no-default-groups` leaves out the training, data and\nevaluation packages; plain `uv sync` installs everything):\n\n```bash\nuv sync --no-default-groups                 # CPU\nuv sync --no-default-groups --extra cuda    # NVIDIA GPU: adds the fast kernels (much slower without them)\nuv sync --no-default-groups --extra mac     # Apple silicon: adds MLX\nuv run --no-default-groups hf download mstrasser/Jeff-Qwen3.5-0.8B --local-dir checkpoints/jeff-0.8b\n\n# NVIDIA GPU or CPU (PyTorch)\nJEFF_CHECKPOINT=checkpoints/jeff-0.8b PORT=8765 uv run --no-default-groups jeff-serve\n# Apple silicon (MLX, much faster on a Mac; Qwen models only)\nJEFF_BACKEND=mlx JEFF_CHECKPOINT=checkpoints/jeff-0.8b PORT=8765 uv run --no-default-groups --extra mac jeff-serve\n```\n\n```bash\ncurl -s localhost:8765/v1/systemone -H 'content-type: application/json' -d '{\n  \"model\": \"jeff-latest\",\n  \"state\": \"Refund request: the customer says the parcel arrived crushed and wants their money back.\",\n  \"questions\": {\n    \"route\": {\"type\": \"choice\", \"instructions\": \"Which team should handle this?\",\n              \"criteria\": {\"1\": \"Refunds and payments\", \"2\": \"Damaged or lost parcels\", \"3\": \"Account and login problems\"}},\n    \"angry\": {\"type\": \"noul\", \"instructions\": \"Is the customer angry?\"}\n  }\n}'\n```\n\nEach answer has a probability per option, the chosen option and a confidence. Three question types: `choice` (pick one\nof up to 254 options with the v1.1 Qwen models, 26 with Jeff-Gemma4-E2B), `noul` (yes/no, returned as a probability) and `score` (a point on a scale you describe).\nSeveral independent questions in one request are answered together.\n\n## Benchmarks\n\n4,599 questions from five public benchmarks, plus JevBench's public hard tier (105 items, scored separately):\n\n![Accuracy of Jeff-Qwen3.5-0.8B, Jeff-Qwen3.5-2B and Jeff-Gemma4-E2B against Jev's published figures, per benchmark](assets/benchmarks.png)\n\n| Benchmark | Qwen3.5-0.8B untrained | Jeff-Qwen3.5-0.8B | Qwen3.5-2B untrained | Jeff-Qwen3.5-2B | Gemma 4 E2B untrained | Jeff-Gemma4-E2B | Jev (published) | AutoJev-27B (published) |\n|---|---|---|---|---|---|---|---|---|\n| **Overall (5 benchmarks)** | 45.3 | 79.1 | 46.5 | 82.0 | 62.5 | 81.6 | **83.0** | ***84.9*** |\n| BBH | 39.5 | 64.9 | 46.0 | 68.7 | 51.3 | 66.4 | **94.3** | 82.8 |\n| Financial PhraseBank | 36.0 | **95.7** | 53.4 | **94.7** | 86.0 | **96.1** | 77.0 | 84.2 |\n| JudgeBench | 56.6 | 63.1 | 57.4 | 59.4 | 46.9 | 60.6 | **78.6** | ***78.9*** |\n| RAGTruth | 49.1 | **85.6** | 35.9 | **87.7** | 63.8 | **87.4** | 77.3 | ***88.9*** |\n| WinoGrande | 49.2 | 69.0 | 52.2 | 78.8 | 51.0 | 77.4 | **90.7** | 83.3 |\n| JevBench hard (separate) | 36.2 | 46.7 | 45.7 | 57.1 | 41.0 | 48.6 | **73.3** | 70.3 |\n\n**Bold:** the winner of Jeff against Jev in each row. ***Bold italic:*** AutoJev-27B where it is the best of all models\nin the row; it is shown for reference, since the head-to-head comparison is\nwith Jev. The Qwen columns are v1.1; Jeff-Gemma4-E2B is v1.0. The published Jev and AutoJev figures were measured on a different sample of the same benchmarks. Jeff's\noverall score comes from classification and grounding, where it matches or beats the large models; on the\nreasoning-heavy benchmarks (BBH, JudgeBench, JevBench) it stays well below them, as you would expect at this size.\n\n## Games: a zero-shot test\n\n*Measured with v1.0 of the Jeff models.*\n\nTo test z",
-   "featured_before": false
   },
   {
    "repo": "robbietilton/Compositor",
    "url": "https://github.com/robbietilton/Compositor",
    "description": "The Photoshop alternative for Mac",
    "language": "Swift",
-   "stars": 6466,
+   "stars": 6494,
    "topics": [],
    "created_at": "2026-09-16",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 474,
+   "stars_per_day": 502,
+   "readme": "# Compositor\n\nAdobe Photoshop costs too much and tools like GIMP don’t feel familiar enough for me to stay in flow. That’s why I built Compositor.\n\nThe goal was to create a full-featured image editor that is completely free and open source. I used to use Photoshop for compositing and post-processing, so Compositor is built around that workflow - with the tools needed to create a pixel-perfect final image.\n\nBecause it’s open source, you can download the Xcode project and add, remove, or modify any feature to fit your workflow.\n\n## Installation\n\n### Download\nGet Compositor from [robbietilton.com/compositor](https://robbietilton.com/compositor), or download the latest release directly from [GitHub Releases](https://github.com/robbietilton/Compositor/releases/latest).\n\n### Homebrew\n\n```sh\nbrew install --cask robbietilton-compositor\n```\n\n## Features\n\n### Layers\n- Layers and folders, with opacity and Photoshop's full set of blend modes in its order — a folder's opacity dims everything inside it\n- Layer masks: paint, fill, invert, blur and feather them anywhere on the canvas, past the layer's own pixels; link or unlink them to transform a mask on its own\n- Clipping masks and folder masks\n- Adjustment layers: Hue/Saturation, Levels, Curves, Exposure, Gradient Map, Grain, Black & White, Color Balance, Invert, Gaussian Blur, Motion Blur and Noise\n- Layer effects: Stroke, Drop Shadow, Color Overlay, Inner Shadow, Outer Glow and Inner Glow, rendered on the GPU and editable at any time\n- Merge Down, Merge Layers and Merge Group (⌘E)\n- Duplicate, rename inline, reorder and nest by drag and drop; Option-drag to duplicate; a right-click menu in the Layers panel\n- Copy and paste whole layers and folders (⌘C/⌘V with no selection), within a project or between projects, or drag them between projects\n\n### Transform\n- Non-destructive move, scale, rotate and flip — images keep their full resolution however small you make them\n- Free distort (⌘-drag a handle), with Shift to lock to an axis\n- Transform several layers, or a whole folder, together\n- Snapping to canvas and layer edges and centers, with guides\n- Exact values for position, size, scale and angle, stepped with the arrow keys\n- Flip Layer and Flip Canvas, horizontal and vertical\n\n### Selections\n- Rectangle and Ellipse Marquee, Freehand and Polygonal Lasso, and the Magic tool — Wand selects by color, Object traces whatever you click (Tab switches)\n- Select Subject, and Expand, Contract and Feather on any selection\n- Add to and subtract from selections, move the outline, or move and duplicate the pixels inside\n- Load a layer's pixels or a mask as a selection\n- Content-Aware Fill, which can also extend an image past its edges\n\n### Painting and retouching\n- Brush with size, hardness, opacity and smoothing, in Paint or Erase mode (B and E), and Shift for straight lines\n- Spot Healing Brush (content-aware)\n- Clone Stamp, aligned or not, sampling one layer or all of them\n- Blur tool, on pixels or masks\n- Gradient tool and Shape tool (rectangles, rounded rectangles, ellipses and lines), which stay editable rather than being rasterized\n- Type tool (T): inline multiline editing in draggable, resizable paragraph boxes; font, size, color, alignment and spacing in the tool header; transform text and use it as a clipping mask\n- Eyedropper and a full color picker\n\n### Adjustments and filters\n- Camera Raw filter: light, color, curves, color mixer, color grading, detail, optics and geometry, in a panel beside the canvas\n- Levels (with Auto), Curves, Hue/Saturation, Exposure, Gradient Map, Grain, Black & White, Color Balance and Invert\n- Gaussian Blur and Motion Blur that spread past a layer's edges\n- Add Noise, Vignette, Bloom / Glow, Tonal Contrast, Lens Correction and Remove Background\n- Live previews, limited to the selection when there is one\n\n### Canvas and files\n- Multiple projects in tabs\n- Rulers (⌘R), guides dragged from them, a layout grid with adjustable spacing and subdivisions, and Snap To for guides, grid, layers and document bounds\n- Crop with snapping, ratios including 3:4 and 9:16, and Option for symmetric cropping; with a selection, the crop starts at it\n- Canvas Size, Image Size and Trim\n- Sharp high-quality downsampling when zoomed out, and a pixel grid when zoomed in\n- Import JPEG, PNG, HEIC, TIFF, SVG, camera RAW (with a develop step first) and Photoshop PSD and PSB (8-bit RGB; not CMYK). Photoshop folders, masks, blend modes, fill rectangles/ellipses, and simple horizontal text stay editable; other vectors and vertical text become pixels. A conversion report is shown before anything is applied.\n- Large documents: the memory budget scales with your Mac, and a Photoshop file too big to open has its layers cropped to the canvas instead\n- Export JPEG with a live preview (⇧⌥⌘S); Copy Merged\n- Keep working while a project saves\n- Photoshop-style keyboard shortcuts throughout, remappable in Edit > Keyboard Shortcuts\n- Drag a number's label to scrub its value, as in Photoshop\n- Automatic updates, signed and notarized\n\n### Works with AI agents\n- AI agents and scripts can build and edit projects directly: a `.comp` is a folder of PNG layers and a manifest, and an open project updates live as it's written. See [Writing Compositor projects](docs/writing-comp-files.md)\n\n## Requirements\n\n- macOS 26.0 or later on a Mac with Apple silicon\n- Xcode 26 or later (to build from source)\n\n## Building\n\nOpen `Compositor.xcodeproj` and run the **Compositor** scheme.\n\n## Releasing\n\n`scripts/release.sh` builds a Release version, signs it with Developer ID, notarizes and staples it, and packages it into `dist/Compositor-.dmg`.\n\nIt needs, all kept outside this repository:\n\n- a **Developer ID Application** certificate in the login keychain\n- notarization credentials saved with `xcrun notarytool store-credentials \"compositor-notary\" …`\n- [`create-dmg`](https://github.com/create-dmg/create-dmg) (`brew install create-dmg`)\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n",
    "featured_before": false
   },
   {
@@ -1862,7 +1881,7 @@
    "url": "https://github.com/dzhng/jevgrep",
    "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
    "language": "TypeScript",
-   "stars": 1763,
+   "stars": 1774,
    "topics": [
     "ai-sdk",
     "claude-code",
@@ -1874,7 +1893,7 @@
    "created_at": "2026-09-26",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 441,
+   "stars_per_day": 444,
    "estimated": true,
    "featured_before": false
   },
@@ -1883,12 +1902,12 @@
    "url": "https://github.com/CopilotKit/openmuse",
    "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
    "language": "TypeScript",
-   "stars": 3191,
+   "stars": 3220,
    "topics": [],
    "created_at": "2026-09-15",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 318,
+   "stars_per_day": 347,
    "featured_before": false
   },
   {
@@ -1896,12 +1915,12 @@
    "url": "https://github.com/Mak5er/AirCard",
    "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
    "language": "Swift",
-   "stars": 5020,
+   "stars": 5036,
    "topics": [],
    "created_at": "2026-09-16",
    "pushed_at": "2026-09-22",
    "found_in": "新着人気",
-   "stars_per_day": 304,
+   "stars_per_day": 320,
    "featured_before": false
   },
   {
@@ -1909,12 +1928,12 @@
    "url": "https://github.com/Niko1221/Strata",
    "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
    "language": "C++",
-   "stars": 1660,
+   "stars": 1730,
    "topics": [],
    "created_at": "2026-09-24",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 277,
+   "stars_per_day": 288,
    "estimated": true,
    "featured_before": false
   },
@@ -1923,12 +1942,12 @@
    "url": "https://github.com/PostHog/jeeves",
    "description": "Jeeves – Reasoning improves Jev-like decision models",
    "language": "Python",
-   "stars": 259,
+   "stars": 270,
    "topics": [],
    "created_at": "2026-09-29",
    "pushed_at": "2026-09-29",
    "found_in": "記事で紹介",
-   "stars_per_day": 259,
+   "stars_per_day": 270,
    "estimated": true,
    "featured_before": false
   },
@@ -1937,20 +1956,46 @@
    "url": "https://github.com/browser-use/jev-ultrafast",
    "description": "Fastest and cheapest web agent",
    "language": "Python",
-   "stars": 21388,
+   "stars": 21397,
    "topics": [],
    "created_at": "2026-09-16",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 234,
+   "stars_per_day": 243,
    "featured_before": true
+  },
+  {
+   "repo": "yi1108/printfilm",
+   "url": "https://github.com/yi1108/printfilm",
+   "description": "PRINTFILM：AI 视频获客与 AI短剧创作平台",
+   "language": "Python",
+   "stars": 3761,
+   "topics": [],
+   "created_at": "2026-09-10",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 234,
+   "featured_before": false
+  },
+  {
+   "repo": "Contrastive-LM/CLM",
+   "url": "https://github.com/Contrastive-LM/CLM",
+   "description": "",
+   "language": "Python",
+   "stars": 2517,
+   "topics": [],
+   "created_at": "2026-09-23",
+   "pushed_at": "2026-09-24",
+   "found_in": "新着人気",
+   "stars_per_day": 234,
+   "featured_before": false
   },
   {
    "repo": "jaredpalmer/kev",
    "url": "https://github.com/jaredpalmer/kev",
    "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
    "language": "Python",
-   "stars": 7878,
+   "stars": 7885,
    "topics": [
     "decision-model",
     "jev",
@@ -1959,20 +2004,7 @@
    "created_at": "2026-09-17",
    "pushed_at": "2026-09-29",
    "found_in": "新着人気",
-   "stars_per_day": 222,
-   "featured_before": false
-  },
-  {
-   "repo": "Contrastive-LM/CLM",
-   "url": "https://github.com/Contrastive-LM/CLM",
-   "description": "",
-   "language": "Python",
-   "stars": 2502,
-   "topics": [],
-   "created_at": "2026-09-23",
-   "pushed_at": "2026-09-24",
-   "found_in": "新着人気",
-   "stars_per_day": 219,
+   "stars_per_day": 229,
    "featured_before": false
   }
  ],
@@ -2005,24 +2037,6 @@
    "body": "## Adapters are now separate packages\r\n\r\nThe runtime adapters are now published as their own packages: `@hono/bun`, `@hono/deno`, `@hono/cloudflare-workers`, `@hono/aws-lambda`, `@hono/lambda-edge`, `@hono/netlify`, `@hono/vercel`, and `@hono/service-worker`. `@hono/deno` is also on JSR.\r\n\r\n`hono/<adapter>` still works in v4 but is deprecated and will be removed in v5. Migrating is an import change:\r\n\r\n```diff\r\n- import { serveStatic } from 'hono/bun'\r\n+ import { serveStatic } from '@hono/bun'\r\n```\r\n\r\nhono/cloudflare-pages is deprecated without a replacement package; Cloudflare recommends Workers with static assets.\r\n\r\n## What's Changed\r\n* chore: migrate the package manager from bun to pnpm in https://github.com/honojs/hono/pull/5433\r\n* chore(package.json): invoke package scripts through pnpm instead of bun in https://github.com/honojs/hono/pull/5434\r\n* chore: replace prettier with oxfmt in https://github.com/honojs/hono/pull/5435\r\n* chore(deps): upgrade vitest to 5.0.1 in https://github.com/honojs/hono/pull/5437\r\n* chore: let oxfmt sort imports instead of eslint in https://github.com/honojs/hono/pull/5442\r\n* chore: replace eslint with oxlint in https://github.com/honojs/hono/pull/5443\r\n* chore: introduce Vite+ in https://github.com/honojs/hono/pull/5444\r\n* fix(types): allow returning a Blob as a response body in https://github.com/honojs/hono/pull/5446\r\n* chore: convert build scripts into plugins in https://github.com/honojs/hono/pull/5448\r\n* chore: stop editorconfig-checker from checking Markdown indent size in https://github.com/honojs/hono/pull/5455\r\n* ci: remove empty step left in `cr.yml` by the pnpm migration in https://github.com/honojs/hono/pull/5456\r\n* chore(deps): upgrade vite-plus to `1.0.0-rc.1` in https://github.com/honojs/hono/pull/5459\r\n* feat(adapters): add @hono/bun as a workspace package in https://github.com/honojs/hono/pull/5447\r\n* chore(adapters/bun): ship ESM only in https://github.com/honojs/hono/pull/5462\r\n* feat(adapters): add the seven adapters as workspace packages in https://github.com/honojs/hono/pull/5463\r\n* feat(adapters/deno): publish to JSR in https://github.com/honojs/hono/pull/5465\r\n* test: move adapter runtime tests into `adapters/*` in https://github.com/honojs/hono/pull/5466\r\n\r\n\r\n**Full Changelog**: https://github.com/honojs/hono/compare/v4.13.9...v4.13.10"
   },
   {
-   "repo": "honojs/hono",
-   "version": "@hono/netlify@1.0.1",
-   "name": "@hono/netlify@1.0.1",
-   "url": "https://github.com/honojs/hono/releases/tag/%40hono/netlify%401.0.1",
-   "published_at": "2026-09-28T08:49:12Z",
-   "prerelease": false,
-   "body": ""
-  },
-  {
-   "repo": "honojs/hono",
-   "version": "@hono/deno@1.0.2",
-   "name": "@hono/deno@1.0.2",
-   "url": "https://github.com/honojs/hono/releases/tag/%40hono/deno%401.0.2",
-   "published_at": "2026-09-28T08:48:37Z",
-   "prerelease": false,
-   "body": ""
-  },
-  {
    "repo": "anthropics/claude-code",
    "version": "v2.1.285",
    "name": "v2.1.285",
@@ -2042,48 +2056,12 @@
   },
   {
    "repo": "anthropics/anthropic-sdk-typescript",
-   "version": "vertex-sdk-v0.20.0",
-   "name": "vertex-sdk: v0.20.0",
-   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.20.0",
-   "published_at": "2026-09-28T18:04:00Z",
-   "prerelease": false,
-   "body": "## 0.20.0 (2026-09-28)\n\nFull Changelog: [vertex-sdk-v0.19.11...vertex-sdk-v0.20.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/vertex-sdk-v0.19.11...vertex-sdk-v0.20.0)\n\n### Features\n\n* **api:** add claude-sonnet-5-5 ([4e77366](https://github.com/anthropics/anthropic-sdk-typescript/commit/4e7736625fd23a5607800e8de4aa3c37daa74a07))"
-  },
-  {
-   "repo": "anthropics/anthropic-sdk-typescript",
    "version": "sdk-v0.129.0",
    "name": "sdk: v0.129.0",
    "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.129.0",
    "published_at": "2026-09-28T18:03:48Z",
    "prerelease": false,
    "body": "## 0.129.0 (2026-09-28)\n\nFull Changelog: [sdk-v0.128.0...sdk-v0.129.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.128.0...sdk-v0.129.0)\n\n### Features\n\n* **api:** add between_tools thinking type ([ab51075](https://github.com/anthropics/anthropic-sdk-typescript/commit/ab51075609a2d583dffdca24856f4214779d9e7f))\n* **api:** add claude-sonnet-5-5 ([4e77366](https://github.com/anthropics/anthropic-sdk-typescript/commit/4e7736625fd23a5607800e8de4aa3c37daa74a07))\n* **api:** add ClientToolUnion type for client-executed tools ([2c1d2d7](https://github.com/anthropics/anthropic-sdk-typescript/commit/2c1d2d712071a5f10d2e70ea02dc33425b087799))\n* **api:** add include_inherited and source to workspace rate limits ([66e925e](https://github.com/anthropics/anthropic-sdk-typescript/commit/66e925e54ff3435a56f51f687641728b94aff306))\n* **api:** add typed event type values to the Managed Agents events list filter ([8ac4a26](https://github.com/anthropics/anthropic-sdk-typescript/commit/8ac4a26809418453b64fee79f8ec790d32d1f92c))\n* **api:** cache diagnostics GA — diagnostics on Message / MessageCreateParams ([5ba5f29](https://github.com/anthropics/anthropic-sdk-typescript/commit/5ba5f29696d520f68a794936eff7337dce83ac05))\n* **tools:** optionally start tool calls while the reply streams ([083969b](https://github.com/anthropics/anthropic-sdk-typescript/commit/083969beadb360b9c4b329ee2541f67bd78d9caf))\n\n\n### Bug Fixes\n\n* **client:** also send X-Stainless-Timeout for client-level timeouts ([b84783b](https://github.com/anthropics/anthropic-sdk-typescript/commit/b84783b6ee03eed519d622ea1e477cf8eb3863bf))\n* **client:** send upload filenames as given, with no placeholder ([f9d3e98](https://github.com/anthropics/anthropic-sdk-typescript/commit/f9d3e980b1b498c1c452300a205811f6a56de69b))\n* **helpers:** degrade between_tools thinking to disabled on fallback hops ([#841](https://github.com/anthropics/anthropic-sdk-typescript/issues/841)) ([edbbf05](https://github.com/anthropics/anthropic-sdk-typescript/commit/edbbf05a62ffe2c95c13810f6d7a0a2796786e5f))\n* **internal:** let bundlers drop unused classes with more than ten private-member assignments ([67c7adb](https://github.com/anthropics/anthropic-sdk-typescript/commit/67c7adbe5ebae805631e104b341d932a1554bda8))\n* **streaming:** show every complete array item and hold back unfinished numbers in partial tool input ([#781](https://github.com/anthropics/anthropic-sdk-typescript/issues/781)) ([5806588](https://github.com/anthropics/anthropic-sdk-typescript/commit/58065889d6b112db6da5127484e0a24025e3fa37))\n\n\n### Performance Improvements\n\n* **streaming:** drop the redundant iterSSEChunks layer ([0357f81](https://github.com/anthropics/anthropic-sdk-typescript/commit/0357f812dab273c0780c558606663a03e93e34df))\n* **streaming:** take each string token as one slice in the partial JSON tokenizer ([#255](https://github.com/anthropics/anthropic-sdk-typescript/issues/255)) ([cdfb1e5](https://github.com/anthropics/anthropic-sdk-typ"
-  },
-  {
-   "repo": "anthropics/anthropic-sdk-typescript",
-   "version": "google-cloud-sdk-v0.0.15",
-   "name": "google-cloud-sdk: v0.0.15",
-   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v0.0.15",
-   "published_at": "2026-09-28T18:04:24Z",
-   "prerelease": false,
-   "body": "## 0.0.15 (2026-09-28)\n\nFull Changelog: [google-cloud-sdk-v0.0.14...google-cloud-sdk-v0.0.15](https://github.com/anthropics/anthropic-sdk-typescript/compare/google-cloud-sdk-v0.0.14...google-cloud-sdk-v0.0.15)"
-  },
-  {
-   "repo": "anthropics/anthropic-sdk-typescript",
-   "version": "foundry-sdk-v0.5.0",
-   "name": "foundry-sdk: v0.5.0",
-   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.5.0",
-   "published_at": "2026-09-28T18:04:12Z",
-   "prerelease": false,
-   "body": "## 0.5.0 (2026-09-28)\n\nFull Changelog: [foundry-sdk-v0.4.9...foundry-sdk-v0.5.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/foundry-sdk-v0.4.9...foundry-sdk-v0.5.0)\n\n### Features\n\n* **api:** add claude-sonnet-5-5 ([4e77366](https://github.com/anthropics/anthropic-sdk-typescript/commit/4e7736625fd23a5607800e8de4aa3c37daa74a07))"
-  },
-  {
-   "repo": "anthropics/anthropic-sdk-typescript",
-   "version": "bedrock-sdk-v0.34.0",
-   "name": "bedrock-sdk: v0.34.0",
-   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.34.0",
-   "published_at": "2026-09-28T18:04:06Z",
-   "prerelease": false,
-   "body": "## 0.34.0 (2026-09-28)\n\nFull Changelog: [bedrock-sdk-v0.33.8...bedrock-sdk-v0.34.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/bedrock-sdk-v0.33.8...bedrock-sdk-v0.34.0)\n\n### Features\n\n* **api:** add claude-sonnet-5-5 ([4e77366](https://github.com/anthropics/anthropic-sdk-typescript/commit/4e7736625fd23a5607800e8de4aa3c37daa74a07))"
   },
   {
    "repo": "cloudflare/workers-sdk",
