@@ -1,0 +1,68 @@
+{
+  "edition": "daily",
+  "headline": "Googleの新フロンティアモデル「Gemini 4 Argon」とCloudflareのオープンな意思決定モデル基盤「Clef」が同時に話題になり、LLM選定とAIインフラの両面で動きがあった一日。",
+  "reading_list": [
+    {
+      "url": "https://www.techno-edge.net/article/2026/10/01/5543.html",
+      "title": "Google、新フロンティアモデルGemini 4 Argon発表　出力100万トークンで長期の自律推論に強み、法務や業務自動化でOpus 5.5やAstraに大差",
+      "category": "AI",
+      "minutes": 5,
+      "why": "新フロンティアモデルの登場はLLM選定やエージェント設計の前提に直結するため、まず押さえておきたい。",
+      "takeaway": "Gemini 4 Argonの位置づけと、長文出力・長期自律推論での強みの概要がわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Cloudflare公式によるオープンソースの意思決定モデルとRLファインチューニング基盤の発表で、自前でモデルを育てたい読者に関係する。",
+      "takeaway": "Clefの意思決定モデルとRLファインチューニングプラットフォームの狙いと概要がわかる。"
+    },
+    {
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "title": "RIP, vector database",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "専用ベクトルDBの必要性を問い直す議論で、AI機能を持つバックエンドの設計判断に関わる。",
+      "takeaway": "専用ベクトルDBが不要になりつつあると主張する根拠と、代替アーキテクチャの考え方がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "language": "Swift",
+      "stars": 2429,
+      "stars_per_day": 486,
+      "what": "Claude Codeなどのエージェントセッションを、Macのノッチ上やWindows画面上部に常駐して監視できるデスクトップコンパニオン。",
+      "why": "権限承認や進捗確認をUIから行える点が、エージェントと日常的に協働する開発者から新着人気で急上昇している理由とみられる。",
+      "try": "READMEに従ってアプリをインストールし、Claude Codeなどのセッションに接続して通知を確認する。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.3.8",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8",
+      "summary": "Image最適化のSSRFやApp Routerメタデータ画像ルートの情報漏洩、SSG/ISRのキャッシュポイズニングなど複数のセキュリティ修正を含み、早めの更新が推奨される。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.287",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "summary": "プラグインで挙動を拡張できるClaude Modsと、見落としを横から指摘するYou should knowが追加された。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v0.131.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.131.0",
+      "summary": "spend limits一覧取得APIが追加される一方、Sonnet 4.5がdeprecated扱いになった。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.146.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.146.0",
+      "summary": "ローカル開発のWorkflowsバインディングでcreateBatch() APIがサポートされた。"
+    }
+  ]
+}
