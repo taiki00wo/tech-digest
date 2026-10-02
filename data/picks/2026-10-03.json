@@ -1,0 +1,142 @@
+{
+  "edition": "weekly",
+  "headline": "今週はOpenAIがGPT-6ファミリーの活用ガイドと常時稼働エージェント「Dots」を発表する一方、Cloudflare・VercelがAIエージェント向けのコスト最適化や監視・課金基盤を相次いで強化した。",
+  "trends": [
+    "OpenAIがGPT-6ファミリーの使い分けガイドや常時稼働エージェント「Dots」を発表し、プロダクションでのAIエージェント運用に向けた動きが本格化した。",
+    "Cloudflare・VercelがAI Gatewayのモデルルーティングやエージェント向け課金・Observability機能を相次いで追加し、プラットフォーム側でAIエージェントの運用コストと信頼性を支える流れが強まった。",
+    "Next.jsの重大セキュリティ修正やClaude Code・Anthropic TypeScript SDKの更新など、日常使うツールチェーンの足回りアップデートが続いた。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "category": "AI",
+      "minutes": 6,
+      "why": "GPT-6ファミリーのモデル選定やreasoning effortの調整方法を公式が解説しているため",
+      "takeaway": "用途に応じたGPT-6モデルの選び方とプロンプト・reasoning effortの調整指針がわかる"
+    },
+    {
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "GitHub公式がAIエージェントを使ったファジングの具体的な活用例を解説しているため",
+      "takeaway": "Taskflow Agentを使ったファジング導入の流れと勘所がわかる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/auto-router/",
+      "title": "Cut your AI spend with AI Gateway's Auto Router",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "AI Gatewayの新しいモデルルーティング機能でコストを下げる仕組みが公式から説明されているため",
+      "takeaway": "リクエストの複雑さに応じてモデルを自動で切り替え、AI利用コストを抑える方法がわかる"
+    },
+    {
+      "url": "https://qiita.com/TechStudioLab/items/83349e8b4cdf07b97cd1",
+      "title": "生成AI送信前にPythonで個人情報をマスキングする",
+      "category": "バックエンド",
+      "minutes": 7,
+      "why": "社内データをLLMに渡す前の個人情報マスキングという実務的な課題をPythonで扱っているため",
+      "takeaway": "LLM APIに送る前に個人情報を検出・マスキングする実装パターンがわかる"
+    },
+    {
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Claude Code向けのSkillを自作した実例から文章改善の具体的なアプローチがわかるため",
+      "takeaway": "AI生成文章の読みにくさを構造面から改善するClaude Code Skillの作り方がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "language": "Python",
+      "stars": 2058,
+      "stars_week": 4802,
+      "what": "Claude CodeやCodexなどのAIコーディングエージェントに、手持ちのPCゲームを調査・改造させるSkillとfal MCPサーバーを提供するツール",
+      "why": "Claude Code・Codex・Cursor・Gemini CLIなど複数のエージェントに対応し、AGENTS.md経由で共通のSkillを使い回せる設計が注目され今週急伸した",
+      "try": "Claude Codeで `/plugin marketplace add rehan-remade/universal-modder` を実行後 `/plugin install universal-modder@universal-modder` でインストール"
+    },
+    {
+      "repo": "CopilotKit/openmuse",
+      "url": "https://github.com/CopilotKit/openmuse",
+      "language": "TypeScript",
+      "stars": 2873,
+      "stars_week": 1295,
+      "what": "ブラウザ・ターミナル・ファイル操作を備え、作業を継続実行するパーソナルエージェント",
+      "why": "CopilotKitとAG-UIというTypeScript製のエージェントUIフレームワークを使った実装例として関心を集めている",
+      "try": "READMEの手順に沿ってCopilotKit CLIでセットアップし、ローカルでエージェントを起動する"
+    },
+    {
+      "repo": "PostHog/jeeves",
+      "url": "https://github.com/PostHog/jeeves",
+      "language": "Python",
+      "stars": 270,
+      "stars_week": 1890,
+      "what": "reasoningによって意思決定モデルの精度改善を目指すPostHog発のプロジェクト（README情報が少なく詳細は不明）",
+      "why": "情報は限られるが、PostHogが公開した新しいreasoningベースの意思決定モデルとして今週スターが急増した",
+      "try": "README記載情報が少ないため、まずリポジトリ本体とコミット履歴を直接確認する"
+    }
+  ],
+  "deep_dive": {
+    "repo": "rehan-remade/universal-modder",
+    "url": "https://github.com/rehan-remade/universal-modder",
+    "overview": "Claude CodeやCodex、Cursorなど主要なAIコーディングエージェントに、手持ちのPCゲームを調査・改造させるためのSkillとツール群。ゲームエンジンの特定からアセット生成、動作確認、知見の記録までを一連のワークフローとして提供する。",
+    "how_it_works": "AGENTS.mdを読めるエージェントであれば共通のAgent Skills形式のスキルを使える設計で、Claude Code・Codex・Cursor・Gemini CLI・GitHub Copilot・OpenCodeに対応する。エージェントはまずゲームを特定してエンジンと改造ルートを調べ、実際のコードを読み込んでMODを構築する。アート・3D・音声の生成にはfalのMCPサーバーを利用し、生成物をゲーム内で実際にテストする。最後に紹介動画を作成し、学んだ知見を次のエージェントのために記録として残す設計になっている。",
+    "use_cases": [
+      "手持ちのPCゲームにMODを追加したいとき",
+      "複数のAIコーディングエージェント（Claude Code/Codex/Cursorなど）で同じSkillセットを使い回したいとき",
+      "fal経由でのアセット生成を含む改造作業を自動化したいとき"
+    ],
+    "try": [
+      "Claude Codeの場合: `/plugin marketplace add rehan-remade/universal-modder` を実行",
+      "続けて `/plugin install universal-modder@universal-modder` でインストール",
+      "Codex等の他エージェントでも、READMEに記載の専用コマンドで同様にプラグインを追加する"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/diggymo/claude-design-ga-mechakucha-benrina-node-tsuka-te-hoshii",
+      "title": "Claude Designがめちゃくちゃ便利なので使ってほしい",
+      "event": "DevelopersIO 2026 Osaka Day1",
+      "why": "Claude Designという新しいデザインツールの実践的な使いどころを発表者自身が紹介しているため"
+    },
+    {
+      "url": "https://speakerdeck.com/kinunori/master-aws-devops-agent-skills",
+      "title": "AWS DevOps Agent スキルをつかいこなそう / Master AWS DevOps Agent Skills",
+      "event": "JAWS-UG KYUSHU QUEST 2026 in Fukuoka",
+      "why": "AWSのDevOps Agentスキルを実務でどう使いこなすかが学べるため"
+    },
+    {
+      "url": "https://speakerdeck.com/k_adachi_01/kiro-crew-on-lambda-microvms",
+      "title": "Lambda MicroVMsは常駐サーバーの代わりに なるか？ Kiro Crew を動かして検証してみた",
+      "event": "",
+      "why": "AWS Lambda MicroVMsが常駐サーバーの代替になり得るかを実際に検証した結果がわかるため"
+    }
+  ],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.3.8", "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8", "summary": "Image OptimizationのSSRFなど複数のセキュリティ脆弱性を修正した重要リリース"},
+    {"repo": "microsoft/TypeScript", "version": "vscode-typescript/v1.0.1", "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1", "summary": "TypeScript 7.0.2を同梱したVSCode向けバンドルを公開"},
+    {"repo": "vitejs/vite", "version": "v8.3.2", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2", "summary": "CSSプリロードやrolldownランタイム配信周りのバグ修正を実施"},
+    {"repo": "honojs/hono", "version": "v4.13.12", "url": "https://github.com/honojs/hono/releases/tag/v4.13.12", "summary": "バンドルd.tsの型非公開化やETagヘッダー名比較の不具合を修正"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.288", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288", "summary": "mod向けAPI `$.ui.selection()` の追加やクラウドセッションへのgh api組み込みを追加"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v0.131.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.131.0", "summary": "spend limits一覧取得APIを追加し、Sonnet 4.5を非推奨化"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.147.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.147.0", "summary": "Container jurisdictionにUS追加、wrangler containers listの表示不具合を修正"},
+    {"repo": "astral-sh/uv", "version": "0.12.22", "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22", "summary": "新しいCPythonバージョンの追加とワークスペースのロックファイル周りを改善"}
+  ],
+  "headlines": [
+    {"url": "https://openai.com/index/introducing-gpt-6-1-sol/", "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price", "category": "AI", "note": "新モデルGPT-6.1 Solを発表"},
+    {"url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf", "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents", "category": "AI", "note": "会話型AIエージェントのプライバシー分析論文"},
+    {"url": "https://zenn.dev/mazrean/articles/bd9b563ace18db", "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索", "category": "インフラ", "note": "Cloudflareで低コストな全文検索を構築"},
+    {"url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529", "title": "AI開発時代だからこそ、テストの役割を見つめ直す", "category": "AI", "note": "AI時代におけるテストの役割を再考"},
+    {"url": "https://qiita.com/sagochiko/items/ef77b084ff2dee1f859c", "title": "AI感のないAWS構成図をAIエージェントに描かせたい！", "category": "インフラ", "note": "AIエージェントにAWS構成図を描かせる試み"},
+    {"url": "https://qiita.com/songchong/items/9122c8a264ff07cc2d83", "title": "「Claudeによる攻撃作戦」「Geminiが実在企業に侵入」…なぜAIサイバー攻撃が相次ぐか？", "category": "AI", "note": "AIによるサイバー攻撃事例と対策まとめ"},
+    {"url": "https://openai.com/index/devday-2026-recap", "title": "DevDay 2026 Recap", "category": "AI", "note": "OpenAI DevDay 2026の発表まとめ"},
+    {"url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries", "title": "Vercel Agent now installs private packages from npm and custom registries", "category": "インフラ", "note": "Vercel Agentがプライベートパッケージに対応"},
+    {"url": "https://blog.cloudflare.com/workers-kv-instant/", "title": "Introducing Workers KV Instant — powered by Quicksilver", "category": "インフラ", "note": "Workers KVが低遅延な新モードを提供"},
+    {"url": "https://blog.cloudflare.com/managed-cloudflare-os/", "title": "Cloudflare OS: your company's agent workspace, managed for you", "category": "インフラ", "note": "組織向けエージェントワークスペースを提供"}
+  ]
+}
