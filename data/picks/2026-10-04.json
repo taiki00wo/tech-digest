@@ -1,0 +1,62 @@
+{
+  "edition": "daily",
+  "headline": "GoogleのAIバグ発見ハーネスMantisと、Aleph AlphaのソブリンなオープンウェイトモデルKolibri、CloudflareのOHTTPゲートウェイが揃った一日。",
+  "reading_list": [
+    {
+      "url": "https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
+      "title": "バグの発見と修正を支援するオープンソースのAIハーネス、Mantisのスタートガイド",
+      "category": "AI",
+      "minutes": 8,
+      "why": "AIエージェントで自律的にバグを発見・修正する実例として、Google Cloud公式が始め方を解説している",
+      "takeaway": "OSSのAIハーネスMantisを使ったバグ発見・修正の始め方がわかる"
+    },
+    {
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Aleph Alphaが公式発表した新しいソブリン・オープンウェイトモデルで、HNでも大きな反応を集めている",
+      "takeaway": "Aleph Alphaの新モデルKolibriがどんな位置づけのオープンウェイトモデルかがわかる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "title": "Cloudflare OHTTP gateway",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "Cloudflare公式がOHTTP（Oblivious HTTP）ゲートウェイの提供を発表した",
+      "takeaway": "CloudflareのOHTTPゲートウェイが何を解決する仕組みなのかがわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "language": "TypeScript",
+      "stars": 2411,
+      "stars_per_day": 482,
+      "what": "テキスト・通話・Slackを横断して動く、常時稼働のAIコワーカーを作るためのオープンソーステンプレート",
+      "why": "CopilotKitとAG-UIで作られたフルセルフホスト可能なエージェントワークスペースのテンプレートとして新着で急上昇している",
+      "try": "git clone してREADMEのGet startedの手順に従ってセットアップする"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.288",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "summary": "mod向けの選択テキスト取得API追加、GitHub CLI非搭載イメージでのgh api組み込み対応、MCPのOAuthスコープ再認証プロンプトなどが入った"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.147.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.147.0",
+      "summary": "Containerのjurisdictionに\"us\"が追加され、wrangler containers listのLIVE INSTANCES表示が実際の稼働数を反映するよう修正された"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.12.23",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
+      "summary": "CPython 3.15.0rc3に対応し、workspaceマニフェストなしでuv.lockからsync/export/tree/metadataを--frozenで実行できるようになった"
+    }
+  ]
+}
