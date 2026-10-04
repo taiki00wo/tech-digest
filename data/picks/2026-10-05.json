@@ -1,0 +1,62 @@
+{
+  "edition": "daily",
+  "headline": "エージェントには『記憶』よりまず『ドキュメント』を、という設計論と、エージェントの自己申告とDBの実態のズレを扱う公式ブログが並んだ一日。",
+  "reading_list": [
+    {
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "title": "Agents don't need memory, they need documentation",
+      "category": "AI",
+      "minutes": 6,
+      "why": "LLMエージェントに長期記憶を持たせる前に外部ドキュメント化で代替できると、エージェント開発者本人が実践的に論じている",
+      "takeaway": "エージェントに記憶機能を足す前に、ドキュメント整備で解決できる場面の見分け方がわかる"
+    },
+    {
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "category": "AI",
+      "minutes": 8,
+      "why": "AIエージェントが『完了しました』と報告しても実際のDB状態と食い違う問題を、Microsoftのチームが公式ブログで扱っている",
+      "takeaway": "エージェントの自己申告を鵜呑みにせず、実行結果をDBの実態で検証する仕組みの作り方のヒントが得られる"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "title": "Why don't more developers \"use the platform\"?",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "ブラウザ標準APIが充実した今もフレームワークに頼る開発者が多い理由を、著者自身の経験から論じている",
+      "takeaway": "Reactなどに頼らずWeb標準機能だけで実装するかどうかの判断基準が見えてくる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "kaankiziltug/logo-design-skill",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "language": "HTML",
+      "stars": 1849,
+      "stars_per_day": 157,
+      "what": "Claude・Gemini CLI・Codexなど複数のAIエージェント向けに、ロゴデザインの原則・工程・SVG技法をまとめたスキルパッケージ",
+      "why": "AIコーディングエージェント用のスキルパッケージの作り込み方の実例として新着で急上昇している",
+      "try": "リポジトリをcloneしてClaude Codeのskillsディレクトリに配置し、ロゴ作成を指示してみる"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.13",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.13",
+      "summary": "app.mount()がMount Middleware（hono/mount）として独立し、既存のapp.mount()はv5での削除に向けて非推奨になった"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.289",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "summary": "管理対象マシンでネストしたシェルコマンドのdeny/askルールがmodの承認を上書きしてしまう不具合や、IDE経由のシンボリックリンク越しファイルにReadのdenyルールが効かない不具合が修正された"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.12.23",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
+      "summary": "CPython 3.15.0rc3に対応し、ワークスペースmanifestが無くても--frozenでuv.lockからのsync/export/tree/metadataが使えるようになった"
+    }
+  ]
+}
