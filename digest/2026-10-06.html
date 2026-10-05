@@ -1,0 +1,53 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tech Digest 2026-10-06</title><meta property="og:title" content="Tech Digest 2026-10-06"><meta property="og:type" content="article"><meta property="og:description" content="AIエージェントへのAPIキーの渡し方を6通り比較した実践記事と、Reflection AIの5010億パラメータ級オープンウェイトモデル、CloudflareのWeb Search APIが並んだ一日。"><meta name="description" content="AIエージェントへのAPIキーの渡し方を6通り比較した実践記事と、Reflection AIの5010億パラメータ級オープンウェイトモデル、CloudflareのWeb Search APIが並んだ一日。"><meta name="theme-color" content="#2f6fed"><style>
+:root{--bg:#f7f7f5;--card:#fff;--text:#1d1d1f;--muted:#6e6e73;--line:#e5e5e2;--accent:#2f6fed;--accent-soft:#e8effd;--star:#b7791f;--code:#f2f2ef}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141416;--card:#1d1d20;--text:#ececef;--muted:#9a9aa2;--line:#2c2c31;--accent:#7aa2ff;--accent-soft:#1f2940;--star:#e0b252;--code:#26262b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif}
+main{max-width:720px;margin:0 auto;padding:28px 16px 80px}a{color:inherit}
+header h1{font-size:24px;margin:0}header p{margin:2px 0 0;color:var(--muted);font-size:13px}
+.nav{font-size:13px;margin-top:6px}.nav a{color:var(--accent);text-decoration:none}
+.flow{margin:20px 0 8px;padding:16px 18px;background:var(--accent-soft);border-radius:12px}
+.flow strong{display:block;line-height:1.6}.flow ul{margin:8px 0 0;padding-left:20px;font-size:14px}
+h2{font-size:17px;margin:36px 0 12px;display:flex;align-items:baseline;gap:8px}h2 small{color:var(--muted);font-weight:normal;font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;position:relative}
+.card.read{opacity:.45}
+.rank{display:flex;gap:14px}.num{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:700;font-size:15px}
+.body{flex:1;min-width:0}
+.card h3{font-size:16px;margin:0 0 6px;padding-right:60px;line-height:1.5;overflow-wrap:anywhere}.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card p{margin:6px 0 0;font-size:14.5px}.label{color:var(--muted);font-size:12px;margin-right:6px}
+.meta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px;color:var(--muted);align-items:center}.meta a{color:var(--muted)}
+.chip{border-radius:99px;padding:0 8px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:12px}
+.score{color:var(--star)}
+code,pre{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--code);border-radius:6px}
+pre{padding:10px 12px;margin:8px 0 0;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.chk{position:absolute;top:16px;right:16px;width:18px;height:18px;cursor:pointer;accent-color:var(--accent)}
+.dive h4{font-size:13px;color:var(--muted);margin:14px 0 4px}.dive ul{margin:4px 0 0;padding-left:20px;font-size:14.5px}
+.heads{list-style:none;padding:0;margin:0}.heads li{padding:8px 2px;border-bottom:1px solid var(--line);font-size:14.5px}
+.heads a{text-decoration:none}.heads a:hover{text-decoration:underline}.heads .note{color:var(--muted);font-size:13px}
+.archive li{margin:6px 0}.err{color:#c0392b;font-size:12px;margin-top:6px}
+.bm{background:none;border:0;cursor:pointer;font-size:19px;line-height:1;color:var(--muted);padding:0 2px}
+.bm[aria-pressed=true]{color:var(--star)}.card>.bm{position:absolute;top:13px;right:44px}
+.heads li{display:flex;gap:6px;align-items:baseline}.heads li .t{flex:1}
+.bmrow{display:flex;gap:10px;align-items:baseline;padding:10px 2px;border-bottom:1px solid var(--line)}.bmrow .t{flex:1}
+.bmrow button,.tools button{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;cursor:pointer;color:var(--text);font-size:13px}
+.tools{display:flex;gap:8px;margin:12px 0}.empty{color:var(--muted)}
+details>summary{cursor:pointer;list-style:none;margin:36px 0 12px}details>summary::-webkit-details-marker{display:none}
+details>summary h2{margin:0}details>summary::after{content:" ▸";color:var(--muted)}details[open]>summary::after{content:" ▾"}
+</style></head><body><main><header><h1>Tech Digest 2026-10-06</h1><p>火曜日 ・ 読む時間の目安 19分</p><div class="nav"><a href="./">アーカイブ</a> ・ <a href="bookmarks">☆ あとで読む <span class="bm-count"></span></a></div></header><section class="flow"><strong>AIエージェントへのAPIキーの渡し方を6通り比較した実践記事と、Reflection AIの5010億パラメータ級オープンウェイトモデル、CloudflareのWeb Search APIが並んだ一日。</strong></section><h2>今日の3本 <small>上から順に</small></h2><div class="card"><input type="checkbox" class="chk" data-url="https://qiita.com/songchong/items/873b4f14d26296176cfd" title="読んだ"><button type="button" class="bm" data-url="https://qiita.com/songchong/items/873b4f14d26296176cfd" data-title="AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた" data-date="2026-10-06" aria-pressed="false" title="あとで読む">☆</button><div class="rank"><div class="num">1</div><div class="body"><h3><a href="https://qiita.com/songchong/items/873b4f14d26296176cfd" target="_blank" rel="noopener">AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた</a></h3><div class="meta"><span class="chip">AI</span><span>⏱ 9分</span> · Qiita</div><p><span class="label">なぜ</span>Claude Code・Codex・Gemini CLI・Copilot・Cursorを対象に、APIキーの渡し方6通りを著者自身が実際に検証している</p><p><span class="label">わかること</span>普段使っているAIコーディングエージェントにAPIキーを渡す際、どの方法がより安全かを選ぶ判断材料になる</p></div></div></div><div class="card"><input type="checkbox" class="chk" data-url="https://reflection.ai/blog/introducing-beam" title="読んだ"><button type="button" class="bm" data-url="https://reflection.ai/blog/introducing-beam" data-title="Beam: Reflection&#x27;s 501B open-weight model" data-date="2026-10-06" aria-pressed="false" title="あとで読む">☆</button><div class="rank"><div class="num">2</div><div class="body"><h3><a href="https://reflection.ai/blog/introducing-beam" target="_blank" rel="noopener">Beam: Reflection&#x27;s 501B open-weight model</a></h3><div class="meta"><span class="chip">AI</span><span>⏱ 6分</span> · Hacker News · <span class="score">★ 207</span> · <a href="https://news.ycombinator.com/item?id=49969183" target="_blank" rel="noopener">57 comments</a></div><p><span class="label">なぜ</span>Reflection AIが公式ブログで発表した5010億パラメータのオープンウェイトモデルで、Hacker Newsでも大きな反響がある</p><p><span class="label">わかること</span>大規模オープンウェイトモデルの最新動向と、自社用途での採用候補になりうるかを判断する材料が得られる</p></div></div></div><div class="card"><input type="checkbox" class="chk" data-url="https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/" title="読んだ"><button type="button" class="bm" data-url="https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/" data-title="Web Search API" data-date="2026-10-06" aria-pressed="false" title="あとで読む">☆</button><div class="rank"><div class="num">3</div><div class="body"><h3><a href="https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/" target="_blank" rel="noopener">Web Search API</a></h3><div class="meta"><span class="chip">バックエンド</span><span>⏱ 4分</span> · Hacker News · <span class="score">★ 445</span> · <a href="https://news.ycombinator.com/item?id=49963171" target="_blank" rel="noopener">207 comments</a></div><p><span class="label">なぜ</span>Cloudflareが公式changelogで発表した新しいWeb Search APIで、Hacker Newsのスコアも高く注目されている</p><p><span class="label">わかること</span>自前でWeb検索機能を実装する代わりに使える選択肢として、提供内容の概要がつかめる</p></div></div></div><h2>今日のOSS</h2><div class="card"><input type="checkbox" class="chk" data-url="https://github.com/Edge0-AI/Edge0" title="読んだ"><button type="button" class="bm" data-url="https://github.com/Edge0-AI/Edge0" data-title="Edge0-AI/Edge0" data-date="2026-10-06" aria-pressed="false" title="あとで読む">☆</button><h3><a href="https://github.com/Edge0-AI/Edge0" target="_blank" rel="noopener">Edge0-AI/Edge0</a></h3><div class="meta">Python · <span class="score">★ 3,085</span> · <span class="chip">+215/日</span></div><p><span class="label">何ができる</span>重みをSSDからストリーミングしつつ、学習済みルーターが1ステップ先の読み込みを予測することで、35B規模のMoEモデルを約2.5GBのRAMで動かすランタイム</p><p><span class="label">なぜ伸びてる</span>+215/日で新着急上昇しており、省メモリで大型MoEモデルをローカル実行できる手法として注目されている</p><pre>READMEに記載のインストール手順に従ってセットアップする（Mac・iPhone・Android・Windows対応）</pre></div></main><script>
+const BKEY='tech-digest-bookmarks';let bms={};try{bms=JSON.parse(localStorage.getItem(BKEY)||'{}')}catch(e){}
+function saveBms(){try{localStorage.setItem(BKEY,JSON.stringify(bms))}catch(e){}document.querySelectorAll('.bm-count').forEach(e=>e.textContent=Object.keys(bms).length||'')}
+document.querySelectorAll('.bm').forEach(b=>{const u=b.dataset.url;const on=()=>{b.setAttribute('aria-pressed',!!bms[u]);b.textContent=bms[u]?'★':'☆';b.title=bms[u]?'あとで読むから外す':'あとで読む'};on();
+b.addEventListener('click',()=>{bms[u]?delete bms[u]:bms[u]={title:b.dataset.title,date:b.dataset.date,added:Date.now()};saveBms();on()})});
+saveBms();
+const list=document.getElementById('bm-list');
+function drawList(){if(!list)return;const lim=+list.dataset.limit||1e9;const rows=Object.entries(bms).sort((a,b)=>b[1].added-a[1].added).slice(0,lim);
+list.innerHTML=rows.length?'':'<p class="empty">まだありません。各記事の ☆ を押すとここに溜まります。</p>';
+rows.forEach(([u,v])=>{const r=document.createElement('div');r.className='bmrow';const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.className='t';a.textContent=v.title||u;
+const m=document.createElement('span');m.className='meta';m.textContent=v.date||'';const x=document.createElement('button');x.textContent='読んだ・外す';x.onclick=()=>{delete bms[u];saveBms();drawList()};r.append(a,m,x);list.append(r)})}
+drawList();
+const ex=document.getElementById('bm-export');if(ex)ex.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(bms,null,1)],{type:'application/json'}));a.download='tech-digest-bookmarks.json';a.click()};
+const im=document.getElementById('bm-import');if(im)im.onchange=async()=>{try{Object.assign(bms,JSON.parse(await im.files[0].text()));saveBms();drawList()}catch(e){alert('読み込めませんでした')}};
+const KEY='tech-digest-read';let read={};try{read=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+document.querySelectorAll('.chk').forEach(c=>{const u=c.dataset.url;if(read[u]){c.checked=true;c.closest('.card').classList.add('read')}
+c.addEventListener('change',()=>{c.checked?read[u]=Date.now():delete read[u];c.closest('.card').classList.toggle('read',c.checked);try{localStorage.setItem(KEY,JSON.stringify(read))}catch(e){}})});
+</script></body></html>

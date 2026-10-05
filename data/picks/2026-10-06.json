@@ -1,0 +1,43 @@
+{
+  "edition": "daily",
+  "headline": "AIエージェントへのAPIキーの渡し方を6通り比較した実践記事と、Reflection AIの5010億パラメータ級オープンウェイトモデル、CloudflareのWeb Search APIが並んだ一日。",
+  "reading_list": [
+    {
+      "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd",
+      "title": "AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた",
+      "category": "AI",
+      "minutes": 9,
+      "why": "Claude Code・Codex・Gemini CLI・Copilot・Cursorを対象に、APIキーの渡し方6通りを著者自身が実際に検証している",
+      "takeaway": "普段使っているAIコーディングエージェントにAPIキーを渡す際、どの方法がより安全かを選ぶ判断材料になる"
+    },
+    {
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Reflection AIが公式ブログで発表した5010億パラメータのオープンウェイトモデルで、Hacker Newsでも大きな反響がある",
+      "takeaway": "大規模オープンウェイトモデルの最新動向と、自社用途での採用候補になりうるかを判断する材料が得られる"
+    },
+    {
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "title": "Web Search API",
+      "category": "バックエンド",
+      "minutes": 4,
+      "why": "Cloudflareが公式changelogで発表した新しいWeb Search APIで、Hacker Newsのスコアも高く注目されている",
+      "takeaway": "自前でWeb検索機能を実装する代わりに使える選択肢として、提供内容の概要がつかめる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Edge0-AI/Edge0",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "language": "Python",
+      "stars": 3085,
+      "stars_per_day": 215,
+      "what": "重みをSSDからストリーミングしつつ、学習済みルーターが1ステップ先の読み込みを予測することで、35B規模のMoEモデルを約2.5GBのRAMで動かすランタイム",
+      "why": "+215/日で新着急上昇しており、省メモリで大型MoEモデルをローカル実行できる手法として注目されている",
+      "try": "READMEに記載のインストール手順に従ってセットアップする（Mac・iPhone・Android・Windows対応）"
+    }
+  ],
+  "releases": []
+}
