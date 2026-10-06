@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "Mistral Large 4の発表とClaude Code v2.1.292のアップデート、10月11日に迫るDNSルートKSKロールオーバーが並んだ一日。",
+  "reading_list": [
+    {
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "title": "Mistral Large 4",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Mistralが公式に発表した新フラグシップモデルで、Hacker Newsでも非常に大きな反響がある",
+      "takeaway": "LLM APIの選定候補として、Mistral Large 4の位置付けと特徴の概要がつかめる"
+    },
+    {
+      "url": "https://zenn.dev/enterprise_ai/articles/b8856a49d7f6af",
+      "title": "エージェントの記憶はどこに置くか —— Skills・AGENTS.md・引き継ぎノートをClaude CodeとIBM Bobで検証した",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Claude CodeとIBM Bobを対象に、Skills・AGENTS.md・引き継ぎノートそれぞれの使い所を著者自身が検証している",
+      "takeaway": "AIエージェントに何をどこへ記憶させるか、用途別の使い分けの判断材料が得られる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "Cloudflareが公式ブログで告知した、10月11日に迫るDNSルートの鍵（KSK-2024）切り替えについての解説",
+      "takeaway": "DNSSEC関連のインフラを運用している場合に、事前確認すべき点の概要がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "nykooi1/vibe-wise",
+      "url": "https://github.com/nykooi1/vibe-wise",
+      "language": "Python",
+      "stars": 2521,
+      "stars_per_day": 315,
+      "what": "AIにコードを書かせきりにせず、作りながら学べるようにするClaude Codeプラグイン",
+      "why": "新着で急上昇しており、AI任せの開発と学習を両立させたいというニーズに応えている",
+      "try": "GitHubリポジトリのREADMEに記載された手順でClaude Codeに導入する"
+    }
+  ],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "v8.3.3", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3", "summary": "launch-editorの更新やHTMLファイル名処理の修正など複数のバグ修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.292", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292", "summary": "`claude plugin install --marketplace`、Agent toolの`effort`パラメータ、modのプロンプトキャッシュ対応などを追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.148.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.148.0", "summary": "`wrangler queues subscription create`への`--source-namespace`等の追加と、Workers Assetsの`assets.base_path`対応。"}
+  ]
+}
