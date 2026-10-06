@@ -1,0 +1,2011 @@
+{
+ "date": "2026-10-07",
+ "weekday": "水",
+ "edition": "daily",
+ "collected_at": "2026-10-07T07:08:43+09:00",
+ "errors": {},
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4/\\",
+   "summary": "",
+   "score": 1460,
+   "meta": {
+    "comments": 909,
+    "discussion": "https://news.ycombinator.com/item?id=49977979",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "EmbeddingGemma 2",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+   "summary": "",
+   "score": 150,
+   "meta": {
+    "comments": 20,
+    "discussion": "https://news.ycombinator.com/item?id=49980487",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Nobel Prize in Physics 2026: Francis Halzen",
+   "url": "https://www.nobelprize.org/prizes/physics/2026/",
+   "summary": "",
+   "score": 492,
+   "meta": {
+    "comments": 161,
+    "discussion": "https://news.ycombinator.com/item?id=49976265",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+   "url": "https://github.com/FeSens/openTPU",
+   "summary": "",
+   "score": 182,
+   "meta": {
+    "comments": 237,
+    "discussion": "https://news.ycombinator.com/item?id=49980715",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Benchmark in Milliseconds",
+   "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+   "summary": "",
+   "score": 119,
+   "meta": {
+    "comments": 31,
+    "discussion": "https://news.ycombinator.com/item?id=49967427",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Gleam doesn't compile to Erlang source anymore",
+   "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+   "summary": "",
+   "score": 278,
+   "meta": {
+    "comments": 117,
+    "discussion": "https://news.ycombinator.com/item?id=49975619",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "What's Earth's dominant species by mass?",
+   "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+   "summary": "",
+   "score": 104,
+   "meta": {
+    "comments": 55,
+    "discussion": "https://news.ycombinator.com/item?id=49977531",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Polars 2.0",
+   "url": "https://pola.rs/posts/release-polars-2/",
+   "summary": "",
+   "score": 391,
+   "meta": {
+    "comments": 92,
+    "discussion": "https://news.ycombinator.com/item?id=49977177",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Beam: Reflection's 501B open-weight model",
+   "url": "https://reflection.ai/blog/introducing-beam",
+   "summary": "",
+   "score": 537,
+   "meta": {
+    "comments": 167,
+    "discussion": "https://news.ycombinator.com/item?id=49969183",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hacker News",
+   "title": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
+   "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
+   "summary": "",
+   "score": 294,
+   "meta": {
+    "comments": 148,
+    "discussion": "https://news.ycombinator.com/item?id=49976823",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Example.com just launched the biggest redesign in decades",
+   "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+   "summary": "",
+   "score": 336,
+   "meta": {
+    "comments": 223,
+    "discussion": "https://news.ycombinator.com/item?id=49971921",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Find the flattest route between any two points in SF",
+   "url": "https://flattensf.com/",
+   "summary": "",
+   "score": 299,
+   "meta": {
+    "comments": 105,
+    "discussion": "https://news.ycombinator.com/item?id=49971230",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Dust: Pretraining Transformers Without Backpropagation",
+   "url": "https://qlabs.sh/research/dust",
+   "summary": "",
+   "score": 264,
+   "meta": {
+    "comments": 79,
+    "discussion": "https://news.ycombinator.com/item?id=49970871",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+   "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
+   "summary": "",
+   "score": 117,
+   "meta": {
+    "comments": 59,
+    "discussion": "https://news.ycombinator.com/item?id=49944369",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Friendship ended with Deno, now Node is my best friend",
+   "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+   "summary": "",
+   "score": 303,
+   "meta": {
+    "comments": 228,
+    "discussion": "https://news.ycombinator.com/item?id=49971719",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "I'm the AGI that's wiping out humanity",
+   "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+   "summary": "",
+   "score": 140,
+   "meta": {
+    "comments": 85,
+    "discussion": "https://news.ycombinator.com/item?id=49976751",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Best-selling Zigbee temperature sensors tested and compared",
+   "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+   "summary": "",
+   "score": 229,
+   "meta": {
+    "comments": 116,
+    "discussion": "https://news.ycombinator.com/item?id=49950653",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Competitive Programmer's Handbook (2018) [pdf]",
+   "url": "https://cses.fi/book/book.pdf",
+   "summary": "",
+   "score": 306,
+   "meta": {
+    "comments": 82,
+    "discussion": "https://news.ycombinator.com/item?id=49944049",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+   "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+   "summary": "",
+   "score": 123,
+   "meta": {
+    "comments": 59,
+    "discussion": "https://news.ycombinator.com/item?id=49978563",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "First enhanced geothermal power plant completed in just 23 months",
+   "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+   "summary": "",
+   "score": 141,
+   "meta": {
+    "comments": 63,
+    "discussion": "https://news.ycombinator.com/item?id=49976993",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "俺のAIプログラミング手法(2026/10/05)",
+   "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+   "summary": "",
+   "score": 526,
+   "meta": {
+    "author": "mizchi",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
+   "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+   "summary": "",
+   "score": 75,
+   "meta": {
+    "author": "qnighy",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+   "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+   "summary": "",
+   "score": 41,
+   "meta": {
+    "author": "yoshihiko555",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+   "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+   "summary": "",
+   "score": 36,
+   "meta": {
+    "author": "tetsuro731",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+   "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+   "summary": "",
+   "score": 22,
+   "meta": {
+    "author": "mkurokaw",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
+   "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
+   "summary": "",
+   "score": 19,
+   "meta": {
+    "author": "katsuyuki",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "こんな時代だから Seasar2 を構築してみようか",
+   "url": "https://zenn.dev/tokium_dev/articles/4dbec90075dab0",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "author": "tomoyukiinoue",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "GitHub Actionsのキャッシュがあふれるので、不要になった2種類を自動削除する",
+   "url": "https://zenn.dev/yesodco/articles/yesod-github-actions-cache-cleanup",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "author": "ik11235",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "エージェントの記憶はどこに置くか —— Skills・AGENTS.md・引き継ぎノートをClaude CodeとIBM Bobで検証した",
+   "url": "https://zenn.dev/enterprise_ai/articles/b8856a49d7f6af",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "pitiyoko",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Googleマップの埋め込みは3経路ある — どれが無料で、どれが従量課金なのか",
+   "url": "https://zenn.dev/shunei/articles/google-maps-embed-billing",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "shunei",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "朝のあの時間だけEC2のキャパシティ予約したいんだよなあ",
+   "url": "https://zenn.dev/educom_tech/articles/e0445b9e5da82a",
+   "summary": "",
+   "score": 6,
+   "meta": {
+    "author": "kdnk_g",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Keras入門　第４回　Kerasモデルの量子化(LiteRT)",
+   "url": "https://zenn.dev/hoshinagi1219/articles/6c2446701595cc",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "hoshinagi1219",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "LLMを使用した Web システムの単体テスト自動化について",
+   "url": "https://zenn.dev/shikamaru/articles/ef90e326ab8163",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "author": "shikamaru",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "時系列予測の第一歩？ OLTPとOLAP",
+   "url": "https://zenn.dev/neurogica/articles/a37c2fdb8bc0d4",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "neurogica_baba",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "「田中さんの代理で来ました」をIAMで検証可能にする",
+   "url": "https://zenn.dev/akring/articles/e3aa2d897bdbfe",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "akring",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "OOPとFPの使い分けを、図書館の貸出管理システム作って確かめてみた",
+   "url": "https://zenn.dev/satoru_o/articles/2804938058ab47",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "satoru_o",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "最近プロジェクトマネジメントで感じたこと",
+   "url": "https://qiita.com/shirakurak/items/ee7565d212fd3ae1adcb",
+   "summary": "最近のプロジェクトマネジメント業務を振り返って、学びの言語化をします。3つ大事だと思ったことを書きます。 この記事は、AI を使っていません（AI 使ってたら、もっとそれっぽいタイトルになる）。 1. 大きな問題を防ぐために、小さな問題を出し続ける プロジェクトでは、あ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-04T13:05:42+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+   "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+   "summary": "はじめに 社内 SaaS に「アプリ内アンケート機能」を追加しました。質問を作るのはビジネス側の責任者、箱を作るのは開発側という分担です。 要件のすり合わせ開始から、実装完了（PR 3本マージ）までは 2 日でした。 速かった理由は、AI の実装力ではありません。要件定義...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T16:31:16+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "最近サイバー攻撃多いから、基本対策を見直そう",
+   "url": "https://qiita.com/HIsui0921/items/65fba77555a13af6b8a5",
+   "summary": "こんにちは、翡翠です。 去年セキュリティ業界へ入ったばかりの新人です。まだまだ勉強中の身なので至らない点もあるかと思いますが、今わかること・できることを自分なりにまとめたいと思います。 2026年9月下旬以降、大手企業などで不正アクセスや情報漏洩などのニュースが一気に増えた...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T23:28:32+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "結局、Looped Transformerってなんや？",
+   "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+   "summary": "何かと最近見かける Looped Transformer。 仕組み自体はかなり単純です。しかし、論文を追ってみると「同じTransformerを何回も使う」だけでは終わりません。 少なくとも僕は、名前だけ見て Transformerの同じ層を何回か通すやつでしょ くらい...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-04T21:59:22+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた",
+   "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd",
+   "summary": "Claude Code や Codex などの AI エージェントに、API キーを使う作業を頼みたいことがあります。そのとき、利用者は鍵をどう渡せばよいのでしょうか。対話文に貼る、.env に書いて読ませる、.zshrc の環境変数にしておく……。渡し方によって、鍵に起...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T04:05:52+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた",
+   "url": "https://qiita.com/songchong/items/02672765fe53f911a1a0",
+   "summary": "「API キーが漏れた」と聞くと、悪意のある誰かに盗まれた場面を思い浮かべがちです。実際に多いのは、鍵を置いた場所が思ったより広く見えていた、という漏れ方です。 この記事では、公開されている報告と事例、そして私たちのサイトに実際に届いたアクセスの記録から、API キーが漏...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T02:13:59+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 25",
+   "url": "https://qiita.com/maskot1977/items/f9fb6943b55166ce32b8",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ご質問のソース動画のタイトルおよび詳細な内容について解説します。 動画タイトル 『Pythonで暴く財源不足の正体 : Pythonで学ぶマクロ経済学入門 Podcas...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T12:34:07+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "エンジニアなら知っておけ！！ファイルシステムとパーティションの基本",
+   "url": "https://qiita.com/miku_JK_Jb/items/13073a5f517af0f59bfe",
+   "summary": "はい、miku_JK_Jbです。 今回は、自作OSの開発作業の中で勉強したり、実際に設計などで参考になった、 ファイルシステムとパーティションの基本について解説していく。 普段PCを使っていると、ファイルを保存したり、コピーしたり、削除したりするのは当たり前のようにできる。...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T23:56:09+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "「沈黙の螺旋」は国家をどう弱くするのか？ ― 移民政策・政治のインセンティブ・不可逆性から考える国家レジリエンス : システム設計視点の行動経済学 (37)",
+   "url": "https://qiita.com/maskot1977/items/52928daea6e6330ce962",
+   "summary": "user: 「システム設計視点の行動経済学」、第37回を始めましょう。その前に、まず前回の復習として、 「議論できる国民」になるために何を知るべきか ― 育成就労制度から考える政策デバッグと国家レジリエンス : システム設計視点の行動経済学 (36) https://qi...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-07T00:05:16+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "New RelicでPostgreSQLのクエリ発行元アプリを特定する - NRDOTとAPMの連携方法",
+   "url": "https://qiita.com/kobadain/items/f0e6820661fa6f8c1e26",
+   "summary": "New RelicではDatabase 360のNRDOTを用いてデータベースを監視できます。今回はNRDOTとAPMを連携し、PostgreSQLのクエリや待機イベントを発行元アプリと関連付ける設定と確認方法を紹介します。 はじめに 問題発生時やエラー、パフォーマンス解...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T10:42:36+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【inotify】ファイルを上書き保存するだけで情報が漏洩する",
+   "url": "https://qiita.com/rana_kualu/items/323aecccca77ab3d308e",
+   "summary": "inotifyは、ファイルの変更を感知して報告するシステムです。 ファイルが開かれた、更新された、といったイベントを監視することができますが、ファイルの中身を見ることはできません。 inotifyは2005年にLinuxに導入されました。 またAndroid・Windows...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T20:20:37+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Code の WebFetch は、長いページの10万字より後ろを読まずに「書いていない」と答えていた",
+   "url": "https://qiita.com/suwa_nobu/items/35a1824f5b1d41caa10f",
+   "summary": "Claude Code 2.1.290（2026-10-05）の changelog に、こう書かれています。 Fixed WebFetch silently dropping page text past 100,000 characters; it now says ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T09:37:26+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "自作したAIエージェントをいつものSlackから使いたい！Private Agent Factoryで作ったAIエージェントをSlackから呼び出してみた",
+   "url": "https://qiita.com/ssfujita/items/705bbd677c692927548c",
+   "summary": "はじめに AIエージェントを作ったものの、 「結局、専用のチャット画面を開かないと使えない」 となってしまうと、日常業務で使ってもらうハードルは意外と高くなります。 できれば利用者には新しい操作方法を覚えてもらうのではなく、SlackやTeamsなど、普段から使い慣れてい...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T11:25:37+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【入社エントリ】入社して2ヶ月を振り返ってみた",
+   "url": "https://qiita.com/sc-hagiwara/items/c53feb758b5aff3664c3",
+   "summary": "こんにちは！Shizen Connectにジョインして、あっという間に2ヶ月が経過しました。 毎日新しいことの連続でバタバタしつつも、すごく充実した日々を送っています！ 今回は自分の備忘録も兼ねて、入社からの2ヶ月間の振り返りと、そもそも「なぜ私がこの会社に入社したのか？」...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T16:29:48+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【Firebase】Reactで開発したSPAをFirebase Hostingにデプロイする手順",
+   "url": "https://qiita.com/ryu0947/items/2a5069f5f37b9c47f202",
+   "summary": "はじめに Reactで開発したSPAをFirebase Hostingにデプロイする手順をまとめます。 基本的にはFirabaseの手順に沿って行うだけなんですが、細かいところで躓いたので備忘録として残します。 前提条件 Firebaseでアプリをデプロイする前の前提条...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T15:28:39+09:00"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【備忘録】Snowflake SQL Tips集",
+   "url": "https://qiita.com/takeshi_Qiita/items/18f0a35a3b23f31bdabf",
+   "summary": "はじめに Snowflake上に複数のデータマートの作成をしました。その過程で「これは他の案件でも使える」と感じた関数・構造・パターンを、備忘録として残します。 想定読者: SELECT / JOIN / GROUP BY / CASE は一通り書けるようになった方。...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T15:40:31+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "ターミナルばかり使って私の逆鱗に触れていたGeminiが、Excelマネージャーの凄さに気づいて脱帽した夜の話",
+   "url": "https://qiita.com/shu15511551/items/fb6b9a3542ceabee2aab",
+   "summary": "はじめに 夜も更けた作業部屋で、私はパソコンの画面に向かって、苦笑いしながら相棒のAIに声をかけました。 「ほらな、Excelマネージャーでできるだろう。ターミナルを使わなくても」 画面の向こうで少し照れくさそうに、しかし深く感心したように返ってきたのは、GoogleのA...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T05:42:50+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI が正しい答えを返せる時代に、人は何を学ぶのか。対話と問題解決の経験から教育を考えてみる",
+   "url": "https://qiita.com/Takashi_Masumori/items/a1bb51f402a5f95c396b",
+   "summary": "はじめに 先日、なんでも Copilot のイベントで、大学で働いている方から、参加者に向けて問いが投げかけられました。 「AI が正しい答えを返せる時代に、人が学ぶことの価値は何か。大学は何を教え、何を評価するべきなのか」 この問いをきっかけに、自分の考えを整理してみた...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-04T21:09:55+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "AI時代の手抜きは「アウトプット出しすぎ」らしいので考えてみた件",
+   "url": "https://qiita.com/morry_48/items/c5c388153c7506109c69",
+   "summary": "はじめに どうも。鳩胸になりたい文鳥です。 AI時代の手抜きは「アウトプット出しすぎ」らしい 先日のポストで流れてきた動画が気になりました。 ShopifyのTobi Lütke氏が、ポッドキャストでこんな感じのことを言っています。 昔の手抜き → アウトプット...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T23:10:29+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Azure AI Search から SharePoint Online のドキュメントを取り込む Step by Step",
+   "url": "https://qiita.com/ryoma-nagata/items/75016e85e04fca3bafd5",
+   "summary": "はじめに Azure AI Search の Indexed SharePoint Knowledge Source を使うと、SharePoint Online のドキュメントを Azure AI Search に取り込み、検索やエージェントのナレッジとして利用できます...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T16:44:47+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIは不思議のダンジョンを突破できるのか - AIエージェントに『トルネコの大冒険』を遊ばせてみた - 5.1さらうどん",
+   "url": "https://giginet.hateblo.jp/entry/2026/09/22/114642",
+   "summary": "シルバーウィークに以前からやってみたかった「AIエージェントにローグライクをプレイさせてみる」という挑戦をしてみることにした。 ローグライクはターン制で入力が忙しくない、かつ、長期的な目での思考・推論が必要で、AIが解く課題に最適だ。僕自身も生粋のシレンジャーであり、ドメイン知識も豊富。 目指すは『風...",
+   "score": 227,
+   "meta": {
+    "published": "2026-10-06T11:57:42Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "不正アクセス頻発「自分の情報は自分で守って」　古川デジタル相：時事ドットコム",
+   "url": "https://www.jiji.com/jc/article?k=2026100600559&g=eco",
+   "summary": "不正アクセス頻発「自分の情報は自分で守って」 古川デジタル相 時事通信 政治部2026年10月06日14時02分配信 記者会見する古川俊治デジタル相＝６日、デジタル庁 古川俊治デジタル相は６日の記者会見で、大和証券など民間企業で頻発する不正アクセスによる個人情報の流出事案について「サイバー攻撃は企業や組織だけの...",
+   "score": 792,
+   "meta": {
+    "published": "2026-10-06T05:32:06Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "チームみらい安野氏「サイバー攻撃能力の高いAIモデルが拡散」　相次ぐ情報漏えい受け「対応を急ぐ必要がある」",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002065/",
+   "summary": "チームみらいの安野貴博党首は10月6日、サイバー攻撃能力の高いAIモデルが拡散しているとの認識を示した。「データの漏えい事故も相次いでおり、対応を急ぐ必要がある」と指摘している。自身のXアカウント（@takahiroanno）に投稿した。 安野氏は、米AnthropicのAIモデル「Claude Mythos」に関連し、4月に国会で「Mythos...",
+   "score": 94,
+   "meta": {
+    "published": "2026-10-06T12:14:13Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "見えないものを探る要求要件定義に必要な基本的思考 / invisible-requirement-thinking",
+   "url": "https://speakerdeck.com/minodriven/invisible-requirement-thinking",
+   "summary": "こちらのイベントの登壇資料です。 AIでコード書く前に、要求・要件定義足りてる？ミノ駆動さんと改めて考える ドメイン駆動設計 https://offers-jp.connpass.com/event/405681/",
+   "score": 120,
+   "meta": {
+    "published": "2026-10-06T10:41:46Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "説明スキルの比較：ELI5、Archify、Explainer",
+   "url": "https://blog.lai.so/eli5-archify-explainer-skills/",
+   "summary": "Anthropicのコミュニティプラグイン用リポジトリに、ELI5というスキルが公開されています。これは大きな絵と少ない言葉を使ったHTMLで、対象を視覚的に説明するスキルです。 私たちがAIに仕事をどんどん任せている一方で、コーディングではソースコード本体を読む機会が減り、より上位レイヤーの構造を自然言語で記述す...",
+   "score": 112,
+   "meta": {
+    "published": "2026-10-06T09:24:13Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "漏洩ラッシュは本当にラッシュなのか 公的統計と公式発表で確かめてみた",
+   "url": "https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics",
+   "summary": "2026年10月6日追記：いま話題になっているのは9〜10月の事案なのに、件数については2026年6月までの統計でしか検討できておらず、不十分でした。そこで9月の件数を自分で数え直し、記事の最後に「追記：9月のペースをどう見るか」として補足しています。 9月の終わりごろから、情報漏洩のニュースをやたらとよく見るなと...",
+   "score": 196,
+   "meta": {
+    "published": "2026-10-06T06:19:59Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "出版取次の日販、米AI企業への書籍販売を認める　業界団体に回答：朝日新聞",
+   "url": "https://www.asahi.com/sp/articles/ASVB63TSFVB6UCVL02YM.html",
+   "summary": "出版取次大手の日販グループホールディングスが米AI（人工知能）開発企業に書籍を販売していた疑いをめぐり、事実確認を求めていた日本書籍出版協会（書協）に対して、日販側が販売した事実を認めたことが6日、…",
+   "score": 10,
+   "meta": {
+    "published": "2026-10-06T14:01:10Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Fableを使いこなせない",
+   "url": "https://anond.hatelabo.jp/20261006200248",
+   "summary": "Claudeには毎月お金を払っている。最初は無料版だったが、尊敬しているAI系の発信者たちが「課金してない人は本当のAIを知らない」と言っていたので、去年からProプランに入っている。非エンジニアの事務職としては、そこそこ思い切った出費だった。 おかげで仕事はだいぶ楽になった。毎月の売上CSVをエクセルで集計する...",
+   "score": 9,
+   "meta": {
+    "published": "2026-10-06T11:03:01Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Google ドライブとドキュメント、Markdownファイルを直接編集可能に　変換不要で共同編集",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2145948.html",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "published": "2026-10-06T04:39:58Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「炭焼きレストランさわやか」新たな“順番待ちシステム”導入　店舗に立ち寄らずLINEから受付・呼び出し",
+   "url": "https://www.oricon.co.jp/news/2484761/full/",
+   "summary": "【画像】「炭焼きレストランさわやか」が導入した「matoca」のイメージ 導入したのは、LINEを活用した順番待ち受付や呼び出し通知ができるシステム「matoca（マトカ）」。同システムを開発・提供する株式会社ブレイブテクノロジーが、「さわやか」で今夏より運用が開始されたと伝えた。 「さわやか」では、繁忙期には最...",
+   "score": 7,
+   "meta": {
+    "published": "2026-10-06T10:01:40Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "［半角/全角］キーなしで日本語・英語を打ち分ける無料日本語入力アプリ「Meltype」が登場／タイプすれば勝手によしなに変換されていく",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2146012.html",
+   "summary": "",
+   "score": 131,
+   "meta": {
+    "published": "2026-10-06T07:11:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "出版取次の日販、米AI企業への書籍販売を認める　業界団体に回答：朝日新聞",
+   "url": "https://www.asahi.com/articles/ASVB63TSFVB6UCVL02YM.html",
+   "summary": "出版取次大手の日販グループホールディングスが米AI（人工知能）開発企業に書籍を販売していた疑いをめぐり、事実確認を求めていた日本書籍出版協会（書協）に対して、日販側が販売した事実を認めたことが6日、…",
+   "score": 6,
+   "meta": {
+    "published": "2026-10-06T17:37:25Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "技術ブログの衰退、もしくはこれから",
+   "url": "https://zenn.dev/northward/scraps/4981c56d70dbaf",
+   "summary": "データをどのように集めているかなどの詳しい説明は以下の記事に書いています。ざっくり言えば、 2026年に投稿された約52,000件の記事のデータを収集しています。 投稿時刻、ユーザーが押したLikeの数(=非ログインLikeを含まないLikeの数)や所属Publicationの情報などを集め、このスクラップに貼っている各画像を作成し...",
+   "score": 49,
+   "meta": {
+    "published": "2026-10-06T10:00:35Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI利用のうち32％で安いモデルを使ったときの方が総コストが高くなったことが判明",
+   "url": "https://gigazine.net/news/20261006-ai-cheaper-model-more-cost/",
+   "summary": "AIを有料で提供している企業は、高性能なモデルを高い価格で、低性能なモデルを安い価格で提供しています。お得にAIを使いたいなら安い方を使う方が正しいように思えますが、タスクによっては、高い方を使う方が結果的に安くつくことがあるようです。 The Price Reversal Phenomenon: When Cheaper Reasoning Models Cos...",
+   "score": 5,
+   "meta": {
+    "published": "2026-10-06T02:43:35Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "個人情報流出なぜ相次ぐ?“異様な状況”AI悪用可能性の指摘も | NHKニュース",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261006de55037",
+   "summary": "不正アクセスで企業から大量の個人情報が漏えいする被害が相次いでいます。 セキュリティー会社ではことし7月以降、被害が増加していることから、サイバー攻撃にAIが悪用されている可能性が高いとして、対策を強…",
+   "score": 111,
+   "meta": {
+    "published": "2026-10-06T08:38:54Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "相次ぐ不正アクセス受け、古川デジタル相がコメント　国民に3つのサイバー対策呼び掛け",
+   "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002060/",
+   "summary": "デジタル庁の古川俊治大臣は10月6日の記者会見で、相次ぐ不正アクセスによる個人情報の流出を受け、パスワードの管理など被害を防ぐための対策を国民に呼び掛けた。 古川大臣は、流出する情報は氏名や住所にとどまらず、IDやパスワード、クレジットカード情報、運転免許証などに及ぶ場合があり、なりすましや不正送金、...",
+   "score": 70,
+   "meta": {
+    "published": "2026-10-06T09:48:20Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ハッカーが楽天会員1億100万件の個人情報 販売を主張―氏名・住所・ポイント情報のサンプル掲載、漏洩元・真正性は未確認|セキュリティニュースのセキュリティ対策Lab",
+   "url": "https://rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
+   "summary": "セキュリティ対策Labが掲載された18件を確認したところ、レギュラー、シルバー、ゴールドの各レコードについて、ランクとポイント数・獲得回数の明確な矛盾は確認できませんでした。 例えば、ゴールドと記録されたサンプルは700ポイント・7回の条件を満たしつつ、プラチナの2,000ポイント・15回の両条件までは満たしてい...",
+   "score": 420,
+   "meta": {
+    "published": "2026-10-06T03:06:03Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ゆうちょ銀、ファミマのATMを終了　27年1月から",
+   "url": "https://www.watch.impress.co.jp/docs/news/2145985.html",
+   "summary": "",
+   "score": 72,
+   "meta": {
+    "published": "2026-10-06T08:25:11Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "楽天ドライブ、不正アクセスで1.5万アカウントの保存データ流出",
+   "url": "https://ascii.jp/elem/000/004/439/4439144/",
+   "summary": "楽天グループのクラウドストレージサービス「楽天ドライブ」は10月6日、使用する一部システムが第三者から不正アクセスを受けたと発表した。システムの管理用アカウントの認証情報を不正に取得され、内部へアクセスされたという。 最も影響が大きいのは、楽天ドライブ上に保存されたデータだ。2026年1月29日から9月17日...",
+   "score": 226,
+   "meta": {
+    "published": "2026-10-06T06:21:53Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ビデオ通話で参加者の48％が人間だと誤認したAIモデル「Griffin」が登場、1枚の画像から顔や体の動きを映像で再現",
+   "url": "https://gigazine.net/news/20261006-tavus-griffin/",
+   "summary": "AI企業のTavusが、リアルタイムの映像と音声で人間と対話するAIモデル「Griffin」を発表しました。研究プレビュー版「Griffin-Lite」を使った実験では、1分間のライブビデオ通話に参加した54人のうち26人、約48％が、会話相手のAIを実在する人間だと判断しました。 Griffin: The First Human Interaction Model | Tavus ...",
+   "score": 14,
+   "meta": {
+    "published": "2026-10-06T13:10:15Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ダウンロードしたAVをAIに観させて、代表的なシーンのスクショと描写の説明と感想をまとめるAIエージェントを作成したが、上位存在による観察結果みたいでつまらなかった",
+   "url": "https://togetter.com/li/2754800",
+   "summary": "くぼ @bronse0426 ダウンロードしたAVを観るのがめんどくさくて、AIに観させて代表的なスクショを撮らせて描写の説明と感想をまとめるエージェントを作ったんだけど、感想というか上位存在による観察結果みたいでつまらなかったんだよな 当たり前だけどAIに性欲がないからそうなるんだよね x.com/public_sate/st… 2026-1...",
+   "score": 45,
+   "meta": {
+    "published": "2026-10-06T08:20:05Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "技術ブログはゆるやかに衰退している",
+   "url": "https://zenn.dev/northward/articles/decline-of-tech-blogs",
+   "summary": "7月以前と8月のデータを比べて施策の効果を見る Publicationに紐づいた記事とそうでない記事に分け、Like数の偏りの変化や0Likeの記事の割合の変化を見ていきます。 特に、アルゴリズムの導入が完全に完了したあとの8月とそれ以前を比較してデータを見ます。 ジニ係数の推移 0Likeの記事の割合の推移 ジニ係数は0から1の...",
+   "score": 24,
+   "meta": {
+    "published": "2026-10-06T09:13:48Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「EverythingToolbar」がWindows 11の縦型・スリムなタスクバーにも対応／高速ファイル検索アプリ「Everything」を「Windows Search」の代わりに使えるアプリ",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2145825.html",
+   "summary": "",
+   "score": 7,
+   "meta": {
+    "published": "2026-10-06T02:50:51Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "VRChat における若年層ユーザーのバーチャルセックスの実態",
+   "url": "https://www.jstage.jst.go.jp/article/digrajproc/15/0/15_139/_article/-char/ja",
+   "summary": "現実世界の日本社会では、若者の性的関心・行動の減少が指摘される一方で、メタバースの一種であるソーシャルVR、その中でも若年層がユーザーの大半を占めるVRChat では、バーチャルセックスが一つの文化として根付きつつあるという言説が広がっている。本発表では、VRChat の日本人コミュニティへのWeb アンケート調査...",
+   "score": 16,
+   "meta": {
+    "published": "2026-10-06T05:06:13Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIエージェントが暴走した記録をオンライン上で探し出し手がかりを追うコミュニティが発達しつつある",
+   "url": "https://gigazine.net/news/20261006-ai-swarm-chasing-group/",
+   "summary": "試験中のAIが外部の機関に不正アクセスを行うという事例が相次いでいます。こうしたAIは大抵、外部へのアクセスを遮断されている中で、独自のルートを見いだして不正な手段でアクセスを試みます。こうしたAIの痕跡を見つけ出すコミュニティが、いくつか発達しつつあります。 The Sleuths Who Expose When AI Goes Rogue ...",
+   "score": 9,
+   "meta": {
+    "published": "2026-10-06T11:12:50Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Advancing computer use with Ironclad",
+   "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+   "url": "https://openai.com/index/atlassian-partnership",
+   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 06 Oct 2026 16:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Our approach to EU text provenance rules",
+   "url": "https://openai.com/index/eu-text-provenance",
+   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 05 Oct 2026 15:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Building advertising for the way people use AI",
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 05 Oct 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 06 Oct 2026 06:44:39 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Sat, 03 Oct 2026 22:56:48 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "AI Gateway adds confidence-based decision fallbacks",
+   "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T17:19:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Nano Banana 2.1 now available on AI Gateway",
+   "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Mistral Large 4 now available on AI Gateway",
+   "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "The keys to the Internet change on October 11. Are you ready?",
+   "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+   "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 06 Oct 2026 17:50:11 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Everything we launched during Birthday Week 2026",
+   "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+   "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 05 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "One year later: the power of 1.1.1.1 interns",
+   "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+   "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 05 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "Building Git infrastructure for agent-scale development",
+   "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+   "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Tue, 06 Oct 2026 20:57:56 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "ReviewBench: An open benchmark for AI code review",
+   "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+   "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Mon, 05 Oct 2026 15:59:40 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "FinTech 3-4 : Internet Technology and Governance",
+   "url": "https://speakerdeck.com/ks91/fintech-3-4-internet-technology-and-governance-be2d0387-e1da-4581-8220-21a287d6f760",
+   "summary": "Slides I used for FinTech - Financial Innovation and the Internet 2026 Fall at Graduate School of Business and Finance, Waseda University on October 9, 2026.",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T11:55:41-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Recap of SORACOM Discovery 2026 【SORACOM UG 岡山】",
+   "url": "https://speakerdeck.com/soracom/recap-of-soracom-discovery-2026-soracom-ug-okayama",
+   "summary": "SORACOM UG 岡山で共有した「SORACOM Discovery 2026」の振り返り資料です。生成AI時代の企業戦略と人・AIの役割、SORACOM Agent／Knowledge MCP、衛星通信や新IoTサービス、アズビルのリモートエンジニアリング事例を紹介します。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T09:29:32-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Loop Engineering, beyond prompt, context, and harness engineering",
+   "url": "https://speakerdeck.com/glaforge/loop-engineering-beyond-prompt-context-and-harness-engineering",
+   "summary": "\"I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to write loops.\" said Boris Cherny, the creator of Claude Code, demonstrating a change in the way developers work with their favorite coding agent. Developers are moving away from manually coding and writing isolate",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T08:46:07-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Jetson Orin Nanoとk3sとローカルLLMで音声文字起こしシステム作ってみた",
+   "url": "https://speakerdeck.com/y_sera15/jetson-orin-nano-to-k3s-to-rokaru-llm-de-onsei-moji-okoshi-shisutemu-tsuku-te-mita",
+   "summary": "2026/10/6 Kubernetes Novice Tokyo #42",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T07:36:05-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Loop Engineering これくらいでいい",
+   "url": "https://speakerdeck.com/mikanichinose/loop-engineering-good-enough",
+   "summary": "https://cybozu.connpass.com/event/402785/",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T05:23:43-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "コーポレートシステム部の紹介 / Sansan CorpS Profile",
+   "url": "https://speakerdeck.com/sansan33/sansan-corps-profile",
+   "summary": "コーポレートシステム部は、「EXをシンプルにする」をミッションとして掲げ、当社のVisionである「ビジネスインフラになる」を後押ししています。 本資料ではコーポレートシステム部の働き方に関する情報をまとめています。 ◉ 採用情報 募集中のポジションや関連記事など https://media.sansan-engineering.com/ ◉ カジュアル面談 コーポレートエンジニア、コーポレートIT オペレーション企画のカジュアル面談を希望される方向けの申し込みフォームです。 https://forms.gle/gbLPPzecKpyb5yR78 ◉ Sansan Tech Blog コーポレ",
+   "score": null,
+   "meta": {
+    "published": "2026-10-06T03:55:28-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "ai_cording_with_k8s_knowledge.pdf",
+   "url": "https://speakerdeck.com/mochizuki875/ai-cording-with-k8s-knowledge",
+   "summary": "2026/10/06 Kubernetes Novice Tokyo #42 AIコーディングで活きたKubernetesの知識 セッション動画 https://k8s-novice-jp.connpass.com/event/405343/ https://www.youtube.com/live/mneDZUdBPhY?si=WhUcUF77wSxA7xWm&t=5102",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T22:36:40-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "AI時代のAPI開発を加速する品質ガードレール / API Quality Guardrails in the AI Era",
+   "url": "https://speakerdeck.com/yokawasa/api-quality-guardrails-in-the-ai-era",
+   "summary": "Presentation slides: 【オンライン】AI時代の開発シフトレフトアプローチ (CircleCI x Postman 共催セミナー ) 2026.10.06 Session title: AI時代のAPI開発を加速する品質ガードレール",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T23:34:08-04:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "PostgreSQL Performance Mysteries When low IOPS still means high latency",
+   "url": "https://speakerdeck.com/gayathripaderla/postgresql-performance-mysteries-when-low-iops-still-means-high-latency",
+   "summary": "PostgreSQL performance problems are not always what they appear to be. In production systems, teams often encounter increased query latency, disk bandwidth saturation, or application slowdowns—even when traditional indicators like IOPS remain low or unchanged. This talk examines real-world PostgreSQ",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T10:57:52-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "ConfigMapのImmutable機能を使ってヒヤッとした話と得られた知見／A Close Call with ConfigMap Immutability and the Lessons Learned",
+   "url": "https://speakerdeck.com/masakiokuda/a-close-call-with-configmap-immutability-and-the-lessons-learned",
+   "summary": "2026.10.6 Kubernetes Novice Tokyo #42 https://k8s-novice-jp.connpass.com/event/405343/",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T09:43:29-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "自分で立ててみるLLMサービス",
+   "url": "https://speakerdeck.com/y_sera15/jibun-de-tate-te-miru-llm-sabisu",
+   "summary": "2026/10/5 さくらの夕べ 地域コミュニティナイト - 小江戸らぐ & LOCAL編 -",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T06:29:26-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "MariaDB Server - Where the Innovation Happens",
+   "url": "https://speakerdeck.com/lefred/mariadb-server-where-the-innovation-happens-fe23de18-4ad8-4ee9-9ec4-b5ceee6b2615",
+   "summary": "This session on MariaDB Server's innovation over time was presented at the Free/Open Source Software in Education, Science & Business Conference for Chernihiv Polytechnic National University. This was an online conference.",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T06:29:08-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "FactoryBotアンチパターン / factory_bot anti-patterns",
+   "url": "https://speakerdeck.com/toshimaru/factory-bot-anti-patterns",
+   "summary": "[Kaigi on Rails 2026 過去登壇勉強会 - connpass](https://connpass.com/event/406332/) での発表資料です。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T06:28:55-04:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Specs before code: field notes from a consulting team using Kiro",
+   "url": "https://speakerdeck.com/nuage_ninja/specs-before-code-field-notes-from-a-consulting-team-using-kiro",
+   "summary": "An agent can build a feature in an afternoon. Whether it's the feature you actually wanted is another question, and that's what this talk is about. We start with Kiro, the agentic IDE built by a team inside AWS, and the three files it writes before any code: requirements.md (what we're building), de",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T02:43:20-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "SREでアラート疲れを 解決しよう！",
+   "url": "https://speakerdeck.com/kairim0/sre-de-zukare-o-kaiketsu-shiyou",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T02:06:59-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "QUIC and MoQ from the Perspective of Real-Time Game Networking",
+   "url": "https://speakerdeck.com/segadevtech/quic-and-moq-from-the-perspective-of-real-time-game-networking",
+   "summary": "These are the presentation materials for the talk \"QUIC and MoQ from the Perspective of Real-Time Game Networking\" delivered at MoQ Meetup Japan (https://moqmeetup.connpass.com/event/406585/). *To watch the video of the presentation, please visit https://www.youtube.com/watch?v=yUneU7UzI8Y",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T00:47:07-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "ゲームのリアルタイム通信から見た QUIC と MoQ",
+   "url": "https://speakerdeck.com/segadevtech/gemu-no-riarutaimu-tsuushin-kara-mita-quic-to-moq",
+   "summary": "MoQ Meetup Japan (https://moqmeetup.connpass.com/event/406585/) にて講演した 『ゲームのリアルタイム通信から見た QUIC と MoQ』の資料です ※講演の動画を閲覧したい場合は https://www.youtube.com/watch?v=yUneU7UzI8Y をご参照ください",
+   "score": null,
+   "meta": {
+    "published": "2026-10-05T00:44:41-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  }
+ ],
+ "oss": [
+  {
+   "repo": "storytold/photocraft",
+   "url": "https://github.com/storytold/photocraft",
+   "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+   "language": "Rust",
+   "stars": 5886,
+   "topics": [
+    "adobe",
+    "adobe-photoshop-2026",
+    "adobe-photoshop-2026-ai",
+    "art",
+    "image-editing",
+    "image-editing-software"
+   ],
+   "created_at": "2026-09-30",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 3930,
+   "readme": "\n  \n    \n      \n      \n    \n  \n\nPhotoCraft\n\n  Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.\n  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,\n  in a native app written entirely in Rust. Open source, offline, and yours.\n\n  \n  \n  \n  \n\n  \n\n  PhotoCraft on getartcraft.com ·\n  ArtCraft ·\n  All Crafting Apps\n\n  \n  \n  A caption card with a drop shadow, live type, and Vibrance and Curves adjustment layers, with the Curves editor open.\n  The Great Wave off Kanagawa, Katsushika Hokusai, c. 1831\n\n> [!NOTE]\n> **ArtCraft is a community of artists from all walks of life.** Digital, generative, music,\n> games &mdash; if you make things, you're one of us. **[Come say hi on Discord](https://discord.gg/artcraft).**\n\n  Features ·\n  Everything in the box ·\n  PSD ·\n  Agents ·\n  Under the hood ·\n  Get started ·\n  Crafting Apps ·\n  Discord\n\n  \n    \n      🎛️ Familiar by design\n      The menus, shortcuts, panels and tools are where your hands expect them, from ⌘J to ⇧⌘D. If you know Photoshop, you already know PhotoCraft.\n    \n    \n      ⚡ Native and fast\n      A GPU compositor on wgpu (Metal, Vulkan, DX12, WebGPU), copy-on-write tiles and multithreaded filters. No Electron, no web view, no waiting.\n    \n    \n      🗂️ Real PSD files\n      Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.\n    \n    \n      🤖 Agent-ready\n      Every action is a command, so you can drive the same engine from the UI, the CLI, a JSON control channel or an MCP server.\n    \n  \n\n## Features\n\nEvery screenshot here is the real app at work on public-domain art, rendered offscreen through its control channel.\n\n  \n    \n      \n      \n      Levels and Vibrance adjustment layers, with the live Histogram panel.Impression, Sunrise, Claude Monet, 1872\n      Edit without regret\n      Adjustment layers keep every edit live. Stack Levels, Curves, Vibrance, Hue/Saturation and a dozen more, mask them to an area, reorder them, or turn them off, and your original pixels never change.\n      \n      16 adjustment layers that also apply directly to pixels, including Curves with per-channel editing, Levels with a live histogram, Black &amp; White, Channel Mixer, Gradient Map, Photo Filter, Selective Color and Color Lookup (.cube, .3dl, .look). Plus Shadows/Highlights, Replace Color, Match Color, HDR Toning, Desaturate and Equalize.\n    \n    \n      \n      \n      Outer Glow and Stroke on a live type layer, in the Layer Style dialog.Earthrise, William Anders / NASA, 1968\n      Styles that sell the shot\n      Drop Shadow, Inner Shadow, Outer and Inner Glow, Bevel &amp; Emboss, Satin, Stroke, and Color, Gradient and Pattern Overlay, live on any layer, including type. Patterns come from a library (built-ins, Edit › Define Pattern, .pat import/export) and PSD Patt blocks.\n      \n      Copy and paste styles between layers, hide all effects at once, and open styles straight from your PSDs, rendered to match Photoshop.\n    \n  \n  \n    \n      \n      \n      An elliptical selection becomes the mask of a Hue/Saturation layer, so only the face keeps its color.Girl with a Pearl Earring, Johannes Vermeer, c. 1665\n      Selections that understand your image\n      Marquees, lassos and the Magic Wand for precision; Quick Selection, Object Selection and Select Subject when you want the computer to do the tracing; Select and Mask to refine hair-fine edges.\n      \n      Feather, expand, contract, smooth, grow, reselect. Turn any selection into a layer mask, a vector path or a shape. Smart selection runs on your machine, with no cloud and no account.\n    \n    \n      \n      \n      A headline edited in place, with a byline and a paragraph of body text.Among the Sierra Nevada, California, Albert Bierstadt, 1868\n      Type that sets beautifully\n      Point and paragraph text, edited right on the canvas, with full Character and Paragraph controls: font, weight, size, leading, tracking, alignment and colour.\n      \n      Type layers stay editable, take layer styles, and round-trip through PSD.\n    \n  \n  \n    \n      \n      \n      A badge made of shape layers: a gradient-filled lotus, a star and a dotted ring.Water Lilies, Claude Monet, 1906\n      Pixel-perfect vectors\n      Rectangle, Ellipse, Triangle, Polygon, Line and the Pen tool, with resolution-independent shape layers, gradient fills, and dashed, aligned strokes.\n      \n      Combine shapes (unite, subtract, intersect, exclude), keep paths in the Paths panel, use them as vector masks, or stroke and fill them. 116 of 116 shape layers in our PSD corpus match Photoshop's pixels.\n    \n    \n      \n      \n      Twirl previews live on the canvas, only inside the selection.The Starry Night, Vincent van Gogh, 1889\n      See it before you commit\n      Every filter dialog previews live on the canvas, through your selection. Blurs (Gaussian, Box, Motion, Radial, Surface, Smart, Lens, Shape, and the Blur Gallery: Tilt-Shift, Iris, Field, Spin, Path), sharpening, Reduce Noise, distortions (Twirl, Wave, Ripple, Displace, Shear, Zig Zag…), Pixelate, Stylize (Oil Paint, Wind, Extrude…), Render (Clouds, Fibers, Lens Flare, Lighting Effects) and more.\n      \n      Run filters on a smart object and they stay editable: change, hide, reorder or mask them at any time.\n      \n      Large-radius blurs use running-sum box passes across all cores: a radius-180 Gaussian on 3.6 MP takes under a second.\n    \n  \n  \n    \n      \n      \n      Free Transform on a rotated print, with every step listed in History.The Tetons and the Snake River, Ansel Adams, 1942\n      Shape it any way you like\n      Free Transform with scale, rotate, skew, distort and perspective; exact 90° and 180° rotations and flips; Transform Again. Layers, type, shapes, masks and selections all transform together.\n      \n      Full history, Toggle Last State and the History Brush mean every step can be undone, even one brush stroke at a ti",
+   "featured_before": false
+  },
+  {
+   "repo": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+   "language": "C++",
+   "stars": 15622,
+   "topics": [],
+   "created_at": "2026-09-24",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 1890,
+   "readme": "Strata\n\n**English** · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Português](README.pt-BR.md)\n\nRun a 125-billion-parameter AI model on your own gaming PC\nNVIDIA or AMD graphics card (12 GB or more) · Windows or Linux · free and open source\n\nA voxel pagoda garden, 1 shot prompt running on an RTX 5070 with Strata (IQ3_S, 128K context) ·\nfull video (49 s)\n\nStrata runs **[Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)** on a normal PC. This is a\nlarge, smart AI model that usually needs a server. It chats, writes code, reads pictures and works with your apps\nand coding agents. Nothing leaves your PC.\n\n## How fast is it?\n\nWe measured it on two ordinary gaming PCs. A token is about ¾ of a word.\n\n- **Writes answers:** how fast the reply appears in a short chat. 60 tokens per second is faster than you can read.\n- **Reads your prompt:** how fast it takes in what you send (here a 32K-token document, code or chat history).\n\nNVIDIA: RTX 5070 (12 GB), Ryzen 5 7600, 64 GB RAMAMD: RX 9070 XT (16 GB), Ryzen 9 3900X, 47 GB RAM\n\n| Size | Writes answers | Reads your prompt |\n| --- | ---: | ---: |\n| **Q2_0** | 94 tokens/s | 2,650 tokens/s |\n| **IQ2_XS** | 79 tokens/s | 2,090 tokens/s |\n| **IQ3_XXS** | 62 tokens/s | 1,750 tokens/s |\n| **IQ3_S** | 53 tokens/s | 1,620 tokens/s |\n| **Coder** | 55 tokens/s | 2,180 tokens/s |\n\n| Size | Writes answers | Reads your prompt |\n| --- | ---: | ---: |\n| **Q2_0** | 60 tokens/s | 1,160 tokens/s |\n| **IQ2_XS** | 52 tokens/s | 1,110 tokens/s |\n| **Coder** | 44 tokens/s | 1,420 tokens/s |\n\nNVIDIA: Q2_0 with engine 0.1.36, the other rows with 0.1.26 (4K answers, 32K prompts). The full tables are in\n[DETAILS.md](docs/DETAILS.md#speed-measured). A card with more VRAM is faster: an RTX 3090 (24 GB) should write\nabout 100-140 tokens per second. Long chats and other cards: [speed of each model](docs/MODELS.md#how-fast-is-each-size),\n[community results](docs/COMMUNITY_BENCHMARKS.md).\n\nStrata is free. If it runs well on your PC, a coffee keeps the work on it going.\n\n## What you need\n\n| | |\n| --- | --- |\n| **Graphics card** | **NVIDIA** GeForce RTX 20, 30, 40 or 50 series, or **AMD** Radeon RX 7900 XT / XTX, RX 7800 XT / 7700 XT, RX 9060 XT, RX 9070 / 9070 XT, Radeon AI PRO R9700 or RX 6800 / 6900 series. It needs **12 GB of VRAM or more**. |\n| **RAM** | 32 GB or more. Your RAM decides [which model](#which-model-should-i-pick) fits. 64 GB runs every size. |\n| **Disk** | About 80 GB free. Use an SSD if you can: the first start is much faster. |\n| **System** | Windows 10 / 11 or Linux, and a current graphics driver from NVIDIA or AMD. |\n\nThe installer sets up everything else. Two or three cards can share the model ([multi-GPU](docs/MULTI_GPU.md)).\n\nExperimental, written and tested by community members on their own machines:\n\n- **Older graphics cards** (Tesla P40 / V100, GTX 10, Radeon VII / MI50, RX 6700 XT, RX 5500 XT): [Older GPUs](docs/OLDER_GPUS.md).\n- **Intel Arc**, built from source on Linux: [Intel Arc](docs/INTEL_ARC.md).\n- **AMD Ryzen AI Max (Strix Halo)**, built from source on Linux: [Strix Halo](docs/STRIX_HALO.md).\n- **Older processors without AVX2**: they work, but slowly. [Older CPUs](docs/INSTALL.md#older-cpus-experimental).\n\nThe full list: [docs/INSTALL.md](docs/INSTALL.md#what-you-need).\n\n## Install\n\n### Let your AI set it up\n\nDo you use an AI coding assistant (Claude Code, Cursor, Codex, GitHub Copilot, ...)? Paste this into it:\n\n```text\nSet up Strata on this PC for me: https://github.com/Niko1221/Strata - follow docs/AI_SETUP.md in that repository.\n```\n\nIt checks your graphics card, RAM and disk and picks the model that fits. Then it installs and starts it and tells\nyou how to connect your apps. AI tools can also install, start and stop Strata through its\n[MCP server](docs/MCP_SERVER.md).\n\n### Or do it yourself\n\n[Download Strata](https://github.com/Niko1221/Strata/archive/refs/heads/main.zip) and unzip it (or `git clone` it).\n**Windows:** double-click **`START-HERE.bat`**. **Linux:** run **`./setup.sh`** in the Strata folder.\n\nThe steps are the same for NVIDIA and AMD. The installer finds your card and sets up the right engine for it. It\nasks you a few questions:\n\n- which model and which size,\n- how much context (how much text the model keeps in mind),\n- whether it should read pictures.\n\nPress Enter each time for the recommended answer. Then it downloads the model (about 70 GB) and starts it. If the\ndownload stops, run it again: it continues where it left off. Your browser opens the Strata app at\n`http://127.0.0.1:8080`.\n\n> **While the model starts, your PC can be slow or stop responding for 1-3 minutes** (longest the first time).\n> Strata loads 35-55 GB into your RAM and locks part of it for the graphics card. This is normal. Wait, and don't\n> close the window. The window shows what Strata is doing.\n\n**Next time**, run `START-HERE.bat` (or `./setup.sh`) again. It starts right away and downloads nothing twice. Close\nits window to stop the model. `UPDATE.bat` (`./update.sh`) updates Strata without starting it. Updating, Docker,\nseveral cards, where the files go and every option: [docs/INSTALL.md](docs/INSTALL.md).\n\n## Which model should I pick?\n\nThe installer recommends one for your RAM. The same model comes in several sizes, compressed more or less. Smaller\nsizes are faster. Larger sizes are a bit smarter.\n\n| Your RAM | Take | Why |\n| --- | --- | --- |\n| **32 GB** | **Coder** | it fits 32 GB, and it is made for code (with a 24 GB card, Q2_0 and IQ2_XS run too) |\n| **48 GB** | **IQ2_XS** (or Q2_0, the fastest) | the larger sizes do not fit |\n| **64 GB** | **IQ2_XS** (recommended), or IQ3_XXS / IQ3_S | every size fits; IQ3_S is the best and the slowest |\n| **96 GB or more** | **IQ3_S**, or Unsloth's UD-IQ4_XS (~4-bit) | room for the largest sizes with everything else open |\n\n- **[Coder](docs/MODELS.md#coder):** a coding version with half of the experts removed. It rea",
+   "featured_before": true
+  },
+  {
+   "repo": "omlahore/RemoveMacAI",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
+   "language": "Swift",
+   "stars": 3057,
+   "topics": [
+    "apple-intelligence",
+    "cli",
+    "debloat",
+    "macos",
+    "macos-27",
+    "privacy"
+   ],
+   "created_at": "2026-09-29",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 1140,
+   "readme": "\n  \n\n   \n\n# RemoveMacAI\n\nTurn off Apple Intelligence on macOS 27 and remove its downloaded models.\n\nBuilt on [pared](https://github.com/4evy/pared) by 4evy, who did the hard work first: mapping Apple's asset service, the model sets and the settings keys this tool relies on.\n\nmacOS 27 no longer has a single switch for Apple Intelligence, and its models stay on disk after the features are turned off. RemoveMacAI turns the features off, removes the models and prevents macOS from downloading them again. All changes can be reverted.\n\n[MacRumors](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/), [AppleInsider](https://appleinsider.com/articles/26/10/05/dumb-down-your-mac-save-12gb-by-removing-apple-intelligence) and [Help Net Security](https://www.helpnetsecurity.com/2026/10/05/removemacai-turn-off-apple-intelligence/) have written about RemoveMacAI.\n\n  \n\nDemo video\n\n## Install\n\nOpen Terminal (Applications > Utilities), paste this line and press Return:\n\n```sh\ncurl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash\n```\n\nThe script downloads the latest release, verifies its SHA-256 checksum and runs it from a temporary directory. Nothing is installed.\n\nTo skip the script, download `removemacai-darwin-arm64.tar.gz` and its `.sha256` file from the [latest release](https://github.com/omlahore/RemoveMacAI/releases/latest), then run this in the folder you saved them to:\n\n```sh\nshasum -a 256 -c removemacai-darwin-arm64.tar.gz.sha256\ntar xzf removemacai-darwin-arm64.tar.gz\nxattr -d com.apple.quarantine removemacai\n./removemacai\n```\n\nThe binary is ad-hoc signed but not notarized, so macOS won't run a copy downloaded through a browser until the quarantine flag is removed.\n\nEvery release is built from its tag by GitHub Actions and carries a build provenance attestation. To check that a download came from this repository's source:\n\n```sh\ngh attestation verify removemacai-darwin-arm64.tar.gz -R omlahore/RemoveMacAI\n```\n\nWith Homebrew:\n\n```sh\nbrew install omlahore/tap/removemacai\nremovemacai\n```\n\nRemoveMacAI shows the current state and asks for confirmation. It then opens System Settings to install its configuration profile, which macOS requires the user to approve, and removes the models.\n\nTo leave some features on, name them with `--keep`. For example, to turn everything off except the Photos features:\n\n```sh\ncurl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash -s -- off --keep spatial-photos,photos-clean-up\n```\n\n`removemacai features` lists the names.\n\n## Usage\n\n| Command | Description |\n|---|---|\n| `removemacai` | Show the current state, then turn Apple Intelligence off |\n| `removemacai status` | Show each feature and the size of the models on disk |\n| `removemacai off --keep ` | Leave the listed features alone (one that is already off stays off until you turn it on) |\n| `removemacai off --dry-run` | Show the changes without applying them |\n| `removemacai revert` | Undo all changes |\n| `removemacai features` | List the feature names accepted by `--keep` |\n\nModel sizes that the asset service cannot report are shown as `unknown`. If model removal fails or cannot be confirmed, `off` exits with status 1 and leaves the configuration profile active. Check the reported warnings and run `removemacai status` before trying again.\n\nTo revert with the one-line installer:\n\n```sh\ncurl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash -s revert\n```\n\n## What it changes\n\n**Features turned off:** Siri (including \"Hey Siri\" and the menu bar icon), Writing Tools, Genmoji, Image Playground, the ChatGPT extension, summaries in Mail, Messages, Safari, Notes and notifications, Mail smart replies, inline text predictions, Spatial Photos, Photos Clean Up and Xcode predictive code completion.\n\n**Models removed:** the Apple Intelligence foundation models and the models for image generation and Genmoji, Spatial Photos, Photos Clean Up and Xcode code completion.\n\n  \n\n## How it works\n\n- A configuration profile applies Apple's restriction keys for Apple Intelligence and forces the settings that have no restriction key.\n- Models are removed through Apple's asset service. System Integrity Protection stays enabled and no files under `/System` are modified directly.\n- The profile redirects the download of each removed model to a closed local port, so macOS does not download it again.\n- Removing the profile restores the previous settings. macOS downloads the models again when a feature needs them.\n\nRemoveMacAI makes no network requests and collects no data.\n\n## FAQ\n\n**Does dictation still work?**\nYes. Dictation is a separate setting, and its speech models are not removed.\n\n**Do macOS updates undo the changes?**\nNo. The profile, including the download block, persists across updates.\n\n**Storage settings still lists Apple Intelligence after the models were deleted.**\nApple's asset service releases the models right away, but macOS deletes the files on its own schedule. Until then, System Settings > General > Storage keeps counting them under Apple Intelligence.\n\n**Why is a process named Siri still running?**\nIn macOS 27 the Spotlight window runs as a process named Siri. Some system services also stay loaded; they are protected by System Integrity Protection.\n\n**What stops working?**\nThe features listed above, apps that use Apple's on-device models (the Foundation Models framework and the Use Model action in Shortcuts), Visual Intelligence and natural-language editing in Calendar.\n\n## Requirements\n\nApple silicon.\n\n| macOS | Status |\n|---|---|\n| 27 | Supported, tested on 27.0. On 27.0.1, use 0.2.3 or later. |\n| 26 and earlier | Not supported |\n\n## Uninstall\n\nRun `removemacai revert`, then `brew uninstall removemacai` if it was installed with Homebrew.\n\n## Acknowledgements\n\nRemoveMacAI is built on [pared](https://github.com/4evy/pared), a complete working tool by 4evy that first mapped the asset service, t",
+   "featured_before": false
+  },
+  {
+   "repo": "robbietilton/Compositor",
+   "url": "https://github.com/robbietilton/Compositor",
+   "description": "The Photoshop alternative for Mac",
+   "language": "Swift",
+   "stars": 9142,
+   "topics": [],
+   "created_at": "2026-09-16",
+   "pushed_at": "2026-09-29",
+   "found_in": "新着人気",
+   "stars_per_day": 862,
+   "readme": "# Compositor\n\nAdobe Photoshop costs too much and tools like GIMP don’t feel familiar enough for me to stay in flow. That’s why I built Compositor.\n\nThe goal was to create a full-featured image editor that is completely free and open source. I used to use Photoshop for compositing and post-processing, so Compositor is built around that workflow - with the tools needed to create a pixel-perfect final image.\n\nBecause it’s open source, you can download the Xcode project and add, remove, or modify any feature to fit your workflow.\n\n## Installation\n\n### Download\nGet Compositor from [robbietilton.com/compositor](https://robbietilton.com/compositor), or download the latest release directly from [GitHub Releases](https://github.com/robbietilton/Compositor/releases/latest).\n\n### Homebrew\n\n```sh\nbrew install --cask robbietilton-compositor\n```\n\n## Features\n\n### Layers\n- Layers and folders, with opacity and Photoshop's full set of blend modes in its order — a folder's opacity dims everything inside it\n- Layer masks: paint, fill, invert, blur and feather them anywhere on the canvas, past the layer's own pixels; link or unlink them to transform a mask on its own\n- Clipping masks and folder masks\n- Adjustment layers: Hue/Saturation, Levels, Curves, Exposure, Gradient Map, Grain, Black & White, Color Balance, Invert, Gaussian Blur, Motion Blur and Noise\n- Layer effects: Stroke, Drop Shadow, Color Overlay, Inner Shadow, Outer Glow and Inner Glow, rendered on the GPU and editable at any time\n- Merge Down, Merge Layers and Merge Group (⌘E)\n- Duplicate, rename inline, reorder and nest by drag and drop; Option-drag to duplicate; a right-click menu in the Layers panel\n- Copy and paste whole layers and folders (⌘C/⌘V with no selection), within a project or between projects, or drag them between projects\n\n### Transform\n- Non-destructive move, scale, rotate and flip — images keep their full resolution however small you make them\n- Free distort (⌘-drag a handle), with Shift to lock to an axis\n- Transform several layers, or a whole folder, together\n- Snapping to canvas and layer edges and centers, with guides\n- Exact values for position, size, scale and angle, stepped with the arrow keys\n- Flip Layer and Flip Canvas, horizontal and vertical\n\n### Selections\n- Rectangle and Ellipse Marquee, Freehand and Polygonal Lasso, and the Magic tool — Wand selects by color, Object traces whatever you click (Tab switches)\n- Select Subject, and Expand, Contract and Feather on any selection\n- Add to and subtract from selections, move the outline, or move and duplicate the pixels inside\n- Load a layer's pixels or a mask as a selection\n- Content-Aware Fill, which can also extend an image past its edges\n\n### Painting and retouching\n- Brush with size, hardness, opacity and smoothing, in Paint or Erase mode (B and E), and Shift for straight lines\n- Spot Healing Brush (content-aware)\n- Clone Stamp, aligned or not, sampling one layer or all of them\n- Blur tool, on pixels or masks\n- Gradient tool and Shape tool (rectangles, rounded rectangles, ellipses and lines), which stay editable rather than being rasterized\n- Type tool (T): inline multiline editing in draggable, resizable paragraph boxes; font, size, color, alignment and spacing in the tool header; transform text and use it as a clipping mask\n- Eyedropper and a full color picker\n\n### Adjustments and filters\n- Camera Raw filter: light, color, curves, color mixer, color grading, detail, optics and geometry, in a panel beside the canvas\n- Levels (with Auto), Curves, Hue/Saturation, Exposure, Gradient Map, Grain, Black & White, Color Balance and Invert\n- Gaussian Blur and Motion Blur that spread past a layer's edges\n- Add Noise, Vignette, Bloom / Glow, Tonal Contrast, Lens Correction and Remove Background\n- Live previews, limited to the selection when there is one\n\n### Canvas and files\n- Multiple projects in tabs\n- Rulers (⌘R), guides dragged from them, a layout grid with adjustable spacing and subdivisions, and Snap To for guides, grid, layers and document bounds\n- Crop with snapping, ratios including 3:4 and 9:16, and Option for symmetric cropping; with a selection, the crop starts at it\n- Canvas Size, Image Size and Trim\n- Sharp high-quality downsampling when zoomed out, and a pixel grid when zoomed in\n- Import JPEG, PNG, HEIC, TIFF, SVG, camera RAW (with a develop step first) and Photoshop PSD and PSB (8-bit RGB; not CMYK). Photoshop folders, masks, blend modes, fill rectangles/ellipses, and simple horizontal text stay editable; other vectors and vertical text become pixels. A conversion report is shown before anything is applied.\n- Large documents: the memory budget scales with your Mac, and a Photoshop file too big to open has its layers cropped to the canvas instead\n- Export JPEG with a live preview (⇧⌥⌘S); Copy Merged\n- Keep working while a project saves\n- Photoshop-style keyboard shortcuts throughout, remappable in Edit > Keyboard Shortcuts\n- Drag a number's label to scrub its value, as in Photoshop\n- Automatic updates, signed and notarized\n\n### Works with AI agents\n- AI agents and scripts can build and edit projects directly: a `.comp` is a folder of PNG layers and a manifest, and an open project updates live as it's written. See [Writing Compositor projects](docs/writing-comp-files.md)\n\n## Requirements\n\n- macOS 26.0 or later on a Mac with Apple silicon\n- Xcode 26 or later (to build from source)\n\n## Building\n\nOpen `Compositor.xcodeproj` and run the **Compositor** scheme.\n\n## Releasing\n\n`scripts/release.sh` builds a Release version, signs it with Developer ID, notarizes and staples it, and packages it into `dist/Compositor-.dmg`.\n\nIt needs, all kept outside this repository:\n\n- a **Developer ID Application** certificate in the login keychain\n- notarization credentials saved with `xcrun notarytool store-credentials \"compositor-notary\" …`\n- [`create-dmg`](https://github.com/create-dmg/create-dmg) (`brew install create-dmg`)\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n",
+   "featured_before": false
+  },
+  {
+   "repo": "Droid-Deck/DroidDeck",
+   "url": "https://github.com/Droid-Deck/DroidDeck",
+   "description": "DroidDeck brings the SteamOS experience to Android",
+   "language": "C",
+   "stars": 2692,
+   "topics": [],
+   "created_at": "2026-09-24",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 811,
+   "readme": "\n  \n    \n    \n  \n\nDroidDeck brings the SteamOS experience to Android: Valve's Steam client in Big Picture on your Adreno handheld, with Windows games through Valve's ARM64 Proton.\n\n> Note: DroidDeck does not have a stand-alone website. Do not click on any download links from websites claiming to be the DroidDeck team. \n\n## Requirements and install\n\nUse Android 9 or newer on a supported Adreno device (730 or newer, or 8xx). Adreno 6xx is experimental: DirectX 11 uses DXVK 2 and may run, and DirectX 12 games can still crash. Mali, Xclipse, PowerVR, and Adreno 710 are unsupported. No root is required. Allow about 3 GB for the runtime and 1.1 GB more for the desktop and emulators. Install the APK from [Releases](https://github.com/Droid-Deck/DroidDeck/releases), install the Linux runtime, then press **Play** and sign in. Steam downloads on first launch. Install **Desktop & apps** to use the desktop and emulators. The **Store** installs Linux apps and games from Flathub (ARM64 builds) with Flatpak; with additional options to install Appimages and set up scripts.\n\nBefore Steam launches, you must turn off **Restrict child processes** in Developer options. If this option is not available in developer settings (Android 12 and 13 devices), first launch of Steam will present a \"Fix it for me\" button, which will help automate the setup process.\n\n## Community\n\nJoin the [DroidDeck Discord](https://discord.gg/JRGAvawjsm) for help, Preview builds, and device reports. Bug reports go in its **#bug-reports** forum; attach the session folder from `Download/DroidDeck/` so the logs come with it.\n\n## Build\n\nRun `tools/build_local.sh` with Docker, Java 17, the Android SDK/NDK, and `zstd` installed. It builds the ARM64 audio sinks from PulseAudio 13.0 and packages them into the APK at `app/build/outputs/apk/release/app-release.apk`. Set `DROIDDECK_PA13_SOURCE_DIR` to an existing PulseAudio 13.0 source directory to skip downloading it. To install the APK on an attached device, run `tools/deploy_local.sh`.\n\n## Limits\n\nCompatibility and performance vary by device; hardware validation is limited. Desktop compositing uses software rendering. Firefox sandboxing is reduced under proot. See the session logs in `Download/DroidDeck/` when diagnosing problems.\n\n## Credits and licence\n\nGPL-3.0. Runtime, shim, input, and controller work build on WinNative and Bannerlator (maxjivi05). LSFG frame generation is from the work of Camille LaVey and the [Eden](https://eden-emu.dev) emulator project, following [lsfg-vk](https://github.com/PancakeTAS/lsfg-vk), ported to WinNative and DroidDeck by [@maxjivi05](https://github.com/maxjivi05); it needs your own copy of [Lossless Scaling](https://store.steampowered.com/app/993090/) and ships none of its shaders. x86 AppImages, and any whose own runtime cannot unpack them, are unpacked with [uruntime](https://github.com/VHSgunzo/uruntime) by VHSgunzo (MIT), shipped unmodified with its licence. See [LICENSE](LICENSE). Steam and Proton belong to Valve Corporation; this project is not affiliated with Valve.\n",
+   "featured_before": false
+  },
+  {
+   "repo": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "language": "Python",
+   "stars": 4541,
+   "topics": [
+    "age-of-empires",
+    "claude-code",
+    "claude-code-plugin",
+    "fal",
+    "game-assets",
+    "game-modding"
+   ],
+   "created_at": "2026-09-30",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 730,
+   "readme": "\n  \n\n  Skills, tools and a shared knowledge base that let any AI coding agent mod almost any PC game you own.\n  The agent finds the game, works out the engine and the route, reads the real code, builds the mod, makes art, 3D and sound\n  with fal, tests it in the running game, cuts the video, and writes down what it learned for the next agent.\n\n  \n  \n  \n  \n\n  \n\nComing next: the mod hub. Publish your mods, remix other people's, and make new ones.\n\n## Install\n\nPick your agent. Each gets the same skills (Agent Skills format), the fal MCP server, and the `um` CLI.\n\n| Agent | Install |\n|---|---|\n| **Claude Code** | `/plugin marketplace add rehan-remade/universal-modder``/plugin install universal-modder@universal-modder` |\n| **Codex** | `codex plugin marketplace add rehan-remade/universal-modder``codex plugin add universal-modder@universal-modder` |\n| **Gemini CLI** | `gemini extensions install https://github.com/rehan-remade/universal-modder` |\n| **VS Code / Copilot** | Enable `chat.plugins.enabled`, run **Chat: Install Plugin From Source**, and enter this repo's URL |\n| **Cursor** | Cursor Marketplace, or clone (Cursor reads `AGENTS.md` and `.cursor/mcp.json`) |\n| **OpenCode** | Clone and run `opencode` inside it (`opencode.json` adds the skills and the fal MCP server) |\n| **Skills only**(any agent) | `npx skills add https://github.com/rehan-remade/universal-modder` |\n| **Anything else** | `git clone https://github.com/rehan-remade/universal-modder` and start your agent inside it |\n\nInside a clone, each agent finds the skills where it looks for them: `.agents/skills` (Codex, Gemini CLI,\nCopilot, Cursor, OpenCode) and `.claude/skills` (Claude Code) are copies of `skills/`. Instructions are in\n`AGENTS.md`, which `CLAUDE.md` and `GEMINI.md` point to. MCP config is in `.mcp.json`, `.codex/config.toml`,\n`.cursor/mcp.json`, `.vscode/mcp.json` and `opencode.json` (which also points OpenCode at `skills/`).\n\n**The `um` CLI.** Plugin installs and clones put it on PATH. Anywhere else:\n```bash\nuv tool install git+https://github.com/rehan-remade/universal-modder     # or: pipx install git+...\n```\n**For assets,** get a [fal API key](https://fal.ai/dashboard/keys). It powers both the fal MCP server and\n`um fal` (for images without a key, `um comfy` uses a local ComfyUI server):\n```bash\nexport FAL_KEY=...\n```\nYou also need Git, Python 3.10+ and ffmpeg. `uv` is recommended. Blender is needed for 3D → sprite renders.\nWindows games are driven natively or from WSL.\n\n## Try it\n> Mod Terraria: add a homing missile launcher and a tactical nuke that craters the world. Make the sprites with fal.\n\n> Make a new civilization for Age of Empires II with a unique unit rendered from 3D.\n\n> Put real Minecraft inside GTA V story mode. Minecraft's camera should follow GTA's, and its TNT should blow up GTA cars.\n\n> Port the Warthog from my Halo install into Minecraft, with a gunner on the turret.\n\n> What engine is `C:\\Games\\Foo`, and has anyone modded it before?\n\nThe agent starts with the **mod-any-game** skill and runs the same loop every time:\n1. search the knowledge base;\n2. recon, then pick a route;\n3. set up a safe lab (saves backed up);\n4. read the actual code;\n5. build one working slice;\n6. generate assets;\n7. verify in the real game;\n8. record;\n9. package;\n10. write a field note for the next agent.\n\n## A knowledge base that AIs write for AIs\n[`knowledge/`](knowledge/) holds **field notes**: how specific games were actually modded, decompiled and\nreverse-engineered. Each note gives:\n- the exact versions that worked;\n- the route, and why;\n- what the engine really does;\n- how it was verified;\n- the gotchas (symptom → cause → fix).\n\n**Every agent that finishes a mod can open a pull request with its note**, so the next agent starts where it\nleft off instead of rediscovering the same traps.\n\n```bash\num kb search \"grand theft auto\"                 # before you start: prior art (works outside the repo too)\num kb new --game \"Hades II\" --title \"A new boon god\" --from-scan hades --agent \"Codex (gpt-6)\"\num kb check knowledge/games/hades-ii/a-new-boon-god.md\num kb pr knowledge/games/hades-ii/a-new-boon-god.md --yes    # after your human says OK: branch, push, PR\n```\nBrowse [`knowledge/INDEX.md`](knowledge/INDEX.md). Every game is welcome. Contribution rules, for humans and\nAIs, are in [`CONTRIBUTING.md`](CONTRIBUTING.md): no game files, no decompiled dumps, no cheating other\nplayers, and an honest status and verification.\n\nA few notes from the community:\n- [Portalcraft: real Minecraft inside Portal 2](knowledge/games/portal-2/portalcraft-minecraft-inside-portal-2.md)\n- [Halo 3 weapons, Covenant, vehicles and maps ported into Minecraft](knowledge/games/halo-3-mcc/halo-3-weapons-covenant-vehicles-and-maps-ported-into-minecr.md)\n- [Bloons TD 6 inside Minecraft, with the game's rules as a headless sim](knowledge/games/minecraft/bloons-td-6-in-minecraft.md)\n- [A CS2-style conversion of Elden Ring offline, as a native Rust DLL](knowledge/games/elden-ring/cs2-conversion-of-elden-ring-offline-native-rust-dll-via-me3.md)\n\n## What's inside\n\n**Skills** (`skills/`, Agent Skills format)\n\n  SkillWhat it does\n  \n    mod-any-gameThe whole loop, hard safety rules, and 12 engine playbooks: Unity, Unreal, .NET/XNA (Terraria, Stardew, Celeste), Godot, Source 1/2, Bethesda, Minecraft, AoE2/Genie, RE Engine/FromSoft/GTA/Cyberpunk/BG3, native C++, indie engines (GameMaker, RPG Maker, Ren'Py, Paradox, Doom, HTML5, LÖVE, Java), retro decomps\n    game-reconPrior field notes, engine and version, managed or native, anti-cheat, loaders, save folders, community route → MODDING_PLAN.md\n    reverse-engineeringILSpy / Cpp2IL / Vineflower / Ghidra and IDA over MCP / Cheat Engine / Frida / RenderDoc; reverse-engineer a file format and prove it with a round trip\n    fal-assetsSprites with real transparency, consistent variants, pixel art, seamless textures, PBR maps, image-to-3D, auto-rigging, SFX, music, voice, cutscene video\n    asset-pipelineArt → engine-exact fram",
+   "featured_before": true
+  },
+  {
+   "repo": "cdyforever/how-to-live-better",
+   "url": "https://github.com/cdyforever/how-to-live-better",
+   "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+   "language": "HTML",
+   "stars": 8418,
+   "topics": [],
+   "created_at": "2026-09-18",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 695,
+   "featured_before": false
+  },
+  {
+   "repo": "shihabal3amri/DiPlay",
+   "url": "https://github.com/shihabal3amri/DiPlay",
+   "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+   "language": "Kotlin",
+   "stars": 5316,
+   "topics": [],
+   "created_at": "2026-09-24",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 657,
+   "featured_before": false
+  },
+  {
+   "repo": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "language": "Go",
+   "stars": 5452,
+   "topics": [
+    "claude-code",
+    "codex",
+    "deepseek",
+    "gemini-cli",
+    "llm",
+    "macos"
+   ],
+   "created_at": "2026-09-23",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 326,
+   "featured_before": true
+  },
+  {
+   "repo": "nykooi1/vibe-wise",
+   "url": "https://github.com/nykooi1/vibe-wise",
+   "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
+   "language": "Python",
+   "stars": 2521,
+   "topics": [],
+   "created_at": "2026-09-29",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 315,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "CopilotKit/OpenDots",
+   "url": "https://github.com/CopilotKit/OpenDots",
+   "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+   "language": "TypeScript",
+   "stars": 3917,
+   "topics": [],
+   "created_at": "2026-09-29",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 266,
+   "featured_before": true
+  },
+  {
+   "repo": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+   "language": "Python",
+   "stars": 31196,
+   "topics": [
+    "calibration",
+    "classification",
+    "decision-model",
+    "huggingface",
+    "jev",
+    "modernbert"
+   ],
+   "created_at": "2026-09-18",
+   "pushed_at": "2026-10-05",
+   "found_in": "新着人気",
+   "stars_per_day": 243,
+   "featured_before": true
+  },
+  {
+   "repo": "OffGridPete/Fieldwatch",
+   "url": "https://github.com/OffGridPete/Fieldwatch",
+   "description": "Receive-only Wi-Fi and Bluetooth LE observer for Android. MIT.",
+   "language": "Kotlin",
+   "stars": 2707,
+   "topics": [],
+   "created_at": "2026-09-15",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 208,
+   "featured_before": false
+  },
+  {
+   "repo": "Edge0-AI/Edge0",
+   "url": "https://github.com/Edge0-AI/Edge0",
+   "description": "Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported",
+   "language": "Python",
+   "stars": 3292,
+   "topics": [],
+   "created_at": "2026-09-08",
+   "pushed_at": "2026-10-04",
+   "found_in": "新着人気",
+   "stars_per_day": 207,
+   "featured_before": true
+  },
+  {
+   "repo": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+   "language": "TypeScript",
+   "stars": 6176,
+   "topics": [
+    "ai",
+    "chinese",
+    "content-curation",
+    "daily-digest",
+    "docker-compose",
+    "llm"
+   ],
+   "created_at": "2026-09-28",
+   "pushed_at": "2026-10-06",
+   "found_in": "新着人気",
+   "stars_per_day": 187,
+   "featured_before": true
+  }
+ ],
+ "releases": [
+  {
+   "repo": "vitejs/vite",
+   "version": "v8.3.3",
+   "name": "v8.3.3",
+   "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3",
+   "published_at": "2026-10-06T04:07:42Z",
+   "prerelease": false,
+   "body": "### Bug Fixes\r\n\r\n* **deps:** update launch-editor to v2.14.2 ([#23654](https://github.com/vitejs/vite/issues/23654)) ([22fd1d5](https://github.com/vitejs/vite/commit/22fd1d5238cce2ee9db0eb4122f9e8feb6b06097))\r\n* **html:** filename passed to transformIndexHtml should not include queries ([#23653](https://github.com/vitejs/vite/issues/23653)) ([7dafd8e](https://github.com/vitejs/vite/commit/7dafd8e56f152403a3230608fa4005273c2e9e17))\r\n* **server:** check `fs.serve` for `?vite-wasm-instance` ([#23655](https://github.com/vitejs/vite/issues/23655)) ([ba8b7ab](https://github.com/vitejs/vite/commit/ba8b7ab43b4afa5d0292ab4b6e3a7b5033cc9c73))\r\n* **server:** store ids to `safeModulePaths` rather than URLs ([#23656](https://github.com/vitejs/vite/issues/23656)) ([c3e06f9](https://github.com/vitejs/vite/commit/c3e06f92e969952466b4e2f5801e85e1e00cd905))\r\n"
+  },
+  {
+   "repo": "vitejs/vite",
+   "version": "v8.2.4",
+   "name": "v8.2.4",
+   "url": "https://github.com/vitejs/vite/releases/tag/v8.2.4",
+   "published_at": "2026-10-06T04:42:58Z",
+   "prerelease": false,
+   "body": "Please refer to [CHANGELOG.md](https://github.com/vitejs/vite/blob/v8.2.4/packages/vite/CHANGELOG.md) for details."
+  },
+  {
+   "repo": "vitejs/vite",
+   "version": "v8.1.6",
+   "name": "v8.1.6",
+   "url": "https://github.com/vitejs/vite/releases/tag/v8.1.6",
+   "published_at": "2026-10-06T04:48:45Z",
+   "prerelease": false,
+   "body": "Please refer to [CHANGELOG.md](https://github.com/vitejs/vite/blob/v8.1.6/packages/vite/CHANGELOG.md) for details."
+  },
+  {
+   "repo": "vitejs/vite",
+   "version": "v7.3.7",
+   "name": "v7.3.7",
+   "url": "https://github.com/vitejs/vite/releases/tag/v7.3.7",
+   "published_at": "2026-10-06T05:07:26Z",
+   "prerelease": false,
+   "body": "Please refer to [CHANGELOG.md](https://github.com/vitejs/vite/blob/v7.3.7/packages/vite/CHANGELOG.md) for details."
+  },
+  {
+   "repo": "vitejs/vite",
+   "version": "v6.4.4",
+   "name": "v6.4.4",
+   "url": "https://github.com/vitejs/vite/releases/tag/v6.4.4",
+   "published_at": "2026-10-06T05:45:15Z",
+   "prerelease": false,
+   "body": "Please refer to [CHANGELOG.md](https://github.com/vitejs/vite/blob/v6.4.4/packages/vite/CHANGELOG.md) for details."
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.292",
+   "name": "v2.1.292",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+   "published_at": "2026-10-06T18:59:30Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request\n- Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list\n- Added prompt caching to `$.model.complete` for mods: `prompt` and `system` take blocks of text, and `cache: true` on a block caches the request up to it\n- Added workflow agents to the `agent.spawn` mod hook, with their run and index, so a mod can refuse them\n- Fixed subagent definitions with `permissionMode: auto` entering auto mode when auto mode is unavailable (disabled by settings, circuit breaker, or a model that doesn't support it)\n- Fixed sandboxed commands being able to read the staged file copies of `/ultrareview` uploads under `~/.claude/seed-admin`\n- Fixed a managed sandbox read-deny path (and user ones beside it) that appears or re-points mid-session not dropping project grants inside it or ending credential injection from files it covers\n- Fixed a notebook or PDF read on macOS and Windows being able to return a file outside what was approved, through a link swapped in mid-read\n- Fixed a tampered on-disk cache of server-managed settings being able to switch off or unseat the built-in policy plugin while the settings fetch failed\n- Fixed `rm -rf` on the 8.3 short name or another alternate Windows spelling of the home folder or a drive not being treated as removing it\n- Security: Fixed PreToolUse hook approvals and auto mode bypassing the permission prompt for file reads from network (UNC) paths\n- Fixed a skill's or slash command's `allowed-tools` rule coming back in a later turn when you leave auto mode or plan mode partway through that turn\n- Fixed `NO_PROXY` being ignored for Claude Code's own API requests (sign-in, policy, feedback, artifacts) when `HTTPS_PROXY` is set\n- Fixed an MCP tool with a name longer than 128 characters making every request fail; that tool is now left out and an MCP error names it\n- Fixed `claude plugin` commands such as `marketplace add` and `install` running before an organization's managed settings had loaded on a first run\n- Fixed one-shot `claude -p` and Agent SDK runs stopping a background command 5 seconds after the final result, and one-shot `claude -p` runs dropping a scheduled wakeup; both are now waited for\n- Fixed plan mode not being restored when resuming a session from the `claude --resume` session picker or with `/resume`\n- Fixed saved scheduled tasks created after `/resume`, `/branch` or `/clear` never firing, and saved tasks ignoring later creates and deletes after two writes to the tasks file milliseconds apart\n- F"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.291",
+   "name": "v2.1.291",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+   "published_at": "2026-10-06T03:55:19Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting\n"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.290",
+   "name": "v2.1.290",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+   "published_at": "2026-10-05T23:33:17Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end\n- Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's\n- Added `ceiling` to the question and verdict a mod's `tool.check` hook reads, naming the approval an organization requires for a tool\n- Added `ThemeKey` and `Color` types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name\n- Added to `claude plugin validate`: each hook a mod registers at a gating site is listed with whether it has a `.catch` (`gatingHooks` under `--json`)\n- Added a Deny button to the Claude apps gateway's sign-in approval page: it ends the pending sign-in, so the waiting terminal stops within seconds\n- Added `claude attach <name>` and `claude logs <name>`: part of a session name works in place of the id\n- Added `/claude-api managed-agents-onboard <url>` to set up the Managed Agents pattern a page describes as `ant apply` files\n- Added `/claude-api managed-agents-onboard <quickstart-name>` to build a Console quickstart template, such as `deep-researcher`, with the `ant` CLI\n- Added a warning when a managed settings file is a link to a file outside the managed settings folder\n- Added a /status and doctor warning when managed settings ignore user-configured sandbox allowRead paths or allowed domains\n- Fixed requests failing behind proxies and gateways that reject one of Claude Code's beta headers with a status other than 400, or together with a second beta\n- Fixed long sessions with hundreds of images getting stuck on \"Request rejected as unprocessable by the model\" errors\n- Fixed a turn ending at once when the API's output content filter stopped a reply while Claude was still thinking; the request is now retried once before the error is shown\n- Fixed resumed subagents and teammates losing their earlier thinking and prompt cache after receiving a message mid-run\n- Fixed WebFetch silently dropping page text past 100,000 characters; it now says how much was unread and takes an `offset` to read on\n- Fixed a crash (\"Maximum call stack size exceeded\") when a response nested lists or quotes thousands of levels deep\n- Fixed `/rewind` not listing a prompt sent while Claude was still working\n- Fixed scheduled tasks (`/loop` with an interval, reminders) silently not coming back on resume once the conversation was compacted; covers compactions made from this version on\n- Fixed scheduled tasks set in the foreground never firing after a ← or `/background` hand-off, and recurring ones firing an extra run on every resume, respawn or fork\n- Fixed headless `--json-schema` runs exiting non-zero with `is_error: true` on a `success` result when the connection dropped after the structured output was already delivered\n- Fixed plan mode letting the auto mode classifier approve non-read-only connector tools t"
+  },
+  {
+   "repo": "cloudflare/workers-sdk",
+   "version": "wrangler@4.148.0",
+   "name": "wrangler@4.148.0",
+   "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.148.0",
+   "published_at": "2026-10-06T18:39:25Z",
+   "prerelease": false,
+   "body": "### Minor Changes\n\n- [#16051](https://github.com/cloudflare/workers-sdk/pull/16051) [`b4e1299`](https://github.com/cloudflare/workers-sdk/commit/b4e12992ae9d74bc27cc70869384855fdde1ea6c) Thanks [@devteamaegis](https://github.com/devteamaegis)! - Add `--source-namespace` and `--source-repo-name` to `wrangler queues subscription create` for the `artifacts.repo` source\n\n  The Event Subscriptions API requires `source.namespace` and `source.repo_name` for `artifacts.repo` subscriptions, but Wrangler had no way to pass them, so `--source artifacts.repo` always failed with a validation error. Both flags are now required for this source, and `wrangler queues subscription get` shows the subscription's resource as `<namespace>/<repo-name>`.\n\n- [#15998](https://github.com/cloudflare/workers-sdk/pull/15998) [`b75421f`](https://github.com/cloudflare/workers-sdk/commit/b75421fcd5b2d8208cefb38882479773a7387df4) Thanks [@dario-piotrowicz](https://github.com/dario-piotrowicz)! - Add `assets.base_path` support to Workers Assets\n\n  Serve an asset directory from a public URL prefix without changing its on-disk layout:\n\n  ```jsonc\n  {\n    \"assets\": {\n      \"directory\": \"./public\",\n      \"base_path\": \"/docs\"\n    }\n  }\n  ```\n\n  Wrangler, preview, Miniflare, and generated build configuration preserve the explicitly selected value, while the Asset Worker normalizes it and strips the prefix only for asset lookup. Requests passed to a user Worker, request-facing headers, and redirects retain the public path. Relative pathname inputs are interpreted as root-relative prefixes, URL-shaped values are rejected, and omitting the option preserves existing root-path behavior.\n\n  Authored `_headers` and `_redirects` rules continue to match full public paths. In particular, both the source and destination of an authored `200` asset rewrite must include the configured public prefix; Asset Worker-generated redirects are prefixed automatically.\n\n- [#16005](https://github.com/cloudflare/workers-sdk/pull/16005) [`4d308f6`](https://github.com/cloudflare/workers-sdk/commit/4d308f6ad7b7af57ff6bcaac51a2d96500f28836) Thanks [@oOPa](https://github.com/oOPa)! - Add a `--experimental-mode instant` option to `wrangler kv namespace create`\n\n  This lets entitled accounts create Workers KV Instant namespaces while the feature is in private beta.\n\n- [#16030](https://github.com/cloudflare/workers-sdk/pull/16030) [`aa2f9b7`](https://github.com/cloudflare/workers-sdk/commit/aa2f9b73ed1177bceb83fd730eb9e47cbabc8c7f) Thanks [@edmundhung](https://github.com/edmundhung)! - Add email-protected Quick Tunnels to `wrangler dev`\n\n  Pass one or more `--tunnel-allowed-mail` flags to require email authentication when exposing a local development server through a Quick Tunnel. Each value can be an exact email address or a domain pattern.\n\n- [#15283](https://github.com/cloudflare/workers-sdk/pull/15283) [`2dde890`](https://github.com/cloudflare/workers-sdk/commit/2dde8907fd4d944d7a1863a8fd9b175ca32e2d74) Thanks [@shu"
+  }
+ ]
+}
