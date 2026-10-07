@@ -1,0 +1,38 @@
+{
+  "edition": "daily",
+  "headline": "AnthropicのClaude Haiku 5.5とOpenAIのGPT-6が同日に発表され、フロンティアモデル競争が一段と加速した一日。",
+  "reading_list": [
+    {
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "Claude Haiku 5.5",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Anthropicが公式発表した新しいHaikuモデルで、Hacker Newsでも大きな反響がある",
+      "takeaway": "新しいHaikuモデルの位置付けを把握し、LLM API選定の判断材料にできる"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "category": "AI",
+      "minutes": 5,
+      "why": "OpenAIが公式発表した新フラグシップモデルGPT-6とIntelligent UIの展開で、Hacker Newsで非常に大きな反響がある",
+      "takeaway": "競合フロンティアモデルの最新動向をつかみ、LLM API選定の比較材料が増える"
+    },
+    {
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Cloudflareが公式ブログで、Workers上に複数のAIエージェントを組み合わせたセキュリティ運用基盤を構築した事例を紹介している",
+      "takeaway": "Cloudflare上でエージェント群をどう設計・運用するかの実例が学べる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.0", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0", "summary": "Turbopackの`resolveAlias`での`false`対応やproxy.ts検出の修正など複数の改善。"},
+    {"repo": "vitejs/vite", "version": "v8.3.3", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3", "summary": "launch-editorの更新やHTMLファイル名処理の修正など複数のバグ修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.293", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293", "summary": "Claude Haiku 5.5をデフォルトHaikuモデルとして追加し、コンテキスト圧縮周りのバグなどを修正。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v0.132.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.132.0", "summary": "claude-haiku-5-5の追加とcomputer/browserツール呼び出しの型対応などを追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.148.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.148.0", "summary": "`wrangler queues subscription create`への`--source-namespace`等の追加と、Workers Assetsの`assets.base_path`対応。"}
+  ]
+}
