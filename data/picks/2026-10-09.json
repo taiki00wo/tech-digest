@@ -1,0 +1,49 @@
+{
+  "edition": "daily",
+  "headline": "Claude Opus 5.5による長時間エージェント実験と「AI時代のコードレビュー」論、そして国内で相次ぐ不正アクセスへの注意喚起が今日の読みどころです。",
+  "reading_list": [
+    {
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "title": "Opus 5.5に1つのプロンプトと6時間を与えて『インヴィジブル・シティーズ』を可視化させてみた",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Claude Opus 5.5に長時間のエージェント実行を任せた実例を著者自身が公開しているから",
+      "takeaway": "単一プロンプト+長時間実行でエージェントがどこまで創造的な成果を出せるかの具体例がわかる"
+    },
+    {
+      "url": "https://ptyhard.co.jp/blog/2026/10/code-review",
+      "title": "AIが書いたコードを目視で追うのはやめよう──「工場の品質検査」から考えるこれからのコードレビュー",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Claude CodeやCodexでコードの初稿を作る機会が増えている今、レビューの観点を更新するヒントになるから",
+      "takeaway": "AI生成コードのレビューを「工場の品質検査」的発想に切り替える具体的な視点が得られる"
+    },
+    {
+      "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+      "title": "直近で相次いでいる国内組織における不正アクセスに関する注意喚起",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "国内で不正アクセス被害が相次いでおり、自組織のセキュリティ対策を見直す参考になるから",
+      "takeaway": "JPCERT/CCが注意喚起する最近の侵害傾向と、組織が取るべき対策の概要がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "language": "Rust",
+      "stars": 26180,
+      "stars_per_day": 9862,
+      "what": "Adobe Photoshopのクリーンルーム再実装として、Rustで書かれたオープンソースの画像編集ソフト",
+      "why": "新着にもかかわらず1日あたり約1万スターという急成長を見せており、オフラインで動く無料のPhotoshop代替への関心の高さがうかがえる",
+      "try": "getartcraft.com からPhotoCraftをダウンロードして試す"
+    }
+  ],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "v8.3.4", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4", "summary": "HMRのacceptExports対応と、ビルド時のpreload/stylesheet周りの不具合を修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.295", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295", "summary": "フック失敗時に動作をブロックするonFailure: \"block\"や、ターミナル向け状態通知(OSC 7501)に対応。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v0.132.1", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.132.1", "summary": "空のpathパラメータを含むリクエストを送信前にエラーにするよう修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.149.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.149.0", "summary": "イベント用の一時アカウントでR2・Containersコマンドを扱える--temporaryフラグを追加。"},
+    {"repo": "astral-sh/uv", "version": "0.12.24", "url": "https://github.com/astral-sh/uv/releases/tag/0.12.24", "summary": "uv cache pruneで孤立したビルド環境を削除できるなど、エラー表示や挙動を改善。"}
+  ]
+}
