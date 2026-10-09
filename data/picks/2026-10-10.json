@@ -1,0 +1,138 @@
+{
+  "edition": "weekly",
+  "headline": "GPT-6発表とCloudflareのDeno買収で、AIモデルとエッジ/サーバーレス基盤の両方が一気に動いた週",
+  "trends": [
+    "GPT-6、Mistral Large 4、Cloudflareの新decision modelなど次世代フラッグシップモデルの発表が相次ぎ、モデル選定・比較が大きな話題になった。",
+    "CloudflareによるDeno買収やAI Gatewayの機能拡張、Birthday Week発表など、クラウド各社がAIエージェント向けインフラの強化を一気に進めた。",
+    "相次ぐ不正アクセス被害の報道を受けて、AI開発ツールやサプライチェーンのセキュリティへの関心が高まった。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "category": "AI",
+      "minutes": 5,
+      "why": "今週最大のニュースで、GPT-6のChatGPTへの全展開と新UI「Intelligent UI」が発表された。AI機能を組み込む開発者は影響範囲を押さえておきたい。",
+      "takeaway": "GPT-6とIntelligent UIで何が変わるか、展開範囲と主な特徴がわかる。"
+    },
+    {
+      "url": "https://deno.com/blog/cloudflare",
+      "title": "Cloudflare acquires Deno",
+      "category": "バックエンド",
+      "minutes": 5,
+      "why": "TypeScript/JavaScriptランタイムDenoの開発元がCloudflareに入ることで、Deno DeployやCloudflare Workersとの統合方向が今後のランタイム選定に関わる。",
+      "takeaway": "買収の経緯とDeno・Cloudflare双方の今後の統合方針の概要がわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "title": "Introducing Web Search API via AI Gateway",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "Cloudflare AI GatewayにWeb検索APIがネイティブ統合され、エージェント構築時に外部検索を自前実装する手間が減る。",
+      "takeaway": "AI GatewayからWeb検索機能をどう呼び出せるか、統合の概要がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "title": "俺のAIプログラミング手法(2026/10/05)",
+      "category": "AI",
+      "minutes": 10,
+      "why": "Claude Codeなどのエージェントを使った開発ループを実践者が具体的に言語化しており、今週Zennで最もスコアが高かった記事。",
+      "takeaway": "AIエージェントを使った開発フローの組み方について、自分の運用に取り入れられる工夫がわかる。"
+    },
+    {
+      "url": "https://qiita.com/shun123/items/b7a01b3d7379274d3ebc",
+      "title": "【React】「1つのuseEffect内でrefを立てる」useUpdateEffectはStrictModeで壊れる",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "StrictModeでカスタムフックの前提が崩れる具体的な事例で、同種の自作フックを使っているReact/Next.jsアプリで見落としがちな落とし穴。",
+      "takeaway": "useUpdateEffectパターンがStrictModeでなぜ壊れるか、原因と直し方がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "language": "JavaScript",
+      "stars": 3352,
+      "stars_week": 3311,
+      "what": "dshエディタに導入するだけで、ログインやAPIキー登録なしにDeepSeek V4.1 FlashやKimi K3などのモデルを無料で使えるようにするプラグイン。",
+      "why": "フロンティアモデルを無料かつ無制限で使えるという訴求が強く、今週大きくスターを伸ばした。",
+      "try": "dshのプラグイン設定からこのリポジトリを追加してインストールする（README記載）。"
+    },
+    {
+      "repo": "storytold/lightcraft",
+      "url": "https://github.com/storytold/lightcraft",
+      "language": "Rust",
+      "stars": 7590,
+      "stars_week": 4727,
+      "what": "Adobe Lightroomのクリーンルーム再実装で、Rust製の写真管理・RAW現像ツール。",
+      "why": "macOS/Windows/Linuxのネイティブ対応とブラウザ版(WASM)に加え、AIエージェントがMCP経由で操作できる設計が注目され、今週大きくスターを伸ばした。",
+      "try": "getartcraft.comからLightCraftをダウンロードする、またはソースをcloneしてRustでビルドする（README記載）。"
+    },
+    {
+      "repo": "openai/math",
+      "url": "https://github.com/openai/math",
+      "language": "Lean",
+      "stars": 12007,
+      "stars_week": 3809,
+      "what": "OpenAIの内部モデルが生成した数学の未解決問題への挑戦結果と、一部についてのLean証明形式化をまとめたリポジトリ。",
+      "why": "719本の原稿が372ファミリーに整理されて公開され、AIによる数学研究の進捗を示す具体例として注目を集めた。",
+      "try": "リポジトリをcloneしてmanuscripts配下の原稿やLean形式化済みファイルを読む（README記載）。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "storytold/lightcraft",
+    "url": "https://github.com/storytold/lightcraft",
+    "overview": "LightCraftは、Adobe Lightroomのクリーンルーム再実装としてRustで書かれた写真ライブラリ・RAW現像ツール。「Your photos. Your pixels. Your machine.」を掲げ、ArtCraftというOSSクリエイティブツール群（PdfCraft、FilmCraftなど）の一つとして開発されている。",
+    "how_it_works": "Rustで実装され、macOS・Windows・Linuxにネイティブ対応するほか、WebAssemblyでブラウザ上でも動作する。READMEでは「AIエージェントがMCP経由でエンドツーエンドに操作可能」と明記されており、編集・カラーグレーディング・マスキングなどの機能をエージェントから自動操作できる設計になっている。同じアーキテクチャ方針がPdfCraftやFilmCraftといった姉妹プロジェクトにも共通している。",
+    "use_cases": [
+      "Adobe Lightroomの代替としてローカルで写真整理・RAW現像を行う",
+      "WASM版をブラウザ上で動かして配布・デモする",
+      "AIエージェントにMCP経由で画像編集フローを自動化させる"
+    ],
+    "try": [
+      "getartcraft.comからLightCraftをダウンロードしてインストールする",
+      "GitHubリポジトリをcloneしてRustツールチェーンでソースからビルドする"
+    ],
+    "compare": "READMEでは「Adobe Lightroomのクリーンルーム再実装」と明記されている。クローズドな有料ツールであるLightroomに対し、オープンソースでクロスプラットフォーム（macOS/Windows/Linux/WASM）に対応し、MCP経由でAIエージェントから操作できる点が異なる。"
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/bcantrill/execution-in-the-kingdom-of-agents-reflections-on-abstraction-and-complexity",
+      "title": "Execution in the Kingdom of Agents: Reflections on Abstraction and Complexity",
+      "event": "Monktoberfest 2026",
+      "why": "Oxide ComputerのBryan Cantrillによる、AIエージェント時代の抽象化と複雑性についての考察で、エージェント基盤を設計する上での視点が得られる。"
+    },
+    {
+      "url": "https://speakerdeck.com/yakumo/agentcore-de-jissen-suru-hanesu-enjiniaringu",
+      "title": "AgentCoreで実践するハーネスエンジニアリング",
+      "event": "AWS-UG 新潟 #34",
+      "why": "AWSのAgentCoreを使ったエージェントハーネス構築の実践例で、AWS上でAIエージェントを運用する際の具体的な工夫がわかる。"
+    },
+    {
+      "url": "https://speakerdeck.com/abedmatini/using-github-copilot-safely-what-developers-need-to-know-about-ai-dependencies-and-security",
+      "title": "Using GitHub Copilot Safely: What Developers Need to Know About AI, Dependencies and Security",
+      "event": "",
+      "why": "AIコーディングツールが依存関係やセキュリティに及ぼすリスクを整理しており、今週相次いだ漏洩報道とも関連が深い内容。"
+    }
+  ],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "v8.3.4", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4", "summary": "import.meta.hot.acceptExports対応と、プリロード・HMR周りの複数バグ修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.296", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296", "summary": "Claude Desktopのゲートウェイモード対応やworkflowサブエージェント専用モデル指定などを追加。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v0.133.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.133.0", "summary": "Managed Agentsのworkflowsやマルチエージェントconfigへの型対応を追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.149.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.149.0", "summary": "wrangler r2/containersにイベント用一時アカウントを扱う--temporary/--event-codeフラグを追加。"},
+    {"repo": "astral-sh/uv", "version": "0.13.0", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0", "summary": "Python 3.15を既定バージョンに変更し、互換性・性能改善のための破壊的変更を複数実施。"}
+  ],
+  "headlines": [
+    {"url": "https://mistral.ai/news/mistral-large-4/", "title": "Mistral Large 4", "category": "AI", "note": "新フラッグシップAIモデル公開"},
+    {"url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/", "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash", "category": "AI", "note": "Cloudflareの新AIモデル群"},
+    {"url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/", "title": "Everything we launched during Birthday Week 2026", "category": "インフラ", "note": "Cloudflare記念週46発表まとめ"},
+    {"url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/", "title": "Building Git infrastructure for agent-scale development", "category": "インフラ", "note": "エージェント時代のGit基盤刷新"},
+    {"url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/", "title": "ReviewBench: An open benchmark for AI code review", "category": "AI", "note": "AIコードレビューの新ベンチマーク"},
+    {"url": "https://gigazine.net/news/20261004-cloudflare-quick-tunnels/", "title": "Cloudflare Quick Tunnels", "category": "インフラ", "note": "1コマンドでlocalhost公開"},
+    {"url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu", "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由", "category": "バックエンド", "note": "次世代VCS Jujutsu体験談"},
+    {"url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf", "title": "Cloudflare の CLI を wrangler から cf に移行する", "category": "インフラ", "note": "Wrangler後継CLIへの移行ガイド"},
+    {"url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/", "title": "個人向けGeminiのモデル選択が厳格化　無料ユーザーが使えるのは「Flash-Lite」のみに", "category": "AI", "note": "Gemini無料枠が大幅縮小"},
+    {"url": "https://qiita.com/y-keiyu/items/d0f20390001bdc623481", "title": "【エラー対応】TypeScriptの「Uint8Array<ArrayBufferLike> is not assignable to BufferSource」の原因と解決方法", "category": "フロントエンド", "note": "Web Push実装のTS型エラー解決"}
+  ]
+}
