@@ -3,11 +3,12 @@
 
 使い方: python3 render.py [YYYY-MM-DD]   （省略時は最新の raw）
 構成（picks.edition で切り替え）:
-  日刊: 今日の流れ → 今日の3本 → 今日のOSS → リリース（畳む）
-  週刊: 今週の流れ → 今週のベスト5 → 今週のOSS → 深掘り → 登壇スライド → リリース → 見出し → 未読の「あとで読む」
+  日刊: 今日の流れ → 今日の3本 → 今日の英語 → 英語の動画 → 今日のOSS → リリース（畳む）
+  週刊: 今週の流れ → 今週のベスト5 → 今週の英語 → 英語の動画 → 今週のOSS → 深掘り → 登壇スライド → リリース → 見出し → 未読の「あとで読む」
 各記事の ☆ で「あとで読む」に保存でき（ブラウザの localStorage）、bookmarks.html で一覧できる。
 """
 import json
+import re
 import sys
 from html import escape
 from pathlib import Path
@@ -47,6 +48,9 @@ pre{padding:10px 12px;margin:8px 0 0;overflow-x:auto;white-space:pre-wrap;word-b
 .bmrow{display:flex;gap:10px;align-items:baseline;padding:10px 2px;border-bottom:1px solid var(--line)}.bmrow .t{flex:1}
 .bmrow button,.tools button{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;cursor:pointer;color:var(--text);font-size:13px}
 .tools{display:flex;gap:8px;margin:12px 0}.empty{color:var(--muted)}
+.en{font-size:15.5px;line-height:1.75}
+.phr{list-style:none;margin:12px 0 0;padding:0;font-size:14.5px}.phr li{padding:7px 0;border-top:1px solid var(--line)}
+.phr b{font-weight:600}.phr .note{color:var(--muted);font-size:13.5px}
 details>summary{cursor:pointer;list-style:none;margin:36px 0 12px}details>summary::-webkit-details-marker{display:none}
 details>summary h2{margin:0}details>summary::after{content:" ▸";color:var(--muted)}details[open]>summary::after{content:" ▾"}
 """
@@ -130,6 +134,29 @@ def oss_card(o, date):
             f'<p><span class="label">なぜ伸びてる</span>{escape(o.get("why", ""))}</p>{try_html}</div>')
 
 
+def english_card(e, raw_item, date):
+    """英語記事1本を、やさしい英語の要約とフレーズで読む枠。"""
+    src = e.get("source") or (raw_item or {}).get("source", "")
+    phrases = "".join(f'<li><b lang="en">{escape(p.get("en", ""))}</b> <span class="note">— {escape(p.get("ja", ""))}</span></li>'
+                      for p in e.get("phrases") or [] if p.get("en"))
+    return (f'<div class="card">{chk(e["url"])}{bm(e["url"], e.get("title", ""), date)}'
+            f'<h3 lang="en">{a(e["url"], e.get("title", ""))}</h3>'
+            + (f'<div class="meta">{escape(src)}</div>' if src else "")
+            + f'<p class="en" lang="en">{escape(e.get("summary_en", ""))}</p>'
+            + (f'<ul class="phr">{phrases}</ul>' if phrases else "") + "</div>")
+
+
+VIDEO_ID = re.compile(r"(?:youtube\.com/watch\?(?:[^#]*&)?v=|youtu\.be/|youtube\.com/embed/)([A-Za-z0-9_-]{11})")
+
+
+def video_card(v, date):
+    m = VIDEO_ID.search(v["url"])  # 検索結果の URL は余分なパラメータが付くので、動画IDだけの形にそろえる
+    url = f"https://www.youtube.com/watch?v={m.group(1)}" if m else v["url"]
+    meta = (f'<span class="chip">{escape(v["topic"])}</span>' if v.get("topic") else "") + ("<span>YouTube</span>" if m else "")
+    return (f'<div class="card">{chk(url)}{bm(url, v.get("title", ""), date)}<h3 lang="en">▶ {a(url, v.get("title", ""))}</h3>'
+            f'<div class="meta">{meta}</div><p>{escape(v.get("why", ""))}</p></div>')
+
+
 def releases_block(rels, date, open_=False):
     """リリースは1行ずつ。日刊では畳んでおく。"""
     rows = "".join(f'<li>{bm(r["url"], r["repo"] + " " + r["version"], date)}<span class="t">{a(r["url"], r["repo"] + " " + r["version"])}'
@@ -176,6 +203,13 @@ def render_day(date):
         top = sorted(raw["items"], key=lambda x: -(x.get("score") or 0))[:10]
         body.append('<h2>スコア上位 <small>要約なし</small></h2><ul class="heads">'
                     + "".join(f'<li>{bm(i["url"], i["title"], date)}<span class="t">{a(i["url"], i["title"])} <span class="note">{escape(i["source"])}</span></span></li>' for i in top) + "</ul>")
+
+    english = picks.get("english") or {}
+    if english.get("url") and english.get("summary_en"):
+        body.append(f'<h2>{"今週" if weekly else "今日"}の英語 <small>3文で読む</small></h2>' + english_card(english, by_url.get(english["url"]), date))
+    videos = [v for v in picks.get("videos") or [] if v.get("url")]
+    if videos:
+        body.append('<h2>英語の動画 <small>聞き取り・シャドーイング用</small></h2>' + "".join(video_card(v, date) for v in videos))
 
     if picks.get("oss"):
         body.append(f'<h2>{"今週" if weekly else "今日"}のOSS</h2>' + "".join(oss_card(o, date) for o in picks["oss"]))

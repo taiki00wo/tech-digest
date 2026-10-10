@@ -3,10 +3,10 @@
   "timezone_offset_hours": 9,
   "seen_retention_days": 14,
   "limits": {
-    "hackernews": 20,
+    "hackernews": 15,
     "zenn": 20,
     "qiita": 20,
-    "hatena": 25,
+    "hatena": 20,
     "rss_per_feed": 5
   },
   "hackernews_min_score": 100,
@@ -34,6 +34,37 @@
     {
       "name": "web.dev",
       "url": "https://web.dev/feed.xml"
+    },
+    {
+      "name": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "limit": 2
+    },
+    {
+      "name": "LWN.net",
+      "url": "https://lwn.net/headlines/rss",
+      "limit": 2,
+      "skip_title_prefix": "[$]"
+    },
+    {
+      "name": "Marc Brooker",
+      "url": "https://brooker.co.za/blog/rss.xml",
+      "limit": 2
+    },
+    {
+      "name": "Brendan Gregg",
+      "url": "https://www.brendangregg.com/blog/rss.xml",
+      "limit": 2
+    },
+    {
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "limit": 2
+    },
+    {
+      "name": "Julia Evans",
+      "url": "https://jvns.ca/atom.xml",
+      "limit": 2
     },
     {
       "name": "Speaker Deck",
@@ -142,7 +173,22 @@
       "インフラ",
       "セキュリティ",
       "vercel",
-      "nix"
+      "nix",
+      "container",
+      "containers",
+      "kernel",
+      "ebpf",
+      "cgroup",
+      "performance",
+      "latency",
+      "distributed",
+      "vulnerability",
+      "cve",
+      "コンテナ",
+      "カーネル",
+      "パフォーマンス",
+      "分散",
+      "脆弱性"
     ]
   },
   "oss": {
@@ -166,17 +212,22 @@
       "TypeScript / React / Next.js",
       "AIアプリ開発（LLM API・エージェント・MCP・Claude Code）",
       "クラウド / サーバーレス（AWS・Cloudflare・GCP）",
-      "Go / Python などのバックエンド"
+      "Go / Python などのバックエンド",
+      "重点: Linux・コンテナの内部 / 性能チューニング / セキュリティ / 分散システム（仕組みまで踏み込む記事）"
     ],
     "daily": {
       "reading": 3,
-      "oss": 1
+      "oss": 1,
+      "english": 1,
+      "videos": 1
     },
     "weekly": {
       "reading": 5,
       "oss": 3,
       "talks": 3,
       "headlines": 10,
+      "english": 1,
+      "videos": 2,
       "weekday": 5
     }
   }

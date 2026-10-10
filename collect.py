@@ -116,11 +116,15 @@ def rss_feeds():
     cutoff = datetime.now(timezone.utc) - timedelta(days=3)
 
     def one(feed):
+        limit = feed.get("limit", LIMITS["rss_per_feed"])
+        skip = feed.get("skip_title_prefix")  # 例: LWN の購読者限定記事 "[$]"
         try:
-            items = parse_feed(fetch(feed["url"]), feed["name"], feed.get("limit", LIMITS["rss_per_feed"]))
+            items = parse_feed(fetch(feed["url"]), feed["name"], limit * 5 if skip else limit)
         except Exception as e:
             print(f"  ! {feed['name']}: {e}", file=sys.stderr)
             return []
+        if skip:
+            items = [i for i in items if not i["title"].startswith(skip)][:limit]
         return [i for i in items if is_recent(i["meta"].get("published"), cutoff)]
 
     with ThreadPoolExecutor(8) as ex:
@@ -168,6 +172,45 @@ def clean_markdown(text, limit):
     return text[:limit]
 
 
+JP_SOURCES = {"Zenn", "Qiita", "はてブ テクノロジー", "Speaker Deck"}
+CJK = re.compile(r"[぀-ヿ一-鿿]")
+VIDEO_ID = re.compile(r"(?:youtube\.com/watch\?(?:[^#]*&)?v=|youtu\.be/|youtube\.com/embed/)([A-Za-z0-9_-]{11})")
+
+
+def video_key(url):
+    """YouTube の URL を1つの形にそろえる（検索結果は pp= などが付いて同じ動画でも URL が違う）。"""
+    m = VIDEO_ID.search(url or "")
+    return f"https://www.youtube.com/watch?v={m.group(1)}" if m else (url or "")
+
+
+def english_lines(items, per_source=2, limit=10):
+    """「今日の英語」の候補: 概要つきの英語記事。英語の要約は概要だけから書くので、概要が短い記事は載せない。"""
+    lines, used = [], {}
+    for it in items:
+        if it["source"] in JP_SOURCES or CJK.search(it["title"] + it["summary"]) or len(it["summary"]) < 80:
+            continue
+        if used.get(it["source"], 0) >= per_source:
+            continue
+        used[it["source"]] = used.get(it["source"], 0) + 1
+        summary = re.sub(r"\s+", " ", it["summary"])
+        lines.append(f"- {it['source']} | {it['title']} | {summary} | {it['url']}")
+        if len(lines) >= limit:
+            break
+    return ["", "## 英語枠の候補（概要つきの英語記事。source | タイトル | 概要 | url）"] + lines
+
+
+def featured_video_lines(today, days=180):
+    """紹介済みの動画（同じ動画を繰り返し出さないため、brief に載せて選定から外してもらう）。"""
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    seen = {}
+    for p in sorted((ROOT / "data" / "picks").glob("*.json")):
+        if cutoff <= p.stem < today:
+            for v in json.loads(p.read_text()).get("videos") or []:
+                if v.get("url"):
+                    seen.setdefault(video_key(v["url"]), v.get("title", ""))
+    return ["", "## 紹介済みの動画（選ばない）"] + ([f"- {u} | {t}" for u, t in seen.items()] or ["- （まだ無し）"])
+
+
 def write_brief(out, path):
     """Claude が読む用の圧縮版（raw の JSON は大きいので、選定に必要な項目だけ Markdown にする）。
     紹介済みの記事・OSS は載せない。"""
@@ -195,6 +238,8 @@ def write_brief(out, path):
     for r in latest.values():
         lines.append(f"### {r['repo']} {r['version']} | {r['url']}")
         lines.append(clean_markdown(r["body"], 700))
+    lines += english_lines([it for it in out["items"] if not it["seen_before"]])
+    lines += featured_video_lines(out["date"])
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n")
 
@@ -211,6 +256,7 @@ def featured_urls(today, days=7):
             picks = json.loads(p.read_text())
             for key in ("reading_list", "headlines", "talks", "oss"):
                 urls |= {x.get("url") for x in picks.get(key, [])}
+            urls.add((picks.get("english") or {}).get("url"))
     return urls - {None}
 
 
@@ -280,6 +326,8 @@ def write_weekly_brief(out, path):
     for r in latest.values():
         lines.append(f"### {r['repo']} {r['version']} | {r['url']}")
         lines.append(clean_markdown(r["body"], 500))
+    lines += english_lines([it for its in by_source.values() for it in its])
+    lines += featured_video_lines(today)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n")
 
