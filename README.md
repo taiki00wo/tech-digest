@@ -2,7 +2,6 @@
 
 毎朝、AI・フロントエンド・バックエンド・インフラ・プロダクトの技術情報を集めて、Claudeが要約したHTMLダイジェストを作るツール。
 日〜金は「今日の3本＋OSS 1件」の日刊、土曜は「今週のベスト5・OSS・深掘り・登壇・見出し」の週刊（`config.json` の `reader_profile`）。
-英語の練習用に、毎号「今日の英語」（英語記事1本の英語3文要約＋フレーズ3つ）と「英語の動画」（その日の題材を解説する動画。ByteByteGo を優先して検索）が付く。
 
 - `.github/workflows/collect.yml` … 毎朝7時のルーチンが起動する GitHub Actions で `collect.py` を実行して収集結果をコミット
 - `oss.py` … GitHub APIで急上昇リポジトリ（スター増分）・リリース・READMEを取得

@@ -217,17 +217,13 @@
     ],
     "daily": {
       "reading": 3,
-      "oss": 1,
-      "english": 1,
-      "videos": 1
+      "oss": 1
     },
     "weekly": {
       "reading": 5,
       "oss": 3,
       "talks": 3,
       "headlines": 10,
-      "english": 1,
-      "videos": 2,
       "weekday": 5
     }
   }
