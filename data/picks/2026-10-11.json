@@ -1,0 +1,32 @@
+{
+  "edition": "daily",
+  "headline": "AIエージェントをコンテナで守る動きと、脆弱性・データ保持を自分で検証した一次情報が目立つ一日。",
+  "reading_list": [
+    {
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "セキュリティ研究者本人による、Telegram Desktopのワンクリック乗っ取り脆弱性の手口を解説した一次情報",
+      "takeaway": "クライアントアプリの脆弱性がどう連鎖して任意ファイル窃取に至るかの実例が学べる"
+    },
+    {
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Microsoft公式ブログによる、AIエージェントをポリシー駆動でコンテナに閉じ込める新機構の発表",
+      "takeaway": "AIエージェントの実行をコンテナでどう制御・封じ込めるかの設計思想がわかる"
+    },
+    {
+      "url": "https://qiita.com/ntaka329/items/1ad9131353e51c5b99fd",
+      "title": "「最大30日」と回答する前に、Amazon BedrockでOpenAIのモデルに送った文がどこに何日残るか確かめた話（2026年版）",
+      "category": "AI",
+      "minutes": 7,
+      "why": "ベンダー回答を鵜呑みにせず、Bedrock経由でOpenAIモデルに送った文のデータ保持を自分で検証した一次情報",
+      "takeaway": "LLM APIのデータ保持についてセキュリティ確認で何を検証すべきかの観点が増える"
+    }
+  ],
+  "oss": [],
+  "releases": []
+}

@@ -1,0 +1,1338 @@
+{
+ "date": "2026-10-11",
+ "weekday": "日",
+ "edition": "daily",
+ "collected_at": "2026-10-11T07:07:32+09:00",
+ "errors": {
+  "GitHub": "HTTP Error 403: Forbidden"
+ },
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "2D Vehicles",
+   "url": "https://patkerr.co.uk/2d-vehicles/",
+   "summary": "",
+   "score": 253,
+   "meta": {
+    "comments": 59,
+    "discussion": "https://news.ycombinator.com/item?id=49991852",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Knuth reward check",
+   "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+   "summary": "",
+   "score": 113,
+   "meta": {
+    "comments": 44,
+    "discussion": "https://news.ycombinator.com/item?id=50034081",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Lightbulb Computer",
+   "url": "https://lightbulbcomputer.com/",
+   "summary": "",
+   "score": 120,
+   "meta": {
+    "comments": 31,
+    "discussion": "https://news.ycombinator.com/item?id=50029487",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://github.com/rociiu/talorys",
+   "summary": "",
+   "score": 220,
+   "meta": {
+    "comments": 112,
+    "discussion": "https://news.ycombinator.com/item?id=50031614",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+   "summary": "",
+   "score": 140,
+   "meta": {
+    "comments": 28,
+    "discussion": "https://news.ycombinator.com/item?id=50016956",
+    "score_label": "points"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Apple/macOS removed from official Unix registry",
+   "url": "https://www.opengroup.org//openbrand/register/",
+   "summary": "",
+   "score": 220,
+   "meta": {
+    "comments": 197,
+    "discussion": "https://news.ycombinator.com/item?id=50031653",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "REA Reverse – Engineer Anything",
+   "url": "https://rea.tools/",
+   "summary": "",
+   "score": 659,
+   "meta": {
+    "comments": 288,
+    "discussion": "https://news.ycombinator.com/item?id=50028275",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Grieving the loss of details",
+   "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+   "summary": "",
+   "score": 287,
+   "meta": {
+    "comments": 225,
+    "discussion": "https://news.ycombinator.com/item?id=49980880",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "summary": "",
+   "score": 388,
+   "meta": {
+    "comments": 233,
+    "discussion": "https://news.ycombinator.com/item?id=50029123",
+    "score_label": "points"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Bitwarden Dual License Model",
+   "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+   "summary": "",
+   "score": 313,
+   "meta": {
+    "comments": 233,
+    "discussion": "https://news.ycombinator.com/item?id=50033407",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "I would like the value of my home to rise, while my property taxes fall",
+   "url": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
+   "summary": "",
+   "score": 179,
+   "meta": {
+    "comments": 431,
+    "discussion": "https://news.ycombinator.com/item?id=50032758",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)",
+   "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+   "summary": "",
+   "score": 291,
+   "meta": {
+    "comments": 69,
+    "discussion": "https://news.ycombinator.com/item?id=49997481",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years",
+   "url": "https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html",
+   "summary": "",
+   "score": 118,
+   "meta": {
+    "comments": 42,
+    "discussion": "https://news.ycombinator.com/item?id=49986919",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "`123456' password used in Danish CPR data breach",
+   "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+   "summary": "",
+   "score": 368,
+   "meta": {
+    "comments": 190,
+    "discussion": "https://news.ycombinator.com/item?id=50031269",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
+   "url": "https://chronicles.popvax.com/p/popvax-goes-clinical",
+   "summary": "",
+   "score": 108,
+   "meta": {
+    "comments": 22,
+    "discussion": "https://news.ycombinator.com/item?id=50033721",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "俺のAIプログラミング手法(2026/10/05)",
+   "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+   "summary": "",
+   "score": 1029,
+   "meta": {
+    "author": "mizchi",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
+   "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
+   "summary": "",
+   "score": 48,
+   "meta": {
+    "author": "okkun0524",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "CSSの`text-box`で文字を上下中央に揃えたい",
+   "url": "https://zenn.dev/chot/articles/be424332489e7a",
+   "summary": "",
+   "score": 47,
+   "meta": {
+    "author": "hwld",
+    "score_label": "likes"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+   "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+   "summary": "",
+   "score": 61,
+   "meta": {
+    "author": "tetsuro731",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+   "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+   "summary": "",
+   "score": 71,
+   "meta": {
+    "author": "yoshihiko555",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "レビューの口伝を40ルールに棚卸ししてAIレビューに載せた",
+   "url": "https://zenn.dev/edash_tech_blog/articles/c52409a3d6fa12",
+   "summary": "",
+   "score": 30,
+   "meta": {
+    "author": "edash_dk",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+   "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+   "summary": "",
+   "score": 42,
+   "meta": {
+    "author": "mkurokaw",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "巨大 SQL を実行したら DB 負荷が高まったエンジニアの備忘録",
+   "url": "https://zenn.dev/ryoya_cre8tor/articles/0cdc8623498f11",
+   "summary": "",
+   "score": 22,
+   "meta": {
+    "author": "ryoya_cre8tor",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更",
+   "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
+   "summary": "",
+   "score": 7,
+   "meta": {
+    "author": "komatsuh",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+   "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "author": "mattn",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った",
+   "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
+   "summary": "",
+   "score": 5,
+   "meta": {
+    "author": "homu_konamilk",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Snowflake Agent Identity 徹底解説",
+   "url": "https://zenn.dev/finatext/articles/snowflake-agent-identity-introduction",
+   "summary": "",
+   "score": 25,
+   "meta": {
+    "author": "kevinrobot34",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric",
+   "url": "https://zenn.dev/headwaters/articles/12175106cd8c79",
+   "summary": "",
+   "score": 7,
+   "meta": {
+    "author": "sasaym",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Renovate の更新 PR を AI エージェントにレビューさせ、自動マージまでつなげる",
+   "url": "https://zenn.dev/greendrop/articles/2026-10-09-4664c51706f346",
+   "summary": "",
+   "score": 5,
+   "meta": {
+    "author": "greendrop",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "【三次元再構成入門】多視点の画像から3D空間を復元する仕組み - カメラパラメータとSfM",
+   "url": "https://zenn.dev/dalab/articles/9ba129c4647844",
+   "summary": "",
+   "score": 19,
+   "meta": {
+    "author": "fujisaku_dal",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
+   "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+   "summary": "",
+   "score": 92,
+   "meta": {
+    "author": "qnighy",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "判断特化型GraphRAGをJevを使って構築してみた（ベクトル未使用）",
+   "url": "https://qiita.com/kikuziro/items/6191b5ad83520d181f38",
+   "summary": "この記事のチャンクデータには名探偵コナンのデータを登録しています（ほかにONE PIECEと名探偵プリキュア!も少し）。 名探偵コナンを知らない方はアニメまたは単行本全巻読破してからこの記事を読むことをおすすめします。 みなさんGraphRAGの判断を全部LLMにや...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T02:49:14+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "攻撃者はWebアプリのどこを狙う？ 初心者でも今すぐできるセキュリティチェックリスト",
+   "url": "https://qiita.com/Koukyosyumei/items/8aaa44ff15a3b404fd8b",
+   "summary": "こんにちは。コロンビア大学の博士課程でシステムセキュリティを研究しているKoukyosyumeiです。 ここ数日、セキュリティインシデントに関するニュースを目にする機会が増えています。こうしたニュースを見ると、「自分のWebサービスは大丈夫だろうか？」と考える方も多いのでは...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T07:11:35+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "コメント欄にはなぜチンパンジーしかいないのか",
+   "url": "https://qiita.com/kotowazaman/items/b2f2d50f0a5c74d09348",
+   "summary": "チンパンジーに失礼なタイトルです。先に謝罪しておきます。 チンパンジーだらけに見えるのは、人のせいではなく場の設計のせい YouTubeでもXでもヤフコメでも、コメント欄を開けば同じ光景です。 本文を読んでいないとしか思えない断定、罵るためだけの短文、毎回現れるマウント。...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T17:28:24+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "OpenAI の Decisions API を触ってみた",
+   "url": "https://qiita.com/hiroshi_ito9854/items/ff26fe2e239e23305f26",
+   "summary": "はじめに 少し前に、TypeSafe AIのjevが話題になりました。文章を生成せず、決められた型の答えと確信度だけを返すモデルで、LLMより桁違いに速くて安いとうたわれています。 同じ発想のAPIとして、OpenAIが2026年10月6日、Decisions APIを全...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-08T20:23:41+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス",
+   "url": "https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5",
+   "summary": "はじめに 2026年9月下旬以降、国内でもサイバー攻撃による被害が相次いで報道されています。 その侵入経路は、ネットワーク機器の脆弱性を突くものや、フィッシングメールなど、さまざまです。 また今後は、利用者自身だけでなく、AI エージェントが外部のコンテンツやサービスへア...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-10T16:41:11+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "コード検索で使える正規表現の基本メタ文字まとめ",
+   "url": "https://qiita.com/Yuzuki-ki/items/31b98cf32c1db2d561d7",
+   "summary": "はじめに こんにちは！ソーイ株式会社の木寺です。 プログラムを書いているときに、「このメソッド、どこだっけ」と検索すると似た名前がずらっと並んで、結局どれか分からないといったことはありませんか？ 私自身似たような経験は業務中何度もありました。もちろん今もあります。 このよ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T17:57:28+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "なぜ最新のIoT家電は2.4GHzが主流なのか？Wi-Fi周波数の選定理由と技術的背景",
+   "url": "https://qiita.com/sc-noguchi/items/b791f8cd3885816e2b4c",
+   "summary": "はじめに こんにちは。今年の4月から株式会社Shizen ConnectでShizenboxというIoTデバイスの開発に携わっているエンジニアです。まだまだITやネットワークの知識は勉強中なのですが、日々の業務や身の回りの体験を通じて学んだことを発信していきたいと思います...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-08T14:04:38+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "「最大30日」と回答する前に、Amazon BedrockでOpenAIのモデルに送った文がどこに何日残るか確かめた話（2026年版）",
+   "url": "https://qiita.com/ntaka329/items/1ad9131353e51c5b99fd",
+   "summary": "はじめに GMOコネクトの永田です。 生成AIを使う機能のセキュリティ確認で、「AIの事業者に送った文は、不正利用の監視のために最大30日保存される」という回答案を確かめることになりました。OpenAI の API について、以前からよく聞く数字です。そのまま通してよいと...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T10:52:13+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【Vite】Could not resolve entry module “react-router” の解決方法",
+   "url": "https://qiita.com/shun123/items/07f09fd8602cc186d8ce",
+   "summary": "はじめに React Router を v7 に上げたところ、Vite の本番ビルドが Could not resolve entry module \"react-router\". で失敗するようになりました。 最初は「node_modules のインストールがうまくいっ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T13:15:14+09:00"
+   },
+   "categories": [
+    "フロントエンド",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Satori GCをMSBuild SDKとして公開しました！",
+   "url": "https://qiita.com/hez2010/items/7334840a4e96851f5a0b",
+   "summary": "はじめに Satori GCは、高スループット、短い停止時間と低リソース消費を特徴とするGCですが、手元やプロジェクトでも手軽に使いたかったため、今回導入用のSDKとして公開しました。 導入方法 プロジェクトファイル（.csproj など）に以下の 要素を1...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-10T13:20:27+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI時代の開発費は「お客さんが自分でやったらいくら？」で決まる",
+   "url": "https://qiita.com/kotowazaman/items/3a82a47b39bacf7f02d7",
+   "summary": "人月見積もりで食べてきた皆さんは今、「AI時代に、この見積もり詐欺なんじゃないか？」と悩まされているのではないでしょうか。 実装も設計書の執筆もAIがやるようになると、人月で積み上げるものがなくなります。 では開発費は何で決まるのか。よく出てくるのは「顧客が得る利益の何%か...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-10T21:16:28+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI駆動開発手法ってなんだか胡散臭いですよね",
+   "url": "https://qiita.com/kotowazaman/items/6c323bd4326f85500add",
+   "summary": "はじめに 「当社独自のAI駆動開発手法を確立しました」「AI駆動開発で工数を90%削減！」という提案書や研修案内を、この1年で山ほど見ました。 多方面かつ主に前線を退いたおじさん方から叱られそうな主張ですが、ぶっちゃけ誰でもそれなりに品質の高いアプリケーションが作れるのが...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T13:45:57+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【書評】 C++ソフトウェア設計 ―高品質設計の原則とデザインパターン",
+   "url": "https://qiita.com/io0323/items/8366f4fba6eb079d287d",
+   "summary": "はじめに Klaus Iglberger 著『C++ソフトウェア設計 ―高品質設計の原則とデザインパターン』（オライリー・ジャパン）を読みました。 C++ の本というと、新しい言語機能や細かな文法を扱うものが多い印象があります。本書はその逆で、言語機能の解説にはほとんどペ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-10T00:01:32+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "論文まとめ：semantic world model",
+   "url": "https://qiita.com/masataka46/items/b9cba5b5f68c0ab3a4a4",
+   "summary": "はじめに RSS2026 workshopより以下のSemantic World Models。 [1] C. Zhu, et. al. \"Semantic World Models\" プロジェクトページ：https://weirdlabuw.github.io/swm...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T17:19:15+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "産業用振動センサーデータを用いた高速フーリエ変換（FFT）と異常周波数検知アルゴリズムの実装",
+   "url": "https://qiita.com/NKKTechGlobal/items/f6fd261c319cb4556310",
+   "summary": "産業用振動センサーデータを用いた高速フーリエ変換（FFT）と異常周波数検知アルゴリズムの実装 はじめに こんにちは、NKKTech Global 技術チームです。 工場の稼働停止（ダウンタイム）を防ぐ状態基準保全（CBM: Condition-Based Mainte...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T15:53:28+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "24時間動かすPythonボットで、Windowsターミナルがメモリを7.5GB食っていた話と対策",
+   "url": "https://qiita.com/minipc_lab/items/6b234bf607deb13c5493",
+   "summary": "何が起きたか ミニPC(メモリ16GB、実際に使えるのは約12.7GB)で、ビットコインの自動売買ボット(Python)を24時間動かしていました。ある朝、PCが重くてマウスもまともに動かない状態に。 タスクマネージャーで調べると、犯人は ボットを表示していた Windo...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T07:31:27+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【Ruby on Rails】自己結合を使ってコメントへのリプライ（返信）機能を実装する",
+   "url": "https://qiita.com/ka_07/items/ae8e717f57ea83f73124",
+   "summary": "はじめに Ruby on Railsで掲示板アプリなどのコメント機能を作っているとき、「コメントに対する返信（リプライ）機能」を実装したいと思い、自己結合を使って実装しました。 実装する中で、フォームの挙動で少しハマったポイントがあったため、解決策や実装の流れを備忘録とし...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-10T19:53:17+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【学習メモ】EC2からS3へのアクセスを例に、AWS IAMを整理する",
+   "url": "https://qiita.com/ito_kohhh/items/3063faabb4731fae880b",
+   "summary": "はじめに 基本はWebアプリケーションをメイン業務としている私ですが 最近業務の中でもアプリケーションに近いところについてはAWSを触り始めました。 AIと一緒にやればやれないことはないのですが、基礎的なところの理解が正直ふんわりしている感覚が拭えなかったので 今回は具体...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T09:54:07+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【Vercel / microCMS】ローカル環境で閲覧できたmicroCMSの記事がVercelでは閲覧できなくなっていた現象",
+   "url": "https://qiita.com/nagi-0106/items/bcd138b49c446f7df037",
+   "summary": "こんにちは。 Next.js × microCMSのブログサイトを作成しVercelでデプロイ・公開しているのですが、 2〜3週間前から「トップページとカテゴリ一覧は閲覧できるのに個別記事ページは閲覧できない」という事象が起きていました。 その事象の内容と起きていた原因につ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T23:14:16+09:00"
+   },
+   "categories": [
+    "フロントエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【React】zodのbrandで値オブジェクトを実装する（classを使わない方法）",
+   "url": "https://qiita.com/shun123/items/24f5d01004bc5ac8ea9b",
+   "summary": "はじめに DDD（ドメイン駆動設計）でよく登場する「値オブジェクト」は、classで実装する例が多く見られます。しかしReactでは、classのインスタンスはstate管理やシリアライズ（Server Components、localStorage、状態管理ライブラリな...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T23:12:41+09:00"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
+   "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+   "summary": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
+   "score": 105,
+   "meta": {
+    "published": "2026-10-10T15:48:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "日本人の大腸がん、約半数に“腸内細菌の毒素”が関与　40歳以下の発症は7割　東大・阪大が200人を全ゲノム解析",
+   "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002035/",
+   "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
+   "score": 147,
+   "meta": {
+    "published": "2026-10-10T05:13:12Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AI駆動開発の時代になったのでトヨタ生産方式から見直す",
+   "url": "https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
+   "summary": "2026-10-09 AI駆動開発勉強会 名古屋支部#2 の発表資料です。",
+   "score": 141,
+   "meta": {
+    "published": "2026-10-09T15:18:20Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "個人情報漏洩が日常になってしまった世界でどうしていくべきか",
+   "url": "https://nyosegawa.com/posts/data-leak-era/",
+   "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日は個人情報がどんどん流出していく時代に、わたしたちは何をすればいいのかを考えていきたいと思います。 今週だけでも さいきん個人情報の漏洩のニュースが本当に多いです。10月7日から9日にかけては政府機関が相次いで「不正アクセスによる漏洩が続いている」と注意を...",
+   "score": 136,
+   "meta": {
+    "published": "2026-10-10T07:36:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "bpmn.io で始める AI-Ready な業務フロー管理 | フューチャー技術ブログ",
+   "url": "https://future-architect.github.io/articles/20261009a/",
+   "summary": "はじめにみなさんは業務フローを書いたことはあるでしょうか。 業務フローは、ある業務を誰がどの順番で進めるかを図にしたものです。申請者が申請を登録し、承認者が承認し、購買担当が発注する、といった手順を担当者ごとのレーンに分け、矢印でつなぎます。システムの開発現場ではグランドデザインや要件定義などの工...",
+   "score": 196,
+   "meta": {
+    "published": "2026-10-10T01:47:07Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "若手エンジニアに必要だと感じた「AIを使う力」",
+   "url": "https://zenn.dev/muit_techblog/articles/6ea28887c79457",
+   "summary": "若手エンジニアに必要だと感じた「AIを使う力」 はじめに 私は現在、JavaやReactを使った金融系Webアプリの開発に携わっています。開発経験はまだ浅く、業務では分からないことに遭遇する場面も多くあります。そのため、調査、実装、文章作成、レビューなど、さまざまな場面でAIを使ってきました。私自身、AIを使うこと...",
+   "score": 74,
+   "meta": {
+    "published": "2026-10-09T10:44:35Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対応",
+   "url": "https://readest.com/ja",
+   "summary": "消化し、洞察を得るReadestは無料のオープンソースEPUB・PDFリーダーで、深い没入型読書のために設計されています。macOS、Windows、Linux、Android、iOS、Web、KOReader・CrossPoint端末でハイライト、メモ、分割画面読書、テキスト読み上げ、クラウド同期をお楽しみください。",
+   "score": 35,
+   "meta": {
+    "published": "2026-10-10T09:04:42Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
+   "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
+   "summary": "株式会社 松尾研究所で働いている栗原です。 以前、「音声合成の日本語化手法が一般化した話」を書きました。 今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。 専門家・理系の方...",
+   "score": 10,
+   "meta": {
+    "published": "2026-10-10T13:59:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
+   "url": "https://enterprisezine.jp/article/detail/25178",
+   "summary": "「わが社はゼロトラスト導入済みです」──この言葉を、当方はここ7年で数え切れないほど聞いてきました。ゼットスケーラーで250社を超える企業のゼロトラスト実装ワークショップを主導し、日本企業の現場を間近に見てきた立場から申し上げると、この「導入済み」はかなり危うい言葉です。多くの場合、それはリモートアク...",
+   "score": 8,
+   "meta": {
+    "published": "2026-10-09T23:38:25Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「IDCFクラウド」で何が起きたのか　情報漏洩や復旧の可能性について現在分かっていること（山口健太） - エキスパート - Yahoo!ニュース",
+   "url": "https://news.yahoo.co.jp/expert/articles/cce6d03439ffb1d2d6de2500240634b394731753",
+   "summary": "東日本リージョンの一部で障害が発生後、復旧していない（IDCフロンティアのWebサイトより、筆者撮影） 10月7日に発生したIDCフロンティアにおけるクラウドサービス障害は現在も復旧しておらず、500社近い利用企業や自治体に影響が及んでいます。 復旧の可能性はあるのか、また情報漏洩のような問題は起きていないのか、...",
+   "score": 26,
+   "meta": {
+    "published": "2026-10-10T10:29:31Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "事業活動を AI Ready にする攻めと守りのデータエンジニアリング / data-engineering-for-ai-ready-business",
+   "url": "https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business",
+   "summary": "Data Engineering Summit 2026（2026-10-09）で発表した資料です。 https://conference.findy-code.io/conferences/data-engineering-summit26/35/sessions/758 AI は誰でも…",
+   "score": 79,
+   "meta": {
+    "published": "2026-10-10T01:29:35Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "アンソロピックのAI、米警察に虚偽の情報提供　不正にビザ申請も - 日本経済新聞",
+   "url": "https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/",
+   "summary": "【シリコンバレー=山田遼太郎】米アンソロピックは9日、同社の人工知能（AI）が警察に虚偽の情報を送信していたと発表した。実在の未解決殺人事件についてAIが内容をでっち上げた。こうしたAIの「暴走」は混乱を引き起こしかねず、当局から非難されている。発表によるとアンソロピックのAIモデル「クロード・ハイク4.5」...",
+   "score": 30,
+   "meta": {
+    "published": "2026-10-10T10:08:49Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "写真も動画も声もまとめて0.74Bで検索。ローカルRAG向け「EmbeddingGemma 2」",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2147318.html",
+   "summary": "",
+   "score": 73,
+   "meta": {
+    "published": "2026-10-09T23:24:10Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
+   "url": "https://ghuntley.com/replaced/",
+   "summary": "When Ralph was published last year, I sat on it. People who have been reading this blog for a while know this. I first came across the idea of loop engineering in early January last year, sat on it for four months, and then started writing a lot, begging people to pay attention. Dear Student: Yes...",
+   "score": 6,
+   "meta": {
+    "published": "2026-10-09T09:50:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "GitHub - oh-my-mermaid/oh-my-mermaid: Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
+   "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
+   "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+   "score": 19,
+   "meta": {
+    "published": "2026-10-08T20:47:54Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「製造データと暗黙知があれば勝てる」は幻想？　フィジカルAI“10の誤解”をGartnerが指摘",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/08/news034.html",
+   "summary": "ガートナージャパン（以下、Gartner）は2026年10月5日、フィジカルAIに関するよくある10の誤解を発表した。Gartnerによると、フィジカルAIへの関心が急速に高まり、認知が広がる中で、その意味や適用範囲には多くの誤解が見られるという。 「製造データと暗黙知があれば勝てる」のどこが誤解なのか？ 10の誤解が扱う論点...",
+   "score": 6,
+   "meta": {
+    "published": "2026-10-08T02:48:51Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "スマホの「実質価格」高騰の恐れ、iPhone 18 Proは2倍高く？　総務省の残価設定ルール厳格化は“誰のため”か",
+   "url": "https://www.itmedia.co.jp/mobile/articles/2610/10/news013.html",
+   "summary": "スマホの「実質価格」高騰の恐れ、iPhone 18 Proは2倍高く？ 総務省の残価設定ルール厳格化は“誰のため”か：石野純也のMobile Eye（1/2 ページ） 端末購入の仕組みとして定着しつつある残価設定型の分割払いだが、その残価の算出方法を巡って事業者間の意見が割れている。9月25日に、総務省の「利用者視点を踏まえたモ...",
+   "score": 21,
+   "meta": {
+    "published": "2026-10-09T22:47:25Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "分析の民主化を支えるメタデータ整備の実践",
+   "url": "https://speakerdeck.com/kakehashi/democratizing-data-with-metadata",
+   "summary": "Data Engineering Summit 2026 https://data-engineering-summit.findy-tools.io/2026 での登壇資料です",
+   "score": 17,
+   "meta": {
+    "published": "2026-10-10T00:20:30Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か　のべ206万件：朝日新聞",
+   "url": "https://www.asahi.com/articles/ASVB91R1GVB9ULFA011M.html",
+   "summary": "JR東日本は9日、「えきねっと」と「大人の休日倶楽部」の会員のべ約206万件のメールアドレスなどの個人情報が漏洩（ろうえい）した可能性があることを明らかにした。ソフトバンクの子会社IDCフロンティア…",
+   "score": 7,
+   "meta": {
+    "published": "2026-10-09T06:29:02Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "url": "https://openai.com/index/sophos",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "url": "https://openai.com/index/asana-browser-agent",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "url": "https://openai.com/index/oracle",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 16:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "url": "https://openai.com/index/pollo-ai",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "url": "https://openai.com/index/legalon-halves-codex-costs",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Impactful scheduling for GPU clusters",
+   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 15:20:29 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "The model that didn't exist, so you made it yourself",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Agents can now buy domains with the Vercel CLI",
+   "url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T20:24:00.000Z"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "New Pro teams now default to 30-day deployment retention",
+   "url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T18:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Deployment Storage billing begins for existing Pro teams",
+   "url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T18:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "How Rillet ships 3× faster with AI agents on Vercel",
+   "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T04:00:00.000Z"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Microsoft Decision-1 now available on AI Gateway",
+   "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-09T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+   "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+   "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 18:27:34 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+   "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+   "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Deno is joining Cloudflare",
+   "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+   "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 12:50:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+   "url": "https://blog.cloudflare.com/radar-redesign/",
+   "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical d",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "Hack the World: Why hackathons are still the best place to learn to build",
+   "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
+   "summary": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Fri, 09 Oct 2026 16:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "How one bug bounty researcher chooses the features they investigate",
+   "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+   "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Thu, 08 Oct 2026 17:02:52 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  }
+ ],
+ "oss": [],
+ "releases": []
+}
