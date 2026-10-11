@@ -1,0 +1,43 @@
+{
+  "edition": "daily",
+  "headline": "サプライチェーン対策とPATHの落とし穴という足元のセキュリティから、新しい借用チェッカー設計まで、仕組みを掘る記事が揃った一日。",
+  "reading_list": [
+    {
+      "url": "https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html",
+      "title": "GitHub Actions上で証明書を付与するサプライチェーン構築",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "OSSを配布する側として、サプライチェーン攻撃に対抗するためartifact attestationsで配布バイナリに証明書を付与する実例が学べるから",
+      "takeaway": "GitHub Actions上でartifact attestationsを使い、配布するバイナリに署名・検証を組み込む具体的な実装方法がわかる"
+    },
+    {
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "title": "The tilde in your PATH may not be your HOME",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "PATH環境変数に書いたチルダ(~)が意図通りに展開されないケースを知っておくと、設定ミスによるセキュリティリスクを避けられるから",
+      "takeaway": "シェルの種類やコンテキストによってチルダ展開のタイミング・結果が変わり、PATHが想定外のディレクトリを指してしまう具体的な原因がわかる"
+    },
+    {
+      "url": "https://verdagon.dev/blog/valen-group-borrowing",
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "Rustの借用チェッカーが抱える制約を超えようとする新しい設計思想を知ることで、メモリ安全な言語設計の選択肢の幅が広がるから",
+      "takeaway": "Valenが採用する「グループ借用」という仕組みが、Rustの借用チェッカーとどう違い何を解決しようとしているのかがわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "language": "JavaScript",
+      "stars": 3084,
+      "stars_per_day": 771,
+      "what": "技術的なアイデアを渡すと、実物の機械を模したインタラクティブなアイソメトリック図をSVGで生成するClaude Codeスキル",
+      "why": "ドキュメントや記事向けの図解作成をClaude Codeから直接自動化できる着眼点が新しく、公開直後から急速に伸びているから",
+      "try": "Claude CodeにSkillとして追加し、図解したい機械の説明を渡してSVGを生成させる"
+    }
+  ],
+  "releases": []
+}
