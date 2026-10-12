@@ -1,0 +1,32 @@
+{
+  "edition": "daily",
+  "headline": "Googleの$90k RCEから、ブランド型によるIDOR対策、AIエージェントへの鍵管理の実験まで、セキュリティと設計の「仕組み」を掘る3本。",
+  "reading_list": [
+    {
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "Flaskのセッション実装にあったpickleデシリアライズの欠陥が、どのように$90kのRCEにつながったかを発見者本人が解説する一次情報。",
+      "takeaway": "Flaskセッションでpickleを使うとなぜ任意コード実行に至るのか、脆弱性発見から検証までの実際の調査手順が分かる。"
+    },
+    {
+      "url": "https://qiita.com/shun123/items/260b4fa2c791da70f263",
+      "title": "所有者チェック漏れを「気をつける」から「型で外れようがない」へ：ブランド型でIDORを設計から塞ぐ",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "Hono+TypeScriptのAPIで起きがちなIDOR（所有者チェック漏れ）を、実装の注意力ではなく型設計で防ぐ具体的な方法を示している。",
+      "takeaway": "ブランド型で「所有者チェック済みID」を型として表現し、チェック漏れをコンパイル時に検出する設計パターンが分かる。"
+    },
+    {
+      "url": "https://qiita.com/songchong/items/0d759f44eb26f332b897",
+      "title": "AIエージェントに鍵を任せて大丈夫か — APIキー操作5種類、Claude Code・Codex・Geminiに51回頼み、危険・要注意・安全なやり方を分けた",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Claude Code・Codex・GeminiにAPIキー操作を51回試させた実験結果から、危険な頼み方と安全な頼み方を具体的に切り分けている。",
+      "takeaway": "AIエージェントに外部サービスの鍵を扱わせる際、どの指示の仕方が危険・要注意・安全かの実例パターンが分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": []
+}
