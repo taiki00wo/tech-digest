@@ -1,0 +1,50 @@
+{
+  "edition": "daily",
+  "headline": "Anthropicのソースコントロール再設計、Cloudflare D1のコントロールプレーン、Nix/Lixの権限昇格脆弱性——AI時代の開発基盤と分散システムの「仕組み」を掘る3本。",
+  "reading_list": [
+    {
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "title": "Redesigning source control at Anthropic",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Claude Codeのようなエージェントが大量にコードを書く時代に、ソースコントロールの何を再設計すべきかをAnthropic自身が解説する一次情報。",
+      "takeaway": "AIエージェントの並行編集・レビューに耐えるバージョン管理の設計思想が分かる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "数百万のSQLiteデータベースを捌くD1のコントロールプレーンを、ホットパス（クエリ実行経路）から切り離して設計した内部事情をCloudflare自身が明かす一次情報。",
+      "takeaway": "サーバーレスDBを大規模に運用する際、制御系と実行系をどう分離してスケールさせるかの設計パターンが分かる。"
+    },
+    {
+      "url": "https://lwn.net/Articles/1100247/",
+      "title": "Nix and Lix local root-privilege-escalation vulnerabilities",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Nix/Lixを使っているなら確認必須の、ローカル権限昇格につながる脆弱性群をLWNが詳しく報じている。",
+      "takeaway": "脆弱性が生まれた仕組みと、影響を受けるバージョン・対処の方向性が分かる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "anmolkapil/plexo",
+      "url": "https://github.com/anmolkapil/plexo",
+      "language": "TypeScript",
+      "stars": 3951,
+      "stars_per_day": 896,
+      "what": "複数のネットワーク接続を並列に使ってダウンロードを高速化するTypeScript製ツール。",
+      "why": "新着ながら1日あたり約896スターと急伸しており、ダウンロード高速化という汎用ニーズへの関心の高さがうかがえる。",
+      "try": "GitHubのREADMEに記載のインストール手順に従って導入し、CLIから試す。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.150.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.150.0",
+      "summary": "wrangler deploy / versions upload / preview でソースマップを既定でアップロードするようになり、本番ログやwrangler tailのスタックトレースが元のソースを指すようになった。"
+    }
+  ]
+}
