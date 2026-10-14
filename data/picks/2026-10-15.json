@@ -1,0 +1,69 @@
+{
+  "edition": "daily",
+  "headline": "パッケージマネージャの検証漏れ、Vercel Sandboxの脱出事例、CloudflareのMySQLキャッシュバグ——足元のサプライチェーンと実行環境の「仕組み」を掘る3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
+      "title": "Package managers have an integrity problem",
+      "category": "インフラ",
+      "minutes": 9,
+      "why": "npm・pip・goモジュールなど25種類の主要パッケージマネージャについて、改竄検知の実態をTrail of Bits自身が検証した一次情報で、自分の開発環境のサプライチェーンリスクを見直すきっかけになる。",
+      "takeaway": "どのパッケージマネージャがどこまで整合性を検証していて、何が検証されていないのかが具体的に分かる。"
+    },
+    {
+      "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
+      "title": "Findings from the $1M Vercel Sandbox challenge",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "AIエージェントの実行環境として使われるサーバーレスサンドボックスに対し、懸賞金付きで脱出を試みた結果をVercel自身がまとめた一次情報。",
+      "takeaway": "実際に見つかった脱出手法の傾向と、それを踏まえたサンドボックス側の対策方針が分かる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "category": "バックエンド",
+      "minutes": 7,
+      "why": "DBプロキシのキャッシュ層で発生した希少なMySQLプロトコル絡みのバグを、Cloudflare自身が原因究明の過程まで含めて解説する一次情報。",
+      "takeaway": "MySQLプロトコルの挙動とキャッシュ無効化のタイミングがどう絡んでバグになったか、デバッグの手順まで理解できる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.4.1",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
+      "summary": "`use cache`が型付き配列を返す場合とImage Optimization APIのSVG処理に未認証RCEの脆弱性があり、Server ActionsのDoSも含め緊急の脆弱性修正。"
+    },
+    {
+      "repo": "facebook/react",
+      "version": "v19.3.1",
+      "url": "https://github.com/react/react/releases/tag/v19.3.1",
+      "summary": "React Server Componentsの転送プロトコルを改善。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "summary": "modのプロンプト装飾にvirtualTextを追加し、OpenTelemetryのapi_requestイベントにキャッシュ書き込みの寿命別トークン数を追加するなど、mod・計測周りを拡張。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v0.134.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.134.0",
+      "summary": "OpenTelemetryのトレーサーが登録されていればAPI呼び出し・ストリーム・ツール実行のスパンを自動送信するようになり、`@opentelemetry/api`への依存が追加された。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.151.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.151.0",
+      "summary": "`wrangler build --experimental-cf-build-output`でもソースマップを既定でアップロードするようになり、ローカルD1バインディングが実験フラグ付きでRPCクエリに対応した。"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.1",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.1",
+      "summary": "`uv pip check`/`--strict`でRequires-Pythonの上限を無視して解決と一致させ、信頼できるハッシュが欠落している場合はエラーに明記するようになった。"
+    }
+  ]
+}
