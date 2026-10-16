@@ -1,0 +1,138 @@
+{
+  "edition": "weekly",
+  "headline": "LinuxカーネルへのLLM活用やCloudflareの性能可視化機能など、低レイヤー・性能チューニング寄りの技術記事が目立った一週間。",
+  "trends": [
+    "LinuxカーネルやPostgreSQLなど低レイヤーの開発現場でも、AIエージェント活用の議論が具体的に出てきている。",
+    "CloudflareやGitHubが性能プロファイリング機能や大規模API設計の工夫を相次いで公開し、パフォーマンスチューニングの実例が増えている。",
+    "Rustで既存の定番ソフトをクリーンルーム実装するOSSプロジェクト（ArtCraft系列）が急成長し、スター数を大きく伸ばしている。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://lwn.net/Articles/1100449/",
+      "title": "Linus Torvalds's first LLM-assisted patch series",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Linuxカーネルのメンテナ本人がLLM支援パッチを初めて使ったという、話題性と影響の大きいニュース。",
+      "takeaway": "カーネル開発の現場でLLMがどのように使われ始めているか、現在地がわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "Cloudflare Workers/Durable Objectsの性能問題をオンデマンドで調査できるようになった、公式発表の新機能。",
+      "takeaway": "フレームグラフを使ったCPU・メモリのプロファイリング手段が増えたことがわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+      "title": "Deno is joining Cloudflare",
+      "category": "バックエンド",
+      "minutes": 4,
+      "why": "DenoチームがCloudflareに合流するという、サーバーレスランタイムの今後に関わる大きな動き。",
+      "takeaway": "CloudflareとDenoの合流で、Workersの自己ホスティングがどう変わりそうかの方向性がわかる。"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "大量のAPIリクエストを24回にまで減らした、GitHub自身によるAPI設計見直しの実例。",
+      "takeaway": "大量データを扱うAPIを個別取得から集計ベースに作り替える際の考え方がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+      "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります",
+      "category": "その他",
+      "minutes": 8,
+      "why": "シンプルに見えるJSON仕様の実装差異を、複数実装の比較から掘り下げた技術記事。",
+      "takeaway": "JSONを安全に扱う上で気をつけるべき仕様上の曖昧さがわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "language": "Rust",
+      "stars": 12302,
+      "stars_week": 7985,
+      "what": "Microsoft Wordをクリーンルームで再実装したオープンソースのワードプロセッサ。",
+      "why": "今週+7985と大きくスターを伸ばした、ArtCraftチームによる注目プロジェクト。",
+      "try": "GitHubリポジトリのREADMEからOS別のビルドまたはWeb版を入手して起動する。"
+    },
+    {
+      "repo": "storytold/pdfcraft",
+      "url": "https://github.com/storytold/pdfcraft",
+      "language": "Rust",
+      "stars": 13638,
+      "stars_week": 5479,
+      "what": "Adobe Acrobatをクリーンルームで再実装したオープンソースのPDFリーダー・エディタ。",
+      "why": "wordcraftと同じArtCraftチームのプロジェクトで、今週も+5479と急伸している。",
+      "try": "getartcraft.comまたはGitHubリポジトリからmacOS/Windows/Linux/Web版を入手して試す。"
+    },
+    {
+      "repo": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "language": "Rust",
+      "stars": 3075,
+      "stars_week": 2156,
+      "what": "デスクトップ・Web・MCP経由の自動化に対応したオープンソースのパラメトリック3D CAD。",
+      "why": "MCP経由でAIエージェントからCAD操作を自動化できる点が、読者のAIエージェント活用の関心に直結する。",
+      "try": "READMEに記載のMCPサーバー設定に従い、エージェントからCAD操作を試す。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "storytold/wordcraft",
+    "url": "https://github.com/storytold/wordcraft",
+    "overview": "WordCraftは、Microsoft Wordをクリーンルームで再実装した、Rust製のオープンソースワードプロセッサ。リボンUIやスタイル、変更履行、差し込み印刷など、使い慣れたWordのワークフローをそのまま備えている。ArtCraftチームが手がける創作者向けOSSアプリ群の一つとして公開されている。",
+    "how_it_works": "単一のRustコードベースから、macOS・Windows・Linux・BSD向けのネイティブアプリと、WebAssemblyによるブラウザ版の両方を生成している点が特徴。.docx形式の読み書きに対応し、Word文書をそのまま扱える。READMEのサンプル画面では、リボン、スタイルギャラリー、ルーラー、ナビゲーションパネルといったUI要素が紹介されている。track changes（変更履行）や参照、差し込み印刷など、オフィスソフトとして一通りの機能を備えている。",
+    "use_cases": [
+      "Word形式(.docx)の文書を、オープンソースのネイティブアプリやブラウザだけで編集したい場合",
+      "ブラウザ上でWord互換のリッチな文書編集機能を組み込みたい場合"
+    ],
+    "try": [
+      "GitHubリポジトリのREADMEからOS別のビルドまたはWeb版を入手して起動する",
+      "既存の.docxファイルを開いて、リボンUIやスタイルギャラリーの動作を確認する"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/lifemichael/orchestrating-ai-agents-in-spec-driven-development-with-kiro-ide",
+      "title": "Orchestrating AI Agents in Spec-Driven Development with Kiro IDE",
+      "event": "GDG DevFest Roma 2026",
+      "why": "spec駆動開発でAIエージェントをどう使うかを、Kiro IDEを例に整理した発表。"
+    },
+    {
+      "url": "https://speakerdeck.com/nikos912000/injecting-failure-explaining-failure",
+      "title": "Injecting Failure, Explaining Failure",
+      "event": "Imperial College London（Large Scale Data & Systems Group）",
+      "why": "障害を注入して観測する分散システムの耐障害性について、仕組みに踏み込んだ学術的な発表。"
+    },
+    {
+      "url": "https://speakerdeck.com/mariospr/wpe-hands-on-writing-a-launcher-for-embedded-devices-with-the-new-wpeplatform-api",
+      "title": "WPE Hands-On: Writing a Launcher for Embedded Devices With the New WPEPlatform API",
+      "event": "",
+      "why": "新しいWPEPlatform APIを使って組み込みLinuxデバイス向けランチャーを書くハンズオン発表。"
+    }
+  ],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.2", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2", "summary": "Turbopackのスナップショット整合性やPages Router開発時のモジュールグラフ処理などを修正したLTSパッチリリース。"},
+    {"repo": "facebook/react", "version": "v19.3.1", "url": "https://github.com/react/react/releases/tag/v19.3.1", "summary": "React Server Componentsの転送プロトコルを改善したパッチリリース。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.302", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302", "summary": "Auto Modeのモデル指定用環境変数やIdle compactionのオン/オフ設定を追加し、長すぎるプロンプトのエラーも修正。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v0.135.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.135.0", "summary": "Messagesにspeedパラメータを追加し、読み切られずに破棄されたストリームを正しくクローズするよう修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.151.1", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.151.1", "summary": "wrangler dev --remoteやgetPlatformProxyでプレビュートークンのリフレッシュが失敗しても自動で再試行するよう修正。"},
+    {"repo": "astral-sh/uv", "version": "0.13.1", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.1", "summary": "uv pip checkなどでRequires-Pythonの上限を無視するよう統一し、Linux SPARC対応やCPython 3.16.0a1を追加。"}
+  ],
+  "headlines": [
+    {"url": "https://deepmind.google/models/gemini/", "title": "Gemini 4 Argon", "category": "AI", "note": "Google新モデルGemini 4 Argon公開"},
+    {"url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/", "title": "Anthropic、自己複製AIの「兆し」を指摘　55ドルのTVボックス15台で26Bモデルが稼働", "category": "AI", "note": "安価なIoT機器でAI自己複製の兆候"},
+    {"url": "https://gigazine.net/news/20261011-hayamimi/", "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」", "category": "AI", "note": "GPU不要の軽量リアルタイム音声認識"},
+    {"url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles", "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した", "category": "AI", "note": "Haiku5.5でサブエージェント構成見直し"},
+    {"url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3", "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順", "category": "AI", "note": "Claude Codeの新機能Claude Modsを試す"},
+    {"url": "https://qiita.com/shun123/items/07f09fd8602cc186d8ce", "title": "【Vite】Could not resolve entry module \"react-router\" の解決方法", "category": "フロントエンド", "note": "Viteビルドでのreact-router解決エラー"},
+    {"url": "https://lwn.net/Articles/1099602/", "title": "Python 3.15 released", "category": "バックエンド", "note": "Python 3.15がリリース"},
+    {"url": "https://blog.cloudflare.com/deploy-with-void/", "title": "Deploy with Void", "category": "インフラ", "note": "CloudflareがOSS開発基盤Voidを公開"},
+    {"url": "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/", "title": "Scope workloads and share resilience policies with AWS Resilience Hub", "category": "インフラ", "note": "Resilience Hubに資源共有機能追加"},
+    {"url": "https://lwn.net/Articles/1099764/", "title": "Stable kernels 7.2.10 and 6.18.56", "category": "インフラ", "note": "Linux安定版カーネル2本が公開"}
+  ]
+}
