@@ -1,0 +1,45 @@
+{
+  "edition": "daily",
+  "headline": "Transformerの仕組み解説、Linuxカーネルの重大脆弱性、BedrockでのLLM運用知見など、仕組みに踏み込む記事が揃った一日。",
+  "reading_list": [
+    {
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "title": "You could have invented transformers from memory",
+      "category": "AI",
+      "minutes": 10,
+      "why": "Transformerをゼロから発想し直す視点の解説記事で、HNでも反応が大きい（score 462）。",
+      "takeaway": "Attentionや自己注意機構がどういう発想の積み重ねで出てきたのか、仕組みのレベルで理解できる。"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）",
+      "category": "インフラ",
+      "minutes": 3,
+      "why": "ゲストVMからホストへのコード実行が可能という、仮想化基盤運用者にとって影響が大きい脆弱性。",
+      "takeaway": "PwnEscapeの概要と影響範囲を把握し、自分の環境でパッチ適用が必要か判断する材料になる。"
+    },
+    {
+      "url": "https://qiita.com/ntaka329/items/9ddba124de03b15166c4",
+      "title": "スキーマを変えるとプロンプトキャッシュが共有されなかったので、Bedrock の構造化出力をやめた話（2026年版）",
+      "category": "AI",
+      "minutes": 6,
+      "why": "出力スキーマの変更がプロンプトキャッシュに与える影響という、LLM API運用で見落としやすい挙動の実例。",
+      "takeaway": "Bedrock上でClaudeを使う際、構造化出力の設計がキャッシュヒット率にどう影響するかの判断基準が得られる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "summary": "auto modeのモデル指定用環境変数とIdle compactionのオンオフ設定を追加、Vertex/Bedrock切り替え時のエラーなどを修正。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.151.1",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.151.1",
+      "summary": "wrangler dev --remoteのプレビュートークン更新が失敗時に自動リトライするようになり、rollbackの確認拒否時の誤成功表示も修正。"
+    }
+  ]
+}
