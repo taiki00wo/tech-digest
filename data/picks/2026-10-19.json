@@ -1,0 +1,43 @@
+{
+  "edition": "daily",
+  "headline": "リトルの法則で読む障害時のキャパシティプランニング、LLMエージェント基盤（Harness）の設計論、進化するAWS Lambdaの実行モデルを一次情報で深掘り。",
+  "reading_list": [
+    {
+      "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
+      "title": "リトルの法則で考える障害時のキャパシティプランニング",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "障害対応時の「同時実行数・待ち時間・スループット」の関係をリトルの法則という基本公式で定量的に捉え直す、分散システムの仕組みに踏み込んだ記事。",
+      "takeaway": "障害時のキャパシティプランニングを感覚ではなく基本公式で説明できるようになる。"
+    },
+    {
+      "url": "https://zenn.dev/acntechjp/articles/2246165a4098c5",
+      "title": "LLMエージェント基盤のシステム設計 #1 エージェントランタイム（Harness）",
+      "category": "AI",
+      "minutes": 8,
+      "why": "LLMエージェントを動かす基盤（Harness）の設計を連載で解説する、エージェント開発者向けの一次情報。",
+      "takeaway": "エージェントランタイムに求められる責務や構成要素をどう整理すればよいかが見えてくる。"
+    },
+    {
+      "url": "https://qiita.com/maeda-kazutoshi/items/4674e080c2ce3d53c809",
+      "title": "Lambdaが3種類になったみたいなので、全部試してみた",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "10月に登場したLambda Web FunctionsとMicroVMsを含め、3種類になったAWS Lambdaの実行モデルを著者自身が手を動かして比較している。",
+      "takeaway": "3種類のLambda実行モデルの違いと使い分けの見通しが得られる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "google-research/harness2",
+      "url": "https://github.com/google-research/harness2",
+      "language": "Python",
+      "stars": 5793,
+      "stars_per_day": 4596,
+      "what": "モデル重みは固定したまま、タスクごとにエージェントの実行ハーネス（プロンプト・ツール・記憶・スキルなどの構成）を自己改善していくフレームワーク。",
+      "why": "Google Researchによる公開で、タスク単位の改善（Propose–Probe–Compose）と改善内容を蓄積する仕組みを両方持つ点が新しく、公開直後から急速にスターを集めている。",
+      "try": "GitHubからリポジトリをcloneし、READMEのセットアップ手順に従って動かす。"
+    }
+  ],
+  "releases": []
+}
