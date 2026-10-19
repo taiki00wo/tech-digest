@@ -1,0 +1,36 @@
+{
+  "edition": "daily",
+  "headline": "AI利用コストの最適化事例、AIエージェント向けのシークレット管理パターン、MMUなしのLinuxカーネル移植記まで、仕組みに踏み込んだ3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "category": "AI",
+      "minutes": 8,
+      "why": "自社のAIコードレビューアのコストが倍増した原因をトークン使用量から掘り下げて最適化した、一次情報のエンジニアリングブログ。",
+      "takeaway": "LLM利用コストをどこから見直し、どう削減していくかの具体的な勘所が分かる。"
+    },
+    {
+      "url": "https://qiita.com/tsuyoshi-otake/items/91ef586f1a1a689b0842",
+      "title": "M5Stamp P4（ESP32-P4）でMMUなしのLinux 7.2を動かし、Wi-FiとSSHまで通した話【AIと250コミット】",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "MMUのないRISC-V上に自作Linuxディストリビューションを移植する過程を著者自身が記録した、Linux内部に踏み込む一次情報。",
+      "takeaway": "MMUなし環境でのLinuxカーネル移植で何が制約になり、どう回避するかの設計判断が分かる。"
+    },
+    {
+      "url": "https://nono.sh/credential-injection",
+      "title": "Credential Injection - Proxy-Based Secret Management for AI Agents",
+      "category": "AI",
+      "minutes": 5,
+      "why": "AIエージェント自体には秘密情報を渡さず、プロキシ経由で注入する設計パターンを解説する技術記事。",
+      "takeaway": "エージェントへの認証情報露出を防ぎながらAPIアクセスさせる仕組みが分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "create-vite@9.3.0", "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0", "summary": "scaffolding時のバージョン表示やTanStack Router向けオプション追加などcreate-viteの改善。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.304", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304", "summary": "modがフックをスキップした際のログ出力や、人間の承認を必須にするdeciderオプションなど権限・プラグイン周りの機能追加。"},
+    {"repo": "astral-sh/uv", "version": "0.13.2", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.2", "summary": "`uv workspace metadata`での全パッケージ表示対応や`pylock.toml`出力の改善など。"}
+  ]
+}
