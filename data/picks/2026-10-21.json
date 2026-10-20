@@ -1,0 +1,32 @@
+{
+  "edition": "daily",
+  "headline": "TypeScriptコンパイラのRust移植、V8の配列処理7倍高速化、CloudflareでのServer-Timing情報漏えいまで、パフォーマンスとセキュリティの内部実装に迫る3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "Cloudflareが公開した一次情報で、TypeScriptコンパイラをRustに移植した設計と性能改善の詳細を追える。",
+      "takeaway": "大規模コンパイラをRustに移植する際の設計判断と、速度向上がどこから生まれるかが分かる。"
+    },
+    {
+      "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+      "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "V8本体への性能改善を著者自身が解説する一次情報で、読者の性能チューニングへの関心に直結する。",
+      "takeaway": "V8エンジン内部のどの実装変更が配列処理の速度向上をもたらしたかが分かる。"
+    },
+    {
+      "url": "https://zenn.dev/masaru21/articles/2100616bb5110d",
+      "title": "Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "Cloudflare環境でのセキュリティ調査を著者本人の検証という一次情報で追える。",
+      "takeaway": "Server-Timingヘッダーから意図せず内部情報が漏れる仕組みと対策が分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": []
+}

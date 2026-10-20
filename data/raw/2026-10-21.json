@@ -1,0 +1,1363 @@
+{
+ "date": "2026-10-21",
+ "weekday": "水",
+ "edition": "daily",
+ "collected_at": "2026-10-21T07:04:26+09:00",
+ "errors": {
+  "GitHub": "HTTP Error 403: Forbidden"
+ },
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "SimCity, but with Permits",
+   "url": "https://permit.petercai.com/",
+   "summary": "",
+   "score": 355,
+   "meta": {
+    "comments": 185,
+    "discussion": "https://news.ycombinator.com/item?id=50170593",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "summary": "",
+   "score": 2044,
+   "meta": {
+    "comments": 801,
+    "discussion": "https://news.ycombinator.com/item?id=50163277",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "summary": "",
+   "score": 446,
+   "meta": {
+    "comments": 124,
+    "discussion": "https://news.ycombinator.com/item?id=50168396",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "What shall I teach my son?",
+   "url": "https://stevekrouse.com/ends",
+   "summary": "",
+   "score": 164,
+   "meta": {
+    "comments": 241,
+    "discussion": "https://news.ycombinator.com/item?id=50169707",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+   "url": "https://github.com/google-pytorch/torch_tpu",
+   "summary": "",
+   "score": 207,
+   "meta": {
+    "comments": 50,
+    "discussion": "https://news.ycombinator.com/item?id=50169053",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+   "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+   "summary": "",
+   "score": 102,
+   "meta": {
+    "comments": 40,
+    "discussion": "https://news.ycombinator.com/item?id=50108717",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Apple broke an essential presentation feature of iPads",
+   "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+   "summary": "",
+   "score": 432,
+   "meta": {
+    "comments": 236,
+    "discussion": "https://news.ycombinator.com/item?id=50165208",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Ofcom concedes defeat in 4chan case",
+   "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+   "summary": "",
+   "score": 280,
+   "meta": {
+    "comments": 185,
+    "discussion": "https://news.ycombinator.com/item?id=50167028",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "EMudhra Intermediate CA Compromise",
+   "url": "https://emudhra.we-have-a-problem.com/",
+   "summary": "",
+   "score": 498,
+   "meta": {
+    "comments": 274,
+    "discussion": "https://news.ycombinator.com/item?id=50166579",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
+   "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+   "summary": "",
+   "score": 121,
+   "meta": {
+    "comments": 70,
+    "discussion": "https://news.ycombinator.com/item?id=50168357",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Tsrs: A Port of TypeScript to Rust",
+   "url": "https://blog.cloudflare.com/typescript-rust-port/",
+   "summary": "",
+   "score": 303,
+   "meta": {
+    "comments": 141,
+    "discussion": "https://news.ycombinator.com/item?id=50165953",
+    "score_label": "points"
+   },
+   "categories": [
+    "フロントエンド",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "How I got over 300 Tor exit nodes removed",
+   "url": "https://kaba.cx/posts/20261020_Tor/",
+   "summary": "",
+   "score": 278,
+   "meta": {
+    "comments": 69,
+    "discussion": "https://news.ycombinator.com/item?id=50166257",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+   "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+   "summary": "",
+   "score": 285,
+   "meta": {
+    "comments": 147,
+    "discussion": "https://news.ycombinator.com/item?id=50163961",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "IKEA – 3D Guide",
+   "url": "https://sael.net/flatpack/",
+   "summary": "",
+   "score": 114,
+   "meta": {
+    "comments": 34,
+    "discussion": "https://news.ycombinator.com/item?id=50168096",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "My Friend Bob Cringely",
+   "url": "https://tyma.com/my-cringe-story/",
+   "summary": "",
+   "score": 143,
+   "meta": {
+    "comments": 39,
+    "discussion": "https://news.ycombinator.com/item?id=50166794",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+   "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+   "summary": "",
+   "score": 23,
+   "meta": {
+    "author": "cakegaly",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+   "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+   "summary": "",
+   "score": 28,
+   "meta": {
+    "author": "fwzis",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
+   "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+   "summary": "",
+   "score": 22,
+   "meta": {
+    "author": "riya_amemiya",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話",
+   "url": "https://zenn.dev/masaru21/articles/2100616bb5110d",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "author": "masaru21",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
+   "url": "https://zenn.dev/nkzn/articles/my-first-void",
+   "summary": "",
+   "score": 55,
+   "meta": {
+    "author": "nkzn",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "改めて考える、AIエンジニアリングの今",
+   "url": "https://zenn.dev/r_kaga/articles/2fd185c50cea7c",
+   "summary": "",
+   "score": 101,
+   "meta": {
+    "author": "r_kaga",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+   "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+   "summary": "",
+   "score": 10,
+   "meta": {
+    "author": "nasu_dev",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AIペネトレーションテストツール「Strix」を試してみた",
+   "url": "https://zenn.dev/turquoise123/articles/df481032f6b405",
+   "summary": "",
+   "score": 19,
+   "meta": {
+    "author": "turquoise123",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Codeの会話を55分放っておいたら、272,422トークンが13,522に圧縮されていました ― アイドル圧縮の観測",
+   "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019",
+   "summary": "",
+   "score": 7,
+   "meta": {
+    "author": "ojisan_ai_lab",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+   "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+   "summary": "",
+   "score": 51,
+   "meta": {
+    "author": "mokamura",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "npm と比べて分かった Go の依存管理の「一番の違い」── go get の中身を 6 ステップで追う",
+   "url": "https://zenn.dev/shiro_kuma_san/articles/8abfbdacfeaa59",
+   "summary": "",
+   "score": 5,
+   "meta": {
+    "author": "shiro_kuma_san",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "LINEに送った写真と音声メモを、自宅のPCが文字にしてくれるようにした",
+   "url": "https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "hilopon",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "PTCG AI Battle Challenge Simulation振り返り＆反省",
+   "url": "https://zenn.dev/ryyy_my/articles/d35d4c655c63f2",
+   "summary": "",
+   "score": 3,
+   "meta": {
+    "author": "ryyy_my",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Go 1.27 で追加された strings.CutLast を試す",
+   "url": "https://zenn.dev/gemcook/articles/f408cc6b1f75ec",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "author": "mbojiiwa",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "MCPサーバーを理解してみる　さらに自作MCPサーバーを作ってみよう",
+   "url": "https://zenn.dev/mosayan/articles/mcp-server-001",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "author": "mosayan",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "ドメインの境界を引くだけでは、業務はつながらない",
+   "url": "https://zenn.dev/dress_code/articles/4a76f1b88e360d",
+   "summary": "",
+   "score": 15,
+   "meta": {
+    "author": "syoryu89",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "個人で使うClaude Codeの権限設定についてざっくり見直してみた",
+   "url": "https://zenn.dev/takyshu98/articles/915702cf8c84f3",
+   "summary": "",
+   "score": 8,
+   "meta": {
+    "author": "takyshu98",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Go の依存管理は、最後は Google を信じるしかないのか？",
+   "url": "https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc",
+   "summary": "",
+   "score": 2,
+   "meta": {
+    "author": "shiro_kuma_san",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AWS初心者がエンジニアを辞めた話",
+   "url": "https://qiita.com/tks_1128/items/e4cde327a910b5beba11",
+   "summary": "はじめに こんにちは。Tsukasaです！ タイトルにある通りエンジニアを辞めました！ 今日は今までのキャリアの振り返りと何故エンジニアになったのか？そして何故辞めたのか？について振り返りたいと思います。 今までのキャリア 私は国際学部国際学科出身の正真正銘の文系です。...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T18:42:28+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "怠惰の化身が資格取得するための勉強の習慣を身につけるまで",
+   "url": "https://qiita.com/giganticsaki_A/items/f0ed9ec5cff12106978e",
+   "summary": "はじめに 私は勉強が嫌いです。 一生分の「勉強に使える集中力」は学生時代に使い果たしました。 仕事が終わったら酒を飲みたい。 できれば何もしたくない。 休みの日は寝たい。 そもそも勉強が嫌いなので、仕事以外の時間まで勉強したくない。 とはいえ、エンジニアとして働いている以...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T11:12:07+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI時代の開発プロセスとチームのあり方を考える",
+   "url": "https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5",
+   "summary": "はじめに 最近、Claude CodeやCodexといったAIコーディングツールを、ツール開発や提案用のPoC（概念実証）開発で活用する機会が増えてきました。 また、Google Apps Script（GAS）を使ったちょっとした業務改善などでも、AIを活用することがあ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T13:15:47+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった",
+   "url": "https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5",
+   "summary": "ゲームを作ってみようとCodexを使い始めたら、気付けばAIに役割を付け、Sprintまで回していました。ゲーム作りの横で、AIの仕事の割り振りまで試し始めています。 1. 最初は、Codexにゲームを一本作ってもらった ゲーム開発の苦労を味わってみたい、というところから...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T17:33:01+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則【2026年版】",
+   "url": "https://qiita.com/songchong/items/351a939e2e1b673c2929",
+   "summary": "はじめに：AI が指示を守らないのは、なぜか 「指示したはずのルールを、AI が途中で守らなくなる」 「細かい条件をたくさん渡したのに、半分も守ってくれない」 「会話を続けていたら、トークンが急に増えて、使用量制限に達してしまった」 Claude Code・Code...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T00:40:28+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "NWの自動化はなぜ進まないのか(1) - 「割に合わない」が積み上がる構造",
+   "url": "https://qiita.com/corestate55/items/3c14cf36091495d8880b",
+   "summary": "はじめに 何をいまさら…という話ですが、クラウドの世界では Infrastructure as Code や Kubernetes による運用の自動化が当たり前になりました。 NW運用領域でも、Ansible などで設定変更や情報収集をしているところは多いでしょう。では、...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T18:07:36+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "「地方消滅」は財源幻想が招いた人災だ ― 地方財政の制度設計 : システム設計視点の行動経済学 (44)",
+   "url": "https://qiita.com/maskot1977/items/3b0066bf024070e55c0d",
+   "summary": "user: 「システム設計視点の行動経済学」、第44回を始めましょう。その前に、まず前回の復習として、 「自己責任」というバグを解体する ― 格差・貧困の制度設計 : システム設計視点の行動経済学 (43) https://qiita.com/maskot1977/ite...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T10:02:01+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 全30回総復習",
+   "url": "https://qiita.com/maskot1977/items/5a7a61346add83106a30",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ご質問のソース動画のタイトルおよびその詳細な内容について、動画の文字起こしデータに基づき徹底的に解説します。 1. ソース動画のタイトル 動画タイトル: 「Pyth...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T08:32:23+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Code × Figma MCP で作ったデザインを別のAIに検査させる — デザインのグラフエンジニアリング",
+   "url": "https://qiita.com/vivi-koh/items/fc957950ba9fd21c1d1b",
+   "summary": "Claude Codeで完璧なFigmaを出力させたい Claude Codeに「この画面、Figmaに起こして」と頼むと、Figma上に数分でフレームが出てきます。 ただ、一見して完成品でもデザイナー的には未完成です。 配置や既存画面の情報設計を無視していることも多く、...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T10:33:33+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "Private Agent Factoryで作るかんたんな業務エージェント",
+   "url": "https://qiita.com/k_kane/items/a2428f62732632a40b9e",
+   "summary": "はじめに Oracle AI Database Private Agent Factory (PAF) はOracle AI Databaseに付属のエージェント作成プラットフォームです。 Private Agent Factoryのご紹介: Oracle AI Data...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T23:25:13+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "ログ調査のたびに検索→前後確認→コピーを繰り返すのがつらくて、VS Code拡張機能を作ってみた",
+   "url": "https://qiita.com/shinkai_/items/6e98d6ea443377e763f5",
+   "summary": "はじめに ログを見やすくするVS Code拡張機能を作成しました。 動作イメージ 開発中にアプリケーションのログを確認するとき、ちょっと面倒だなと思うことがありませんか？ ログファイルを開いて、キーワードで検索して、該当箇所を見つけて、その前後を確認する。処理時間...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T08:31:28+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "Oracle AI Data Platform(AIDP)：Private Endpointの AI Lakehouseで Knowledge Base・RAG検索してみてみた",
+   "url": "https://qiita.com/shirok/items/8dd19291f959da310c99",
+   "summary": "Oracle AI Data Platform（AIDP） では、Knowledge BaseやAgentなどのAI機能を利用するために、Oracle Autonomous AI Lakehouse（AI Lakehouse） を関連付けます。このAI Lakehouseは...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T10:21:10+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Code の cross-session messaging で、1 つの文書を複数のセッションと並列に編集する",
+   "url": "https://qiita.com/megmogmog1965/items/503394c2e67881949b95",
+   "summary": "はじめに 本記事では、Claude Code の複数のセッションと、1 つの文書を並列に編集する方法を紹介します。論点ごとにセッションを分け、人間がそれぞれのセッションと直接やり取りして修正案を承認します。決まった内容は cross-session messaging で...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T20:43:46+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Codeの.envを読ませない設定がどこまで効くのか試してみた",
+   "url": "https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc",
+   "summary": "はじめに Claude Codeには、permissions.deny で .env を読ませない設定があります。ただ、公式ドキュメントを読むと「止まらないケースもある」と書いてあるんですよね。 じゃあ実際どこまで止まるのか、偽物のキーを置いて48回試してみました。 手...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-18T21:49:25+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "【Delphi】タスクバーサムネイルにサムネイルツールバー (アイコン) を表示する",
+   "url": "https://qiita.com/ht_deko/items/7a99c2677f08e32d01e4",
+   "summary": "はじめに たまにアプリケーションのタスクバーアイコンに小さなアイコンが表示されていると思うのですが、これを Delphi 製アプリに実装してみたいと思います。 正式名称は「サムネイルツールバー」のようですね。Windows 7 から使えます。 タスクバー (Micro...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T18:35:34+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Power Apps（ローコード開発）でログイン画面を作るのがダメな理由",
+   "url": "https://qiita.com/YurimyMiyu/items/adaadd49603e69560ea0",
+   "summary": "はじめに ごきげんよう、百合宮桜（Miyu）です(*'▽') Power Apps の使い方を教えていると、よくこんな相談を受けます。 入力と管理を1つのアプリに入れたい しかし管理の機能は利用できる人を制限したい（入力機能はアプリユーザー全員利用可） だから管理画面に...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T08:01:03+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "「はい、承知いたしました」で始まる技術記事はどのくらいある？",
+   "url": "https://qiita.com/Tivo0921/items/75a7375eeefe6853cf3e",
+   "summary": "はじめに サークル内でAIを使った記事の話題になり、いかにもAIが書いたような書き出しのものがどれだけあるのか気になったので調査してみることにしました。 結論 生成AIの返答の書き出し「はい、承知いたしました」が記事の冒頭にそのまま残った記事は、Zenn・Qiitaと...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T09:30:35+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "古くさいと思っていた報連相を、PMになってから今一度考えた話",
+   "url": "https://qiita.com/fe1ix/items/d78130c065835a6343a5",
+   "summary": "はじめに 報連相。報告・連絡・相談。 正直に言うと、僕はこの言葉がちょっと苦手でした。新人研修で最初に習うやつ。部下が上司に気をつかって、こまめに顔色をうかがうためのやつ。そんなイメージがあったんです。 チームの若手から「報連相って、もう古いですよね」と言われたときも、内...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T10:03:59+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "ローカルAIに実装を任せればClaudeのトークンは減る？ 実測したら逆だった（と、そこから分かったこと）",
+   "url": "https://qiita.com/yukio3239/items/e02c811664e444686fe5",
+   "summary": "はじめに 「設計はクラウドAI（Claude）、実装はローカルAI（Qwen）」と分担すれば、クラウドAIのトークン消費を減らせるのではないか。そう考えて、実際に測ってみました。 先に結論を書きます。 テスト1（クイック検索）では、Claude の料金は減るどころか約 ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T11:14:42+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "本番DBで手作業しているSQLを、Django の管理画面の操作に置き換えたい",
+   "url": "https://qiita.com/kkaattoo/items/1416801376bc60e1d027",
+   "summary": "はじめに 前回の記事では、条件に合うメンバーを新しいチャンネルにまとめて参加させるSQLを、読みやすく書き直しました。 この記事では、そのSQLを本番DBに対して手作業で実行している運用を、どう変えるかを考えます。 前回と同じく、業務の内容はサンプルの例に置き換えて...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T10:03:53+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告　防災メールのアルカディア",
+   "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002426/",
+   "summary": "105時間にわたる攻防 侵入経路を塞いだ後もバックドアから…… 公表資料によると、攻撃者は不正アクセスを始めてから約10時間後、サービス間ログイン用のシークレットキーを含む設定ファイルを取得。総当たり攻撃を仕掛けて内部情報を取得した。 同社が不正アクセスを検知したのはその約7時間後。侵入経路を遮断したがバ...",
+   "score": 370,
+   "meta": {
+    "published": "2026-10-20T06:16:53Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ウィンドウズアップデートについて調べたらめちゃめちゃ面白かった",
+   "url": "https://anond.hatelabo.jp/20261020173628",
+   "summary": "「なんで保存してない時に限って強制再起動すんねん！」 「頼むからあと5分待ってくれ！」 「Microsoftは悪魔か？」 ​と、全世界の人間が100万回くらいブチ切れてきたと思うんだが、気になって（なんであんな暴挙が許されてるのか）を本気で調べてみたら、想像以上に人間側の愚かさとMicrosoftの絶望の歴史が詰まってて...",
+   "score": 86,
+   "meta": {
+    "published": "2026-10-20T08:41:46Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ソフトウェアの産業革命 - ちなみに",
+   "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
+   "summary": "2026年9月、Anthropicの社内リポジトリには1日あたり3万件を超える変更がマージされていたそうです。5月の時点ではおよそ2,500件だったので、4か月で10倍以上。書いているのはほとんどがコーディングエージェントです。 この3万件を人が一行ずつ読んでいるとは思えないし、誰も読まずに本番へ出しているとも思えない。じ...",
+   "score": 498,
+   "meta": {
+    "published": "2026-10-20T04:10:49Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "人間のAIに対する判断移譲 - 西尾泰和の外部脳",
+   "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
+   "summary": "2026-10-20 人間とAIの関係の議論で「最終判断は人間がやる」などといった議論があり、これは数年前の段階ではまあ妥当なものだったが、2024~2026年の2年間で起きたことを踏まえると解像度が低すぎると感じている。 この期間に「作業をAIに任せる」に加えて、「実行を許可する判断」「人間に質問するかどうかの判断」も...",
+   "score": 168,
+   "meta": {
+    "published": "2026-10-20T08:21:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "あなたの会社は、慌てて脆弱性検査にARTEXを使わなくていい｜Yusuke Kawabata（SaaS運営）",
+   "url": "https://note.com/uplucid/n/ncb9e3567ce2f",
+   "summary": "前回、AIによる「自動化攻撃」に経営者はどのような対応をすればいいのかという話を書きました。おかげさまで多くの反響をいただいて私自身びっくりしました。 そして、本日はセキュリティ会社の調査で今回の大規模攻撃のいくつかはオープンソースのARTEXが使われていたことが判明したとニュースでにぎわっていました。 ...",
+   "score": 29,
+   "meta": {
+    "published": "2026-10-20T15:34:06Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ふるさとチョイス、不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク",
+   "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+   "summary": "この度、株式会社トラストバンク（本社：東京都港区、代表取締役社長兼CEO：大井 潤、以下当社）が運営する「ふるさとチョイス」において当社が管理する会員情報に対し、第三者による不正アクセスが行われ、会員登録いただいている寄附者様の個人情報が外部に流出したことが判明いたしました。 寄附者様ならびに関係者の...",
+   "score": 71,
+   "meta": {
+    "published": "2026-10-20T10:59:09Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "生成AIの女性画像、なぜ「作り物」に見えるの?毛穴や産毛まで感じる自然な肌を目指し無料版AIの1K画像で感じた限界と、実在感のある写真への挑戦 - Quadro Diary 生成AI 過去日記",
+   "url": "https://quadro.hateblo.jp/entry/seiseiai_real",
+   "summary": "生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じる「作り物感」と、目指す自然な写真 ImageFXから、最新版Geminiで再生成 上の画像から女性と男性を再生成化 無料版の1K画像の限界と、2K解像度・プロンプトへの期待 生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じ...",
+   "score": 95,
+   "meta": {
+    "published": "2026-10-19T23:46:02Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "委託先への不正アクセスに起因するお客さまのシステム障害、情報漏えいに関するお詫び",
+   "url": "https://jpn.nec.com/news/info/20261020.html",
+   "summary": "当社がシステム開発および保守業務を委託している企業（以下「委託先」）が9月下旬にサイバー攻撃を受け、窃取された正規アカウントの認証情報が悪用されたことにより、当社のお客さまにおいて、不正アクセスによる被害の発生や個人情報を含む情報の漏えいを確認しました。影響のあった複数のお客さまには既に個別に連絡...",
+   "score": 81,
+   "meta": {
+    "published": "2026-10-20T08:54:57Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIペネトレーションテスト基盤「Cairn」の公開パネルから見えた攻撃活動についてまとめてみた - piyolog",
+   "url": "https://piyolog.hatenadiary.jp/entry/2026/10/20/205855",
+   "summary": "2026年10月19日、セキュリティ企業のNorForgeは、公開状態のまま放置されていたAIペネトレーションテスト基盤Cairnの管理画面から、AIエージェントによる攻撃活動を観測したとするレポートを公表しました。ここでは関連する情報をまとめます。 Cairnとは何か Cairnはオープンソースのエージェント基盤で、開発元のREADME...",
+   "score": 20,
+   "meta": {
+    "published": "2026-10-20T12:01:49Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "datalab-to/indra-ocr · Hugging Face",
+   "url": "https://huggingface.co/datalab-to/indra-ocr",
+   "summary": "Datalab State of the Art models for Document Intelligence Indra OCR Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle. Accurate - 66.7 on OmniParseBench (71.4 wi...",
+   "score": 18,
+   "meta": {
+    "published": "2026-10-20T12:26:59Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "なんと23の主要なオープンソースプロジェクトのうち11は1人または2人で運営されている実態が明らかに",
+   "url": "https://gigazine.net/news/20261020-open-source-projects/",
+   "summary": "Redditユーザーが、スマートフォン・ブラウザ・サーバーが依存している23の主要なオープンソースプロジェクトの履歴から、プロジェクトのメンテナーについて記録する調査を行いました。その結果、23のプロジェクトのうち11では、過去1年間に定期的に変更を加えた開発者が1人または2人しかいなかったことが判明しました。...",
+   "score": 15,
+   "meta": {
+    "published": "2026-10-20T13:11:44Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "高機能タスクマネージャー「Process Explorer」v17.2が公開 ～NPUや効率モードに対応／プロセスのメモリマップの表示やライブカーネルメモリダンプの作成も",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2149689.html",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "published": "2026-10-20T11:07:51Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "本日開始「Androidのマイナンバーカード」さっそく登録、試してわかったiPhoneとの違いと注意点",
+   "url": "https://k-tai.watch.impress.co.jp/docs/review/2149675.html",
+   "summary": "",
+   "score": 47,
+   "meta": {
+    "published": "2026-10-20T07:39:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "日本企業へのサイバー攻撃、中国製AI「ARTEX」使用",
+   "url": "https://www.afpbb.com/articles/-/3658516",
+   "summary": "キーボードを操作する手（資料写真、2020年7月24日撮影、資料写真）。(c)NICOLAS ASFOURI / AFP 【10月20日 AFP】最近相次いでいる日本企業へのサイバー攻撃をめぐり、日本の情報セキュリティー会社は20日、中国製の人工知能（AI）を活用したサイバーセキュリティーツール「ARTEX」が使用されていたと発表した。 日本国...",
+   "score": 6,
+   "meta": {
+    "published": "2026-10-20T07:57:30Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ふるさとチョイス 445万件の個人情報流出を発表 | NHKニュース",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261020de62437",
+   "summary": "ふるさと納税の仲介サイト「ふるさとチョイス」を運営するトラストバンクは、会員登録している顧客の氏名やメールアドレス、それに住所などの個人情報、445万件あまりが外部に流出したと発表しました。 「ふ…",
+   "score": 12,
+   "meta": {
+    "published": "2026-10-20T11:28:23Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ふるさとチョイス、不正アクセスで445万件漏えい　寄附控除試算額も",
+   "url": "https://www.watch.impress.co.jp/docs/news/2149772.html",
+   "summary": "",
+   "score": 13,
+   "meta": {
+    "published": "2026-10-20T11:21:21Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "栃木県警、全職員の情報流出か　アルカディア不正アクセス、他県警でも被害判明相次ぐ　報道",
+   "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/",
+   "summary": "防災情報配信サービスを手掛けるアルカディア（大阪府箕面市）が不正アクセスを受けた問題で、栃木県警の全職員約3900人分の個人情報が流出した可能性があると、下野新聞や毎日新聞などが10月20日に報じた。災害時の安否確認システムに登録していた情報で、20日までに不正利用は確認されていないという。 毎日新聞の報道...",
+   "score": 15,
+   "meta": {
+    "published": "2026-10-20T11:50:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「Visual Studio Code」でUIのモダナイズが進行中、従来の「クラシックUI」はいずれ廃止へ／詰まった表示の［Compact］やタブがエディターにくっついたデザインも選択可能",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2149622.html",
+   "summary": "",
+   "score": 32,
+   "meta": {
+    "published": "2026-10-20T07:34:41Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "These Gemini automations are actually worth setting up on your Android phone",
+   "url": "https://www.makeuseof.com/gemini-automations-android/",
+   "summary": "Judy Sanhz is a consumer technology writer with more than 15 years of experience helping everyday users understand. Their devices, apps, and software. Her work has appeared in several technology publications, including XDA Developers. Android Central, Digital Trends, Apple Toolbox, and the Mac Ob...",
+   "score": 5,
+   "meta": {
+    "published": "2026-10-20T00:54:25Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+   "url": "https://openai.com/index/ted-taylor-restaurant",
+   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Advancing coding in low‑resource programming languages",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 19 Oct 2026 12:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+   "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 18:17:47 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+   "url": "https://huggingface.co/blog/allenai/fairstress",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 16:09:19 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 15:19:48 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+   "url": "https://huggingface.co/blog/hf-torchtpu",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+   "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "WebSocket support is now generally available",
+   "url": "https://vercel.com/changelog/websocket-support-is-now-generally-available",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T20:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "DeepSeek V4.1 Flash is now available in Token Pass",
+   "url": "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-20T00:01:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Updates to Hobby and Pro Terms of Service",
+   "url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T18:39:47.247Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Making every harness durable",
+   "url": "https://vercel.com/blog/making-every-harness-durable",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T13:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Mercury 3 now available on AI Gateway",
+   "url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-19T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+   "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+   "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 19 Oct 2026 19:12:53 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Introducing Clairic, a new System One class of extraction models",
+   "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+   "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 19 Oct 2026 17:48:26 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+   "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+   "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 19 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+   "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Tue, 20 Oct 2026 16:05:03 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "How to continue a GitHub Copilot app session in VS Code",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+   "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Mon, 19 Oct 2026 18:47:22 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  }
+ ],
+ "oss": [],
+ "releases": []
+}
