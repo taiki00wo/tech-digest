@@ -1,0 +1,49 @@
+{
+  "edition": "daily",
+  "headline": "PHPの重大脆弱性「php2shell」への各社の対応と、GitHubが明かすエージェント時代のGit基盤の裏側、AIエージェントの変更をどう検証するかまで3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.flatt.tech/entry/php2shell",
+      "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "ウェブの7割が使うPHPの認証不要RCEという今日最大のセキュリティニュースを、専門チームによる技術的な概要と対応指針で把握できる。",
+      "takeaway": "php2shellの脆弱性の仕組みと影響範囲、自分のPHP環境で何を確認し何をすべきかが分かる。"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "GitHub自身が自社リポジトリの大半をAzureに移した経緯を語る一次情報で、分散システムの設計判断を追える。",
+      "takeaway": "AIエージェントによるGit操作の急増を見据えた、リポジトリ単位でのインフラ切り替えの仕組みが分かる。"
+    },
+    {
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+      "title": "Your AI agent fixed the bug, but what else did it change?",
+      "category": "AI",
+      "minutes": 6,
+      "why": "セキュリティ研究企業Trail of Bits本人による一次情報で、AIコーディングエージェントが起こす意図しない変更をどう検出するかを解説している。",
+      "takeaway": "patching-bugsとregression-huntという2つのプラグインが、エージェントの変更差分の中から副作用をどう見つけるかが分かる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "language": "Python",
+      "stars": 17704,
+      "stars_per_day": 2951,
+      "what": "DeepSeekの大規模サービスを支える高性能な推論フレームワークで、DeepSeek-V4.1-Flash向けのオフライン推論を提供する。",
+      "why": "最適化カーネルや非同期スケジューリング、決定的サンプリングなど実運用の推論ノウハウがそのまま公開され、短期間で急激にスターを伸ばしている。",
+      "try": "リポジトリをクローンし、READMEの手順でDeepSeek-V4.1-Flashをロードして推論を試す。"
+    }
+  ],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "v8.3.5", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.5", "summary": "インポートマップ生成やbundled-dev配信周りの不具合を中心としたパッチリリース。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.306", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306", "summary": "クラウドセッションでの認証エラー誤表示と、MCPツールが多い場合の誤ったエラー表示・不要なコンパクションを修正。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.1.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.1.0", "summary": "ユーザープロファイルAPIにenforcementステータス・アクション・フィルタを追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.151.3", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.151.3", "summary": "名前付きエントリポイントのみのWorkerをwrangler devで起動可能にし、compliance region設定を考慮した設定差分取得にも対応。"},
+    {"repo": "astral-sh/uv", "version": "0.13.4", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.4", "summary": "侵害されたルートCAに関する脆弱性に対応し、バンドルするMozillaルート証明書を更新。早急な更新が推奨されている。"}
+  ]
+}
