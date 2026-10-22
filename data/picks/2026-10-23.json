@@ -1,0 +1,35 @@
+{
+  "edition": "daily",
+  "headline": "PHP緊急脆弱性対応の実例から地図描画の高速化、Next.jsの脆弱性情報が伝わらなかった原因まで、仕組みに踏み込んだ3本。",
+  "reading_list": [
+    {
+      "url": "https://inside.pixiv.blog/2026/10/22/193321",
+      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "業界を揺るがしたPHPの重大脆弱性（php2shell）への緊急対応を、大規模サービスの運用チーム自身が語る一次情報だから。",
+      "takeaway": "本番環境を止めずに緊急パッチを当てる際の判断基準と、実際の対応の流れが分かる。"
+    },
+    {
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "category": "その他",
+      "minutes": 8,
+      "why": "370万件の地図ポリゴンの三角形分割を高速化した、著者自身によるアルゴリズムレベルの性能チューニングの一次情報だから。",
+      "takeaway": "既存の定番ライブラリより高速な三角形分割の仕組みと、計測に基づく最適化の考え方が分かる。"
+    },
+    {
+      "url": "https://zenn.dev/rakko_inc/articles/dependabot-cve-to-pr-flow",
+      "title": "Next.js の脆弱性に Dependabot が反応しなかったので、GitHub Advisory Database までの流れを追った",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "Next.jsを使う開発者が実際に遭遇しうる、Dependabotアラートが上がらない原因を著者自身が調査した一次情報だから。",
+      "takeaway": "CVEからGitHub Advisory Database、Dependabotアラートまでのデータの流れと、見落とされる条件が分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "astral-sh/uv", "version": "0.13.5", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.5", "summary": "侵害されたeMudhra証明書への対応で管理CPythonビルドとcertifiを更新。`uv python upgrade`での追随が必要。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.308", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308", "summary": "バグ修正と信頼性向上（詳細の変更内容は非公開）。"}
+  ]
+}
