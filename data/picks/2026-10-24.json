@@ -1,0 +1,138 @@
+{
+  "edition": "weekly",
+  "headline": "PHP脆弱性（PHP2Shell）とeMudhra証明書侵害を中心にセキュリティが大荒れする一方、Claude Code/OpusでOSSを爆速で作る事例が相次いだ一週間。",
+  "trends": [
+    "PHPの深刻な脆弱性とeMudhraのCA鍵侵害が重なり、サプライチェーン・PKI周りのセキュリティ対応が週全体の中心テーマになった。",
+    "Claude Codeで作ったTV debloatツールが数日で数百人の貢献者を集めるなど、AIエージェントが実プロダクトを短期間で生み出す事例が目立った。",
+    "Cloudflare・Vercel・OpenAIが相次いでAIエージェントの安全なプロダクションアクセスやWAF強化を発表し、エージェントを本番に接続するための基盤整備が進んでいる。"
+  ],
+  "reading_list": [
+    {
+      "url": "http://brooker.co.za/blog/2026/10/23/animations.html",
+      "title": "Animations for System Builders: Metastability and Lost Writes",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "分散システムのメタステーブル障害と書き込み消失の仕組みを、著者本人がアニメーションで解説する一次情報だから。",
+      "takeaway": "メタステーブル障害がどのように発生し、書き込みが失われていくのかを直感的に理解できる。"
+    },
+    {
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "今週話題になったeMudhra証明書侵害の技術的核心（鍵がミリ秒で割れた理由）を、セキュリティ研究者本人が解説しているから。",
+      "takeaway": "弱い鍵生成が認証局全体の信頼をどう崩すのか、具体的な攻撃の仕組みがわかる。"
+    },
+    {
+      "url": "https://tech.codmon.com/entry/2026/10/23/173909",
+      "title": "PHP2Shellへの対応を振り返って - コドモン Product Team Blog",
+      "category": "バックエンド",
+      "minutes": 6,
+      "why": "今週のPHP脆弱性「PHP2Shell」への緊急対応を、実際に対応した開発チーム自身が振り返った一次情報だから。",
+      "takeaway": "緊急パッチ適用の判断基準や体制、時系列など実務の進め方が具体的にわかる。"
+    },
+    {
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "title": "Docker is weird",
+      "category": "バックエンド",
+      "minutes": 6,
+      "why": "HNで大きく話題になった、Dockerの直感に反する挙動を掘り下げた記事で、コンテナ内部の理解に役立つから。",
+      "takeaway": "Dockerが見せる意外な挙動とその背景を知り、トラブル時に疑うべき箇所が増える。"
+    },
+    {
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "How the Claude Code team does code review",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Claude Codeのコードの9割をClaudeが書いているというAnthropic自身による、コードレビュー体制の一次情報だから。",
+      "takeaway": "AIが書くコードを人間がどう安全にレビュー・統制しているか、実践的な体制がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "language": "Java",
+      "stars": 27708,
+      "stars_week": 22799,
+      "what": "Android/Google TVをWi-Fi経由でデブロートし、Apple TV風のホーム画面にするツール。",
+      "why": "Claude CodeでWi-Fi経由の自動化を作った話がバイラルになり、4日で170以上のTVモデル・200人超の貢献者が集まって急成長している。",
+      "try": "TVの開発者オプションでUSBデバッグを有効にし、標準のAndroidツールでPCから接続して試す。"
+    },
+    {
+      "repo": "Jakeschincariol/replica-skill",
+      "url": "https://github.com/Jakeschincariol/replica-skill",
+      "language": "Python",
+      "stars": 3386,
+      "stars_week": 1861,
+      "what": "任意のアプリをリバースエンジニアリングして再現・テスト・改善までを行う、無料のClaude用スキル集。",
+      "why": "Claude Codeのスキルとしてアプリの再現からバグ修正までを一連の作業で行わせる使い方で、今週伸びている。",
+      "try": "READMEの手順でClaude Codeにスキルを追加し、再現したいアプリを指定して実行する。"
+    },
+    {
+      "repo": "yihui-dev/awesome-opus5-5-videos",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "language": "None",
+      "stars": 9834,
+      "stars_week": 4060,
+      "what": "Claude Opus 5.5で作られたバイラル動画と、その元になったプロンプトを集めたコレクション。",
+      "why": "HTML/Canvas/SVG/Three.jsなどコードとしてアニメーションを書かせる使い方の実例集として、今週スターを伸ばしている。",
+      "try": "気に入った動画のプロンプトをprompts/からコピーし、自分のエージェントで試す。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "Droid-Deck/DroidDeck",
+    "url": "https://github.com/Droid-Deck/DroidDeck",
+    "overview": "DroidDeckは、Android端末上にSteamのBig Picture体験を持ち込むツール。Valve製Steamクライアントと、ARM64向けに移植されたProtonを組み合わせ、Adrenoを搭載したAndroidハンドヘルドでWindowsゲームを動かせるようにする。",
+    "how_it_works": "対応はAndroid 9以降で、Adreno 730以降または8xx系GPUの端末に限られる。Adreno 6xxは実験的扱いで、DirectX 11はDXVK 2経由で動く場合があるがDirectX 12は不安定とされ、Mali・Xclipse・PowerVR・Adreno 710はサポート外。root化は不要だが、ランタイムに約3GB、デスクトップ環境やエミュレータ利用にはさらに1.1GBのストレージが必要になる。導入はReleasesからAPKとLinuxランタイムをインストールし、Playを押してSteamにサインインすると初回起動時にゲームがダウンロードされる仕組み。「Desktop & apps」を追加導入するとデスクトップ環境やエミュレータが使え、「Store」からLinux向けアプリ・ゲームも入れられる。",
+    "use_cases": [
+      "Adreno搭載のAndroid端末で、root化せずにSteamライブラリのWindowsゲームを動かしたい場合",
+      "ハンドヘルド端末をSteamOS機のように使いたい場合"
+    ],
+    "try": [
+      "対応GPU（Adreno 730以降または8xx系）の端末を用意する",
+      "GitHubのReleasesからAPKとLinuxランタイムをインストールし、Playを押してSteamにサインインする"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/occhi/rails-de-idomu-tairyou-deta-eizokuka-600-okuken-o-eizokuka-suru-tame-no-sekkei-to-botorunekku-tono-tatakai",
+      "title": "Railsで挑む大量データ永続化 〜600億件を永続化するための設計とボトルネックとの戦い〜",
+      "event": "Kaigi on Rails 2026",
+      "why": "600億件規模のデータ永続化で実際にぶつかった設計上のボトルネックと解決策を扱っており、大規模データを扱う際の勘所が学べるから。"
+    },
+    {
+      "url": "https://speakerdeck.com/ahus1/vom-ingress-bis-zum-index",
+      "title": "Vom Ingress bis zum Index: Wo verteilte Systeme unter Last brechen",
+      "event": "",
+      "why": "負荷がかかったとき分散システムのどこが壊れるかを、Ingressからインデックスまで一貫して解説する内容だから。"
+    },
+    {
+      "url": "https://speakerdeck.com/yoshiki0705/amazon-s3-files-no-fairu-shisutemu-toshiteno-kachi-o-jissoku-de-tashikame-te-mita-kiro-to-tsukaikata-to-hiyou-no-seiri",
+      "title": "「Amazon S3 Files」の ファイルシステムとしての価値を、実測で確かめてみた〜 Kiro と「使い方」と「費用」の整理〜",
+      "event": "",
+      "why": "S3をファイルシステムとして使う際の性能・費用をベンチマークで実測しており、採用判断に使える具体的な数字が得られるから。"
+    }
+  ],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.3", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3", "summary": "LTSバックポートの修正リリース。フォント読込の不具合やproxy.tsでのランタイム読込など複数の問題を修正。"},
+    {"repo": "vitejs/vite", "version": "v8.3.5", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.5", "summary": "ビルド時のチャンクインポートマップや開発環境のアセットURLなど、複数のバグを修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.309", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309", "summary": "macOS/LinuxのサンドボックスBashがシェル起動ファイルをサンドボックス外で実行していた問題など、サンドボックス関連の不具合を複数修正。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.2.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.2.0", "summary": "メッセージスレッド対応と使用量・コストレポートの次元別集計を追加し、ツールランナーの不具合も修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.151.3", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.151.3", "summary": "named exportのみのWorkerをdefault exportなしでdev起動できるよう修正し、設定差分取得がコンプライアンスリージョンに対応。"},
+    {"repo": "astral-sh/uv", "version": "0.13.5", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.5", "summary": "eMudhra関連ルート証明書の除去に続き、管理対象CPythonビルドをセキュリティパッチ版へ更新。"}
+  ],
+  "headlines": [
+    {"url": "https://github.com/php/php-src/releases/tag/php-8.2.35", "title": "PHP 8.2.35", "category": "インフラ", "note": "PHPの緊急セキュリティリリース"},
+    {"url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business", "title": "eMudhra to exit global SSL/TLS certificate business", "category": "インフラ", "note": "CA大手が証明書事業から撤退"},
+    {"url": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/", "title": "著名ITサービス相次いで緊急メンテへ　コドモン、シャドバ、BASE、さくらのレンタルサーバなど　「PHP」脆弱性に起因か", "category": "インフラ", "note": "PHP脆弱性で各社が緊急メンテ"},
+    {"url": "https://quad9.net/news/blog/au-revoir-france/", "title": "Quad9 (DNS Resolver) to Exit France", "category": "インフラ", "note": "DNSリゾルバがフランスから撤退"},
+    {"url": "https://www.itmedia.co.jp/news/article/2610/19/2000002372/", "title": "ソースネクスト、パスワードなぜ平文で流出　「暗号化していたが、鍵にアクセスできるシステムに侵入された」", "category": "バックエンド", "note": "平文パスワード漏洩の背景を説明"},
+    {"url": "https://news.web.nhk/newsweb/na/nd-20261023de64285", "title": "佐川急便 流出した個人情報は最大5300万件超の可能性", "category": "その他", "note": "個人情報5300万件超が流出か"},
+    {"url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/", "title": "パナソニックHD、利用禁止の生成AIに従業員らの情報送出　33万人分", "category": "AI", "note": "禁止AI利用で33万人分が流出"},
+    {"url": "https://blog.nishimu.land/entry/2026/10/20/123916", "title": "ソフトウェアの産業革命 - ちなみに", "category": "AI", "note": "Anthropic社内のマージ件数が急増"},
+    {"url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017", "title": "DeepSeek-v4.1-Flash-1017", "category": "AI", "note": "DeepSeekが新モデルを公開"},
+    {"url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/", "title": "Jailbreaking the Switch 2", "category": "その他", "note": "Switch 2のジェイルブレイク手法"}
+  ]
+}
