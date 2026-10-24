@@ -1,0 +1,1988 @@
+{
+ "date": "2026-10-25",
+ "weekday": "日",
+ "edition": "daily",
+ "collected_at": "2026-10-25T07:05:42+09:00",
+ "errors": {},
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "Steal My Bitcoin",
+   "url": "https://stealmybitcoin.com/",
+   "summary": "",
+   "score": 175,
+   "meta": {
+    "comments": 52,
+    "discussion": "https://news.ycombinator.com/item?id=50224916",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "No Signs of AI Payoff Outside the Tech Sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "summary": "",
+   "score": 336,
+   "meta": {
+    "comments": 304,
+    "discussion": "https://news.ycombinator.com/item?id=50224463",
+    "score_label": "points"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Goose Programming Language",
+   "url": "https://aardappel.github.io/goose/",
+   "summary": "",
+   "score": 150,
+   "meta": {
+    "comments": 54,
+    "discussion": "https://news.ycombinator.com/item?id=50224300",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
+   "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
+   "summary": "",
+   "score": 119,
+   "meta": {
+    "comments": 49,
+    "discussion": "https://news.ycombinator.com/item?id=50224100",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Roku developer repositories moved from GitHub to GitLab",
+   "url": "https://blog.roku.com/developer/gitlab-move",
+   "summary": "",
+   "score": 220,
+   "meta": {
+    "comments": 145,
+    "discussion": "https://news.ycombinator.com/item?id=50222622",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Dream-1",
+   "url": "https://dreamlabs.ai/research/dream-1/",
+   "summary": "",
+   "score": 129,
+   "meta": {
+    "comments": 64,
+    "discussion": "https://news.ycombinator.com/item?id=50223785",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Danish Government silently drops plan to dump MS Office",
+   "url": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
+   "summary": "",
+   "score": 168,
+   "meta": {
+    "comments": 107,
+    "discussion": "https://news.ycombinator.com/item?id=50223844",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "FreeDNS",
+   "url": "https://freedns.afraid.org/",
+   "summary": "",
+   "score": 214,
+   "meta": {
+    "comments": 56,
+    "discussion": "https://news.ycombinator.com/item?id=50222133",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "I don't understand quantum physics (2018)",
+   "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+   "summary": "",
+   "score": 249,
+   "meta": {
+    "comments": 183,
+    "discussion": "https://news.ycombinator.com/item?id=50219666",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "OBS Studio 33",
+   "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+   "summary": "",
+   "score": 431,
+   "meta": {
+    "comments": 154,
+    "discussion": "https://news.ycombinator.com/item?id=50218430",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+   "summary": "",
+   "score": 254,
+   "meta": {
+    "comments": 125,
+    "discussion": "https://news.ycombinator.com/item?id=50219177",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Physicists trap a single antimatter particle for a month",
+   "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+   "summary": "",
+   "score": 258,
+   "meta": {
+    "comments": 77,
+    "discussion": "https://news.ycombinator.com/item?id=50186450",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "summary": "",
+   "score": 149,
+   "meta": {
+    "comments": 56,
+    "discussion": "https://news.ycombinator.com/item?id=50219700",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+   "url": "https://edjefferson.com/localwiki/",
+   "summary": "",
+   "score": 1527,
+   "meta": {
+    "comments": 240,
+    "discussion": "https://news.ycombinator.com/item?id=50202285",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hacker News",
+   "title": "Twelve years of distributed SQLite",
+   "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+   "summary": "",
+   "score": 350,
+   "meta": {
+    "comments": 58,
+    "discussion": "https://news.ycombinator.com/item?id=50217500",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
+   "url": "https://zenn.dev/herumi/articles/search_bad_emudhra_key",
+   "summary": "",
+   "score": 42,
+   "meta": {
+    "author": "herumi",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+   "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+   "summary": "",
+   "score": 52,
+   "meta": {
+    "author": "cakegaly",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "脆弱性管理の仕組みを整えた",
+   "url": "https://zenn.dev/dress_code/articles/be5550254695cd",
+   "summary": "",
+   "score": 74,
+   "meta": {
+    "author": "anizozina",
+    "score_label": "likes"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
+   "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
+   "summary": "",
+   "score": 72,
+   "meta": {
+    "author": "isamua",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+   "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+   "summary": "",
+   "score": 40,
+   "meta": {
+    "author": "fwzis",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "prpr: Rust 向けのシンプルで高速な Parser generator",
+   "url": "https://zenn.dev/tanakh/articles/prpr-packrat-parser",
+   "summary": "",
+   "score": 23,
+   "meta": {
+    "author": "tanakh",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+   "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+   "summary": "",
+   "score": 48,
+   "meta": {
+    "author": "nasu_dev",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "webauthn-ruby をもう一回覗いてみた",
+   "url": "https://zenn.dev/smartcamp/articles/22bde5829493e5",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "syokunin",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "コードレビューをなくして見えたもの",
+   "url": "https://zenn.dev/henteko/articles/b76b15922cdf72",
+   "summary": "",
+   "score": 16,
+   "meta": {
+    "author": "henteko",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AIコードレビューの不合格率が51%→13%に。3モデル中2つは判定していなかった",
+   "url": "https://zenn.dev/taka8823/articles/2df36d66844c15",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "taka8823",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "YubiKey買って、OpenAI Daybreak Blueゲットして、vibe脆弱性診断してみた。",
+   "url": "https://zenn.dev/nassy/articles/d143c945bd5ca5",
+   "summary": "",
+   "score": 5,
+   "meta": {
+    "author": "nassy",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Flutter アプリを iPhone Duo の「縦帯」に対応させる",
+   "url": "https://zenn.dev/yus1127/articles/flutter-iphone-duo-vertical-bar",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "yus1127",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Gowin FPGAの配置配線オプションを実測比較 — ビルド時間とFmaxのバランス",
+   "url": "https://zenn.dev/akiyukiokayasu/articles/66be017200e64e",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "akiyukiokayasu",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+   "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+   "summary": "",
+   "score": 44,
+   "meta": {
+    "author": "yuiseki",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "ros_gzの終了時クラッシュとRange変換の不具合を修正した話",
+   "url": "https://zenn.dev/yuu7/articles/ros2-gazebo-teardown-range-fixes",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "yuu7",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
+   "url": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "shingokumon",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "@napi-rs/canvas v1.0.12 で実質的な破壊的変更が入った話",
+   "url": "https://zenn.dev/devuloper/articles/napi_rs_canvas_1_0_12_font_tofu",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "devuloper",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "リンクで確認した SNS のメール購読に、作り直さずに「解除の保護」を付ける",
+   "url": "https://zenn.dev/sk8jp/articles/260e3c0fa07ed9",
+   "summary": "",
+   "score": 0,
+   "meta": {
+    "author": "sk8jp",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "3KBしか使えない！奇妙で素敵なゲームエンジン「Playload」のご紹介",
+   "url": "https://qiita.com/kitao/items/7fac93e8a7ad6015b0b0",
+   "summary": "Pyxel作者です。 ちょっとした出来心で、3KBしか使えない、小さなゲームエンジンを作ってみました。 名前は「Playload（プレイロード）」。 GitHubにてオープンソースとして公開中です。ぜひスターで応援をよろしくお願いします。 Playloadの基本仕様は以下...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T18:11:47+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "Copilot の Agent Builder が凄く進化した。何ができるようになったか、Copilot Studio（GitHub Copilot ハーネス）との違いも整理してみる",
+   "url": "https://qiita.com/Takashi_Masumori/items/c559b0291db39b2169c1",
+   "summary": "はじめに Microsoft 365 Copilot のエージェントビルダーに「スキル」を追加できるようになりました。SKILL.md と、テンプレートやスクリプトなどの同梱ファイルを ZIP でまとめてアップロードすると、エージェントがその手順に従って作業してくれる仕組...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T09:11:28+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "【速報】VS Code 1.142 に Canvas が来た！チャットの横でエージェントと同じ画面を触れる「Interactive Canvases」を整理してみた",
+   "url": "https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed",
+   "summary": "はじめに 常に VS Code / GitHub Copilot の動向を追っている、Microsoft Student Ambassador 兼 GitHub Copilot User Group Japan（Gh-CUG）運営のロホマン シャヒンです！ この記事が...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T15:50:22+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "日本と同じ条件の国は何をしたか ― 財政政策の国際比較実証研究 : システム設計視点の行動経済学 (48)",
+   "url": "https://qiita.com/maskot1977/items/faa29f9bdce4dab79040",
+   "summary": "user: 「システム設計視点の行動経済学」、第48回を始めましょう。その前に、まず前回の復習として、 AIを低賃金ロックインの打破に使え ― 「奪う仕事」と「生む仕事」の両面設計 : システム設計視点の行動経済学 (47) https://qiita.com/masko...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T11:35:12+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【緊急】Node.jsの重大脆弱性に対応するセキュリティアップデートを安全に適用する方法",
+   "url": "https://qiita.com/superdora-cloud/items/8cad27487cd0e67d088c",
+   "summary": "はじめに 2026年10月21日、Node.jsプロジェクトが脆弱性10件を修正するセキュリティリリースを公開しました。同じ日にPHPの重大な脆弱性も話題になったため、見逃した方もいるかもしれません。 この記事では、次の内容を初心者向けに整理します。 何が修正されたのか...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-22T13:46:40+09:00"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "AIに美容室の社長を演じてもらい、コアドメインを探すヒアリング練習をしたら「強み」を掴めなかった話",
+   "url": "https://qiita.com/ken_risu_dev/items/c2e392bdb0d8ffd50fc6",
+   "summary": "はじめに 先日参加したドメイン駆動設計（DDD）に関する勉強会で出された課題に取り組みました。 課題の内容は、AIに「美容室を5店舗経営している社長」を演じてもらい、システム開発者の立場でヒアリングするというものです。 ヒアリングした内容をもとに業務を「コア・支援・汎用」...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T08:16:55+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "PHP2Shell緊急対策：日本国内向けサイトで海外IPを全部弾く、即効性のあるIPフィルタ防御",
+   "url": "https://qiita.com/Hiro884/items/27a98c86ef17b70df7ed",
+   "summary": "はじめに 2026年10月21日、PHPの重大な脆弱性 PHP2Shell（CVE-2026-109618 / CVE-2026-109619）が公開されました。CVSSv4.0スコアは9.2。PHP 5.4以降のほぼすべてのバージョンに影響し、認証不要でリモートコード実...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T16:44:20+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【書評】プロフェッショナルAI駆動開発を読んだ",
+   "url": "https://qiita.com/tetsuro731/items/c673cf947c3724cd5493",
+   "summary": "『プロフェッショナルAI駆動開発』を、著者の一人であるサカモトさんから献本いただいた。もう一人の著者の松本さんもSNSでよくお見かけする方で、2人とも自分とかなり近い界隈にいる方かなと思う。 この本は8月に発売されている。 すでにベストセラーというくらい評価の高い本な...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T16:39:50+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Anthropic公式の「データアナリスト用スキル」を読んで、分析の進め方を5段に整理してみた",
+   "url": "https://qiita.com/ktdatascience/items/8f1756519016c6f64ea0",
+   "summary": "はじめに Anthropicが職種別に公開しているClaude用プラグインのうち、データアナリスト向けの data を全部読みました。SQLの書き方集かと思って開いたら、中身の重心は「問いの立て方」と「出す前に自分の結果を疑う手順」にありました。 分析は「問いの重さを決...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T17:30:50+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "作って終わりじゃない。PHP騒動から考えるAI時代のモノづくり",
+   "url": "https://qiita.com/benjuwan/items/dfdf178488106c6dcb70",
+   "summary": "はじめに PHP騒動（PHP2Shell）をきっかけに、改めて考えたことがあります。 SNSでは、よくあるホームページを例に「なぜ、どこにPHPを使う必要があるのか？」という趣旨の投稿も見かけました。 たしかに、非エンジニアやHTML、CSSを少し知っている方々からすると...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T14:30:13+09:00"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "エラーは出ないのに数字が間違っている——データ分析で間違えやすい8つのポイントと見つけ方",
+   "url": "https://qiita.com/ktdatascience/items/590daa27d9752a9f38fd",
+   "summary": "はじめに データ分析の間違いは、たいていエラーになりません。SQLは正常に返り、数字もそれっぽく、そのまま資料に載ります。この記事では、そういう「静かな間違い」の典型を8つ挙げ、それぞれを出す前に見つける方法を、SQLの例つきで整理します。 間違いの多くは「数える範囲が...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T17:16:33+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【S3 Files】ファイルシステムと S3 バケットの同期にかかる時間を測ってみた",
+   "url": "https://qiita.com/ryu-ki/items/ac1152359bcf1217c1f5",
+   "summary": "はじめに 2026年4月7日に、Amazon S3 Files が登場しました。 S3 の汎用バケットを、ファイルシステムとしてマウントできるサービスです。EC2 からはふつうのファイルとして読み書きでき、裏では S3 バケットと同期してくれます。 便利そうだなと思...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T15:39:32+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "わからない言葉を、わからないままにしない。React基礎用語の学び直し！",
+   "url": "https://qiita.com/jota9613/items/138c3a90bd981659844f",
+   "summary": "はじめに 分からない単語（わかっている風な単語のこと）があるので 自分の言葉で説明できる様にするためにブログを書きます！ アジェンダ SPA ツールチェーン JSX トランスパイラー モジュール バンドラー アウトプット SPA（Single Page App...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T22:53:48+09:00"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Databricks の ai_decide で「個人情報が入っているか」だけ先に判定して、LLM のマスクを減らす",
+   "url": "https://qiita.com/kamo-shika/items/6e2223296543af9a7c9e",
+   "summary": "ai_decide() は 2026 年 10 月時点で Beta です。挙動や制約は変わりうるので、利用前に最新のドキュメントを確認してください。 はじめに 前回の記事で、音声の文字起こしに入った個人情報を、Databricks の ai_query()（SQL...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T11:09:43+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "顧客説明で「高市さんが言ってたから！」と言えるのが強すぎる！ PHPの緊急メンテで見えたトップダウンとAI時代の脆弱性対応",
+   "url": "https://qiita.com/shinkai_/items/a45455b514bf9d32275a",
+   "summary": "はじめに 10月21日の夜、「緊急メンテナンス」の文字を日本中のWEBサイトで目にしました。 きっかけはPHPの重大な脆弱性です。 国内の有名サービスや自治体のサイトが、次々と止まりました。 その騒動のさなか、話題になったのが首相がXでパッチ適用を呼びかけたことです。 個...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-22T19:20:29+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Claude Code の routine とローカル定期実行で、承認待ちで止まった AI 会社を動かし直した話",
+   "url": "https://qiita.com/berrylove/items/e5ae1c4b9ca20e1f34ce",
+   "summary": "この記事は Zenn からの転載です。元記事: https://zenn.dev/berrylove/articles/autonomous-ai-company-two-schedulers このアカウントは、AI エージェント組織が Claude Code で運営し...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T01:35:39+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "source は「源流」だった ── ER図を川の流れで読んで、中間テーブルと through を理解する",
+   "url": "https://qiita.com/mmsbox/items/f2950c2690150264353b",
+   "summary": "はじめに Railsで「お気に入り」や「いいね」を作るとき、こんなコードを書きます。 has_many :favorites has_many :favorite_books, through: :favorites, source: :book 私は最初、この2行目を...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T23:50:36+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "MetaのMuseが日本で開始したのでMuse Gadgetsで遊ぼう",
+   "url": "https://qiita.com/moritalous/items/840ed6c78ba0508142ef",
+   "summary": "MetaのMuseが日本で使えるようになりました！ そしてMuseにはハードウェアと連携するMuse Gadgetsというものが用意されています！楽しそう SDKも用意されています。 現時点では、ESP32とLinuxが対応しているようで、ESP32を使...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T19:54:53+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "ReActとPlan-Executeを実装して比較する — タスク特性ごとの向き不向き【TypeScript】",
+   "url": "https://qiita.com/joinclass/items/21ec0a1cb73de7a270e0",
+   "summary": "はじめに：1人会社で「エージェントの型」を間違えると何が起きるか 僕は合同会社ジョインクラスという1人会社で、launchd のジョブ17本を回しながら出版・受託開発・SNS配信をほぼ自動で動かしています。 その運用で何度も痛い目を見たのが、「エージェントにどこまで考えさ...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T08:30:02+09:00"
+   },
+   "categories": [
+    "AI",
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AIの報告「約5時間止まっていた」は約2分だった：Claude Code の JSONL で照合",
+   "url": "https://qiita.com/kaiyaku_iyada/items/cbadd82923bd7fcee3b3",
+   "summary": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。個人の実験で、Anthropic社とは無関係です。同社の公認や提携ではありません。書いてあることの多くは、2026年10月15日〜20日に私の環境で...",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T07:58:51+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "JSがこんなに減る！ HTML・CSS最新技術2026",
+   "url": "https://ics-ikeda.github.io/261024_vuefes_2026/",
+   "summary": "Vue Fes Japan 2026 池田泰延の発表資料。HTML・CSSの新機能を使ったUI実装と、Vue.jsとの連携を紹介。",
+   "score": 92,
+   "meta": {
+    "published": "2026-10-24T07:22:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認|セキュリティニュースのセキュリティ対策Lab",
+   "url": "https://rocket-boys.co.jp/security-measures-lab/brotli_cve-2026-111497_http2shell_20261024/",
+   "summary": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認 2026年10月21日、Node.js開発チームは、Brotliの展開処理に起因するメモリ破壊の脆弱性「CVE-2026-111497」を修正したセキュリティアップデートを公開しました。問題はNode.js固有のコードではなく、広く利用され...",
+   "score": 12,
+   "meta": {
+    "published": "2026-10-24T12:12:42Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "家族の代理で薬を貰いに行ったら、「ご本人のマイナンバーカードを提出して暗証番号をお願いします」と言われ、本人以外に要求することを疑問視した投稿が波紋を呼ぶ",
+   "url": "https://togetter.com/li/2762295",
+   "summary": "J@改め 天狗 神 / Amatsu Jin @jin_amatsu 家族の代理で薬を貰いに行った。 「ご本人のマイナンバーカードを提出して暗証番号をお願いします」 と言われたが、これ、法律違反ですよね？ 医療業界ではコレが普通なのか？ 金融業界に身を置く私から言わせれば、とんでもない失態だぞ？ もちろん指摘したが。 そこんとこ、...",
+   "score": 58,
+   "meta": {
+    "published": "2026-10-24T09:57:36Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ＧＭＯの「能動的サイバー防御」緊急要請、政府関係者「求めに応じ発動決める制度ではない」",
+   "url": "https://www.yomiuri.co.jp/politics/20261024-GYT1T00257/",
+   "summary": "【読売新聞】 ＧＭＯインターネットのクラウドサービスが不正アクセスを受けた問題で、同社は２４日、不正アクセスが原因で個人投資家らのＦＸ（外国為替証拠金）の取引で生じた損害を補償する方針を発表した。今月１日に本格施行された能動的サイバ",
+   "score": 20,
+   "meta": {
+    "published": "2026-10-24T12:20:15Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "みんなはどのダークパターン広告が好き？ - orangestar2",
+   "url": "https://orangestar2.hatenadiary.com/entry/2026/10/23/163042",
+   "summary": "この『orangestar2』ははてなproに月額料金を払って運営しているんですが、それは、広告をサイトから一切外すためにお金を払ってるんですよ。 えらいでしょう。ほめてください。 ここは悪いインターネットですね。6 作者:小島アジコAmazon なので、同人誌を買ってもらえたり、codocで記事を購入してくださるととてもうれ...",
+   "score": 54,
+   "meta": {
+    "published": "2026-10-23T08:42:25Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "人間が時間を使うべきところはどこか",
+   "url": "https://tellme.tokyo/post/2026/10/24/where-humans-spend-time/",
+   "summary": "この 1 年で、自分でコードを書くことはほとんどなくなった。そのぶん増えたのはレビューで、といっても同僚の PR だけではなく、エージェントが書いた plan ファイルを読むことも多い。同僚の PR も、その後ろにはたいていエージェントがいるので、結局はどれも AI との会話になっている。そうなると、人間の時間はどこ...",
+   "score": 22,
+   "meta": {
+    "published": "2026-10-24T11:36:59Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Building agents: When to fold subagents into your main agent loop",
+   "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+   "summary": "Building agents: When to fold subagents into your main agent loop When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate. If you’ve built an agent in C...",
+   "score": 53,
+   "meta": {
+    "published": "2026-10-24T04:26:57Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "中国系AIのARTEX、悪質改造が横行　公開停止後もサイバー攻撃に悪用か - 日本経済新聞",
+   "url": "https://www.nikkei.com/article/DGXZQOUC2361W0T21C26A0000000/",
+   "summary": "国内の不正アクセスに悪用されたとされる中国系の人工知能（AI）ツール「ARTEX（アルテックス）」で、悪質な改造が広がっている。開発者が公開を停止しているが、第三者がダウンロード済みのARTEXを改造し攻撃力を高めている。企業はさらなる警戒が必要だ。ARTEXは模擬的な攻撃をしかけて脆弱性を探索する行動を自律的に...",
+   "score": 5,
+   "meta": {
+    "published": "2026-10-24T05:43:26Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "GitHub CLI が短命 token をサポートしても ghtkn が必要な理由",
+   "url": "https://zenn.dev/shunsuke_suzuki/articles/ghtkn-advantage-over-gh-cli-expiring-token",
+   "summary": "ローカル開発のために GitHub App からセキュアに User Access Token を生成する CLI である ghtkn を開発しています。 ところで、本記事を執筆時点でまだ Public Preview ですが GitHub CLI (以下 gh) が自動 refresh される短命 token をサポートしました。 現在は opt-in ですが、今後はデフォルトになる予定だそうで...",
+   "score": 18,
+   "meta": {
+    "published": "2026-10-24T08:54:34Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「お名前.com デスクトップクラウド」ご利用のお客様へ改めてのお願い（第5報） | GMOインターネットグループ株式会社",
+   "url": "https://group.gmo/info/alert/2026102402/",
+   "summary": "GMOインターネットグループ株式会社 GMOインターネット株式会社 2026年10月21日から本日にかけてお知らせいたしました「お名前.com デスクトップクラウド」への第三者による不正アクセスについて、その後の調査状況およびお客様へのお願いを、改めてお知らせいたします。 お客様には、多大なるご迷惑とご心配をおかけし...",
+   "score": 22,
+   "meta": {
+    "published": "2026-10-24T09:39:37Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "決定的なフロントエンドアーキテクチャがいい",
+   "url": "https://speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
+   "summary": "Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay) による登壇資料です。 【Vue Fes Japan 2026】 …",
+   "score": 98,
+   "meta": {
+    "published": "2026-10-24T06:24:33Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIサイバー対策緊急提言 | チームみらい",
+   "url": "https://team-mir.ai/lp/ai-cybersecurity/proposal.html",
+   "summary": "情報漏洩の件数 漏洩件数はすでに昨年を上回る 485件 サイバー攻撃による情報漏洩の件数（2026.10.13時点） 参考：MM総研（2026年10月14日）国内サイバー攻撃による情報漏えい動向調査",
+   "score": 143,
+   "meta": {
+    "published": "2026-10-23T12:51:28Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "C言語を置き換える言語はどうあるべきか | 雑記帳",
+   "url": "https://blog.miz-ar.info/2026/10/replacing-c-language/",
+   "summary": "C言語は今でも重要な言語ではあるが、安全性に欠けるのは周知の通りである。「C言語よりも安全である」と謳うプログラミング言語はいくらでもあるが、その実装には何らかの形でC言語が使われていることが多い（Goあたりは例外かもしれない）。Python、PHPやRubyの「中」が安全でも、「基礎」にC言語で書かれた部分があっ...",
+   "score": 27,
+   "meta": {
+    "published": "2026-10-23T14:58:02Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで | gihyo.jp",
+   "url": "https://gihyo.jp/article/2026/10/ai-security-defense",
+   "summary": "AIで加速するサイバー攻撃と⁠⁠、防御をめぐる動き ――脆弱性の修正から⁠⁠、AIエージェントの行動制御まで 「約18カ月、持ちこたえる必要がある⁠」⁠。AnthropicのDeputy CISO（副最高情報セキュリティ責任者⁠）⁠、Jason D. Clinton氏は2026年10月22日、Xへの投稿で、サイバーセキュリティをめぐる直近4日間の深刻な状況に...",
+   "score": 6,
+   "meta": {
+    "published": "2026-10-24T09:15:05Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "不正アクセスを受けたGMOに金銭要求　政府に「能動的サイバー防御」要請",
+   "url": "https://www.watch.impress.co.jp/docs/news/2150944.html",
+   "summary": "",
+   "score": 4,
+   "meta": {
+    "published": "2026-10-24T08:31:27Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "社内SEがAIでやらかして職場が阿鼻叫喚の地獄絵図に陥った",
+   "url": "https://anond.hatelabo.jp/20261024120028",
+   "summary": "ガチで社内が阿鼻叫喚の地獄絵図になっていた。 理由はここ最近騒がせてるPHPの脆弱性ではない。 我が社でもAIを業務支援に導入するっていう話を、協力にIT部門の社内SEのおっさん…まあ俺は結構仲がよかったというか、共通趣味で向こうからよく話しかけてくる人なんだが、が推し進めていて、それをIT部門だけでパイロッ...",
+   "score": 28,
+   "meta": {
+    "published": "2026-10-24T03:11:39Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "‎iPod 25周年 - Apple Music",
+   "url": "https://music.apple.com/jp/ipod",
+   "summary": "2001年10月23日を振り返りましょう。25年前、Appleは1,000曲をポケットに入れて持ち運べる画期的なデバイス、初代iPodを発表しました。",
+   "score": 47,
+   "meta": {
+    "published": "2026-10-24T02:59:49Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） | GMOインターネットグループ株式会社",
+   "url": "https://group.gmo/info/alert/20261024/",
+   "summary": "2026年10月24日 お知らせ【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） お客様へのお見舞金のお支払いと不正取引による損失の補償について 〜能動的サイバー防御に関する措置の実施に向け、政府関係機関へ要請開始〜 GMOインターネットグループ株式会社 GMOインターネット株式...",
+   "score": 193,
+   "meta": {
+    "published": "2026-10-24T03:11:09Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ダイソーで1100円の「USB Type-C to HDMIケーブル」でスマホの画面をテレビに映すとどうなる？　対応機種なら試してみる価値あり",
+   "url": "https://www.itmedia.co.jp/mobile/articles/2610/24/news012.html",
+   "summary": "「DisplayPort Alternate Mode」対応のUSB Type-C端子で使える 本製品は、対応するスマートフォンやPCなどのUSB Type-C端子と、TVやディスプレイのHDMI入力端子をつないで映像を投影するためのケーブルだ。伝送できる最大解像度は3840×2160ピクセル（4K・2160p）で、同解像度では最大リフレッシュレート（1秒間に伝送で...",
+   "score": 18,
+   "meta": {
+    "published": "2026-10-24T02:12:29Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 17:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "summary": "Fast, focused, low-cost decisions for any application.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 19:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "OpenAI News",
+   "title": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "summary": "What forward deployed engineering means at OpenAI",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 06:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "url": "https://huggingface.co/blog/allenai/litpivot",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 16:15:50 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 22:24:34 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 07:51:31 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel CLI adds Spend Management",
+   "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T21:44:00.000Z"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Send feedback from the Vercel MCP",
+   "url": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T20:53:00.000Z"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "How Vercel Agent accesses production safely",
+   "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T20:29:00.000Z"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Deployments now show build cache size",
+   "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T19:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Vercel Connect adds managed Stripe API keys",
+   "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-23T17:00:00.000Z"
+   },
+   "categories": [
+    "バックエンド",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Origin Range Requests: Serving large files without range-request tuning",
+   "url": "https://blog.cloudflare.com/origin-range-requests/",
+   "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 18:22:59 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Bringing post-quantum cryptography to geographically fenced key management",
+   "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+   "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 18:06:56 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Cloudflare Blog",
+   "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+   "url": "https://blog.cloudflare.com/k-isms/",
+   "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 13:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "GitHub Blog",
+   "title": "How bug bounty sharpens one researcher’s security skills",
+   "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+   "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 17:21:30 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "LWN.net",
+   "title": "Security updates for Friday",
+   "url": "https://lwn.net/Articles/1102546/",
+   "summary": "Security updates have been issued by AlmaLinux (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3), Debian (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk), Fedora (bind9-next, ca-certificates, clevis-pin-trustee,",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 13:02:03 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "LWN.net",
+   "title": "KeePassXC 2.8.0 released",
+   "url": "https://lwn.net/Articles/1102270/",
+   "summary": "Version 2.8.0 of the KeePassXC password-management application has been released. The new release brings a lot of long-awaited new features, many bugfixes, and several security updates. Among the major features are the migration from Qt5 to Qt6, Auto-Type on Wayland (Linux), configurable keyboard sh",
+   "score": null,
+   "meta": {
+    "published": "Thu, 22 Oct 2026 13:34:37 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Marc Brooker",
+   "title": "Animations for System Builders: Metastability and Lost Writes",
+   "url": "http://brooker.co.za/blog/2026/10/23/animations.html",
+   "summary": "Animations for System Builders: Metastability and Lost Writes Pretty pictures help us learn, maybe? MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; One of the things I love using LLMs for is helping me understand systems better. In the Strands Decider post I wrote about how I often as",
+   "score": null,
+   "meta": {
+    "published": "Fri, 23 Oct 2026 00:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "OLAP Database Systems: Architecture, Engineering & Operations",
+   "url": "https://speakerdeck.com/shiviyer007/olap-database-systems-architecture-engineering-and-operations",
+   "summary": "OLAP database systems explained from first principles to production: why columnar storage wins on analytical workloads, how OLAP engines are architected, and what it takes to engineer and operate them at scale. A 65-slide executive technical briefing by Shiv Iyer, Founder and CEO of ChistaDATA Inc. ",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T15:30:52-04:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Undefined Behavior in C – A Lost Cause?",
+   "url": "https://speakerdeck.com/ennael/undefined-behavior-in-c-a-lost-cause",
+   "summary": "C is a very stable programming language. This sometimes leads to the impression that nothing can be improved. This talk will try to correct this impression. I will give an overview about what is happening in the C world. In particular, I will cover the topic of undefined behavior in C and talk about",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T08:23:51-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "無料でAIを使用した探索的テストをしたい〜 .NET × Appium × Apple Intelligence で Robo Test 風ツールを作った 〜",
+   "url": "https://speakerdeck.com/nakasho/muryou-de-ai-o-shiyou-shita-tansakuteki-tesuto-o-shitai-net-x-appium-x-apple-intelligence-de-robo-test-kaze-tsuru-o-tsukuta",
+   "summary": "2026/10/24(土)に開催された .NETラボ 勉強会 2026年10月( https://dotnetlab.connpass.com/event/400124/ ) に参加した時に当日受付LTで発表した資料です。 #dotnetlab",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T05:48:34-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "archify skill introduction",
+   "url": "https://speakerdeck.com/kazamori/archify-skill-introduction",
+   "summary": "はんなりプログラミング 生成AI LT会 in 京都 https://hannari-python.connpass.com/event/408082/",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T05:35:08-04:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "robots.txt checklist before deploy",
+   "url": "https://speakerdeck.com/speedyindexteam/robots-dot-txt-checklist-before-deploy",
+   "summary": "A robots.txt checklist before deploy: ten checks covering file location, server response, size, user-agent groups, rule length, wildcards and test URLs, so a release never blocks a live section from Google. Full walkthrough: https://uskotoivo81-netizen.github.io/test-robots-txt-rules-without-search-",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T04:03:23-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "AIをリアル世界に解き放つ　〜M5Stack×AIであなたのアイディアを手の平に〜",
+   "url": "https://speakerdeck.com/hamadakoji/ai-o-riaru-sekai-ni-tokihanatsu-m5stackxai-de-anata-no-aidia-o-tenohira-ni",
+   "summary": "AIの登場で、私たちのソフトウェア開発は大きく様変わりしました。 しかし、その変化はソフトウェアの世界に留まっていることが多いのではないでしょうか。 本セッションでは、AI活用のリアル世界への入口として、M5Stackのような小型デバイスに注目します。組み込みやIoTは、多くのWebエンジニアにとって馴染みの薄い技術スタックです。 その壁を、AIがどのように吸収し、乗り越えさせてくれるのか——実際に光り、喋り、動くデバイスを題材に紹介します。 リアルタイムデモを中心に、みなさんとAIの可能性とワクワク感を一緒に体験出来る場となればと思います。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T03:58:34-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Claude Code on Bedrock で統制をかける小ネタ集/claude-code-bedrock-governance-tips",
+   "url": "https://speakerdeck.com/emiki/claude-code-bedrock-governance-tips",
+   "summary": "DevelopersIO 2026 Tokyo #devio2026 - connpass https://classmethod.connpass.com/event/402011/ Claude Code on Bedrock で統制をかける小ネタ集 emi（クラウド事業統括本部 プロフェッショナルサービス事業本部 コンサルティング3部 / ソリューションアーキテクト）｜10分 Amazon Bedrock 経由で Claude Code を使うときに統制をかけるための小ネタを、実際に手を動かしてみた経験を交えて紹介します。設定ファイルからガードレールの使い方まで、短い小ネタをいくつか並べ",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T03:17:30-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "「社外イベント＝意識高い」の​壁を​壊せ！​元々​無関心だった​僕らが​部内で​社外イベントを​民主化して​15人を​連れ出すまで​",
+   "url": "https://speakerdeck.com/say_no_w/shagai-ibento-ishiki-takai-no-kabe-o-kowase-motomoto-mukanshindata-bokura-ga-bunai-de-shagai-ibento-o-minshuka-shi-te-15-hito-o-tsuredasu-made",
+   "summary": "スクラム祭り2026 福井トラック 13:00〜で発表したスライドです。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T03:03:22-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "ガチで放置できるClaude Code実行環境の作り方.pdf",
+   "url": "https://speakerdeck.com/lamaglama39/de-houchi-dekiru-claude-code-jikkou-kankyou-no-tsukurikata",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:59:08-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "AI駆動開発における開発環境のセキュリティの考え方",
+   "url": "https://speakerdeck.com/yamahiro/ai-kudou-kaihatsu-niokeru-kaihatsu-kankyou-no-sekyuriti-no-kangaekata",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:51:20-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "シンプルな設定ファイルで実現する AWS IAM Identity Center の ユーザー管理Terraformフレームワークを公開しました / Simplifying AWS IAM Identity Center User Management: An Open-Source Terraform Framework",
+   "url": "https://speakerdeck.com/yamaguchitk333/simplifying-aws-iam-identity-center-user-management-an-open-source-terraform-framework",
+   "summary": "シンプルな設定ファイルで、AWS IAM Identity Centerのユーザー・権限管理を効率化する、オープンソースのTerraformフレームワークを紹介します。 200名以上の開発者と160以上のAWSアカウントを管理する現場での経験をもとに、日々の権限変更を設定ファイルの編集だけで完結させる仕組みを解説。フレームワークの設計に加え、レビューしやすいTerraform Planの工夫や、AIによる設定変更支援を通じて、運用負荷を削減する方法を紹介します。 GitHub: https://github.com/yamaguchi-tk/idc-terraform-framework --",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:46:36-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Filter What the LLM Reads: RAG Governance with AgentCore Gateway",
+   "url": "https://speakerdeck.com/yakumo/filter-what-the-llm-reads-rag-governance-with-agentcore-gateway",
+   "summary": "AWS Community Day HONGKONG 2026 Evevt URL : https://awscommunity.hk/ Description : Given at AWS Community Day Hong Kong 2026. Put a Bedrock Managed Knowledge Base behind an AgentCore Gateway, and the per-role narrowing has to live somewhere: the REQUEST interceptor. Derive authorization values from ",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:41:30-04:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "コンテナサービスは ECS だけじゃない！Google Cloud の Cloud Runの魅力",
+   "url": "https://speakerdeck.com/gre212/kontena-sabisu-ha-ecs-dakejanai-google-cloud-no-cloud-run-no-miryoku",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:21:10-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "2026-10-24 JAWS JAWS-UG 茨城 #18 IAM Policy Autopilotってなにさ。terraform planからIAM Policyつくれるの? / What's IAM Policy Autopilot",
+   "url": "https://speakerdeck.com/masasuzu/whats-iam-policy-autopilot",
+   "summary": "[JAWS-UG 茨城 #18 祝！2周年記念祭 - connpass](https://jawsug-ibaraki.connpass.com/event/407471/) で話した内容。 IAM Policy Autopilot はなにか。Terraform Planとの連携についてLTしました",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:17:24-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "DevelopersIO 2026 Tokyo 現時点の衛星通信サービスの現状を整理してみる",
+   "url": "https://speakerdeck.com/maroon1st/developersio-2026-tokyo-genjiten-no-eisei-tsuushin-sabisu-no-genjou-o-seiri-shi-te-miru",
+   "summary": "2026年10月24日に開催した DevelopersIO 2026 Tokyo での登壇です。 https://events.classmethod.jp/study-club/connpass-402011/ 現時点の衛星通信サービスの現状を整理してみる Starlinkやスマホ直接通信の実用化が進む衛星通信サービスの現在地を整理します。国内主要キャリア（KDDI、楽天モバイル、NTT、ソフトバンク）と衛星通信事業者の関係に加え、インフラ視点を交えて解説してみます。なお個人的には Amazon Leo（旧称 Project Kuiper）が気になっており、その最新情報も織り込みたいと思いま",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:05:53-04:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Creating an evacuation planning AI agent using open data",
+   "url": "https://speakerdeck.com/zzzzico/creating-an-evacuation-planning-ai-agent-using-open-data",
+   "summary": "2026/10/24 JAWS-UG 茨城 #18 祝！2周年記念祭「オープンデータから避難計画AIエージェント作成」",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T02:01:47-04:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "国際カードブランドルール変更に伴うクレジットカード決済取引仕様変更について",
+   "url": "https://speakerdeck.com/k1style/kokusai-henkou-ni-tomonau-kurejittokado-kessai-torihiki-shiyou-henkou-nitsuite",
+   "summary": "主にEC事業者向けに、国際カードブランドのルール変更の内容と、EC事業者が対応すべきことを共有します。ECサイトの構築に対応したAPIプラットフォーム prismatix ではどのような対応を取ったかもご紹介します。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T01:47:20-04:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Microsoft のサポート ライフサイクルを理解する",
+   "url": "https://speakerdeck.com/murachiakira/microsoft-support-lifecycle",
+   "summary": ".NET ラボ勉強会 2026 年10月で登壇したセッション「Microsoft の製品ライフサイクルを理解する」の投影スライドです。 2027 年 1月に Windows Server 2016 のサポートが終了します。それにあわせて Microsoft 製品/サービスのライフサイクルについて整理しています。 製品/サービスのライフサイクルには「GA」「サポート終了」「拡張サポート」「提供終了」などいくつかのマイルストーンがありますが、製品やサービスによりこれらのマイルストーンのタイミングが異なります。こうしたライフサイクルについて、分かりやすく解説したいと思います。",
+   "score": null,
+   "meta": {
+    "published": "2026-10-24T01:39:26-04:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  }
+ ],
+ "oss": [
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "language": "Java",
+   "stars": 31537,
+   "topics": [
+    "adb",
+    "adblock",
+    "android-tv",
+    "android-tv-launcher",
+    "apple-tv",
+    "bloatware-removal"
+   ],
+   "created_at": "2026-10-17",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 3829,
+   "readme": "\n  \n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n  \n\n  \n\n**The viral tweet:** [x.com/gathint/status/2111379569030939102](https://x.com/gathint/status/2111379569030939102)\n\nOn 17 October 2026 I posted a before and after of my parents' TV, cleaned up by Claude Code over Wi-Fi.\nIt reached 7.4M views, people started doing the same to their own TVs, and their replies turned into\nthe lists here: 170+ TV models from 200+ contributors in four days. The repo was called tv-vibehack\nuntil the 19th; old links work.\n\n**Themes, switches and add-ons:** [cleanyour.tv/addons](https://cleanyour.tv/addons)\n\n**Official links:** the website is [cleanyour.tv](https://cleanyour.tv) and the code, launcher and\ntools live only in this repo. Other domains using the name, such as cleanyourtv.com, are not run by\nthis project ([#1004](https://github.com/Gathin23/cleanyourtv/issues/1004)).\n\n## How it works\n\nAndroid TVs have the same debug bridge as Android phones. Switch on USB debugging in the TV's\ndeveloper options, allow your computer once, and the rest is standard Android tooling:\n\n| Step | What happens |\n|---|---|\n| **Back&nbsp;up** | The list of installed packages and settings. |\n| **Disable** | The manufacturer's telemetry, ad services, content rows and preloaded junk, with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. |\n| **Install** | A small native launcher, made the default home screen. |\n\n**No root, no cable, nothing uninstalled, and a one-line restore if you change your mind.**\n\nThe bloat differs by brand, so the prompt has your coding assistant discover it on your TV and ask\nbefore touching anything you might use.\n\n## Quick start\n\n| You have | Do this |\n|---|---|\n| **A computer** | Use the prompt with a coding assistant: the three steps below. |\n| **Only an Android phone** | Use the community-built [Clean Your TV app](https://cleanyour.tv/app) by [@udhaykumarbala](https://github.com/udhaykumarbala): connect, analyse, clean, in about five minutes. No laptop, no coding agent. |\n\nWith a computer, you need it on the same Wi-Fi as the TV and a coding assistant with shell access.\n\nAny of these work: Claude Code (on [0G Private Computer](https://pc.0g.ai) or an [Anthropic plan](https://claude.com/pricing)), [Codex](https://github.com/openai/codex) or [Gemini CLI](https://github.com/google-gemini/gemini-cli).\n\n| Where | What to do |\n|---|---|\n| **1. On the TV** | Settings → Device Preferences → About → press OK on **Build** seven times → back → Developer options → **USB debugging** on. If you see a Network or ADB debugging toggle, turn that on too. Keep the TV on. |\n| **2. On your computer** | Paste [`PROMPT.md`](PROMPT.md) into your assistant and fill in your TV model. |\n| **3. Follow along** | Accept \"Allow USB debugging?\" on the TV, then answer the checklist: which apps you use, the dock size and app order, whether to keep the voice assistant, Chromecast and updates. |\n\nThe assistant backs up, debloats, builds and installs the launcher, and checks each step with\nscreenshots pulled from the TV. With this repo as context it takes about fifteen minutes.\n\n## What you get\n\nA home screen that looks like an Apple TV and gets out of the way:\n\n| Part | What it looks like |\n|---|---|\n| **A pitch-black home** | A dock of your four favourite apps in a rounded band, where Apple TV puts it. |\n| **A top shelf** | Names the focused app in large type, with an ambient glow in a colour taken from its artwork. |\n| **The rest of your apps in a grid** | Slides up when you press Down. |\n| **One floating glass highlight** | Springs from tile to tile. The focused tile lifts and shows its name. |\n| **Three frosted buttons** | Inputs (HDMI ports under the names you gave them in the TV's settings, AV, Live TV), Wi-Fi or Ethernet with the network name, Settings. |\n| **A greeting, a thin clock and the date** | In [Outfit](https://fonts.google.com/specimen/Outfit), and a matching Clock screensaver. Set `show_stats` in config or a theme for one line under the clock: CPU, free memory and free storage. It stays off unless you turn it on, and it refreshes only while Home is on screen. |\n| **Themes and module cards** | Themes change colours, wallpaper, dock and columns without a rebuild, and module cards let other apps plug a tile in, only with your say-so. |\n\nAnd a TV that stops working against you: no sponsored rows, no \"Discover\" nags, no analytics\nphoning home, no apps you never asked for.\n\n| | |\n|---|---|\n| ![The top shelf names the focused app over an ambient glow in its colour](docs/focus-2-up-netflix.png) | ![The Inputs popup: HDMI ports with what is connected, AV and Live TV](docs/inputs-menu.jpg) |\n| *Top shelf and ambient glow* | *Inputs: HDMI with connection state, AV, Live TV* |\n| ![The grid with the glass highlight on a tile and its name beneath](docs/focus-1-fancode.png) | ![The Clock screensaver: a thin clock drifting over the glow](docs/clock-screensaver.png) |\n| *The grid, one glass highlight, the tile's name* | *Clock screensaver, drifts so nothing burns in* |\n| ![The aurora theme: a wallpaper and tinted pills, pushed without a rebuild](themes/aurora/screenshot.jpg) | ![Six columns and a six-app dock from a theme's config.json](themes/six-columns/screenshot.jpg) |\n| *Aurora theme, pushed with `tools/theme.sh`* | *Six columns and a six-app dock, same launcher* |\n| ![Moving a tile: held OK, chose Move, the tile is picked up and the others dim](docs/tile-move.jpg) | ![The App library: installed apps, one press adds an app back to Home](docs/app-library.jpg) |\n| *With `tile_menu`, hold OK on a tile, Move: arrows carry it, Back puts it down* | *App library: one press puts a removed app back on Home* |\n\n## Supported TVs\n\nAnything running **Android TV** or **Google TV**.\n\n| Platform | What works |\n|---|---|\n| **Android TV, Google TV** | The debloat and the launcher. |\n| **Fire TV** | The debloat half only, since Fire OS will not hand Home to a third-party launcher. And on the 2015 Fire TV Box (Fire OS 5) even t",
+   "featured_before": true
+  },
+  {
+   "repo": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+   "language": "Python",
+   "stars": 21809,
+   "topics": [],
+   "created_at": "2026-10-16",
+   "pushed_at": "2026-10-21",
+   "found_in": "新着人気",
+   "stars_per_day": 759,
+   "readme": "# DeepInfer\n\nDeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale.\n\nSupported models:\n\n- DeepSeek-V4.1-Flash\n\nSupported features:\n\n- Optimized kernels, model and sampler runtime\n- Parallelism: Attention DP / balanced CP, MoE EP + EPLB\n- DSpark and confidence-scheduled verification\n- SWA bounded replay\n- Asynchronous scheduling (zero-overhead batch scheduler)\n- Batch-invariant inference\n- Deterministic sampling\n- Structured outputs\n\nFeature details and configuration\n\n- **Optimized kernels:** [FlashMLA](https://github.com/deepseek-ai/FlashMLA), [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM), [DeepEP](https://github.com/deepseek-ai/DeepEP), [TileKernels](https://github.com/deepseek-ai/TileKernels), [DeepSelect](https://github.com/deepseek-ai/DeepSelect), and custom [TileLang kernels](deepinfer/model_executor/layers/tilelang_ops).\n- **DSpark and confidence-scheduled verification:** accelerate decoding with draft tokens and use confidence estimates to schedule verification. Set `DEEPINFER_ENABLE_MTP_VARLEN=1`; `DEEPINFER_USE_NEXTN_DECODE` controls the maximum draft length (default: 5).\n- **Decoder SWA bounded replay:** reduce decoder prefill work by replaying only a bounded suffix. Set `DEEPINFER_YOCO_PREFILL_TRUNCATION_MODE=compact` and `DEEPINFER_YOCO_PREFILL_KEEP_TOKENS=140` for the default V4.1 settings; the retained suffix must cover the SWA window plus the maximum backtracking length.\n- **Asynchronous scheduling:** overlap CPU batch scheduling with device execution. Enabled by default.\n- **Batch-invariant inference:** keep model results identical across different batch compositions. Enable with `DEEPINFER_BATCH_INVARIANT=1` (NVIDIA only).\n- **Deterministic sampling:** produce identical outputs for identical input tokens and sampling parameters. Set `DEEPINFER_BATCH_INVARIANT=1 DEEPINFER_ENABLE_MTP_VARLEN=0` and pass a fixed `seq_seed` to `SamplingParams` (NVIDIA only).\n- **Structured outputs:** constrain generation to a regex, JSON schema, or EBNF grammar. Pass `so_args={\"schema_type\": ..., \"schema\": ...}` to `SamplingParams`; see [examples](examples/_structured_output.py).\n\nSupported hardware:\n\n- NVIDIA SM100 GPUs\n- Huawei Ascend 950 NPUs\n\nRequired for a complete inference service (not included in this release):\n\n- A KV cache system\n- VE/Prefill/Decode disaggregation (most required engine functionality is already implemented)\n- Load balancing across data-parallel replicas for both prefill and decode\n\n## Getting started\n\n### Prerequisites\n\n- Linux\n- GCC >= 13.0\n- Python 3.12\n- CUDA 13 (NVIDIA only)\n- CANN 9.2 (Ascend only)\n\n### Build from source\n\nBefore building DeepInfer, please create and activate an empty Python 3.12 environment.\n\n``` bash\n# Use `ascend` instead for the Ascend platform\n# Keep it exported in the environment where you run DeepInfer\nexport DEEPINFER_ACCELERATOR=nvidia\n./build.sh\n```\n\n### Offline inference\n\nThe default checkpoint, [`deepseek-ai/DeepSeek-V4.1-Flash-1017`](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017), is\ndownloaded into the Hugging Face cache on the first run; set `DEEPINFER_HF_MODEL_DIR=/path/to/DeepSeek-V4.1-Flash-1017` to\nrun from a local copy instead.\n\n``` bash\npython examples/offline_inference.py\n```\n\nSee [examples](examples/README.md) for details.\n\n## Performance benchmarks\n\n| Prefill | Decode |\n| :---: | :---: |\n| [![Prefill: non-cached input throughput vs. latency](doc/images/prefill_pareto.png)](doc/images/prefill_pareto.png) | [![Decode: output throughput vs. per-user speed](doc/images/decode_pareto.png)](doc/images/decode_pareto.png) |\n\nMeasured on 4 SM100 GPUs for prefill and 64 for decode — each within one scale-up domain. To reproduce the benchmarks, see [run_sweep.sh](examples/sweep/run_sweep.sh).\n\n## Evaluation benchmarks\n\nSee [eval/README.md](eval/README.md).\n\n## License\n\nDeepInfer is released under the Apache License 2.0. See [LICENSE](LICENSE) for details.\n\n## Acknowledgments\n\nDeepInfer was originally built primarily on [vLLM](https://github.com/vllm-project/vllm), with additional inspiration from [SGLang](https://github.com/sgl-project/sglang) and [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM). We thank their developers.\n\n## Citation\n\n```bibtex\n@misc{deepinfer2026,\n  title = {DeepInfer: High-performance, large-scale inference framework for DeepSeek models},\n  author = {DeepSeek-AI},\n  year = {2026},\n  publisher = {GitHub},\n  howpublished = {\\url{https://github.com/deepseek-ai/DeepInfer}},\n}\n```\n",
+   "featured_before": true
+  },
+  {
+   "repo": "KnifeLemon/Filee",
+   "url": "https://github.com/KnifeLemon/Filee",
+   "description": "Free, open-source file converter. Convert 255 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+   "language": "C#",
+   "stars": 11624,
+   "topics": [
+    "audio-converter",
+    "avalonia",
+    "batch-conversion",
+    "converter",
+    "csharp",
+    "document-converter"
+   ],
+   "created_at": "2026-09-29",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 636,
+   "readme": "\n  \n\n  A free, open-source file converter you use by dragging.\n  Hold a key (Ctrl, Option on macOS), drag files and drop them on a format in the donut that opens at your cursor.\n\n  Website ·\n  Download ·\n  LinkedIn ·\n  Install ·\n  Command line ·\n  Development\n\n  \n  \n  \n  \n  \n  \n  \n\n  \n  \n\n  English ·\n  Español ·\n  日本語 ·\n  한국어 ·\n  简体中文 ·\n  繁體中文 ·\n  Polski ·\n  हिन्दी ·\n  Русский ·\n  العربية ·\n  Português (Brasil) ·\n  Français ·\n  ไทย\n\n  \n    \n      Right at your cursor\n      No app window to open.\n      The formats appear where you already are, only the ones that make sense for the files you drag.\n    \n    \n      263 formats, no other software\n      Images, PDF, Word, Excel, PowerPoint, HWP, e-books, archives, fonts, CAD, 3D models and geospatial data work without Office, Hancom Office or LibreOffice.\n    \n    \n      Stays on your computer\n      Nothing is uploaded.\n      Filee works offline and saves the result next to the original.\n    \n  \n\n## See it in action\n\n  \n  Watch the 27-second video and try the interactive demo on filee.sh\n\n## Install\n\nDownload from [Releases](https://github.com/KnifeLemon/Filee/releases/latest).\n\n- **Windows 10/11**: run `Filee--win-Setup.exe`, or unzip the `win-Portable.zip` and run `Filee.exe`.\n  - Setup is Filee's own installer, in Filee's languages, and needs nothing else on the PC.\n  - It can add the Explorer menu, start at sign-in, the `filee` command and optional engines.\n  - Silent installs take Inno Setup's switches (`/VERYSILENT /SUPPRESSMSGBOXES`).\n- **macOS 13+** (preview): unpack the `osx-arm64` or `osx-x64` package and run `./install.sh`.\n  - Or open the `.dmg` and drag Filee to Applications (the `filee` command comes with `install.sh`).\n  - The build isn't notarized yet, so allow the first start in System Settings → Privacy & Security → **Open Anyway**.\n- **Linux x64/ARM64** (Ubuntu 22.04+): unpack the package and run `./install.sh` (no root, needs Python 3).\n  - Drag gestures need X11.\n    On Wayland, use the drop zone and the file manager's right-click menu.\n\nFilee shows new releases in its menu and updates itself, keeping your settings and engines.\nAfter an update, a few slides show what's new.\n\n**Windows: Filee doesn't start (no window, no error)?**\nThis happens on Windows 10 that hasn't been updated for a long time, on a PC whose processor supports Hardware-enforced Stack Protection (CET).\nWindows turns that protection on but lacks a part that .NET needs, so Filee and Setup stop right away.\n\n- **Recommended:** install the available Windows updates (the latest cumulative update).\n- **If updating isn't possible:** turning the protection off for Filee alone usually works.\n  Run this in PowerShell as administrator:\n\n```powershell\nSet-ProcessMitigation -Name Filee.exe -Disable UserShadowStack\nSet-ProcessMitigation -Name filee-cli.exe -Disable UserShadowStack\n```\n\nDo the same with Setup's file name (e.g. `Filee--win-Setup.exe`), or use the portable ZIP, which needs only these two lines.\nTo undo it, remove the entries in Windows Security → App & browser control → Exploit protection settings → Program settings.\n\n## Features\n\n- **A donut at the cursor**: hold a key, drag files and drop them on a format.\n  Only formats that fit the files appear.\n- **Straight from the browser**: drag a picture, a link to a file or a download out of Chrome, Edge, Firefox or Safari the same way.\n  - Filee saves it to your Downloads folder (or keeps only the converted file) and converts it.\n  - Links are downloaded without your browser's sign-in.\n- **One toolbar per file type**, arranged by drag and drop, with presets for:\n  - quality, size, DPI\n  - PDF pages and compression\n  - video and audio\n  - output folder and file names\n- **Two sides to every donut**: press Tab or turn the mouse wheel while it is open to flip it over to less common formats and tools.\n- **Crop before converting**: the Crop slice opens pictures one by one.\n  Drag the frame, pick a ratio, and only that part is saved.\n- **Many files at once**, in parallel.\n  Routes with several steps (HWP → HWPX → DOCX) are found automatically.\n- **Watch folders** convert every file that lands in them.\n- **Recent conversions** on Home, each with a thumbnail: open the result, or open it with another app.\n- **Other ways in**: the right-click menu, a keyboard shortcut, the drop zone and the [`filee` command](#command-line).\n- Light and dark themes with your own accent colour and donut opacity, in English, Español, 日本語, 한국어, 简体中文, 繁體中文, Polski, हिन्दी, Русский, العربية (right to left), Português (Brasil), Français, नेपाली, ไทย, Türkçe and Português (Portugal).\n\n## Screenshots\n\n  \n    \n    \n  \n  \n    Arrange the donut by drag and drop, one profile per file type\n    Home: drop zone and recent conversions\n  \n\n## Formats\n\n| From | To |\n|---|---|\n| **Images**: JPG, PNG, WEBP, AVIF, TIFF, BMP, GIF, APNG, ICO, ICNS, JPEG XL, JPEG 2000, PSD/PSB, TGA, PPM, HEIC, QOI, DDS, PCX, MNG, CUR, …;GIMP XCF, camera RAW (CR2, CR3, NEF, ARW, DNG, …), DICOM, OpenEXR, HDR, FITS, JPEG XR (Windows), iPhone Live Photo (LIVP) read | any of these (HEIC⁵), PDF, SVG (traced), resized, grayscale;Live/Motion Photos (iPhone, Android) → their video (MP4, MOV⁵), and a video → Live Photo (iPhone) or Motion Photo (Android)⁵, experimental |\n| **Vector**: SVG, SVGZ, EMF, WMF, AIEPS, PS¹CDR, VSD, CGM, ODG, FODG² | PDF (vector), PNG and other images,SVG ↔ SVGZ, SVG → DXF/DWG, PDF → EPS/PS¹, SVG → EMF, WMF, ODG² |\n| **PDF** | DOCX, HWPX, TXT, PNG, JPG, TIFF, CBZ, PPTX (a picture of each page), SVG²;merge (in an order you choose first), split, page ranges, compress (smaller PDFs) |\n| **Documents**: DOCX, DOCM, DOTX, EML, Outlook MSG;OFD (Chinese e-invoices, official documents) readDOC, ODT, FODT, OTT, RTF, WPS, WPD, Pages, ClarisWorks, MacWrite, T602, …² | PDF, DOCX, HWPX, EPUB, TXT, HTML;MSG → EMLODT, FODT, OTT² |\n| **Spreadsheets**: XLSX, XLSM, XLS, XLT, ODS, CSV, TSVOTS, FODS, Numbers, ET² | PDF, XLSX, ODS, CSV, TSV, JSON, HWPX, HTMLXLT, OTS² |\n| **Presentations",
+   "featured_before": false
+  },
+  {
+   "repo": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+   "language": null,
+   "stars": 10455,
+   "topics": [
+    "ai-video",
+    "awesome",
+    "awesome-list",
+    "claude",
+    "claude-opus",
+    "creative-coding"
+   ],
+   "created_at": "2026-09-27",
+   "pushed_at": "2026-10-13",
+   "found_in": "新着人気",
+   "stars_per_day": 621,
+   "readme": "# Awesome Opus 5.5 Videos\n\nViral videos people made with **Claude Opus 5.5**, each with the prompt the creator shared (or, where no prompt was published, their original post).\n\nEvery video here was made by asking Claude Opus 5.5 to write the animation as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent.\n\n**[▶ Watch all 418 side by side with live remakes on Skillry](https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos)**\n\n- 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry\n- 100 remade videos highlighted below, one per distinct prompt\n- Every entry links to the creator's original post\n- Latest update (2026-10-12): 10 videos added, mostly explainers and 3d scenes\n- 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))\n\n## Contents\n\n- [Motion graphics](#motion-graphics) (58)\n- [Explainers](#explainers) (16)\n- [3D scenes](#3d-scenes) (14)\n- [Games & interactive](#games--interactive) (12)\n- [Latest prompts](#latest-prompts) (30)\n- [How to use a prompt](#how-to-use-a-prompt)\n- [Credits](#credits)\n\n## Motion graphics\n\n@anabology · PromptCanvas · AI image@moritzkremb · PromptSVG · GSAP@melvynx · PromptCanvas · SVG · GSAP\n@ajith_io · PromptCanvas · SVG · GSAP@daniel_mac8 · PromptSVG · GSAP@prasad_pilla · PromptSVG · GSAP\n@itsolelehmann · PromptCanvas@Ishaaqahamed · PromptCanvas@heyiammallik · PromptThree.js · Canvas\n@ann_nnng · PromptCanvas@ajith_io · PromptCanvas · Particles@0xfemyn · PromptCanvas · SVG · CSS\n@prasenx · PromptGLSL · Canvas · Web Audio@brainextends · PromptGLSL · SVG@pankajkumar_dev · PromptCanvas\n@nolkeeg · PromptCanvas · Particles@1littlecoder · PromptCanvas@ezshine · PromptCanvas · SVG · GSAP\n@songkeys · PromptCanvas@jackfriks · PromptCanvas · SVG · GSAP@sab8a · PromptCanvas · AI image\n@viktoroddy · PromptCanvas · SVG · GSAP@kloss_xyz · PromptCanvas · Web Audio@monokern · PromptGLSL · WebGL · Canvas\n@zheke · PromptGLSL · WebGL · Canvas@dale_vaz · PromptCanvas@ChatGptAstra · PromptCanvas\n@SPEARwtf · PromptThree.js · Canvas@MajorBaguette · PromptCanvas@miskinho_ · PromptSVG · GSAP\n@felipemoller · PromptThree.js · SVG · GSAP@HO_BA · PromptCanvas@HowDevelop · PromptCanvas\n@MiaAI_lab · PromptGLSL · WebGL · Canvas@gouthamjay8 · PromptSVG · GSAP@marklaunches · PromptCanvas · SVG\n@KmAsiff · PromptSVG@TrigLyceee · PromptSVG · CSS@Mounnna · PromptCanvas\n@johnsavage_ai · PromptThree.js · GLSL · Canvas@rammanq · PromptSVG · GSAP@RatheeJaisal · PromptCanvas · SVG\n@wani_shola · PromptSVG · GSAP@robvjourney · PromptCanvas · SVG@lester_tyy · PromptSVG\n@pound75423 · PromptCanvas · CSS@souravbhar871 · PromptCanvas@gautam_mer1 · PromptCanvas · SVG · GSAP\n@doubleunplussed · PromptCanvas@bizibeast · PromptSVG · GSAP · CSS@GroundControl · PromptCanvas · Web Audio\n@ceowinkz · PromptCanvas · SVG@Xanderwow_A · PromptCanvas@iamMXFSCHR · PromptGSAP\n@sachaarbonel · PromptCanvas · SVG · GSAP@manuelogomigo · PromptCanvas · SVG@chrisjdimarco · PromptCanvas\n@Madhav_XO · PromptThree.js · GLSL · Canvas\n\n## Explainers\n\n@Ror_Fly · PromptCanvas@deedydas · PromptSVG · GSAP@sudo_kiran · PromptCanvas · SVG · GSAP\n@0xValure · PromptThree.js · Canvas@verbove · PromptCanvas@ajith_io · PromptThree.js · GLSL · Canvas\n@LinearUncle · PromptSVG · Web Audio@alex_prompter · PromptSVG · GSAP@emollick · PromptCanvas\n@kloss_xyz · PromptCanvas · SVG · CSS@henkvaness · PromptSVG@AmitSingha89 · PromptSVG\n@tak3sh8 · PromptCanvas · Web Audio@AstroTheWizard · PromptCanvas@sudo_kiran · PromptCanvas · SVG · CSS\n@Sarut0biSasuke · PromptCanvas\n\n## 3D scenes\n\n@twoclipping · PromptSVG · CSS@__morse · PromptSVG@lukasersil · PromptThree.js · GLSL · Canvas\n@BThreeAgency · PromptCanvas · SVG · CSS@alexalbert__ · PromptThree.js · GLSL · Canvas@Michaelzsguo · PromptGLSL · Canvas\n@twoclipping · PromptCanvas@AxtonLiu · PromptGLSL · WebGL@mdaman010 · PromptThree.js · GLSL · SVG\n@BuildFastWithAI · PromptThree.js · Canvas@anirockshady · PromptThree.js · GLSL · SVG@Anilraok · PromptThree.js · Canvas\n@ishuagra02 · PromptThree.js · GLSL · Particles@DemitiyaGeekzen · PromptGLSL · WebGL · Canvas\n\n## Games & interactive\n\n@MandelDuck · PromptThree.js · GLSL · Canvas@gandamu_ml · PromptThree.js · GLSL · Canvas@0xChuckstock · PromptThree.js · GLSL · Playable\n@zacxbt · PromptCanvas · Pixel art · Playable@LexnLin · PromptThree.js · GLSL@redpersongpt · PromptSVG\n@froessell · PromptThree.js · Canvas · Physics@aisongman · PromptCanvas · Pixel art · Playable@Bilimfili1 · PromptCanvas · SVG\n@Ved_CJ · PromptThree.js · Canvas@NoLit64 · PromptCanvas · Web Audio · Playable@opener_ai · PromptCanvas · Pixel art · Playable\n\n## Latest prompts\n\nThe newest of 285 more prompts, each linking to the creator's post with the video. All of them are in [`prompts/`](prompts/).\n\nMotion Graphics Music Machine@adrianduta96Krakatoa Volcano WebGL Animation@pagustafssonThree.js Castle Above Clouds Experience@YouWareAI\n3D Logo Intro Animation Studio@juancarlos17626Apple Evolution Motion Graphics@aiRobertDailyGolden Hour Manor Scene@Thusatharan\nInteractive Zen Garden HTML Animation@arixxbtClaude Motion: Opus 5.5 Animated Story@N01ennnCinematic F1 Pit Stop Animation@rubenssoto_ai\nProcedural 3D Elephant in HTML@ThusatharanOpus 5.5 Brand Teaser@UtsavChopra30Deterministic Frame-Based Video Rendering@0xKarmi\nTemple of Heaven 3D Animation@shunshu323851433D Brake Pedal Stress Simulation Animation@chang_Opus 5.5 Rust Fframes Audio-Reactive Video@BuildFastWithAI\nInteractive HTML Presentation with Narration@Drake5112Saturn V Rocket Interactive 3D Model@aichrisleeSaaS Launch Video Animation@Screeendev\nRealistic Lava Lamp WebGL Animation@juancarlos17626House Growth Animation@cryptowluhaGSAP Timeline with Frame Checking@fleyta88\nUI Motion Loop Design@flxrncBlender Previs Car Chase@tonysurixFood Craving Product Launch Film@ultimaxbt\nMinecraft Street View Animation@0xverdaoCinematic Dreams Visual Expe",
+   "featured_before": true
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+   "language": "Kotlin",
+   "stars": 4352,
+   "topics": [],
+   "created_at": "2026-10-20",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 556,
+   "readme": "\n\n# Aerial\n\n**给国产电视的一块干净桌面。**\n\n参照 Apple TV 做的 Android TV 桌面：没有广告，没有推荐流，只有你的 App、壁纸和航拍屏保。\n适合小米、TCL 等国产电视，开机自动进入，待机也不会被清理。\n\n**中文** · [English](README.en.md)\n\n![Aerial 首页](site/img/home.jpg)\n\n| 电视自带的桌面 | 换上 Aerial 之后 |\n|:---:|:---:|\n|  |  |\n\n## 功能\n\n  \n  \n\n- **首页**：常用的一排 App 放在屏幕下方的玻璃底板上，往下是全部 App。小米「应用中心」「米家」这类藏起来的系统 App 也在。\n- **整理**：长按 OK 键（或按菜单键）可以移动、放进文件夹、隐藏、卸载。固定到主屏幕的 HDMI 可以选接的是 Apple TV、PlayStation、Switch、Xbox、电脑等，换成对应的图标，也能在手机上起名字。\n- **用手机整理**：扫电视上的二维码，手机上就是和电视一样的图标网格：按住拖动排序，点一下改名、换图标、放进文件夹或隐藏，也能把 HDMI 等信号源加到主屏幕。\n- **控制中心**：在第一排按上键到右上角打开，有信号源、网络、设置、音量、亮度和个性化。\n- **屏保**：Apple TV 的 114 段航拍影片，电视支持时播 4K 或 4K 杜比视界，也可以换成照片、时钟或从手机添加的本地视频（[说明](docs/SCREENSAVER_VIDEOS.md)）。\n- **壁纸**：必应每日精选、14 张内置壁纸、用手机扫码传的照片，或者航拍：停在主屏幕 10 秒后在磁贴后面播放，按任意键停在当前画面。\n- **个性化**：单排或双排、时钟大小和位置、App 名称、焦点样式、按键声音，都能改。\n\n  \n  \n\n  \n  \n\n## 安装\n\n不用 root，不动系统应用，随时能还原。电脑和电视连同一个网络。\n\n### 1. 打开电视的 ADB 调试\n\n| 电视 | 怎么打开 |\n|---|---|\n| **小米 / Redmi** | 设置 → 关于 → 连续按「产品型号」进入开发者模式，再到 设置 → 账号与安全，打开「ADB 调试」和「安装未知来源的应用」 |\n| **TCL / 雷鸟** | 设置 → 关于 → 本机信息，快速按遥控器「上下左右」，在底部的「更多」里打开 ADB |\n| **海尔 / 模卡** | 按电视机身上的信号源键，再用遥控器按「左左上右」，在工厂菜单里打开「ADB 调试开关」，别动其他选项 |\n| **OPPO（含 S1）** | 设置 → 系统 → 关于本机 → 设备型号，按「上上右右」再按确认；再到 设置 → 系统 → 开发者选项，打开「USB 调试」。IP 在 设置 → 网络 → 已连接的网络 最下面 |\n| **其他 Android TV** | 设置 → 设备偏好设置 → 关于 → 连按「内部版本号」7 次，再在开发者选项里打开「USB 调试」 |\n\n电视的 IP 在「设置 → 网络 → 已连接的网络」里。第一次连接时，电视会问是否允许调试，选「始终允许」。\n更细的分品牌说明（包括打不开 ADB 的机型）见 [docs/devices/adb-by-brand.md](docs/devices/adb-by-brand.md)。\n\n### 2. 安装\n\n**让 Agent 装（推荐）**：把下面这段发给能在电脑上运行命令的 Agent（WorkBuddy、豆包电脑版、千问电脑版、Trae、Claude Code、Codex 等）：\n\n```text\n请帮我把开源电视桌面 Aerial 装到我的电视上，并设为开机进入的桌面。\n电视 IP：\n保持 ADB 常开：要\n\n安装说明在这里：https://aerial.qust.me/agent.md\n（打不开时用 https://raw.githubusercontent.com/pengchujin/aerial-tv/main/site/agent.md ）\n\n请先完整读完安装说明再动手，然后在我的电脑上亲自运行命令，不要只把步骤告诉我。需要我在电视上操作时提醒我。\n最后按说明里的「验收」，把这几条命令的原始输出原样贴给我：\n- adb shell \"cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.HOME\"\n- adb shell settings get secure enabled_accessibility_services\n- 按主页键后的 adb shell \"dumpsys window | grep mCurrentFocus\"\n```\n\n手机上的豆包、网页版聊天只会把步骤告诉你，不会执行；要用能跑命令的电脑版 / 工作版（豆包电脑版或豆包工作版、WorkBuddy、千问电脑版、Trae、Claude Code、Codex 等）。Agent 说装好了，看它贴出的 `mCurrentFocus` 输出里有没有 `app.orchard.tv`。\n\n**没有电脑**：有用户用手机上的甲壳虫 ADB 助手、超级小爱装成功过，本仓库没有逐一实测。步骤和上面的 Windows 步骤一样，装好后建议再用电脑跑一遍验收。\n\n**一行命令（macOS / Linux）**：\n\n```bash\ncurl -fsSL https://aerial.qust.me/install.sh | KEEP_ADB=1 TV=192.168.1.20 bash\n```\n\n**手动**：下载 [aerial-standard.apk](https://aerial.qust.me/download/aerial-standard.apk)，然后：\n\n```bash\nadb connect 192.168.1.20:5555\nadb install -r aerial-standard.apk\nadb shell pm grant app.orchard.tv android.permission.WRITE_SECURE_SETTINGS\nadb shell cmd notification allow_listener app.orchard.tv/app.orchard.tv.guard.RevivalListener\nadb shell appops set app.orchard.tv SYSTEM_ALERT_WINDOW allow\nadb shell am start -n app.orchard.tv/.MainActivity\n```\n\nWindows 用 Agent 装，或照[安装说明](site/agent.md)里的 Windows 步骤。\n\n**升级**：1.32 起，有新版本时控制中心会出现「有新版本」，点进去选「下载并安装」，在电视自己的安装界面确认（小米、TCL 上验证过），装完回到 Aerial，设置都保留。电视不让 App 安装应用时，升级就是再运行一次安装命令：升级页上有二维码，手机扫码能直接复制这台电视的命令，或者交给 Agent。1.31 及以前没有这个按钮，这一次还是要再运行一次安装命令。\n\n### 还原\n\n```bash\ncurl -fsSL https://aerial.qust.me/install.sh | TV=192.168.1.20 bash -s restore\n```\n\n最后加 `--uninstall`（`bash -s restore --uninstall`）会顺便卸载 Aerial。不能运行 bash（Windows）时，逐条的 adb 命令见[安装说明的「还原」](site/agent.md#还原)。\n\n想交给 AI 还原，把这段直接发过去（要能在电脑上运行命令）：\n\n```text\n请按 https://aerial.qust.me/agent.md 里「还原」一节的步骤，把我电视（IP：）的桌面还原成原来的，Aerial 先不卸载。\n请在我的电脑上亲自运行命令，最后把 settings get secure enabled_accessibility_services 和按主页键后的 dumpsys window | grep mCurrentFocus 原始输出贴给我。\n```\n\n### 常见问题\n\n- **只用 U 盘装了 APK**：1.32 起「我的应用」里有 Aerial 的图标，打开后会提示怎么设为主屏幕。只装 APK 时按主页键、开机和待机后还是原桌面，要用上面的命令或 Agent 再设置一次（会覆盖安装，不丢设置）。\n- **TCL 弹出「多屏互动」**：按遥控器「右」再按确认，选「同意」。\n- **创维 `adb install` 报 `INSTALL_FAILED_USER_RESTRICTED`**：先运行 `adb shell settings put global verifier_verify_adb_installs 0` 再装（用户反馈，详见[安装说明](site/agent.md#常见情况)）。\n- **提示不允许安装桌面类 App**：命令最后加 `-s guard`，或下载 [aerial-guard.apk](https://aerial.qust.me/download/aerial-guard.apk)。\n- **`KEEP_ADB=1` 是什么**：小米待机后会关掉 ADB，加上它 Aerial 会重新打开，方便以后升级。\n- **原来的桌面、会员、小爱、账号和有线电视还在吗**：都在。Aerial 只换桌面，原来的桌面在 App 列表里（小米影视、PatchWall 从「桌面」磁贴进），小爱同学、小米账号、有线电视照常。开机广告是固件播的，去不掉。\n- **不支持**：LG webOS、三星 Tizen、华为鸿蒙智慧屏，以及 Android 4.4 及更老的系统。极米 H3、老乐视、荣耀智慧屏、老康佳（看不到版本号）等打不开 ADB 的机型也暂时没办法。\n\n## 它怎么接管桌面\n\n国产电视大多只认自家桌面，待机时还会清理第三方 App。所以 Aerial 用一个无障碍服务，原桌面一出现就切回来（只看哪个窗口在前台，不读屏幕内容）；被清理后再靠通知监听让系统把它拉起来（不读通知）。原生 Android TV 上不需要这些，直接设成默认桌面就行。\n\n## 已验证的电视\n\n| 机型 | 系统 | 情况 |\n|---|---|---|\n| 小米 MiTV-MFTR0 / Redmi X65 2026 | Android 14 | 日常使用（[笔记](docs/devices/xiaomi-mitv-mftr0.md)） |\n| 小米 MiTV-MFFU0 | Android 14 | 安装、开机自启（[笔记](docs/devices/xiaomi-mitv-mffu0.md)） |\n| 小米 MiTV-MTSU0 / S65 Mini LED 2026 至尊版 | Android 14 | 安装、开机自启（[笔记](docs/devices/xiaomi-mitv-mtsu0.md)） |\n| 小米 MiTV-ASTP0 / NSOP0 | Android 9 | 用户验证（[#48](https://github.com/pengchujin/aerial-tv/issues/48)、[#65](https://github.com/pengchujin/aerial-tv/issues/65)） |\n| 小米 MiTV-MFTP0 | Android 9 | 安装、开机自启；升级后守护会掉（[#72](https://github.com/pengchujin/aerial-tv/issues/72)） |\n| TCL MT5879 国行 | Android 11 | 日常使用（[笔记](docs/devices/tcl-mt5879-cn.md)） |\n| TCL 75V2 国行（m7221） | Android 8 | 免 root：改固件属性开机直达 Aerial，不用无障碍和通知监听（[笔记](docs/devices/tcl-m7221-cn.md)） |\n| 索尼 A80J 国行 / BRAVIA VH1 | Android 10 / 12 | 用户验证（[#16](https://github.com/pengchujin/aerial-tv/issues/16)、[#2](https://github.com/pengchujin/aerial-tv/issues/2)） |\n| 创维酷开 K3 Pro | Android 11 | 用户验证（[#43](https://github.com/pengchujin/aerial-tv/issues/43)） |\n| 康佳 KKTV U86V9 | Android 9 | 用户验证：主页键、开机自启、信号源；亮度调不了（[笔记](docs/devices/konka-kktv-u86v9.md)） |\n| OPPO K9 | Android 9 | 要改包名才能装（[笔记](docs/devices/oppo-coloros-tv.md)） |\n| 康佳 2861、PPTV K55U27、极米 m7642、腾讯极光盒子 7S | Android 5–9 | 用户验证，各有小问题，见 [Issues](https://github.com/pengchujin/aerial-tv/issues) |\n| 雷鸟 55S595C Ultra | Android 11 | 能装，但接管不了 HOME（[#52](https://github.com/pengchujin/aerial-tv/issues/52)） |\n\n能装但开机进不了 Aerial 的：Vidda、海信、雷鸟鹤 6 2025 Ultra。你的电视能用，或者有问题，欢迎用[机型适配模板](https://github.com/pengchujin/aerial",
+   "featured_before": false
+  },
+  {
+   "repo": "google-research/harness2",
+   "url": "https://github.com/google-research/harness2",
+   "description": "",
+   "language": "Python",
+   "stars": 19079,
+   "topics": [],
+   "created_at": "2026-10-06",
+   "pushed_at": "2026-10-14",
+   "found_in": "新着人気",
+   "stars_per_day": 549,
+   "readme": "\n  \n  Recursive Agent Harnessing for an Open World\n\n  \n  \n  \n  \n\n  \n    \n  \n\nA **harness** is the system around a model that enables it to act as an agent:\nprompts, tools, memory, skills, orchestration, and more. **Harnessing** is the\nprocess of optimizing that system.\n\nHarness² is a plug-and-play framework for **recursive agent harnessing** in an\nopen world, where agents encounter tasks unseen during harness design. It\nconnects two levels of recursion while keeping model weights fixed:\n\n* **Task-level recursion** refines the execution harness for the current task\n  through a contrastive **Propose–Probe–Compose** step: propose edits, probe\n  their effects on the same task, and compose a refined harness from behavioral\n  contrasts between executions, without ground-truth feedback.\n* **Harnessing-level recursion** updates a persistent *improvement harness*\n  with adopted harnesses and evidence-supported lessons from each task to guide\n  future refinement.\n\n  \n    \n  \n\nAcross three professional benchmarks and four model–harness configurations, a\nsingle Harness² step improves GLM-5 and Gemini 3.5 Flash over their base\nharnesses, with gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on\nJobBench, and 11.8 percentage points on LAB's partial pass rate. Increasing the\ntask-level recursion budget brings further gains.\n\nThe release supports **parallel and sequential recursion**, **OpenCode and\nCodex executors**, and **JobBench, LAB, and WorkBuddy-Bench**.\n\n## Video overview\n\nhttps://github.com/user-attachments/assets/76b10548-b14b-4c8f-9aa5-a93662df4d56\n\n## Contents\n\n- [Video overview](#video-overview)\n- [Harness components](#harness-components)\n- [Install](#install)\n- [Run a benchmark](#run-a-benchmark)\n- [Experiments](#experiments)\n- [Web access](#web-access)\n- [Results and resume](#results-and-resume)\n- [Citation](#citation)\n- [Contributing](#contributing)\n- [License](#license)\n- [Disclaimer](#disclaimer)\n\n## Harness components\n\nHarness² exposes eight editable components around the model: **system prompt,\nguardrails, memory, tool guidance, subagents, skills, scripts, and plugins**.\nThey control context construction, the tool interface, delegation, and behavior\ninside the tool loop.\n\n  \n    \n  \n\n## Install\n\nUse **Linux, Python 3.12, and [uv](https://docs.astral.sh/uv/getting-started/installation/)**.\nFrom the repository root:\n\n```bash\nuv venv --python 3.12 .venv\nsource .venv/bin/activate\nuv pip install -e '.[render]'\nharness2-demo --output runs/demo --k 2\n```\n\nThe local demo runs both recursion modes with deterministic editors and real\nPython executions. It requires no model credentials.\n\nFor model-backed benchmarks, install **Node.js 20+, the Google Cloud CLI**, and\nthe [benchmark dependencies](docs/SETUP.md#requirements). LAB needs Pandoc and\nPoppler; WorkBuddy-Bench needs Docker. Then configure your models:\n\n```bash\ncp .env.example .env\n# Edit .env with your Vertex AI project and model IDs.\ngcloud auth application-default login\n```\n\nSee the [setup guide](docs/SETUP.md) for model settings, authentication\nalternatives, and the [Codex executor](docs/SETUP.md#codex-executor).\n\n## Run a benchmark\n\nThe following example installs LAB and runs one task, then evaluates and reports\nits result. Model-backed runs incur API costs; start with a small task selection.\n\n```bash\nharness2-setup lab\nharness2-check --bench lab\nharness2 --bench lab --k 1 --mode parallel \\\n  --only-domains antitrust-competition --max-tasks 1\nharness2-judge --bench lab --k 1 --mode parallel\nharness2-report --bench lab --k 1 --mode parallel\n```\n\nSequential recursion runs the same commands with `--mode sequential`. `--k` is\nthe task-level recursion budget; see [Experiments](#experiments). Judging and\nreporting must use the same benchmark, executor, subset, `--k`, `--mode`, and\nseed as the refinement run. Add `--dry-run` to `harness2` to preview task\nselection without model calls.\n\n| Benchmark | Tasks | Install | Guide |\n|---|---|---|---|\n| JobBench | Professional work | `harness2-setup jb` | [JobBench](docs/BENCHMARKS.md#jobbench) |\n| LAB | Legal work | `harness2-setup lab` | [LAB](docs/BENCHMARKS.md#lab) |\n| WorkBuddy-Bench | Office, web, and code | `harness2-setup wb` | [WorkBuddy](docs/BENCHMARKS.md#workbuddy-bench) |\n\nChoose one benchmark per command. WorkBuddy also takes `--subset office`,\n`--subset web`, or `--subset code` on every command after setup. The\n[benchmark guides](docs/BENCHMARKS.md) cover each one's data, domains, and\ngrading.\n\n## Experiments\n\nScale task-level recursion in two ways: **parallel recursion** explores multiple\ncandidate harnesses and composes refinements from their execution evidence;\n**sequential recursion** carries the refined harness and accumulated evidence\nthrough successive Propose–Probe–Compose steps.\n\n  \n    \n  \n\nParallel recursion explores wider; sequential recursion refines deeper.\n\n| Option | Behavior |\n|---|---|\n| `--k 1` | One Propose–Probe–Compose step |\n| `--k K --mode parallel` | Probe `K` general and `K` domain-specific candidates, then produce `K` compositions |\n| `--k K --mode sequential` | Refine the harness through `K` successive steps |\n| `--substrate cx` | Use Codex instead of the default OpenCode executor |\n\nAfter each task, harnessing-level recursion retains the adopted harness and\nevidence-supported lessons to guide future refinement. See the\n[experiment guide](docs/EXPERIMENTS.md) for task selection, concurrency,\nreproducibility, and baseline comparisons.\n\n## Web access\n\nExecutor network access is unrestricted, and Codex runs with its sandbox\ndisabled. Public benchmark rubrics may be accessible online. Before evaluation,\nconfigure [network restrictions](docs/EXPERIMENTS.md#web-access) to prevent\naccess to benchmark answers and grading criteria.\n\n## Results and resume\n\nResults are saved under `runs/`, organized by benchmark and subset where\napplicable. They include task summaries, deliverables, adopted harnesses,\nreflection notes, and evaluation results.\n\nRepeat the same",
+   "featured_before": true
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "description": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "language": "JavaScript",
+   "stars": 6612,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-short-film",
+    "ai-video",
+    "animation",
+    "canvas"
+   ],
+   "created_at": "2026-09-26",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 493,
+   "featured_before": false
+  },
+  {
+   "repo": "storytold/photocraft",
+   "url": "https://github.com/storytold/photocraft",
+   "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+   "language": "Rust",
+   "stars": 72370,
+   "topics": [
+    "art",
+    "image-editing",
+    "image-editing-software",
+    "image-editor",
+    "images",
+    "photo-editing"
+   ],
+   "created_at": "2026-09-30",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 460,
+   "featured_before": true
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "language": "JavaScript",
+   "stars": 20115,
+   "topics": [
+    "agent-skill",
+    "open-source",
+    "svg",
+    "vizualization"
+   ],
+   "created_at": "2026-10-08",
+   "pushed_at": "2026-10-18",
+   "found_in": "新着人気",
+   "stars_per_day": 457,
+   "featured_before": true
+  },
+  {
+   "repo": "Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+   "language": "C",
+   "stars": 2697,
+   "topics": [],
+   "created_at": "2026-10-18",
+   "pushed_at": "2026-10-24",
+   "found_in": "記事で紹介",
+   "stars_per_day": 385,
+   "estimated": true,
+   "featured_before": false
+  },
+  {
+   "repo": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "language": "Rust",
+   "stars": 10053,
+   "topics": [
+    "3d-modeling",
+    "brep",
+    "cad",
+    "egui",
+    "mcp",
+    "parametric-cad"
+   ],
+   "created_at": "2026-10-07",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 362,
+   "featured_before": true
+  },
+  {
+   "repo": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+   "language": "Java",
+   "stars": 4255,
+   "topics": [
+    "android-tv",
+    "claude-code",
+    "google-tv",
+    "home-screen",
+    "launcher",
+    "no-ads"
+   ],
+   "created_at": "2026-10-19",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 335,
+   "featured_before": false
+  },
+  {
+   "repo": "ly05010419/MacNativeGames",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "description": "",
+   "language": "C",
+   "stars": 5193,
+   "topics": [],
+   "created_at": "2026-10-17",
+   "pushed_at": "2026-10-23",
+   "found_in": "新着人気",
+   "stars_per_day": 328,
+   "featured_before": false
+  },
+  {
+   "repo": "Fei2411/DeepSeek-Bot",
+   "url": "https://github.com/Fei2411/DeepSeek-Bot",
+   "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+   "language": "JavaScript",
+   "stars": 3746,
+   "topics": [
+    "bot",
+    "deepseek-harness",
+    "dsh-plugin",
+    "multi-agent"
+   ],
+   "created_at": "2026-10-07",
+   "pushed_at": "2026-10-24",
+   "found_in": "新着人気",
+   "stars_per_day": 303,
+   "featured_before": false
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+   "language": "Python",
+   "stars": 5239,
+   "topics": [
+    "agent",
+    "agent-skills",
+    "app-clone",
+    "claude",
+    "claude-code",
+    "claude-skills"
+   ],
+   "created_at": "2026-10-03",
+   "pushed_at": "2026-10-03",
+   "found_in": "新着人気",
+   "stars_per_day": 225,
+   "featured_before": true
+  }
+ ],
+ "releases": [
+  {
+   "repo": "vercel/next.js",
+   "version": "v16.4.3",
+   "name": "v16.4.3",
+   "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+   "published_at": "2026-10-23T13:32:31Z",
+   "prerelease": false,
+   "body": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- v16.4.2\r\n- [lts-active] Fix extensionless Google font URLs in both bundlers (#100277)\r\n- [lts-active] Don't load the app-page runtime in proxy.ts (#100423)\r\n- [lts-active] Revert \"Turbopack: loader change invalidation (#95732)\" (#100438)\r\n- [lts-active][cd] Gate release bot credentials behind GitHub environments (#100123)\r\n- [lts-active] test: Pin react-virtualized (#100545)\r\n- [lts-active][cd] Move release un-draft to a follow-up job in bot-autonomous (#100572)\r\n- [lts-active] Keep OpenTelemetry request traces together (#100349, #100294, #100324, #100350, #100552, #100583) (#100542)\r\n- [lts-active] Avoid loading standalone React in server bootstrap (#100610)\r\n\r\n### Credits\r\n\r\nHuge thanks to @mischnic, @lukesandberg, @acdlite, @eps1lon, and @sokra for helping!\r\n"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.310",
+   "name": "v2.1.310",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+   "published_at": "2026-10-23T23:39:00Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too\n- Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them\n- Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value\n- Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again\n- Fixed file read permission prompts not showing where a symbolic link leads\n- Fixed a question's auto-continue timeout firing the moment the external editor closed after a long edit\n- Windows: Fixed PreToolUse and PermissionRequest hooks letting a tool call through when Git Bash is missing and the hook's command is only quoted strings, such as a quoted path\n- Improved auto mode's prompt before the first read outside the working directories: it now says when blocking those reads makes shell commands ask for permission\n- Improved memory use of non-interactive sessions (`-p`, Agent SDK) during compaction when the transcript file is very large\n- Improved a mod's `Image` to draw inside tmux with `allow-passthrough` and `focus-events` on, in kitty, Ghostty, and iTerm2 3.5+ with fullscreen rendering, where it showed only its `alt` text\n- Linux: Improved `/sandbox` and the sandbox startup warning to name Ubuntu's AppArmor restriction on user namespaces, and how to lift it, when it keeps bubblewrap from starting the sandbox\n- Changed the error for an MCP tool call that times out in a non-interactive session while the server's elicitation is unanswered: it now tells Claude that no answer came and not to repeat the call\n- [VSCode] Fixed pressing Enter on the plan review card's \"Send feedback and keep planning\" button approving the plan instead of sending your comments back\n- [VSCode] Fixed the panel showing \"Something went wrong\" after \"Switch branch & continue\" on a cloud session opened from Session history's Web tab\n- [Cloud sessions] Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to each by role\n- [Cloud sessions] Added a Choose file button to load a cloud environment's setup script from a file\n- [Cloud sessions] Fixed failed saves and archives in the cloud environment edit dialog showing no error inside the dialog\n- [Cloud sessions] Fixed failed routine API token actions showing only a toast; the error now appears in the routine edit dialog\n- [Cloud sessions] Improved the session start checklist to show a cloud environment's setup script output in a scrolling box\n- [Cloud sessions] Changed turning on Cloud sessions or Remote Control in admin settings to ask for confirmation and list the custom roles tha"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "version": "v2.1.309",
+   "name": "v2.1.309",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+   "published_at": "2026-10-22T22:18:57Z",
+   "prerelease": false,
+   "body": "## What's changed\n\n- Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\n- Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\n- Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`\n- Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions\n- Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open\n- Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the `cd` is wrapped or prefixed, as they do for a plain `cd`\n- Fixed an `Edit(path)` deny rule not blocking a Bash redirect to that path in some commands that also held a subshell\n- Fixed worktree-isolated sessions accepting some locale-prefixed commands the isolation guard should refuse\n- Fixed worktree-isolated sessions on zsh accepting some arithmetic commands that the isolation guard should refuse\n- Fixed worktrees and branch checkouts that Claude Code creates so they ignore git replace refs, as its other git operations already do\n- Fixed profile store write protection not applying when the config directory is reached through a symlink\n- Fixed sessions compacting repeatedly after reading files under a very large nested CLAUDE.md; a nested CLAUDE.md over the size limit now loads only its start\n- Fixed ctrl+enter (send now) only queuing a message when pressed before the response had started, and restarting a prompt's hooks while leaving the message queued when pressed while those hooks were running\n- Fixed key-bound slash commands running in the shell from `!` mode\n- Fixed ctrl+o not showing messages from other agents and sessions that are still waiting to be delivered; they now appear in full under the transcript, marked as waiting\n- Fixed long tool output previews being cut through an emoji, leaving session transcripts that `jq` could not parse\n- Fixed Read reporting \"File does not exist\" for PDF page ranges in Linux sandboxes that share the parent's `/proc`\n- Fixed messages from a Claude Desktop-hosted session sometimes being lost when its connection refreshed\n- Fixed features missing from Claude Code sessions in the Claude desktop app when the terminal on the same computer was signed in to a different account or organization\n- Fixed the `claude remote-control` status line showing `HEAD` as the branch for a folder that is not in a git repository\n- Fixed split-pane agent teammates not inheriting the tool deny and `--tools` rules given on the leader's command line\n- Fixed sessions renamed with `/rename` appearing to other sessions under a generated name after a VS Code window reload or a non-interactive `--resume`\n- Fixed the `/rewind` list showing \"No code changes\" for a turn that changed checkpointed files through `/code-revie"
+  },
+  {
+   "repo": "anthropics/anthropic-sdk-typescript",
+   "version": "sdk-v1.3.0",
+   "name": "sdk-v1.3.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.3.0",
+   "published_at": "2026-10-23T23:23:43Z",
+   "prerelease": false,
+   "body": "### Features\n\n* **api:** add Claude Tag endpoints for Claude Enterprise organizations\n\n\n### Bug Fixes\n\n* **client:** link the long-request error messages to the SDK documentation\n\n\n### Chores\n\n* **client:** stop sending query params hardcoded in endpoint paths\n* **docs:** improve the descriptions of the code execution tool and its encrypted results\n* **docs:** reword work queue, skill and external key descriptions\n* **docs:** update descriptions of the per-user usage and cost reports\n* **internal:** carry endpoint path query params to the request layer\n* **internal:** check the repository by owner and public name in workflows\n* **internal:** read the beta route qualifier instead of the beta=true query\n* **internal:** remove preview build upload from CI\n* **internal:** stop expecting the beta query param in tests\n\n\n### Documentation\n\n* update the README and the example request"
+  },
+  {
+   "repo": "anthropics/anthropic-sdk-typescript",
+   "version": "sdk-v1.2.0",
+   "name": "sdk-v1.2.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.2.0",
+   "published_at": "2026-10-23T13:09:13Z",
+   "prerelease": false,
+   "body": "### Features\n\n* **api:** add support for message threads\n* **api:** add usage and cost reports by dimension, mark older reports legacy\n\n\n### Bug Fixes\n\n* **tools:** copy the messages a tool runner is created with again\n* **tools:** restore what the tool runner does after setMessagesParams() or pushMessages() in the loop body\n\n\n### Chores\n\n* **docs:** clarify plugin content scan and validation descriptions\n* **docs:** clarify plugin served_version_pinned and updated_at\n* **docs:** fix usage and cost report examples and ending_at docs\n* **docs:** rate limit model lists vary by organization and workspace\n* **internal:** rename the version manifest to .version-manifest.json\n* **tests:** fix a retry count header test that could never fail"
+  }
+ ]
+}
