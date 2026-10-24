@@ -1,0 +1,62 @@
+{
+  "edition": "daily",
+  "headline": "分散SQLiteの12年の知見、HTTP2Shellの脆弱性レポート、サブエージェント設計という一次情報の濃い3本を厳選。",
+  "reading_list": [
+    {
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "title": "Twelve years of distributed SQLite",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "分散SQLite（rqlite）を12年運用してきた作者本人による振り返りで、分散システムの設計判断を一次情報で読める",
+      "takeaway": "長期運用を通じて得られた分散システムの設計上の教訓やトレードオフが分かる"
+    },
+    {
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Node.js・Python・Bun・Envoyなど複数のHTTPライブラリに影響する重大脆弱性を発見元のセキュリティ企業が解説しており、影響範囲の広さから早めの確認が必要",
+      "takeaway": "どのライブラリ・バージョンが影響を受け、どう対応すべきかが分かる"
+    },
+    {
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "title": "Building agents: When to fold subagents into your main agent loop",
+      "category": "AI",
+      "minutes": 6,
+      "why": "サブエージェントをいつメインのエージェントループに統合すべきかについてのAnthropic公式の一次情報",
+      "takeaway": "エージェント設計でサブエージェント分割とメインループ統合のどちらを選ぶべきかの判断基準が分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "language": "C",
+      "stars": 2697,
+      "stars_per_day": 385,
+      "what": "NvidiaのRTX 3000番台GPUでFP16/BF16命令のissue rateをプロ用カードと同等まで解放するツール",
+      "why": "コンシューマ向けGPUの性能制限を回避できる手法として話題になり、関連記事と合わせて急速にスターが伸びている",
+      "try": "READMEの手順に従って対象GPUのレジスタ設定パッチを適用する"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.4.3",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+      "summary": "LTS向けのバグ修正バックポートのみ（Turbopackのローダー変更invalidationの巻き戻し、フォントURL修正など）で新機能は含まない"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "summary": "Monitorツールとプラグインmonitorsを追加し、一部ゲートウェイでのリクエスト失敗やbase64/SVGを含む会話の圧縮不具合などを修正"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v1.3.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.3.0",
+      "summary": "Claude Enterprise向けClaude Tagエンドポイントを追加し、長時間リクエストのエラーメッセージにドキュメントリンクを追加"
+    }
+  ]
+}
