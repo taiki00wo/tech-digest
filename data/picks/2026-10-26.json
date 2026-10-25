@@ -1,0 +1,39 @@
+{
+  "edition": "daily",
+  "headline": "認証局の秘密鍵インシデントへの対応、兆パラメータAIモデル運用の裏側、プロンプトキャッシュのコスト構造を掘り下げる3本。",
+  "reading_list": [
+    {
+      "url": "https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66",
+      "title": "eMudhra事件でWebアプリ開発者が点検すべきこと",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "認証局eMudhraの中間CA秘密鍵が弱く公開情報から復元可能だったという事件の技術的影響をWebアプリ開発者向けに解説しており、影響範囲の大きさからいち早く確認しておきたい",
+      "takeaway": "自分が運用するサービスがこの事件の影響を受けているかの確認観点と、取るべき対応が分かる"
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "category": "AI",
+      "minutes": 8,
+      "why": "兆パラメータ級モデルの実運用デプロイについてCerebras自身が解説する一次情報で、大規模モデル配信の仕組みに踏み込んだ内容が期待できる",
+      "takeaway": "兆パラメータ級モデルを実運用で配信する際の仕組みや工夫の一端が分かる"
+    },
+    {
+      "url": "https://qiita.com/songchong/items/7144594b0ad9529a168b",
+      "title": "トークン代9割減？プロンプトキャッシュの仕組みと効果の実測 — 保持時間が過ぎるとコスト11倍に",
+      "category": "AI",
+      "minutes": 6,
+      "why": "プロンプトキャッシュの効果を実測し、保持時間（TTL）を過ぎると逆にコストが跳ね上がる仕組みを解説しており、Claude APIのコスト最適化に直結する",
+      "takeaway": "プロンプトキャッシュがコストを削減するタイミングと、逆に増やしてしまうタイミングの境界が分かる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.14",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.14",
+      "summary": "Hono v5のプレリリースをpeer依存で許容する修正、serve-staticがGET/HEAD以外のメソッドを拒否する修正、バンドルされた型定義でbarrel importを保持する修正など複数のバグ修正"
+    }
+  ]
+}
