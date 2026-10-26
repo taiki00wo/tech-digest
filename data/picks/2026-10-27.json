@@ -1,0 +1,51 @@
+{
+  "edition": "daily",
+  "headline": "Workers AIでのKVキャッシュ漏洩とその対応、AIエージェント活用でかさんだCI費用をFargateのセルフホストランナーで3割削減した事例、ヒープ増加をスタックトレースから地道に追った調査記事の3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Workers AI上のLLMで異なるリクエスト間にKVキャッシュが漏洩した実際の事故と修正をCloudflare自身が公開しており、マルチテナントLLM基盤の脆弱点を学べる一次情報だから。",
+      "takeaway": "SGLangの設定ミスがどうKVキャッシュのクロスリクエスト露出を招いたか、その原因と具体的な修正策がわかる。"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
+      "title": "AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "AIエージェントによる並列開発でGitHub Actionsの費用が膨らんだ実例をAWS Fargateのセルフホストランナー移行で解決しており、同じコスト課題を抱える読者に直接役立つから。",
+      "takeaway": "GitHub ActionsからAWS Fargateのセルフホストランナーに移行する構成と、約3割のコスト削減につながった工夫がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/dress_code/articles/f2a51226c9ec6f",
+      "title": "スタックトレースを読むとヒープが約1,470 MB増えていた話",
+      "category": "バックエンド",
+      "minutes": 6,
+      "why": "ヒープが約1.47GB増加した現象をスタックトレースから地道に追った調査の実録で、同種のメモリ調査に応用できる読み方の手順が学べるから。",
+      "takeaway": "スタックトレースの読み方だけでどこまでヒープ増加の原因を絞り込めるかがわかる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.14",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.14",
+      "summary": "serve-staticがGET/HEAD以外のメソッドを拒否、バンドルされた型定義でbarrel importを保持、adaptersがHono v5プレリリースをpeer依存で許容するなど複数のバグ修正。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "summary": "起動時やCLAUDE.mdの長いリスト項目での長時間フリーズ、MCPサーバー無応答時に中断が効かない問題、200Kトークン超過時にクラッシュしていた問題を修正。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.153.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.153.0",
+      "summary": "wrangler devに--infer-origin-from-routesフラグを追加。デフォルトのoriginをroutesから推測するとlocalhost許可のCORS判定が壊れる場合があり、falseで無効化できる。"
+    }
+  ]
+}
