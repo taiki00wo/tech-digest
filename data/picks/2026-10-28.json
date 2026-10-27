@@ -1,0 +1,57 @@
+{
+  "edition": "daily",
+  "headline": "Dockerビルド遅延をGrafana Tempoのトレースで突き止めた話、AIがPRのリスクを判定して自動承認するnewmoの仕組み、Cloudflareが見たQ3のインターネット障害分析の3本。",
+  "reading_list": [
+    {
+      "url": "https://zenn.dev/ymotongpoo/articles/20261027-buildkit-traces-tempo",
+      "title": "Dockerのビルドを遅くしたコミットをGrafana Tempoのトレースで見つける",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "BuildKitのビルドトレースをGrafana Tempoに流し込み、どのコミットがビルドを遅くしたかを実際に特定した手順がわかる一次情報だから。",
+      "takeaway": "Dockerビルドのトレースを可視化して遅延の原因コミットを突き止める具体的なやり方がわかる。"
+    },
+    {
+      "url": "https://tech.newmo.me/entry/2026/10/27/100000",
+      "title": "プルリクエストのリスクを判定する仕組み - newmo 技術ブログ",
+      "category": "AI",
+      "minutes": 7,
+      "why": "AIがPRを読んで安全性を判定しbotが自動承認する「riskjudge」をモノレポで実運用している事例で、エージェントを開発フローに組み込む設計がわかる一次情報だから。",
+      "takeaway": "PRのリスク判定をAIエージェントに任せる際の判断基準と運用上の工夫がわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "title": "What took the Internet offline in Q3 2026",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Cloudflare Radarが観測した2026年第3四半期のインターネット障害を自社データで分析した一次情報で、分散システムが実際にどう壊れるかがわかるから。",
+      "takeaway": "この四半期に世界のインターネットを止めた主な原因の傾向がわかる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "summary": "CLAUDE.mdなど大きなファイルを冒頭しか読まずに上書きしてしまう問題や、Bashでcdした後にスキルが見つからなくなる問題などを修正。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.154.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.154.0",
+      "summary": "MiniflareのDev Registryをデフォルトで有効化し、パス解決の優先順位を整理（Vite v2系と現行Wranglerで既定値が分かれる点に注意）。"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.6",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
+      "summary": "CPython 3.11〜3.15系の新パッチバージョンを追加し、wheel-variant選択時にNVIDIA GPUの対応状況を検出できるように。"
+    },
+    {
+      "repo": "vitejs/vite",
+      "version": "create-vite@9.3.3",
+      "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.3",
+      "summary": "create-viteのテンプレートファイルがパッケージに含まれていなかった不具合を修正。"
+    }
+  ]
+}
