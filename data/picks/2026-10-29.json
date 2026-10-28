@@ -1,0 +1,68 @@
+{
+  "edition": "daily",
+  "headline": "Claude Codeに脆弱性調査をさせた実践報告、Redox OSのリングバッファ解説、Vercel CIの発表が目立つ一日。",
+  "reading_list": [
+    {
+      "url": "https://qiita.com/suwa_nobu/items/e6b2737d3eddb921e40d",
+      "title": "今週の PHP・LiteLLM の脆弱性を Claude Code に探させたら、Web 検索ありで6回中5回見つけた",
+      "category": "AI",
+      "minutes": 7,
+      "why": "直近に出たPHPとLiteLLMの脆弱性をClaude CodeにWeb検索込みで発見させられるか検証した実践的な記事だから",
+      "takeaway": "Claude Codeに脆弱性調査を任せる際の検出率や成功・失敗の条件が具体的に分かる"
+    },
+    {
+      "url": "https://lwn.net/Articles/1103359/",
+      "title": "Redox OS ring buffers project summary",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "Rust製マイクロカーネルOSであるRedox OSがリングバッファ実装をどう設計したかのプロジェクトまとめだから",
+      "takeaway": "OS内部でのリングバッファ活用パターンと設計上の論点が分かる"
+    },
+    {
+      "url": "https://vercel.com/blog/introducing-vercel-ci",
+      "title": "Introducing Vercel CI",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "VercelがCI機能を正式発表し、Next.jsなどのデプロイワークフローに関わる変更だから",
+      "takeaway": "Vercel CIの概要と位置づけが分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "unclebob/ub-mode",
+      "url": "https://github.com/unclebob/ub-mode",
+      "language": "不明",
+      "stars": 3687,
+      "stars_per_day": 922,
+      "what": "AIコーディングエージェント向けに、TDDや根本原因の修正、冗長コードの排除などの規律あるソフトウェア工学原則を守らせるエージェントスキル",
+      "why": "コーディングエージェントの品質を決定的な品質ゲートツールと組み合わせて管理する設計が新着で急速にstarを伸ばしている",
+      "try": "エージェントのスキルとして読み込ませ、コード変更時に規律チェックを適用する"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vitejs/vite",
+      "version": "create-vite@9.3.3",
+      "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.3",
+      "summary": "create-viteでテンプレートファイルがパッケージに含まれない不具合を修正"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "summary": "oidc.user_id_claim追加や大きなCLAUDE.md上書きの不具合修正など複数の修正・改善"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.155.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.155.0",
+      "summary": "ローカル開発でAnalytics Engineのremoteバインディングに対応、tailの制御文字表示を改善"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.6",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
+      "summary": "CPython 3.11.18/3.12.16/3.13.18/3.14.10/3.15.2を追加、wheel-variantsのGPU検出などを強化"
+    }
+  ]
+}
