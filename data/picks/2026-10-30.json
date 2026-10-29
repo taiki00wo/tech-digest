@@ -1,0 +1,39 @@
+{
+  "edition": "daily",
+  "headline": "Mistral Large 4のオープンウェイト公開に加え、Linuxスケジューラ内部やマルチテナントDB接続数対策の実践知が並ぶ一日。",
+  "reading_list": [
+    {
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "category": "AI",
+      "minutes": 3,
+      "why": "大型オープンウェイトモデルの新版の公式発表で、自作AIアプリで使えるモデルの選択肢が広がる",
+      "takeaway": "Mistral Large 4が公開されたこと、どういう形で利用できるかの概要がわかる"
+    },
+    {
+      "url": "https://lwn.net/Articles/1103426/",
+      "title": "A report from the LPC sched_ext microconference",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Linuxのスケジューラ内部の仕組みと今後の方向性を扱う、まさに性能チューニング好きに刺さる題材",
+      "takeaway": "sched_extを巡る開発コミュニティの最新の論点がわかる"
+    },
+    {
+      "url": "https://tech.mntsq.co.jp/entry/2026/10/29/090000",
+      "title": "スキーマ分離型マルチテナントの DB 接続数増加を RDS Proxy で抑制できるか？",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "テナントごとにスキーマを分けるマルチテナント構成でのDB接続数問題は、同じ構成を取るサービスで共通の悩み",
+      "takeaway": "RDS ProxyがAuroraの接続数増加にどこまで効くかの実践知が得られる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.156.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.156.0",
+      "summary": "wrangler d1 insights がDB名省略で全D1データベース横断の集計に対応し、Pages自動設定が非対話実行時にfunctionsディレクトリを誤判定する問題を修正。"
+    }
+  ]
+}
