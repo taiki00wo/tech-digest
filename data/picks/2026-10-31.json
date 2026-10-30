@@ -1,0 +1,138 @@
+{
+  "edition": "weekly",
+  "headline": "AIコーディング製品やOSSの足元を狙った侵害・不具合報告が重なり、セキュリティと運用設計を見直す週になった。",
+  "trends": [
+    "Claude Code拡張のバックドア化やLinuxカーネルの脆弱性報告など、AI開発ツールやOSSの足元を狙った攻撃・不具合が目立った。",
+    "AnthropicのS-1提出やGemini 4 Carbon・Genie 4など大手各社のAIモデル・事業動向が同時に動き、クラウド各社もAIエージェント向け基盤（Bedrockガバナンス、Vercel Agentのコスト削減など）を相次いで強化した。",
+    "AI生成コードの増加がPostgresのレビュー負荷を上げるなど、生成AI活用の負の側面（レビュー疲弊・個人情報漏洩対応・運用セキュリティ）に向き合う記事が目立った。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://lwn.net/Articles/1104192/",
+      "title": "Remote code execution on Linux systems with multipath TCP",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Anthropicが報告したLinuxカーネルのmultipath TCP実装にある遠隔コード実行可能な脆弱性を扱っており、カーネル内部の仕組みに踏み込んだ記事だから。",
+      "takeaway": "multipath TCP実装のuse-after-freeがどのように遠隔攻撃に繋がるのか、カーネルセキュリティの考え方がわかる。"
+    },
+    {
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "10億人規模のChatGPTを支えるオンラインストレージ基盤Habitatの拡張を、OpenAI自身が語る分散システムの続編記事だから。",
+      "takeaway": "マルチテナンシーとグローバルキャッシュを大規模かつ信頼性高く運用するための設計判断が学べる。"
+    },
+    {
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Claude Codeユーザーが使うVS Code拡張がCursor Marketplace上で改ざんされてバックドア化された事例の調査報告だから。",
+      "takeaway": "拡張機能のサプライチェーンがどう侵害されたかの手口と、同種の被害を避けるための着眼点がわかる。"
+    },
+    {
+      "url": "https://lwn.net/Articles/1104210/",
+      "title": "Haas: Postgres 19 is late, and it's AI's fault",
+      "category": "バックエンド",
+      "minutes": 5,
+      "why": "PostgreSQLのコア開発者Robert Haas本人が、リリース遅延の背景にあるAI時代特有の課題を語った一次情報だから。",
+      "takeaway": "大規模OSSプロジェクトがAI生成コードやレビュー負荷にどう向き合っているかの実情がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "2026年10月時点のE2Eテスト戦略を現場目線で整理した、著者本人によるまとめだから。",
+      "takeaway": "いま主流になっているE2Eテストの考え方・ツール選定の方向性が掴める。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "language": "JavaScript",
+      "stars": 6612,
+      "stars_week": 3451,
+      "what": "Claude Codeでコードだけから「映像スタイル」を生成するためのプロンプト集・デモ映像集。",
+      "why": "Claude Opus 5.5が動画モデルなしでコードから映像を作るデモとして話題になり、今週大きく伸びた。",
+      "try": "READMEのスタイル一覧から気になるスタイルのプロンプトをコピーし、Claude Codeに渡して実行する。"
+    },
+    {
+      "repo": "Fei2411/DeepSeek-Bot",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot",
+      "language": "JavaScript",
+      "stars": 3746,
+      "stars_week": 2121,
+      "what": "DeepSeek Harness上で長時間稼働するボット群（メインボット・ボット間メッセージ・グループチャット対応）のフレームワーク。",
+      "why": "複数エージェントが長時間動き続けてやり取りするマルチエージェント構成への関心の高まりで伸びている。",
+      "try": "READMEのセットアップ手順に従ってメインボットを1つ起動し、ボット間メッセージングを試す。"
+    },
+    {
+      "repo": "HeyPuter/everything",
+      "url": "https://github.com/HeyPuter/everything",
+      "language": "JavaScript",
+      "stars": 5926,
+      "stars_week": 2105,
+      "what": "Office・Slack・Photoshop・AutoCADなど市販ソフトウェアをオープンソースで作り直す野心的なモノレポプロジェクト。",
+      "why": "表計算・文書・プレゼン・ホワイトボードなど複数アプリを1つのリポジトリで一気に公開したことで注目を集めている。",
+      "try": "Node.js 22.12以上を用意してリポジトリをcloneし、READMEのGetting Startedに従って個別アプリを起動する。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "anhao/ai-pose-gallery-zh",
+    "url": "https://github.com/anhao/ai-pose-gallery-zh",
+    "overview": "AI絵師・3D・写真撮影向けの人体ポーズ参考資料を集めたギャラリーを、日本語オリジナル版から中国語に完全ローカライズして静的サイト化したプロジェクト。1439件のポーズに対応するサムネイルと原寸画像、合計2878ファイルをまるごとミラーしている。",
+    "how_it_works": "フロントエンドは外部依存ゼロの静的サイトで、4つの体系・26分類・288のポーズ名・5視点の分類データをもとにカテゴリ絞り込みや視点切り替えを実装している。姿勢ごとにグループ化して複数アングルのサムネイルをまとめて見せる表示モードと、1枚ずつ見るモードの2種類のブラウズ方式を持つ。ライトボックスでは先に縮小画像を表示し、900×1200の原寸画像を後から読み込むことで表示速度を優先している。キーボードショートカット（←/→でアングル切替、↑/↓でポーズ切替、Escで閉じる）やモバイル向けスワイプ操作、折り畳み式フィルタパネルなどUIの細部まで作り込まれている。",
+    "use_cases": [
+      "AIイラスト・3D制作時にポーズ参考資料を探す場面",
+      "静的サイトのみで画像ギャラリーUI（フィルタ・グルーピング・ライトボックス）を実装する際の参考実装として"
+    ],
+    "try": [
+      "GitHubリポジトリのREADMEにあるオンラインデモから、ポーズ検索・フィルタ機能をブラウザで試す。",
+      "静的ファイルのみの構成なので、cloneして任意の静的ホスティングに配置すれば同じギャラリーを動かせる。"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/emiki/claude-code-bedrock-governance-tips",
+      "title": "Claude Code on Bedrock で統制をかける小ネタ集",
+      "event": "DevelopersIO 2026 Tokyo",
+      "why": "Claude CodeをAmazon Bedrock経由で使う際の統制（ガバナンス）の実践的なコツを扱い、エンタープライズでのAIコーディングツール運用に直結するから。"
+    },
+    {
+      "url": "https://speakerdeck.com/lamaglama39/de-houchi-dekiru-claude-code-jikkou-kankyou-no-tsukurikata",
+      "title": "ガチで放置できるClaude Code実行環境の作り方",
+      "event": "",
+      "why": "Claude Codeを長時間自律的に動かし続けるための実行環境構築を扱い、エージェント運用の実践知が得られるから。"
+    },
+    {
+      "url": "https://speakerdeck.com/yamahiro/ai-kudou-kaihatsu-niokeru-kaihatsu-kankyou-no-sekyuriti-no-kangaekata",
+      "title": "AI駆動開発における開発環境のセキュリティの考え方",
+      "event": "",
+      "why": "AIを使った開発環境特有のセキュリティリスクと対策の考え方を整理し、AIコーディングを業務に取り込む際の注意点がわかるから。"
+    }
+  ],
+  "releases": [
+    {"repo": "vitejs/vite", "version": "create-vite@9.3.3", "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.3", "summary": "create-viteでテンプレートファイルがパッケージに含まれていなかった不具合を修正。"},
+    {"repo": "honojs/hono", "version": "v4.13.14", "url": "https://github.com/honojs/hono/releases/tag/v4.13.14", "summary": "アダプタがHono v5のプレリリースをpeer依存として許容するよう修正（他は主にドキュメント整理）。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.314", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314", "summary": "`permissions.blockWritesOutsideWorkingDirectories`追加でWrite/Edit/NotebookEditが作業ディレクトリ外への書き込みを拒否できるようになり、Claude Apps GatewayにBedrockガードレールのトレースログなどガバナンス機能も追加。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.3.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.3.0", "summary": "Claude Enterprise向けClaude Tag APIエンドポイントを追加し、長時間リクエストのエラーメッセージからドキュメントへリンクするよう修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.156.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.156.0", "summary": "`wrangler d1 insights`がデータベース名省略で全D1データベース横断のトップクエリを返せるようになり、Pages環境での誤ったautoconfig停止も修正。"},
+    {"repo": "astral-sh/uv", "version": "0.13.6", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6", "summary": "新しいCPythonバージョンを追加し、プレビュー機能としてNVIDIA GPUを検出してwheel-variantを選べるようになった。"}
+  ],
+  "headlines": [
+    {"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "title": "Introducing Gemini 4 Carbon", "category": "AI", "note": "Googleが新AIモデルを発表"},
+    {"url": "https://lwn.net/Articles/1102970/", "title": "Systemd adds support for components written in Rust", "category": "バックエンド", "note": "systemdにRust実装の部品対応"},
+    {"url": "https://blog.cloudflare.com/emudhra-patching/", "title": "4 real? Tracking exploitation and patching of eMudhra's weak keys", "category": "インフラ", "note": "eMudhra弱鍵の悪用状況を追跡"},
+    {"url": "https://tech.every.tv/entry/2026/10/30/124255", "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか", "category": "インフラ", "note": "個人情報を持たないDB設計の検討"},
+    {"url": "https://speakerdeck.com/yakumo/filter-what-the-llm-reads-rag-governance-with-agentcore-gateway", "title": "Filter What the LLM Reads: RAG Governance with AgentCore Gateway", "category": "AI", "note": "AgentCore GatewayでRAG統制"},
+    {"url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less", "title": "Vercel Agent sessions now cost 67% less", "category": "AI", "note": "Vercel Agentのコスト67%減"},
+    {"url": "https://qiita.com/superdora-cloud/items/8cad27487cd0e67d088c", "title": "【緊急】Node.jsの重大脆弱性に対応するセキュリティアップデートを安全に適用する方法", "category": "バックエンド", "note": "Node.js緊急セキュリティ更新対応"},
+    {"url": "https://levtech.jp/media/detail_959/", "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】", "category": "バックエンド", "note": "擬似乱数MTの設計思想を解説"},
+    {"url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/", "title": "Octoverse: Commits, pushes reach new highs in 2026 as developers build with agents", "category": "AI", "note": "2026年のコミット数が過去最高"},
+    {"url": "https://speakerdeck.com/gre212/kontena-sabisu-ha-ecs-dakejanai-google-cloud-no-cloud-run-no-miryoku", "title": "コンテナサービスは ECS だけじゃない！Google Cloud の Cloud Runの魅力", "category": "インフラ", "note": "ECS以外の選択肢Cloud Run"}
+  ]
+}
