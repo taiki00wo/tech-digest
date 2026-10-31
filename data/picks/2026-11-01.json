@@ -1,0 +1,50 @@
+{
+  "edition": "daily",
+  "headline": "Linuxカーネルの深刻なTCP UAFとJepsenの分散DB検証が並ぶ中、Claude CodeのMCP運用ノウハウも要チェックな一日。",
+  "reading_list": [
+    {
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "LinuxのIPv4 TCPスタックにCVSS 9.8のUse-After-Freeが見つかり、カーネル内部の脆弱性がどう生まれるかを理解しておく価値が高いため。",
+      "takeaway": "LinuxカーネルのTCP実装でUAFが発生する条件と、対応の緊急度が分かる。"
+    },
+    {
+      "url": "https://qiita.com/yukihayama/items/ccfccdd1970291a9a834",
+      "title": "Claude CodeのMCPツール呼び出しが60秒でtimed outする — 幽霊二重実行を止めるジョブ投入パターンの完全実装",
+      "category": "AI",
+      "minutes": 8,
+      "why": "Claude CodeのMCPツール呼び出しで実際に起きるタイムアウトと二重実行の問題への対処なので、自分のMCP運用にそのまま使える。",
+      "takeaway": "60秒タイムアウトを回避しつつ二重実行を防ぐジョブ投入パターンの具体的な実装方法が分かる。"
+    },
+    {
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "category": "バックエンド",
+      "minutes": 10,
+      "why": "Jepsenの分析は分散データベースの一貫性保証を仕組みレベルで検証する数少ない一次情報であるため。",
+      "takeaway": "ParticleDB 1.1.4で見つかった整合性・フォールトトレランス上の問題点が具体的に分かる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "language": "JavaScript",
+      "stars": 3323,
+      "stars_per_day": 1108,
+      "what": "AIが作った「vibecoded」っぽいUIを、デザインパスで整った見た目に直すClaude skill。",
+      "why": "AIエージェントで作ったUIが”AIっぽく”なりがちな問題への対処で、公開直後から急速に伸びている。",
+      "try": "Claude Codeのskillsフォルダ（または `.claude/skills/`）にコピーして `/unslop` で実行する。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "summary": "サブエージェントの既定effortを指定する`CLAUDE_CODE_SUBAGENT_EFFORT`や、グループ共有予算`pooled_budget`などの管理機能が追加された。"
+    }
+  ]
+}
