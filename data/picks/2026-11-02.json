@@ -1,0 +1,50 @@
+{
+  "edition": "daily",
+  "headline": "AIエージェントの「運用」が主役の一日。Agent Skillsの設計論とClaude Codeのトークン実測、KDDIのEKS Auto Mode商用運用まで。",
+  "reading_list": [
+    {
+      "url": "https://techblog.kazaneya.com/20261030-agent-skills/",
+      "title": "AIエージェント向けの業務手順書（Agent Skills）の設計方法",
+      "category": "AI",
+      "minutes": 8,
+      "why": "ブックマーク数が今日のAI系記事の中で際立って高く、Claude CodeなどのAgent Skillsをどう設計するかという実務ノウハウの一次情報であるため。",
+      "takeaway": "AIエージェント向けの業務手順書（Agent Skills）を設計する際の考え方・構成パターンが分かる。"
+    },
+    {
+      "url": "https://qiita.com/songchong/items/ac9779bb8e8838b546b9",
+      "title": "compact の使い方、間違えるとトークン代 2.75 倍？ Claude Code で測ってわかった 5 つの結論【2026年版】",
+      "category": "AI",
+      "minutes": 6,
+      "why": "Claude Codeのcompactコマンドとプロンプトキャッシュの関係を実測で検証した記事で、日々の運用コストにそのまま反映できるため。",
+      "takeaway": "compactの実行タイミングとプロンプトキャッシュの効き方、トークン代を抑えるための具体的な結論が分かる。"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/202611-kddi-eks-auto-mode-case-study/",
+      "title": "KDDI における Amazon EKS Auto Mode 商用導入：カスタムコントローラーによる運用課題の解決",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "AWS公式ブログによるEKS Auto Modeの商用導入事例で、カスタムコントローラー運用という仕組みレベルの課題解決が書かれているため。",
+      "takeaway": "EKS Auto Mode導入時に出る運用課題と、カスタムコントローラーでの解決アプローチが具体的に分かる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "language": "TypeScript",
+      "stars": 6997,
+      "stars_per_day": 3498,
+      "what": "1つのGitHubリポジトリに対して動く、GitHubを監視して能動的に動くコーディングエージェント（DeepSeek Harness向けのプラグイン）。",
+      "why": "DeepSeekが自律エージェント設計を探る研究に合わせて公開した研究プロトタイプで、公開直後からスターが急増している。",
+      "try": "READMEに沿ってDeepSeek HarnessにBundleとして追加し、対象のGitHubリポジトリを監視させる形で試す。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.16",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.16",
+      "summary": "`mount()`/`app.mount()`でマウントprefix内のミドルウェアをパス操作で回避できる脆弱性を修正（GHSA-4m76-xfj5-7975）。"
+    }
+  ]
+}
