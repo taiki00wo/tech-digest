@@ -1,0 +1,68 @@
+{
+  "edition": "daily",
+  "headline": "LLMの重みを直接書き換える手法、CloudflareのDNSビルド高速化、ISUCON2026優勝チームの舞台裏など、性能とシステム内部に踏み込む記事が揃った一日。",
+  "reading_list": [
+    {
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "title": "Astra can read and write weights to improve Qwen",
+      "category": "AI",
+      "minutes": 8,
+      "why": "HNで本日最高スコア（1317pt）を集めた、LLMの重みを直接読み書きして改善する「weight-space programming」の技術解説だから",
+      "takeaway": "モデルの重み空間を直接操作してQwenの振る舞いを改善するアプローチの考え方が分かる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "title": "We halved DNS build delay and cut memory use by 85%",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "CloudflareがDNSゾーンのビルド処理をどう高速化・省メモリ化したかを一次情報として解説しているから",
+      "takeaway": "大規模なDNSビルドでレイテンシとメモリ使用量を削減するための設計上の工夫が分かる"
+    },
+    {
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "title": "ISUCON2026で優勝しました（当日編）",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "日本最大級の性能チューニング競技ISUCON2026の優勝チームによる、当日の取り組みの一次情報だから",
+      "takeaway": "優勝チームが競技中にどう計測・改善を進めたか、実践的なパフォーマンスチューニングの進め方が分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "language": "Rust",
+      "stars": 4912,
+      "stars_per_day": 1575,
+      "what": "IntelliJ IDEAのキーマップやツールウィンドウを再現した、Rust製のネイティブIDE（エディタ・デバッガ・Git・ターミナル・DB/HTTPクライアントを60以上の言語で提供）",
+      "why": "起動0.9秒・メモリ169MBなど、IntelliJ IDEA比で大幅に高速・軽量というベンチマークが示されており、ネイティブ実装による性能の優位性が注目されている",
+      "try": "READMEのDownloadリンクからmacOS/Windows/Linux向けビルドを入手して起動する"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.4.4",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
+      "summary": "バグ修正中心のバックポートリリース（Turbopackのバグ修正やPPR周りの修正など）。セキュリティリリースは翌日公開予定と明記。"
+    },
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.16",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.16",
+      "summary": "セキュリティ修正（mount()がミドルウェアのスコープを迂回できる脆弱性などを修正、GHSA-4m76-xfj5-7975）。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v1.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.4.0",
+      "summary": "analytics・spend limits・RBAC向けのGA APIを追加するなど、管理系APIを拡充。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.156.2",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.156.2",
+      "summary": "workerdの既定の互換性日付を更新し、miniflare/wranglerの依存関係を更新するパッチリリース。"
+    }
+  ]
+}
