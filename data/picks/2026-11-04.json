@@ -1,0 +1,74 @@
+{
+  "edition": "daily",
+  "headline": "Postmanの無断AIプラグイン導入問題、OpenAIの独自Gitバックエンド、電子投票の暗号技術など、セキュリティとシステム設計を深掘りする記事が目立つ一日。",
+  "reading_list": [
+    {
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "category": "バックエンド",
+      "minutes": 6,
+      "why": "HNで837pt集めた、API開発で広く使われるPostmanがAIプラグインを無断導入しAPIデータを送信しようとした疑惑の一次報告だから",
+      "takeaway": "普段使っているAPIクライアントが機能追加の際にどのようなデータを外部送信しうるか、注意すべき点が分かる"
+    },
+    {
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "title": "Scaling Git at OpenAI",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "OpenAIが開発規模の拡大に合わせて自作したGit互換バックエンド「Pando」について、開発元自身が解説する一次情報だから",
+      "takeaway": "大規模な開発組織でGitの性能・スケーラビリティ課題にどう対処するか、独自バックエンド設計の考え方が分かる"
+    },
+    {
+      "url": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+      "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
+      "category": "その他",
+      "minutes": 10,
+      "why": "セキュリティ専門機関Trail of Bitsが、電子投票を支える暗号技術とその限界を一次情報として解説しているから",
+      "takeaway": "電子投票に使われる暗号技術の仕組みと、紙の投票がなお必要とされる理由が分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "language": "Rust",
+      "stars": 8072,
+      "stars_per_day": 4287,
+      "what": "対象のWebサイト・アプリ・ゲームの動作を実地調査し、コーディングエージェントで独自実装を作り直すRust製のクリーンルームエンジン",
+      "why": "公開直後からスターを集めており、1日あたり4000超という伸びの速さが際立っている",
+      "try": "READMEのDownloadリンクからビルドを取得して起動する"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.4.5",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5",
+      "summary": "'use cache'やCache Components周りの複数セキュリティ修正（キャッシュ跨ぎの情報漏洩・ポイズニングなど）を含む緊急性の高いリリース。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "summary": "クラウドのスケジュールタスクが意図しないコネクタを追加した際の警告、ツール呼び出しでメールアドレスが外部送信される前の確認など安全性周りの改善。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v1.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.4.0",
+      "summary": "analytics・spend limits・RBACなど管理系APIのGA対応を追加したTypeScript SDKのマイナーリリース。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.157.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.157.0",
+      "summary": "Wranglerのコンテナイメージレイヤーでzstd圧縮を選べるようになり、デフォルトの互換性日付も更新。"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.7",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.7",
+      "summary": "uv workspace metadataへの--output-version追加や、Windowsトランポリンのハンドル処理修正などのバグ修正。"
+    }
+  ]
+}
