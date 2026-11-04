@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "AnthropicのLLM推論検証研究やGoの新JSON APIなど「仕組み」に踏み込む記事が充実した一日で、Next.jsはキャッシュ関連の脆弱性修正に要注意。",
+  "reading_list": [
+    {
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "title": "Progress on provable inference for large language models",
+      "category": "AI",
+      "minutes": 8,
+      "why": "LLMの推論結果を形式的に検証可能にする研究の進展をAnthropic自身が解説している一次情報。",
+      "takeaway": "推論の正しさを数学的に保証する仕組みの現状と、エージェント運用での信頼性への含意がわかる。"
+    },
+    {
+      "url": "https://go.dev/blog/jsonv2",
+      "title": "A new Go API for JSON",
+      "category": "バックエンド",
+      "minutes": 7,
+      "why": "Go標準ライブラリのJSON APIを刷新する設計判断をGoチーム自身が説明する一次情報。",
+      "takeaway": "新しいjson/v2パッケージの設計方針と、既存コードを移行する際に注意すべき変更点がわかる。"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "暗号化ファームウェアがLinux上のドライバ動作を制約し、AI推論性能を落としている実態の分析。",
+      "takeaway": "ハードウェア側の制約がLinux上の推論性能にどう影響するか、その仕組みがわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "govijr/terminal-mac",
+      "url": "https://github.com/govijr/terminal-mac",
+      "language": "Swift",
+      "stars": 1447,
+      "stars_per_day": 724,
+      "what": "Apple Virtualizationで動かした仮想macOSデスクトップ全体を、ターミナルから表示・操作できるツール。",
+      "why": "computer-useエージェントがmacOSを安全に操作するための独立環境として新着人気で急上昇中。",
+      "try": "Apple Silicon・macOS 14以降でリリースページからプリビルド版をダウンロードして起動する（開発ツール不要）。"
+    }
+  ],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.5", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5", "summary": "Cache Componentsの'use cache'周りで発生していた複数のテナント間情報漏えい・キャッシュ汚染の脆弱性（Moderate）を修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.157.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.157.0", "summary": "コンテナイメージのzstd圧縮オプトインと、`wrangler delete`実行時にコンテナアプリも削除するオファーに対応。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.318", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318", "summary": "modの承認記録追加や`$.model.fork`へのeffort指定対応など、運用面の改善が中心。"}
+  ]
+}
