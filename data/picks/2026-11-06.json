@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "Alpine LinuxのOpenSSH認証バイパスと、AIが脆弱性を自律的に塞ぐ取り組みが同時に目立った一日",
+  "reading_list": [
+    {
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "muslベースのAlpine LinuxでPAM未導入のOpenSSHサーバーにパスワード認証バイパスが見つかり、コンテナ基盤を運用しているなら影響範囲を確認する必要があるため",
+      "takeaway": "どの構成（PAM未使用など）で認証バイパスが成立するかと、公式が示す回避策が分かる"
+    },
+    {
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "title": "A thousand fewer paths to root",
+      "category": "AI",
+      "minutes": 6,
+      "why": "OpenAIがroot権限につながる脆弱性を自動で見つけパッチまで作る自律パイプラインを公開し、AIエージェントによる脆弱性対応の実例として参考になるため",
+      "takeaway": "脆弱性の発見・検証・パッチ生成をどこまで自律パイプラインに任せられるかの現在地が分かる"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "title": "Inside GitHub's new Git storage architecture",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "数千のAIエージェントが同時にpushする前提でGitのストレージ構成を見直した話で、分散システムの設計判断を学べるため",
+      "takeaway": "大規模な書き込み負荷に耐えるようGitHubがストレージ層をどう再設計したかの要点が分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "language": "TypeScript",
+      "stars": 3217,
+      "stars_per_day": 1072,
+      "what": "Claude CodeやCodexなどCLIエージェントをバックグラウンドで自動運用し、判断が必要な時だけ通知で確認を求める軽量な自動化基盤",
+      "why": "新着で急速にスターを集めており、CLIエージェントを常時稼働させたい読者のニーズに合っているため",
+      "try": "Node 24・Git・curlとログイン済みのCLIエージェントを用意し、READMEのインストール手順に従って `agent-autoloop` を実行する"
+    }
+  ],
+  "releases": [
+    {"repo": "anthropics/claude-code", "version": "v2.1.318", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318", "summary": "modの有効化記録、mantleでのAWSロール切替対応、サインイン期限の表示など複数の改善が入った"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.6.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.6.0", "summary": "レート制限や外部キー検証失敗用のエラーコードが追加され、クライアントのエラー名修正も入った"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.158.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.158.0", "summary": "Wrangler・Vite・Workers VitestでArtifactsバインディングをローカルシミュレータで使えるようになった"}
+  ]
+}
