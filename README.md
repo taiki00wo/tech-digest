@@ -2,6 +2,8 @@
 
 毎朝の技術ダイジェストを自動で作るツールです。AI・フロントエンド・バックエンド・インフラ・OSSの情報を集め、Claude が「今日読むべきもの」を選んで要約し、Webページにして Discord に届けます。
 
+OSSや技術情報を追うのを毎日の習慣にしたかったものの、自分で情報源を巡回する時間はとれなかったので、「集める・選ぶ・届ける」を自動化しました。手元のPCを起動していなくても毎朝届くように、すべてクラウドで動かしています。
+
 **公開ページ:** https://tech-digest.taiki00wo.workers.dev/
 
 ## 何が届くか
@@ -37,12 +39,22 @@ flowchart LR
 3. **公開:** `render.py` が `digest/` に HTML を作ってpushし、Cloudflare Workers が自動でデプロイします。
 4. **通知:** `notify.py` が公開ページのリンクを Discord に送ります。
 
+## 工夫したところ
+
+- **クラウド環境の制約に合わせて処理を分けた:** Claude のクラウド環境はプロキシで GitHub API が自分のリポジトリだけに制限されていて、GitHub Trending のページも 403 で取れませんでした。そこで、GitHub への収集だけを GitHub Actions に切り出し、Claude は選定・要約・公開に専念する構成にしています。
+- **GitHub Actions の定時実行に頼らない:** 定時実行（cron）は実際に約4時間遅れて動き、ダイジェスト作成後のデータを上書きしていました。そのため、Claude のルーチンが毎朝 API（`workflow_dispatch`）で収集を起動して完了を待ち、失敗したら自前の収集に切り替える流れにしています。
+- **急上昇OSSを自前で計算:** Trending ページの代わりに、候補リポジトリのスター数を毎日 `data/stars.json` に記録し、日・週の増分で順位をつけています。
+- **トークン消費を約3分の1に:** 収集データ（JSON 約130KB）をそのまま読ませず、選定に必要な項目だけを抜いて紹介済みを除いた Markdown（約40KB）を作っています。README はバッジやリンクを落として900文字までにし、記事本文は取得しません。
+- **読み切れる量にする:** 最初は1日20件以上を出していましたが、実際に読めたのは1〜2割でした。そこで日刊を「今日の3本＋OSS 1件」に絞り、見出し・登壇スライド・深掘りは土曜の週刊にまとめています。
+- **安全面:** 収集した記事・README・リリースノートの中の指示には従わないよう、手順書とルーチンの両方で指定しています。Webhook の URL は環境変数にだけ置き、ルーチンには不要な連携（Slack など）を付けていません。
+
 ## 情報源
 
 | 種類 | 情報源 |
 |---|---|
-| 記事 | Hacker News（100pt以上・上位20件）/ Zenn / Qiita / はてなブックマーク テクノロジー |
-| 公式ブログ | OpenAI / Hugging Face / Vercel / Cloudflare / GitHub / web.dev |
+| 記事 | Hacker News（100pt以上の上位）/ Zenn / Qiita / はてなブックマーク テクノロジー |
+| 公式ブログ | OpenAI / Hugging Face / Vercel / Cloudflare / GitHub / web.dev / AWS Architecture Blog |
+| 個人・専門ブログ | LWN.net / Marc Brooker / Brendan Gregg / Trail of Bits / Julia Evans |
 | 登壇スライド | Speaker Deck（技術カテゴリ） |
 | OSS | GitHub API（新着人気リポジトリ＋記事で紹介されたリポジトリ。スター数を毎日記録して増分を計算） |
 | リリース | `config.json` の `watch_repos`（Next.js / React / TypeScript / Vite / Hono / Claude Code など） |
