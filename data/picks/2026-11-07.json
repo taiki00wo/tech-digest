@@ -1,0 +1,141 @@
+{
+  "edition": "weekly",
+  "headline": "AIエージェントがLinuxのセキュリティ運用や性能チューニングの現場に入り込む一方、Binance・GMOの大型侵害が「誰が何を承認できるか」を問い直す一週間だった。",
+  "trends": [
+    "AIコーディングエージェント（Codex・Claude Code）が、バックポートやペネトレーションテストなど人手不足の定型セキュリティ作業を代行する動きが広がった。",
+    "Binance・GMOの大型侵害を受け、署名システムや権限委譲のあり方を見直す技術者の発信が目立った。",
+    "スター急増OSSはスマホ常駐型のオンデバイスAIエージェント（dsh-Go・Mika）が中心で、ローカル実行への関心が高まっている。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
+      "title": "Backporting security fixes at scale with Codex",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "安定版Linuxカーネルに既存の修正がバックポートされていない問題に、AIエージェント(Codex)を使う余地があるのかをセキュリティ企業Trail of Bitsが解説している。",
+      "takeaway": "大量のバックポート作業をAIエージェントに任せる際、どこを自動化し、どこを人がレビューすべきかの切り分け方がわかる。"
+    },
+    {
+      "url": "https://lwn.net/Articles/1104262/",
+      "title": "How We Could Have Backdoored Bash (Hacktron blog)",
+      "category": "その他",
+      "minutes": 10,
+      "why": "xz utils事件後も残る『正規の配布経路そのもの』を乗っ取るタイプのサプライチェーン攻撃が、GNU Savannahを舞台に実際に成立しかけていたことを示す報告。",
+      "takeaway": "OSSの配布基盤がどこまで脆いか、どの手順で侵入に迫ったかを知ることで、自分が依存するプロジェクトのリスクを見積もる材料になる。"
+    },
+    {
+      "url": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+      "title": "After Binance, check what your signing systems can approve",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "63億ドル規模のBinance侵害を受けて、『自社の署名システムが何を承認できる状態になっているか』を見直す実践的な視点を提供している。",
+      "takeaway": "署名権限や承認フローのどこを点検すべきか、インシデント後に自分のシステムへ当てはめて確認すべきチェックポイントがわかる。"
+    },
+    {
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "title": "3人それぞれのClaude CodeをSlackでつないでISUCON2026に参加した（207,039点）",
+      "category": "AI",
+      "minutes": 8,
+      "why": "複数人がそれぞれのClaude CodeをSlackで連携させてISUCON（Webアプリ性能チューニング大会）に挑んだ、一次情報による実践レポート。",
+      "takeaway": "AIエージェントを使った分散的な性能チューニングの進め方や、チームでのClaude Code運用の工夫を具体的に知ることができる。"
+    },
+    {
+      "url": "https://github.com/ppmpreetham/BUI",
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "UIランタイムの実装をGPUI（ZedのUIフレームワーク）と比較して高速化を検証した、著者本人による一次情報の技術検証。",
+      "takeaway": "UIレンダリングやランタイム設計のどこが速度差を生むのか、具体的な比較ポイントを把握できる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "language": "Dart",
+      "stars": 12894,
+      "stars_week": 9332,
+      "what": "DeepSeek Harness(DSH)をAndroidから操作するクライアント。スマホ内蔵のLinux環境でDSHを直接動かしたり、PC上のDSHを遠隔操作したりできる。",
+      "why": "スマホ単体でAIエージェントを動かせる手軽さが支持され、中国圏のTrendshiftデイリー全言語1位になるほど注目を集めている。",
+      "try": "GitHub ReleasesまたはDSH Go公式サイトからarm64向けAPKを入手してインストールする。"
+    },
+    {
+      "repo": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "language": "Kotlin",
+      "stars": 5232,
+      "stars_week": 3622,
+      "what": "やりたいことを一文で伝えると、裏側の非表示画面でアプリやWebを自律的に操作して完了まで進めるAndroid向けオンデバイスAIエージェント。",
+      "why": "画面を占有せず裏で作業を進め、購入など不可逆な操作の手前で止まる設計が評価され、公開直後から急速にスターを集めている。",
+      "try": "READMEのデモ（チャット履歴の要約や条件付き商品検索など）を参考に、操作対象のアプリを開いた状態でタスクを一文で指示する。"
+    },
+    {
+      "repo": "horizon-rust/horizon",
+      "url": "https://github.com/horizon-rust/horizon",
+      "language": "Rust",
+      "stars": 5351,
+      "stars_week": 3430,
+      "what": "Minecraft: Java Edition 26.3をRustでスクラッチから書き直し、バニラ本体と300以上の差分ハーネスで突き合わせて検証しているオープンソース実装。",
+      "why": "ゲーム内容そのものではなく、大規模ソフトウェアを安全に再実装するための『差分ハーネスでバニラと照合する』検証手法が、互換実装に取り組むエンジニアの関心を集めている。",
+      "try": "playhorizon.devまたはランチャーのリリースページから対応OS(Linux x86-64 / macOS Apple Silicon / Windows x64)向けのHorizonランチャーを入手し、所有しているJava Edition 26.3を指定して起動する。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "wangzan101/Mika",
+    "url": "https://github.com/wangzan101/Mika",
+    "overview": "Mikaは、やりたいことを一文で伝えるとAndroid上のアプリやWebを自律的に操作して完了まで進めるオンデバイスAIエージェント。画面の裏側で動作するため、ユーザーは通常通りスマホを使い続けられる。チャット履歴の要約や条件付きの商品検索、複数求人サイトへの応募のような、複数ステップにわたる定型操作の代行を狙っている。",
+    "how_it_works": "Mikaは隠された背景スクリーン上で動作し、チャットのUIとは別に、エージェントが実行する各ステップを背後の画面に表示する（READMEのデモGIFは4倍速で確認できる）。ユーザーがタスクを一文で指示すると、エージェントは対象アプリやブラウザを開き、画面内容を読み取りながら一手ずつ操作を進める。「評価4.5以上・30ドル未満の充電器をカートに入れるが決済前で止める」というデモが示すように、不可逆な操作（購入確定など）の手前で一旦止まる設計が組み込まれている。英語・簡体字・繁体字・日本語・韓国語・スペイン語に対応し、各言語での指示を同じ仕組みで処理できる。",
+    "use_cases": [
+      "グループチャットで今日話された内容を自動で読んでまとめてほしいとき",
+      "価格や評価といった条件を指定した商品を、決済前まで自動でカートに入れさせたいとき",
+      "複数の求人サイトへの応募・挨拶文送信のような繰り返し作業を代行させたいとき"
+    ],
+    "try": [
+      "Mikaアプリをインストールし、やりたいことを一文でチャットに入力する（例:「今日グループで話した内容を教えて」）。",
+      "操作対象のアプリを開いた状態で指示すると、裏側の背景スクリーンでそのアプリをMikaが操作して結果を返す。",
+      "購入など不可逆な操作が発生するタスクでは決済直前で停止するので、最終確認は自分で行う。"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/nealle/a-deep-dive-into-the-never-type",
+      "title": "詳解 never 型 - ボトム型の性質を深掘り",
+      "event": "TSKaigi Sendai 2026",
+      "why": "never型というボトム型の性質を仕組みから深掘りする発表で、TypeScriptの型システムの理解を一段深められる。"
+    },
+    {
+      "url": "https://speakerdeck.com/kazzpapa3/komekaigi-kougeki-3-jikan-vs-fukkyuu-10-jikan-akusesu-ki-ryuushutsu-no-hitaishousei-o-taikan-suru-tame-ni-ctf-o-tsukuta-hanashi",
+      "title": "攻撃3時間 vs 復旧10時間。アクセスキー流出の非対称性を体感するためにCTFを作った話",
+      "event": "KomeKaigi 2026",
+      "why": "攻撃と復旧の時間差という実際のインシデント構造を自作CTFで体感できるよう設計した話で、アクセスキー漏洩対応の勘所を掴める。"
+    },
+    {
+      "url": "https://speakerdeck.com/knishioka/claude-code-no-setsuzokusaki-o-erabu",
+      "title": "Claude Codeの接続先を選ぶ",
+      "event": "AI社会実装勉強会第64回",
+      "why": "Claude Codeをどのバックエンド（API・Bedrock等）につなぐかという、実運用で地味に悩むポイントを整理した発表。"
+    }
+  ],
+  "releases": [
+    {"repo": "microsoft/TypeScript", "version": "vscode-typescript/v1.0.2", "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.2", "summary": "VS Code向けTypeScript統合がTypeScript 7.0.2(コミットb37cbdc)にバンドル更新。"},
+    {"repo": "vitejs/vite", "version": "v8.3.6", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.6", "summary": "プラグインコンテナのクローズ処理やビルド時のCSS依存解決、チャンクID安定化など複数のビルド周りの不具合を修正。"},
+    {"repo": "honojs/hono", "version": "v4.13.16", "url": "https://github.com/honojs/hono/releases/tag/v4.13.16", "summary": "mount()/app.mount()でマウントプレフィックス配下のミドルウェアをパス操作でバイパスできる脆弱性を修正。要アップデート。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.319", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319", "summary": "テレメトリ/フィーチャーフラグ無効時やLLMゲートウェイ経由時のauto mode挙動を変更、`CLAUDE_CODE_AUTO_MODE_SERVER`で制御可能に。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.6.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.6.0", "summary": "レート制限・外部キー検証失敗用のエラーコード追加や、エラー名をクラス名に統一するなどの改善。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.158.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.158.0", "summary": "Wrangler/Vite/Workers Vitest全体でローカルArtifactsバインディング（Miniflareシミュレータ）をサポート。"},
+    {"repo": "astral-sh/uv", "version": "0.13.7", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.7", "summary": "`uv workspace metadata`への`--output-version`追加や`uv audit`での重複OSVレコード統合など、プレビュー機能とバグ修正。"}
+  ],
+  "headlines": [
+    {"url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398", "title": "North Korean fake job interview led to $6.3B Binance heist", "category": "インフラ", "note": "偽面接から670億円規模の被害"},
+    {"url": "https://news.ycombinator.com/item?id=50363461", "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)", "category": "AI", "note": "Gemini有料でも履歴がAI学習に"},
+    {"url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8", "title": "今後のセキュリティの考え方", "category": "インフラ", "note": "セキュリティ対策の考え方の変化"},
+    {"url": "https://zenn.dev/progate/articles/24b1140180300c", "title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！", "category": "インフラ", "note": "Actions用の新しいロックファイル"},
+    {"url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest", "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました", "category": "AI", "note": "AIエージェントで侵入テストを自動化"},
+    {"url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02", "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた", "category": "AI", "note": "バイブコーディングの落とし穴"},
+    {"url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline", "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った", "category": "AI", "note": "AI生成ADRの読みやすさ対策"},
+    {"url": "https://zenn.dev/nrs/articles/c777388530aa84", "title": "コードを読まずにマージするために必要なこと", "category": "バックエンド", "note": "レビュー省略を支える前提条件"},
+    {"url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git", "title": "日本の全法令を git の履歴にしてみた", "category": "その他", "note": "全法令の変遷をgit historyで可視化"},
+    {"url": "https://lwn.net/Articles/1105464/", "title": "Critical security vulnerability affects OpenSSH on Alpine Linux systems", "category": "インフラ", "note": "Alpine版OpenSSHに重大脆弱性"}
+  ]
+}
