@@ -1,0 +1,36 @@
+{
+  "edition": "daily",
+  "headline": "Claude Codeの運用知見（サブエージェント指示のコスト実測、無人実行時の権限絞り込み）とLinux基盤技術の技術解説が並んだ一日。",
+  "reading_list": [
+    {
+      "url": "https://qiita.com/yunany90/items/631be4b879ec5e1b6b33",
+      "title": "Claude Codeに「サブエージェントを使って」と書くのはやめよう。288回測ったら見つかる量は同じでコストだけ最大221%増えた",
+      "category": "AI",
+      "minutes": 8,
+      "why": "「サブエージェントを使って」という指示の効果を288回の実測で定量検証した、著者本人による一次情報の記事だから。",
+      "takeaway": "サブエージェント指示を付けても見つかる量は変わらず、コストだけ最大221%増えるという具体的な実測結果がわかる。"
+    },
+    {
+      "url": "https://lwn.net/Articles/1105934/",
+      "title": "Amutable Foundations: A Technical Overview",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "Lennart Poettering氏らがまとめたLinux基盤技術の技術解説で、LWNによる詳細なレポートだから。",
+      "takeaway": "基盤技術の設計意図や仕組みの概要をLWNの解説からつかめる。"
+    },
+    {
+      "url": "https://qiita.com/takamatt_ai/items/d9c67f245a794e659f30",
+      "title": "無人で動かす claude -p に渡す道具を絞る(--allowedTools で git をサブコマンドごとに・専用の --settings でフックだけ足す)",
+      "category": "AI",
+      "minutes": 6,
+      "why": "claude -p をcronやlaunchdで無人実行する際の権限設計を、著者本人の検証に基づいて具体的に示しているから。",
+      "takeaway": "`--allowedTools`でgitをサブコマンド単位に絞り込み、専用`--settings`でフックだけ追加する無人運用時の安全な設定方法がわかる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "microsoft/TypeScript", "version": "vscode-typescript/v1.0.2", "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.2", "summary": "VS Code向けTypeScript統合がTypeScript 7.0.2(コミットb37cbdc)にバンドル更新。"},
+    {"repo": "honojs/hono", "version": "v4.13.17", "url": "https://github.com/honojs/hono/releases/tag/v4.13.17", "summary": "cookieの__Secure-/__Host-プレフィックス判定の大小文字無視対応やetag/pretty-jsonでのレスポンスボディ破棄など複数のバグ修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.319", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319", "summary": "テレメトリ/フィーチャーフラグ無効時のauto mode挙動を変更（`CLAUDE_CODE_AUTO_MODE_SERVER`で制御）、MCPツール呼び出しのバックグラウンド実行に対応。"}
+  ]
+}
