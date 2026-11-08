@@ -1,0 +1,39 @@
+{
+  "edition": "daily",
+  "headline": "Claude Codeの秘密情報漏えい問題と、MCP・依存脆弱性の広がりを追う一日",
+  "reading_list": [
+    {
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Claude Codeを使っているなら、「今後確認しない」設定がどれだけの漏えいにつながったのか知っておきたい",
+      "takeaway": "「今後確認しない」設定が秘密情報の公開にどうつながるか、実際の件数と背景がわかる"
+    },
+    {
+      "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
+      "title": "MCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更",
+      "category": "AI",
+      "minutes": 8,
+      "why": "MCPを使う側として、批判が起きた経緯と、流れを変えた仕様変更のポイントを整理しておきたい",
+      "takeaway": "MCPへの批判が生まれた理由と、CLIが支持されるようになった仕様変更の内容がわかる"
+    },
+    {
+      "url": "https://qiita.com/songchong/items/41a88eb41845af761b19",
+      "title": "部品の脆弱性は、どこまで広がるのか？ 主要64製品と8部品の依存関係をたどったら、OpenSSLは20、SQLiteは16、PHPは11だった",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "依存している部品の脆弱性が実際どこまで影響を広げるのか、具体的な調査データで把握しておきたい",
+      "takeaway": "OpenSSL・SQLite・PHPなど主要な部品の脆弱性が、どの製品にどれだけ連鎖して広がるかがわかる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.17",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.17",
+      "summary": "cookie属性・URLクエリ解析・ETag・JSONのcontent-type判定・timingの精度など複数のバグ修正"
+    }
+  ]
+}
