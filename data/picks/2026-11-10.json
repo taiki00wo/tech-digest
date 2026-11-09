@@ -1,0 +1,38 @@
+{
+  "edition": "daily",
+  "headline": "mallocの内部動作やAWSの分散ルーティング事例など「仕組み」に踏み込む記事が目立ち、Next.js・Claude Code・wranglerなど定番ツールの地味な更新も続いた一日。",
+  "reading_list": [
+    {
+      "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+      "title": "What is malloc doing, anyway?",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "普段意識しないmallocの内部実装を知っておくと、性能チューニングやコンテナのメモリ問題を追うときの土台になる。",
+      "takeaway": "mallocがメモリブロックをどう管理・再利用しているかの仕組みが分かる。"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan/",
+      "title": "How DeepL keeps closest-exit routing during maintenance with AWS Cloud WAN",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "マルチリージョンのハイブリッドネットワークでメンテナンス中も最短経路ルーティングを維持する、分散システム設計の実例。",
+      "takeaway": "AWS Cloud WANを使った複数リージョン間のクローズスト・エグジットルーティングの構成パターンが分かる。"
+    },
+    {
+      "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+      "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
+      "category": "AI",
+      "minutes": 5,
+      "why": "LLM APIやゲートウェイを選ぶ際の実運用トレンドを、Vercel自身の本番トラフィックデータから確認できる。",
+      "takeaway": "本番トラフィックにおけるDecision modelsの採用拡大やAnthropicのシェア拡大といった最新動向が分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.6", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6", "summary": "create-next-appでTailwindを4.3.3に固定、未圧縮レスポンスの自動圧縮、TurbopackのdevモードGC修正などのバックポート。"},
+    {"repo": "vitejs/vite", "version": "v8.3.7", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7", "summary": "内部バンドラRolldownをv1.2.18に更新するバグ修正リリース。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.321", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321", "summary": "Claude Fable 5.2がデフォルトのFableモデルに、remote-controlに--settings追加、MCP OAuthのシークレット漏洩やBashサンドボックス/権限プロンプトの不具合を修正。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.7.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.7.0", "summary": "claude-fable-5-2/claude-mythos-5-2モデルを追加、Admin APIにsandbox_egress_restrictedエラーを追加、失敗レスポンスのbodyをデバッグログに含めるよう修正。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.159.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.159.0", "summary": "wrangler devのローカル状態を.cloudflare/stateに保存する実験的機能、wrangler d1 exportに仮想テーブル対応の--compatibilityフラグを追加。"}
+  ]
+}
