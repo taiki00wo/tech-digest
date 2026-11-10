@@ -1,0 +1,38 @@
+{
+  "edition": "daily",
+  "headline": "Anthropic自身が語るマルチエージェントの安全なスケーリング術、脆弱性対応としてのRust移行、AWSのリージョンフェイルオーバー事例など、安全性と仕組みに踏み込む記事が集まった一日。",
+  "reading_list": [
+    {
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "category": "AI",
+      "minutes": 6,
+      "why": "複数のコーディングエージェントを並行稼働させる構成を検討している読者にとって、Anthropic自身が安全性の考え方を語る一次情報だから。",
+      "takeaway": "マルチエージェント構成で長時間タスクを安全に回す際に、Anthropicがどこに気を付けているかが分かる。"
+    },
+    {
+      "url": "https://zenn.dev/garasubo/articles/72340052cdd871",
+      "title": "脆弱性問題を解決するためにRustに移行するべきなのか？",
+      "category": "バックエンド",
+      "minutes": 7,
+      "why": "メモリ安全性目的の言語移行という手段の是非を、実務目線で掘り下げた技術者本人の考察だから。",
+      "takeaway": "Rust移行で見落としがちな論点やコスト・トレードオフの考え方が分かる。"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/architecture/self-service-regional-failover-with-amazon-application-recovery-controller-region-switch-and-centralized-ingress-controls/",
+      "title": "Self-service regional failover with Amazon Application Recovery Controller Region Switch and centralized ingress controls",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "分散システムにおけるリージョン障害対応の実例を、AWS自身のブログから一次情報で学べるから。",
+      "takeaway": "Region Switchと集中管理されたイングレス制御を組み合わせた、セルフサービス型リージョンフェイルオーバーの構成パターンが分かる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "vercel/next.js", "version": "v16.4.6", "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6", "summary": "create-next-appのTailwindを4.3.3に固定、ルートハンドラの未圧縮レスポンスを自動圧縮、Turbopack devのGC修正などをバックポート。"},
+    {"repo": "vitejs/vite", "version": "v8.3.7", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7", "summary": "内部バンドラRolldownをv1.2.18に更新するバグ修正リリース。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.322", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322", "summary": "Vertexのグローバル/us/euリージョンでfast modeに対応（Vertexが拒否した場合は標準速度にフォールバック）。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.8.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.8.0", "summary": "Claude Tagのアナリティクスにメトリクスを追加、Slack設定にreply_modeを追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.160.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.160.0", "summary": "実験的なcf-wrangler delegateで--inspector-portなどのWrangler devオプションを転送可能に。"}
+  ]
+}
