@@ -1,0 +1,51 @@
+{
+  "edition": "daily",
+  "headline": "分散合意アルゴリズムの設計判断から、LLM API新機能、RAG高速化まで、仕組みに踏み込む3本。",
+  "reading_list": [
+    {
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Cloudflareが実験的な合意サービスのために珍しい合意アルゴリズムを選んだ理由を一次情報で読める",
+      "takeaway": "分散システムの合意アルゴリズム選定で何がトレードオフになるかがわかる"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Gemini Decisions API",
+      "category": "AI",
+      "minutes": 5,
+      "why": "Google公式ブログでのLLM向け新API発表",
+      "takeaway": "Gemini Decisions APIが何を提供する機能か概要がわかる"
+    },
+    {
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "category": "AI",
+      "minutes": 7,
+      "why": "RAGの検索ステップの効率化についてAppleの研究ブログから一次情報で読める",
+      "takeaway": "RAGの検索をどう高速化・効率化できるか、方向性がわかる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.18",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.18",
+      "summary": "validator()のContent-Type判定バグとbodyLimit()がリクエストボディ全体をメモリに保持してしまう問題を修正するセキュリティリリース"
+    },
+    {
+      "repo": "vitejs/vite",
+      "version": "v8.3.8",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8",
+      "summary": "ビルド・CSS・config関連のバグ修正とパフォーマンス改善（Sassの読み込み最適化など）"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "summary": "Vertex AI（global/us/eu）でfast modeに対応、未対応時は通常速度にフォールバック"
+    }
+  ]
+}
