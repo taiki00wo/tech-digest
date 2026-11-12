@@ -1,0 +1,48 @@
+{
+  "edition": "daily",
+  "headline": "GitHub Actionsへの広域サプライチェーン攻撃と、AWS EmulatorをClaude Codeで検証する実践記事が目立った一日。",
+  "reading_list": [
+    {
+      "url": "https://blog.flatt.tech/entry/github_actions_widespread_supply_chain_attack",
+      "title": "GitHub Actions を狙った広域サプライチェーン攻撃（11/10~11/12）に関する注意喚起",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "11月10〜12日にGitHub上の多数のリポジトリでワークフローに悪性コードが注入される攻撃が進行しており、CI/CDをGitHub Actionsに依存している場合は影響確認が急がれる。",
+      "takeaway": "攻撃の手口と影響範囲、自分のリポジトリが対象になっていないか確認する観点がわかる。"
+    },
+    {
+      "url": "https://pron.github.io/posts/correctness-and-complexity",
+      "title": "Why Writing Correct Software Is Hard",
+      "category": "バックエンド",
+      "minutes": 12,
+      "why": "著者本人のブログによる一次情報で、ソフトウェアの正しさと複雑さの関係という読者が好む「仕組みまで踏み込んだ」テーマを扱っている。",
+      "takeaway": "正しいソフトウェアを書くことがなぜ構造的に難しいのか、複雑さをめぐる考え方の視点が得られる（推測）。"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/20261112-aws-emulator/",
+      "title": "[新サービス] AWS Emulator 発表！実 AWS と比べ、Claude Code にローカルでテストと修正を繰り返させてみた",
+      "category": "AI",
+      "minutes": 6,
+      "why": "発表直後のAWS Emulatorを、Claude Codeでローカルに試行錯誤させるという、AWS/サーバーレスとAIエージェント活用が交差する実践レポート。",
+      "takeaway": "AWS EmulatorのLinux/macOS/Windowsでの導入方法と、実AWSとの違いをAIエージェント経由で検証する際の勘所がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "janestreet/agent_skills",
+      "url": "https://github.com/janestreet/agent_skills",
+      "language": "None",
+      "stars": 7713,
+      "stars_per_day": 2040,
+      "what": "AIエージェント向けのスキル集。SKILL.mdファイルで手順を定義し、エージェントに特定の振る舞い（例: ソクラテス式チューター）を教え込める。",
+      "why": "公開直後からスター増加数が今日のOSS候補で最大で、Jane Street発という信頼性もありAIエージェント活用への関心の高さを示している。",
+      "try": "socratic-tutorディレクトリをエージェントのskillsフォルダにコピーし、「teach me X」のように使うよう指示する。"
+    }
+  ],
+  "releases": [
+    {"repo": "honojs/hono", "version": "v4.13.18", "url": "https://github.com/honojs/hono/releases/tag/v4.13.18", "summary": "Content-Typeの書式差でvalidator()が検証をスキップする脆弱性と、bodyLimit()がリクエストボディ全体をメモリに溜め込む問題を修正。"},
+    {"repo": "vitejs/vite", "version": "v8.3.8", "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8", "summary": "transformフックでのmagicString/ast保持などのバグ修正と、Sassインポートの重複排除によるビルド性能改善。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.161.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.161.0", "summary": "実験的Build Outputのソースマップのsourcesをバンドル内の実位置基準に修正し、ファイル位置の欠落を解消。"},
+    {"repo": "astral-sh/uv", "version": "0.13.8", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.8", "summary": "CPython 3.16.0a2を追加し、wheel variantのローカルパス/Gitからの直接インストールやCPUマイクロアーキテクチャ検出などのプレビュー機能を追加。"}
+  ]
+}
