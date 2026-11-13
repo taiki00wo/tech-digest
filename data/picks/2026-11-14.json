@@ -1,0 +1,225 @@
+{
+  "edition": "weekly",
+  "headline": "今週はAIエージェント向け開発基盤の刷新とセキュリティ・信頼性論議が目立ち、性能チューニングや分散システムの仕組みを掘り下げる一次情報も充実した一週間だった。",
+  "trends": [
+    "AIエージェントを前提にした開発基盤・ツールが各社から相次ぎ登場している（GitHubのGitストレージ刷新、CloudflareのKitesurf OSS化、エージェントスキル実践ガイドなど）",
+    "LLM周りのセキュリティ・信頼性への関心が高まっている（Honoの検証バイパス修正、AI侵入テストオーケストレーターの正当性議論、AI生成脆弱性報告の質への疑問）",
+    "Linux・分散システムの内部実装を掘り下げる一次情報（XRAID、ISUCONの性能チューニング実践記、Figmaのリアルタイム同期実装）が今週も充実していた"
+  ],
+  "reading_list": [
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "title": "Inside GitHub's new Git storage architecture",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "数千のエージェントが同時にpushする前提でGitのストレージ層を再設計したという、分散システムの仕組みに踏み込んだGitHub公式の技術記事",
+      "takeaway": "大規模・高並行なGit運用を支えるストレージアーキテクチャの設計判断がわかる"
+    },
+    {
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "title": "ISUCON2026 で優勝しました（当日編）",
+      "category": "バックエンド",
+      "minutes": 10,
+      "why": "優勝チーム本人による当日の性能チューニングの実況録で、一次情報としての臨場感が強い",
+      "takeaway": "本番のパフォーマンスチューニング競技で何を計測し、どう優先順位をつけて改善したかの実例がわかる"
+    },
+    {
+      "url": "https://lwn.net/Articles/1107473/",
+      "title": "Announcing XRAID: declustered parity RAID for zoned XFS",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "カーネル開発者Christoph Hellwig自身によるストレージ内部の新機構のアナウンスで、LWNの一次情報",
+      "takeaway": "ゾーンドXFS向けの非集約パリティRAIDがどんな課題を解決するのかの概要がわかる"
+    },
+    {
+      "url": "https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9",
+      "title": "Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "Figmaの同時編集の仕組みを読み解いた前回記事を踏まえ、自分でNode.js + WebSocketで最小実装して検証した一次情報",
+      "takeaway": "リアルタイム同期の仕組みを最小構成のコードレベルで追える"
+    },
+    {
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "category": "AI",
+      "minutes": 7,
+      "why": "ARTEXのようなAI主導の侵入テストオーケストレーターの増加を受けた、Cloudflareによるセキュリティモデルの見直し議論",
+      "takeaway": "AIによる自動侵入テストが増える中で、守る側のセキュリティモデルがどう変わるべきかの論点がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "anomalyco/rune",
+      "url": "https://github.com/anomalyco/rune",
+      "language": "Rust",
+      "stars": 5022,
+      "stars_week": 3376,
+      "what": "macOS/Windows/Linux/Web向けのネイティブGPUレンダリングRust UIフレームワーク（独自レンダラー・テキスト・レイアウト・アニメーションspringsを実装）",
+      "why": "すべてのアプリがヘッドレスで動き、PNGレンダリングとエレメントツリーのダンプでコーディングエージェントが自分の実装を検証できる設計が注目され、今週大きくスターを伸ばした",
+      "try": "examples/hello から始めて crates/rune/README.md を読み、エージェントにヘッドレスでPNGをレンダリングさせて確認する（pre-releaseのためdevブランチの特定revをpinする）"
+    },
+    {
+      "repo": "JuneYaooo/rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "language": "Python",
+      "stars": 5434,
+      "stars_week": 4307,
+      "what": "動画をショットごとに解析し、実写・AI生成・コード制作のどれで作られたかを判定して再現手順まで示すCLIツール",
+      "why": "AIエージェントから使われることを前提に設計されており、エージェント経由の導入のしやすさが評価されて今週急増した",
+      "try": "ffmpegとPython 3.10+の環境を用意し、Claude CodeやCodexなどのエージェントにrea-videoのインストールと実行を指示する（手動インストールも可）"
+    },
+    {
+      "repo": "amosblomqvist/learnharness",
+      "url": "https://github.com/amosblomqvist/learnharness",
+      "language": "TypeScript",
+      "stars": 7610,
+      "stars_week": 3095,
+      "what": "AIエージェントが学習者の理解度を計測し、目標までの依存関係マップを組んで個別指導するエージェントハーネス",
+      "why": "回答・自信度・思考過程から理解度を測り、知識グラフでセッションをまたいで状態を持続させる設計が注目を集めた",
+      "try": "READMEのDownloadから入手し、ドキュメントに沿って学習したい領域の目標を設定して使い始める"
+    }
+  ],
+  "deep_dive": {
+    "repo": "anomalyco/rune",
+    "url": "https://github.com/anomalyco/rune",
+    "overview": "Runeは、macOS・Windows・Linux・Webで動くネイティブGPUレンダリングのRust製UIフレームワーク。独自のレンダラー・テキストエンジン・レイアウトエンジン・バネ（spring）ベースのアニメーションを自前実装しており、OS標準ウィジェットに依存しない。まだpre-release段階で、AIコーディングエージェントに「使わせる」ことを明確に意識して設計されている。",
+    "how_it_works": "すべてのRuneアプリは完全にヘッドレスで動作でき、コーディングエージェントはディスプレイなしでUIをPNGにレンダリングし、エレメントツリー全体をダンプしてプログラム的に検査できる。この「ヘッドレスで自分の仕事を確認する」ワークフローが中核に据えられており、エージェントが画面を作り、人間がスクリーンショットを見る代わりに、レンダリング画像とエレメントツリーを突き合わせて自己検証する想定になっている。ネイティブウィジェットをラップせず自前レンダラーで描画するため、4つのプラットフォームで見た目を統一しやすい。pre-releaseのため、推奨される使い方は`dev`ブランチの特定revをpinすることで、`dev`自体は書き換えられない運用になっている。プルリクエストは受け付けず、エージェントや利用者はissueで問題や要望を説明する運用で、メンテナー側も対応が速いとされている。",
+    "use_cases": [
+      "AIコーディングエージェントに画面を作らせて、人間が見る前にヘッドレスでレンダリング結果や要素構造を自己検証させたい場合",
+      "macOS/Windows/Linux/Webで同じ見た目のネイティブUIを、OS標準ウィジェットに頼らず自前レンダラーで統一したい場合"
+    ],
+    "try": [
+      "examples/hello から始めて crates/rune/README.md を読む",
+      "エージェントに「Build me a [UI] with Rune (github.com/anomalyco/rune). Start from examples/hello and check your work headlessly.」のように指示する",
+      "pre-releaseのため、devブランチの特定のrevをpinして使う（devは書き換えられないため安全）"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/yoshidashingo/claude-code-de-tsukuta-o-anzen-ni-koukai-suru-built-with-claude-japan-2026",
+      "title": "Claude Codeで作ったアプリを安全に公開する",
+      "event": "Built with Claude Japan 2026",
+      "why": "Claude Codeで作ったアプリを本番公開する際の安全対策について、ハッカソンでの実例を交えて話した発表"
+    },
+    {
+      "url": "https://speakerdeck.com/shah/shah-operational-truth-ieee-baltimore-2026",
+      "title": "Operational Truth: Why Trustworthy AI Cannot Be Benchmarked",
+      "event": "IEEE Baltimore 2026",
+      "why": "AIの信頼性はベンチマークだけでは測れないという主張を、IEEEのカンファレンスで展開した発表"
+    },
+    {
+      "url": "https://speakerdeck.com/optim/20261107-jawsfesta2026-sawa",
+      "title": "顧客合意を取りながら進めるAWSコスト削減の実践",
+      "event": "JAWS FESTA 2026 in AKITA",
+      "why": "顧客との合意形成を重視しながらAWSコストを削減した実践知を共有する発表"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vercel/next.js",
+      "version": "v16.4.6",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
+      "summary": "LTS向けバックポート版。create-next-appでのTailwind 4.3.3固定、ルートハンドラレスポンスの自動圧縮、Turbopackのdev時GC修正などを含む"
+    },
+    {
+      "repo": "vitejs/vite",
+      "version": "v8.3.8",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8",
+      "summary": "transform hookでのmagicString/ast保持、インラインワーカーのアセット発行漏れ、cssCodeSplit:false時のCSSエントリポイント拒否など複数のバグ修正"
+    },
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.18",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.18",
+      "summary": "【セキュリティ修正】Content-Typeの表記揺れでvalidator('json'/'form')が検証をスキップしてしまう脆弱性を修正"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "summary": "zstd圧縮レスポンスのデコードに関するセキュリティ修正、サンドボックス内でgit checkout/stashが失敗した場合の案内追加などを含む"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v1.8.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.8.0",
+      "summary": "Claude Tagの分析サマリーへのメトリクス追加、Slackチャンネル設定へのreply_mode追加などAPI関連機能を拡張"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.162.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.162.0",
+      "summary": "【挙動変更】remote未指定のArtifactsバインディングがKV/R2/D1同様にデフォルトでローカルシミュレータを使うようになった"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.8",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.8",
+      "summary": "CPython 3.16.0a2の追加、管理対象CPythonビルドのpip/zlib更新、ローカルパスやGitからのwheel variantインストールのプレビュー対応"
+    }
+  ],
+  "headlines": [
+    {
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "title": "Libghostty 1.0",
+      "category": "インフラ",
+      "note": "ターミナル実装ライブラリが1.0公開"
+    },
+    {
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-preparation",
+      "title": "ISUCON2026 で優勝しました（準備編）",
+      "category": "バックエンド",
+      "note": "優勝チームの事前準備の記録"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "category": "AI",
+      "note": "エージェントスキル設計の実践ガイド"
+    },
+    {
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "title": "Kitesurf is now open source",
+      "category": "AI",
+      "note": "AIエージェント向けブラウザエンジンOSS化"
+    },
+    {
+      "url": "https://lwn.net/Articles/1107173/",
+      "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+      "category": "インフラ",
+      "note": "AI生成脆弱性報告の質を分析"
+    },
+    {
+      "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+      "title": "Chat SDK agents can now stream generative UI with json-render",
+      "category": "フロントエンド",
+      "note": "AgentがUIをストリーム生成するSDK"
+    },
+    {
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem",
+      "category": "AI",
+      "note": "llama.cppがv1.0.0に到達"
+    },
+    {
+      "url": "https://qiita.com/kitao/items/af92619297d5563f2a0e",
+      "title": "【公式】Pyxel 3.0リリース！世界初（？）レトロ3Dゲームエンジン機能を搭載！",
+      "category": "バックエンド",
+      "note": "Python製レトロゲームエンジン3.0"
+    },
+    {
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "category": "AI",
+      "note": "Claude Code環境を図解で整理"
+    },
+    {
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "category": "AI",
+      "note": "全社AI-Native化のエージェント基盤"
+    }
+  ]
+}
