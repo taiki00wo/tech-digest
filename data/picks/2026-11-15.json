@@ -1,0 +1,56 @@
+{
+  "edition": "daily",
+  "headline": "常時稼働エージェントの設計指針をAnthropicが公式解説した一方、AI生成アプリやAWS設定ミスに起因する実害のあるセキュリティ事故が目立った一日。",
+  "reading_list": [
+    {
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "title": "Building always-on agents",
+      "category": "AI",
+      "minutes": 8,
+      "why": "長時間・多セッションにわたって自律的に動き続けるエージェントの設計をAnthropic自身が解説する一次情報だから",
+      "takeaway": "常時稼働エージェントが「いつ・どう動くか」をどう決めさせるか、設計上の考え方がわかる"
+    },
+    {
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "category": "AI",
+      "minutes": 10,
+      "why": "AI生成アプリに繰り返し現れるアクセス制御の欠陥を、実際の漏えい規模とともに検証した一次のセキュリティ調査で、HNでも大きな反響を呼んでいるから",
+      "takeaway": "AIでコードを生成したアプリでどこに権限チェックの穴ができやすいかが具体例でわかる"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Cognitoの自己サインアップ設定が有効なだけで誰でもAWSの一時認証情報を取得できてしまう、という実例に基づく検証記事だから",
+      "takeaway": "確認すべき設定3点を押さえれば、同じ穴を自分のAWS環境で防げるようになる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "language": "TypeScript",
+      "stars": 4512,
+      "stars_per_day": 820,
+      "what": "React/Vue/Svelte/Solid/Web Componentsの5フレームワークに対応した、エージェント向けUIコンポーネントの「ビヘイビア」ライブラリ",
+      "why": "Vercel発で、エージェントにUIコンポーネントの見た目ではなくキーボード操作・フォーカス・ARIAなどの挙動を組み立てさせる設計を示し、公開直後からスターが急伸している",
+      "try": "npm install @ui-sdk/core @ui-sdk/react（使うフレームワークに応じてreactの部分を変更）"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "summary": "zstd圧縮レスポンスのデコードに関するセキュリティ修正、サンドボックス内でgit checkout/stashが保護ファイルを更新できない場合の案内追加などを含む"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.162.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.162.0",
+      "summary": "【挙動変更】remote未指定のArtifactsバインディングがKV/R2/D1同様にデフォルトでローカルシミュレータを使うようになった（従来の本番リソース接続はdev.remote: trueで指定）"
+    }
+  ]
+}
