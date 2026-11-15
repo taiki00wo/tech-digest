@@ -1,0 +1,43 @@
+{
+  "edition": "daily",
+  "headline": "キャパシティプランニングの仕組みとエージェント設計論、パフォーマンス重視のフロントエンド移行記が並んだ一日。",
+  "reading_list": [
+    {
+      "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
+      "title": "リトルの法則で考える障害時のキャパシティプランニング",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "タイムアウト多発などの障害時に、リトルの法則という待ち行列理論の基本式でキャパシティを定量的に考える方法を扱っており、分散システムの仕組みを掘る読者の関心に合う。",
+      "takeaway": "リトルの法則（L=λW）を使って同時実行数・スループット・レイテンシの関係から必要なキャパシティを見積もる考え方がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/happy_elements/articles/201519107f93de",
+      "title": "Skills を持つ単一エージェントは、サブエージェント構成より品質で上回ることが多い — Anthropic が示す移行の手順",
+      "category": "AI",
+      "minutes": 6,
+      "why": "マルチエージェント構成からSkillsを持つ単一エージェントへの移行をAnthropicの指針に基づいて解説しており、Claude Codeやエージェント設計に関わる読者に直結する。",
+      "takeaway": "サブエージェント分割ではなくSkillsで単一エージェントの能力を拡張する移行手順と、その方が品質で上回りやすい理由（推測含む）がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+      "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
+      "category": "フロントエンド",
+      "minutes": 8,
+      "why": "著者本人による移行記で、Astroへの切り替えとCloudflare Workersへのデプロイ、PageSpeed 100点までのパフォーマンスチューニングという読者の関心が重なる一次情報。",
+      "takeaway": "WordPressからAstro+Cloudflare Workers構成に移行する際の設計判断と、PageSpeedで満点を取るための具体的な改善ポイントがわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "libracoder/kiri",
+      "url": "https://github.com/libracoder/kiri",
+      "language": "Rust",
+      "stars": 6141,
+      "stars_per_day": 2514,
+      "what": "Docker DesktopやOrbStackの軽量な代替となるコンテナランタイム。Rust製で、小さなLinux VM（またはLinux上では直接カーネル）上で動き、Docker Engine APIに対応しdocker/Compose/buildxがそのまま使える。",
+      "why": "今日のOSS候補でスター増加数が最大で急伸しており、コンテナ起動が約2.5msとDocker Desktopの約80倍速い、アイドル60秒でVMがスリープするなど軽量・高速な設計がコンテナ内部や性能チューニングに関心の高い層に支持されている。",
+      "try": "README記載のダウンロード手順でインストールし、既存のdocker/Compose/buildxコマンドをそのまま使って動作確認する。"
+    }
+  ],
+  "releases": []
+}
