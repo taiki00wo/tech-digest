@@ -1,0 +1,1831 @@
+{
+ "date": "2026-11-17",
+ "weekday": "火",
+ "edition": "daily",
+ "collected_at": "2026-11-17T07:03:37+09:00",
+ "errors": {},
+ "items": [
+  {
+   "source": "Hacker News",
+   "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "summary": "",
+   "score": 593,
+   "meta": {
+    "comments": 455,
+    "discussion": "https://news.ycombinator.com/item?id=50521045",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "summary": "",
+   "score": 169,
+   "meta": {
+    "comments": 140,
+    "discussion": "https://news.ycombinator.com/item?id=50520182",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "summary": "",
+   "score": 251,
+   "meta": {
+    "comments": 54,
+    "discussion": "https://news.ycombinator.com/item?id=50519744",
+    "score_label": "points"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Frame – 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "summary": "",
+   "score": 223,
+   "meta": {
+    "comments": 144,
+    "discussion": "https://news.ycombinator.com/item?id=50519354",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "summary": "",
+   "score": 279,
+   "meta": {
+    "comments": 111,
+    "discussion": "https://news.ycombinator.com/item?id=50516473",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "summary": "",
+   "score": 135,
+   "meta": {
+    "comments": 92,
+    "discussion": "https://news.ycombinator.com/item?id=50517321",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "How to make almost anything",
+   "url": "https://pub.cba.mit.edu/863.26/site/",
+   "summary": "",
+   "score": 809,
+   "meta": {
+    "comments": 137,
+    "discussion": "https://news.ycombinator.com/item?id=50514470",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "summary": "",
+   "score": 747,
+   "meta": {
+    "comments": 463,
+    "discussion": "https://news.ycombinator.com/item?id=50517488",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Software is breaking down at a systemic level",
+   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "summary": "",
+   "score": 289,
+   "meta": {
+    "comments": 172,
+    "discussion": "https://news.ycombinator.com/item?id=50520866",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "summary": "",
+   "score": 213,
+   "meta": {
+    "comments": 206,
+    "discussion": "https://news.ycombinator.com/item?id=50518567",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "OOS – an open operating system for the Rigol Scopes",
+   "url": "https://www.eevblog.com/forum/testgear/oos-an-open-operating-system-for-the-rigol-scopes/",
+   "summary": "",
+   "score": 122,
+   "meta": {
+    "comments": 36,
+    "discussion": "https://news.ycombinator.com/item?id=50490159",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Coffeehouses and the Rise of Science [pdf]",
+   "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+   "summary": "",
+   "score": 171,
+   "meta": {
+    "comments": 98,
+    "discussion": "https://news.ycombinator.com/item?id=50516245",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+   "summary": "",
+   "score": 277,
+   "meta": {
+    "comments": 127,
+    "discussion": "https://news.ycombinator.com/item?id=50515058",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "Researchers track whole body movement with just a smartwatch",
+   "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+   "summary": "",
+   "score": 194,
+   "meta": {
+    "comments": 68,
+    "discussion": "https://news.ycombinator.com/item?id=50486745",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hacker News",
+   "title": "The Active Directory Era Is Finally Over",
+   "url": "https://infisical.com/blog/active-directory-machine-identity",
+   "summary": "",
+   "score": 106,
+   "meta": {
+    "comments": 70,
+    "discussion": "https://news.ycombinator.com/item?id=50517815",
+    "score_label": "points"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "ISUCON2026 で優勝しました（準備編）",
+   "url": "https://zenn.dev/luvtechno/articles/isucon2026-preparation",
+   "summary": "",
+   "score": 458,
+   "meta": {
+    "author": "luvtechno",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+   "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
+   "summary": "",
+   "score": 100,
+   "meta": {
+    "author": "karamage",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+   "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+   "summary": "",
+   "score": 204,
+   "meta": {
+    "author": "yuku",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+   "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+   "summary": "",
+   "score": 24,
+   "meta": {
+    "author": "kesin11",
+    "score_label": "likes"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "mizchi/mutator を入れてみた",
+   "url": "https://zenn.dev/polyco/articles/e05cb28c569801",
+   "summary": "",
+   "score": 16,
+   "meta": {
+    "author": "centerfield77",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門",
+   "url": "https://zenn.dev/turing_motors/articles/cea9e3c85611b2",
+   "summary": "",
+   "score": 15,
+   "meta": {
+    "author": "ymg_aq",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "フロントエンドのフレームワークを、安全に段階的に入れ替える",
+   "url": "https://zenn.dev/yasuakiomokawa/articles/de83bb4c4ea928",
+   "summary": "",
+   "score": 28,
+   "meta": {
+    "author": "yasuakiomokawa",
+    "score_label": "likes"
+   },
+   "categories": [
+    "フロントエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "AIの回答が長すぎて、理解しないまま実装している問題（理解負債）",
+   "url": "https://zenn.dev/kent_code/articles/5892898be90cac",
+   "summary": "",
+   "score": 23,
+   "meta": {
+    "author": "kent_code",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "QA生産性を爆上げさせるためのQA AIプラットフォーム構築",
+   "url": "https://zenn.dev/gatechnologies/articles/8bdea59269eb10",
+   "summary": "",
+   "score": 17,
+   "meta": {
+    "author": "akiakiakki",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+   "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+   "summary": "",
+   "score": 40,
+   "meta": {
+    "author": "rizumita",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "ng: Neovim のためのシンプルな GUI",
+   "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
+   "summary": "",
+   "score": 64,
+   "meta": {
+    "author": "shougo",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Zenn",
+   "title": "サンドボックス内のAIエージェントにHerdrを安全に使わせたい",
+   "url": "https://zenn.dev/naofumimurata/articles/nono-hc-proxy",
+   "summary": "",
+   "score": 10,
+   "meta": {
+    "author": "naofumimurata",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Kotlin Fest 2026 参加記",
+   "url": "https://zenn.dev/0st_ts/articles/d55862e1a134c2",
+   "summary": "",
+   "score": 3,
+   "meta": {
+    "author": "0st_ts",
+    "score_label": "likes"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claudeで試験項目の自動消化を試す",
+   "url": "https://zenn.dev/sre_holdings/articles/29458d1ff4cc39",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "amnesiaaaaa",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "StrataとゲーミングPCでローカルLLM生活は始められるのか",
+   "url": "https://zenn.dev/sonicmoov/articles/afbc7281c59cb8",
+   "summary": "",
+   "score": 3,
+   "meta": {
+    "author": "smvnishikawa",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "実践パスキー認証設計",
+   "url": "https://zenn.dev/yasuakiomokawa/articles/89f5c46e8effe9",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "yasuakiomokawa",
+    "score_label": "likes"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "中編　LLM推論エンジンを作る",
+   "url": "https://zenn.dev/shozotanaka/articles/632191056c62f4",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "shozotanaka",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "前編　LLM推論エンジンを作る",
+   "url": "https://zenn.dev/shozotanaka/articles/7e86f85974eebb",
+   "summary": "",
+   "score": 1,
+   "meta": {
+    "author": "shozotanaka",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Zenn",
+   "title": "Claude Codeが書いたコードを読む代わりにやっていること",
+   "url": "https://zenn.dev/linkedge/articles/claude-code-instead-of-reading-code",
+   "summary": "",
+   "score": 4,
+   "meta": {
+    "author": "t_misugi",
+    "score_label": "likes"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "もういい加減\"技術勉強会\"やめませんか？",
+   "url": "https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
+   "summary": "毎週水曜の15時、普段残業続きで目が真っ赤なメンバーが会議室に10人が集められる。 誰かがAIで作った綺麗なスライドを持ってきて、それを読み上げる。 「いまさら聞けないKubernetesの基本」 残りの9人は、うなずきながら手元でSlackを返している。 説明が終わるなり...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T15:26:17+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "はじめてのAPIログ設計 — 「ログはあるのに調べられない」を防ぐには？",
+   "url": "https://qiita.com/masashige0904/items/22f2836485ecc25ee527",
+   "summary": "この記事はこんな人におすすめ APIログを見直したいが、何を残すべきか迷っている方 CloudWatch Logsにログはあるものの、調査に必要な記録を探しにくいと感じている方 ログレベルやJSON形式、ログライブラリの役割を整理したい方 この記事で得られること ...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T09:37:01+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説",
+   "url": "https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5",
+   "summary": "はじめに こんにちは、Watanabe Jin(@Sicut_study)です。 ニュースを見るたびに、自分もセキュリティを勉強しないといけないと思ったことはないでしょうか。 認証。ファイアウォール。脆弱性の名前。 セキュリティと聞くと、そこを勉強すればいいと思う人が多...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T17:03:34+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "日報mdをどの画面からもワンボタン表示！ Raycast × Obsidian",
+   "url": "https://qiita.com/kuma_3838/items/e8a11dd95f319a1545d6",
+   "summary": "はじめに 日報は Obsidian に書いていて、ToDo も日報の md ファイルに書いています。 Raycast の Obsidian 拡張機能にある「Daily Note」コマンドをホットキーに割り当て、ワンボタンで今日の日報を開けるようにしていました。 ただ、この...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T08:34:57+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "『なぜ、あなたの仕事は終わらないのか』で学んだ目的意識と時間の使い方",
+   "url": "https://qiita.com/kuma_3838/items/a5145ee73f86646c64ec",
+   "summary": "はじめに 社内勉強会で、同僚が中島聡さんの『なぜ、あなたの仕事は終わらないのか スピードは最強の武器である』を紹介していました。 著者は、米 Microsoft 本社で Windows95 などの設計を担当したエンジニアです。 最近の私は、時間の使い方を正直うまくできてい...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T08:34:43+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "AIを介したやり取りは、放っておくとAI Slopを加速させるかも",
+   "url": "https://qiita.com/inukai-masanori/items/141e960b0bab8015bdae",
+   "summary": "はじめに まず初めに、私はマネージャーをしています。 最近、チャットでの依頼や相談、レビューを見ていて「AIを介したコミュニケーションって、放っておくと良くない方向に転がりやすいな」と感じています。そのあたりについて、自分なりに意識していることも含めて書いてみます。 ...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T09:52:08+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "社長の一言は重い。RAGにも忖度させてみた（重み付け検索）",
+   "url": "https://qiita.com/kikuziro/items/43b360420d0cdcbf190c",
+   "summary": "はじめに 皆さんこんな経験ありませんか？ 新人の頃に正しいことを言っても誰も賛同してくれないのに、同じことを社長が言うと全員が賛同する。理不尽ですよねー人間は「誰が言ったか」で情報に重みを付けています。じゃあRAGはどうか？チャンクは全部平等で社長の決定事項も新人のつぶ...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T00:30:41+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "AI駆動開発を導入するためのツールをAIで作ってみた",
+   "url": "https://qiita.com/kizuku_tabata/items/79e3411b93aff5c46177",
+   "summary": "はじめに 最近、AI コーディングツールを使って開発する機会が一気に増えました。速いし、便利です。 ただ、チームで AI を前提とした開発を進めようとしたとき、何度か話題に上がったのが 「OSS スニペット」 の問題でした。 AIの生成したコードが、既存のOSSと似てい...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T13:28:02+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "pgvectorの距離を類似度に直して根拠不足を判定する：RAG検索層とpytest回帰",
+   "url": "https://qiita.com/takumi_engineer/items/93db73ccf114bad454f1",
+   "summary": "解きたい問題 RAGで「根拠が弱ければ回答を控える」判定を入れようとして、最初につまずくのがスコアの向きです。pgvectorが返すのは距離で、類似度ではありません。 距離のまま閾値に使うと、大小の判定が逆になります。本記事では、検索SQLで類似度に変換して返す層と、判定...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-14T09:00:08+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "PostgreSQLとFastAPIで作る、状態遷移を守る更新APIと履歴テーブル",
+   "url": "https://qiita.com/takumi_engineer/items/5a2dffdff4af6e9f45ce",
+   "summary": "解決したい問題 配送や案件の一覧画面を作ると、更新APIで必ず同じ問題が出ます。「配達済」から「出発」へ戻るような不正な遷移と、二人が同時に更新したときの上書きです。さらに「誰がいつ変えたか」も残す必要があります。 この記事では、遷移ルールを表で持ち、更新と履歴の記録を1...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T09:00:17+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "今週中に対応すべき脆弱性 6 つ。Outlook・Chrome・Edge・VPN 機器は悪用あり、iPhone・Mac・SonicWall は今週が期限（11/16〜11/22）",
+   "url": "https://qiita.com/songchong/items/75bf50a67ca5370ec6bf",
+   "summary": "今週（11 月 16〜22 日）にやることは、図の 6 つです。①〜④ には、すでに悪用されている脆弱性があります。この 4 つから先に済ませてください。 ① の Outlook の脆弱性は、Microsoft が悪用を確認したと公表しています。IT連携マップの編集部は...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T03:58:36+09:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "ちょっと見ない間にClaude APIが進化してた！",
+   "url": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
+   "summary": "ClaudeのAPI、ただモデル呼び出すだけでしょと思ってたんですが、どんどん進化してました！ 環境 Pythonのプロジェクトを作成し、Anthropicの公式SDKをインストールします。 uv init app --python 3.13 --no-package c...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-14T15:32:07+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 46",
+   "url": "https://qiita.com/maskot1977/items/e4dfa5aec8a77192dbbb",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: 動画タイトル 「財源主義という日本衰退のバグ : Pythonで学ぶマクロ経済学入門 Podcast 46」 （※動画内では、技術情報共有サービス「Qiita」に投稿され...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T14:04:10+09:00"
+   },
+   "categories": [
+    "AI",
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "Kanaryの「/relay」でClaude・Codex・Cursorを行き来するのが便利だったので、コードレビューを往復させてみた",
+   "url": "https://qiita.com/inoyu-qiita/items/f2e2d1006407a4d5f28e",
+   "summary": "はじめに Kanary開発者のKenn Ejima（@kenn）さんの投稿で、/relayを知りました。 Macアプリの Kanary に追加された /relay を使うと、Claude・Codex・Cursorで進めていた会話を、コピペなしで別のAIへそのまま渡せます。...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T16:01:39+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "耳で聞く！ システム設計 視点の 行動経済学 6",
+   "url": "https://qiita.com/maskot1977/items/c56d123a2fb6673fa90c",
+   "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ソース動画のタイトルおよびその詳細な内容についてお伝えします。 ソース動画のタイトル 「人手不足を悪化させる外国人労働依存の罠 : システム設計視点の行動経済学 Podc...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T13:50:21+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "デフレ30年で「ハイパーインフレになる」——発生条件の剥落 : システム設計視点の行動経済学 (63)",
+   "url": "https://qiita.com/maskot1977/items/8054ca6abbe944b09562",
+   "summary": "user: 「システム設計視点の行動経済学」、第63回を始めましょう。その前に、まず前回の復習として、 「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62) https://qiita....",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T12:03:12+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【速報】Google「Gemini 4 Hydrogen」登場！Argon・Carbonとの比較で読み解く Gemini 4 シリーズまとめ",
+   "url": "https://qiita.com/tomokoro/items/41cc59d0085fa03c5d52",
+   "summary": "1. はじめに 2026年11月12日、Google DeepMindよりGemini 4ファミリーの最新モデル「Gemini 4 Hydrogen」が発表されました。 Gemini 4 シリーズは、2026年10月1日の「Gemini 4 Argon」発表（10月13日...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T10:31:54+09:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "門番・幹部・受付係で理解する before_action / skip_before_action",
+   "url": "https://qiita.com/mmsbox/items/f1c2dc798bc4ddfe29ee",
+   "summary": "はじめに プログラミングスクールで、Railsの管理画面を作るカリキュラムを進めていました。 手順どおりにコードを書けば、画面はちゃんと動きます。 でも、ふと手が止まりました。 うーん🧐 class Staff::DashboardsController < Staff:...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T16:41:26+09:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Qiita",
+   "title": "【入緑記事】凡人向け入緑記事（灰色～入緑まで）",
+   "url": "https://qiita.com/akih1r/items/13b55d807e8e085247c1",
+   "summary": "はじめに ついに緑色になることができました。 コンテスト参加回数は77回で約２年間費やしました。 私について 現在大学３年生で情報系学部(主にDS)所属。 大学は底辺地方公立大学に在学してます。数学は好きだけど得意ではなくて共通テストも半分くらいでした。 教科書レベル...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T12:46:52+09:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Qiita",
+   "title": "日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした",
+   "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3",
+   "summary": "1. なぜ今、脆弱性への対応を急ぐのか？ 今は、日本語の情報が出るのを待ってから動くと間に合わない時代です。図は、その理由を 3 つ並べたものです。 1 つ目は、攻撃者が AI を使い、会社の大きさを問わず狙っていることです。内閣官房国家サイバー統括室は、2026 年 ...",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T17:20:40+09:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "マイクロソフト、ゲーミングPCなどの“空きGPU”をAI学習に活用する特許出願―提供した計算量に応じたクレジット付与の例も | Game*Spark - 国内・海外ゲーム情報サイト",
+   "url": "https://www.gamespark.jp/article/2026/11/16/174930.html",
+   "summary": "",
+   "score": 18,
+   "meta": {
+    "published": "2026-11-16T11:08:50Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "「年齢で断らない」賃貸アパート　全戸に見守りWi-Fi　電波の変化で安否を検知",
+   "url": "https://japan.cnet.com/article/35254951/",
+   "summary": "同社は、年齢や一人暮らしを理由に賃貸住宅への入居を断られる人に、住まいの選択肢を増やすことを目指すという。建物は木造2階建てで、専有面積は20.58～22.63平方メートル。東武スカイツリーラインの大袋駅から徒歩10分に位置する。 家族は専用アプリで日々の活動状況を確認できる。管理会社のスタッフが月1回、1時間...",
+   "score": 173,
+   "meta": {
+    "published": "2026-11-16T07:53:04Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "Secretlint v14.0.0リリース: 設定なしで動作するように変更、大規模リポジトリのチェックを高速化",
+   "url": "https://efcl.info/2026/11/16/secretlint-v14/",
+   "summary": "ソースコードや設定ファイルに含まれるAPIトークンやパスワードなどの機密情報を見つけるSecretlintのv14.0.0をリリースしました。 Release v14.0.0 · secretlint/secretlint このバージョンの主な変更点は次の2つです。 設定ファイルなしで動作（公式ルールとプリセットをsecretlint本体に同梱） ファイル数が多いリポ...",
+   "score": 5,
+   "meta": {
+    "published": "2026-11-16T07:27:36Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIが文学界を揺るがしている",
+   "url": "https://gigazine.net/news/20261116-ai-literary-world/",
+   "summary": "生成AIの発達により自然な言葉づかいで物語性のある文章もAIが生成できるようになったことで、AIで年間200冊のロマンス小説を執筆する作家の例や、執筆に生成AIを使った疑いで出版を停止した騒動、「AIで書いたのではないか」と疑惑を受けた短編小説が国際文学賞の最優秀賞を受賞した一件など、さまざまな議論が文学界で...",
+   "score": 5,
+   "meta": {
+    "published": "2026-11-16T10:02:10Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ZedのコントリビューションポリシーがAI激おこな件 - keroxpのScrapbox",
+   "url": "https://scrapbox.io/keroxp/Zed%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC%E3%81%8CAI%E6%BF%80%E3%81%8A%E3%81%93%E3%81%AA%E4%BB%B6",
+   "summary": "Zedという新進のコードエディタがあるkeroxp.icon そのOSSコントリビューションガイドラインが色々と今風に面白かったので紹介していく Zedとは Zed（ゼド）は高速動作とAI連携を売りにしたエディタである。その源流はあのAtomだ Atomは2014年にGithubの社内プロジェクトから始まり、2022年にVSCodeに押される形で開発が...",
+   "score": 74,
+   "meta": {
+    "published": "2026-11-16T08:16:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
+   "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
+   "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
+   "score": 398,
+   "meta": {
+    "published": "2026-11-16T03:03:29Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "香港、監視カメラにAI活用 市民からは悪用懸念の声も",
+   "url": "https://www.afpbb.com/articles/-/3662623",
+   "summary": "香港・ビクトリア湾の九竜側に設置された監視カメラ（2023年9月13日撮影）。(c)Peter PARKS/AFP 【11月16日 AFP】香港は16日、監視カメラ網に人工知能（AI）を活用した顔認証機能を導入した。国家安全保障や犯罪防止を名目に、公共空間の監視を拡大する。 中国は、香港で大規模な民主派デモが起きた2019年以降、統制を強...",
+   "score": 6,
+   "meta": {
+    "published": "2026-11-16T07:58:27Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "不名誉なはずのフアン氏の辞任、それでもシリコンバレーからは支持する声やまず",
+   "url": "https://www.cnn.co.jp/business/35254956.html",
+   "summary": "不倫報道を受けてエヌビディアCEOを辞任したジェンスン・フアン氏だが、ハイテク業界はそのリーダーシップを称賛する声であふれている/Evelyn Hockstein/Reuters （CNN） 米半導体大手エヌビディアの創業者、ジェンスン・フアン氏が同社の最高経営責任者（CEO）の座を退いたことは、企業スキャンダルと受け止められた。...",
+   "score": 5,
+   "meta": {
+    "published": "2026-11-16T11:28:12Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "グーグルのAI認定講座、1万人に無料提供　「Google AI Pro」3カ月利用権も",
+   "url": "https://www.watch.impress.co.jp/docs/news/2156720.html",
+   "summary": "",
+   "score": 156,
+   "meta": {
+    "published": "2026-11-16T05:22:52Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "レビューは AI が書いて、人が選ぶ",
+   "url": "https://blog.recruit.co.jp/data/articles/ai-review-skills/",
+   "summary": "番号を振っているのは、「2番は外して」「3番は nits に下げて」のように短く指示できるようにするためです。投稿する本文をそのまま見せるので、レビュワーは投稿後の見た目を確認してから選べます。 この記事自体を skill でレビューしたときの提示画面 文面を自分のレビューに寄せる AI の下書きをそのまま投稿しても...",
+   "score": 81,
+   "meta": {
+    "published": "2026-11-16T05:51:34Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "RTX Sparkは本当にローカルAIに強いのか？RTX 5090や5070 Ti、5060 Ti 16GB、4090 Laptop GPUと性能を比較 (1/3)",
+   "url": "https://ascii.jp/elem/000/004/450/4450424/",
+   "summary": "NVIDIAが開発したSoC「RTX Spark N1X」を搭載したPCの販売がはじまった。RTX SparkはArmベースのCPU（最大20コア）に、GeForce RTX 50シリーズ相当のGPUを組み合わせた同社肝いりの製品だ。最近流行の「ローカルAI」、つまり「ChatGPT」や「Claude」「Gemini」といったクラウドサービス上のAIに頼らず、オフラインの環境...",
+   "score": 21,
+   "meta": {
+    "published": "2026-11-16T11:18:56Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ジェンスン・フアン氏、NVIDIA CEO復帰を模索か。関係者と協議との報 | テクノエッジ TechnoEdge",
+   "url": "https://www.techno-edge.net/article/2026/11/16/5729.html",
+   "summary": "NVIDIAのCEOを辞任したジェンスン・フアン氏が、辞めたばかりのNVIDIA CEO職への復帰について側近らと協議していると報じられています。 英Financial Times（FT）が事情に詳しい複数の関係者の話として伝えたところでは、フアン氏の側近の1人はFTに対し、シリコンバレーの幹部らを集めた「ウォールーム」を立ち上げ、前C...",
+   "score": 8,
+   "meta": {
+    "published": "2026-11-16T10:24:06Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "AIが「宿題の時代」を終わらせた--元教授が語る学びの危機　ChatGPTを手放せない学生も",
+   "url": "https://japan.cnet.com/article/35254950/",
+   "summary": "宿題を採点し、学生にフィードバックを返す作業は、教育者にとっておそらく最も骨の折れる仕事だ。私が教授として教えていた頃、工夫を凝らした課題の提出物を読んでも、分かるのはせいぜい、授業の概念や重要な要素を学生にどれだけうまく伝えられたかということだった。しかしAI時代を迎えた今、その作業は腹立たしい...",
+   "score": 11,
+   "meta": {
+    "published": "2026-11-16T07:11:29Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "激動期の安保：AI編　ウィキペディア「汚染」（その1）　露の偽情報拡散、進化 | 毎日新聞",
+   "url": "https://mainichi.jp/articles/20261116/ddm/001/010/121000c",
+   "summary": "建物から黒い大きな煙が立ち上る。ウクライナ軍は10月11日、モスクワ近郊ウラジーミル州にある露インターネット・IT最大手「ヤンデックス」の施設を無人航空機（ドローン）で攻撃した。標的はデータセンター。同様の攻撃は、同8日、9日に続き3度目だ。それまで露軍からデータセンターを狙った攻撃を受け続けていたウクラ...",
+   "score": 12,
+   "meta": {
+    "published": "2026-11-16T11:43:33Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 - レバテックLAB",
+   "url": "https://levtech.jp/media/detail_972/",
+   "summary": "北國 悠人 プロダクトマネージャー。1991年生まれ。同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。その後ベルリンでスタートアップを共同創業し、プログラミング学習アプリを100カ国以上に展開。帰国後は株式会社ブレンドを共同創業し、ミールキット定期宅配サービス「TastyTable」を立ち上げ、2021年に...",
+   "score": 453,
+   "meta": {
+    "published": "2026-11-16T01:34:47Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "2026-11-16 JAWS-UG コンテナ支部 #31 ゆるLT大会 ECR のライフサイクルポリシーを いい感じに設定したい / ECR Lifecycle policy",
+   "url": "https://speakerdeck.com/masasuzu/2026-11-16-jaws-ug-kontena-shibu-31-yuru-lt-taikai-ecr-no-raifusaikuru-porishi-o-ii-kanji-ni-settei-shitai-ecr-lifecycle-policy",
+   "summary": "[JAWS-UGコンテナ支部 #31 ゆるLT大会 - connpass](https://jawsug-container.connpass.com/event/400814/) で発表する内容。 ゆるふわです",
+   "score": 14,
+   "meta": {
+    "published": "2026-11-16T10:59:31Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "16日のドコモ通信障害、60％復旧",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2155699.html",
+   "summary": "",
+   "score": 4,
+   "meta": {
+    "published": "2026-11-16T05:15:34Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "はてブ テクノロジー",
+   "title": "ほぼ丸1日続いた「Microsoft 365」「Outlook」障害の原因は？　Microsoftが暫定報告／7月から潜んでいた不具合に当日の状況が絡み合い、連鎖的なダウンを招く",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2156753.html",
+   "summary": "",
+   "score": 24,
+   "meta": {
+    "published": "2026-11-16T08:21:28Z",
+    "score_label": "users"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Broadening access to AI for scientists",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 12:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "OpenAI News",
+   "title": "Our first phase of embedded assessments",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 08:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Hugging Face Blog",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "url": "https://huggingface.co/blog/openrouter",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 00:00:00 GMT",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Hy4 Flash now available on AI Gateway for 50% off",
+   "url": "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T17:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "AI Gateway now supports Private Inference",
+   "url": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T07:47:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Agents are users, so your software needs evals",
+   "url": "https://vercel.com/blog/agent-evals",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T05:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Seedance 2.5 Flash now available on AI Gateway",
+   "url": "https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T00:00:00.000Z"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Vercel Blog",
+   "title": "Set budgets for projects and products in Spend Management",
+   "url": "https://vercel.com/changelog/set-budgets-for-projects-and-products-in-spend-management",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T00:00:00.000Z"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "AWS Architecture Blog",
+   "title": "Announcing updates to the AWS Well-Architected Framework",
+   "url": "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/",
+   "summary": "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation.",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 20:03:26 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "LWN.net",
+   "title": "Manjaro Project e.V. non-profit organization created",
+   "url": "https://lwn.net/Articles/1107814/",
+   "summary": "Frank Vandermeiren has announced the creation of the Manjaro Project e.V., a nonprofit organization in Germany that is independent of the Manjaro GmbH & Co KG company. This is following a governance struggle that took place earlier this year between a number of Manjaro Linux contributors and Philip ",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 14:52:12 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "LWN.net",
+   "title": "Security updates for Monday",
+   "url": "https://lwn.net/Articles/1107811/",
+   "summary": "Security updates have been issued by Debian (freedombox, kernel, libspreadsheet-xlsx-perl, network-manager-iodine, pdns-recursor, postgresql-15, radsecproxy, and sogo), Fedora (afflib, asahi-installer, below, cloc, dhcpcd, dnf5, epiphany, firefox, glib-networking, hugo, mingw-python3, mtools, mysql8",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 14:17:41 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Marc Brooker",
+   "title": "What does it mean to understand what we built?",
+   "url": "http://brooker.co.za/blog/2026/11/16/understanding.html",
+   "summary": "What does it mean to understand what we built? Let's try come to an understanding. Today, a couple of people sent me the No AI Slop Manifesto . I found it interesting, in part, because it touches on something that seems super important right now: understanding . Through this work, we have come to va",
+   "score": null,
+   "meta": {
+    "published": "Mon, 16 Nov 2026 00:00:00 +0000",
+    "score_label": null
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Governance Without the Red Tape",
+   "url": "https://speakerdeck.com/sarahjwells/governancewithouttheredtape-sag2026",
+   "summary": "When you hear “governance,” you might think of red tape, bureaucracy, or someone telling you what you can’t do. But real governance is about alignment and reducing technical risk. And that matters more than ever. In most cases, engineers aren’t deliberately making risky decisions—they just don’t hav",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T16:45:48-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Sustainable Impact Creating Long-Term Value for Local Talent Through Communities",
+   "url": "https://speakerdeck.com/mfonobong/sustainable-impact-creating-long-term-value-for-local-talent-through-communities-cmx-ibadan",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T14:45:42-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "From Addresses to Efficient Deliveries: Solving Vehicle Routing Problems with Python",
+   "url": "https://speakerdeck.com/takeofuture/delivery-vrp",
+   "summary": "Presented at XtremePython 2026. This talk explores how Python can connect GIS, traffic data, mathematical optimization, driver constraints, and physical cargo packing into a practical delivery-planning workflow. The demo combines OpenStreetMap, TomTom traffic data, Google OR-Tools, driver schedules ",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T12:35:37-05:00"
+   },
+   "categories": [
+    "バックエンド"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "アクセシビリティカンファレンスの外でも、 アクセシビリティをやる",
+   "url": "https://speakerdeck.com/tomokusaba/a11yconf-fukuoka-pyconjp2027-1",
+   "summary": "アクセシビリティカンファレンスの外でも、アクセシビリティをやる アクセシビリティカンファレンス福岡 前夜祭LT https://lycorptech-fukuoka.connpass.com/event/411036/",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T10:04:10-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "IGBTForge: データシート駆動型SPICEモデリングの実践と理論",
+   "url": "https://speakerdeck.com/beetech/igbtforge-deta-shito-kudougata-spice-moderingu",
+   "summary": "メーカーが提供するデータシート（PDF）の入力から、物理ベースのコンパクトモデル構築、パラメータの自動抽出、そしてLTspice等で動作する堅牢なSPICEネットリストの出力までを統合したデジタルツイン構築アプローチです。 処理の全体像（3つのステップ）1. Input: PDF Parsing（PDF解析）: 正規表現や座標ベースのテキスト再構築を用い、データシートから静的・動的特性や測定条件（$T_j$、$V_{CC}$など）を自動抽出します。 2. Engine: Physics-based Optimization（物理ベース最適化）: Nelder-Mead法などの最適化エンジンを活",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T09:53:05-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "自動計装なしでECSサービスをApplication Signalsに載せるまで",
+   "url": "https://speakerdeck.com/ota1022/jawsug-container31",
+   "summary": "JAWS-UGコンテナ支部 #31 ゆるLT大会のLT登壇資料です。 https://jawsug-container.connpass.com/event/400814/",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T05:59:18-05:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "「個社」ではなく「業界」の課題を解く AI 対話開発 ー 価値を広げる設計と、価値を守るエンジニアリング ー",
+   "url": "https://speakerdeck.com/ivry_presentationmaterials/kosha-de-hanaku-gyoukai-no-kadai-o-toku-ai-taiwa-kaihatsu",
+   "summary": "2026/11/16に開催された「AI本気で社会実装Night」に、IVRyの岸田 慎之介が登壇しました。 登壇イベント：https://layerx.connpass.com/event/409443/",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T05:44:40-05:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "「それ、AIでよくない？」－ AI時代の技術発信はオワコンなのか？",
+   "url": "https://speakerdeck.com/estie/sore-ai-de-yoku-nai-ai-jidai-no-gijutsu-hasshin-ha-na-no-ka",
+   "summary": "CoLab Conf 2026秋 2026/11/14(土) 技術戦略室 SRE 島田 健人（ @hitsumabushi845 ） SWE 島田 工（ @garasubo ）",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T04:58:35-05:00"
+   },
+   "categories": [
+    "AI",
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "成長するID管理基盤における運用もコストも犠牲にしないオブザーバビリティ向上の実践 / Improving Observability for a Growing Identity Platform Without Adding Operational Burden or Cost",
+   "url": "https://speakerdeck.com/kaminashi/improving-observability-for-a-growing-identity-platform-without-adding-operational-burden-or-cost",
+   "summary": "2026/11/16 大規模サービスに学ぶObservability設計 https://findy-tools.connpass.com/event/410853/ 成長するID管理基盤における運用もコストも犠牲にしないオブザーバビリティ向上の実践 高井 真人 エンジニアリング本部 ID管理基盤開発ユニット エンジニアリングマネージャー",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T02:18:26-05:00"
+   },
+   "categories": [
+    "インフラ"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価",
+   "url": "https://speakerdeck.com/hagino3000/building-ai-product-for-expert",
+   "summary": "AI本気で社会実装Night (2026-11-16) の資料です",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T01:04:56-05:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "SPを安全に作り、維持するために  〜大学の認証・属性基盤との役割分担への期待〜",
+   "url": "https://speakerdeck.com/terapyon/ninshou-bukai-semina-sp-o-anzen-ni-tsukuri-iji-suru-tame-ni-daigaku-no-ninshou-zokusei-kiban-tono-yakuwari-buntan-heno-kitai",
+   "summary": "「認証基盤部会セミナー」 2026年11月16日 株式会社CMSコミュニケーションズ 代表取締役 寺田 学 (Manabu TERADA)",
+   "score": null,
+   "meta": {
+    "published": "2026-11-16T00:35:31-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "DebConf27旭川開催のご案内",
+   "url": "https://speakerdeck.com/dictoss/sakura-no-yuube-debian-naito-20261116-debconf27-asahikawa-kaisai-no-goannai",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T10:39:22-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "メモリ512MBのサーバで動くdebianの使い方",
+   "url": "https://speakerdeck.com/dictoss/sakura-no-yuube-debian-naito-20261116-memori-512mb-no-saba-de-ugoku-debian-no-tsukaikata",
+   "summary": "",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T10:37:29-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": true
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "業務の傍らで進める改善ループエンジニアリング",
+   "url": "https://speakerdeck.com/bengo4com/20261116-levtech-meetup-improvement-loop-engineering",
+   "summary": "レバテックMeetup における、プロダクト開発本部 クラウドサインProduct Engineering部 共通基盤チーム SWE 筒井 海人 ( @ktsu2i ) による登壇資料です。 【レバテックMeetup Claude Code×開発 〜Claude Codeと挑む爆速プロダクトローンチ〜】 https://levtechcareer.connpass.com/event/410832/ ■ 弁護士ドットコム株式会社 CompanyDeck for Engineers https://speakerdeck.com/bengo4com/2026-companydeck-for-en",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T23:16:59-05:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "私のハーネスエンジニアリング",
+   "url": "https://speakerdeck.com/mattani/watashi-no-hanesu-enjiniaringu-r3-wo-movie",
+   "summary": "第31回 redmine.tokyo 講演 https://redmine.tokyo/projects/shinared/wiki/%E7%AC%AC31%E5%9B%9E%E5%8B%89%E5%BC%B7%E4%BC%9A 2026/10/31(土) Pleasanter Lounge 場所：東京都中野区中野2-30-5 中野アーバンビル7F (JR中野駅 徒歩3分) 概要 AI駆動で開発するときの、私のハーネスの工夫を紹介します 正解の提示ではなく**私の現在地**。ルールやスキル自体も継続的に改良しており、今後も変わっていきます 現時点の「私の工夫」が、皆様のご参考になれば幸いです",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T19:25:21-05:00"
+   },
+   "categories": [
+    "AI"
+   ],
+   "seen_before": false
+  },
+  {
+   "source": "Speaker Deck",
+   "title": "Dark Web - Como o Cibercrime Opera na Internet",
+   "url": "https://speakerdeck.com/nicholsjasper/dark-web-como-os-cibercriminosos-operam-na-internet",
+   "summary": "Você já ouviu falar de Deep e Dark Web? São conceitos que podem trazer um pouco de confusão, a princípio. Nesta palestra exploramos as camadas da Internet, dando maior ênfase ao que é Dark Web, como ela funciona, como acessá-la e que tipo de conteúdo podemos encontrar ao navegarmos dentro dela. Fala",
+   "score": null,
+   "meta": {
+    "published": "2026-11-15T18:01:30-05:00"
+   },
+   "categories": [
+    "その他"
+   ],
+   "seen_before": false
+  }
+ ],
+ "oss": [
+  {
+   "repo": "libracoder/kiri",
+   "url": "https://github.com/libracoder/kiri",
+   "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+   "language": "Rust",
+   "stars": 8763,
+   "topics": [
+    "containers",
+    "docker",
+    "kubernetes",
+    "linux",
+    "macos",
+    "oci"
+   ],
+   "created_at": "2026-11-02",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 2622,
+   "readme": "\n  \n    \n    \n  \n\n  A tiny, fast container runtime for macOS, Windows and Linux.\n  Runs your Docker images and works with the docker CLI, Compose and buildx you already use.\n\n  Download ·\n  Features ·\n  Build from source ·\n  Releases\n\n  \n  \n  \n\n  🇬🇧 🇮🇩 🇩🇪 🇪🇸 🇫🇷 🇮🇹 🇵🇱 🇧🇷 🇻🇳 🇹🇷 🇷🇺 🇸🇦 🇯🇵 🇰🇷 🇨🇳 🇹🇼\n  Kiri speaks 38 languages. Is yours one?\n\n  \n\n---\n\nKiri is a lightweight replacement for Docker Desktop and OrbStack, written in\nRust. It runs containers in one small Linux VM (or straight on the kernel on\nLinux) and speaks the Docker Engine API, so your tools just work.\n\nThe name comes from the Igbo word *ntakịrị*, \"small\".\n\n## Why Kiri\n\n- **Fast**: a container starts and exits in about 2.5 ms through the Docker API. That's around 80 times faster than Docker Desktop.\n- **Light**: the VM sleeps after 60 s idle, the daemon stays at about 15 MB, and it wakes in about 0.15 s.\n- **Compatible**: `docker`, Compose, buildx, `docker login` and amd64 images through Rosetta.\n- **Local domains**: `http://.kiri.local`, with HTTPS from Kiri's own certificate authority.\n- **More than containers**: a one-command Kubernetes cluster and Linux machines.\n- **A native window** for containers, images, volumes and networks, plus a menu bar item.\n- **In your language**: 38 languages, on macOS, Windows and Linux alike.\n\n### In your language\n\nKiri's window and setup come in these languages. It follows your system's language, and you can change it in Settings → Appearance. In Arabic, Persian and Central Kurdish the whole window reads right to left.\n\n| | Language | | Language | | Language | | Language |\n|---|---|---|---|---|---|---|---|\n| 🇬🇧 | English | 🇳🇴 | Norsk bokmål | 🇧🇬 | Български | 🇮🇳 | తెలుగు |\n| 🇮🇩 | Bahasa Indonesia | 🇵🇱 | Polski | 🇷🇺 | Русский | 🇹🇭 | ไทย |\n| 🇦🇩 | Català | 🇧🇷 | Português (Brasil) | 🇺🇦 | Українська | 🇱🇦 | ລາວ |\n| 🇨🇿 | Čeština | 🇷🇴 | Română | 🇰🇿 | Қазақша | 🇯🇵 | 日本語 |\n| 🇩🇪 | Deutsch | 🇦🇱 | Shqip | 🇸🇦 | العربية | 🇰🇷 | 한국어 |\n| 🇪🇸 | Español | 🇸🇮 | Slovenščina | 🇮🇷 | فارسی | 🇨🇳 | 简体中文 |\n| 🇫🇷 | Français | 🇫🇮 | Suomi | 🇮🇶 | کوردیی ناوەندی | 🇹🇼 | 繁體中文 |\n| 🇮🇹 | Italiano | 🇻🇳 | Tiếng Việt | 🇮🇳 | हिन्दी | 🇪🇹 | አማርኛ |\n| 🇱🇹 | Lietuvių | 🇹🇷 | Türkçe | 🇧🇩 | বাংলা |  |  |\n| 🇭🇺 | Magyar | 🇬🇷 | Ελληνικά | 🇮🇳 | தமிழ் |  |  |\n\nMissing yours? Translations live in [`crates/kiri/src/ui/lang`](crates/kiri/src/ui/lang); see [Contributing](#contributing).\n\n## Install\n\n| Platform | Get it |\n|----------|--------|\n| macOS 14+ (Apple silicon or Intel) | `.dmg` from [runkiri.com/releases](https://runkiri.com/releases/) |\n| Windows 10 and 11 (x86-64 or Arm, through WSL 2) | `.msi` from [runkiri.com/releases](https://runkiri.com/releases/) |\n| Linux (Ubuntu, Fedora and others) | `.deb` or `.rpm` from [runkiri.com/releases](https://runkiri.com/releases/) |\n\nThe first time you open Kiri, it sets up a `kiri` Docker context. Kiri updates itself, and checks each new release's signature first.\n\n## Quick start\n\n```sh\ndocker --context kiri run --rm alpine echo hello\ndocker --context kiri compose up -d\nkiri k8s start                      # single-node Kubernetes as the `kiri` kubectl context\nkiri machine create dev --distro ubuntu && kiri machine shell dev\nkiri import                         # bring images, volumes and containers over from OrbStack or Docker Desktop\n```\n\nDocker's commands also work as `kiri` commands (`kiri run`, `kiri ps`,\n`kiri compose up`, and so on), and always target Kiri.\n\n## Numbers\n\n`alpine` running `true` and removed, median of 30 runs, same `docker` CLI for all three:\n\n|                | Docker Engine API | `docker` CLI |\n|----------------|------------------:|-------------:|\n| **Kiri**       | **2.55 ms**       | **14.2 ms**  |\n| Docker Desktop | 213 ms            | 243 ms       |\n| OrbStack       | 380 ms            | 442 ms       |\n\nMethod and every other figure are in [`bench/results.json`](bench/results.json). Rerun with `kiri bench`.\n\n## How it works\n\n```\ndocker CLI ─┐\ncompose ────┼─ Docker Engine API ─► kiri daemon ── vsock ──► guest agent (PID 1)\nbuildx ─────┤                         owns the VM           clone3 → container\nkiri UI ────┘\n```\n\nThe VM uses a custom 10 MB kernel, and its PID 1 is a ~900 KB Rust agent.\nThat agent starts containers with a single `clone3` into namespaces and a\ncgroup. There's no runc, no shim and no dockerd. More detail is in\n[docs/development.md](docs/development.md#architecture).\n\n## Documentation\n\n- [Features](docs/features.md): everything supported today, release files and known issues\n- [Development](docs/development.md): building, running from source, architecture and repository layout\n- [Release notes](docs/releases)\n\n## Roadmap\n\nNext is a built-in builder. Kiri will serve Docker's own build endpoints, so\nbuildx uses its docker driver against Kiri as it does against Docker\nDesktop. This brings `host-gateway` support to BuildKit builds, and images\nload straight into Kiri.\n\n## Contributing\n\nIssues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)\nand the [Code of Conduct](CODE_OF_CONDUCT.md). To report a vulnerability\nprivately, see [SECURITY.md](SECURITY.md).\n\n## License\n\n[Apache-2.0](LICENSE). Third-party licences are in [NOTICE](NOTICE). The guest\nkernel is Linux (GPL-2.0); its config, patches and the source offer are in\n[`guest/kernel`](guest/kernel).\n\nThe name \"Kiri\" and the Kiri logo are not covered by the licence. Forks are\nwelcome, under a different name and logo.\n",
+   "featured_before": true
+  },
+  {
+   "repo": "RoutineMiku/apkstart",
+   "url": "https://github.com/RoutineMiku/apkstart",
+   "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+   "language": "JavaScript",
+   "stars": 6494,
+   "topics": [
+    "android",
+    "android-x86",
+    "apk",
+    "electron",
+    "emulator",
+    "freeform"
+   ],
+   "created_at": "2026-10-29",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 1462,
+   "readme": "# ApkStart\n\n[![CI](https://github.com/RoutineMiku/apkstart/actions/workflows/ci.yml/badge.svg)](https://github.com/RoutineMiku/apkstart/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/RoutineMiku/apkstart?include_prereleases&sort=semver)](https://github.com/RoutineMiku/apkstart/releases)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6.svg)](#)\n\n**Windows 上的安卓应用运行器 —— 让安卓应用像 Windows 原生软件一样被安装和使用。**\n\n- 🖱️ **双击 .apk 即安装**：注册 .apk 文件关联后，在资源管理器里双击 APK，自动解析 → 安装 → 生成桌面图标，全程无需打开任何模拟器界面。\n- 🧩 **每个应用一个桌面图标**：图标从 APK 内部离线提取并转为多尺寸 ICO，双击桌面图标 = 直接启动该应用，与打开一个原生 Windows 软件的体验一致。\n- 🪟 **应用就是一个窗口**：运行时以**带窗口**模式启动（无头模式下 Android 不出 VSYNC，应用进程活着但屏幕上是空的），ApkStart 把这块窗口改标题、换真实应用图标、按竖屏比例摆好位置，就是一个独立应用窗口；**全屏**铺满屏幕高度并居中，**窗口模式**可自由拖动缩放且按应用记忆尺寸。\n- 🔍 **能被 Windows 搜到**：安装后同时创建桌面 + 开始菜单（`程序\\ApkStart\\`）快捷方式，按应用名在开始菜单搜索即可直达，任务栏按应用分组。\n- 📁 **数据互通**：`%USERPROFILE%\\ApkStartShared` ↔ 安卓内 `/sdcard/ApkStartShared` 持续双向同步，安卓应用存下的文件直接出现在本机。\n- 🪶 **极致轻量**：壳层本身零第三方依赖（连 ZIP / PNG / ICO / AXML 解析都是手写的），运行时按需拉起，空闲自动回收；也可以完全复用你机器上已有的安卓运行时，额外占用为零。\n\n![主界面](docs/images/app.png)\n\n```\n┌────────────────────────────────────────────────────────────┐\n│  桌面图标（真实应用图标 .lnk）                              │\n│      │  双击                                               │\n│      ▼                                                     │\n│  ApkStart.exe --launch                               │\n│      │  运行时未启动？→ 自动拉起（Android Emulator + API34）│\n│      ▼                                                     │\n│  按系统解析出的 LAUNCHER 入口启动（不是 APK 里的主 Activity）│\n│      │  存活观察 18 秒，闪退自动重试 / 重置数据 / 补权限     │\n│      ▼                                                     │\n│  模拟器窗口 = 应用窗口（改标题、换图标、竖屏比例、全屏居中） │\n└────────────────────────────────────────────────────────────┘\n```\n\n## 下载即用（不想编译）\n\n两个源内容一致，国内建议用 Gitee：\n\n- GitHub：[github.com/RoutineMiku/apkstart/releases](https://github.com/RoutineMiku/apkstart/releases)\n- Gitee：[gitee.com/daily-miku/apkstart/releases](https://gitee.com/daily-miku/apkstart/releases)（国内直连快得多）\n\n安装包：\n\n- **`ApkStart-v*-Setup.exe`**（约 1.3 GB）：**一个 EXE 包含全部运行时**（adb / Android Emulator / 系统镜像），装完首次启动自动把镜像展开到用户目录，**之后不再联网下载任何东西**。装到当前用户目录、不要求管理员权限。\n- 另有轻量版 `ApkStart-v*-win64-portable.zip`（**95 MB**，解压后约 226 MB）：首次启动才在后台下载运行时。运行时的下载源就是**本项目的 GitHub Release**（`ApkStart-runtime-*.zip` 整包），不走 dl.google.com；整包拿不到时才自动退回官方源。\n\n### 在线更新（自动选较快的源）\n\n设置 → **软件更新** → 「检查更新」，或托盘右键 → 「检查更新」。发现新版本后点「立即更新」即可。\n\n- 安装版下载 `ApkStart-v*-Setup.exe` 静默安装；\n- 轻量版下载 `ApkStart-v*-win64-portable.zip`，解压后覆盖**程序目录**——运行时目录（`%APPDATA%\\apkstart\\runtime`）、已装应用与快照都不在程序目录里，所以更新不会丢东西；\n- 替换动作由一段独立 PowerShell 脚本完成（等主进程退出 → 覆盖 → 重新拉起），**不会出现「请手动关闭程序」的弹窗**，也不会在桌面上残留模拟器窗口。\n\n更新链路不是死连 GitHub，而是**每次现测现选**：\n\n1. 同时问 GitHub 与 Gitee 的最新版本，取版本号更高的那个（一个源超时/被墙不影响另一个）；\n2. 把「源站直连 / Gitee 同名资产 / 镜像前缀」列成候选，每个地址真下 256KB 测速，\n   只算「收到首字节之后」的吞吐（握手时间不计入，否则高延迟大带宽的源会被误判成慢）；\n3. 按实测速度排序，用最快的那条分块并行下载；失败自动换下一条。\n\n设置里的「下载与更新源」可以强制只用某一边（企业网络只放行一个域名时用），\n也可以关掉公共加速镜像、或改用自建镜像前缀。Gitee 附件单文件上限 100MB，\n便携包换用 7-Zip 的 deflate（`-mx=9`）压缩后是 **95.0MB**，所以 Gitee 上也是\n一个能直接双击解压的整包（以前要切成 `.part1/.part2` 手工拼接，那版已经废弃）。\n两个源的同名包体积并不完全一样，客户端按测速结果只挑一个源下完，不会混拼。\n\n两个仓库都是公开的，Gitee 的发行版列表匿名就能读，不需要填任何 token。\n（只有在 Gitee 限流返回 403/429 时，才需要在设置里填一个只读 token 提高额度。）\n\n**开箱即有的默认行为**（不用去设置里找）：\n\n- 开机自动启动，常驻托盘；双击桌面图标直接进应用。\n- 安装 APK 后自动创建**桌面 + 开始菜单**两份快捷方式，Windows 搜索能直接搜到应用名；老版本漏建的会在启动时自动补齐。\n- 应用窗口是原生渲染（非投屏）：**全屏**铺满屏幕高度并居中、保持手机比例不变形；**窗口模式**保持竖屏，可自由拖动缩放，每个应用的尺寸单独记忆。随时按 `F11` 或右键托盘切换。\n- 安装后自动授予应用申请的运行时权限，不会卡在系统授权框；应用闪退会自动重试、必要时重置应用数据后再拉起。\n- **网络直接用主机的网络**：安卓侧走 QEMU 用户态 NAT，出口复用主机的物理网卡，**不会在 Windows 上创建任何虚拟网卡 / 虚拟交换机**（不需要装驱动、也不多一个网络适配器）。不需要联网下载、不需要改任何网络设置。\n\n## 从源码构建\n\n```powershell\n# 1. 安装依赖（含 Electron 运行时）\nnpm install\n\n# 2. 启动并完成运行时部署（一次性下载 adb / Android Emulator / 系统镜像）\nnpm start\n\n# 3.（可选）注册 .apk 双击安装\nnpm run assoc:on\n\n# 4. 打包便携版（免安装，可直接分发）\nnpm run pack\n# 产出 dist/ApkStart-win64-portable/ApkStart.exe\n# 5. 压成 zip 发布（必须用这个脚本，别用 Compress-Archive：体积会大 5MB、塞不进 Gitee）\nnode build/zip.js dist/ApkStart-win64-portable ApkStart-win64-portable.zip\n```\n\n### 单文件 EXE（内置完整运行时，装完不再联网）\n\n如果希望「一个 EXE 发出去，对方双击就能跑，不用等下载」，用这条：\n\n```powershell\n# 先把 engine/ 整理成可分发运行时（system.img 用 xz/LZMA2 极限压缩，3.1GB → 约 1.1GB；\n# 同时裁掉 emulator 里用不到的部分：arm64 的 QEMU、Vulkan 后端、多语言包、qsn/自检工具、VR 资源）\nnpm run runtime\n\n# 再打成安装版 EXE（electron-builder nsis 目标，装到当前用户目录）\nnpm run build:exe\n# 产出 dist/release/ApkStart--Setup.exe\n```\n\n体积构成（实测）：Electron 约 180MB、emulator 瘦身后约 480MB、系统镜像 xz 压缩后约 1.1GB，\n最终安装包约 1.32GB（相比 gzip 方案省约 490MB）。能再压的硬下限就在 system.img 那条\n（它就是安卓系统本身，且是 verity 保护的镜像，无法从外部裁掉 GMS 组件）。\n网络默认走主机 NAT，不创建虚拟网卡，所以也不依赖任何额外驱动。\n\n首次启动会把 xz 镜像展开到 `%APPDATA%\\apkstart\\system-images`（约 20 秒，只做一次），\n之后每次直接复用。AVD 与已装应用固定存放在 `%APPDATA%\\apkstart\\avd`，\n即使便携版每次解压到临时目录也不会丢。\n\n## 运行时说明：完全独立，不依赖任何第三方模拟器\n\nApkStart 是一个**自持**的项目，运行时组件全部由自己下载、校验和管理（位于 `%APPDATA%\\apkstart\\runtime`）。\n轻量版默认从**本项目的 GitHub Release** 下载整包（`ApkStart-runtime-*.zip`），拿不到才退回下表里的官方源：\n\n| 组件 | 来源 | 大小 | 用途 |\n|---|---|---|---|\n| adb（platform-tools） | dl.google.com 官方源 | ~8 MB | 安装/启动安卓应用 |\n| Android Emulator | dl.google.com 官方源（8 线程并行下载） | ~440 MB | 运行时引擎（自带设备模型与 GPU 转译） |\n| Android 14 通用系统镜像（Google Play x86_64） | dl.google.com 官方源 | 源镜像 ~3.1 GB（xz 后 ~1.1 GB） | 唯一的基础层：x86 应用、仅含 ARM 库的应用、GMS 都能跑，镜像即系统，无需安装 |\n| AEHD 驱动（可选） | dl.google.com 官方源 | ~0.2 MB | 硬件加速（或用 Windows「虚拟机平台」WHPX） |\n\n首次使用时，「运行时」页会引导完成以上部署（**一键部署**）：\n1. adb 与运行时引擎、系统镜像自动下载（官方源实测 10+ MB/s）；\n2. 部署完成后**自动开机**，之后双击桌面图标自动拉起，全程无感。\n\n![运行时部署向导](docs/images/setup.png)\n\n**设备兼容性（自动处理，无需干预）**\n\n- 没有硬件加速时自动回退软件模拟；启动失败按「渲染后端 → 加速方式 → 内存/冷启动」最多 4 组参数自动重试。\n- `-gpu` 按引擎版本自动选择（37.x 用 `software`，老版本用 `swiftshader_indirect`），不再使用已弃用的模式。\n- 内存/核心数按物理内存自动推导（2–4 GB / 2–4 核），数据分区从 16 GB 降到 4 GB；端口动态挑空闲的，中文路径自动转短路径，AVD 锁文件自动清理。\n- 失败原因会翻译成中文并附上修复建议；设置里可「导出诊断报告」。\n- 大文件下载默认 **8 线程分块 + 断点续传**，不支持 Range 的源自动回退单流。\n- 高级用户也可以在设置里切换为「连接已有运行时」（复用 WSA 等的 adb 端口），但这只是可选项，不是依赖。\n- 高级路径：也可以在设置里「连接已有运行时」，复用你机器上其它模拟器（WSA / MuMu 等）已经跑起来的 adb 端口。\n\n**容器式低成本运行**\n\n- **只读基础层**：`system-images/` 全机一份，所有应用共享，不再同时存 AOSP",
+   "featured_before": false
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "description": "Craft Anything: understand how any software works, and craft your own.",
+   "language": "Rust",
+   "stars": 34701,
+   "topics": [],
+   "created_at": "2026-10-31",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 1043,
+   "readme": "\n  \n    \n      \n      \n    \n  \n\n  \n\nCraft Anything\n\n  English · 日本語 · 简体中文 · 繁體中文 · 한국어 · Español · Français · Tiếng Việt · Português · ไทย · Türkçe\n\n  See how any website, app or game works, then have AI build your own version; an open-source, clean-room engine in pure Rust.\n  Point it at a target, say what you want, and it studies the original with real inspection tools,\n  has a coding agent build a new project, checks the result against the original and refines it.\n\n  \n  \n  \n  \n  \n  \n  \n\n  \n\n  Download Craft Anything ·\n  ArtCraft ·\n  All Crafting Apps\n\n  \n  \n  A website project: each check says how alike the build is, you approve anything outside the rules, and the plan shows what's left.\n\n> [!NOTE]\n> **ArtCraft is a community of artists from all walks of life.** Painters, photographers,\n> filmmakers, illustrators, designers, animators, hobbyists, and people who picked up a pencil\n> last week. If you make things, you're one of us. **[Come say hi on Discord](https://discord.gg/artcraft).**\n\n  How it works ·\n  Two ways to use it ·\n  AI ·\n  Agents ·\n  Under the hood ·\n  Get started ·\n  Status ·\n  Downloads ·\n  Discord\n\n  \n    \n      🔍 Study anything\n      Websites, desktop apps, phone apps, games and files: real inspection tools find out how they're built and what they do, with the evidence behind every answer.\n    \n    \n      🛠️ Build your own\n      Say what you want (\"Recreate this website\", \"Recreate this game's gameplay in Rust\") and a coding agent builds a new project in the stack you ask for.\n    \n    \n      ✅ Checked, not guessed\n      Every build is compared with the original (pages at three screen widths, a game's own self-test, an app's runs) and refined until it's close.\n    \n    \n      🤖 Agent-ready\n      320 tools, each one a CLI command and an MCP tool, so any agent can drive the same engine the app uses. No AI is needed to inspect.\n    \n  \n\n## How it works\n\nPoint Craft Anything at a target, say what you want, and press Start. It works in four steps,\nasking you in plain words when a decision is yours:\n\n1. **Study:** inspect the original: its pages at every width, its code, its files, how it runs.\n2. **Build:** a coding agent builds a new project, in the language, framework or engine your\n   request names (or a sensible default).\n3. **Check:** compare the build with the original and list what doesn't match yet.\n4. **Ready:** open, play or preview the result, or ask for changes and it refines it.\n\n  \n    \n      \n      Make: pick what to recreate, say what you want, press Start.\n    \n    \n      \n      Ready: play the game, or ask for changes below.\n    \n  \n\n## Two ways to use it\n\n- **Simple** (default): \"What do you want to make?\" Pick a website, app or game, describe it,\n  press Start. A project page shows the four steps (Study → Build → Check → Ready), what the\n  agent is doing in plain words, question and approval cards, how alike the result is, and\n  buttons to open the result or its folder. Ask for changes in the box at the bottom.\n  \"Just look inside\" opens a target for questions without building anything (in Deep mode).\n- **Advanced**: the full workbench: every tool (Ctrl/Cmd+K), functions, strings, pseudo-C,\n  disassembly, hex, call graphs, evidence, unknowns, jobs, logs and the agent console.\n\nBoth modes drive the same engine.\n\n## Clean room or Deep\n\n- **Clean room** (the default): nothing inside the original is read, not its code, files or page\n  source. Craft Anything works from what you can see: pictures you add, the website as a visitor\n  sees it (screenshots, visible text, measured layout, colours, fonts and spacing, menus opened)\n  and, when you allow it, a picture of the app's window. Tools that would look inside are refused\n  and say how to turn on Deep mode.\n- **Deep**: every tool is used, for your private use. A program's code and files are read with the\n  built-in engines (and Ghidra when it's installed), a website's JavaScript is read and its start\n  page watched, and the builder may use all of them.\n\nClean room is a rule about what Craft Anything offers and refuses. It is not an operating-system\nsandbox: it doesn't isolate your computer. A coding agent you run still acts as you, and what it can\nread, write or run depends on its own permissions. Which of an agent's own tools Craft Anything can\nrefuse differs by agent; for Claude Code's tools in chats and questions, see\n[`docs/claude-code.md`](docs/claude-code.md).\n\nSwitch in the title bar or Settings, with `settings_set deep_mode true`, or for one CLI run with\n`--deep` (or `--clean-room`).\n\n  \n  \n  Advanced: functions, pseudo-C, the agent and the evidence behind every answer.\n\n## AI\n\nBuilding needs a coding agent on your computer. **Claude Code** is supported first: Craft\nAnything runs your own, unmodified `claude` program, which uses your own sign-in; Craft Anything\nnever sees or handles your account. Your use of it falls under your own agreement with\nAnthropic. See [docs/claude-code.md](docs/claude-code.md) for how and why. A Codex adapter\nexists but hasn't been verified on a real install yet. **GitHub Copilot** can use your installed\nCopilot CLI through ACP: sign in separately with `copilot login`. **Grok Build** can use your\ninstalled `grok` program through ACP (`grok agent stdio`): sign in separately with `grok login`.\nSee [docs/grok.md](docs/grok.md). Other agents that speak ACP (Gemini CLI,\nQwen Code, opencode, goose, Hermes, Maki, Devin) can be switched to it per backend; of those, Maki\nand Devin have been run live (Devin authenticates with the backend's stored key — its own CLI\nsign-in doesn't count over ACP). Anthropic, OpenAI, OpenRouter, xAI (Grok, when `XAI_API_KEY` is\nset) and local OpenAI-compatible servers are available for questions and analysis (Settings → AI).\n\n## Built for agents\n\nEvery tool is also a CLI subcommand and an MCP tool, so an agent can study a target or run a\nwhole rebuild without the app:\n\n```sh\ncraft-anything-cli commands                                   # every tool, by",
+   "featured_before": true
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "language": "Dart",
+   "stars": 24735,
+   "topics": [
+    "ai-agent",
+    "android",
+    "android-app",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness"
+   ],
+   "created_at": "2026-10-25",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 1020,
+   "readme": "\n  简体中文 · English\n\n  \n    \n    \n  \n\n  DeepSeek Harness 的手机应用：Android 版已发布；iOS 版仍在开发和真机测试，需在 Mac 上自行签名编译（iOS 工程 · 架构）。\n\n  \n  \n  \n  \n\n  \n  Trendshift 全语言日榜 #1 · 2026-10-30\n\nDeepy 和鲸娘，陪你干活\n\n干活时敲代码，做完来个空翻，等你确认会举手。打开「App 外显示」，它们还会跟你到桌面。\n\n     \n\n     \n\n下载 DSH Go\n\n从 GitHub Releases 或官网下载页获取最新版 APK，常见手机选 arm64 包。\n\n  &emsp;\n\n  感谢大家对 DSH Go 的支持和喜爱！当前下载页提供 Android APK；iOS 版还在开发和真机测试，没有公开安装包，鸿蒙版也在继续推进。\n\n  \n\n  第一次用可以先看使用指南，遇到问题欢迎来论坛和 QQ 群。\n  手机上装过签名不同的早期测试包时不能直接覆盖安装，需要先卸载旧版；卸载会清空对话、Linux 环境和设置。\n\n本机运行，也能遥控电脑\n\n内置 Linux 环境，免 Root、免 Termux。电脑上的 DSH，也能一键切过去接着用。\n\n  \n    \n    \n  \n\n插话、打断，过程自动收好\n\n回复中途也能插话，排队的消息随时「立即发送」。做完的过程折叠成一行。\n\n  \n    \n    \n  \n\n原生界面，也有网页版\n\n和官方网页版一键切换，停在同一段对话，下次打开还是你上次用的那个。\n\n  \n    \n    \n  \n\n分享卡、对话回放和链接\n\n回复一键做成分享卡。整段对话生成链接，对方在浏览器里回放，链接端到端加密。\n\n  \n    \n    \n  \n\n横屏与平板\n\n横屏手机和平板重新排版：侧栏常驻，内容居中，弹出键盘也不挤。\n\n  \n    \n    \n  \n\n主题配色与桌面图标\n\n六套主题色，也能跟随壁纸或自选颜色。四款桌面图标，三种功能图标风格。\n\n  \n    \n    \n  \n\n中文，也说 English\n\n全部界面支持英文，在设置里切换，默认跟随系统。\n\n  \n    \n    \n  \n\n手机操控\n\n看屏幕、帮你点，三档确认随你选。敏感操作默认交还给你；放宽应用规则或解除限制前，请先了解风险。\n\n  \n    \n    \n  \n\n## 可以做什么\n\nDSH Go 提供聊天界面、本机运行环境和远程连接，是基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的第三方项目。运行在手机上的是 DSH 引擎；模型请求仍由你配置的模型提供方处理。\n\n- **本机运行**：在 App 内安装 Ubuntu、Node.js 与 DSH 运行环境，无需 Root 或另装 Termux。\n- **远程连接**：通过 SSH 或李国宝老师开发的 [DSHarness Remote](https://github.com/liguobao/ds-harness-remote) 使用电脑、服务器上的 DSH。\n- **聊天与工具**：切换模型，发送图片、使用语音输入，处理工具审批和提问；支持聊天界面与网页模式。\n- **插件界面**：使用适配 DSH Go 的原生工具卡、表单和面板；仓库提供 SDK、教程和示例。\n- **手机操控**：在你开启权限后，让本机引擎读取屏幕、点按和输入，并可随时停止。\n- **分享与外观**：分享、导出和回放对话，调整主题、图标和桌宠。\n\n功能随主机和连接方式不同。DSHarness Remote 当前只支持图片附件，不能在 App 内打开网页版，插件管理限于开关，且不支持 DS Bot 和对话日志导出。详见[本机引擎与远程主机](docs/guide/zh/03-engine-hosts.md)。\n\n## 安装\n\n安装要求为 Android 8.0（API 26）及以上。Release 页面上的 **arm64** 安装包适用于常见的 64 位 Android 手机；x86_64 设备和模拟器用的 x64 包在发布说明末尾的「其他版本下载」里。仓库没有 32 位 ARM 构建。\n\n1. 从 [GitHub Releases](https://github.com/ccch1mneyyy/dsh-go/releases/latest) 或[官网下载页](https://go.dshtui.com/download)下载对应架构的 APK，并按系统提示允许该安装来源。\n2. 首次启动时，选择在本机安装运行环境，或连接远程主机。\n3. 为所选主机配置模型和所需凭据，再开始对话；部分远程渠道需要在主机侧配置。\n\n仅连接远程主机时，不必在手机上安装本机运行环境。手机操控只对正常模式下的本机引擎开放，需要按界面说明开启无障碍等权限；不打扰模式另外要求 Android 14 及以上，以及 Shizuku 或自连 ADB。首次使用可按[使用指南](docs/guide/README.md)逐项配置。\n\n本地引擎默认使用 PRoot 兼容启动。开发者选项中的直接启动默认关闭，开启后的兼容性和回退方式见[常见问题](docs/guide/zh/11-faq.md)。当前 Android 构建以 APK 侧载为目标，不是 Google Play 发布配置。\n\n## 数据与权限\n\n模型请求会发送给你配置的提供方。开启手机操控后，任务需要的屏幕文字可能发送给模型，支持看图的模型也可能收到截图；请先阅读 App 的权限说明。\n\n“发送匿名使用统计”默认开启，可在首次引导或“设置 → 隐私与分享”关闭。采集范围和关闭后的处理见[常见问题](docs/guide/zh/11-faq.md)。分享内容前，请检查预览；收到链接或文件的人可以保存其中的内容。\n\n## 风险提示与免责声明\n\nDSH Go 是社区开发的非官方项目，与 DeepSeek 无关联，也不代表 DeepSeek。使用前请了解：\n\n- **AI 并非万无一失**：回答、代码和操作可能出错，也可能被网页、消息或文件中的恶意指令误导。请核验重要结果；医疗、法律、投资等高风险决策不应仅依赖 AI 输出。\n- **工具会产生真实影响**：本机或远程主机上的命令、文件修改及手机操控可能导致数据丢失、隐私泄露、账号、资金或设备损失。免确认、放宽应用规则或解除限制会减少保护；确认与拦截机制不能保证消除所有风险。建议保留默认保护，只授予必要权限，不在存有支付或银行信息的设备上解除限制。详见[手机操控指南](docs/guide/zh/04-phone-control.md)。\n- **第三方服务与费用**：模型、远程主机和插件等按各自条款运行；相关数据处理、服务可用性和费用取决于你选择的服务与配置。本机运行不等于模型离线，也不代表数据不会离开设备。\n- **使用前做好防护**：备份重要数据，只连接可信主机、安装可信插件，留意模型用量与费用；不要让 AI 无人值守地处理不可逆或高风险任务。\n- **无担保与责任范围**：在适用法律允许的范围内，本软件按“现状”提供，不保证准确性、持续可用性或满足特定用途；相关无担保及责任限制见 [LICENSE](LICENSE) 第 15–17 条。本声明不排除或限制依法不得排除或限制的责任，也不减损你依法享有的权利。\n\n## 常见问题\n\n和 DeepSeek 官方是什么关系？\n\n没有关系。DSH Go 是社区开发的非官方客户端，基于开源的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 构建。手机上运行的是 DSH 本身；模型请求发给你配置的模型提供方，需要联网，按你在提供方的账户计费。\n\n安全吗？\n\n本机网页版只接受 App 自己的访问。分享链接端到端加密，密钥只在链接里，服务器看不到内容，但获得完整链接的人可以读取并保存内容。手机操控默认保留敏感操作保护；放宽应用规则或开启「解除限制」会减少这些保护。安全机制不能保证零风险，详见[风险提示与免责声明](#风险提示与免责声明)和[手机操控指南](docs/guide/zh/04-phone-control.md)。\n\n切到后台会被杀吗？\n\n部分系统的省电策略会拦住后台。DSH Go 发现后会提醒你，并直达对应的放行设置，vivo、小米、华为、荣耀、OPPO 都有。\n\n对手机有什么要求？\n\nAndroid 8 及以上。手机直接下载 Release 页面上的安装包即可，模拟器用的 x86_64 版在发布说明末尾的「其他版本下载」里。在手机上运行 DSH 要先准备内置的运行环境，请预留约 1 GB 空间；只连电脑或服务器上的 DSH 可以不装。\n\n开源吗？\n\n开源，代码就在这个仓库，以 [AGPL-3.0](LICENSE) 发布，`sdk/` 和 `examples/` 为 MIT。DSH Go 的名称和标识，以及 Deepy、鲸娘两位吉祥物，不在开源授权范围内，见 [ASSETS.md](ASSETS.md)。再发布和 fork 时的署名要求见[授权范围与再发布](#授权范围与再发布)。\n\n## 从源码构建\n\n以下流程面向 **Linux x86_64**。当前工具链脚本默认安装 JDK 17、Flutter 3.47.7 和 Android SDK/NDK；App 要求 Dart `^3.13.5`。准备 Bash、Git、curl、tar、unzip、xz、Python 3、zstd（Python 未提供 `compression.zstd` 时用于解包 zstd 压缩的 deb）、file 和常见 GNU 命令；重新解析 Ubuntu 软件包锁时还需要 gpgv。\n\n先取得完整源码和项目资源。`app/pubspec.yaml` 声明的字体、图片等都是构建输入，运行时包由下面的脚本生成。\n\n```bash\ngit clone https://github.com/ccch1mneyyy/dsh-go.git\ncd dsh-go\n\nbash tooling/setup-toolchain.sh\nsource tooling/env.sh\nflutter --version\njava -version\n\nbash runtime/build-runtime.sh arm64-v8a\nDSH_BETA_TOKEN_FILE= bash tooling/build-apk.sh -f arm64 --keep-daemon\n```\n\n工具链脚本会下载 SDK/NDK 与模拟器镜像，并执行 Android SDK 许可接受步骤。默认安装到 `~/dev`；可通过 `DEV_ROOT` 指定独立目录。脚本会复用已有安装，构建前请核对版本。\n\n产物为 `app/build/app/outputs/flutter-apk/app-arm64-release.apk`。运行时构建使用仓库固定的版本与校验信息，并需要联网下载依赖。示例中的 `DSH_BETA_TOKEN_FILE=` 不嵌入维护者的内测通道令牌；`--keep-daemon` 保留 Gradle daemon，适合同时开发其他 Android 项目的环境。\n\n构建 x86_64 包时，先生成对应运行时：\n\n```bash\nbash runtime/build-runtime.sh x86_64\nDSH_BETA_TOKEN_FILE= bash tooling/build-apk.sh -f x64 --keep-daemon\n```\n\n未配置 `app/android/key.properties` 时，本地 release 构建使用 debug 签名。它不能直接覆盖不同签名的官方安装包；请在测试设备上安装，保留已有数据，不要为解决签名冲突直接卸载正在使用的 App。发布签名与密钥文件不要提交到仓库。\n\n只查看 APK 构建命令，可运行：\n\n```bash\nDSH_BETA_TOKEN_FILE= bash tooling/build-apk.sh --dry-run -f all\n```\n\n## 目录\n\n| 路径 | 内容 |\n| --- | --- |\n| `app/` | Flutter 界面、Android Kotlin 实现与开发中的 iOS Swift/WidgetKit 实现 |\n| `packages/dsh_client/` | DSH Web API 的 Dart 客户端 |\n| `packages/dsh_remote/` | DSH Remote 的 Dart 客户端 |\n| `runtime/` | Android Linux 运行时、iOS 运行时特化、引擎补丁与 App 桥接 |\n| `sdk/plugin-kit/` | 原生插件作者工具包；在仓库中使用，未发布到 npm |\n| `examples/plugins/` | 插件示例 |\n| `docs/guide/`、`docs/plugins/`、`docs/pets/`、`docs/live2d/` | 用户指南、插件开发、宠物包与 Live2D 伙伴制作 |\n| `docs/assets/` | 本页用到的展示图、桌宠动图和社群二维码 |\n| `tooling/` | 工具链、Android APK/iOS 开发构建与诊断脚本 |\n| `services/`、`site/`、`infra/` | 配套分享服务、网站和部署材料 |\n\n## 参与贡献\n\n问题反馈和改进建议可提交到 [Issues](https://github.com/ccch1mneyyy/dsh-go/issues)。代码、文档和翻译贡献请先看 [CONTRIBUTING.md](CONTRIBUTING.md)。插件作者可以从[插件教程](docs/plugins/README.md)和 [SDK](sdk/plugin-kit/README.md)开始。\n\n安全问题请按 [SECURITY.md](SECURITY.md) 报告，避免在公开 Issue 中提交漏洞细节或凭据。\n\n## 社区\n\n- **论坛*",
+   "featured_before": true
+  },
+  {
+   "repo": "anefzaoui/misterdownloadmanager",
+   "url": "https://github.com/anefzaoui/misterdownloadmanager",
+   "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+   "language": "Rust",
+   "stars": 11104,
+   "topics": [
+    "bittorrent-client",
+    "debrid",
+    "download-accelerator",
+    "download-manager",
+    "downloadmanager",
+    "egui"
+   ],
+   "created_at": "2026-10-29",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 809,
+   "readme": "# Mister Download Manager\n\n  \n\nDownloads faster than IDM. Free, forever.\n\n🌐 misterdownloadmanager.com: the official website, with the downloads, help and news\n\n  \n  \n  \n\n  🧩 Browser extension:\n  \n  \n  The Chrome Web Store's is for\n   Edge,\n   Brave,\n   Opera, Vivaldi and Helium too (how).\n\n  \n  ⭐ Like it? Give it a star. MDM has no ads and no marketing budget: stars are how people find it.\n\n  Windows 10 and 11 (x64, ARM64, 32-bit) · Linux (Ubuntu, Debian, Mint, Fedora, openSUSE, Arch and more; x86-64 and ARM64) · macOS (Apple Silicon and Intel, experimental)\n  86 languages · no ads, no trial, no sign-up\n\n  \n    5×Fastera 1 GB file: 1 s instead of 5.5 s\n    +46More languages86 instead of IDM's 40\n    100%Cheaper (free!)no licence, no trial, ever\n    TorrentSupported fullymagnet links, .torrent files, seeding\n  \n\n  \n    \n    \n  \n\n  \n  \n  \n  \n  \n  \n  \n\n| 🚀 [Download](#download) | ⚡ [Why switch](#why-switch-from-idm) | 🖼️ [Screenshots](#screenshots) | ✨ [Getting started](docs/getting-started.md) | 📜 [Help and tutorials](docs/README.md) |\n| --- | --- | --- | --- | --- |\n\n## Why switch from IDM?\n\n**Same window you know. Your downloads finish sooner. And it costs nothing.**\n\n  \n    \n    \n  \n\n| | Mister Download Manager | IDM 6.42 |\n| --- | --- | --- |\n| Download a big file (1 GB) | **1 second** | 5.5 seconds |\n| Download a small file | **instantly** | 3.1 seconds |\n| Download over a shaky connection | **1.6 seconds** | 5.4 seconds |\n| Wait before a download starts | **instantly** | 3.1 seconds |\n| Price | **Free, forever** | Paid, after a 30-day trial |\n| Ads, nag screens, sign-up | **None** | Registration needed |\n| Open source | **Yes** (GPL) | No |\n\nNothing new to learn: the toolbar, the categories, the list of downloads, the progress window and\nthe browser button are where you expect them. Measured on the same computer, same files, both\nprograms at their default settings ([how we measured](#the-benchmark-in-detail)).\n\n## Download\n\n  \n  \n  \n\nOn the [download page](https://github.com/anefzaoui/misterdownloadmanager/releases/latest), pick\none:\n\n| File | Choose it when |\n| --- | --- |\n| **`...-setup.exe`** | **Not sure? Take this one.** It installs MDM, connects it to your browser and asks your language. |\n| `...-portable.zip` | You want MDM on a USB stick or without installing: unzip and run. Everything stays in its folder. |\n| `...-x64.zip` | You want the plain programs without an installer. |\n| `...-setup-arm64.exe`, `...-portable-arm64.zip`, `...-arm64.zip` | The same three for **Windows on ARM** (Snapdragon and other ARM PCs). |\n| `...-setup-x86.exe`, `...-portable-x86.zip`, `...-x86.zip` | The same three for **32-bit Windows 10**. There, choose your own ffmpeg in **Helpers** for the best video qualities: none is built for it that MDM can check. |\n| `...-extension-chromium.zip` | You want to add the browser extension by hand (Chrome, Edge, Brave, Opera, Vivaldi). From the stores is easier: [Add to Chrome](https://chromewebstore.google.com/detail/mister-download-manager/ejoleppdfgjdndddcjoehopknmlglojp), [Add to Firefox](https://addons.mozilla.org/firefox/addon/mister-download-manager/). |\n\nThe ARM64 and 32-bit files come with every release after 0.5.2; **Check for updates** keeps each\ncopy on its own processor's files.\n\n> [!NOTE]\n> Windows may say *\"Windows protected your PC\"* the first time, because this early version isn't\n> code-signed yet. Click **More info**, then **Run anyway**.\n\nOr with [WinGet](https://learn.microsoft.com/windows/package-manager/winget/), Windows' package\nmanager: in a terminal, the first line installs MDM and the second updates it.\n\n```\nwinget install AhmedNefzaoui.MisterDownloadManager\nwinget upgrade AhmedNefzaoui.MisterDownloadManager\n```\n\n### On Linux\n\nMDM runs on Linux too, tested on Ubuntu 24.04, Debian 12 and Fedora with GNOME, KDE Plasma, Xfce\nand Cinnamon, on X11 and in Wayland sessions: the tray, dark mode, browser integration (Ubuntu's\nSnap Firefox included) and the packages' installs. Not there yet: screen readers (Orca) don't\nread its windows, and Flatpak browsers can't reach it ([more](docs/getting-started.md#on-linux)).\nUp to version 0.2.4, the files' names end in `-experimental`.\n\n| File | For |\n| --- | --- |\n| `...-linux-x86_64.deb` | Ubuntu, Debian, Mint, Pop!_OS: `sudo apt install ./.deb`. |\n| `...-linux-x86_64.rpm` | Fedora, openSUSE, RHEL: `sudo dnf install ./.rpm`. |\n| `...-linux-x86_64.AppImage` | Any Linux. Make it executable and run it. |\n| `...-linux-x86_64.tar.gz` | The plain programs, for any distribution. |\n| `...-linux-arm64.*` | The same four for 64-bit ARM computers, from the release after 0.5.2 (built and tested on GitHub's ARM machines). |\n\n  \n    \n    \n  \n\n### On a Mac? Be the first to try it\n\nFresh builds for **macOS** (Apple Silicon and Intel) are on the same download page, marked\n`-experimental`: we haven't tried them on a Mac ourselves yet. Give them a go and\n[tell us how it went](https://github.com/anefzaoui/misterdownloadmanager/issues/new/choose); you'll\nhelp make them as solid as the Windows and Linux versions.\n\n| File | For |\n| --- | --- |\n| `...-macos-arm64-experimental.dmg` | Mac with Apple Silicon (M1 or later). Open it and drag MDM to Applications. The first time, right-click the app and choose **Open**. |\n| `...-macos-x86_64-experimental.dmg` | Mac with an Intel processor, the same way. |\n\n## 🌍 In your language\n\nEvery language Windows 11 offers, **86 in all**. MDM asks on its first start, and you can change\nit any time in **View → Language**. Arabic, Hebrew, Persian, Urdu and Uyghur get a fully mirrored,\nright-to-left window.\n\n## Screenshots\n\n  \n    One click on YouTube: the Download video button appears over the video.\n    Any video on any page: drag the button where you like, it stays there.\n  \n  \n    Watch it fly: every connection's share of the file, live speed and time left.\n    Dark mode that follows Windows.\n  \n  \n    Add a download: paste a link, or let MDM catch it from your browser.\n    Torrents and magnet ",
+   "featured_before": false
+  },
+  {
+   "repo": "deepseek-ai/chat-demo",
+   "url": "https://github.com/deepseek-ai/chat-demo",
+   "description": "Chat Demo",
+   "language": "TypeScript",
+   "stars": 4032,
+   "topics": [],
+   "created_at": "2026-11-12",
+   "pushed_at": "2026-11-13",
+   "found_in": "新着人気",
+   "stars_per_day": 806,
+   "estimated": true,
+   "readme": "# chat-demo\n\nEnglish | [简体中文](README.zh-CN.md)\n\nA static chat demo powered by the DeepSeek API. No application backend is required: the browser connects directly to the configured API service.\n\nYou can [try the app online](https://deepseek-ai.github.io/chat-demo/) or download the archive from [Releases](https://github.com/deepseek-ai/deepseek-chat-demo/releases), extract it, and double-click `index.html` to use it locally without installation or a build. Enter your API key in Settings before your first chat.\n\n## Getting started\n\nInstall Node.js 22.12+ and pnpm, then run:\n\n```sh\ngit clone https://github.com/deepseek-ai/chat-demo.git\ncd chat-demo\npnpm install\npnpm dev\n```\n\nOpen http://localhost:8090.\n\nTo build the static site:\n\n```sh\npnpm build\n```\n\nThe output is written to `dist/`. Deploy it to a static web server or open `dist/index.html` directly. Opening the file directly requires browser support for storage on `file://` pages and an API service that permits their cross-origin requests.\n\n## Features\n\n- Multiple conversations with automatic titles, renaming, and deletion; edit prompts, regenerate replies, and switch between message branches.\n- Streaming replies, deep thinking, smart search, link reading, and source citations; stop generation or continue eligible replies.\n- Upload, paste, or drag and drop attachments; use voice input and read replies aloud. A live audio spectrum appears in the first row of the input area while recording on mobile.\n- Markdown, syntax highlighting, KaTeX math, and Mermaid diagrams.\n- Simplified Chinese and English, light and dark themes, mobile layouts, location settings, and chat history import and export.\n\n## Data and storage\n\nYour API key and settings are stored in the browser's localStorage. Conversations and original attachments are stored in IndexedDB. Local data is isolated by browser profile and site origin. Sending messages, uploading attachments, and using speech features sends the relevant content to the configured API service.\n\nHistory import and export in Settings use ZIP archives. After confirmation and successful validation, importing replaces all local conversations and attachments. Exports include conversations and locally available original images, but exclude API keys, settings, and original non-image attachments. See the [history import/export documentation (Chinese)](src/services/chat/history/README.md) for the archive format and preservation details.\n\nSettings → Data → Delete all chats clears all local conversations, original attachments, and unsent drafts after confirmation. It stops ongoing replies and returns to a new chat. Your API key and settings are preserved; files already uploaded to the API service are not deleted.\n\n## Development\n\n| Command       | Description                  |\n| ------------- | ---------------------------- |\n| `pnpm dev`    | Start the development server |\n| `pnpm build`  | Build into `dist/`           |\n| `pnpm type`   | Run TypeScript type checks   |\n| `pnpm lint`   | Lint with oxlint             |\n| `pnpm format` | Format with oxfmt            |\n\n[rspack.config.ts](rspack.config.ts) uses `https://api.deepseek.com` by default. Use `createConfig({ apiOrigin, devServer })` to customize the API origin and development server proxy.\n\nChat uses `deepseek-flash` by default through Anthropic-compatible Messages / Files APIs. Speech features use ASR / TTS endpoints. Requests include extensions for search, link reading, titles, and `latest_reminder`, so the configured service must support the corresponding capabilities. Supported attachment formats are determined by server-side validation.\n\n```text\nsrc/\n  app/                 Application layout, themes, and global styles\n  components/          Chat, settings, Markdown, and other UI components\n  i18n/                English and Chinese translations\n  services/\n    api/               API requests, SSE, and protocol types\n    chat/              Conversations, message branches, storage, and history import/export\n    markdown/          Markdown parsing, syntax highlighting, and diagrams\n    speech/            Audio recording and read-aloud playback\n  utils/               Shared utilities\n```\n\n## License\n\n[MIT](LICENSE). The build copies the license to `dist/LICENSE`; include it when distributing the app. Third-party dependencies are subject to their own licenses.\n",
+   "featured_before": false
+  },
+  {
+   "repo": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "description": "Agent skills",
+   "language": null,
+   "stars": 9551,
+   "topics": [],
+   "created_at": "2026-11-03",
+   "pushed_at": "2026-11-03",
+   "found_in": "新着人気",
+   "stars_per_day": 611,
+   "featured_before": true
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "language": "JavaScript",
+   "stars": 17239,
+   "topics": [],
+   "created_at": "2026-10-29",
+   "pushed_at": "2026-11-15",
+   "found_in": "新着人気",
+   "stars_per_day": 537,
+   "featured_before": true
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+   "language": "Python",
+   "stars": 9648,
+   "topics": [
+    "agent-skills",
+    "ai-video",
+    "aigc-detection",
+    "claude-code",
+    "codex",
+    "ffmpeg"
+   ],
+   "created_at": "2026-10-29",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 514,
+   "featured_before": true
+  },
+  {
+   "repo": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "description": "Plug-in media player",
+   "language": "Rust",
+   "stars": 9477,
+   "topics": [
+    "android",
+    "drama",
+    "free",
+    "movie-web-app",
+    "reels",
+    "windows"
+   ],
+   "created_at": "2026-11-03",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 498,
+   "featured_before": false
+  },
+  {
+   "repo": "Lee-xeo/Claude-Cage",
+   "url": "https://github.com/Lee-xeo/Claude-Cage",
+   "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+   "language": "Go",
+   "stars": 6065,
+   "topics": [],
+   "created_at": "2026-10-31",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 369,
+   "featured_before": false
+  },
+  {
+   "repo": "vercel-labs/ui",
+   "url": "https://github.com/vercel-labs/ui",
+   "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+   "language": "TypeScript",
+   "stars": 5273,
+   "topics": [
+    "accessibility",
+    "agent",
+    "agents",
+    "ai",
+    "aria",
+    "behaviors"
+   ],
+   "created_at": "2026-10-26",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 365,
+   "featured_before": true
+  },
+  {
+   "repo": "LNPANDY/NX2Apple",
+   "url": "https://github.com/LNPANDY/NX2Apple",
+   "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
+   "language": "Swift",
+   "stars": 7438,
+   "topics": [
+    "apple-silicon",
+    "custom-format",
+    "homebrew",
+    "ios",
+    "ipa",
+    "ipad"
+   ],
+   "created_at": "2026-10-20",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 218,
+   "featured_before": false
+  },
+  {
+   "repo": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "language": "Python",
+   "stars": 4289,
+   "topics": [
+    "ai-agent",
+    "ai-assistant",
+    "chatbot",
+    "claude",
+    "computer-use",
+    "deepseek"
+   ],
+   "created_at": "2026-10-27",
+   "pushed_at": "2026-11-16",
+   "found_in": "新着人気",
+   "stars_per_day": 216,
+   "featured_before": false
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "description": "Towards a More Autonomous Agent System",
+   "language": "TypeScript",
+   "stars": 23483,
+   "topics": [],
+   "created_at": "2026-10-31",
+   "pushed_at": "2026-11-03",
+   "found_in": "新着人気",
+   "stars_per_day": 198,
+   "featured_before": true
+  }
+ ],
+ "releases": [
+  {
+   "repo": "honojs/hono",
+   "version": "v4.13.19",
+   "name": "v4.13.19",
+   "url": "https://github.com/honojs/hono/releases/tag/v4.13.19",
+   "published_at": "2026-11-16T12:58:07Z",
+   "prerelease": false,
+   "body": "## What's Changed\r\n\r\n* fix(jsx): render an async component that returns null, a boolean, or a  number in https://github.com/honojs/hono/pull/5594\r\n* fix(jsx/dom): align useActionState with React 19 in https://github.com/honojs/hono/pull/5635\r\n* fix(jsx/dom): reset a form's pending state when its action rejects in https://github.com/honojs/hono/pull/5636\r\n* fix(jsx/dom): keep an ErrorBoundary in sync when its parent re-renders in https://github.com/honojs/hono/pull/5638\r\n* fix(jsx/dom): keep keyed components in order when they update with a reorder in https://github.com/honojs/hono/pull/5637\r\n* fix(bun): pass errors thrown in WebSocket handlers to onError in https://github.com/honojs/hono/pull/5620\r\n* fix(proxy): drop Transfer-Encoding and Keep-Alive from the headers option in https://github.com/honojs/hono/pull/5640\r\n* fix(method-override): drop the body when overriding to GET or HEAD in https://github.com/honojs/hono/pull/5641\r\n* fix(jsx/dom): restore attributes and effects when Suspense children suspend again in https://github.com/honojs/hono/pull/5642\r\n* fix(combine): continue the chain when a Condition returns true in every() in https://github.com/honojs/hono/pull/5392\r\n* docs: fix JSDoc parameter types and missing annotations in middleware and helpers in https://github.com/honojs/hono/pull/5409\r\n* fix(jsx/dom): keep a falsy Suspense fallback in https://github.com/honojs/hono/pull/5644\r\n* fix(lambda-edge): omit body in a 204 result in https://github.com/honojs/hono/pull/5643\r\n* fix(utils/types): stop JSONParsed at a recursive JSON type in https://github.com/honojs/hono/pull/5645\r\n* feat(secure-headers): add an overwrite option in https://github.com/honojs/hono/pull/5634\r\n* feat(jwt): add a typ option to verify the token header in https://github.com/honojs/hono/pull/5639\r\n\r\n**Full Changelog**: https://github.com/honojs/hono/compare/v4.13.18...v4.13.19"
+  },
+  {
+   "repo": "anthropics/anthropic-sdk-typescript",
+   "version": "sdk-v1.9.0",
+   "name": "sdk-v1.9.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.9.0",
+   "published_at": "2026-11-16T16:47:01Z",
+   "prerelease": false,
+   "body": "### Features\n\n* **api:** add source and error codes to the RBAC Role read endpoints\n* **api:** add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle\n\n\n### Bug Fixes\n\n* **helpers:** keep $schema out of the transformed schema description\n* **streaming:** reject characters that aren't JSON in streamed tool input\n\n  The lenient parser for streamed tool input used to skip characters and words that aren't JSON, such as a comment, and to join numbers such as `12 3`, so it could return a value that the text doesn't contain. It now rejects such text, and a stream with such tool input fails with an error, as it already did for a bad escape or a missing comma. Valid and truncated JSON parse as before.\n\n* **tools:** bound the grep tool's search at 60s where ripgrep is missing, and keep its regex off the main thread\n* **tools:** compare directory names exactly when confining file paths on Windows\n* **tools:** fully resolve file tool paths that pass through a dangling symlink\n* **tools:** ignore ripgrep config files in the agent toolset grep tool\n* **tools:** leave symlinks that point outside /memories out of listings\n* **tools:** normalize file modes of extracted skill files\n\n  Extracted files now get `0644`, or `0755` if any execute bit is set, in `0700` directories, whatever the archive recorded. The system `tar` must accept `--no-same-owner` and `--no-same-permissions`.\n\n* **tools:** pass over a tar or unzip inside the directories the agent toolset's file tools can write\n\n  `setupSkills` takes `tar`, `unzip` and a helper that `tar` starts, such as `gzip`, only from the `PATH` entries outside `workdir` and `allowedRoots`, and passes over a link that leads inside them. A host whose only `tar` or `unzip` is inside those directories can no longer download skills until one is installed outside. Only when no `PATH` entry is outside them, as with a `workdir` of `/`, is all of `PATH` still searched. A `tar` or `unzip` that fails now rejects with an `AnthropicError`.\n\n* **tools:** pass over an rg inside the directories the agent toolset's file tools can write\n\n  `grep` passes over an `rg` that resolves to somewhere inside `workdir` or `allowedRoots`. It uses the next `rg` on `PATH`, or the built-in search when there is none. With a `workdir` that holds every `rg` on the host, such as `/`, every search is a built-in search. `rg`, and the `tar` and `unzip` that extract skills, no longer get the `ANTHROPIC_*` variables of the process, like the shell of `bash`.\n\n* **tools:** read memory files only through the path that was validated\n* **tools:** stop looking for rg, tar and unzip in the current directory\n* **tools:** stop the grep tool's built-in search at a NUL byte in a file\n\n  The built-in search of `grep` reads no further into a file once it meets a NUL byte, much as ripgrep does. A very large binary file with no line break used to end the process with an uncaught `RangeError`.\n\n\n### Chores\n\n* **api:** deprecate old bet"
+  },
+  {
+   "repo": "cloudflare/workers-sdk",
+   "version": "wrangler@4.163.0",
+   "name": "wrangler@4.163.0",
+   "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.163.0",
+   "published_at": "2026-11-16T12:14:41Z",
+   "prerelease": false,
+   "body": "### Minor Changes\n\n- [#16917](https://github.com/cloudflare/workers-sdk/pull/16917) [`d36b39d`](https://github.com/cloudflare/workers-sdk/commit/d36b39d440a8f408f41dcf4925a81f2f8a58f73b) Thanks [@jamesopstad](https://github.com/jamesopstad)! - Write Build Output to `.cloudflare/output/v1/` and record the producer\n\n  `vite build` and the experimental `wrangler build --experimental-cf-build-output` now write Build Output v1, with account settings nested under `settings` in the root `config.json`. They also record themselves as the `producer`, so readers can name the tool that wrote the output in error messages. Previews from Build Output read the account settings from their new location.\n\n- [#16246](https://github.com/cloudflare/workers-sdk/pull/16246) [`349fc4e`](https://github.com/cloudflare/workers-sdk/commit/349fc4e7443aa744cbe129f84f28571bf8625155) Thanks [@leostera](https://github.com/leostera)! - Start local Workflows from Artifacts events\n\n  Declare Artifacts events on `exports.workflow({ name, events })` in `cloudflare.config.ts` to start the owning Workflow locally in `cf`, Vite, and Workers Vitest. Wrangler configurations continue to use `triggers.events`. Native config conversion derives those targets from the Workflow export, and `cf migrate` attaches existing event subscriptions to their matching Workflow exports.\n\n  Local Artifacts namespaces publish the documented `cf.artifacts.*` messages for repository create, import, fork, and delete operations and token creation and revocation. Successful create, import, and fork operations also publish the initial token-created event. Delivery follows the committed mutation, is unordered, and does not fail the repository operation if a destination rejects it. Push, clone, and fetch events are not yet published locally. This feature does not provide local Artifacts-to-queue subscriptions.\n\n### Patch Changes\n\n- [#16803](https://github.com/cloudflare/workers-sdk/pull/16803) [`b219078`](https://github.com/cloudflare/workers-sdk/commit/b219078a4c1b008485ce022f01ad7292d613d9f0) Thanks [@petebacondarwin](https://github.com/petebacondarwin)! - Run experimental cf projects with their installed Vite or Vite+ commands\n\n  `cf dev`, `cf build`, and deployments that build your project can use Vite or Vite+ even when no framework command is detected. This removes the need for the internal `cf-vite` delegate and supports dependencies declared and hoisted at the root of a configured workspace. A workspace application using a custom-named Vite config should declare `@cloudflare/vite-plugin` in its own manifest, or add `vite` or `vite-plus` as a dependency or dev dependency to identify its tooling; this keeps shared root tools from selecting Vite for non-Vite siblings. Configs passed later via `--config` are evaluated by Vite when the command runs. Existing framework commands keep their priority. Consumers resolve bare executables using the detected `nodeModulesPaths` in order, adding `.bin` to each directory. Lo"
+  }
+ ]
+}
