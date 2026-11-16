@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "分散システムの「理解」論からパスキー実装の脆弱性調査、AIエージェントのeval設計まで、仕組みを掘る記事が目立つ一日でした。",
+  "reading_list": [
+    {
+      "url": "http://brooker.co.za/blog/2026/11/16/understanding.html",
+      "title": "What does it mean to understand what we built?",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "AWSの著名なシステム設計者が、複雑なシステムを「理解している」とはどういう状態かを考察した一次情報で、仕組みに踏み込む記事を好む読者に合う",
+      "takeaway": "自分たちが作ったシステムをどこまで理解できているかを見直す視点が得られる"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
+      "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "パスキー対応103サイト全てに脆弱性が見つかったという独の大学の調査結果で、認証基盤を扱う開発者に関係が大きい",
+      "takeaway": "パスキー実装がどのような観点で脆弱になりやすいか、調査の視点を知ることができる"
+    },
+    {
+      "url": "https://vercel.com/blog/agent-evals",
+      "title": "Agents are users, so your software needs evals",
+      "category": "AI",
+      "minutes": 6,
+      "why": "AIエージェントを「ユーザー」として捉え、evalをどう設計するかというVercel自身の考え方が読める一次情報",
+      "takeaway": "エージェント向けプロダクトにevalをどう組み込むかの考え方の枠組みが得られる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "Lee-xeo/Claude-Cage",
+      "url": "https://github.com/Lee-xeo/Claude-Cage",
+      "language": "Go",
+      "stars": 6065,
+      "stars_per_day": 369,
+      "what": "Claude Code専用の軽量な仮想マシンで、ネットワーク漏洩を防ぐサンドボックス環境を提供するツール",
+      "why": "AIエージェントの実行環境をどう安全に隔離するかへの関心の高まりを受けて新着で急上昇している",
+      "try": "READMEのセットアップ手順に従い、仮想マシン内でClaude Codeを起動する"
+    }
+  ],
+  "releases": [
+    {"repo": "honojs/hono", "version": "v4.13.19", "url": "https://github.com/honojs/hono/releases/tag/v4.13.19", "summary": "JSXの非同期コンポーネントやuseActionStateの不具合、BunのWebSocketエラーハンドリングなど複数のバグ修正"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.9.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.9.0", "summary": "RBAC Role取得エンドポイントへのエラーコード追加と、ストリーミングツール入力のJSON検証の厳格化"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.163.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.163.0", "summary": "Build Outputをv1形式で.cloudflare/output/v1/に出力するようになり、Artifactsイベントからローカルワークフローを起動できるようになった"}
+  ]
+}
