@@ -1,0 +1,38 @@
+{
+  "edition": "daily",
+  "headline": "Claude Codeチームの検証への向き合い方と、Base64処理に潜むOpenJDKのRCEが今日の軸。ホノやClaude Code、uvなど定番ツールのリリースも続きました。",
+  "reading_list": [
+    {
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "title": "How the Claude Code team thinks about verification",
+      "category": "AI",
+      "minutes": 7,
+      "why": "Claude Code自身の開発チームが、エージェントの出力をどう検証しているかを語る一次情報",
+      "takeaway": "AIエージェントを使った開発で、何を・どう検証すべきかの考え方の枠組みが得られる"
+    },
+    {
+      "url": "https://calif.io/java4shell/",
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "category": "バックエンド",
+      "minutes": 9,
+      "why": "OpenJDKのBase64処理に起因するRCEの技術的な調査報告で、仕組みに踏み込んだセキュリティ記事を好む読者に合う",
+      "takeaway": "標準ライブラリの入力処理がどのような脆弱性につながり得るかを具体的に理解できる"
+    },
+    {
+      "url": "https://zenn.dev/gemcook/articles/claude-code-otel-cloudflare",
+      "title": "OpenTelemetry×Cloudflareで組織のClaude Code利用ログを収集する",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "Cloudflare上でOpenTelemetryを使いClaude Codeの利用ログを収集する構成を紹介する一次情報で、読者のクラウド・AI両方の関心に合う",
+      "takeaway": "組織でClaude Codeの利用状況を可視化するための構成・実装の要点がわかる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "anthropics/claude-code", "version": "v2.1.326", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326", "summary": "Code Modeとagent teamsの併用対応、allowedTools等の不正な値への起動時警告、managed-mcp.json関連のMCP停止理由表示などを追加"},
+    {"repo": "honojs/hono", "version": "v4.13.19", "url": "https://github.com/honojs/hono/releases/tag/v4.13.19", "summary": "JSXの非同期コンポーネントやuseActionState、ErrorBoundary、keyed componentsの再描画、BunのWebSocketエラーハンドリングなど複数のバグ修正"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.10.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.10.0", "summary": "billing_policyパラメータや課金関連エラーコードの追加と、セッションツールランナーのmaxIdleMsカウントダウンに関する不具合修正"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.164.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.164.0", "summary": "Workers VPCサービスのTLS設定にカスタムCA・クライアント証明書の参照を追加し、証明書検証モードを明示的に選択できるように変更"},
+    {"repo": "astral-sh/uv", "version": "0.13.9", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.9", "summary": "PEP 832の.venvリダイレクトファイル対応やロックファイルの軽量化、環境マーカーの引用符処理などのバグ修正"}
+  ]
+}
