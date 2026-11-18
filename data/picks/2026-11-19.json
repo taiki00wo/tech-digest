@@ -1,0 +1,46 @@
+{
+  "edition": "daily",
+  "headline": "nginxの未認証RCEが今日最大の注目点。AIエージェントのサンドボックス設計や分散システムのトラフィック特性を掘る記事も要チェック。",
+  "reading_list": [
+    {
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "nginxの未認証RCEはCVE登録もされ広く報じられており、サーバーを運用する読者はまず内容を把握すべき一次情報",
+      "takeaway": "nginxのHTTP/2実装に潜む脆弱性の仕組みと影響範囲、対応の緊急度が分かる"
+    },
+    {
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "title": "Inside the Codex sandbox",
+      "category": "AI",
+      "minutes": 5,
+      "why": "AIエージェントにコマンド実行をさせる際のサンドボックス設計は、Claude Codeなど同種ツールを使う読者に直結する",
+      "takeaway": "Codexがファイルシステムとネットワークをどう制限してコマンド実行を安全に保っているかの設計が分かる"
+    },
+    {
+      "url": "http://brooker.co.za/blog/2026/11/18/workload-mix.html",
+      "title": "Traffic mix matters",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "AWSの分散システム設計者が書く、トラフィック特性がシステム設計に与える影響についての一次情報で、仕組みに踏み込みたい読者に合う",
+      "takeaway": "トラフィックのミックス（種類の組み合わせ）がキャパシティ計画や障害対応の難しさにどう影響するかの考え方が分かる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "language": "Rust",
+      "stars": 3224,
+      "stars_per_day": 1075,
+      "what": "TypeScript・Python・Goなどで書かれたアプリの挙動を記録し、Rust移植版が同じ挙動になるかを1ステップずつ自動検証しながら移行するツール",
+      "why": "読者のスタックの言語から挙動を保ったままRustへ段階移行するニーズに応えており、新着で急上昇している",
+      "try": "READMEのQuick startに従い、元の関数呼び出しを記録してRust版と比較実行する"
+    }
+  ],
+  "releases": [
+    {"repo": "anthropics/claude-code", "version": "v2.1.327", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327", "summary": "claude mcp add-json -でJSONをstdinから読み込めるようになり、/statusで壊れたagent/skill/hook設定を一覧表示できるように改善"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.165.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.165.0", "summary": "d1 migrations applyに確認プロンプトを省略できる--forceフラグが追加され、CIでのマイグレーション自動化がしやすくなった"}
+  ]
+}
