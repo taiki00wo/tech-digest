@@ -1,0 +1,46 @@
+{
+  "edition": "daily",
+  "headline": "Claude Code×Codexの自律改善ハーネスと、相次ぐOSS脆弱性への実務的な防御策、選挙当日のCloudflareトラフィック分析が今日の読みどころ。",
+  "reading_list": [
+    {
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "category": "AI",
+      "minutes": 7,
+      "why": "Claude CodeやCodexを使う読者に直結する、複数ハーネスを組み合わせた自律改善の実践例",
+      "takeaway": "Claude CodeとCodexを組み合わせて自律的にタスクを改善させる仕組みと設計上の工夫がわかる"
+    },
+    {
+      "url": "https://zenn.dev/kusuke/articles/98e178e6824cac",
+      "title": "相次ぐOSSの脆弱性に、とりあえずクラウドWAF入れるだけでだいぶ違う話+Rootlessコンテナもいいぞ",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "続くOSS脆弱性への実務的な防御として、読者が重点を置くコンテナ内部・セキュリティに直結する話",
+      "takeaway": "クラウドWAFとRootlessコンテナを組み合わせた防御がなぜ効果的かの考え方がわかる"
+    },
+    {
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "category": "インフラ",
+      "minutes": 8,
+      "why": "Cloudflareの一次データによる、大規模分散インフラが選挙という特殊トラフィックをどう観測・防御したかの事例",
+      "takeaway": "選挙当日のトラフィックパターンと攻撃傾向、CDN側の対応がどう連動するかがわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "language": "JavaScript",
+      "stars": 4121,
+      "stars_per_day": 1282,
+      "what": "Claude Code・Codex・OpenCodeなど複数のコーディングエージェントを束ね、1つが作業しもう1つがレビューするセルフホスト型のマルチエージェント実行基盤",
+      "why": "Claude CodeやCodexなど複数ハーネスを使う読者のニーズに合い、新着で急上昇している",
+      "try": "READMEの手順に従い `sh start.sh --desktop` で起動して試す"
+    }
+  ],
+  "releases": [
+    {"repo": "anthropics/claude-code", "version": "v2.1.328", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328", "summary": "Bedrock・Google Cloud・Microsoft Foundryなど複数プラットフォームでOpus 4.6/Sonnet 4.6のauto modeに対応し、mcp_toolフックにonFailure:\"block\"を追加"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.11.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.11.0", "summary": "Admin APIにClaude Code managed settingsとsandbox_egress_restrictedエラーを追加し、大きなイベントのstreaming処理を高速化"}
+  ]
+}
