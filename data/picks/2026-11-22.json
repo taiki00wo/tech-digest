@@ -1,0 +1,36 @@
+{
+  "edition": "daily",
+  "headline": "リーマン予想の証明がLeanで形式検証されるという数学・計算機科学の一次情報が大きな話題になった一方、GnuPGのRCEやAI活用に伴うE2Eテスト肥大化など、足元の安全性・開発基盤に効く話も並んだ一日でした。",
+  "reading_list": [
+    {
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "category": "AI",
+      "minutes": 7,
+      "why": "167年来の未解決問題リーマン予想の証明をLeanで形式検証したという、数学・計算機科学分野で最も話題になった一次情報だから",
+      "takeaway": "数学の証明が形式検証ツールでどのように検証されるのか、その一次情報の概要がわかる"
+    },
+    {
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "title": "RCE in Gnupg",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "GnuPG公式からRCE（遠隔コード実行）脆弱性のアナウンスが出ており、鍵管理・暗号処理に関わる読者への影響が大きいから",
+      "takeaway": "脆弱性の深刻度と、どのバージョンでパッチ適用が必要かがわかる"
+    },
+    {
+      "url": "https://dev.henry.jp/entry/e2e-repository",
+      "title": "なぜヘンリーのE2Eリポジトリは整理されないまま膨らみ続けたのか。AIで加速した開発とガードレール",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "AIで開発速度が上がる中でE2Eテストリポジトリが肥大化した経緯と対策を、自社エンジニアブログの一次情報で読めるから",
+      "takeaway": "AI活用で開発を加速させつつテスト基盤の肥大化を防ぐための具体的な工夫がわかる"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {"repo": "anthropics/claude-code", "version": "v2.1.330", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330", "summary": "Enterprise Admin Console連携でのサインインや、チャートを描く組み込みmod「easel」などを追加"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.12.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.12.0", "summary": "image_dimensions_too_largeエラーコードを追加し、ANTHROPIC_CUSTOM_HEADERSのマージ処理を修正"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.166.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.166.0", "summary": "wrangler triggers deploy --dry-runでデプロイ対象のトリガー構成をプレビュー表示できるように"}
+  ]
+}
