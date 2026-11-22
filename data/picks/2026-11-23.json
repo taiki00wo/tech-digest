@@ -1,0 +1,45 @@
+{
+  "edition": "daily",
+  "headline": "OpenAIがAIモデルの進歩を測る指標「Perplexity」を公式解説し、AWSはAIエージェント向けに既存コードから仕様書を起こす「Reverse Spec Flow」を公開。Claude Codeを安全に自走させるDockerサンドボックス活用の工夫も話題になった一日でした。",
+  "reading_list": [
+    {
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "title": "Perplexity and Intelligence",
+      "category": "AI",
+      "minutes": 5,
+      "why": "OpenAI公式が、AIモデルの進歩をどう測るかを解説する一次情報で、HackerNewsでも大きな議論になっているから",
+      "takeaway": "perplexityという指標がAIモデルの性能評価にどう使われ、開発者にとって何の役に立つのかがわかる"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/",
+      "title": "[AI-Driven Modernization] 既存コードからAIエージェント向けの仕様書を起こす「Reverse Spec Flow」を公開しました",
+      "category": "AI",
+      "minutes": 8,
+      "why": "AWS公式ブログの一次情報で、既存コードをAIエージェントが扱いやすい仕様書に変換する手法を紹介しているから",
+      "takeaway": "レガシーコードをAIエージェント向けにモダナイズする際の仕様書生成アプローチの概要がわかる"
+    },
+    {
+      "url": "https://qiita.com/yamac_tech/items/2f1d598288990c381f2d",
+      "title": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Claude CodeのようなAI Coding Agentを自走させる際の安全性を、Dockerサンドボックスの活用で確保する実践的な工夫を扱っているから",
+      "takeaway": "AIコーディングエージェントを隔離環境で安全に動かすための具体的な考え方がわかる"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "ShinMegamiBoson/lookatmyquant",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "language": "Python",
+      "stars": 565,
+      "stars_per_day": 355,
+      "what": "同じファイルサイズでQ4_K_Mより12倍低いKLダイバージェンスを実現するという量子化コンパイラ",
+      "why": "LLMの軽量化・推論性能に直結する量子化手法で、短期間でスターが伸びている",
+      "try": "READMEを確認して、対象モデルに対しコンパイラを適用する手順を参照する"
+    }
+  ],
+  "releases": [
+    {"repo": "honojs/hono", "version": "v4.13.20", "url": "https://github.com/honojs/hono/releases/tag/v4.13.20", "summary": "cookie値のパースやHEADレスポンスの圧縮ヘッダ、JSX DOMのuseActionStateなど複数のバグ修正"}
+  ]
+}
