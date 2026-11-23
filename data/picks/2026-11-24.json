@@ -1,0 +1,48 @@
+{
+  "edition": "daily",
+  "headline": "AIの新アーキテクチャ発表、Cloudflareの内部DNSテスト手法、Rust OSSの形式検証という、仕組みに踏み込んだ3本を揃えました。",
+  "reading_list": [
+    {
+      "url": "https://z.ai/blog/glm-5.4",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "category": "AI",
+      "minutes": 8,
+      "why": "「loop transformer」という新しいアーキテクチャを使ったコーディング特化モデルの発表で、Hacker Newsでも大きな反響がある一次情報。",
+      "takeaway": "ループ構造を使ったトランスフォーマー設計がコーディング性能にどう効くと考えられているかが分かる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "title": "Probing DNS at Cloudflare",
+      "category": "インフラ",
+      "minutes": 7,
+      "why": "Cloudflare自身が社内のDNS運用をどう検証しているかを語る一次情報で、分散システムの運用面に踏み込んでいる。",
+      "takeaway": "大規模DNS基盤を支える内部テストツールの作り方・考え方が分かる。"
+    },
+    {
+      "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+      "title": "著名なRust製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "形式検証を実在のRust製OSSに実際に適用した著者本人の記録で、仕組みと結果が具体的に書かれている。",
+      "takeaway": "Lean 4による形式検証の実践的な進め方と、どんな種類のバグが見つかりやすいかが分かる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "language": "Rust",
+      "stars": 3070,
+      "stars_per_day": 1023,
+      "what": "Python/Node/Rubyアプリをプロファイルし、遅い関数だけをコーディングエージェントでRustに移植、実際の呼び出しで動作が同じか検証して組み込むツール。",
+      "why": "全体をRustで書き直すのではなくホットパスだけを安全に移植する設計で、コーディングエージェントを使ったバックエンド性能チューニングに直結するため伸びている。",
+      "try": "scan でアプリをプロファイルして遅い関数を特定し、port [id] でRust移植を作成、verify で挙動を検証する。"
+    }
+  ],
+  "releases": [
+    {"repo": "honojs/hono", "version": "v4.13.21", "url": "https://github.com/honojs/hono/releases/tag/v4.13.21", "summary": "hono/jwtの署名検証を正規Base64URL形式のみ受理するよう厳格化し、hono/clientのpathパラメータによるリクエスト先ホスト書き換えバグも修正。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.331", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331", "summary": "ターミナルのCode ModeがAmazon Bedrock・Google Agent Platform・Microsoft Foundry・AWS上のClaude Platformに対応し、claude doctorにAPI接続診断が追加された。"},
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.13.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.13.0", "summary": "Message Batches作成時のエラーコード追加とExternal Storage(Admin APIベータ)対応が入り、Claude Opus 4.5はEOL(2027-01-22)が明記された。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.167.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.167.0", "summary": "実験的なcf-wrangler dev delegateで--env-fileによる外部.env読み込みに対応し、dispatch-namespace renameコマンドは削除された。"}
+  ]
+}
