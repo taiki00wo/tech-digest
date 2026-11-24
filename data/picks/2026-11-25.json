@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "Check Pointを狙う侵入キャンペーン、OpenAI×CiscoのLinux向けOSSランタイム、TiDBからPostgreSQLへの本番切替記録という、セキュリティとシステム内部に踏み込んだ3本です。",
+  "reading_list": [
+    {
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "Check Pointのセキュリティ管理サーバーを狙う侵入キャンペーンが進行中だという、脅威リサーチ会社自身による一次情報。",
+      "takeaway": "狙われている対象や手口の概要がわかり、自社環境の点検につなげられる。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-shirudo",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "OpenAIとCiscoが共同でLinux向けの新しいオープンソースランタイムを発表した一次情報で、Linux内部に関心がある読者に関係が大きい。",
+      "takeaway": "新しいLinuxランタイム『Shirudo』が何を目的に作られたものかの概要がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/hirahara/articles/tidb-to-postgresql-cutover",
+      "title": "TiDB から PostgreSQL へ、本番 DB を書き込みを止めて切り替えた記録",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "分散DBのTiDBからPostgreSQLへ本番を書き込み停止方式で移行した実例で、仕組みに踏み込んだ記事を好む読者に合う著者本人の記録。",
+      "takeaway": "本番DB移行の進め方や書き込み停止をどう扱ったかの具体的な工夫がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "language": "Objective-C++",
+      "stars": 3294,
+      "stars_per_day": 1420,
+      "what": "AppleのXNUカーネルをLinuxカーネルモジュールとして動かし、ハイパーバイザーなしに同じCPU上でmacOSユーザースペースをLinuxと並行実行できるようにするプロジェクト。",
+      "why": "Linuxカーネルにもう一つのOSのカーネルをモジュールとして載せるという野心的な実装が注目を集め、新着で急速にスターを獲得している。",
+      "try": "Apple公式ソースからビルドしたxnu.koを`insmod xnu.ko`で読み込み、macOSディスクイメージを起動する。"
+    }
+  ],
+  "releases": [
+    {"repo": "anthropics/anthropic-sdk-typescript", "version": "sdk-v1.14.0", "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.14.0", "summary": "Google Cloudプロジェクト・ユーザープロファイル向けのデータ管理機能と、コンプライアンスレビュー関連API(ケース・通知・項目)を追加。"},
+    {"repo": "cloudflare/workers-sdk", "version": "wrangler@4.168.0", "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.168.0", "summary": "`wrangler deploy`実行時にWorkerへ`images.url_transformations`設定を適用できるようになった。"},
+    {"repo": "astral-sh/uv", "version": "0.13.10", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.10", "summary": "セキュリティ勧告(GHSA-vjvj-3m3f-fgmm)に対応し、`uv.lock`の依存関係がロック済みパッケージのバージョンと一致するかを検証するようになった。"}
+  ]
+}
