@@ -1,0 +1,47 @@
+{
+  "edition": "daily",
+  "headline": "1Passwordのセキュリティインシデント、CloudflareのAIエージェント向け検索機能、Claude Code自体のセキュリティ運用という、AIエージェント時代のセキュリティとインフラに焦点を当てた3本です。",
+  "reading_list": [
+    {
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "title": "1Password Security Incident",
+      "category": "インフラ",
+      "minutes": 5,
+      "why": "1Passwordが自社のセキュリティインシデントについて発表した一次情報で、多くのチームが使う認証基盤に関わるため影響範囲の見極めが重要。",
+      "takeaway": "何が起きたのか、現時点でわかっている影響範囲の概要がわかる。"
+    },
+    {
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "title": "Introducing Search for Agents",
+      "category": "AI",
+      "minutes": 5,
+      "why": "CloudflareがAIエージェントからの検索を前提にした新機能を発表した公式一次情報で、AIエージェント連携に関心がある読者に関係が大きい。",
+      "takeaway": "サイトをAIエージェント向けに検索可能にする仕組みの概要がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/happy_elements/articles/27e14ff6754044",
+      "title": "Claude Code のセキュリティ、2026年11月時点のベストプラクティス（サンドボックス・権限・MCP）",
+      "category": "AI",
+      "minutes": 7,
+      "why": "Claude Codeのサンドボックス・権限・MCPに関する2026年11月時点のベストプラクティスをまとめた記事で、Claude Codeを使う読者に直接関係する。",
+      "takeaway": "サンドボックスや権限設定、MCP利用時に気をつけるべき点の最新の整理がわかる。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "XinaTian/MROffice",
+      "url": "https://github.com/XinaTian/MROffice",
+      "language": "TypeScript",
+      "stars": 4551,
+      "stars_per_day": 800,
+      "what": "ブラウザで動くドキュメント・表計算・プレゼン・PDF・コードのエディタ群からなるOSSのAIオフィススイートで、本物のWord/Excel/PowerPointファイルをAIと一緒に編集できる。",
+      "why": "TypeScript製で、ClaudeやChatGPTなどからMCPサーバー経由で操作できる設計になっており、新着で急速にスターを集めている。",
+      "try": "READMEの「Try online」からブラウザで試す、またはnpm SDKで自分のアプリに埋め込む。"
+    }
+  ],
+  "releases": [
+    {"repo": "honojs/hono", "version": "v4.13.22", "url": "https://github.com/honojs/hono/releases/tag/v4.13.22", "summary": "パス検証・Basic認証・MIMEユーティリティなど複数のセキュリティ強化の修正を含み、更新が推奨されている。"},
+    {"repo": "anthropics/claude-code", "version": "v2.1.332", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332", "summary": "MCPサーバー提供のSkillsのベータ対応と、Skill読み込み時にインラインシェルコマンドを拒否できるPreSkillShellCommandフックを追加。"},
+    {"repo": "astral-sh/uv", "version": "0.13.10", "url": "https://github.com/astral-sh/uv/releases/tag/0.13.10", "summary": "セキュリティ勧告(GHSA-vjvj-3m3f-fgmm)に対応し、uv.lockの依存関係がロック済みパッケージのバージョンと一致するかを検証するようになった。"}
+  ]
+}
