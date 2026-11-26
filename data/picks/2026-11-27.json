@@ -1,0 +1,51 @@
+{
+  "edition": "daily",
+  "headline": "AIコーディングエージェントのファイルアクセス範囲の違い、Linuxを排したLLM専用OSの性能、型推論を手放すTypeScript設計判断まで、仕組みに踏み込む3本。",
+  "reading_list": [
+    {
+      "url": "https://qiita.com/suwa_nobu/items/3bcba393673985c9b8ed",
+      "title": "「git push が通らないので調べて」と頼むと、Codex は作業フォルダの外の ~/.ssh を読んだ。Claude Code と Gemini CLI は確認なしでは読まなかった（偽の鍵で60回）",
+      "category": "AI",
+      "minutes": 8,
+      "why": "1Passwordの不正アクセス直後というタイミングで、Codex・Claude Code・Gemini CLIが作業フォルダ外のファイルにどこまで無断でアクセスするかを60回の実験で検証した報告だから。",
+      "takeaway": "同じ指示でもエージェントによって~/.sshへの無断アクセス挙動が異なることと、自分が使うエージェントがどこまで踏み込むかを事前に確認しておく必要性がわかる。"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/11/26/5824.html",
+      "title": "24KBの「LLM専用OS」が登場　全てアセンブリでLinuxを排し、llama.cppより最大54%高速",
+      "category": "インフラ",
+      "minutes": 4,
+      "why": "Linuxを介さずアセンブリで書いたOSに置き換えることで推論性能がどこまで伸びるかを示した、Linux内部と性能チューニングに直結する事例だから。",
+      "takeaway": "OSのオーバーヘッドを極限まで削ることでllama.cpp比最大54%の高速化が得られるという、ハードウェアに近い層での性能改善の具体的な感覚がわかる。"
+    },
+    {
+      "url": "https://zenn.dev/dress_code/articles/88b55221eea4e0",
+      "title": "型チェックが重かったので、クエリの型推論を手放してみた",
+      "category": "フロントエンド",
+      "minutes": 6,
+      "why": "TypeScriptの型推論がビルド・型チェック速度に与える負荷という、TypeScript/React/Next.jsを使う読者が実務で踏みやすいトレードオフを著者自身の経験から書いているから。",
+      "takeaway": "型安全性と型チェック速度はトレードオフになり得ること、そしてクエリの型推論を手放すという選択肢とその判断基準がわかる。"
+    }
+  ],
+  "oss": [],
+  "releases": [
+    {
+      "repo": "vitejs/vite",
+      "version": "v8.4.0",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0",
+      "summary": "プラグインのフックエラーにプラグイン名を表示するようになり、environment.addSafeModuleやserver.fs.strict: 'extended'でモジュール・ファイルアクセス制御を強化。"
+    },
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.23",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.23",
+      "summary": "TrieRouterが__proto__をHTTPメソッドとして登録してしまう脆弱性などを修正したセキュリティリリース。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "summary": "MCPサーバー提供のスキルをベータ追加し、スキル読み込み時のインラインシェルコマンドを拒否できるPreSkillShellCommandフックを追加。"
+    }
+  ]
+}
