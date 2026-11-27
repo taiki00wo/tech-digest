@@ -1,0 +1,168 @@
+{
+  "edition": "weekly",
+  "headline": "GTA6ネイティブ再コンパイル系OSSがスター増分を独占した一週間。TLA+やMutation Testで『AIに頼らず仕組みで検証する』動きと、WAF・Rootlessコンテナでの脆弱性対策が目立った。",
+  "trends": [
+    "ゲームの静的再コンパイルOSS（Leonida・VIctory系）が今週のスター増分を独占し、低レイヤーの仕組みへの関心の高さを示した。",
+    "AIにテストやコードを書かせる流れに対し、TLA+でルールを書く・Mutation Testで品質を測るなど『AIに委ねず仕組みで検証する』動きが目立った。",
+    "1Password不正アクセスの分析や、クラウドWAF・RootlessコンテナといったOSS脆弱性対策の実践記事が増えた。"
+  ],
+  "reading_list": [
+    {
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "category": "バックエンド",
+      "minutes": 8,
+      "why": "AIにテストケースを書かせるのではなくTLA+でルールそのものを記述するという、分散システムの仕組みに踏み込んだ検証アプローチを提案しているタイトルだから。",
+      "takeaway": "AI時代のテスト設計において、個々のテストケースではなく仕様・ルールを形式的に書くという考え方のヒントが得られそうだ。"
+    },
+    {
+      "url": "https://zenn.dev/kusuke/articles/98e178e6824cac",
+      "title": "相次ぐOSSの脆弱性に、とりあえずクラウドWAF入れるだけでだいぶ違う話+Rootlessコンテナもいいぞ",
+      "category": "インフラ",
+      "minutes": 6,
+      "why": "相次ぐOSS脆弱性への対策として、クラウドWAFの導入とRootlessコンテナという2つの実践的な防御策を著者の経験から紹介している記事だから。",
+      "takeaway": "クラウドWAFとRootlessコンテナを組み合わせることで、個別のOSS脆弱性対応に追われる前にリスクを下げられるという考え方がわかりそうだ。"
+    },
+    {
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "title": "おい、Mutation Test をやれ。テスト品質を、測るために",
+      "category": "バックエンド",
+      "minutes": 9,
+      "why": "テストカバレッジだけでは測れないテスト品質を、Mutation Testによって検証しようという提案記事だから。",
+      "takeaway": "Mutation Testという手法でテストの『検出力』を測る考え方と、その導入のきっかけがわかりそうだ。"
+    },
+    {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/26/153937",
+      "title": "1Passwordへの不正アクセスについてまとめてみた - piyolog",
+      "category": "インフラ",
+      "minutes": 10,
+      "why": "1Passwordの従業員GitHubアカウントへの不正アクセスとそれに伴う顧客情報取得について、経緯を時系列でまとめた記事だから。",
+      "takeaway": "1Password不正アクセス事案の全体像と、バックエンドシステムからどのような情報が取得されたかの整理がわかりそうだ。"
+    },
+    {
+      "url": "https://qiita.com/minorun365/items/bd6091f2599a0f37326b",
+      "title": "【pre:Inventまとめ】AWSのAIエージェント認証がいろいろ進化！MCPサーバー構築を例に一挙解説",
+      "category": "AI",
+      "minutes": 8,
+      "why": "re:Invent直前に発表されたAWSのAIエージェント認証関連のアップデートを、MCPサーバー構築を例にまとめて解説している記事だから。",
+      "takeaway": "AWS上でMCPサーバーを構築する際のAIエージェント認証の進化について、まとまった見通しが得られそうだ。"
+    }
+  ],
+  "oss": [
+    {
+      "repo": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "language": "Python",
+      "stars": 32319,
+      "stars_week": 28456,
+      "what": "GTA6のXbox Series版を、ユーザー自身が所有するコピーからPC上でネイティブ実行できるようにする静的再コンパイル(static recompilation)プロジェクト。",
+      "why": "x86-64コードをそのまま実行しGPUシェーダーをVulkan向けに変換するという技術的な新規性に加え、リーク版PC実行への注目が今週集まりスターが一気に伸びている。",
+      "try": "README の『How to build』の手順に従い、自分が所有するゲームファイルを指定してソースからビルドする（ゲーム本体やキー・実行ファイルは同梱されていない）。"
+    },
+    {
+      "repo": "ersinkoc/phonebox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "language": "JavaScript",
+      "stars": 7185,
+      "stars_week": 3034,
+      "what": "古いAndroid端末をUSBまたはWi-Fi経由のデスクパネル・タッチコントロールデッキ化する、124種のウィジェットと30種のテンプレートを持つツール。",
+      "why": "システム統計やAIコーディングセッションの表示など実用的なウィジェットを揃え、クラウド不要・ノールートで動く手軽さが評価されている。",
+      "try": "README の Quick start に従い、デスクトップエージェントを起動してAndroid側のPhoneBoxアプリとUSBまたはWi-Fiでペアリングする。"
+    },
+    {
+      "repo": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "language": "Python",
+      "stars": 2924,
+      "stars_week": 2275,
+      "what": "リンクを貼るとローカルLLMでキャプション付きの9:16縦型クリップを約2分で生成する、ローカル・オープンソースのクリッピングツール。",
+      "why": "クラウド不要でローカルLLMと音声中心の処理だけで高速にクリップ生成できる手軽さが、ショート動画需要と合わさって伸びている。",
+      "try": "リポジトリの手順に従ってインストールし、クリップ化したい動画のリンクを渡して実行する。"
+    }
+  ],
+  "deep_dive": {
+    "repo": "ItsNotRexed/Leonida",
+    "url": "https://github.com/ItsNotRexed/Leonida",
+    "overview": "GTA6（Xbox Series版）をユーザー自身が所有するコピーからPC上でネイティブに動かす静的再コンパイル(static recompilation)プロジェクト。ゲーム本体やキーは同梱せず、ユーザーが自分のディスク上に用意したファイルだけを使って変換する。",
+    "how_it_works": "Xbox SeriesのCPUはPCと同じx86-64系であることを利用し、ゲームのコードはそのままロード・実行しつつ、コンソールのシステムソフトウェアだけを別に再実装している。コンソール上であらかじめコンパイルされたRDNA2 GPUプログラムは、SPIR-Vに変換してVulkanで実行できる形に変換される。ゲームのモデル・テクスチャ・音声データは、ユーザーが用意したパッケージからそのまま読み込まれる。これらすべての処理は、ユーザー自身のPC上、ユーザー自身が所有するゲームのコピーに対してのみ行われる。",
+    "use_cases": [
+      "自分が購入したXbox Series版GTA6をPCで動かしたい場合",
+      "CPUコードの直接実行とGPUシェーダー変換を組み合わせた静的再コンパイル技術の実例として、仕組みを学びたい場合"
+    ],
+    "try": [
+      "README の Status / How to build セクションを確認する",
+      "ビルド手順に従い、自分が所有するゲームファイルを指定してソースからビルドする"
+    ],
+    "compare": ""
+  },
+  "talks": [
+    {
+      "url": "https://speakerdeck.com/riyaamemiya/slides-export-07497c87-919a-4f35-a8c8-b76a91ba3417",
+      "title": "Making V8's Array.prototype.flat up to ~20x faster, and the road to a large commit in a huge OSS project",
+      "event": "",
+      "why": "V8のArray.prototype.flatを最大20倍速くした具体的な最適化と、巨大なOSSプロジェクトに大きな変更をマージしてもらうまでの過程がわかるから。"
+    },
+    {
+      "url": "https://speakerdeck.com/inariku/kiro-remote-workspaces",
+      "title": "Kiro のリモートワークスペース: IDE は手元のままで、ワークスペースをクラウド、コンテナ、自前のマシンに置く",
+      "event": "",
+      "why": "IDEは手元に置いたまま作業環境だけをクラウドやコンテナ、自前マシンに移すKiroのリモートワークスペースの仕組みが図解でわかるから。"
+    },
+    {
+      "url": "https://speakerdeck.com/inariku/kiro-private-networks",
+      "title": "Kiro のクラウドセッションを VPC につなぐ: VPC の接続を既定にして Publish すると新しいセッションが社内に届く",
+      "event": "",
+      "why": "Kiroのクラウドセッションを自社VPCに安全に接続する仕組みが、管理者視点の設定も含めて図解でわかるから。"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "vitejs/vite",
+      "version": "v8.4.0",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0",
+      "summary": "プラグインのフックエラーにプラグイン名を表示し、environment.addSafeModuleやserver.fs.strict: 'extended'でモジュール・ファイルアクセス制御を強化。"
+    },
+    {
+      "repo": "honojs/hono",
+      "version": "v4.13.23",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.23",
+      "summary": "TrieRouterが__proto__をHTTPメソッドとして登録してしまう脆弱性などを修正したセキュリティリリース。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "version": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "summary": "MCPサーバー提供のスキルをベータ追加し、スキル読み込み時のインラインシェルコマンドを拒否できるPreSkillShellCommandフックを追加。"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-typescript",
+      "version": "sdk-v1.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.14.0",
+      "summary": "Google Cloudプロジェクト・ユーザープロファイル向けのGoogle管理データコントロールと、コンプライアンスレビューケースのサポートを追加。"
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "version": "wrangler@4.169.0",
+      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.169.0",
+      "summary": "wrangler containers push/buildがlinux/arm64イメージに対応し、Workerに短命なOIDCトークンを発行するoidc_tokensバインディングを追加。"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "version": "0.13.10",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.10",
+      "summary": "セキュリティ勧告GHSA-vjvj-3m3f-fgmmに対応し、uv.lockと依存バージョンの不整合チェックやロック更新理由の説明を強化。"
+    }
+  ],
+  "headlines": [
+    {"url": "https://ladybird.org/posts/alpha/", "title": "Ladybird is now in alpha", "category": "フロントエンド", "note": "独立ブラウザエンジンがアルファ公開"},
+    {"url": "https://lwn.net/Articles/1109478/", "title": "Firefox 161.0 released", "category": "フロントエンド", "note": "Firefox最新安定版が公開"},
+    {"url": "https://lwn.net/Articles/1109269/", "title": "CachyOS November 2026 release", "category": "インフラ", "note": "性能志向ArchベースOSの新版"},
+    {"url": "https://lwn.net/Articles/1108818/", "title": "Beyls: Wrapping up LLVM's relicensing effort", "category": "バックエンド", "note": "LLVMのライセンス変更が完了"},
+    {"url": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/", "title": "How Bee implemented Zero Operator Access for personal AI on AWS", "category": "AI", "note": "AIウェアラブルを運用者ゼロアクセスで設計"},
+    {"url": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/", "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS", "category": "AI", "note": "DevinをEC2 Macで並列スケール"},
+    {"url": "https://blog.cloudflare.com/ruby2shell-waf-protection/", "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)", "category": "インフラ", "note": "RailsのCVEをWAFで防御"},
+    {"url": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway", "title": "Introducing Audited ZDR on AI Gateway", "category": "AI", "note": "AI GatewayにZDR監査証跡を追加"},
+    {"url": "https://lwn.net/Articles/1109691/", "title": "Dave Täht given the Jonathan B. Postel Service Award", "category": "その他", "note": "インターネット分野の功労賞を受賞"},
+    {"url": "https://note.com/assuredjp/n/n6ec5f6544e0c", "title": "理解をあきらめないAI駆動開発 ——開発の流れに「理解の工程」を織り込む6つの実践", "category": "AI", "note": "AI駆動開発に理解の工程を追加"}
+  ]
+}
